@@ -1,0 +1,413 @@
+{
+  "generated_at": "2026-10-19T06:28:54.372368+00:00",
+  "source_scope": "서울특별시 통신판매사업자 전체",
+  "source_file": "ftc_mail_order_seoul_20261019.csv",
+  "privacy": {
+    "raw_records_exported": false,
+    "excluded_fields": [
+      "대표자명",
+      "전화번호",
+      "전자우편",
+      "사업장소재지",
+      "사업장소재지(도로명)"
+    ]
+  },
+  "method": {
+    "parser": "Python standard-library csv.reader (RFC 4180-style quoted-field handling)",
+    "active_definition": "업소상태가 정확히 '정상영업'인 유효 행",
+    "fashion_candidate_definition": "취급품목에 사전 정의한 패션 관련 키워드가 포함된 유효 행. 검증된 패션 사업자 수가 아님.",
+    "malformed_row_policy": "헤더 열 수와 다른 레코드는 집계에서 제외하고 건수만 공개한다.",
+    "field_safety_policy": "집계 열에서도 형식에 맞지 않는 값은 공개 목록에서 제외하고 건수만 기록한다."
+  },
+  "metrics": {
+    "total_parsed_rows": 668560,
+    "valid_rows": 642360,
+    "malformed_rows": 26200,
+    "active_rows": 407200,
+    "fashion_candidate_rows": 218955,
+    "filtered_value_counts": {
+      "status": 1,
+      "sale_method": 1,
+      "product_type": 2,
+      "reporting_institution": 1
+    }
+  },
+  "breakdowns": {
+    "status": [
+      {
+        "label": "정상영업",
+        "count": 407200
+      },
+      {
+        "label": "폐업처리",
+        "count": 220504
+      },
+      {
+        "label": "직권취소",
+        "count": 7443
+      },
+      {
+        "label": "직권말소",
+        "count": 4556
+      },
+      {
+        "label": "휴업처리",
+        "count": 2563
+      },
+      {
+        "label": "타시군구전입",
+        "count": 69
+      },
+      {
+        "label": "영업재개",
+        "count": 24
+      }
+    ],
+    "sale_method": [
+      {
+        "label": "인터넷",
+        "count": 520625
+      },
+      {
+        "label": "null",
+        "count": 59926
+      },
+      {
+        "label": "인터넷 기타",
+        "count": 20247
+      },
+      {
+        "label": "기타",
+        "count": 11993
+      },
+      {
+        "label": "인터넷 TV홈쇼핑",
+        "count": 3708
+      },
+      {
+        "label": "TV홈쇼핑 인터넷",
+        "count": 3055
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 신문잡지 기타",
+        "count": 2672
+      },
+      {
+        "label": "인터넷 카달로그",
+        "count": 2541
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 신문잡지 기타",
+        "count": 2296
+      },
+      {
+        "label": "TV홈쇼핑",
+        "count": 1718
+      },
+      {
+        "label": "인터넷 카달로그 기타",
+        "count": 1651
+      },
+      {
+        "label": "인터넷 카달로그 신문잡지 기타",
+        "count": 1224
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 기타",
+        "count": 979
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 신문잡지",
+        "count": 975
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 신문잡지",
+        "count": 960
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 기타",
+        "count": 955
+      },
+      {
+        "label": "인터넷 카달로그 신문잡지",
+        "count": 782
+      },
+      {
+        "label": "인터넷 신문잡지",
+        "count": 674
+      },
+      {
+        "label": "기타 인터넷",
+        "count": 667
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그",
+        "count": 602
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그",
+        "count": 498
+      },
+      {
+        "label": "인터넷 신문잡지 기타",
+        "count": 366
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 기타",
+        "count": 336
+      },
+      {
+        "label": "카달로그",
+        "count": 294
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 기타",
+        "count": 286
+      },
+      {
+        "label": "신문잡지",
+        "count": 173
+      },
+      {
+        "label": "TV홈쇼핑 기타",
+        "count": 119
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 신문잡지",
+        "count": 117
+      },
+      {
+        "label": "카달로그 기타",
+        "count": 115
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 신문잡지",
+        "count": 93
+      }
+    ],
+    "product_type": [
+      {
+        "label": "의류/패션/잡화/뷰티",
+        "count": 147658
+      },
+      {
+        "label": "종합몰",
+        "count": 143983
+      },
+      {
+        "label": "기타",
+        "count": 95468
+      },
+      {
+        "label": "null",
+        "count": 60200
+      },
+      {
+        "label": "건강/식품",
+        "count": 31641
+      },
+      {
+        "label": "교육/도서/완구/오락",
+        "count": 17945
+      },
+      {
+        "label": "종합몰 의류/패션/잡화/뷰티",
+        "count": 14630
+      },
+      {
+        "label": "레저/여행/공연",
+        "count": 8589
+      },
+      {
+        "label": "컴퓨터/사무용품",
+        "count": 8008
+      },
+      {
+        "label": "의류/패션/잡화/뷰티 기타",
+        "count": 6031
+      },
+      {
+        "label": "종합몰 기타",
+        "count": 5268
+      },
+      {
+        "label": "가전",
+        "count": 4929
+      },
+      {
+        "label": "가구/수납용품",
+        "count": 4861
+      },
+      {
+        "label": "자동차/자동차용품",
+        "count": 4682
+      },
+      {
+        "label": "종합몰 건강/식품",
+        "count": 4560
+      },
+      {
+        "label": "건강/식품 기타",
+        "count": 2393
+      },
+      {
+        "label": "건강/식품 의류/패션/잡화/뷰티",
+        "count": 2317
+      },
+      {
+        "label": "교육/도서/완구/오락 기타",
+        "count": 2244
+      },
+      {
+        "label": "교육/도서/완구/오락 의류/패션/잡화/뷰티",
+        "count": 2204
+      },
+      {
+        "label": "의류/패션/잡화/뷰티 건강/식품",
+        "count": 2050
+      },
+      {
+        "label": "종합몰 건강/식품 의류/패션/잡화/뷰티",
+        "count": 1640
+      },
+      {
+        "label": "종합몰 교육/도서/완구/오락",
+        "count": 1585
+      },
+      {
+        "label": "가구/수납용품 의류/패션/잡화/뷰티",
+        "count": 1501
+      },
+      {
+        "label": "가전 컴퓨터/사무용품",
+        "count": 1361
+      },
+      {
+        "label": "종합몰 의류/패션/잡화/뷰티 기타",
+        "count": 1340
+      },
+      {
+        "label": "성인/성인용품",
+        "count": 1220
+      },
+      {
+        "label": "종합몰 교육/도서/완구/오락 의류/패션/잡화/뷰티",
+        "count": 1116
+      },
+      {
+        "label": "컴퓨터/사무용품 기타",
+        "count": 1088
+      },
+      {
+        "label": "종합몰 의류/패션/잡화/뷰티 건강/식품",
+        "count": 1077
+      },
+      {
+        "label": "종합몰 가구/수납용품 의류/패션/잡화/뷰티",
+        "count": 1017
+      }
+    ],
+    "reporting_institution": [
+      {
+        "label": "서울특별시 강남구",
+        "count": 71687
+      },
+      {
+        "label": "서울특별시 서초구",
+        "count": 50402
+      },
+      {
+        "label": "서울특별시 마포구",
+        "count": 42135
+      },
+      {
+        "label": "서울특별시 송파구",
+        "count": 41989
+      },
+      {
+        "label": "서울특별시 강서구",
+        "count": 36852
+      },
+      {
+        "label": "서울특별시 중구",
+        "count": 29542
+      },
+      {
+        "label": "서울특별시 동대문구",
+        "count": 25463
+      },
+      {
+        "label": "서울특별시 구로구",
+        "count": 25306
+      },
+      {
+        "label": "서울특별시 영등포구",
+        "count": 25247
+      },
+      {
+        "label": "서울특별시 관악구",
+        "count": 25003
+      },
+      {
+        "label": "서울특별시 강동구",
+        "count": 24637
+      },
+      {
+        "label": "서울특별시 종로구",
+        "count": 22040
+      },
+      {
+        "label": "서울특별시 성동구",
+        "count": 21550
+      },
+      {
+        "label": "서울특별시 용산구",
+        "count": 20861
+      },
+      {
+        "label": "서울특별시 양천구",
+        "count": 20587
+      },
+      {
+        "label": "서울특별시 광진구",
+        "count": 20302
+      },
+      {
+        "label": "서울특별시 성북구",
+        "count": 20227
+      },
+      {
+        "label": "서울특별시 은평구",
+        "count": 17837
+      },
+      {
+        "label": "서울특별시 금천구",
+        "count": 17766
+      },
+      {
+        "label": "서울특별시 동작구",
+        "count": 17312
+      },
+      {
+        "label": "서울특별시 강북구",
+        "count": 14150
+      },
+      {
+        "label": "서울특별시 서대문구",
+        "count": 13692
+      },
+      {
+        "label": "서울특별시 중랑구",
+        "count": 13436
+      },
+      {
+        "label": "서울특별시 도봉구",
+        "count": 12911
+      },
+      {
+        "label": "서울특별시 노원구",
+        "count": 11425
+      }
+    ]
+  }
+}
