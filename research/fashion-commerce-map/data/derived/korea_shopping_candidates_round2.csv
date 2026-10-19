@@ -1,0 +1,21 @@
+candidate_id,name,url,source,status,url_check,notes,observed_at
+C-001,쇼퍼랜드,,https://v.daum.net/v/c1LfFXCwiO?f=p,후보_미확인,URL 없음 (확인 불가),키작녀 쇼핑몰 기사에서 이름만 언급,2026-10-19
+C-002,로니엘,,https://v.daum.net/v/c1LfFXCwiO?f=p,후보_미확인,URL 없음 (확인 불가),키작녀 쇼핑몰 기사에서 이름만 언급,2026-10-19
+C-003,키키코,,https://v.daum.net/v/c1LfFXCwiO?f=p,후보_미확인,URL 없음 (확인 불가),키작녀 쇼핑몰 기사에서 이름만 언급,2026-10-19
+C-004,위드윤,,https://v.daum.net/v/c1LfFXCwiO?f=p,후보_미확인,URL 없음 (확인 불가),키작녀 쇼핑몰 기사에서 이름만 언급,2026-10-19
+C-005,키작은여자155JEAN,,https://v.daum.net/v/c1LfFXCwiO?f=p,후보_미확인,URL 없음 (확인 불가),기존 MALL-0082 키작은여자와 동일 업체인지 확인 필요,2026-10-19
+C-006,온리문,,https://v.daum.net/v/c1LfFXCwiO?f=p,후보_미확인,URL 없음 (확인 불가),키작녀 쇼핑몰 기사에서 이름만 언급,2026-10-19
+C-007,블랙업,,https://v.daum.net/v/c1LfFXCwiO?f=p,후보_미확인,URL 없음 (확인 불가),기사 내 소속 표기가 불명확함,2026-10-19
+C-008,녕이옷장,,https://v.daum.net/v/c1LfFXCwiO?f=p,후보_미확인,URL 없음 (확인 불가),키작녀 쇼핑몰 기사에서 이름만 언급,2026-10-19
+C-009,큐니걸스,,https://www.sidae.com/article/2020121414198012816,후보_미확인,URL 없음 (확인 불가),156cm 인터뷰 기사에서 언급 (2020년 기사),2026-10-19
+C-010,헬렌,https://apps.apple.com/kr/app/%ED%97%AC%EB%A0%8C-%ED%92%88%EA%B2%A9%EC%9E%88%EB%8A%94-%EA%B0%90%EC%84%B1-%EC%97%AC%EC%84%B1%EC%9D%98%EB%A5%98-%EC%87%BC%ED%95%91%EC%95%B1/id1602204934,앱스토어 검색 결과,후보_미확인,앱 페이지 열림 / 최신 버전 2022-05 (운영 여부 확인 필요),자사몰이 아닌 앱 전용 (개발사 mangoplanet inc.),2026-10-19
+C-011,마리앙도트,http://www.mariandoute.co.kr/,https://82cook.com/entiz/read.php?num=204439,후보_미확인,접속 가능 / 공지 2017~2021년 (오래됨),영업 여부 확인 필요,2026-10-19
+C-012,마미앤키즈,http://www.mommyandkids.co.kr/,https://82cook.com/entiz/read.php?num=204439,제외_권장,접속 가능,수입아동복 쇼핑몰이라 여성 대상 아님,2026-10-19
+C-013,리틀블랙,http://www.littleblack.co.kr/,https://82cook.com/entiz/read.php?num=204439,후보_접속확인,접속 가능 / 여성의류 쇼핑몰 정상 운영으로 보임,여성 대상 쇼핑몰로 사이트 확인 가능,2026-10-19
+C-014,럭스위즈,http://www.luxwiz.co.kr/,https://82cook.com/entiz/read.php?num=204439,후보_미확인,접속 차단 (robots 정책),직접 확인 불가,2026-10-19
+C-015,스누리본,http://www.snribbon.co.kr,https://82cook.com/entiz/read.php?num=204439,후보_미확인,접속 차단 (robots 정책),직접 확인 불가,2026-10-19
+C-016,오렌지플라워,,https://82cook.com/entiz/read.php?num=204439,후보_미확인,URL 없음 (확인 불가),댓글에서 이름만 언급,2026-10-19
+C-017,메이뜰,,https://82cook.com/entiz/read.php?num=204439,후보_미확인,URL 없음 (확인 불가),댓글에서 이름만 언급,2026-10-19
+C-018,코디쉬,,https://82cook.com/entiz/read.php?num=204439,후보_미확인,URL 없음 (확인 불가),댓글에서 이름만 언급,2026-10-19
+C-019,코코스타일,,https://82cook.com/entiz/read.php?num=204439,후보_미확인,URL 없음 (확인 불가),댓글에서 이름만 언급,2026-10-19
+C-020,드레시맘,,https://82cook.com/entiz/read.php?num=204439,후보_미확인,URL 없음 (확인 불가),댓글에서 이름만 언급,2026-10-19
