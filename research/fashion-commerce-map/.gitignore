@@ -1,0 +1,9 @@
+# 로컬 환경과 대용량·원본 수집물은 기본적으로 저장소에 올리지 않습니다.
+.DS_Store
+Thumbs.db
+*.tmp
+site-package.tar.gz
+
+# 원본 자료는 출처의 재배포 조건을 확인한 뒤, 필요한 경우만 별도 경로로 관리합니다.
+data/raw/*
+!data/raw/.gitkeep

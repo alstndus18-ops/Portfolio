@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="대한민국 패션 커머스 조사 현황을 눈으로 읽기 위한 대시보드" />
+    <title>Korea Fashion Commerce Map</title>
+    <style>
+      :root { --ink:#20241f; --muted:#6b706a; --line:#d8dbd2; --paper:#f4f2eb; --card:#fffefa; --lime:#d9f25d; --sky:#b9daf8; --orange:#ffbf86; --red:#f4a3a0; }
+      * { box-sizing:border-box; }
+      body { margin:0; color:var(--ink); background:var(--paper); font:15px/1.5 ui-sans-serif, system-ui, -apple-system, "Noto Sans KR", sans-serif; }
+      header { padding:28px clamp(20px,5vw,76px) 22px; border-bottom:1px solid var(--line); background:var(--card); }
+      .eyebrow { margin:0 0 9px; font-size:11px; font-weight:800; letter-spacing:.12em; color:#4c5546; }
+      h1 { max-width:1000px; margin:0; font-size:clamp(30px,5vw,58px); line-height:1; letter-spacing:-.055em; }
+      .subtitle { max-width:720px; margin:15px 0 0; color:var(--muted); }
+      .meta { display:flex; flex-wrap:wrap; gap:8px; margin-top:20px; }
+      .tag { padding:5px 9px; border:1px solid var(--line); border-radius:999px; background:#fff; font-size:12px; font-weight:700; }
+      main { max-width:1380px; margin:0 auto; padding:26px clamp(20px,5vw,76px) 70px; }
+      .overview { display:grid; grid-template-columns:1.2fr repeat(3,.6fr); gap:12px; margin-bottom:24px; }
+      .stat { min-height:128px; padding:18px; border:1px solid var(--line); border-radius:14px; background:var(--card); }
+      .stat.primary { background:var(--lime); }
+      .num { display:block; margin-top:8px; font-size:39px; line-height:1; font-weight:850; letter-spacing:-.06em; }
+      .label { color:#51574f; font-size:12px; font-weight:750; }
+      .note { margin:0 0 22px; padding:17px 18px; border-left:5px solid var(--orange); background:#fff7e8; color:#574c3f; }
+      .layout { display:grid; grid-template-columns: minmax(0,1fr) 300px; gap:24px; align-items:start; }
+      .panel { overflow:hidden; border:1px solid var(--line); border-radius:14px; background:var(--card); }
+      .panel-head { display:flex; justify-content:space-between; gap:16px; align-items:center; padding:17px 18px; border-bottom:1px solid var(--line); }
+      h2 { margin:0; font-size:17px; letter-spacing:-.03em; }
+      .small { color:var(--muted); font-size:12px; }
+      .controls { display:flex; flex-wrap:wrap; gap:8px; padding:14px 18px; border-bottom:1px solid var(--line); background:#fbfaf5; }
+      button { cursor:pointer; padding:7px 10px; border:1px solid var(--line); border-radius:999px; background:transparent; color:var(--ink); font:inherit; font-size:12px; font-weight:700; }
+      button.active, button:hover { border-color:var(--ink); background:var(--ink); color:#fff; }
+      .rows { display:grid; }
+      .row { display:grid; grid-template-columns: 112px minmax(170px,1fr) minmax(130px,1fr) 124px; gap:14px; align-items:center; padding:14px 18px; border-bottom:1px solid #e7e8e2; }
+      .row:last-child { border-bottom:0; }
+      .type { width:max-content; padding:4px 7px; border-radius:5px; background:var(--sky); font-size:11px; font-weight:800; }
+      .name { font-weight:800; letter-spacing:-.02em; }
+      .name span { display:block; color:var(--muted); font-size:12px; font-weight:500; }
+      .category { color:#4e564e; font-size:13px; }
+      .status { width:max-content; padding:4px 7px; border-radius:5px; font-size:11px; font-weight:800; }
+      .verified { background:#dff2b1; } .partial { background:#ffe0bd; }
+      aside { display:grid; gap:14px; }
+      .side { padding:18px; border:1px solid var(--line); border-radius:14px; background:var(--card); }
+      .side h3 { margin:0 0 11px; font-size:14px; }
+      .list { display:grid; gap:10px; margin:0; padding:0; list-style:none; }
+      .list li { padding-bottom:10px; border-bottom:1px solid #e7e8e2; }
+      .list li:last-child { padding-bottom:0; border-bottom:0; }
+      a { color:inherit; text-decoration-color:#99a092; text-underline-offset:3px; }
+      .relation { display:flex; flex-wrap:wrap; align-items:center; gap:7px; margin:8px 0 0; font-size:12px; }
+      .arrow { color:var(--muted); }
+      .legend { display:flex; gap:8px; align-items:center; font-size:12px; color:var(--muted); }
+      .dot { width:9px; height:9px; border-radius:50%; background:#a8ce4e; } .dot.partial { background:#f4ae66; }
+      footer { margin-top:25px; color:var(--muted); font-size:12px; }
+      @media (max-width:880px) { .overview { grid-template-columns:repeat(2,1fr); } .overview .primary { grid-column:span 2; } .layout { grid-template-columns:1fr; } }
+      @media (max-width:620px) { .row { grid-template-columns:1fr 1fr; gap:8px; } .row .category { display:none; } .overview { grid-template-columns:1fr 1fr; } }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p class="eyebrow">RESEARCH DASHBOARD · KOREA V0.1</p>
+      <h1>국내 패션 커머스 맵</h1>
+      <p class="subtitle">회사·쇼핑몰·플랫폼을 한 덩어리로 섞지 않고, 무엇이 확인됐는지와 어떤 근거를 썼는지 함께 보는 조사 화면입니다.</p>
+      <div class="meta"><span class="tag">기준일 2026.10.19</span><span class="tag">표본 구축 단계</span><span class="tag">전수 목록 아님</span><span class="tag">대한민국</span></div>
+    </header>
+    <main>
+      <section class="overview" aria-label="조사 현황">
+        <article class="stat primary"><span class="label">현재 화면의 핵심</span><strong class="num">8</strong><span class="label">확인·후보 개체</span></article>
+        <article class="stat"><span class="label">회사</span><strong class="num" id="company-count">3</strong><span class="label">법인/운영 주체</span></article>
+        <article class="stat"><span class="label">서비스</span><strong class="num" id="store-count">5</strong><span class="label">쇼핑몰·플랫폼</span></article>
+        <article class="stat"><span class="label">관계</span><strong class="num">5</strong><span class="label">근거 포함 연결</span></article>
+      </section>
+      <p class="note"><strong>읽는 법.</strong> 녹색은 공식 근거로 확인한 항목, 주황색은 추가 확인이 필요한 항목입니다. 이 화면은 시장 순위나 경쟁사 확정표가 아니라, 조사 과정에서 사실과 추정을 분리하기 위한 작업판입니다.</p>
+      <div class="layout">
+        <section class="panel" aria-labelledby="entity-title">
+          <div class="panel-head"><div><h2 id="entity-title">현재 개체</h2><span class="small" id="result-count">8개 표시 중</span></div><div class="legend"><span class="dot"></span>확인 <span class="dot partial"></span>추가 확인</div></div>
+          <div class="controls" aria-label="개체 유형 필터">
+            <button class="active" data-filter="all">전체</button><button data-filter="company">회사</button><button data-filter="storefront">쇼핑몰·서비스</button>
+          </div>
+          <div class="rows" id="entity-list"></div>
+        </section>
+        <aside>
+          <section class="side"><h3>관계 미리보기</h3><ul class="list" id="relationship-list"></ul></section>
+          <section class="side"><h3>이번 단계의 원칙</h3><ul class="list"><li>공식 출처에서 확인한 사실만 확정으로 표시</li><li>운영·소유·호스팅 관계를 구분</li><li>확인 전 후보는 숨기지 않고 상태로 표시</li></ul></section>
+          <section class="side"><h3>다음 조사</h3><ul class="list"><li>플랫폼 후보군 추가</li><li>브랜드 자사몰(D2C) 묶음</li><li>공정위·DART로 법인·판매자 보강</li></ul></section>
+        </aside>
+      </div>
+      <footer>데이터 원본: 저장소의 <code>data/curated</code> · 조사 메모: <code>research/korea-initial-scan.md</code></footer>
+    </main>
+    <script>
+      const entities = [
+        {type:'company', label:'회사', name:'무신사', en:'MUSINSA', category:'패션·뷰티 커머스', verified:true},
+        {type:'storefront', label:'서비스', name:'무신사', en:'MUSINSA', category:'패션·뷰티 플랫폼', verified:true},
+        {type:'storefront', label:'서비스', name:'29CM', en:'29CM', category:'취향 셀렉트숍', verified:true},
+        {type:'company', label:'회사', name:'카카오스타일', en:'Kakao Style', category:'스타일 커머스', verified:true},
+        {type:'storefront', label:'서비스', name:'지그재그', en:'ZIGZAG', category:'스타일 커머스 플랫폼', verified:true},
+        {type:'storefront', label:'서비스', name:'포스티', en:'Posty', category:'스타일 커머스 플랫폼', verified:false},
+        {type:'company', label:'회사', name:'에스에스지닷컴', en:'SSG.COM', category:'종합 커머스', verified:true},
+        {type:'storefront', label:'서비스', name:'W컨셉', en:'W CONCEPT', category:'디자이너 패션 셀렉트숍', verified:false}
+      ];
+      const relationships = [
+        ['무신사','운영','무신사'], ['무신사','운영','29CM'], ['카카오스타일','운영','지그재그'], ['카카오스타일','후보 운영','포스티'], ['W컨셉','호스팅 후보','SSG.COM']
+      ];
+      const list = document.querySelector('#entity-list'); const count = document.querySelector('#result-count');
+      function render(filter='all') { const shown=entities.filter(e=>filter==='all'||e.type===filter); count.textContent=`${shown.length}개 표시 중`; list.innerHTML=shown.map(e=>`<article class="row"><span class="type">${e.label}</span><div class="name">${e.name}<span>${e.en}</span></div><span class="category">${e.category}</span><span class="status ${e.verified?'verified':'partial'}">${e.verified?'확인됨':'추가 확인'}</span></article>`).join(''); }
+      document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(x=>x.classList.remove('active')); b.classList.add('active'); render(b.dataset.filter)}));
+      document.querySelector('#relationship-list').innerHTML=relationships.map(r=>`<li><strong>${r[0]}</strong><div class="relation"><span>${r[1]}</span><span class="arrow">→</span><strong>${r[2]}</strong></div></li>`).join('');
+      render();
+    </script>
+  </body>
+</html>

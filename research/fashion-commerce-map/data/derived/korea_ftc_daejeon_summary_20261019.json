@@ -1,0 +1,328 @@
+{
+  "generated_at": "2026-10-19T06:31:13.771528+00:00",
+  "source_scope": "대전광역시 통신판매사업자 전체",
+  "source_file": "ftc_mail_order_daejeon_20261019.csv",
+  "privacy": {
+    "raw_records_exported": false,
+    "excluded_fields": [
+      "대표자명",
+      "전화번호",
+      "전자우편",
+      "사업장소재지",
+      "사업장소재지(도로명)"
+    ]
+  },
+  "method": {
+    "parser": "Python standard-library csv.reader (RFC 4180-style quoted-field handling)",
+    "active_definition": "업소상태가 정확히 '정상영업'인 유효 행",
+    "fashion_candidate_definition": "취급품목에 사전 정의한 패션 관련 키워드가 포함된 유효 행. 검증된 패션 사업자 수가 아님.",
+    "malformed_row_policy": "헤더 열 수와 다른 레코드는 집계에서 제외하고 건수만 공개한다.",
+    "field_safety_policy": "집계 열에서도 형식에 맞지 않는 값은 공개 목록에서 제외하고 건수만 기록한다."
+  },
+  "metrics": {
+    "total_parsed_rows": 64532,
+    "valid_rows": 62612,
+    "malformed_rows": 1920,
+    "active_rows": 41774,
+    "fashion_candidate_rows": 18511,
+    "filtered_value_counts": {}
+  },
+  "breakdowns": {
+    "status": [
+      {
+        "label": "정상영업",
+        "count": 41774
+      },
+      {
+        "label": "폐업처리",
+        "count": 19149
+      },
+      {
+        "label": "직권취소",
+        "count": 756
+      },
+      {
+        "label": "직권말소",
+        "count": 678
+      },
+      {
+        "label": "휴업처리",
+        "count": 216
+      },
+      {
+        "label": "타시군구전입",
+        "count": 37
+      },
+      {
+        "label": "영업재개",
+        "count": 2
+      }
+    ],
+    "sale_method": [
+      {
+        "label": "인터넷",
+        "count": 54576
+      },
+      {
+        "label": "null",
+        "count": 2240
+      },
+      {
+        "label": "인터넷 기타",
+        "count": 1971
+      },
+      {
+        "label": "기타",
+        "count": 1396
+      },
+      {
+        "label": "인터넷 카달로그",
+        "count": 297
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 신문잡지 기타",
+        "count": 239
+      },
+      {
+        "label": "인터넷 카달로그 기타",
+        "count": 233
+      },
+      {
+        "label": "TV홈쇼핑",
+        "count": 206
+      },
+      {
+        "label": "TV홈쇼핑 인터넷",
+        "count": 195
+      },
+      {
+        "label": "인터넷 TV홈쇼핑",
+        "count": 181
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 신문잡지 기타",
+        "count": 159
+      },
+      {
+        "label": "인터넷 카달로그 신문잡지 기타",
+        "count": 130
+      },
+      {
+        "label": "인터넷 카달로그 신문잡지",
+        "count": 78
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 신문잡지",
+        "count": 70
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 기타",
+        "count": 60
+      },
+      {
+        "label": "기타 인터넷",
+        "count": 55
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 신문잡지",
+        "count": 51
+      },
+      {
+        "label": "인터넷 신문잡지",
+        "count": 45
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그",
+        "count": 34
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 기타",
+        "count": 32
+      },
+      {
+        "label": "카달로그",
+        "count": 29
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 기타",
+        "count": 26
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그",
+        "count": 26
+      },
+      {
+        "label": "인터넷 신문잡지 기타",
+        "count": 25
+      },
+      {
+        "label": "카달로그 기타",
+        "count": 20
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 기타",
+        "count": 16
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 기타 신문잡지",
+        "count": 13
+      },
+      {
+        "label": "신문잡지",
+        "count": 13
+      },
+      {
+        "label": "TV홈쇼핑 기타",
+        "count": 11
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 신문잡지",
+        "count": 9
+      }
+    ],
+    "product_type": [
+      {
+        "label": "종합몰",
+        "count": 17751
+      },
+      {
+        "label": "의류/패션/잡화/뷰티",
+        "count": 12568
+      },
+      {
+        "label": "기타",
+        "count": 10128
+      },
+      {
+        "label": "건강/식품",
+        "count": 5202
+      },
+      {
+        "label": "null",
+        "count": 2360
+      },
+      {
+        "label": "교육/도서/완구/오락",
+        "count": 1302
+      },
+      {
+        "label": "종합몰 의류/패션/잡화/뷰티",
+        "count": 1152
+      },
+      {
+        "label": "컴퓨터/사무용품",
+        "count": 641
+      },
+      {
+        "label": "종합몰 기타",
+        "count": 636
+      },
+      {
+        "label": "종합몰 건강/식품",
+        "count": 590
+      },
+      {
+        "label": "레저/여행/공연",
+        "count": 575
+      },
+      {
+        "label": "자동차/자동차용품",
+        "count": 552
+      },
+      {
+        "label": "의류/패션/잡화/뷰티 기타",
+        "count": 549
+      },
+      {
+        "label": "가구/수납용품",
+        "count": 473
+      },
+      {
+        "label": "가전",
+        "count": 463
+      },
+      {
+        "label": "건강/식품 기타",
+        "count": 362
+      },
+      {
+        "label": "건강/식품 의류/패션/잡화/뷰티",
+        "count": 288
+      },
+      {
+        "label": "의류/패션/잡화/뷰티 건강/식품",
+        "count": 205
+      },
+      {
+        "label": "교육/도서/완구/오락 의류/패션/잡화/뷰티",
+        "count": 171
+      },
+      {
+        "label": "교육/도서/완구/오락 기타",
+        "count": 170
+      },
+      {
+        "label": "가전 컴퓨터/사무용품",
+        "count": 138
+      },
+      {
+        "label": "종합몰 교육/도서/완구/오락",
+        "count": 135
+      },
+      {
+        "label": "종합몰 건강/식품 의류/패션/잡화/뷰티",
+        "count": 133
+      },
+      {
+        "label": "종합몰 의류/패션/잡화/뷰티 기타",
+        "count": 128
+      },
+      {
+        "label": "가구/수납용품 기타",
+        "count": 112
+      },
+      {
+        "label": "종합몰 가구/수납용품",
+        "count": 109
+      },
+      {
+        "label": "가구/수납용품 의류/패션/잡화/뷰티",
+        "count": 105
+      },
+      {
+        "label": "컴퓨터/사무용품 기타",
+        "count": 105
+      },
+      {
+        "label": "종합몰 교육/도서/완구/오락 의류/패션/잡화/뷰티",
+        "count": 103
+      },
+      {
+        "label": "가전 기타",
+        "count": 92
+      }
+    ],
+    "reporting_institution": [
+      {
+        "label": "대전광역시 서구",
+        "count": 25126
+      },
+      {
+        "label": "대전광역시 유성구",
+        "count": 17124
+      },
+      {
+        "label": "대전광역시 중구",
+        "count": 7608
+      },
+      {
+        "label": "대전광역시 동구",
+        "count": 6680
+      },
+      {
+        "label": "대전광역시 대덕구",
+        "count": 6074
+      }
+    ]
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "generated_at": "2026-10-19T06:28:58.344444+00:00",
+  "source_scope": "부산광역시 통신판매사업자 전체",
+  "source_file": "ftc_mail_order_busan_20261019.csv",
+  "privacy": {
+    "raw_records_exported": false,
+    "excluded_fields": [
+      "대표자명",
+      "전화번호",
+      "전자우편",
+      "사업장소재지",
+      "사업장소재지(도로명)"
+    ]
+  },
+  "method": {
+    "parser": "Python standard-library csv.reader (RFC 4180-style quoted-field handling)",
+    "active_definition": "업소상태가 정확히 '정상영업'인 유효 행",
+    "fashion_candidate_definition": "취급품목에 사전 정의한 패션 관련 키워드가 포함된 유효 행. 검증된 패션 사업자 수가 아님.",
+    "malformed_row_policy": "헤더 열 수와 다른 레코드는 집계에서 제외하고 건수만 공개한다.",
+    "field_safety_policy": "집계 열에서도 형식에 맞지 않는 값은 공개 목록에서 제외하고 건수만 기록한다."
+  },
+  "metrics": {
+    "total_parsed_rows": 101711,
+    "valid_rows": 97192,
+    "malformed_rows": 4519,
+    "active_rows": 61472,
+    "fashion_candidate_rows": 33218,
+    "filtered_value_counts": {
+      "status": 3,
+      "reporting_institution": 3,
+      "sale_method": 2,
+      "product_type": 1
+    }
+  },
+  "breakdowns": {
+    "status": [
+      {
+        "label": "정상영업",
+        "count": 61472
+      },
+      {
+        "label": "폐업처리",
+        "count": 32194
+      },
+      {
+        "label": "직권말소",
+        "count": 2083
+      },
+      {
+        "label": "직권취소",
+        "count": 981
+      },
+      {
+        "label": "휴업처리",
+        "count": 416
+      },
+      {
+        "label": "타시군구전입",
+        "count": 39
+      },
+      {
+        "label": "영업재개",
+        "count": 4
+      }
+    ],
+    "sale_method": [
+      {
+        "label": "인터넷",
+        "count": 87322
+      },
+      {
+        "label": "인터넷 기타",
+        "count": 2904
+      },
+      {
+        "label": "null",
+        "count": 2066
+      },
+      {
+        "label": "기타",
+        "count": 1683
+      },
+      {
+        "label": "인터넷 카달로그",
+        "count": 405
+      },
+      {
+        "label": "인터넷 TV홈쇼핑",
+        "count": 332
+      },
+      {
+        "label": "인터넷 카달로그 기타",
+        "count": 269
+      },
+      {
+        "label": "TV홈쇼핑 인터넷",
+        "count": 254
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 신문잡지 기타",
+        "count": 248
+      },
+      {
+        "label": "TV홈쇼핑",
+        "count": 234
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 신문잡지 기타",
+        "count": 234
+      },
+      {
+        "label": "인터넷 카달로그 신문잡지 기타",
+        "count": 171
+      },
+      {
+        "label": "인터넷 카달로그 신문잡지",
+        "count": 96
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 기타",
+        "count": 95
+      },
+      {
+        "label": "기타 인터넷",
+        "count": 87
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 기타",
+        "count": 78
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 신문잡지",
+        "count": 78
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 신문잡지",
+        "count": 69
+      },
+      {
+        "label": "인터넷 신문잡지",
+        "count": 54
+      },
+      {
+        "label": "인터넷 신문잡지 기타",
+        "count": 49
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그",
+        "count": 45
+      },
+      {
+        "label": "카달로그",
+        "count": 42
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그",
+        "count": 39
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 기타",
+        "count": 30
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 기타",
+        "count": 30
+      },
+      {
+        "label": "카달로그 기타",
+        "count": 27
+      },
+      {
+        "label": "카달로그 인터넷",
+        "count": 20
+      },
+      {
+        "label": "TV홈쇼핑 기타",
+        "count": 15
+      },
+      {
+        "label": "신문잡지",
+        "count": 13
+      },
+      {
+        "label": "카달로그 신문잡지 기타",
+        "count": 13
+      }
+    ],
+    "product_type": [
+      {
+        "label": "종합몰",
+        "count": 25919
+      },
+      {
+        "label": "의류/패션/잡화/뷰티",
+        "count": 24021
+      },
+      {
+        "label": "기타",
+        "count": 15106
+      },
+      {
+        "label": "건강/식품",
+        "count": 7654
+      },
+      {
+        "label": "null",
+        "count": 2083
+      },
+      {
+        "label": "종합몰 의류/패션/잡화/뷰티",
+        "count": 2053
+      },
+      {
+        "label": "레저/여행/공연",
+        "count": 1989
+      },
+      {
+        "label": "교육/도서/완구/오락",
+        "count": 1762
+      },
+      {
+        "label": "종합몰 기타",
+        "count": 966
+      },
+      {
+        "label": "가구/수납용품",
+        "count": 963
+      },
+      {
+        "label": "종합몰 건강/식품",
+        "count": 898
+      },
+      {
+        "label": "의류/패션/잡화/뷰티 기타",
+        "count": 871
+      },
+      {
+        "label": "자동차/자동차용품",
+        "count": 776
+      },
+      {
+        "label": "컴퓨터/사무용품",
+        "count": 723
+      },
+      {
+        "label": "가전",
+        "count": 604
+      },
+      {
+        "label": "건강/식품 기타",
+        "count": 490
+      },
+      {
+        "label": "건강/식품 의류/패션/잡화/뷰티",
+        "count": 372
+      },
+      {
+        "label": "의류/패션/잡화/뷰티 건강/식품",
+        "count": 313
+      },
+      {
+        "label": "가구/수납용품 의류/패션/잡화/뷰티",
+        "count": 248
+      },
+      {
+        "label": "교육/도서/완구/오락 의류/패션/잡화/뷰티",
+        "count": 238
+      },
+      {
+        "label": "레저/여행/공연 기타",
+        "count": 224
+      },
+      {
+        "label": "종합몰 건강/식품 의류/패션/잡화/뷰티",
+        "count": 224
+      },
+      {
+        "label": "교육/도서/완구/오락 기타",
+        "count": 221
+      },
+      {
+        "label": "종합몰 가구/수납용품",
+        "count": 202
+      },
+      {
+        "label": "종합몰 교육/도서/완구/오락",
+        "count": 194
+      },
+      {
+        "label": "종합몰 의류/패션/잡화/뷰티 기타",
+        "count": 186
+      },
+      {
+        "label": "종합몰 교육/도서/완구/오락 의류/패션/잡화/뷰티",
+        "count": 147
+      },
+      {
+        "label": "종합몰 가구/수납용품 의류/패션/잡화/뷰티",
+        "count": 144
+      },
+      {
+        "label": "가구/수납용품 기타",
+        "count": 139
+      },
+      {
+        "label": "가전 컴퓨터/사무용품",
+        "count": 121
+      }
+    ],
+    "reporting_institution": [
+      {
+        "label": "부산광역시 해운대구",
+        "count": 17872
+      },
+      {
+        "label": "부산광역시 남구",
+        "count": 10330
+      },
+      {
+        "label": "부산광역시 사하구",
+        "count": 8738
+      },
+      {
+        "label": "부산광역시 수영구",
+        "count": 8583
+      },
+      {
+        "label": "부산광역시 금정구",
+        "count": 7419
+      },
+      {
+        "label": "부산광역시 강서구",
+        "count": 7018
+      },
+      {
+        "label": "부산광역시 북구",
+        "count": 6618
+      },
+      {
+        "label": "부산광역시 부산진구",
+        "count": 6221
+      },
+      {
+        "label": "부산광역시 연제구",
+        "count": 5878
+      },
+      {
+        "label": "부산광역시 사상구",
+        "count": 3912
+      },
+      {
+        "label": "부산광역시 동구",
+        "count": 3494
+      },
+      {
+        "label": "부산광역시 중구",
+        "count": 3100
+      },
+      {
+        "label": "부산광역시 영도구",
+        "count": 2350
+      },
+      {
+        "label": "부산광역시 서구",
+        "count": 2343
+      },
+      {
+        "label": "부산광역시 기장군",
+        "count": 1732
+      },
+      {
+        "label": "부산광역시 동래구",
+        "count": 1581
+      }
+    ]
+  }
+}
