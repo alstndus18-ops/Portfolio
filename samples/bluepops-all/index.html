@@ -290,7 +290,7 @@ h1 { margin: 0; font-size: 24px; line-height: 32px; font-weight: 500; }
 
     <section class="card span-4" id="kind-card" aria-labelledby="kind-title">
       <div class="head"><h2 id="kind-title">종류별 상품</h2></div>
-      <div class="col-head"><span>종류</span><span>개수</span><span>중간 할인가</span></div>
+      <div class="col-head"><span>종류</span><span>개수</span><span>평균 할인가</span></div>
       <ul class="rows" id="kinds"></ul>
     </section>
 
@@ -413,6 +413,7 @@ const ext = { price: 0, month: 0, sz: 0, coh: 0, kinds: 0, schemes: 0, colors: 0
 const hasBatchim = w => { const c = String(w).trim().slice(-1).charCodeAt(0); return c >= 0xac00 && c <= 0xd7a3 && (c - 0xac00) % 28 !== 0; };
 const eun = w => w + (hasBatchim(w) ? "은" : "는");
 const iga = w => w + (hasBatchim(w) ? "이" : "가");
+const mean = a => a.reduce((x, y) => x + y, 0) / a.length;
 const median = a => { const s = [...a].sort((x, y) => x - y), n = s.length; return n % 2 ? s[(n - 1) / 2] : (s[n / 2 - 1] + s[n / 2]) / 2; };
 const pct = (a, b) => (b ? Math.round(a / b * 100) : 0);
 const CAT_KO = { Outer: "아우터", Top: "상의", Bottom: "하의", Dress: "원피스", Swimwear: "수영복", "Bag.Shoes": "가방·신발", Acc: "액세서리", Jewellery: "주얼리" };
@@ -420,10 +421,9 @@ const CAT_ORDER = Object.keys(CAT_KO);
 
 // ---------- derived numbers (everything on screen comes from the rows) ----------
 const N = P.length;
-const medF = median(P.map(p => p.f)), medP = median(P.map(p => p.p));
-const avgF = Math.round(P.reduce((a, p) => a + p.f, 0) / P.length / 10) * 10;
+const meanF = mean(P.map(p => p.f)), meanP = mean(P.map(p => p.p)), medianF = median(P.map(p => p.f));
 const best = P.filter(p => p.tg.includes("Best"));
-const medBest = best.length ? median(best.map(p => p.f)) : 0;
+const meanBest = best.length ? mean(best.map(p => p.f)) : 0;
 const asOf = BP.asOf;
 const monthsAll = [...new Set(P.map(p => p.mo))].sort();
 const lastMonth = monthsAll[monthsAll.length - 1];
@@ -445,11 +445,11 @@ console.assert(P.every(p => p.sz.every(x => x[1] <= x[2]) && p.col.every(x => x[
 
 $("stamp").textContent = `${asOf} 수집`;
 $("finding").innerHTML =
-  `${N.toLocaleString("ko-KR")}개의 절반은 <b>${won(medF)}원</b> 이하이고, ${iga(esc(topKind.k))} <b>${pct(topKind.l.length, N)}%</b>를 차지합니다. ` +
+  `${N.toLocaleString("ko-KR")}개의 평균 할인가는 <b>${won(meanF)}원</b>이고, ${iga(esc(topKind.k))} <b>${pct(topKind.l.length, N)}%</b>를 차지합니다. ` +
   `최근 12개월에 <b>${recent12.length.toLocaleString("ko-KR")}개</b>가 올라왔고, 옵션의 <b>${pct(offOpt, totOpt)}%</b>가 품절입니다.`;
 
 $("kpis").innerHTML = `
-  <div class="kpi lead"><div class="label">중간 할인가</div><div class="value money">${won(medF)}<span class="u">원</span></div><div class="note">중앙값. 평균은 ${won(avgF)}원 · 판매가 중간 ${won(medP)}원</div></div>
+  <div class="kpi lead"><div class="label">평균 할인가</div><div class="value money">${won(meanF)}<span class="u">원</span></div><div class="note">중앙값은 ${won(medianF)}원 · 판매가 평균 ${won(meanP)}원</div></div>
   <div class="kpi"><div class="label">전체 상품</div><div class="value">${N.toLocaleString("ko-KR")}<span class="u">개</span></div><div class="note">${kinds.length}개 종류, 가격 ${won(Math.min(...P.map(p => p.f)))}${dash}${won(Math.max(...P.map(p => p.f)))}원</div></div>
   <div class="kpi"><div class="label">최근 12개월 등록</div><div class="value">${recent12.length.toLocaleString("ko-KR")}<span class="u">개</span></div><div class="note">전체의 ${pct(recent12.length, N)}% · ${recent12From.replace("-", ".")}부터</div></div>
   <div class="kpi"><div class="label">품절 옵션</div><div class="value">${pct(offOpt, totOpt)}<span class="u">%</span></div><div class="note">옵션 ${totOpt.toLocaleString("ko-KR")}개 중 ${offOpt.toLocaleString("ko-KR")}개<br>전 옵션 품절 상품 ${allOff.length}개</div></div>`;
@@ -472,9 +472,9 @@ $("price-title").textContent = best.length
   ? `BEST는 3만원 미만이 ${pct(bestUnder, best.length)}%, 전체 상품은 ${pct(allUnder, N)}%입니다`
   : `${binLabel(modeAll)} 구간에 ${allCnt[modeAll]}개가 몰려 있습니다`;
 $("price-meta").innerHTML = `<span class="key"><i style="background:var(--bar)"></i>전체 ${N.toLocaleString("ko-KR")}개</span><span class="key"><i style="background:var(--hue)"></i>BEST ${best.length}개</span>`;
-$("price-cap").textContent = `1만원 단위로 묶은 쿠폰 적용가별 상품 비중(%)입니다. 가장 많은 구간은 ${binLabel(modeAll)}(${allCnt[modeAll]}개), BEST의 중간값은 ${won(medBest)}원입니다.`;
+$("price-cap").textContent = `1만원 단위로 묶은 쿠폰 적용가별 상품 비중(%)입니다. 가장 많은 구간은 ${binLabel(modeAll)}(${allCnt[modeAll]}개), BEST의 평균 할인가는 ${won(meanBest)}원입니다.`;
 $("price-chart").setAttribute("aria-label",
-  `가격대별 상품 비중. 전체 중간 할인가 ${won(medF)}원, BEST 중간 할인가 ${won(medBest)}원. 3만원 미만은 전체 ${pct(allUnder, N)}%, BEST ${pct(bestUnder, best.length)}%.`);
+  `가격대별 상품 비중. 전체 평균 할인가 ${won(meanF)}원, BEST 평균 할인가 ${won(meanBest)}원. 3만원 미만은 전체 ${pct(allUnder, N)}%, BEST ${pct(bestUnder, best.length)}%.`);
 
 function niceMax(v) {
   const step = v <= 20 ? 5 : v <= 40 ? 10 : 20;
@@ -514,8 +514,8 @@ function drawPrice() {
     return `<line x1="${x}" x2="${x}" y1="${T - 12 + row * 0}" y2="${T + plotH}" stroke="${color}" stroke-dasharray="3 3"/>` +
       `<text class="${cls}" x="${right ? x - 6 : x + 6}" y="${T - 22 + row * 16}" text-anchor="${right ? "end" : "start"}">${label}</text>`;
   };
-  s += ref(medF, `전체 중간 ${won(medF)}원`, "#8d939c", 0, "");
-  if (best.length) s += ref(medBest, `BEST 중간 ${won(medBest)}원`, "#1d5fbf", 1, "hue");
+  s += ref(meanF, `전체 평균 ${won(meanF)}원`, "#8d939c", 0, "");
+  if (best.length) s += ref(meanBest, `BEST 평균 ${won(meanBest)}원`, "#1d5fbf", 1, "hue");
   el.innerHTML = s + "</svg>";
 }
 
@@ -558,14 +558,14 @@ function drawMonths() {
 // ---------- side lists ----------
 function barList(el, rows, maxV, fmtAux) {
   el.innerHTML = rows.map((r, i) => `
-    <li class="${i === 0 ? "top" : ""}" data-tip="${esc(r.name)}\n${r.n.toLocaleString("ko-KR")}개${r.med ? ` · 중간 ${won(r.med)}원` : ""}"><div class="line"><span class="name">${esc(r.name)}</span><span class="count">${r.n.toLocaleString("ko-KR")}</span><span class="aux">${fmtAux ? fmtAux(r) : ""}</span></div>
+    <li class="${i === 0 ? "top" : ""}" data-tip="${esc(r.name)}\n${r.n.toLocaleString("ko-KR")}개${r.med ? ` · 평균 ${won(r.med)}원` : ""}"><div class="line"><span class="name">${esc(r.name)}</span><span class="count">${r.n.toLocaleString("ko-KR")}</span><span class="aux">${fmtAux ? fmtAux(r) : ""}</span></div>
     <div class="tr"><i style="width:${(r.n / maxV * 100).toFixed(1)}%"></i></div></li>`).join("");
 }
-const kindRows = kinds.slice(0, 8).map(x => ({ name: x.k, n: x.l.length, med: median(x.l.map(p => p.f)) }));
+const kindRows = kinds.slice(0, 8).map(x => ({ name: x.k, n: x.l.length, med: mean(x.l.map(p => p.f)) }));
 const restKinds = kinds.slice(8);
 if (restKinds.length) {
   const rl = restKinds.flatMap(x => x.l);
-  kindRows.push({ name: `그 외 ${restKinds.length}종`, n: rl.length, med: median(rl.map(p => p.f)) });
+  kindRows.push({ name: `그 외 ${restKinds.length}종`, n: rl.length, med: mean(rl.map(p => p.f)) });
 }
 barList($("kinds"), kindRows, kindRows[0].n, r => wonU(r.med));
 
@@ -694,16 +694,16 @@ $("mix-cap").textContent = `${recent3From.replace("-", ".")}부터 올라온 ${r
 // 5) price range per kind, next to its sold-out share
 const krKinds = kinds.slice(0, 9).map(x => {
   const f = x.l.map(p => p.f);
-  return { k: x.k, n: x.l.length, p10: quant(f, .1), p25: quant(f, .25), med: median(f), p75: quant(f, .75), p90: quant(f, .9), sold: offRate(x.l) };
+  return { k: x.k, n: x.l.length, p10: quant(f, .1), p25: quant(f, .25), med: mean(f), p75: quant(f, .75), p90: quant(f, .9), sold: offRate(x.l) };
 }).sort((a, b) => b.med - a.med);
 const krMax = Math.ceil(Math.max(...krKinds.map(r => r.p90)) / 20000) * 20000;
 const hotSold = [...krKinds].sort((a, b) => b.sold - a.sold).slice(0, 3).map(r => r.k);
-$("kr-title").textContent = `종류별 가격 폭: ${eun(krKinds[0].k)} 중간 ${won(krKinds[0].med)}원, ${eun(krKinds[krKinds.length - 1].k)} ${won(krKinds[krKinds.length - 1].med)}원입니다`;
-$("kr-cap").textContent = `가는 선은 하위 10~90%, 굵은 막대는 25~75%, 세로 눈금은 중간값입니다. 품절은 옵션 기준 비중이며 높은 3곳(${hotSold.join(", ")})을 진하게 표시했습니다. 상품 수가 많은 ${krKinds.length}개 종류만 담았습니다.`;
+$("kr-title").textContent = `종류별 가격 폭: ${eun(krKinds[0].k)} 평균 ${won(krKinds[0].med)}원, ${eun(krKinds[krKinds.length - 1].k)} ${won(krKinds[krKinds.length - 1].med)}원입니다`;
+$("kr-cap").textContent = `가는 선은 하위 10~90%, 굵은 막대는 25~75%, 세로 눈금은 평균입니다. 품절은 옵션 기준 비중이며 높은 3곳(${hotSold.join(", ")})을 진하게 표시했습니다. 상품 수가 많은 ${krKinds.length}개 종류만 담았습니다.`;
 function drawKinds() {
   const host = $("kr");
-  const header = `<div class="kr-row kr-head"><span>종류</span><span class="r">개수</span><span class="axis"></span><span class="r">중간가</span><span class="r">품절</span></div>`;
-  host.innerHTML = header + krKinds.map((r, i) => `<div class="kr-row" data-tip="${esc(r.k)} · ${r.n}개\n중간 ${won(r.med)}원\n25~75% ${won(r.p25)}~${won(r.p75)}원\n10~90% ${won(r.p10)}~${won(r.p90)}원\n품절 ${r0(r.sold)}%"><span>${esc(r.k)}</span><span class="r">${r.n}</span><span class="viz" data-i="${i}"></span><span class="r med">${won(r.med)}</span><span class="r sold ${hotSold.includes(r.k) ? "hot" : ""}">${r0(r.sold)}%</span></div>`).join("");
+  const header = `<div class="kr-row kr-head"><span>종류</span><span class="r">개수</span><span class="axis"></span><span class="r">평균가</span><span class="r">품절</span></div>`;
+  host.innerHTML = header + krKinds.map((r, i) => `<div class="kr-row" data-tip="${esc(r.k)} · ${r.n}개\n평균 ${won(r.med)}원\n25~75% ${won(r.p25)}~${won(r.p75)}원\n10~90% ${won(r.p10)}~${won(r.p90)}원\n품절 ${r0(r.sold)}%"><span>${esc(r.k)}</span><span class="r">${r.n}</span><span class="viz" data-i="${i}"></span><span class="r med">${won(r.med)}</span><span class="r sold ${hotSold.includes(r.k) ? "hot" : ""}">${r0(r.sold)}%</span></div>`).join("");
   const draw = (el, rowFn, h) => {
     const W = el.clientWidth, x = v => Math.min(W - 1, v / krMax * (W - 2) + 1);
     el.innerHTML = `<svg width="${W}" height="${h}" aria-hidden="true">${rowFn(x, W)}</svg>`;
@@ -724,7 +724,7 @@ function drawKinds() {
       for (let v = 20000; v < krMax; v += 20000) s += `<line x1="${x(v)}" x2="${x(v)}" y1="0" y2="40" stroke="#eef0f3"/>`;
       s += `<line x1="${x(r.p10)}" x2="${x(r.p90)}" y1="20" y2="20" stroke="#8d939c" stroke-width="2"/>`;
       s += `<rect x="${x(r.p25)}" y="12" width="${Math.max(2, x(r.p75) - x(r.p25))}" height="16" rx="2" fill="#b8bec7"/>`;
-      s += `<rect x="${x(r.med) - 1.5}" y="9" width="3" height="22" fill="#1d5fbf"><title>${r.k}: 중간 ${won(r.med)}원, 25~75% ${won(r.p25)}~${won(r.p75)}원</title></rect>`;
+      s += `<rect x="${x(r.med) - 1.5}" y="9" width="3" height="22" fill="#1d5fbf"><title>${r.k}: 평균 ${won(r.med)}원, 25~75% ${won(r.p25)}~${won(r.p75)}원</title></rect>`;
       return s;
     }, 40);
   });
