@@ -26,7 +26,7 @@
   --radius-control: 6px;
   --gap: 12px;
   --pad: 24px;
-  --control-height: 36px;
+  --control-height: 40px;
   --font: "Geist", "Noto Sans KR", system-ui, sans-serif;
   --mono: "Geist Mono", ui-monospace, "Cascadia Mono", monospace;
 }
@@ -36,12 +36,16 @@ body {
   margin: 0; background: var(--ground); color: var(--text);
   font-family: var(--font); font-size: 14px; line-height: 20px;
   font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
 }
 a { color: inherit; }
 button, input, select { font: inherit; color: inherit; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-.u { color: var(--muted); font-size: 12px; font-weight: 400; margin-left: 1px; }
-.mono { font-family: var(--mono); font-size: 12px; }
+.u { color: var(--muted); font-size: 13px; font-weight: 400; margin-left: 1px; }
+.mono { font-family: var(--mono); font-size: 13px; }
+h1, h2 { text-wrap: balance; }
+h1, h2, .finding, .kpi .note, .source, .hist-foot, .head .meta, .rows .name, .c-prod .nm { word-break: keep-all; }
+.finding, .kpi .note, .source, .hist-foot { text-wrap: pretty; }
 
 .column { max-width: 1152px; margin: 0 auto; padding: 0 20px; }
 @media (min-width: 1200px) { .column { padding: 0; } }
@@ -64,8 +68,14 @@ h1 { margin: 0; font-size: 24px; line-height: 32px; font-weight: 500; }
   display: inline-flex; align-items: center; height: var(--control-height); padding: 0 14px;
   border-radius: var(--radius-control); border: 1px solid var(--control); background: var(--surface);
   text-decoration: none; font-size: 14px; cursor: pointer; white-space: nowrap;
+  transition: transform 140ms cubic-bezier(0.23, 1, 0.32, 1), border-color 140ms, background-color 140ms;
 }
 .btn:hover { border-color: #9aa0a9; }
+.btn:active, .tab:active { transform: scale(0.97); }
+@media (prefers-reduced-motion: reduce) {
+  .btn, .tab { transition: none; }
+  .btn:active, .tab:active { transform: none; }
+}
 .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
 .btn.primary:hover { background: #000; }
 
@@ -96,22 +106,24 @@ h1 { margin: 0; font-size: 24px; line-height: 32px; font-weight: 500; }
 /* photo histogram */
 .hist { position: relative; margin: 8px var(--pad) 0; padding-top: 30px; }
 .hist .plot { position: relative; }
-.hist .y { position: absolute; left: 0; width: 28px; text-align: right; font-size: 12px; color: var(--muted); transform: translateY(50%); line-height: 12px; }
+.hist .y { position: absolute; left: 0; width: 28px; text-align: right; font-size: 13px; color: var(--muted); transform: translateY(50%); line-height: 13px; }
+.hist .ytitle { position: absolute; left: 0; top: -26px; font-size: 13px; color: var(--muted); }
 .hist .marks { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; }
 .hist .ref-note { position: absolute; font-size: 13px; line-height: 20px; color: var(--muted); }
 .hist .ref-note b { color: var(--text); font-weight: 500; margin-right: 4px; }
 .hist .thumb-stack img {
   position: absolute; object-fit: cover; border-radius: 3px; background: var(--raised); display: block;
+  outline: 1px solid rgba(0, 0, 0, 0.1); outline-offset: -1px;
 }
-.hist .count { position: absolute; font-size: 12px; text-align: center; color: var(--muted); line-height: 14px; }
+.hist .count { position: absolute; font-size: 13px; text-align: center; color: var(--muted); line-height: 14px; }
 .hist .count.mode { color: var(--hue); font-weight: 500; }
 .hist .seg { position: absolute; height: 4px; border-radius: 1px; background: var(--hue); }
 .hist .seg.zero { background: var(--track); }
 .hist .seg.mode { height: 6px; }
-.hist .xl { position: absolute; font-size: 12px; color: var(--muted); transform: translateX(-50%); }
+.hist .xl { position: absolute; font-size: 13px; white-space: nowrap; color: var(--muted); transform: translateX(-50%); }
 .hist .median { position: absolute; top: -6px; width: 0; border-left: 1px dashed var(--hue); }
-.hist .median-label { position: absolute; top: -28px; font-size: 12px; color: var(--hue); white-space: nowrap; font-weight: 500; }
-.hist-foot { padding: 0 var(--pad) 20px; color: var(--muted); font-size: 12px; line-height: 18px; }
+.hist .median-label { position: absolute; top: -28px; font-size: 13px; color: var(--hue); white-space: nowrap; font-weight: 500; }
+.hist-foot { padding: 0 var(--pad) 20px; color: var(--muted); font-size: 13px; line-height: 18px; }
 @media (max-width: 900px) { .hist-foot { padding-left: 16px; padding-right: 16px; } }
 
 /* side lists */
@@ -125,7 +137,7 @@ h1 { margin: 0; font-size: 24px; line-height: 32px; font-weight: 500; }
 .rows .tr i { display: block; height: 100%; background: #b6bbc3; border-radius: 1px; }
 .rows li.top .tr i { background: var(--text); }
 .rows .zero-note { color: var(--muted); font-size: 13px; }
-.col-head { display: flex; gap: 12px; padding: 8px var(--pad) 0; color: var(--muted); font-size: 12px; }
+.col-head { display: flex; gap: 12px; padding: 8px var(--pad) 0; color: var(--muted); font-size: 13px; }
 .col-head span:first-child { flex: 1; }
 .col-head span:nth-child(2) { min-width: 2ch; text-align: right; }
 .col-head span:last-child { width: 92px; text-align: right; }
@@ -144,24 +156,29 @@ h1 { margin: 0; font-size: 24px; line-height: 32px; font-weight: 500; }
   overflow-x: auto; scrollbar-width: none; list-style: none;
 }
 .tabs::-webkit-scrollbar { display: none; }
-.tab { flex: none; background: none; border: 0; padding: 8px 0 10px; cursor: pointer; color: var(--muted); border-bottom: 2px solid transparent; margin-bottom: -1px; }
-.tab[aria-selected="true"] { color: var(--text); font-weight: 500; border-bottom-color: var(--text); }
-.tab small { font-size: 12px; margin-left: 4px; color: var(--muted); font-weight: 400; }
+.tab {
+  flex: none; background: none; border: 0; padding: 10px 0 12px; cursor: pointer; color: var(--muted);
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+  transition: transform 140ms cubic-bezier(0.23, 1, 0.32, 1), color 140ms;
+}
+.tab:hover { color: var(--text); }
+.tab[aria-pressed="true"] { color: var(--text); font-weight: 500; border-bottom-color: var(--text); }
+.tab small { font-size: 13px; margin-left: 4px; color: var(--muted); font-weight: 400; }
 
 .table { --cols: 40px minmax(0, 2.1fr) minmax(0, 1.2fr) minmax(0, 1.7fr) 92px 64px 112px; margin: 0 var(--pad); }
 .thead, .trow { display: grid; grid-template-columns: var(--cols); column-gap: 16px; align-items: center; }
-.thead { height: 40px; color: var(--muted); font-size: 12px; border-bottom: 1px solid var(--border); }
+.thead { height: 40px; color: var(--muted); font-size: 13px; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 2; background: var(--surface); }
 .thead .r, .trow .r { text-align: right; }
 .trows { list-style: none; margin: 0; padding: 0; }
 .trow { min-height: 72px; padding: 10px 0; border-top: 1px solid var(--rule); }
 .trow:first-child { border-top: 0; }
 .c-rank { color: var(--muted); }
 .c-prod { display: flex; gap: 12px; align-items: center; min-width: 0; }
-.c-prod img { width: 40px; height: 52px; object-fit: cover; border-radius: 3px; background: var(--raised); flex: none; }
+.c-prod img { width: 40px; height: 52px; object-fit: cover; border-radius: 3px; background: var(--raised); flex: none; outline: 1px solid rgba(0, 0, 0, 0.1); outline-offset: -1px; }
 .c-prod .t { min-width: 0; }
 .c-prod .nm { display: block; font-weight: 500; text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .c-prod .nm:hover { text-decoration: underline; }
-.c-prod .sub { color: var(--muted); font-size: 12px; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.c-prod .sub { color: var(--muted); font-size: 13px; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .c-color { color: var(--muted); font-size: 13px; line-height: 18px; }
 .c-size { font-size: 13px; line-height: 18px; display: flex; flex-wrap: wrap; gap: 2px 14px; }
 .c-size span { white-space: nowrap; }
@@ -170,9 +187,10 @@ h1 { margin: 0; font-size: 24px; line-height: 32px; font-weight: 500; }
 .c-sale { font-weight: 700; }
 .foot { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px var(--pad) 20px; border-top: 1px solid var(--rule); margin: 0 var(--pad); padding-left: 0; padding-right: 0; }
 .foot .range { color: var(--muted); }
-.source { color: var(--muted); font-size: 12px; line-height: 18px; margin: 14px 2px 48px; max-width: 80ch; }
+.source { color: var(--muted); font-size: 13px; line-height: 18px; margin: 14px 2px 48px; max-width: 80ch; }
 
 @media (max-width: 900px) {
+  :root { --control-height: 44px; }
   .span-8, .span-4 { grid-column: 1 / -1; }
   .span-4 .card { flex: none; }
   .kpis { grid-template-columns: 1fr 1fr; }
@@ -239,7 +257,7 @@ h1 { margin: 0; font-size: 24px; line-height: 32px; font-weight: 500; }
         <h2 id="hist-title">할인가 구간별 BEST 상품</h2>
         <div class="meta" id="hist-meta"></div>
       </div>
-      <div class="hist" id="hist" role="group" aria-label="할인가 5,000원 구간별 상품 사진 분포"></div>
+      <div class="hist" id="hist" role="img"></div>
       <div class="hist-foot">사진 한 장이 상품 한 개입니다. 가로축은 할인가이고 5,000원 단위로 묶었습니다.</div>
     </section>
 
@@ -268,7 +286,7 @@ h1 { margin: 0; font-size: 24px; line-height: 32px; font-weight: 500; }
           </select>
         </div>
       </div>
-      <div class="tabs" id="tabs" role="tablist" aria-label="종류"></div>
+      <div class="tabs" id="tabs" role="group" aria-label="종류"></div>
       <div class="table">
         <div class="thead" aria-hidden="true">
           <span>순위</span><span>상품</span><span>색상</span><span>선택 가능한 사이즈</span><span class="r">판매가</span><span class="r">할인율</span><span class="r">할인가</span>
@@ -382,8 +400,12 @@ document.getElementById("kpis").innerHTML = `
   <div class="kpi"><div class="label">할인율</div><div class="value">25<span class="u">%</span></div><div class="note">${N}개 모두 쿠폰 적용가</div></div>
   <div class="kpi"><div class="label">BEST 상품</div><div class="value">${N}<span class="u">개</span></div><div class="note">${kinds.length}개 종류, 기장 선택 ${longOpt}개</div></div>`;
 
-document.getElementById("hist-meta").innerHTML =
-  `가장 많은 구간 <b>${won(BIN0 + modeIdx * BIN)}${dash}${won(BIN0 + (modeIdx + 1) * BIN - 1)}원</b> (${bins[modeIdx].length}개)`;
+const modeRange = `${won(BIN0 + modeIdx * BIN)}${dash}${won(BIN0 + (modeIdx + 1) * BIN - 1)}원`;
+document.getElementById("hist-title").textContent = `${modeRange} 구간에 ${bins[modeIdx].length}개가 몰려 있습니다`;
+document.getElementById("hist-meta").textContent = `BEST ${N}개의 할인가 분포`;
+document.getElementById("hist").setAttribute("aria-label",
+  `할인가 분포 차트. 가장 많은 구간은 ${modeRange} ${bins[modeIdx].length}개, 중간 할인가는 ${won(medSale)}원, ` +
+  `35,000원 미만 ${under35}개, 이상 ${N - under35}개. 상품 전체는 아래 목록에 있습니다.`);
 
 // ---------- side lists ----------
 const maxKind = Math.max(...kinds.map(x => x.list.length));
@@ -416,24 +438,25 @@ function renderHist() {
   svg += `<line x1="${mx}" x2="${mx}" y1="-4" y2="${plotH}" stroke="#1d5fbf" stroke-width="1" stroke-dasharray="3 3"/>`;
   bins.forEach((b, i) => {
     const cx = yw + i * binW + binW / 2;
-    svg += `<rect x="${cx - segW / 2}" y="${plotH + 2}" width="${segW}" height="${i === modeIdx ? 6 : 4}" rx="1" fill="${b.length === 0 ? "#d9dde3" : "#1d5fbf"}"/>`;
+    svg += `<rect x="${cx - segW / 2}" y="${plotH + 2}" width="${segW}" height="${i === modeIdx ? 6 : 4}" rx="1" fill="${b.length === 0 ? "#d9dde3" : i === modeIdx ? "#1d5fbf" : "#8d939c"}"/>`;
   });
   svg += `</svg>`;
   let h = `<div class="plot" style="height:${plotH}px">${svg}`;
   for (let t = 0; t <= top; t += 5) h += `<div class="y" style="bottom:${t * unit}px">${t}</div>`;
+  h += `<div class="ytitle">상품 수(개)</div>`;
   h += `<div class="median-label" style="${right ? `right:${W - mx + 6}px` : `left:${mx + 6}px`}">중간 ${won(medSale)}원</div>`;
   h += `<div class="ref-note" style="left:${lx + 10}px;top:6px"><b>35,000원 미만 ${lo}개</b>(${Math.round(lo / N * 100)}%)<br>35,000원 이상 ${hi}개(${Math.round(hi / N * 100)}%)</div>`;
   h += `<div class="thumb-stack">`;
   bins.forEach((b, i) => {
     const cx = yw + i * binW + binW / 2;
     [...b].sort((p, q) => p.sale - q.sale).forEach((p, j) => {
-      h += `<img src="images/${p.id}.jpg" alt="${esc(p.name)}" title="${esc(p.name)} ${won(p.sale)}원" width="${tw}" height="${th}" style="left:${cx - tw / 2}px;bottom:${j * unit + 3}px;width:${tw}px;height:${th}px">`;
+      h += `<img src="images/${p.id}.jpg" alt="" title="${esc(p.name)} ${won(p.sale)}원" width="${tw}" height="${th}" style="left:${cx - tw / 2}px;bottom:${j * unit + 3}px;width:${tw}px;height:${th}px">`;
     });
     h += `<div class="count ${i === modeIdx ? "mode" : ""}" style="left:${cx - 14}px;width:28px;bottom:${b.length * unit + 5}px">${b.length}</div>`;
   });
   h += `</div>`;
   for (let v = 10000; v <= 70000; v += 10000) {
-    h += `<div class="xl" style="left:${yw + (v - BIN0) / BIN * binW}px;top:${plotH + 12}px">${v / 10000}만</div>`;
+    h += `<div class="xl" style="left:${yw + (v - BIN0) / BIN * binW}px;top:${plotH + 12}px">${v / 10000}만원</div>`;
   }
   h += `</div>`;
   el.innerHTML = h;
@@ -481,7 +504,7 @@ function view() {
 function renderTabs() {
   const all = [["전체", N], ...kinds.map(x => [x.k, x.list.length])];
   document.getElementById("tabs").innerHTML = all.map(([k, n]) =>
-    `<button class="tab" role="tab" type="button" data-kind="${k}" aria-selected="${state.kind === k}">${k}<small>${n}</small></button>`).join("");
+    `<button class="tab" type="button" data-kind="${k}" aria-pressed="${state.kind === k}">${k}<small>${n}</small></button>`).join("");
 }
 function renderList() {
   const list = view(), shown = list.slice(0, state.shown);
