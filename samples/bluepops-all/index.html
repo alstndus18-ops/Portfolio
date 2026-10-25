@@ -422,6 +422,7 @@ const CAT_ORDER = Object.keys(CAT_KO);
 // ---------- derived numbers (everything on screen comes from the rows) ----------
 const N = P.length;
 const meanF = mean(P.map(p => p.f)), meanP = mean(P.map(p => p.p)), medianF = median(P.map(p => p.f));
+const minF = Math.min(...P.map(p => p.f)), maxF = Math.max(...P.map(p => p.f));
 const best = P.filter(p => p.tg.includes("Best"));
 const meanBest = best.length ? mean(best.map(p => p.f)) : 0;
 const asOf = BP.asOf;
@@ -449,7 +450,7 @@ $("finding").innerHTML =
   `최근 12개월에 <b>${recent12.length.toLocaleString("ko-KR")}개</b>가 올라왔고, 옵션의 <b>${pct(offOpt, totOpt)}%</b>가 품절입니다.`;
 
 $("kpis").innerHTML = `
-  <div class="kpi lead"><div class="label">평균 할인가</div><div class="value money">${won(meanF)}<span class="u">원</span></div><div class="note">중앙값은 ${won(medianF)}원 · 판매가 평균 ${won(meanP)}원</div></div>
+  <div class="kpi lead"><div class="label">평균 할인가</div><div class="value money">${won(meanF)}<span class="u">원</span></div><div class="note">최소 ${won(minF)}원 · 최대 ${won(maxF)}원<br>중앙값 ${won(medianF)}원 · 판매가 평균 ${won(meanP)}원</div></div>
   <div class="kpi"><div class="label">전체 상품</div><div class="value">${N.toLocaleString("ko-KR")}<span class="u">개</span></div><div class="note">${kinds.length}개 종류, 가격 ${won(Math.min(...P.map(p => p.f)))}${dash}${won(Math.max(...P.map(p => p.f)))}원</div></div>
   <div class="kpi"><div class="label">최근 12개월 등록</div><div class="value">${recent12.length.toLocaleString("ko-KR")}<span class="u">개</span></div><div class="note">전체의 ${pct(recent12.length, N)}% · ${recent12From.replace("-", ".")}부터</div></div>
   <div class="kpi"><div class="label">품절 옵션</div><div class="value">${pct(offOpt, totOpt)}<span class="u">%</span></div><div class="note">옵션 ${totOpt.toLocaleString("ko-KR")}개 중 ${offOpt.toLocaleString("ko-KR")}개<br>전 옵션 품절 상품 ${allOff.length}개</div></div>`;
@@ -561,13 +562,14 @@ function barList(el, rows, maxV, fmtAux) {
     <li class="${i === 0 ? "top" : ""}" data-tip="${esc(r.name)}\n${r.n.toLocaleString("ko-KR")}개${r.med ? ` · 평균 ${won(r.med)}원` : ""}"><div class="line"><span class="name">${esc(r.name)}</span><span class="count">${r.n.toLocaleString("ko-KR")}</span><span class="aux">${fmtAux ? fmtAux(r) : ""}</span></div>
     <div class="tr"><i style="width:${(r.n / maxV * 100).toFixed(1)}%"></i></div></li>`).join("");
 }
-const kindRows = kinds.slice(0, 8).map(x => ({ name: x.k, n: x.l.length, med: mean(x.l.map(p => p.f)) }));
+const rangeOf = l => ({ min: Math.min(...l.map(p => p.f)), max: Math.max(...l.map(p => p.f)) });
+const kindRows = kinds.slice(0, 8).map(x => ({ name: x.k, n: x.l.length, med: mean(x.l.map(p => p.f)), ...rangeOf(x.l) }));
 const restKinds = kinds.slice(8);
 if (restKinds.length) {
   const rl = restKinds.flatMap(x => x.l);
-  kindRows.push({ name: `그 외 ${restKinds.length}종`, n: rl.length, med: mean(rl.map(p => p.f)) });
+  kindRows.push({ name: `그 외 ${restKinds.length}종`, n: rl.length, med: mean(rl.map(p => p.f)), ...rangeOf(rl) });
 }
-barList($("kinds"), kindRows, kindRows[0].n, r => wonU(r.med));
+barList($("kinds"), kindRows, kindRows[0].n, r => `${wonU(r.med)}<span class="u" style="display:block">${won(r.min)}~${won(r.max)}원</span>`);
 
 const schemeOrder = ["2사이즈(1·2)", "프리(F)", "신발 mm", "S–XL(알파벳)", "번호 3단계+", "표기 없음", "기타", "단일"];
 const schemeCnt = Object.entries(P.reduce((m, p) => (m[p.s] = (m[p.s] || 0) + 1, m), {})).map(([name, n]) => ({ name, n })).sort((a, b) => b.n - a.n);
@@ -694,7 +696,7 @@ $("mix-cap").textContent = `${recent3From.replace("-", ".")}부터 올라온 ${r
 // 5) price range per kind, next to its sold-out share
 const krKinds = kinds.slice(0, 9).map(x => {
   const f = x.l.map(p => p.f);
-  return { k: x.k, n: x.l.length, p10: quant(f, .1), p25: quant(f, .25), med: mean(f), p75: quant(f, .75), p90: quant(f, .9), sold: offRate(x.l) };
+  return { k: x.k, n: x.l.length, min: Math.min(...f), max: Math.max(...f), p10: quant(f, .1), p25: quant(f, .25), med: mean(f), p75: quant(f, .75), p90: quant(f, .9), sold: offRate(x.l) };
 }).sort((a, b) => b.med - a.med);
 const krMax = Math.ceil(Math.max(...krKinds.map(r => r.p90)) / 20000) * 20000;
 const hotSold = [...krKinds].sort((a, b) => b.sold - a.sold).slice(0, 3).map(r => r.k);
@@ -703,7 +705,7 @@ $("kr-cap").textContent = `가는 선은 하위 10~90%, 굵은 막대는 25~75%,
 function drawKinds() {
   const host = $("kr");
   const header = `<div class="kr-row kr-head"><span>종류</span><span class="r">개수</span><span class="axis"></span><span class="r">평균가</span><span class="r">품절</span></div>`;
-  host.innerHTML = header + krKinds.map((r, i) => `<div class="kr-row" data-tip="${esc(r.k)} · ${r.n}개\n평균 ${won(r.med)}원\n25~75% ${won(r.p25)}~${won(r.p75)}원\n10~90% ${won(r.p10)}~${won(r.p90)}원\n품절 ${r0(r.sold)}%"><span>${esc(r.k)}</span><span class="r">${r.n}</span><span class="viz" data-i="${i}"></span><span class="r med">${won(r.med)}</span><span class="r sold ${hotSold.includes(r.k) ? "hot" : ""}">${r0(r.sold)}%</span></div>`).join("");
+  host.innerHTML = header + krKinds.map((r, i) => `<div class="kr-row" data-tip="${esc(r.k)} · ${r.n}개\n평균 ${won(r.med)}원\n25~75% ${won(r.p25)}~${won(r.p75)}원\n10~90% ${won(r.p10)}~${won(r.p90)}원\n최소 ${won(r.min)}원 · 최대 ${won(r.max)}원\n품절 ${r0(r.sold)}%"><span>${esc(r.k)}</span><span class="r">${r.n}</span><span class="viz" data-i="${i}"></span><span class="r med">${won(r.med)}</span><span class="r sold ${hotSold.includes(r.k) ? "hot" : ""}">${r0(r.sold)}%</span></div>`).join("");
   const draw = (el, rowFn, h) => {
     const W = el.clientWidth, x = v => Math.min(W - 1, v / krMax * (W - 2) + 1);
     el.innerHTML = `<svg width="${W}" height="${h}" aria-hidden="true">${rowFn(x, W)}</svg>`;
