@@ -112,7 +112,8 @@ h1 { margin: 0; font-size: 24px; line-height: 32px; font-weight: 500; }
 .col-head span:nth-child(2) { min-width: 4ch; text-align: right; }
 .col-head span:last-child { width: 92px; text-align: right; }
 .rows { list-style: none; margin: 6px 0 0; padding: 0 var(--pad) 16px; }
-.rows li { padding: 7px 0 6px; }
+.rows li { padding: calc(7px + var(--ry, 0px)) 0 calc(6px + var(--ry, 0px)); }
+.grid.measure { align-items: start; }
 .rows .line { display: flex; align-items: baseline; gap: 12px; }
 .rows .name { flex: 1; min-width: 0; }
 .rows .count { font-weight: 500; min-width: 4ch; text-align: right; }
@@ -178,8 +179,37 @@ h1 { margin: 0; font-size: 24px; line-height: 32px; font-weight: 500; }
 .empty { padding: 32px 0; color: var(--muted); }
 .source { color: var(--muted); font-size: 13px; line-height: 18px; margin: 14px 2px 48px; max-width: 90ch; }
 
+.minis { display: flex; flex-wrap: nowrap; gap: 8px 14px; margin: 8px var(--pad) 0; }
+.mini { min-width: 0; }
+.mini h3 { margin: 0 0 2px; font-size: 14px; line-height: 20px; font-weight: 500; }
+.mini-plot svg { display: block; overflow: visible; }
+.mini-plot text, .kr text { font-family: var(--font); font-size: 13px; fill: var(--muted); }
+.mini-plot text.em { fill: var(--text); font-weight: 500; }
+.mini-plot text.hue { fill: var(--hue); font-weight: 500; }
+.rows .pct { font-weight: 500; min-width: 4ch; text-align: right; }
+.mix { list-style: none; margin: 10px 0 0; padding: 0 var(--pad); }
+.mix li { display: grid; grid-template-columns: 92px minmax(0, 1fr) 56px; gap: 10px; align-items: center; height: calc(38px + var(--ry, 0px) * 2); border-top: 1px solid var(--rule); }
+.mix li:first-child { border-top: 0; }
+.mix .trk { position: relative; height: 14px; }
+.mix .trk::before { content: ""; position: absolute; left: 50%; top: -6px; bottom: -6px; width: 1px; background: var(--control); }
+.mix .trk i { position: absolute; top: 0; height: 100%; border-radius: 2px; }
+.mix .val { text-align: right; font-weight: 500; }
+.mix .val.neg { color: var(--muted); font-weight: 400; }
+.kr { margin: 8px var(--pad) 0; }
+.kr-row { display: grid; grid-template-columns: 92px 44px minmax(0, 1fr) 76px 56px; gap: 12px; align-items: center; height: calc(40px + var(--ry, 0px) * 2); border-top: 1px solid var(--rule); }
+.kr-head { height: 56px; color: var(--muted); font-size: 13px; border-top: 0; align-items: end; padding-bottom: 4px; }
+.kr-row .r { text-align: right; }
+.kr-row .med { font-weight: 700; }
+.kr-row .sold { color: var(--muted); }
+.kr-row .sold.hot { color: var(--text); font-weight: 500; }
+.kr-row svg { display: block; overflow: visible; }
 @media (max-width: 900px) {
   :root { --control-height: 44px; }
+  .minis, .kr { margin-left: 16px; margin-right: 16px; }
+  .minis { flex-wrap: wrap; }
+  .mix { padding-left: 16px; padding-right: 16px; }
+  .kr-row { grid-template-columns: 84px minmax(0, 1fr) 64px 44px; gap: 8px; }
+  .kr-row > :nth-child(2) { display: none; }
   .span-8, .span-4 { grid-column: 1 / -1; }
   .stack .card { flex: none; }
   .kpis { grid-template-columns: 1fr 1fr; }
@@ -242,7 +272,7 @@ h1 { margin: 0; font-size: 24px; line-height: 32px; font-weight: 500; }
   <section class="card kpis" id="kpis" aria-label="요약"></section>
 
   <div class="grid">
-    <section class="card span-8" aria-labelledby="price-title">
+    <section class="card span-8" id="price-card" aria-labelledby="price-title">
       <div class="head">
         <h2 id="price-title"></h2>
         <div class="meta" id="price-meta"></div>
@@ -251,13 +281,13 @@ h1 { margin: 0; font-size: 24px; line-height: 32px; font-weight: 500; }
       <p class="cap" id="price-cap"></p>
     </section>
 
-    <section class="card span-4" aria-labelledby="kind-title">
+    <section class="card span-4" id="kind-card" aria-labelledby="kind-title">
       <div class="head"><h2 id="kind-title">종류별 상품</h2></div>
       <div class="col-head"><span>종류</span><span>개수</span><span>중간 할인가</span></div>
       <ul class="rows" id="kinds"></ul>
     </section>
 
-    <section class="card span-8" aria-labelledby="month-title">
+    <section class="card span-8" id="month-card" aria-labelledby="month-title">
       <div class="head">
         <h2 id="month-title"></h2>
         <div class="meta" id="month-meta"></div>
@@ -266,7 +296,7 @@ h1 { margin: 0; font-size: 24px; line-height: 32px; font-weight: 500; }
       <p class="cap" id="month-cap"></p>
     </section>
 
-    <div class="span-4 stack">
+    <div class="span-4 stack" id="side1">
       <section class="card" aria-labelledby="size-title">
         <div class="head"><h2 id="size-title">사이즈 표기 방식</h2></div>
         <div class="col-head"><span>방식</span><span>개수</span><span></span></div>
@@ -275,6 +305,49 @@ h1 { margin: 0; font-size: 24px; line-height: 32px; font-weight: 500; }
       <section class="card" aria-labelledby="stock-title">
         <div class="head"><h2 id="stock-title">품절 현황</h2></div>
         <div class="facts" id="stock"></div>
+      </section>
+    </div>
+
+    <section class="card span-8" id="sz-card" aria-labelledby="sz-title">
+      <div class="head"><h2 id="sz-title">사이즈별 품절 비중</h2><div class="meta" id="sz-meta"></div></div>
+      <div class="minis" id="sz-minis" role="img"></div>
+      <p class="cap" id="sz-cap"></p>
+    </section>
+
+    <section class="card span-4" id="clr-card" aria-labelledby="clr-title">
+      <div class="head"><h2 id="clr-title">색상별 품절</h2></div>
+      <div class="col-head"><span>색상</span><span>품절</span><span>옵션 수</span></div>
+      <ul class="rows" id="colors"></ul>
+      <p class="cap" id="clr-cap"></p>
+    </section>
+
+    <section class="card span-8" id="coh-card" aria-labelledby="coh-title">
+      <div class="head"><h2 id="coh-title"></h2><div class="meta" id="coh-meta"></div></div>
+      <div class="chart" id="coh-chart" role="img"></div>
+      <p class="cap" id="coh-cap"></p>
+    </section>
+
+    <section class="card span-4" id="mix-card" aria-labelledby="mix-title">
+      <div class="head"><h2 id="mix-title"></h2></div>
+      <ul class="mix" id="mix"></ul>
+      <p class="cap" id="mix-cap"></p>
+    </section>
+
+    <section class="card span-8" id="kr-card" aria-labelledby="kr-title">
+      <div class="head"><h2 id="kr-title"></h2></div>
+      <div class="kr" id="kr"></div>
+      <p class="cap" id="kr-cap"></p>
+    </section>
+
+    <div class="span-4 stack" id="side2">
+      <section class="card" aria-labelledby="cov-title">
+        <div class="head"><h2 id="cov-title"></h2></div>
+        <ul class="rows" id="cov"></ul>
+        <p class="cap" id="cov-cap"></p>
+      </section>
+      <section class="card" aria-labelledby="disc-title">
+        <div class="head"><h2 id="disc-title">할인 구조</h2></div>
+        <div class="facts" id="disc"></div>
       </section>
     </div>
 
@@ -297,6 +370,7 @@ h1 { margin: 0; font-size: 24px; line-height: 32px; font-weight: 500; }
             <option value="new">최근 등록순</option>
             <option value="low">할인가 낮은 순</option>
             <option value="high">할인가 높은 순</option>
+            <option value="sold">품절 비중 높은 순</option>
           </select>
         </div>
       </div>
@@ -327,6 +401,11 @@ const won = n => Math.round(n).toLocaleString("ko-KR");
 const wonU = n => `${won(n)}<span class="u">원</span>`;
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const dash = "–";
+// extra pixels that balance the heights of two cards sharing a row (see balance())
+const ext = { price: 0, month: 0, sz: 0, coh: 0, kinds: 0, schemes: 0, colors: 0, mix: 0, cov: 0, kr: 0 };
+const hasBatchim = w => { const c = String(w).trim().slice(-1).charCodeAt(0); return c >= 0xac00 && c <= 0xd7a3 && (c - 0xac00) % 28 !== 0; };
+const eun = w => w + (hasBatchim(w) ? "은" : "는");
+const iga = w => w + (hasBatchim(w) ? "이" : "가");
 const median = a => { const s = [...a].sort((x, y) => x - y), n = s.length; return n % 2 ? s[(n - 1) / 2] : (s[n / 2 - 1] + s[n / 2]) / 2; };
 const pct = (a, b) => (b ? Math.round(a / b * 100) : 0);
 const CAT_KO = { Outer: "아우터", Top: "상의", Bottom: "하의", Dress: "원피스", Swimwear: "수영복", "Bag.Shoes": "가방·신발", Acc: "액세서리", Jewellery: "주얼리" };
@@ -358,7 +437,7 @@ console.assert(P.every(p => p.sz.every(x => x[1] <= x[2]) && p.col.every(x => x[
 
 $("stamp").textContent = `${asOf} 수집`;
 $("finding").innerHTML =
-  `${N.toLocaleString("ko-KR")}개의 절반은 <b>${won(medF)}원</b> 이하이고, ${esc(topKind.k)}가 <b>${pct(topKind.l.length, N)}%</b>를 차지합니다. ` +
+  `${N.toLocaleString("ko-KR")}개의 절반은 <b>${won(medF)}원</b> 이하이고, ${iga(esc(topKind.k))} <b>${pct(topKind.l.length, N)}%</b>를 차지합니다. ` +
   `최근 12개월에 <b>${recent12.length.toLocaleString("ko-KR")}개</b>가 올라왔고, 옵션의 <b>${pct(offOpt, totOpt)}%</b>가 품절입니다.`;
 
 $("kpis").innerHTML = `
@@ -396,7 +475,7 @@ function niceMax(v) {
 }
 function drawPrice() {
   const el = $("price-chart"), W = el.clientWidth, mobile = W < 520;
-  const L = 40, R = 6, T = 40, B = 34, H = mobile ? 210 : 270;
+  const L = 40, R = 6, T = 40, B = 34, H = (mobile ? 210 : 270) + ext.price;
   const { max, step } = niceMax(Math.max(...allShare, ...bestShare));
   const bw = (W - L - R) / NB, plotH = H;
   const y = v => T + plotH - v / max * plotH;
@@ -445,7 +524,7 @@ $("month-chart").setAttribute("aria-label",
   `월별 등록 상품 수. 최근 24개월 중 ${monthList[peakIdx]}에 ${monthCnt[peakIdx]}개로 가장 많고, 최근 12개월에는 ${recent12.length}개가 올라왔습니다.`);
 function drawMonths() {
   const el = $("month-chart"), W = el.clientWidth, mobile = W < 520;
-  const L = 40, R = 6, T = 22, B = 34, H = mobile ? 190 : 330;
+  const L = 40, R = 6, T = 22, B = 34, H = (mobile ? 190 : 330) + ext.month;
   const { max, step } = niceMax(Math.max(...monthCnt));
   const bw = (W - L - R) / SPAN, y = v => T + H - v / max * H;
   let s = `<svg width="${W}" height="${T + H + B}" aria-hidden="true">`;
@@ -492,6 +571,176 @@ barList($("schemes"), schemeRows, schemeCnt[0].n, null);
 $("stock").innerHTML = `
   <p><b>${offProducts.length.toLocaleString("ko-KR")}개 상품(${pct(offProducts.length, N)}%)</b>에 품절 옵션이 있습니다. 옵션 ${totOpt.toLocaleString("ko-KR")}개 중 ${offOpt.toLocaleString("ko-KR")}개(${pct(offOpt, totOpt)}%)가 품절입니다.</p>
   <p style="margin-top:8px"><b>${allOff.length}개</b>는 모든 옵션이 품절이고, <b>${someSizeOff.length}개</b>는 사이즈 하나 이상이 모든 색상에서 품절입니다. 목록에서는 줄을 그어 표시합니다.</p>`;
+
+// ---------- insights: what sells out, and where ----------
+const sum = (a, f) => a.reduce((x, p) => x + f(p), 0);
+const offRate = list => { const t = sum(list, p => p.ot); return t ? sum(list, p => p.ou) / t * 100 : 0; };
+const avgOff = offOpt / totOpt * 100;
+const r0 = v => Math.round(v);
+const quant = (a, f) => { const s = [...a].sort((x, y) => x - y); return s[Math.floor((s.length - 1) * f)]; };
+const NOTE_SOLD = "품절은 잘 팔렸다는 신호일 수 있지만, 입고 수량과 판매 종료 여부를 알 수 없어 참고용입니다.";
+
+// 1) size ladders: share of options sold out per size label, by sizing system
+const sizeKey = l => ((l.match(/^([^(]+)\(/) || [null, l])[1] || l).trim();
+const SIZE_ORDER = ["S", "M", "L", "XL", "2XL", "3XL"];
+const GROUPS = [
+  ["1·2 사이즈", p => p.s === "2사이즈(1·2)"], ["번호 1~3", p => p.s === "번호 3단계+"],
+  ["S–2XL", p => p.s === "S–XL(알파벳)"], ["신발 mm", p => p.s === "신발 mm"], ["프리(F)", p => p.s === "프리(F)"],
+].map(([title, f]) => {
+  const m = {};
+  P.filter(f).forEach(p => p.sz.forEach(([l, a, t]) => { const k = sizeKey(l); (m[k] ||= [0, 0]); m[k][0] += t - a; m[k][1] += t; }));
+  const labels = Object.keys(m).filter(k => m[k][1] >= 100).sort((a, b) =>
+    SIZE_ORDER.includes(a) && SIZE_ORDER.includes(b) ? SIZE_ORDER.indexOf(a) - SIZE_ORDER.indexOf(b) : (parseFloat(a) || 0) - (parseFloat(b) || 0));
+  return { title, labels, vals: labels.map(k => m[k][0] / m[k][1] * 100), n: labels.map(k => m[k][1]) };
+}).filter(g => g.labels.length);
+const gNum = GROUPS.find(g => g.title === "번호 1~3"), gShoe = GROUPS.find(g => g.title === "신발 mm");
+let szTitle = "사이즈별 품절 비중";
+if (gNum && gShoe && gNum.vals.length >= 3) {
+  const big = (gNum.vals[1] + gNum.vals[2]) / 2;
+  szTitle = `번호 사이즈는 큰 쪽(2·3)이 ${r0(big)}%로 1(${r0(gNum.vals[0])}%)보다, 신발은 작은 쪽(${gShoe.labels[0]}mm)이 ${r0(gShoe.vals[0])}%로 먼저 품절입니다`;
+}
+$("sz-title").textContent = szTitle;
+$("sz-meta").innerHTML = `<span class="key"><i style="background:var(--hue)"></i>가장 높은 사이즈</span><span class="key"><i style="background:var(--bar)"></i>나머지</span>`;
+$("sz-cap").textContent = `사이즈 표기 방식별로, 옵션 수가 100개 이상인 사이즈만 담았습니다. 점선은 전체 평균(${r0(avgOff)}%)입니다. ${NOTE_SOLD}`;
+$("sz-minis").setAttribute("aria-label", `사이즈별 품절 비중. ${szTitle}. 전체 평균은 ${r0(avgOff)}%입니다.`);
+const szMax = niceMax(Math.max(...GROUPS.flatMap(g => g.vals)));
+function drawSizes() {
+  const host = $("sz-minis");
+  host.innerHTML = GROUPS.map((g, i) => `<div class="mini" style="flex:${g.labels.length + 1.4} 1 ${g.labels.length * 22 + 20}px"><h3>${esc(g.title)}</h3><div class="mini-plot" data-i="${i}"></div></div>`).join("");
+  const narrow = host.clientWidth < 560;
+  host.querySelectorAll(".mini-plot").forEach(el => {
+    const g = GROUPS[+el.dataset.i], W = el.clientWidth, showY = +el.dataset.i === 0 || narrow;
+    const L = showY ? 34 : 4, T = 18, H = (narrow ? 150 : 295) + ext.sz, B = 28;
+    const bw = (W - L - 2) / g.labels.length, y = v => T + H - v / szMax.max * H;
+    const hi = g.vals.indexOf(Math.max(...g.vals));
+    let s = `<svg width="${W}" height="${T + H + B}" aria-hidden="true">`;
+    for (let t = 0; t <= szMax.max; t += szMax.step) {
+      s += `<line x1="${L}" x2="${W}" y1="${y(t) + .5}" y2="${y(t) + .5}" stroke="${t === 0 ? "#c9ced6" : "#e8ebef"}"/>`;
+      if (showY) s += `<text x="${L - 8}" y="${y(t) + 4}" text-anchor="end">${t}</text>`;
+    }
+    s += `<line x1="${L}" x2="${W}" y1="${y(avgOff)}" y2="${y(avgOff)}" stroke="#8d939c" stroke-dasharray="3 3"/>`;
+    g.vals.forEach((v, i) => {
+      const w = Math.min(34, bw - 8), x = L + i * bw + (bw - w) / 2;
+      s += `<rect x="${x}" y="${y(v)}" width="${w}" height="${v / szMax.max * H}" fill="${i === hi ? "#1d5fbf" : "#b8bec7"}"><title>${g.labels[i]}: ${r0(v)}% (옵션 ${g.n[i]}개)</title></rect>`;
+      s += `<text class="${i === hi ? "hue" : ""}" x="${x + w / 2}" y="${y(v) - 6}" text-anchor="middle">${r0(v)}</text>`;
+      s += `<text x="${x + w / 2}" y="${T + H + 20}" text-anchor="middle">${esc(g.labels[i])}</text>`;
+    });
+    el.innerHTML = s + "</svg>";
+  });
+}
+
+// 2) colors
+const colMap = {};
+P.forEach(p => p.col.forEach(([c, a, t]) => { (colMap[c] ||= [0, 0]); colMap[c][0] += t - a; colMap[c][1] += t; }));
+const colRows = Object.entries(colMap).filter(([, v]) => v[1] >= 120).map(([name, v]) => ({ name, rate: v[0] / v[1] * 100, opts: v[1] })).sort((a, b) => b.rate - a.rate).slice(0, 9);
+$("clr-title").textContent = `${colRows[0].name} ${r0(colRows[0].rate)}%, ${colRows[1].name} ${r0(colRows[1].rate)}%가 가장 많이 품절입니다`;
+$("colors").innerHTML = colRows.map((r, i) => `
+  <li class="${i === 0 ? "top" : ""}"><div class="line"><span class="name">${esc(r.name)}</span><span class="pct">${r0(r.rate)}%</span><span class="aux">${r.opts.toLocaleString("ko-KR")}개</span></div>
+  <div class="tr"><i style="width:${(r.rate / colRows[0].rate * 100).toFixed(1)}%"></i></div></li>`).join("");
+$("clr-cap").textContent = `옵션이 120개 이상인 색상만 담았고, 품절 비중이 높은 순입니다. 전체 평균은 ${r0(avgOff)}%입니다.`;
+
+// 3) sell-through by registration month
+const cohRate = monthList.map(m => offRate(P.filter(p => p.mo === m)));
+const cohN = monthList.map(m => P.filter(p => p.mo === m).length);
+const recent3From = addMonths(lastMonth, -2), old12To = addMonths(lastMonth, -12);
+const rec3 = offRate(P.filter(p => p.mo >= recent3From)), old12 = offRate(P.filter(p => p.mo <= old12To));
+$("coh-title").textContent = `올라온 지 오래될수록 품절이 늘어납니다: 최근 3개월 ${r0(rec3)}%, 1년 이상 ${r0(old12)}%`;
+$("coh-meta").innerHTML = `<span class="key"><i style="background:var(--hue)"></i>최근 3개월 등록</span><span class="key"><i style="background:var(--bar)"></i>그 이전</span>`;
+$("coh-cap").textContent = `등록월별 상품의 옵션 중 품절 비중입니다. 점선은 전체 평균(${r0(avgOff)}%)입니다. ${NOTE_SOLD}`;
+$("coh-chart").setAttribute("aria-label", `등록월별 품절 옵션 비중. 최근 3개월 등록 상품은 ${r0(rec3)}%, 1년 이상 지난 상품은 ${r0(old12)}%입니다.`);
+function drawCohort() {
+  const el = $("coh-chart"), W = el.clientWidth, mobile = W < 520;
+  const L = 40, R = 6, T = 22, B = 34, H = (mobile ? 190 : 320) + ext.coh;
+  const { max, step } = niceMax(Math.max(...cohRate));
+  const bw = (W - L - R) / SPAN, y = v => T + H - v / max * H;
+  let s = `<svg width="${W}" height="${T + H + B}" aria-hidden="true">`;
+  for (let t = 0; t <= max; t += step) {
+    s += `<line x1="${L}" x2="${W - R}" y1="${y(t) + .5}" y2="${y(t) + .5}" stroke="${t === 0 ? "#c9ced6" : "#e8ebef"}"/>`;
+    s += `<text x="${L - 8}" y="${y(t) + 4}" text-anchor="end">${t}</text>`;
+  }
+  s += `<text x="0" y="${T - 10}">품절(%)</text>`;
+  s += `<line x1="${L}" x2="${W - R}" y1="${y(avgOff)}" y2="${y(avgOff)}" stroke="#8d939c" stroke-dasharray="3 3"/>`;
+  cohRate.forEach((v, i) => {
+    const recent = monthList[i] >= recent3From, w = Math.max(3, bw - 4);
+    s += `<rect x="${L + i * bw + 2}" y="${y(v)}" width="${w}" height="${v / max * H}" fill="${recent ? "#1d5fbf" : "#b8bec7"}"><title>${monthList[i]} · 상품 ${cohN[i]}개 · 품절 ${r0(v)}%</title></rect>`;
+  });
+  const pk = cohRate.indexOf(Math.max(...cohRate));
+  s += `<text class="em" x="${L + pk * bw + bw / 2}" y="${y(cohRate[pk]) - 6}" text-anchor="middle">${r0(cohRate[pk])}</text>`;
+  const every = mobile ? 6 : 3;
+  monthList.forEach((m, i) => { if ((SPAN - 1 - i) % every === 0) s += `<text x="${L + i * bw + bw / 2}" y="${T + H + 22}" text-anchor="middle">${m.slice(2).replace("-", ".")}</text>`; });
+  el.innerHTML = s + "</svg>";
+}
+
+// 4) what the newest drops are made of, compared with the whole catalogue
+const recentSet = P.filter(p => p.mo >= recent3From);
+const mixRows = kinds.filter(x => x.l.length >= 50).map(x => ({
+  k: x.k, d: (recentSet.filter(p => p.k === x.k).length / recentSet.length - x.l.length / N) * 100,
+})).sort((a, b) => b.d - a.d);
+const mixMax = Math.max(...mixRows.map(r => Math.abs(r.d)));
+$("mix-title").textContent = `최근 3개월 신상은 ${mixRows[0].k} 비중이 전체보다 ${mixRows[0].d.toFixed(1)}%p 높습니다`;
+$("mix").innerHTML = mixRows.map(r => `
+  <li><span>${esc(r.k)}</span><span class="trk"><i style="${r.d >= 0 ? `left:50%;width:${(r.d / mixMax * 50).toFixed(1)}%;background:#1d5fbf` : `right:50%;width:${(-r.d / mixMax * 50).toFixed(1)}%;background:#b8bec7`}"></i></span><span class="val ${r.d < 0 ? "neg" : ""}">${r.d >= 0 ? "+" : "−"}${Math.abs(r.d).toFixed(1)}%p</span></li>`).join("");
+$("mix-cap").textContent = `${recent3From.replace("-", ".")}부터 올라온 ${recentSet.length}개의 종류 비중에서 전체 ${N.toLocaleString("ko-KR")}개의 비중을 뺀 값입니다. 상품이 50개 이상인 종류만 담았습니다.`;
+
+// 5) price range per kind, next to its sold-out share
+const krKinds = kinds.slice(0, 9).map(x => {
+  const f = x.l.map(p => p.f);
+  return { k: x.k, n: x.l.length, p10: quant(f, .1), p25: quant(f, .25), med: median(f), p75: quant(f, .75), p90: quant(f, .9), sold: offRate(x.l) };
+}).sort((a, b) => b.med - a.med);
+const krMax = Math.ceil(Math.max(...krKinds.map(r => r.p90)) / 20000) * 20000;
+const hotSold = [...krKinds].sort((a, b) => b.sold - a.sold).slice(0, 3).map(r => r.k);
+$("kr-title").textContent = `종류별 가격 폭: ${eun(krKinds[0].k)} 중간 ${won(krKinds[0].med)}원, ${eun(krKinds[krKinds.length - 1].k)} ${won(krKinds[krKinds.length - 1].med)}원입니다`;
+$("kr-cap").textContent = `가는 선은 하위 10~90%, 굵은 막대는 25~75%, 세로 눈금은 중간값입니다. 품절은 옵션 기준 비중이며 높은 3곳(${hotSold.join(", ")})을 진하게 표시했습니다. 상품 수가 많은 ${krKinds.length}개 종류만 담았습니다.`;
+function drawKinds() {
+  const host = $("kr");
+  const header = `<div class="kr-row kr-head"><span>종류</span><span class="r">개수</span><span class="axis"></span><span class="r">중간가</span><span class="r">품절</span></div>`;
+  host.innerHTML = header + krKinds.map((r, i) => `<div class="kr-row"><span>${esc(r.k)}</span><span class="r">${r.n}</span><span class="viz" data-i="${i}"></span><span class="r med">${won(r.med)}</span><span class="r sold ${hotSold.includes(r.k) ? "hot" : ""}">${r0(r.sold)}%</span></div>`).join("");
+  const draw = (el, rowFn, h) => {
+    const W = el.clientWidth, x = v => Math.min(W - 1, v / krMax * (W - 2) + 1);
+    el.innerHTML = `<svg width="${W}" height="${h}" aria-hidden="true">${rowFn(x, W)}</svg>`;
+  };
+  draw(host.querySelector(".axis"), (x, W) => {
+    let s = "";
+    const stepV = W < 260 ? 40000 : 20000;
+    for (let v = 0; v <= krMax; v += stepV) {
+      const px = x(v), a = v === 0 ? "start" : v >= krMax ? "end" : "middle";
+      s += `<text x="${px}" y="40" text-anchor="${a}">${v === 0 ? "0" : v / 10000 + "만원"}</text><line x1="${px}" x2="${px}" y1="46" y2="56" stroke="#cfd3da"/>`;
+    }
+    return s;
+  }, 56);
+  host.querySelectorAll(".viz").forEach(el => {
+    const r = krKinds[+el.dataset.i];
+    draw(el, x => {
+      let s = "";
+      for (let v = 20000; v < krMax; v += 20000) s += `<line x1="${x(v)}" x2="${x(v)}" y1="0" y2="40" stroke="#eef0f3"/>`;
+      s += `<line x1="${x(r.p10)}" x2="${x(r.p90)}" y1="20" y2="20" stroke="#8d939c" stroke-width="2"/>`;
+      s += `<rect x="${x(r.p25)}" y="12" width="${Math.max(2, x(r.p75) - x(r.p25))}" height="16" rx="2" fill="#b8bec7"/>`;
+      s += `<rect x="${x(r.med) - 1.5}" y="9" width="3" height="22" fill="#1d5fbf"><title>${r.k}: 중간 ${won(r.med)}원, 25~75% ${won(r.p25)}~${won(r.p75)}원</title></rect>`;
+      return s;
+    }, 40);
+  });
+}
+
+// 6) how far the clothing sizes reach
+const upper = p => { let m = 0; p.sz.forEach(([l]) => { const r = l.match(/\((\d+)-(\d+)\)/); if (r) m = Math.max(m, +r[2]); }); if (!m) (p.br.match(/\d+-\d+/g) || []).forEach(x => { m = Math.max(m, +x.split("-")[1]); }); return m; };
+const SKIP = ["신발", "팬츠", "가방", "주얼리", "액세서리", "수영복"];
+const garments = P.filter(p => !SKIP.includes(p.k)).map(p => ({ p, u: upper(p) })).filter(x => x.u >= 55 && x.u <= 140);
+const covBins = [["90 미만", x => x < 90], ["90~99", x => x >= 90 && x < 100], ["100~109", x => x >= 100 && x < 110], ["110~119", x => x >= 110 && x < 120], ["120 이상", x => x >= 120]]
+  .map(([name, f]) => ({ name, n: garments.filter(g => f(g.u)).length }));
+console.assert(covBins.reduce((a, b) => a + b.n, 0) === garments.length, "coverage bins sum to total");
+const covWide = garments.filter(g => g.u >= 110).length;
+$("cov-title").textContent = `의류의 ${pct(covWide, garments.length)}%가 110 이상까지 나옵니다`;
+$("cov").innerHTML = covBins.map((r, i) => `<li class="${r.n === Math.max(...covBins.map(b => b.n)) ? "top" : ""}"><div class="line"><span class="name">${r.name}</span><span class="count">${r.n}</span><span class="aux">${pct(r.n, garments.length)}%</span></div><div class="tr"><i style="width:${(r.n / Math.max(...covBins.map(b => b.n)) * 100).toFixed(1)}%"></i></div></li>`).join("");
+$("cov-cap").textContent = `상의·스커트·원피스 등 ${garments.length}개의 가장 큰 사이즈 범위(예: 2(99-110)는 110)입니다. 팬츠, 신발, 가방, 액세서리, 주얼리, 수영복은 뺐습니다.`;
+
+// 7) discount structure
+const r25 = P.filter(p => p.r === 25).length, r50 = P.filter(p => p.r === 50).length;
+const withMsrp = P.filter(p => p.m);
+const msrpOff = withMsrp.length ? sum(withMsrp, p => (1 - p.f / p.m) * 100) / withMsrp.length : 0;
+$("disc").innerHTML = `
+  <p><b>${r25.toLocaleString("ko-KR")}개(${pct(r25, N)}%)</b>에 쿠폰 25%가 같은 조건으로 붙고, 세일 상품 <b>${r50}개</b>는 50%입니다. 그 밖의 할인율은 없습니다.</p>
+  <p style="margin-top:8px">소비자가가 함께 표시된 <b>${withMsrp.length}개</b>는 소비자가보다 평균 <b>${r0(msrpOff)}%</b> 낮게 팝니다.</p>
+  <p style="margin-top:8px">상품명에 <b>오늘출발</b>이 붙은 상품은 ${P.filter(p => p.td).length}개, <b>ONLY BLUEPOPS</b>가 붙은 자체제작 표시 상품은 ${own.length}개입니다.</p>`;
 
 // ---------- catalog ----------
 const state = { cat: "전체", q: "", price: "", flag: "", sort: "new", shown: 40 };
@@ -549,6 +798,7 @@ function view() {
   let list = P.filter(matches);
   if (state.sort === "low") list = [...list].sort((a, b) => a.f - b.f || b.n - a.n);
   if (state.sort === "high") list = [...list].sort((a, b) => b.f - a.f || b.n - a.n);
+  if (state.sort === "sold") list = [...list].sort((a, b) => (b.ot ? b.ou / b.ot : 0) - (a.ot ? a.ou / a.ot : 0) || b.n - a.n);
   return list;
 }
 function renderTabs() {
@@ -579,7 +829,40 @@ $("source").textContent =
   `등록월은 대표 이미지가 올라온 달이며, 이미지 경로에 날짜가 없는 ${estN}개(*)는 상품 번호로 추정했습니다.`;
 
 renderTabs(); renderList();
-function drawAll() { drawPrice(); drawMonths(); }
+function drawCharts() { drawPrice(); drawMonths(); drawSizes(); drawCohort(); drawKinds(); }
+// cards that share a grid row should end on one line: grow the chart side, or loosen the list rows on the other
+const PAIRS = [
+  ["price-card", "kind-card", "price", "kinds", kindRows.length], ["month-card", "side1", "month", "schemes", schemeRows.length],
+  ["sz-card", "clr-card", "sz", "colors", colRows.length], ["coh-card", "mix-card", "coh", "mix", mixRows.length],
+  ["kr-card", "side2", "kr", "cov", covBins.length],
+];
+function applyExt() {
+  [["kinds", "kinds", kindRows.length], ["schemes", "schemes", schemeRows.length], ["colors", "colors", colRows.length], ["mix", "mix", mixRows.length], ["cov", "cov", covBins.length]]
+    .forEach(([k, id, n]) => $(id).style.setProperty("--ry", (ext[k] / (2 * n)).toFixed(2) + "px"));
+  $("kr").style.setProperty("--ry", (ext.kr / (2 * (krKinds.length + 0))).toFixed(2) + "px");
+}
+function balance() {
+  Object.keys(ext).forEach(k => (ext[k] = 0));
+  applyExt(); drawCharts();
+  if (window.innerWidth <= 900) return;
+  const grid = document.querySelector(".grid");
+  for (let it = 0; it < 4; it++) {
+    grid.classList.add("measure");
+    let moved = false;
+    PAIRS.forEach(([l, r, gl, gr]) => {
+      const d = $(r).offsetHeight - $(l).offsetHeight;
+      if (Math.abs(d) < 2) return;
+      moved = true;
+      if (d > 0) ext[gl] += d; else ext[gr === "cov" ? "cov" : gr] += -d;
+    });
+    grid.classList.remove("measure");
+    if (!moved) break;
+    // the kr rows use the same spacing variable as the left chart's growth
+    ext.kr = ext.kr;
+    applyExt(); drawCharts();
+  }
+}
+function drawAll() { balance(); }
 let rz; window.addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(drawAll, 80); });
 drawAll();
 if (document.fonts && document.fonts.ready) document.fonts.ready.then(drawAll);
