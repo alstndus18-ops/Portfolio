@@ -83,14 +83,18 @@ header h1 span { color: var(--blue); }
 .list { margin: 0; padding: 0; list-style: none; background: var(--surface); border-radius: 14px; border: 1px solid var(--line); }
 .row {
   display: grid;
-  grid-template-columns: 2.5rem minmax(0, 1.45fr) minmax(0, 1.25fr) minmax(0, 1.2fr);
-  grid-template-areas: "rank info price sizes";
+  grid-template-columns: 2rem 72px minmax(0, 1.4fr) minmax(0, 1.2fr) minmax(0, 1.1fr);
+  grid-template-areas: "rank thumb info price sizes";
   gap: 8px 24px; align-items: center;
   padding: 16px 20px;
   border-top: 1px solid var(--line);
 }
 .row:first-child { border-top: 0; }
 .rank { grid-area: rank; font-size: 15px; font-weight: 600; color: var(--muted); }
+.thumb {
+  grid-area: thumb; width: 72px; aspect-ratio: 440 / 576; border-radius: 8px;
+  object-fit: cover; background: var(--track); display: block;
+}
 .info { grid-area: info; min-width: 0; }
 .name { margin: 0; font-size: 16px; font-weight: 600; line-height: 1.35; letter-spacing: -0.01em; }
 .tag {
@@ -127,8 +131,8 @@ header h1 span { color: var(--blue); }
 @media (max-width: 820px) {
   .wrap { padding-top: 32px; }
   .row {
-    grid-template-columns: 1.75rem minmax(0, 1fr);
-    grid-template-areas: "rank info" ". price" ". sizes";
+    grid-template-columns: 1.5rem 72px minmax(0, 1fr);
+    grid-template-areas: "rank thumb info" ". price price" ". sizes sizes";
     padding: 16px;
   }
 }
@@ -255,6 +259,7 @@ function renderList() {
   document.getElementById("list").innerHTML = list.map((i, n) => `
     <li class="row" style="--n:${n}">
       <div class="rank">${i.rank}</div>
+      <img class="thumb" src="images/${i.id}.jpg" alt="${esc(i.name)}" width="72" height="94" loading="lazy">
       <div class="info">
         <h2 class="name">${i.today ? '<span class="tag">오늘출발</span>' : ""}${esc(i.name)}</h2>
         <p class="sub">${esc(i.kind)} · ${esc(i.colors.join(", "))}${i.code ? " · " + esc(i.code) : ""}</p>
