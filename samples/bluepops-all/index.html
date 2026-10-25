@@ -203,6 +203,13 @@ h1 { margin: 0; font-size: 24px; line-height: 32px; font-weight: 500; }
 .kr-row .sold { color: var(--muted); }
 .kr-row .sold.hot { color: var(--text); font-weight: 500; }
 .kr-row svg { display: block; overflow: visible; }
+.tip {
+  position: fixed; left: 0; top: 0; z-index: 10; pointer-events: none; opacity: 0;
+  max-width: 260px; padding: 7px 10px; border-radius: 6px; background: #0a0a0a; color: #fff;
+  font-size: 13px; line-height: 19px; white-space: pre-line; transition: opacity 120ms;
+}
+[data-tip] { cursor: default; }
+@media (prefers-reduced-motion: reduce) { .tip { transition: none; } }
 @media (max-width: 900px) {
   :root { --control-height: 44px; }
   .minis, .kr { margin-left: 16px; margin-right: 16px; }
@@ -490,8 +497,9 @@ function drawPrice() {
   for (let i = 0; i < NB; i++) {
     const x0 = L + i * bw + gap;
     const ha = allShare[i] / max * plotH, hb = bestShare[i] / max * plotH;
-    s += `<rect x="${x0}" y="${y(allShare[i])}" width="${barW}" height="${ha}" fill="#b8bec7"/>`;
-    if (best.length) s += `<rect x="${x0 + barW}" y="${y(bestShare[i])}" width="${barW}" height="${hb}" fill="#1d5fbf"/>`;
+    const tipP = `${binLabel(i)}\n전체 ${allCnt[i]}개 (${Math.round(allShare[i])}%)` + (best.length ? `\nBEST ${bestCnt[i]}개 (${Math.round(bestShare[i])}%)` : "");
+    s += `<rect data-tip="${tipP}" x="${x0}" y="${y(allShare[i])}" width="${barW}" height="${ha}" fill="#b8bec7"/>`;
+    if (best.length) s += `<rect data-tip="${tipP}" x="${x0 + barW}" y="${y(bestShare[i])}" width="${barW}" height="${hb}" fill="#1d5fbf"/>`;
   }
   const hiBest = bestShare.indexOf(Math.max(...bestShare));
   s += `<text class="em" x="${L + modeAll * bw + gap + barW / 2}" y="${y(allShare[modeAll]) - 6}" text-anchor="middle">${Math.round(allShare[modeAll])}%</text>`;
@@ -550,7 +558,7 @@ function drawMonths() {
 // ---------- side lists ----------
 function barList(el, rows, maxV, fmtAux) {
   el.innerHTML = rows.map((r, i) => `
-    <li class="${i === 0 ? "top" : ""}"><div class="line"><span class="name">${esc(r.name)}</span><span class="count">${r.n.toLocaleString("ko-KR")}</span><span class="aux">${fmtAux ? fmtAux(r) : ""}</span></div>
+    <li class="${i === 0 ? "top" : ""}" data-tip="${esc(r.name)}\n${r.n.toLocaleString("ko-KR")}개${r.med ? ` · 중간 ${won(r.med)}원` : ""}"><div class="line"><span class="name">${esc(r.name)}</span><span class="count">${r.n.toLocaleString("ko-KR")}</span><span class="aux">${fmtAux ? fmtAux(r) : ""}</span></div>
     <div class="tr"><i style="width:${(r.n / maxV * 100).toFixed(1)}%"></i></div></li>`).join("");
 }
 const kindRows = kinds.slice(0, 8).map(x => ({ name: x.k, n: x.l.length, med: median(x.l.map(p => p.f)) }));
@@ -636,7 +644,7 @@ P.forEach(p => p.col.forEach(([c, a, t]) => { (colMap[c] ||= [0, 0]); colMap[c][
 const colRows = Object.entries(colMap).filter(([, v]) => v[1] >= 120).map(([name, v]) => ({ name, rate: v[0] / v[1] * 100, opts: v[1] })).sort((a, b) => b.rate - a.rate).slice(0, 9);
 $("clr-title").textContent = `${colRows[0].name} ${r0(colRows[0].rate)}%, ${colRows[1].name} ${r0(colRows[1].rate)}%가 가장 많이 품절입니다`;
 $("colors").innerHTML = colRows.map((r, i) => `
-  <li class="${i === 0 ? "top" : ""}"><div class="line"><span class="name">${esc(r.name)}</span><span class="pct">${r0(r.rate)}%</span><span class="aux">${r.opts.toLocaleString("ko-KR")}개</span></div>
+  <li class="${i === 0 ? "top" : ""}" data-tip="${esc(r.name)}\n품절 ${r0(r.rate)}% · 옵션 ${r.opts.toLocaleString("ko-KR")}개"><div class="line"><span class="name">${esc(r.name)}</span><span class="pct">${r0(r.rate)}%</span><span class="aux">${r.opts.toLocaleString("ko-KR")}개</span></div>
   <div class="tr"><i style="width:${(r.rate / colRows[0].rate * 100).toFixed(1)}%"></i></div></li>`).join("");
 $("clr-cap").textContent = `옵션이 120개 이상인 색상만 담았고, 품절 비중이 높은 순입니다. 전체 평균은 ${r0(avgOff)}%입니다.`;
 
@@ -695,7 +703,7 @@ $("kr-cap").textContent = `가는 선은 하위 10~90%, 굵은 막대는 25~75%,
 function drawKinds() {
   const host = $("kr");
   const header = `<div class="kr-row kr-head"><span>종류</span><span class="r">개수</span><span class="axis"></span><span class="r">중간가</span><span class="r">품절</span></div>`;
-  host.innerHTML = header + krKinds.map((r, i) => `<div class="kr-row"><span>${esc(r.k)}</span><span class="r">${r.n}</span><span class="viz" data-i="${i}"></span><span class="r med">${won(r.med)}</span><span class="r sold ${hotSold.includes(r.k) ? "hot" : ""}">${r0(r.sold)}%</span></div>`).join("");
+  host.innerHTML = header + krKinds.map((r, i) => `<div class="kr-row" data-tip="${esc(r.k)} · ${r.n}개\n중간 ${won(r.med)}원\n25~75% ${won(r.p25)}~${won(r.p75)}원\n10~90% ${won(r.p10)}~${won(r.p90)}원\n품절 ${r0(r.sold)}%"><span>${esc(r.k)}</span><span class="r">${r.n}</span><span class="viz" data-i="${i}"></span><span class="r med">${won(r.med)}</span><span class="r sold ${hotSold.includes(r.k) ? "hot" : ""}">${r0(r.sold)}%</span></div>`).join("");
   const draw = (el, rowFn, h) => {
     const W = el.clientWidth, x = v => Math.min(W - 1, v / krMax * (W - 2) + 1);
     el.innerHTML = `<svg width="${W}" height="${h}" aria-hidden="true">${rowFn(x, W)}</svg>`;
@@ -864,6 +872,34 @@ function balance() {
   }
 }
 function drawAll() { balance(); }
+// hover / tap tooltip for anything with data-tip (charts, list rows)
+const tip = document.createElement("div");
+tip.className = "tip";
+tip.setAttribute("aria-hidden", "true");
+document.body.appendChild(tip);
+function showTip(e) {
+  const el = e.target && e.target.closest ? e.target.closest("[data-tip]") : null;
+  if (!el) { tip.style.opacity = 0; return; }
+  tip.textContent = el.getAttribute("data-tip");
+  tip.style.opacity = 1;
+  const r = tip.getBoundingClientRect();
+  let x = e.clientX + 14, y = e.clientY + 16;
+  if (x + r.width > innerWidth - 8) x = e.clientX - r.width - 14;
+  if (y + r.height > innerHeight - 8) y = e.clientY - r.height - 14;
+  tip.style.left = Math.max(8, x) + "px";
+  tip.style.top = Math.max(8, y) + "px";
+}
+document.addEventListener("pointermove", showTip);
+document.addEventListener("pointerdown", showTip);
+document.addEventListener("pointerleave", () => { tip.style.opacity = 0; });
+// SVG marks keep their text in <title>; move it to data-tip so the same bubble shows it
+function promoteTitles(root) {
+  root.querySelectorAll("title").forEach(t => { const p = t.parentNode; p.setAttribute("data-tip", t.textContent); t.remove(); });
+}
+["price-chart", "month-chart", "sz-minis", "coh-chart", "kr"].forEach(id => {
+  const el = $(id);
+  new MutationObserver(() => promoteTitles(el)).observe(el, { childList: true, subtree: true });
+});
 let rz; window.addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(drawAll, 80); });
 drawAll();
 if (document.fonts && document.fonts.ready) document.fonts.ready.then(drawAll);
