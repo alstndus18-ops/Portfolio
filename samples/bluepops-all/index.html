@@ -414,6 +414,7 @@ const CAT_ORDER = Object.keys(CAT_KO);
 // ---------- derived numbers (everything on screen comes from the rows) ----------
 const N = P.length;
 const medF = median(P.map(p => p.f)), medP = median(P.map(p => p.p));
+const avgF = Math.round(P.reduce((a, p) => a + p.f, 0) / P.length / 10) * 10;
 const best = P.filter(p => p.tg.includes("Best"));
 const medBest = best.length ? median(best.map(p => p.f)) : 0;
 const asOf = BP.asOf;
@@ -441,7 +442,7 @@ $("finding").innerHTML =
   `최근 12개월에 <b>${recent12.length.toLocaleString("ko-KR")}개</b>가 올라왔고, 옵션의 <b>${pct(offOpt, totOpt)}%</b>가 품절입니다.`;
 
 $("kpis").innerHTML = `
-  <div class="kpi lead"><div class="label">중간 할인가</div><div class="value money">${won(medF)}<span class="u">원</span></div><div class="note">판매가 중간 ${won(medP)}원 · 쿠폰 적용가 기준</div></div>
+  <div class="kpi lead"><div class="label">중간 할인가</div><div class="value money">${won(medF)}<span class="u">원</span></div><div class="note">중앙값. 평균은 ${won(avgF)}원 · 판매가 중간 ${won(medP)}원</div></div>
   <div class="kpi"><div class="label">전체 상품</div><div class="value">${N.toLocaleString("ko-KR")}<span class="u">개</span></div><div class="note">${kinds.length}개 종류, 가격 ${won(Math.min(...P.map(p => p.f)))}${dash}${won(Math.max(...P.map(p => p.f)))}원</div></div>
   <div class="kpi"><div class="label">최근 12개월 등록</div><div class="value">${recent12.length.toLocaleString("ko-KR")}<span class="u">개</span></div><div class="note">전체의 ${pct(recent12.length, N)}% · ${recent12From.replace("-", ".")}부터</div></div>
   <div class="kpi"><div class="label">품절 옵션</div><div class="value">${pct(offOpt, totOpt)}<span class="u">%</span></div><div class="note">옵션 ${totOpt.toLocaleString("ko-KR")}개 중 ${offOpt.toLocaleString("ko-KR")}개<br>전 옵션 품절 상품 ${allOff.length}개</div></div>`;
