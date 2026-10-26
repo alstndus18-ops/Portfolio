@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>국내 패션 이커머스 시장 개요 · 경쟁사 모니터</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;700&family=Geist+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ground: #f2f4f7; --surface: #ffffff; --raised: #eef0f3; --border: #e2e5ea; --rule: #eef0f3;
+  --control: #cfd3da; --text: #0a0a0a; --muted: #666b73; --accent: #141414; --hue: #1d5fbf;
+  --bar: #b8bec7; --track: #e3e6eb;
+  --radius-card: 8px; --gap: 12px; --pad: 24px;
+  --font: "Geist", "Noto Sans KR", system-ui, sans-serif; --mono: "Geist Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--ground); color: var(--text); font-family: var(--font); font-size: 14px; line-height: 20px; font-variant-numeric: tabular-nums; -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h1, h2, h3 { text-wrap: balance; word-break: keep-all; margin: 0; }
+p, li, .finding, .note, .cap { word-break: keep-all; text-wrap: pretty; }
+.u { color: var(--muted); font-size: 13px; font-weight: 400; margin-left: 1px; }
+
+.column { max-width: 1152px; margin: 0 auto; padding: 0 20px; }
+@media (min-width: 1200px) { .column { padding: 0; } }
+.bar { height: 48px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 500; min-width: 0; }
+.brand svg { display: block; flex: none; }
+.brand .scope { color: var(--muted); font-weight: 400; white-space: nowrap; }
+.brand .scope::before { content: "/"; margin-right: 10px; color: var(--control); }
+.bar-right { display: flex; align-items: center; gap: 16px; color: var(--muted); font-size: 13px; white-space: nowrap; }
+.bar-right a { color: var(--text); text-decoration: none; }
+.bar-right a:hover { text-decoration: underline; }
+
+.title-row { padding: 28px 0 20px; }
+h1 { font-size: 24px; line-height: 32px; font-weight: 500; }
+.finding { margin: 4px 0 0; font-size: 15px; line-height: 22px; color: var(--muted); max-width: 76ch; }
+.finding b { color: var(--text); font-weight: 500; }
+
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-card); margin-bottom: var(--gap); }
+.kpis { display: grid; grid-template-columns: repeat(4, 1fr); }
+.kpi { padding: 20px var(--pad) 22px; border-left: 1px solid var(--border); min-width: 0; }
+.kpi:first-child { border-left: 0; }
+.kpi .label { color: var(--muted); font-size: 14px; }
+.kpi .value { margin-top: 6px; font-size: 24px; line-height: 32px; font-weight: 500; }
+.kpi.lead .value { font-size: 36px; line-height: 44px; margin-top: 2px; }
+.kpi .note { margin-top: 4px; color: var(--muted); font-size: 13px; line-height: 18px; }
+
+.head { padding: 18px var(--pad) 0; }
+.head h2 { font-size: 16px; line-height: 24px; font-weight: 500; }
+.head .sub { margin: 2px 0 0; color: var(--muted); font-size: 13px; line-height: 18px; }
+.cap { padding: 6px var(--pad) 20px; margin: 0; color: var(--muted); font-size: 13px; line-height: 18px; }
+.legend { padding: 0 var(--pad); margin: 12px 0 0; display: flex; gap: 16px; flex-wrap: wrap; color: var(--muted); font-size: 13px; }
+.legend .key { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+.legend i.dash { width: 0; height: 12px; border-radius: 0; border-left: 1px dashed #8d939c; }
+
+/* region table */
+.rg { padding: 4px var(--pad) 0; margin-top: 8px; }
+.rg-row { display: grid; grid-template-columns: 112px minmax(0, 1.5fr) minmax(0, 1fr) minmax(0, 1fr); gap: 0 24px; align-items: center; height: 40px; border-top: 1px solid var(--rule); }
+.rg-row.hd { height: 32px; border-top: 0; border-bottom: 1px solid var(--border); color: var(--muted); font-size: 13px; }
+.rg-row .num { text-align: right; }
+.cellbar { display: grid; grid-template-columns: minmax(0, 1fr) 56px; gap: 10px; align-items: center; }
+.cellbar .t { position: relative; height: 12px; background: var(--raised); border-radius: 2px; }
+.cellbar .t i { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 2px; background: var(--bar); }
+.cellbar .t i.hot { background: var(--hue); }
+.cellbar .t i.ink { background: var(--accent); }
+.cellbar .t b { position: absolute; top: -4px; bottom: -4px; width: 0; border-left: 1px dashed #8d939c; }
+.cellbar .v { text-align: right; font-weight: 500; }
+.rg-row .nm .flag { color: var(--muted); font-weight: 400; }
+
+/* grouped bars */
+.groups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 40px; padding: 0 var(--pad); margin-top: 8px; }
+.groups h3, .two h3 { font-size: 14px; line-height: 20px; font-weight: 500; }
+.groups .gs, .two .gs { color: var(--muted); font-size: 13px; line-height: 18px; margin-bottom: 4px; }
+.bars { list-style: none; margin: 0; padding: 0; }
+.bars li { display: grid; grid-template-columns: 112px minmax(0, 1fr) 76px; gap: 10px; align-items: center; height: 36px; border-top: 1px solid var(--rule); }
+.bars li:first-child { border-top: 0; }
+.bars .t { position: relative; height: 12px; background: var(--raised); border-radius: 2px; }
+.bars .t i { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 2px; background: var(--bar); }
+.bars .t i.hue { background: var(--hue); }
+.bars .v { text-align: right; font-weight: 500; }
+.bars .v small { color: var(--muted); font-weight: 400; font-size: 12px; margin-left: 2px; }
+
+.two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 40px; padding: 0 var(--pad); margin-top: 8px; }
+.two .bars li { grid-template-columns: 124px minmax(0, 1fr) 40px; }
+
+.notes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 40px; padding: 0 var(--pad) 20px; margin-top: 8px; }
+.notes h3 { font-size: 14px; font-weight: 500; margin-bottom: 6px; }
+.notes ul { margin: 0; padding: 0; list-style: none; }
+.notes li { padding: 8px 0; border-top: 1px solid var(--rule); line-height: 20px; }
+.notes li:first-child { border-top: 0; }
+.notes li b { font-weight: 500; }
+.source { color: var(--muted); font-size: 13px; line-height: 18px; margin: 14px 2px 48px; max-width: 90ch; }
+
+.tip { position: fixed; left: 0; top: 0; z-index: 10; pointer-events: none; opacity: 0; max-width: 260px; padding: 7px 10px; border-radius: 6px; background: #0a0a0a; color: #fff; font-size: 13px; line-height: 19px; white-space: pre-line; transition: opacity 120ms; }
+[data-tip] { cursor: default; }
+@media (prefers-reduced-motion: reduce) { .tip { transition: none; } }
+
+@media (max-width: 900px) {
+  .kpis { grid-template-columns: 1fr 1fr; }
+  .kpi { border-left: 0; border-top: 1px solid var(--border); padding: 16px 16px 18px; }
+  .kpi:nth-child(2n) { border-left: 1px solid var(--border); }
+  .kpi:nth-child(-n+2) { border-top: 0; }
+  .kpi .value { font-size: 20px; line-height: 28px; }
+  .kpi.lead .value { font-size: 30px; line-height: 38px; }
+  .title-row { padding-top: 20px; }
+  .bar-right .hide-s { display: none; }
+  .head { padding-left: 16px; padding-right: 16px; }
+  .rg { padding-left: 16px; padding-right: 16px; }
+  .rg-row { grid-template-columns: 84px minmax(0, 1fr) minmax(0, 1fr); height: auto; padding: 8px 0; gap: 4px 14px; }
+  .rg-row.hd { display: none; }
+  .rg-row .nm { grid-row: 1 / 3; align-self: start; padding-top: 2px; }
+  .rg-row .c-n { grid-column: 2 / 4; }
+  .rg-row .c-sh { grid-column: 2; }
+  .rg-row .c-cl { grid-column: 3; }
+  .cellbar { grid-template-columns: minmax(0, 1fr) 36px; gap: 6px; }
+  .rg-row .c-n .cellbar { grid-template-columns: minmax(0, 1fr) 60px; }
+  .rg-row .c-sh .cellbar::before { content: "패션 비중"; color: var(--muted); font-size: 12px; grid-column: 1 / -1; line-height: 14px; }
+  .rg-row .c-cl .cellbar::before { content: "누적 폐업 비중"; color: var(--muted); font-size: 12px; grid-column: 1 / -1; line-height: 14px; }
+  .groups, .two, .notes { grid-template-columns: 1fr; padding-left: 16px; padding-right: 16px; gap: 20px; }
+  .cap, .legend { padding-left: 16px; padding-right: 16px; }
+}
+</style>
+</head>
+<body>
+<div class="column">
+  <header class="bar">
+    <div class="brand">
+      <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><rect x="2" y="13" width="4" height="7" fill="#0a0a0a"/><rect x="8" y="8" width="4" height="12" fill="#0a0a0a"/><rect x="14" y="3" width="4" height="17" fill="#0a0a0a"/></svg>
+      <span>경쟁사 모니터</span><span class="scope">시장 개요</span>
+    </div>
+    <div class="bar-right"><a href="../bluepops-all/index.html" class="hide-s">블루팝스 전체 상품</a><span id="stamp"></span></div>
+  </header>
+
+  <div class="title-row">
+    <h1>국내 패션 이커머스 시장 개요</h1>
+    <p class="finding" id="finding"></p>
+  </div>
+
+  <section class="card kpis" id="kpis" aria-label="요약"></section>
+
+  <section class="card" aria-labelledby="rg-title">
+    <div class="head"><h2 id="rg-title"></h2><p class="sub">전국 17개 시도 통신판매 신고 · 패션 후보 건수가 많은 순</p></div>
+    <div class="rg" id="rg"></div>
+    <div class="legend" id="rg-legend"></div>
+    <p class="cap" id="rg-cap"></p>
+  </section>
+
+  <section class="card" aria-labelledby="mall-title">
+    <div class="head"><h2 id="mall-title"></h2><p class="sub" id="mall-sub"></p></div>
+    <div class="groups" id="groups"></div>
+    <p class="cap" id="mall-cap"></p>
+  </section>
+
+  <section class="card" aria-labelledby="chan-title">
+    <div class="head"><h2 id="chan-title"></h2><p class="sub" id="chan-sub"></p></div>
+    <div class="two" id="two"></div>
+    <p class="cap" id="chan-cap"></p>
+  </section>
+
+  <section class="card" aria-labelledby="read-title">
+    <div class="head"><h2 id="read-title">이 자료로 읽을 수 있는 것과 없는 것</h2></div>
+    <div class="notes" id="notes"></div>
+  </section>
+
+  <p class="source" id="source"></p>
+</div>
+
+<script src="data.js"></script>
+<script>
+const MK = window.MK, F = MK.ftc, T = F.total, R = F.regions, DB = MK.db;
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const n0 = v => Math.round(v).toLocaleString("ko-KR");
+const p1 = v => (Math.round(v * 10) / 10).toFixed(1);
+const p0 = v => String(Math.round(v));
+const pc = (a, b) => (b ? a / b * 100 : 0);
+
+// ---------- derived numbers ----------
+const natShare = pc(T.fash, T.valid), natClose = pc(T.closed, T.valid);
+R.forEach(r => { r.share = pc(r.fash, r.valid); r.close = pc(r.closed, r.valid); r.badPct = pc(r.bad, r.bad + r.valid); });
+const byName = Object.fromEntries(R.map(r => [r.name, r]));
+const short = s => s.replace("특별자치시", "").replace("특별자치도", "").replace("특별시", "").replace("광역시", "");
+const capital = byName["서울특별시"].fash + byName["경기도"].fash;
+const capShare = pc(capital, T.fash);
+const byShare = [...R].sort((a, b) => b.share - a.share);
+const hiS = byShare[0], loS = byShare[byShare.length - 1];
+
+$("stamp").textContent = `${MK.asOf} 집계`;
+$("finding").innerHTML =
+  `전국 통신판매 신고 중 집계 가능한 ${n0(T.valid)}건 가운데 <b>${n0(T.fash)}건(${p0(natShare)}%)</b>이 패션 관련 품목입니다. ` +
+  `그중 <b>${p0(capShare)}%가 서울·경기</b>에 있고, 패션 비중은 ${short(hiS.name)} ${p0(hiS.share)}%부터 ${short(loS.name)} ${p0(loS.share)}%까지 지역 차이가 큽니다.`;
+
+$("kpis").innerHTML = [
+  { cls: "lead", label: "패션 후보 신고", value: `${n0(T.fash)}<span class="u">건</span>`, note: `집계 가능한 신고 ${n0(T.valid)}건의 ${p1(natShare)}%` },
+  { label: "서울·경기 집중", value: `${p1(capShare)}<span class="u">%</span>`, note: `서울 ${n0(byName["서울특별시"].fash)} · 경기 ${n0(byName["경기도"].fash)}건` },
+  { label: "누적 폐업 비중", value: `${p1(natClose)}<span class="u">%</span>`, note: `전 품목 기준, 폐업처리 ${n0(T.closed)}건` },
+  { label: "DB에 담은 쇼핑몰", value: `${MK.malls.n}<span class="u">곳</span>`, note: `브랜드 ${DB.brands}개 · 패션 후보의 ${p1(pc(MK.malls.n, T.fash)).replace(/\.0$/, "")}% 수준` },
+].map(k => `<div class="kpi ${k.cls || ""}"><div class="label">${k.label}</div><div class="value">${k.value}</div><div class="note">${k.note}</div></div>`).join("");
+// the last note: show two decimals so a 0.04% share is not rounded to 0
+$("kpis").lastElementChild.querySelector(".note").textContent = `브랜드 ${DB.brands}개 · 패션 후보 건수의 ${(pc(MK.malls.n, T.fash)).toFixed(2)}%`;
+
+// ---------- 1. regions ----------
+$("rg-title").textContent = `패션 후보의 ${p0(capShare)}%가 서울·경기에 몰려 있고, 비중은 지역마다 ${p0(loS.share)}~${p0(hiS.share)}%로 갈립니다`;
+const maxF = Math.max(...R.map(r => r.fash));
+const hotS = r => r.share >= natShare * 1.1, hotC = r => r.close >= natClose * 1.1;
+const cell = (cls, v, scaleMax, base, tone, tip) =>
+  `<div class="${cls}" data-tip="${esc(tip)}"><div class="cellbar"><span class="t"><i class="${tone}" style="width:${(v / scaleMax * 100).toFixed(1)}%"></i>${base == null ? "" : `<b style="left:${(base / scaleMax * 100).toFixed(1)}%"></b>`}</span><span class="v">${p0(v)}%</span></div></div>`;
+const shMax = Math.max(...R.map(r => r.share), natShare) * 1.1, clMax = Math.max(...R.map(r => r.close), natClose) * 1.1;
+$("rg").innerHTML =
+  `<div class="rg-row hd"><span>지역</span><span>패션 후보(건)</span><span>패션 비중</span><span>누적 폐업 비중</span></div>` +
+  R.map(r => {
+    const flag = r.badPct > 10 ? `<span class="flag" title="">†</span>` : "";
+    return `<div class="rg-row"><span class="nm">${esc(short(r.name))}${flag}</span>
+      <div class="c-n" data-tip="${esc(short(r.name))}\n패션 후보 ${n0(r.fash)}건 (전국의 ${p1(pc(r.fash, T.fash))}%)\n정상영업 ${n0(r.active)}건 · 신고 유효 ${n0(r.valid)}건"><div class="cellbar"><span class="t"><i style="width:${(r.fash / maxF * 100).toFixed(1)}%"></i></span><span class="v" style="width:auto">${n0(r.fash)}</span></div></div>
+      ${cell("c-sh", r.share, shMax, natShare, hotS(r) ? "hot" : "", `${short(r.name)}\n패션 후보 ${n0(r.fash)}건 ÷ 신고 ${n0(r.valid)}건 = ${p1(r.share)}%\n전국 ${p1(natShare)}%${r.badPct > 10 ? `\n열 불일치 ${p0(r.badPct)}%로 제외돼 참고용` : ""}`)}
+      ${cell("c-cl", r.close, clMax, natClose, hotC(r) ? "ink" : "", `${short(r.name)}\n폐업처리 ${n0(r.closed)}건 ÷ 신고 ${n0(r.valid)}건 = ${p1(r.close)}%\n전국 ${p1(natClose)}% · 전 품목 기준`)}
+    </div>`;
+  }).join("");
+$("rg-legend").innerHTML =
+  `<span class="key"><i style="background:var(--hue)"></i>전국 평균의 1.1배 이상(패션 비중)</span>` +
+  `<span class="key"><i style="background:var(--accent)"></i>전국 평균의 1.1배 이상(폐업 비중)</span>` +
+  `<span class="key"><i class="dash"></i>전국 평균</span>`;
+const badR = R.filter(r => r.badPct > 10).map(r => `${short(r.name)} ${p0(r.badPct)}%`).join(", ");
+$("rg-cap").innerHTML =
+  `패션 후보는 취급품목에 의류·잡화·신발·골프 같은 단어가 들어간 신고 건수라서 실제 패션 사업자 수가 아닙니다. 폐업 비중은 모든 품목을 합친 누적 값입니다.` +
+  (badR ? ` † 열 수가 맞지 않아 집계에서 뺀 신고가 많은 지역: ${badR}.` : "");
+
+// ---------- 2. malls ----------
+const Mn = MK.malls.n, cats = Object.fromEntries(MK.malls.cat);
+const womenN = (cats["여성의류"] || 0) + (cats["빅사이즈 여성의류"] || 0);
+const G = Object.fromEntries(MK.malls.groups.map(g => [g.title, g]));
+const topOf = t => G[t].items[0];
+$("mall-title").textContent =
+  `DB의 쇼핑몰 ${Mn}곳은 ${p0(pc(womenN, Mn))}%가 여성의류이고, ${topOf("용도·무드").label}(${topOf("용도·무드").n}곳)과 ${G["상품군"].items.slice(0, 3).map(i => i.label).join("·")}가 가장 흔한 키워드입니다`;
+$("mall-sub").textContent = `사이트에서 관측한 키워드를 몰마다 기록한 값 · 막대는 ${Mn}곳 대비 비율`;
+$("groups").innerHTML = MK.malls.groups.map(g => {
+  const max = Math.max(...g.items.map(i => i.n));
+  return `<div><h3>${esc(g.title)}</h3><div class="gs">${esc(g.sub)}</div><ul class="bars">` +
+    g.items.map((i, k) => `<li data-tip="${esc(i.label)}\n${i.n}곳 (${p1(pc(i.n, Mn))}%)"><span>${esc(i.label)}</span><span class="t"><i class="${k === 0 ? "hue" : ""}" style="width:${(i.n / max * 100).toFixed(1)}%"></i></span><span class="v">${i.n}<small>${p0(pc(i.n, Mn))}%</small></span></li>`).join("") +
+    `</ul></div>`;
+}).join("");
+const ownMade = G["운영 방식"].items.find(i => i.label === "자체제작").n;
+$("mall-cap").innerHTML =
+  `한 몰이 키워드를 여러 개 가질 수 있어 비율의 합은 100%가 아닙니다. 키워드가 없다고 그 품목을 팔지 않는다는 뜻은 아닙니다. 자체제작을 내건 몰은 ${ownMade}곳(${p0(pc(ownMade, Mn))}%)으로, 사입 중심 몰과 가격 구조가 다를 수 있어 따로 보는 편이 안전합니다.`;
+
+// ---------- 3. channels ----------
+const st = DB.sells, lead = DB.platforms[0];
+$("chan-title").textContent = `브랜드는 ${lead.name}에 가장 많이 입점해 있고(${lead.n}건, 입점 확인 ${st}건의 ${p0(pc(lead.n, st))}%), 그룹사별로는 ${DB.groupsCo[0].name}가 ${DB.groupsCo[0].n}개 브랜드를 보유합니다`;
+$("chan-sub").textContent = `브랜드 ${DB.brands}개 중 입점 확인 ${DB.linked}개 · 2곳 이상 입점 확인 ${DB.multi}개`;
+const pMax = Math.max(...DB.platforms.map(p => p.n)), gMax = Math.max(...DB.groupsCo.map(g => g.n));
+$("two").innerHTML =
+  `<div><h3>플랫폼별 입점 확인 브랜드</h3><div class="gs">파랑은 여성 브랜드, 회색은 그 외</div><ul class="bars">` +
+  DB.platforms.map(p => `<li data-tip="${esc(p.name)}\n입점 확인 브랜드 ${p.n}개\n여성 ${p.w}개 · 그 외 ${p.n - p.w}개"><span>${esc(p.name)}</span><span class="t"><i style="width:${(p.n / pMax * 100).toFixed(1)}%;background:var(--bar)"></i><i class="hue" style="width:${(p.w / pMax * 100).toFixed(1)}%"></i></span><span class="v">${p.n}</span></li>`).join("") +
+  `</ul></div>` +
+  `<div><h3>그룹사별 보유 브랜드</h3><div class="gs">그룹사가 보유한 것으로 확인한 브랜드 수</div><ul class="bars">` +
+  DB.groupsCo.map(g => `<li data-tip="${esc(g.name)}\n보유 브랜드 ${g.n}개"><span>${esc(g.name)}</span><span class="t"><i style="width:${(g.n / gMax * 100).toFixed(1)}%"></i></span><span class="v">${g.n}</span></li>`).join("") +
+  `</ul></div>`;
+$("chan-cap").innerHTML =
+  `입점·보유 관계는 근거를 확인한 것만 기록돼 있어서, 기록에 없는 관계가 실제로는 있을 수 있습니다. 플랫폼 순위는 시장 점유율이 아니라 이 DB에서 확인된 입점 건수입니다.`;
+
+// ---------- 4. limits ----------
+const badAll = pc(T.bad, T.bad + T.valid);
+$("notes").innerHTML =
+  `<div><h3>읽을 수 있는 것</h3><ul>
+    <li><b>지역 모수</b>: 패션 후보 신고가 어느 지역에 얼마나 있고, 신고 중 패션 비중이 지역마다 얼마나 다른지.</li>
+    <li><b>보세몰의 포지셔닝 분포</b>: 이 DB의 쇼핑몰이 어떤 품목·용도·연령·체형을 내세우는지.</li>
+    <li><b>브랜드가 묶인 곳</b>: 브랜드가 어느 플랫폼에 입점했고 어느 그룹사 소속인지.</li>
+  </ul></div>
+  <div><h3>읽을 수 없는 것</h3><ul>
+    <li><b>매출·점유율</b>: 신고 건수는 사업자 규모와 무관합니다. 입점 건수도 판매량이 아닙니다.</li>
+    <li><b>패션만의 폐업률</b>: 폐업 비중은 전 품목이고 누적 값입니다.</li>
+    <li><b>정확한 사업자 수</b>: 열 수가 맞지 않아 뺀 신고 ${n0(T.bad)}건(${p1(badAll)}%)이 있고, 한 사업자가 여러 건을 신고했을 수 있습니다.</li>
+    <li><b>시장 전체의 모습</b>: DB의 쇼핑몰 ${Mn}곳은 발견된 곳만 담은 표본입니다.</li>
+  </ul></div>`;
+$("source").textContent =
+  `출처: 공정거래위원회 통신판매사업자 공식 CSV 17개 시도(${MK.asOf} 집계, 대표자·연락처·주소 제외), 이 저장소의 쇼핑몰 DB ${Mn}곳 · 엔터티 ${DB.entities}개 · 관계 ${DB.rel}건. 모든 숫자는 위 파일에서 계산했습니다.`;
+
+// ---------- tooltip ----------
+const tip = document.createElement("div");
+tip.className = "tip"; tip.setAttribute("aria-hidden", "true"); document.body.appendChild(tip);
+function showTip(e) {
+  const el = e.target && e.target.closest ? e.target.closest("[data-tip]") : null;
+  if (!el) { tip.style.opacity = 0; return; }
+  tip.textContent = el.getAttribute("data-tip"); tip.style.opacity = 1;
+  const r = tip.getBoundingClientRect();
+  let x = e.clientX + 14, y = e.clientY + 16;
+  if (x + r.width > innerWidth - 8) x = e.clientX - r.width - 14;
+  if (y + r.height > innerHeight - 8) y = e.clientY - r.height - 14;
+  tip.style.left = Math.max(8, x) + "px"; tip.style.top = Math.max(8, y) + "px";
+}
+document.addEventListener("pointermove", showTip);
+document.addEventListener("pointerdown", showTip);
+</script>
+</body>
+</html>
