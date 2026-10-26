@@ -15,14 +15,15 @@
 | 단계 | 하는 일 | 주소 (`A` = `https://api.musinsa.com/api2/dp`) |
 |---|---|---|
 | 0 | `agent-browser open "https://www.musinsa.com/category/100?gf=F"`, `get url`로 열린 것 확인 | — |
-| 1 목록 | 카테고리 `001` 상의·`002` 아우터·`003` 바지·`100` 원피스/스커트 각각 `page=1..totalPages`, `size=100`(1000은 빈 결과). `brand`·`brandName`·`brandNameEnglish` | `A/v1/plp/filter/brands?gf=F&category=<코드>&caller=CATEGORY&page=<n>&size=100` |
+| 1 목록 | 코드 13개 각각 `page=1..totalPages`, `size=100`(1000은 빈 결과): `001` 상의·`002` 아우터·`003` 바지·`100` 원피스/스커트, 스포츠 `017016` 상의·`017020` 하의·`017018` 아우터·`017017` 스커트·`017019` 원피스·`017021` 상하의세트, `105001` 부티크 의류·`107001` 아울렛 의류·`108001` 어스 의류. `brand`·`brandName`·`brandNameEnglish` | `A/v1/plp/filter/brands?gf=F&category=<코드>&caller=CATEGORY&page=<n>&size=100` |
 | 2 중복 | DB brand의 `name_ko`·`name_en`(공백·기호 빼고 소문자)과 evidence URL의 무신사 브랜드 주소로 비교 | — |
-| 3 분류 | 남성 상품 0개면 `womenswear`, 있으면 `womenswear_mixed`. `all=0`(보이는 상품 없음)은 운영 확인이 안 돼 뺀다 | `A/v1/plp/goods/count/gender?gf=A&brand=<주소>&caller=FLAGSHIP` |
+| 3 분류·제외 | 남성 상품 0개면 `womenswear`, 있으면 `womenswear_mixed`. `all=0`은 뺀다(필터 목록에는 남아 있지만 아울렛 포함해도 상품 0개). 속옷 `026` 브랜드 목록에 있고 `001`·`002`·`003`·`100`에 없는 브랜드는 속옷 전용으로 뺀다(아울렛 의류에 속옷 브랜드가 섞여 나옴) | `A/v1/plp/goods/count/gender?gf=A&brand=<주소>&caller=FLAGSHIP` |
 | 4 브랜드 정보 | HTML `meta: {...}, shared:` → `brandNation`(국가)·`since`. 국가가 없으면 비움 | `/brand/<주소>/products?gf=A` |
 | 5 기록 | CSV 3개에 한 줄씩. 판매 채널 무신사 `KR-SF-0001`, 근거 URL은 브랜드숍, 근거 ID는 작업자 접두어 | — |
 
 - 3·4단계는 브랜드당 2번 요청. 8개씩 묶어 3,662개에 약 1분 50초.
-- 이 방법으로 무신사 여성 의류 브랜드는 사실상 다 모았다(2026-10-27 기준). 다음 확장은 다른 플랫폼(29CM·W컨셉 등)에서 같은 구조의 브랜드 필터를 찾는 것.
+- 무신사 여성 의류 브랜드는 13개 코드 합집합 4,393개를 다 확인했다(2026-10-27, DB 4,489개). 무신사에서 다시 할 일은 같은 방법으로 새로 입점한 브랜드만 추가하는 것. 다음 확장은 다른 플랫폼(29CM·W컨셉 등)에서 같은 구조의 브랜드 필터를 찾는 것.
+- 무신사 여성 최상위 카테고리 코드(2026-10-27): `001` 상의 `002` 아우터 `003` 바지 `004` 가방 `017` 스포츠/레저 `026` 속옷/홈웨어 `100` 원피스/스커트 `101` 소품 `102` 디지털/라이프 `103` 신발 `104` 뷰티 `105` 부티크 `106` 키즈 `107` 아울렛 `108` 어스 `109` 유즈드 `111`~`119` 콘텐츠(K-커넥트·구단·캐릭터 등) `120` 모자 `122` 푸드/헬스. 세부 코드는 `A/v1/plp/filter/categories?gf=F&category=<코드>&caller=CATEGORY`(코드 없이 부르면 400).
 - 예전 방법(상품 목록 1쪽을 세부 카테고리 45개 × 정렬 7개로 훑기, 2026-10-26)은 후보가 1,914개에 그쳤다. 브랜드 필터가 막히면 대안으로 쓴다: `A/v2/plp/goods?gf=F&sortCode=<POPULAR|NEW|REVIEW|LOW_PRICE|HIGH_PRICE|DISCOUNT_RATE|SALE_ONE_WEEK_COUNT>&category=<세부 코드>&page=1&size=100&caller=CATEGORY`. 세부 코드는 `A/v1/plp/filter/categories?gf=F&category=<001|002|003|100>&caller=CATEGORY`.
 
 **실행 요령 (PowerShell + agent-browser)**
@@ -72,3 +73,7 @@ const meta=async b=>{const h=await (await fetch('/brand/'+encodeURIComponent(b)+
 - 10-27 · Cursor · 무신사 — 상품 목록을 정렬·세부 카테고리로 훑어 후보를 늘림(1,914개에서 막힘) → 카테고리 필터 응답의 `brand` 항목에 별도 주소(`plp/filter/brands`)가 있고 쪽 넘김이 됨 → 브랜드 전체(여성 4개 카테고리 합 4,337개)를 바로 받는다. 필터·facet 응답부터 볼 것.
 - 10-27 · Cursor · 공통 — 사용자 지시로 비율 기준(여성 95%·의류 50%·판매 상품 수)을 없앰 → 비율 계산·상품 확인 단계가 빠져 요청 수가 브랜드당 6번에서 2번으로 줄었다. 기준이 복잡하면 먼저 사용자에게 단순화를 제안할 것.
 - 10-27 · Cursor · 공통 — `ConvertFrom-Json` 결과를 바로 `Where-Object`로 걸러 상품 0개 16개가 같이 들어감 → PowerShell 5.1이 배열을 한 덩어리로 넘김 → 변수에 담고 `foreach`, 쓰기 전 줄 수 검사 `throw`로 막음(이번엔 이 검사로 두 번째 실수를 쓰기 전에 잡았다).
+- 10-27 · Cursor · 무신사 — 여성 의류 카테고리를 4개로만 봄 → 스포츠/레저 의류·아울렛·부티크·어스에도 여성 옷 브랜드가 있었음(71개 추가 후보) → 최상위 카테고리부터 확인. 최상위 목록 API는 코드 없이 부르면 400이라 `001~030`, `100~125`를 넣어 보고 응답 오는 코드만 썼다.
+- 10-27 · Cursor · 무신사 — 아울렛 의류(`107001`) 브랜드 목록에 원더브라·슬로기 같은 속옷 브랜드 30개가 섞임 → 속옷 `026` 목록과 대조(026에 있고 상의·아우터·바지·원피스/스커트에 없으면 제외). 비율 계산 없이 목록 대조로 끝난다.
+- 10-27 · Cursor · 무신사 — 상품 0개 16개가 아울렛 전용인 줄 알고 다시 봄 → `storeCodes=outlet`을 붙여도 0개 → 필터 목록에만 남은 곳이라 계속 제외. 다음엔 바로 제외.
+- 10-27 · Cursor · Git — 작업 중 다른 사람이 같은 저장소에 푸시함 → 커밋 후 `git fetch`로 확인, 바뀐 파일이 겹치지 않으면 `git pull --rebase` 후 푸시. 겹치면 사용자에게 묻는다.
