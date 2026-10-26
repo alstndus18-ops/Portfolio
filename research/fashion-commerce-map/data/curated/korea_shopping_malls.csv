@@ -166,7 +166,7 @@ MALL-0167,브론즈부부,https://bronzebooboo.co.kr/,여성의류,아우터;니
 MALL-0168,모어레브,https://morereve.com/,여성의류,데일리룩;자체제작;오피스룩;원피스;니트,보세 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
 MALL-0169,하우투러브미,https://howtoloveme.com/,여성의류,원피스;니트;신상,보세 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
 MALL-0170,유어바웃미,https://uaboutme.com/,여성의류,여성의류;데일리룩,보세 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
-MALL-0171,언밸런스,https://unbalance.co.kr/,여성의류,아우터,여성의류 쇼핑몰,확인 실패,2026-10-26,agent-browser 재확인 2026-10-26: 점검 중 — "쇼핑몰 점검 중입니다" / "더 나은 서비스를 위해 잠시 운영을 중단합니다." (여성 상품 미확인)
+MALL-0171,언밸런스,https://unbalance.co.kr/,여성의류,아우터,여성의류 쇼핑몰,확인 실패,2026-10-26,"agent-browser 재확인 2026-10-26: 점검 중 — ""쇼핑몰 점검 중입니다"" / ""더 나은 서비스를 위해 잠시 운영을 중단합니다."" (여성 상품 미확인)"
 MALL-0172,이끌림몰,https://ecclimmall.com/,여성의류,원피스;아우터;니트;신상,니트 가디건 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
 MALL-0173,썸플레이스,https://someplace.co.kr/,여성의류,데일리룩;자체제작;원피스;신상,여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
 MALL-0174,99빈티지,https://99vintage.co.kr/,여성의류,니트;신상,여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
@@ -212,7 +212,7 @@ MALL-0213,니쁜스,https://www.nibbuns.co.kr/,여성의류,데일리룩;자체�
 MALL-0214,안다르,https://andar.co.kr/,애슬레저,데일리룩;운동복;레깅스;애슬레저,애슬레저 여성 의류 자사몰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 애슬레저 자사몰 확인
 MALL-0215,가내스라,https://ganaesra.com/,여성의류,데일리룩;자체제작;니트;신상,가내스라 여성의류 공식몰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 SHOP/MADE 확인
 MALL-0216,필링스,https://feelings.co.kr/,여성의류,데일리룩;캐주얼;데님;신상,필링스 여성의류 쇼핑몰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 쇼핑몰 확인
-MALL-0217,뮬라웨어,https://mulawear.co.kr/,애슬레저,데일리룩;운동복;레깅스;애슬레저,애슬레저 여성 의류 자사몰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 애슬레저 자사몰 확인(주문 중단 공지 배너 노출). 2026-10-26 확인: 사이트 열림, 신규 주문 중단 공지 있음 (운영 상태 주의)
+MALL-0217,뮬라웨어,https://mulawear.co.kr/,애슬레저,데일리룩;운동복;레깅스;애슬레저,애슬레저 여성 의류 자사몰,사이트 확인,2026-10-26,"agent-browser snapshot 2026-10-26: 여성 애슬레저 자사몰 확인(주문 중단 공지 배너 노출). 2026-10-26 확인: 사이트 열림, 신규 주문 중단 공지 있음 (운영 상태 주의)"
 MALL-0218,리얼옐로우,https://realyellow.co.kr/,여성의류,데일리룩;바지;신상,리얼옐로우 여성의류 쇼핑몰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 SHOP 확인
 MALL-0219,98도씨,https://98doci.com/,여성의류,데일리룩;신상,98도씨 여성의류 쇼핑몰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 SHOP 확인
 MALL-0220,논코드,https://noncode.co.kr/,여성의류,데일리룩;모노톤;아우터;원피스,논코드 여성의류 쇼핑몰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 카테고리 확인
@@ -223,7 +223,7 @@ MALL-0224,에브리모닝,https://everymorning.co.kr/,여성의류,데일리룩;
 MALL-0225,미뉴에트,https://love-minuet.com/,여성의류,데일리룩;자체제작;아우터;니트,미뉴에트 여성의류 공식몰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 SHOP/BEST 확인
 MALL-0226,로컬맨션,https://www.localmansion.com/,여성의류,유니크스타일;수입구제;데일리룩;아우터;원피스,뚱뚱한여자쇼핑몰 느좋 코디 모음,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: LOCALMANSION 여성 의류 쇼핑몰 로드 확인. 출처 https://blog.naver.com/coygray/224002504191
 MALL-0227,블루팝스,https://bluepops.co.kr/,여성의류,데일리룩;아우터;원피스;니트;신상,뚱뚱한여자쇼핑몰 느좋 코디 모음,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: Outer/Top/Dress 카테고리 확인. 출처 https://blog.naver.com/coygray/224002504191
-MALL-0228,코코앤유,https://cocond.com/,여성의류,44~88;데일리룩;원피스;니트,뚱뚱한여자쇼핑몰 느좋 코디 모음,사이트 확인,2026-10-26,agent-browser open 2026-10-26: 44~88 여성 의류몰(코코앤유) 로드 확인(snapshot 일시 실패). 출처 https://blog.naver.com/coygray/224002504191
+MALL-0228,코코앤유,https://cocond.com/,여성의류,44~88;데일리룩;원피스;니트,뚱뚱한여자쇼핑몰 느좋 코디 모음,사이트 확인,2026-10-26,neo로 확인 2026-10-26: cocond.com 로드·원피스/아우터/66-88사이즈 등 여성 의류몰 확인(agent-browser는 해당 도메인에서 daemon EOF). 출처 https://blog.naver.com/coygray/224002504191
 MALL-0229,쿨시스,https://coolsis.kr/,여성의류,데일리룩;자체제작;아우터;니트,뚱뚱한여자쇼핑몰 느좋 코디 모음,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: COOLSIS 여성 의류 NEW/SHOP 확인. 출처 https://blog.naver.com/coygray/224002504191
 MALL-0230,라일론,https://lylon.co.kr/,여성의류,데일리룩;신상;아우터;원피스,뚱뚱한여자쇼핑몰 느좋 코디 모음,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: LYLON NEW ARRIVALS 확인. 출처 https://blog.naver.com/coygray/224002504191
 MALL-0231,미캐느,https://micane.co.kr/,여성의류,데일리룩;원피스;자켓;하객룩,뚱뚱한여자쇼핑몰 느좋 코디 모음,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: Dress·Jacket 등 여성 상품 확인. 출처 https://blog.naver.com/coygray/224002504191
@@ -231,3 +231,33 @@ MALL-0232,파스토레,https://pastore.co.kr/,여성의류,데일리룩;신상;�
 MALL-0233,리치무드,https://richmood.co.kr/,여성의류,데일리룩;아우터;원피스;니트,뚱뚱한여자쇼핑몰 느좋 코디 모음,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: Outer/Top/Dress 카테고리 확인. 출처 https://blog.naver.com/coygray/224002504191
 MALL-0234,더아셀,https://theasel.co.kr/,여성의류,데일리룩;신상;아우터;원피스,뚱뚱한여자쇼핑몰 느좋 코디 모음,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: NEW ARRIVALS 확인. 출처 https://blog.naver.com/coygray/224002504191
 MALL-0235,더글림,https://theglim.kr/,여성의류,데일리룩;아우터;원피스;세트,뚱뚱한여자쇼핑몰 느좋 코디 모음,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: Outer/Top/Dress·Set 카테고리 확인. 출처 https://blog.naver.com/coygray/224002504191
+MALL-0236,룩체크,https://2check.kr/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,재확인 완료,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류(OUTER/TOP/BOTTOM·니트·데님) c장바구니 d상품노출
+MALL-0237,포디룩(4DLOOK),https://4dlook.com/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류미확인(디지털구독·게임상품) c장바구니 d상품노출 — 여성 상품 미확인
+MALL-0238,에이스종합쇼핑몰,https://ace-eshop.com/,여성의류,쇼핑몰,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류미확인(디지털구독상품) c장바구니 d상품노출 — 여성 상품 미확인
+MALL-0239,주식회사 룩코,https://acloset.app/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류몰미확인(AI옷장앱랜딩) c장바구니미확인 d상품미확인
+MALL-0240,아크릴쇼핑몰,https://acrylshopping.co.kr/,여성의류,쇼핑몰,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser snapshot: a접속(Cloudflare챌린지) b여성의류미확인 c장바구니미확인 d상품미확인 — 봇차단으로 콘텐츠 미확인
+MALL-0241,엘앤케이(LMK),https://acution.co.kr/,여성의류,쇼핑몰;의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser snapshot: a접속(옥션리다이렉트·Cloudflare) b여성의류미확인 c장바구니미확인 d상품미확인
+MALL-0242,어도어룩,https://adorelook.com/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류(DRESS·블라우스·니트) c장바구니미확인 d상품노출
+MALL-0243,허브쇼핑몰,https://ahcshop.co.kr/,여성의류,쇼핑몰,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류미확인(스킨케어·화장품) c장바구니미확인 d상품노출 — 여성 상품 미확인
+MALL-0244,(주)애니룩스,https://anylux.co.kr/,여성의류,룩,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류미확인(LED모듈·전자부품) c장바구니미확인 d상품미확인 — 여성 상품 미확인
+MALL-0245,현필라테스 & 자이로토닉(HYUN Pilates & Gyrotonic),https://applink.a-bly.com/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser snapshot: a접속(에이블리앱다운로드) b여성의류몰미확인 c장바구니미확인 d상품미확인 — 필라테스 스튜디오로 보여 여성의류몰 아님 가능성
+MALL-0246,0000 포영,https://0000seoul.kr/,여성의류,의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류미확인 c장바구니(CART) d상품미확인
+MALL-0247,0025,https://0025.studio/,여성의류,의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류미확인 c장바구니(CART) d상품미확인
+MALL-0248,공공육이(0062),https://0062.kr/,여성의류,의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류미확인 c장바구니미확인 d상품미확인
+MALL-0249,제뉴인니스(GENUINENESS INC.),https://025s.co.kr/,여성의류,의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류미확인(향수·티·전시) c장바구니(Cart) d상품미확인 — 여성 상품 미확인
+MALL-0250,세컨드 아르무아(02 ARMOIRE),https://02armoire.com/,여성의류,의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류미확인 c장바구니미확인 d상품미확인
+MALL-0251,공삼이일(0321),https://0321official.com/,여성의류,의류;패션,FTC 통신판매업 의류 후보,재확인 완료,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류(TOP·BOTTOM·셔츠) c장바구니(CART) d상품노출
+MALL-0252,고룩 컴퍼니,https://golook.co.kr/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류(OUTER·TOP) c장바구니·BASKET d상품미확인(메인상품명미노출)
+MALL-0253,아이디룩,https://idlookmall.com/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,재확인 완료,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류(여성·원피스·블라우스·니트) c쇼핑백 d상품노출
+MALL-0254,룩캐스트 (LOOKAST),https://lookast.com/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류(아우터·니트·ACC) c장바구니미확인 d상품노출
+MALL-0255,룩엠제이,https://lookmj.co.kr/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,재확인 완료,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류(DRESS·블라우스·니트) c장바구니(CART)·장바구니담기 d상품노출
+MALL-0256,룩앤무드,https://looknmood.com/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,재확인 완료,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류(Dress·니트·블라우스) c장바구니(Cart) d상품노출
+MALL-0257,룩스(LOOKS),https://lookslady.co.kr/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류(여성의류도매·원피스·블라우스) c장바구니미확인 d상품노출
+MALL-0258,룩티튜드,https://looktitude.com/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,재확인 완료,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류(Dress·니트·스커트) c장바구니(Cart) d상품노출
+MALL-0259,미셀룩(Michelle Look),https://michellelook.com/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류미확인(디자이너가방) c장바구니(CART) d상품노출 — 여성 상품 미확인
+MALL-0260,마이룩,https://mylook.co.kr/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,재확인 완료,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류(원피스·블라우스·니트) c장바구니(Cart) d상품노출
+MALL-0261,피에스룩(PS look),https://pslook.co.kr/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,재확인 완료,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류(DRESS·블라우스) c장바구니(cart)·장바구니담기 d상품노출
+MALL-0262,샌프룩(sanfrook),https://sanfrook.co.kr/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,재확인 완료,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류(니트·스커트·팬츠) c장바구니(CART) d상품노출
+MALL-0263,슬룩(sslook),https://sslook.co.kr/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,재확인 완료,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류(원피스·데님앞치마) c장바구니(cart) d상품노출
+MALL-0264,위드리본,https://withreborn.cafe24.com/,여성의류,리본;의류;패션,FTC 통신판매업 의류 후보,재확인 완료,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류(Dresses·Tops·니트) c장바구니담기 d상품노출
+MALL-0265,디베르그,https://d-vergr.com/,여성의류,의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser snapshot: a접속 b여성의류미확인 c장바구니미확인 d상품미확인
