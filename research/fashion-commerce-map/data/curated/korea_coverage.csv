@@ -1,5 +1,5 @@
 coverage_id,layer,collection_unit,primary_universe_source,collection_method,current_status,last_checked_at,known_limit,next_action
-KR-COV-001,online_sellers,통신판매 신고 사업자 전체,KR-FTC-003,"공식 CSV 또는 공식 API 기반 일괄 수집",in_progress,2026-10-19,"통신판매 신고 대상 전체가 패션 사업자 전체를 뜻하지 않음. 서울 파일은 확보·검증했으나 17개 시도 전수 수집과 비정형 행 보정이 남음.","시도별 공식 CSV를 기준일·해시와 함께 순차 확보하고 개인정보 없는 집계만 공개"
+KR-COV-001,online_sellers,통신판매 신고 사업자 전체,KR-FTC-003,"공식 CSV 또는 공식 API 기반 일괄 수집",in_progress,2026-10-26,"통신판매 신고 대상 전체가 패션 사업자 전체를 뜻하지 않음. 2026-10-26 기준 17개 시도 공식 CSV 전수 확보·집계 완료(원본 로컬, derived 요약만 공개). 열 수 불일치·신고기관명 필터 등 비정형 행 보정·주간 갱신 추적은 남음.","주간 갱신 시 해시 비교 후 요약 재생성; 패션 후보 키워드 검증은 별도 레이어"
 KR-COV-002,disclosed_companies,DART 공시 대상 패션·의류·유통 법인,KR-DART-002,"DART 법인 목록과 공시 문서 기반 후보 추출",not_started,2026-10-19,"DART는 상장사 및 일부 주요 비상장사 범위로 한정됨.","분류 키워드와 DART API 키 수집 절차 확정"
 KR-COV-003,platforms,패션 플랫폼·전문몰·편집숍,KR-OFFICIAL-001,"공식 서비스·사업자 정보 수동 검증",in_progress,2026-10-19,"공식적인 단일 전국 목록이 없어 후보군과 검증 근거를 분리해야 함.","서비스 유형별 후보 목록 구축; KR-BATCH-0001 진행 중"
 KR-COV-004,brands_and_d2c,패션 브랜드·자사몰,KR-OFFICIAL-001,"공식 브랜드/쇼핑몰과 사업자 정보 기반 수집",in_progress,2026-10-19,"신생·소규모 브랜드는 단일 모수로 포착하기 어려움.","대형 브랜드사 포트폴리오와 플랫폼 입점 브랜드 목록을 분리 수집"
