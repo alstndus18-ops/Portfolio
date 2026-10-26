@@ -48,6 +48,16 @@ npx skills add wshobson/agents@data-storytelling -g -y
 | kosis-stats, bok-ecos-stats (nomadamas) | 공식 API 조회 | 실제 지침은 실행 시 외부 npm 패키지에서 받는 구조 | 패키지 내용을 확인한 뒤 결정 |
 | company-identity-reconciliation (crawlora) | 14 | 기업·브랜드 동일성 판정 절차 | 유료 API와 외부 플랫폼 조회 전제. 보류 |
 
+### 본문 검토 메모
+
+- **promotional-planning**: 1) 기준선 판단과 증분 매출 계산(기준선 = 행사 없는 주의 평균 또는 시계열 분해), 2) 가격 탄력성 모델 예시(파이썬), 3) 행사별 ROI, 4) 행사 달력 최적화, 5) 행사 물량 계획, 6) 자기잠식과 행사 후 매출 하락(pantry loading) 같은 함정. 식품 용어가 많아서 패션의 시즌 오프, 쿠폰, 무료배송 행사로 바꿔 읽어야 한다.
+- **knowledge-graph-construction**: 용도별 아키텍처 선택(LPG·RDF 등), 엔터티-관계 패턴, 사건 표현 패턴, 계층 패턴. 브랜드·기업·채널 스키마를 점검할 때 "엔터티와 관계를 어떻게 나눌지" 참고용으로 쓴다. 그래프 DB를 바로 도입하라는 내용은 아니다.
+- **master-data-management**: 기준정보 개념, 중복 판정, 골든 레코드, 안티패턴과 체크리스트. 기업 규모 전제가 있어 중복 판정 기준 정도만 가져온다.
+- **demand-forecasting**: 재주문점, 안전재고, 계절성 단계. 도구 설명이 Shopify·Amazon 중심이라 개념만 참고한다.
+- **pricing-strategy**: 가격 모델, 경쟁 가격 분석, 지불 의향, 가격 탄력성. SaaS 예시가 많다.
+- **kosis-stats, bok-ecos-stats**: SKILL.md는 실행 시 외부 패키지(`@nomadamas/k-skill`)의 지침을 받아오는 구조라, 실제 내용은 아직 보지 못했다. 패키지를 확인하기 전까지는 판단 보류.
+- **pricewin-price-comparison**: 호텔 OTA 요금 비교용이고 외부 MCP 서버가 필요하다. 업무와 무관.
+
 ## 설치하지 않은 것
 
 | 스킬 | 판단 이유 |
