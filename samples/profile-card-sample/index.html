@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>쇼핑몰 프로필 카드 샘플 · 경쟁사 모니터</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;700&family=Geist+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ground: #f2f4f7; --surface: #ffffff; --raised: #eef0f3; --border: #e2e5ea; --rule: #eef0f3;
+  --control: #cfd3da; --text: #0a0a0a; --muted: #666b73; --accent: #141414; --hue: #1d5fbf;
+  --bar: #b8bec7; --warn-bg: #f7f1e1; --warn: #7a5b00;
+  --radius-card: 8px; --gap: 12px; --pad: 24px;
+  --font: "Geist", "Noto Sans KR", system-ui, sans-serif; --mono: "Geist Mono", ui-monospace, monospace;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--ground); color: var(--text); font-family: var(--font); font-size: 14px; line-height: 20px; font-variant-numeric: tabular-nums; -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h1, h2, h3 { text-wrap: balance; word-break: keep-all; margin: 0; }
+p, li, .finding, .cap { word-break: keep-all; text-wrap: pretty; }
+.u { color: var(--muted); font-size: 13px; font-weight: 400; margin-left: 1px; }
+
+.column { max-width: 1152px; margin: 0 auto; padding: 0 20px; }
+@media (min-width: 1200px) { .column { padding: 0; } }
+.bar { height: 48px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 500; min-width: 0; }
+.brand svg { display: block; flex: none; }
+.brand .scope { color: var(--muted); font-weight: 400; white-space: nowrap; }
+.brand .scope::before { content: "/"; margin-right: 10px; color: var(--control); }
+.bar-right { display: flex; align-items: center; gap: 16px; color: var(--muted); font-size: 13px; white-space: nowrap; }
+.bar-right a { color: var(--text); text-decoration: none; }
+.bar-right a:hover { text-decoration: underline; }
+
+.title-row { padding: 28px 0 14px; }
+h1 { font-size: 24px; line-height: 32px; font-weight: 500; }
+.finding { margin: 4px 0 0; font-size: 15px; line-height: 22px; color: var(--muted); max-width: 76ch; }
+.finding b { color: var(--text); font-weight: 500; }
+.legend-tags { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 12px; }
+.tag { display: inline-flex; align-items: center; height: 24px; padding: 0 9px; border-radius: 4px; font-size: 12px; font-weight: 500; white-space: nowrap; }
+.tag.real { background: #e6eefb; color: #174a96; }
+.tag.fake { background: var(--warn-bg); color: var(--warn); }
+.tag.empty { background: var(--raised); color: var(--muted); }
+
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-card); margin-bottom: var(--gap); }
+.kpis { display: grid; grid-template-columns: repeat(4, 1fr); }
+.kpi { padding: 18px var(--pad) 20px; border-left: 1px solid var(--border); border-top: 1px solid var(--border); min-width: 0; }
+.kpi:nth-child(-n+4) { border-top: 0; }
+.kpi:nth-child(4n+1) { border-left: 0; }
+.kpi .label { color: var(--muted); font-size: 13px; }
+.kpi .value { margin-top: 4px; font-size: 22px; line-height: 30px; font-weight: 500; }
+.kpi .note { margin-top: 2px; color: var(--muted); font-size: 12px; line-height: 16px; }
+
+.head { padding: 18px var(--pad) 0; display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+.head h2 { font-size: 16px; line-height: 24px; font-weight: 500; }
+.head .sub { margin: 2px 0 0; color: var(--muted); font-size: 13px; line-height: 18px; }
+.cap { padding: 8px var(--pad) 20px; margin: 0; color: var(--muted); font-size: 13px; line-height: 18px; }
+.pad { padding: 0 var(--pad); margin-top: 10px; }
+.two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 40px; padding: 0 var(--pad); margin-top: 10px; }
+.two h3 { font-size: 14px; font-weight: 500; }
+.two .gs { color: var(--muted); font-size: 13px; line-height: 18px; margin-bottom: 6px; }
+
+/* range bars */
+.rng { list-style: none; margin: 0; padding: 0; }
+.rng li { display: grid; grid-template-columns: 92px minmax(0, 1fr) 150px; gap: 12px; align-items: center; height: 40px; border-top: 1px solid var(--rule); }
+.rng li:first-child { border-top: 0; }
+.rng .t { position: relative; height: 12px; background: var(--raised); border-radius: 2px; }
+.rng .t i { position: absolute; top: 0; bottom: 0; border-radius: 2px; background: var(--bar); }
+.rng .t b { position: absolute; top: -3px; bottom: -3px; width: 3px; margin-left: -1px; background: var(--hue); border-radius: 1px; }
+.rng .v { color: var(--muted); font-size: 13px; text-align: right; }
+.rng .v em { color: var(--text); font-style: normal; font-weight: 500; }
+.axis { display: grid; grid-template-columns: 92px minmax(0, 1fr) 150px; gap: 12px; color: var(--muted); font-size: 12px; height: 20px; }
+.axis .a { position: relative; }
+.axis .a span { position: absolute; transform: translateX(-50%); white-space: nowrap; }
+.axis .a span:last-child { transform: translateX(-100%); }
+
+.bars { list-style: none; margin: 0; padding: 0; }
+.bars li { display: grid; grid-template-columns: 96px minmax(0, 1fr) 84px; gap: 10px; align-items: center; height: 34px; border-top: 1px solid var(--rule); }
+.bars li:first-child { border-top: 0; }
+.bars .t { position: relative; height: 12px; background: var(--raised); border-radius: 2px; }
+.bars .t i { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 2px; background: var(--bar); }
+.bars .t i.hue { background: var(--hue); }
+.bars .v { text-align: right; font-weight: 500; }
+.bars .v small { color: var(--muted); font-weight: 400; font-size: 12px; margin-left: 2px; }
+
+.cols { display: flex; align-items: flex-end; gap: 6px; height: 150px; padding-top: 18px; }
+.cols .c { flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; height: 100%; }
+.cols .c i { display: block; width: 100%; background: var(--bar); border-radius: 2px 2px 0 0; }
+.cols .c i.peak { background: var(--hue); }
+.cols .c span { margin-top: 6px; color: var(--muted); font-size: 11px; line-height: 14px; white-space: nowrap; }
+@media (max-width: 900px) { .cols { gap: 3px; } .cols .c em { font-size: 11px; } }
+.cols .c em { font-style: normal; font-size: 12px; font-weight: 500; line-height: 16px; }
+.cols .c span .mo { font-size: 11px; }
+@media (max-width: 600px) { .cols .c span .mo { display: none; } }
+
+/* feed */
+.feed { list-style: none; margin: 10px 0 0; padding: 0 var(--pad) 6px; }
+.feed li { display: grid; grid-template-columns: 76px 112px minmax(0, 1fr); gap: 12px; padding: 12px 0; border-top: 1px solid var(--rule); align-items: start; }
+.feed li:first-child { border-top: 0; }
+.feed .d { color: var(--muted); font-size: 13px; }
+.feed .k { font-weight: 500; }
+.feed .what b { font-weight: 500; }
+.feed .m { display: block; color: var(--muted); font-size: 13px; line-height: 18px; margin-top: 2px; }
+
+/* comparison */
+.cmp { width: 100%; border-collapse: collapse; margin-top: 10px; }
+.cmp th { text-align: right; font-weight: 500; font-size: 13px; padding: 0 var(--pad) 10px 8px; border-bottom: 1px solid var(--border); vertical-align: bottom; }
+.cmp th:first-child { text-align: left; padding-left: var(--pad); color: var(--muted); font-weight: 400; }
+.cmp td { padding: 10px var(--pad) 10px 8px; text-align: right; border-top: 1px solid var(--rule); height: 42px; }
+.cmp td:first-child { text-align: left; padding-left: var(--pad); color: var(--text); }
+.cmp td.e { color: #9aa0a9; }
+.cmp tr:first-child td { border-top: 0; }
+.cmp small { display: block; color: var(--muted); font-size: 12px; line-height: 14px; font-weight: 400; }
+.idx { padding: 14px var(--pad) 0; }
+.idx h3 { font-size: 14px; font-weight: 500; }
+.idx .gs { color: var(--muted); font-size: 13px; margin-bottom: 8px; }
+.idx-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.idx-cell { border: 1px solid var(--border); border-radius: 6px; padding: 12px 14px; }
+.idx-cell label { display: block; color: var(--muted); font-size: 13px; margin-bottom: 6px; }
+.idx-cell input { width: 100%; height: 40px; border: 1px solid var(--control); border-radius: 6px; padding: 0 10px; font: inherit; background: #fff; font-variant-numeric: tabular-nums; }
+.idx-cell input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.idx-cell .res { margin-top: 8px; min-height: 40px; font-size: 13px; line-height: 18px; color: var(--muted); }
+.idx-cell .res b { color: var(--text); font-size: 18px; font-weight: 500; display: block; line-height: 24px; }
+
+.check { list-style: none; margin: 10px 0 0; padding: 0 var(--pad) 18px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 40px; }
+.check li { display: grid; grid-template-columns: 22px minmax(0, 1fr) auto; gap: 8px; padding: 9px 0; border-top: 1px solid var(--rule); align-items: baseline; }
+.check .s { font-size: 13px; text-align: center; }
+.check .s.ok { color: #1d7a46; }
+.check .s.no { color: #9aa0a9; }
+.check .how { color: var(--muted); font-size: 13px; }
+
+.source { color: var(--muted); font-size: 13px; line-height: 18px; margin: 14px 2px 48px; max-width: 90ch; }
+.tip { position: fixed; left: 0; top: 0; z-index: 10; pointer-events: none; opacity: 0; max-width: 260px; padding: 7px 10px; border-radius: 6px; background: #0a0a0a; color: #fff; font-size: 13px; line-height: 19px; white-space: pre-line; transition: opacity 120ms; }
+[data-tip] { cursor: default; }
+@media (prefers-reduced-motion: reduce) { .tip { transition: none; } }
+
+@media (max-width: 900px) {
+  .kpis { grid-template-columns: 1fr 1fr; }
+  .kpi { padding: 14px 16px 16px; }
+  .kpi:nth-child(-n+4) { border-top: 1px solid var(--border); }
+  .kpi:nth-child(-n+2) { border-top: 0; }
+  .kpi:nth-child(4n+1) { border-left: 1px solid var(--border); }
+  .kpi:nth-child(2n+1) { border-left: 0; }
+  .title-row { padding-top: 20px; }
+  .bar-right .hide-s { display: none; }
+  .head { padding-left: 16px; padding-right: 16px; }
+  .pad, .two, .feed, .check, .idx { padding-left: 16px; padding-right: 16px; }
+  .two { grid-template-columns: 1fr; gap: 20px; }
+  .rng li, .axis { grid-template-columns: 70px minmax(0, 1fr); }
+  .rng .v { grid-column: 2; text-align: left; margin-top: -8px; margin-bottom: 8px; }
+  .rng li { height: auto; padding: 8px 0 0; row-gap: 4px; }
+  .axis { grid-template-columns: 70px minmax(0, 1fr); }
+  .axis > :last-child { display: none; }
+  .feed li { grid-template-columns: 64px minmax(0, 1fr); }
+  .feed .k { grid-column: 2; }
+  .feed .what { grid-column: 2; }
+  .cmp th, .cmp td { padding-right: 12px; }
+  .cmp th:first-child, .cmp td:first-child { padding-left: 16px; }
+  .idx-grid { grid-template-columns: 1fr; }
+  .check { grid-template-columns: 1fr; }
+  .cap { padding-left: 16px; padding-right: 16px; }
+}
+</style>
+</head>
+<body>
+<div class="column">
+  <header class="bar">
+    <div class="brand">
+      <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><rect x="2" y="13" width="4" height="7" fill="#0a0a0a"/><rect x="8" y="8" width="4" height="12" fill="#0a0a0a"/><rect x="14" y="3" width="4" height="17" fill="#0a0a0a"/></svg>
+      <span>경쟁사 모니터</span><span class="scope">프로필 카드 샘플</span>
+    </div>
+    <div class="bar-right"><a href="../market-overview/index.html" class="hide-s">시장 개요</a><a href="../bluepops-all/index.html" class="hide-s">블루팝스 전체 상품</a></div>
+  </header>
+
+  <div class="title-row">
+    <h1>쇼핑몰 프로필 카드 (샘플)</h1>
+    <p class="finding" id="finding"></p>
+    <div class="legend-tags">
+      <span class="tag real">실측 · 블루팝스 2026-10-26 수집</span>
+      <span class="tag fake">가상 예시 · 계산법을 보이려는 값</span>
+      <span class="tag empty">미수집 · 아직 모으지 않음</span>
+    </div>
+  </div>
+
+  <section class="card kpis" id="kpis" aria-label="요약"></section>
+
+  <section class="card" aria-labelledby="lad-title">
+    <div class="head"><div><h2 id="lad-title">가격 사다리: 같은 종류 안에서 가격이 어떻게 깔려 있나</h2><p class="sub">쿠폰 적용가 기준 · 막대는 하위 10%~상위 10%, 파란 선은 중앙값 · 상품 30개 이상인 종류</p></div><span class="tag real">실측</span></div>
+    <div class="pad" id="ladder"></div>
+    <p class="cap" id="lad-cap"></p>
+  </section>
+
+  <section class="card" aria-labelledby="mix-title">
+    <div class="head"><div><h2 id="mix-title">가격대와 구성: 어디에 상품이 몰려 있나</h2><p class="sub" id="mix-sub"></p></div><span class="tag real">실측</span></div>
+    <div class="two" id="mix"></div>
+    <p class="cap" id="mix-cap"></p>
+  </section>
+
+  <section class="card" aria-labelledby="rhy-title">
+    <div class="head"><div><h2 id="rhy-title"></h2><p class="sub">대표 이미지가 올라온 달 기준 · 최근 12개월 신규 등록 수</p></div><span class="tag real">실측</span></div>
+    <div class="pad"><div class="cols" id="cols"></div></div>
+    <p class="cap" id="rhy-cap"></p>
+  </section>
+
+  <section class="card" aria-labelledby="feed-title">
+    <div class="head"><div><h2 id="feed-title">일일 변화 알림 (이런 모습이 됩니다)</h2><p class="sub">관심 업체를 정해 매일 기록하면 규칙에 걸린 변화만 이렇게 모아 보여줍니다</p></div><span class="tag fake">가상 예시</span></div>
+    <ul class="feed" id="feed"></ul>
+    <p class="cap" id="feed-cap"></p>
+  </section>
+
+  <section class="card" aria-labelledby="cmp-title">
+    <div class="head"><div><h2 id="cmp-title">몰 비교표 (여러 몰이 모이면 이렇게 비교됩니다)</h2><p class="sub">같은 항목을 같은 정의로 채운 뒤 나란히 놓습니다</p></div></div>
+    <table class="cmp" id="cmp"></table>
+    <div class="idx">
+      <h3>내 몰과 가격 지수 비교해 보기</h3>
+      <div class="gs">우리 몰의 쿠폰 적용 후 중앙 가격을 넣으면 블루팝스 대비 지수를 계산합니다(100보다 크면 우리가 더 비쌈). 입력값은 이 화면에서만 계산하고 저장하지 않습니다.</div>
+      <div class="idx-grid" id="idx"></div>
+    </div>
+    <p class="cap" id="cmp-cap"></p>
+  </section>
+
+  <section class="card" aria-labelledby="chk-title">
+    <div class="head"><div><h2 id="chk-title">이 카드의 수집 현황</h2><p class="sub">프로필 카드 항목 중 지금 채운 것과 못 채운 것</p></div></div>
+    <ul class="check" id="check"></ul>
+  </section>
+
+  <p class="source" id="source"></p>
+</div>
+
+<script src="data.js"></script>
+<script>
+const BP = window.BP, P = BP.products;
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const won = n => Math.round(n).toLocaleString("ko-KR") + "원";
+const n0 = n => Math.round(n).toLocaleString("ko-KR");
+const p1 = v => (Math.round(v * 10) / 10).toFixed(1);
+const p0 = v => String(Math.round(v));
+const pc = (a, b) => (b ? a / b * 100 : 0);
+const sortNum = l => [...l].sort((a, b) => a - b);
+const quant = (s, q) => s[Math.min(s.length - 1, Math.floor(q * s.length))];
+const median = s => { const t = sortNum(s), m = t.length >> 1; return t.length % 2 ? t[m] : (t[m - 1] + t[m]) / 2; };
+const monthKo = ym => `${Number(ym.slice(0, 4))}년 ${Number(ym.slice(5))}월`;
+
+// ---------- numbers ----------
+const N = P.length;
+const F = sortNum(P.map(p => p.f)), L = sortNum(P.map(p => p.p));
+const mean = F.reduce((a, b) => a + b, 0) / N, sd = Math.sqrt(F.reduce((a, b) => a + (b - mean) ** 2, 0) / N);
+const med = quant(F, 0.5), listMed = quant(L, 0.5);
+const couponN = P.filter(p => p.r === 25).length, saleN = P.filter(p => p.r === 50).length;
+const disc = P.filter(p => p.p > 0 && p.f < p.p);
+const depth = disc.reduce((a, p) => a + (1 - p.f / p.p), 0) / disc.length * 100;
+const msrpN = P.filter(p => p.m > 0).length, todayN = P.filter(p => p.td).length;
+const optT = P.reduce((a, p) => a + p.ot, 0);
+const kinds = Object.entries(P.reduce((m, p) => (m[p.k] = (m[p.k] || 0) + 1, m), {})).sort((a, b) => b[1] - a[1]);
+const hhi = kinds.reduce((a, [, n]) => a + (pc(n, N)) ** 2, 0);
+const schemes = Object.entries(P.reduce((m, p) => (m[p.s] = (m[p.s] || 0) + 1, m), {})).sort((a, b) => b[1] - a[1]);
+const months = [...new Set(P.map(p => p.mo))].sort(), last12 = months.slice(-12);
+const mCnt = last12.map(m => P.filter(p => p.mo === m).length);
+const mMed = median(mCnt), mMean = mCnt.reduce((a, b) => a + b, 0) / mCnt.length;
+const peakI = mCnt.indexOf(Math.max(...mCnt));
+const peakSwim = P.filter(p => p.mo === last12[peakI] && p.k === "수영복").length;
+const kindStat = kinds.filter(([, n]) => n >= 30).slice(0, 6).map(([k, n]) => {
+  const s = sortNum(P.filter(p => p.k === k).map(p => p.f));
+  return { k, n, p10: quant(s, 0.1), med: quant(s, 0.5), p90: quant(s, 0.9) };
+});
+const asOf = BP.asOf;
+
+$("finding").innerHTML =
+  `경쟁사 한 곳을 같은 틀로 요약하면 이런 한 장이 됩니다. 블루팝스 상품 <b>${n0(N)}개</b>를 모두 읽은 실측값으로 채웠고, 쿠폰 적용가 중앙값은 <b>${won(med)}</b>, ` +
+  `상품의 <b>${p1(pc(couponN, N))}%</b>에 쿠폰이 붙어 있으며, 최근 12개월 신규 등록은 월 중앙값 <b>${mMed}개</b>입니다.`;
+
+$("kpis").innerHTML = [
+  ["상품 수", `${n0(N)}<span class="u">개</span>`, `옵션 ${n0(optT)}개 · 상품당 ${p1(optT / N)}개`],
+  ["쿠폰 적용가 중앙값", `${won(med)}`, `평균 ${won(mean)} · 변동성 ${(sd / mean).toFixed(2)}`],
+  ["프로모션 강도", `${p1(pc(couponN, N))}<span class="u">%</span>`, `쿠폰 25% ${n0(couponN)}개 · 50% 세일 ${saleN}개`],
+  ["평균 할인 깊이", `${p1(depth)}<span class="u">%</span>`, `판매가 중앙 ${won(listMed)} → ${won(med)}`],
+  ["신상 등록 월 중앙값", `${mMed}<span class="u">개</span>`, `최근 12개월 평균 ${p1(mMean)}개`],
+  ["종류 집중도(HHI)", `${n0(hhi)}`, `${kinds[0][0]} ${p0(pc(kinds[0][1], N))}% · ${kinds[1][0]} ${p0(pc(kinds[1][1], N))}%`],
+  ["소비자가 표기율", `${p1(pc(msrpN, N))}<span class="u">%</span>`, `${msrpN}개만 소비자가를 함께 표기`],
+  ["당일출고 표기", `${p1(pc(todayN, N))}<span class="u">%</span>`, `${todayN}개 상품`],
+].map(([l, v, n]) => `<div class="kpi"><div class="label">${l}</div><div class="value">${v}</div><div class="note">${n}</div></div>`).join("");
+
+// ---------- price ladder ----------
+const axMax = Math.ceil(Math.max(...kindStat.map(k => k.p90)) / 10000) * 10000;
+const pos = v => (v / axMax * 100).toFixed(1);
+$("ladder").innerHTML =
+  `<ul class="rng">` + kindStat.map(k =>
+    `<li data-tip="${esc(k.k)} · 상품 ${k.n}개\n하위 10% ${won(k.p10)}\n중앙 ${won(k.med)}\n상위 10% ${won(k.p90)}\n상위 10% ÷ 중앙 = ${(k.p90 / k.med).toFixed(2)}배">
+      <span>${esc(k.k)}<small class="u" style="display:block;margin:0">${k.n}개</small></span>
+      <span class="t"><i style="left:${pos(k.p10)}%;width:${(pos(k.p90) - pos(k.p10)).toFixed(1)}%"></i><b style="left:${pos(k.med)}%"></b></span>
+      <span class="v"><em>${won(k.med)}</em> 중앙<br>${(k.p10 / 10000).toFixed(1)}만~${(k.p90 / 10000).toFixed(1)}만원</span>
+    </li>`).join("") + `</ul>` +
+  `<div class="axis"><span></span><div class="a">${[0, 1, 2, 3, 4].map(i => { const v = axMax / 4 * i; return `<span style="left:${pos(v)}%">${i === 0 ? "0" : n0(v / 10000) + "만원"}</span>`; }).join("")}</div><span></span></div>`;
+const wide = kindStat.map(k => ({ k: k.k, r: k.p90 / k.med })).sort((a, b) => b.r - a.r)[0];
+$("lad-cap").innerHTML =
+  `읽는 법: 막대가 짧을수록 그 종류의 가격이 좁게 모여 있습니다. 상위 10%가 중앙의 몇 배인지 보면 가격폭을 알 수 있고, 가장 넓은 종류는 ${esc(wide.k)}(${wide.r.toFixed(2)}배)입니다. ` +
+  `쓰임: 우리 상품이 이 사다리의 어디에 서는지 정할 때 씁니다. 가격 기준은 쿠폰 적용 후 가격이며, 같은 종류끼리만 비교해야 합니다.`;
+
+// ---------- bands and mix ----------
+const BANDS = [["1만원 미만", 0, 10000], ["1~2만원", 10000, 20000], ["2~3만원", 20000, 30000], ["3~4만원", 30000, 40000], ["4~5만원", 40000, 50000], ["5~6만원", 50000, 60000], ["6만원 이상", 60000, 1e9]]
+  .map(([n, a, b]) => ({ n, c: P.filter(p => p.f >= a && p.f < b).length }));
+const bMax = Math.max(...BANDS.map(b => b.c));
+const top2 = [...BANDS].sort((a, b) => b.c - a.c).slice(0, 2);
+$("mix-sub").textContent = `쿠폰 적용가 구간별 상품 수와 사이즈 정책 · 상품 ${n0(N)}개 기준`;
+const bar = (label, n, max, hue, tip) => `<li data-tip="${esc(tip)}"><span>${esc(label)}</span><span class="t"><i class="${hue ? "hue" : ""}" style="width:${(n / max * 100).toFixed(1)}%"></i></span><span class="v">${n0(n)}<small>${p0(pc(n, N))}%</small></span></li>`;
+const sMax = schemes[0][1];
+$("mix").innerHTML =
+  `<div><h3>가격대 분포</h3><div class="gs">어느 가격대에 상품이 몰려 있는가</div><ul class="bars">` +
+  BANDS.map(b => bar(b.n, b.c, bMax, b === top2[0] || b === top2[1], `${b.n}\n상품 ${n0(b.c)}개 (${p1(pc(b.c, N))}%)`)).join("") + `</ul></div>` +
+  `<div><h3>사이즈 정책</h3><div class="gs">사이즈를 어떻게 표기하고 어디까지 내는가</div><ul class="bars">` +
+  schemes.slice(0, 7).map(([s, n], i) => bar(s, n, sMax, i === 0, `${s}\n상품 ${n0(n)}개 (${p1(pc(n, N))}%)`)).join("") + `</ul></div>`;
+$("mix-cap").innerHTML =
+  `${top2[0].n}와 ${top2[1].n} 두 구간에 상품의 ${p0(pc(top2[0].c + top2[1].c, N))}%가 있습니다. 번호 3단계 이상(44·55·66 등)을 쓰는 상품은 ` +
+  `${p0(pc((schemes.find(s => s[0] === "번호 3단계+") || [0, 0])[1], N))}%입니다. 사이즈 정책은 몰마다 같은 기준으로 분류해야 비교됩니다.`;
+
+// ---------- launch rhythm ----------
+$("rhy-title").textContent = `신상은 월 중앙값 ${mMed}개 속도로 올라오고, ${monthKo(last12[peakI])}에 ${mCnt[peakI]}개를 한꺼번에 올렸습니다`;
+const cMax = Math.max(...mCnt);
+$("cols").innerHTML = mCnt.map((n, i) =>
+  `<div class="c" data-tip="${monthKo(last12[i])}\n신규 등록 ${n}개${i === peakI && peakSwim ? `\n수영복 ${peakSwim}개 포함` : ""}"><em>${n}</em><i class="${i === peakI ? "peak" : ""}" style="height:${(n / cMax * 100).toFixed(1)}%"></i><span>${Number(last12[i].slice(5))}<small class="mo">월</small></span></div>`).join("");
+const noPeak = mCnt.filter((_, i) => i !== peakI);
+$("rhy-cap").innerHTML =
+  `평균(${p1(mMean)}개)은 피크에 끌려 올라가므로 중앙값(${mMed}개)을 함께 적습니다. 피크 달을 빼면 평균은 ${p1(noPeak.reduce((a, b) => a + b, 0) / noPeak.length)}개입니다. ` +
+  `쓰임: 경쟁사가 시즌 상품을 몇 주 앞서 올리는지, 우리 신상 일정과 어긋나는지 볼 때 씁니다.`;
+
+// ---------- sample alert feed (illustrative) ----------
+const dayRule = Math.round(mMed / 2);
+const FEED = [
+  { d: "11-03", k: "쿠폰 변경", what: `몰 전체 쿠폰률 <b>25% → 30%</b>`, m: "규칙: 몰 전체 쿠폰률이 바뀜 · 가설: 시즌 전환 재고 정리 / 대형 행사 대응 / 신규 고객 확보 · 확인: 같은 시기 다른 몰의 변화, 신상 등록 수" },
+  { d: "11-05", k: "가격 인하", what: `상품 A(코트) <b>93,750원 → 84,380원 (−10%)</b>`, m: "규칙: 같은 상품 가격 5% 이상 인하 · 가설: 시즌 첫 할인 · 확인: 등록 후 경과 일수(첫 할인까지 일수 기록)" },
+  { d: "11-08", k: "대량 등록", what: `하루 신규 등록 <b>${dayRule + 15}개</b>`, m: `규칙: 하루 등록이 월 중앙값(${mMed}개)의 절반(${dayRule}개) 이상 · 가설: 시즌 일괄 등록 · 확인: 등록 카테고리 쏠림, 같은 날 등록 수` },
+  { d: "11-12", k: "대량 품절", what: `하루 품절 전환 옵션 <b>전체의 3.4%</b>`, m: "규칙: 하루 품절 전환이 몰 전체 옵션의 3% 이상 · 가설: 행사 효과 / 입고 지연 · 확인: 다음 날 재입고 전환 여부" },
+  { d: "11-15", k: "정책 변경", what: `무료배송 기준 <b>50,000원 → 60,000원</b>`, m: `규칙: 정책 페이지 값 변경 · 가설: 객단가 올리기 / 물류비 부담 · 확인: 기준 ÷ 중앙가 배수 ${(50000 / med).toFixed(1)} → ${(60000 / med).toFixed(1)}` },
+];
+$("feed").innerHTML = FEED.map(f => `<li><span class="d">${f.d}</span><span class="k">${f.k}</span><span class="what">${f.what}<span class="m">${f.m}</span></span></li>`).join("");
+$("feed-cap").innerHTML = `날짜와 변화 값은 가상입니다. 규칙의 기준값(${dayRule}개 등)만 위 실측 중앙값에서 계산했습니다. 신호는 하나의 원인으로 단정하지 않고 가설을 세워 확인합니다.`;
+
+// ---------- comparison table ----------
+const rows = [
+  ["가격 중앙값(쿠폰 적용 후)", won(med), ""],
+  ["프로모션 강도", `${p1(pc(couponN, N))}%`, ""],
+  ["평균 할인 깊이", `${p1(depth)}%`, ""],
+  ["신상 월 중앙값", `${mMed}개`, ""],
+  ["종류 집중도(HHI)", n0(hhi), ""],
+  ["1·2 사이즈 비율", `${p1(pc((schemes.find(s => s[0] === "2사이즈(1·2)") || [0, 0])[1], N))}%`, ""],
+  ["소비자가 표기율", `${p1(pc(msrpN, N))}%`, ""],
+  ["당일출고 표기", `${p1(pc(todayN, N))}%`, ""],
+];
+$("cmp").innerHTML =
+  `<tr><th>항목</th><th>블루팝스<small><span class="tag real">실측</span></small></th><th>몰 B<small><span class="tag empty">미수집</span></small></th><th>몰 C<small><span class="tag empty">미수집</span></small></th></tr>` +
+  rows.map(r => `<tr><td>${r[0]}</td><td>${r[1]}</td><td class="e">–</td><td class="e">–</td></tr>`).join("");
+$("cmp-cap").innerHTML = `몰 B·C는 아직 수집하지 않았습니다. 블루팝스와 같은 방법으로 읽을 수 있는 몰(같은 쇼핑몰 구조)부터 칸을 채웁니다.`;
+
+const IK = kindStat.filter(k => ["티셔츠", "팬츠", "스커트"].includes(k.k));
+$("idx").innerHTML = IK.map((k, i) =>
+  `<div class="idx-cell"><label for="in${i}">우리 ${esc(k.k)} 중앙가 (원)</label><input id="in${i}" inputmode="numeric" placeholder="예: ${n0(Math.round(k.med * 1.1 / 100) * 100)}" autocomplete="off"><div class="res" id="rs${i}">블루팝스 ${esc(k.k)} 중앙 ${won(k.med)}</div></div>`).join("");
+IK.forEach((k, i) => {
+  $("in" + i).addEventListener("input", e => {
+    const v = Number(String(e.target.value).replace(/[^0-9]/g, ""));
+    if (!v) { $("rs" + i).innerHTML = `블루팝스 ${esc(k.k)} 중앙 ${won(k.med)}`; return; }
+    const idx = v / k.med * 100;
+    const word = idx > 110 ? "블루팝스보다 확실히 비쌉니다" : idx < 90 ? "블루팝스보다 확실히 쌉니다" : "비슷한 가격대입니다";
+    $("rs" + i).innerHTML = `<b>지수 ${p0(idx)}</b>${word} (블루팝스 ${won(k.med)})`;
+  });
+});
+
+// ---------- checklist ----------
+const ITEMS = [
+  ["상품 수·옵션 수", 1, "상품 목록·상세"], ["가격 분포(평균·중앙·사분위)", 1, "상품 목록"], ["쿠폰·세일·소비자가", 1, "상품 목록·상세"],
+  ["종류 구성(HHI)", 1, "상품 목록"], ["사이즈 정책", 1, "상품 상세"], ["신상 등록 월", 1, "이미지 경로"],
+  ["당일출고 표기", 1, "상품 목록"], ["무료배송 기준·배송비", 0, "정책 페이지"], ["반품·교환 정책", 0, "정책 페이지"],
+  ["적립·회원 혜택", 0, "정책 페이지"], ["검색광고 노출", 0, "검색 결과 관측"], ["후기 수·사진 후기 비율", 0, "상품 상세"],
+  ["상품 상세 정보 충실도", 0, "상품 상세"], ["SNS·입점 채널", 0, "사이트·플랫폼"], ["일일 변화(품절·재입고·할인)", 0, "일일 수집"],
+];
+const okN = ITEMS.filter(i => i[1]).length;
+$("check").innerHTML = ITEMS.map(([n, ok, how]) => `<li><span class="s ${ok ? "ok" : "no"}">${ok ? "●" : "○"}</span><span>${n}</span><span class="how">${how}</span></li>`).join("");
+$("chk-title").textContent = `이 카드의 수집 현황: ${ITEMS.length}개 항목 중 ${okN}개 채움`;
+$("source").textContent = `출처: 블루팝스(bluepops.co.kr) 공개 상품 페이지 ${n0(N)}개를 ${asOf}에 수집한 이 저장소의 samples/bluepops-all 데이터에서 필요한 열만 뽑은 data.js입니다. 가격은 쿠폰 적용 후 기준. 일일 변화 알림의 날짜와 변화 값은 가상 예시입니다. 지표 정의는 planning/next-materials-proposal.md를 따릅니다.`;
+
+// ---------- tooltip ----------
+const tip = document.createElement("div");
+tip.className = "tip"; tip.setAttribute("aria-hidden", "true"); document.body.appendChild(tip);
+function showTip(e) {
+  const el = e.target && e.target.closest ? e.target.closest("[data-tip]") : null;
+  if (!el) { tip.style.opacity = 0; return; }
+  tip.textContent = el.getAttribute("data-tip"); tip.style.opacity = 1;
+  const r = tip.getBoundingClientRect();
+  let x = e.clientX + 14, y = e.clientY + 16;
+  if (x + r.width > innerWidth - 8) x = e.clientX - r.width - 14;
+  if (y + r.height > innerHeight - 8) y = e.clientY - r.height - 14;
+  tip.style.left = Math.max(8, x) + "px"; tip.style.top = Math.max(8, y) + "px";
+}
+document.addEventListener("pointermove", showTip);
+document.addEventListener("pointerdown", showTip);
+</script>
+</body>
+</html>
