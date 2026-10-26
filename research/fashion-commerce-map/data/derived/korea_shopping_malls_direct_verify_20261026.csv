@@ -1,0 +1,59 @@
+mall_id,url,a,b,c,d,final status,reason
+MALL-0007,https://justone.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0008,https://smartstore.naver.com/laladavid,N,N,N,N,확인 필요,네이버 스마트스토어 시스템오류 페이지; snapshot에 상품·여성의류·장바구니 미노출
+MALL-0015,https://www.canmart.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0044,https://hotping.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0088,https://www.sibuya.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0089,http://www.nanasalon.com/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0090,https://www.moulian.com/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0091,http://www.hotpin.co.kr/,N,N,N,N,확인 필요,agent-browser open net::ERR_BLOCKED_BY_CLIENT; HTTPS·/product/list·/category 접속 실패 또는 빈 snapshot
+MALL-0092,https://themood.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0093,https://may-black.com/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0094,https://loveparis.net/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0095,https://www.iam176.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0096,https://www.174.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0097,https://lemite.com/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0098,https://sara172.com/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0099,https://kikilove.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0100,https://www.vivnluv.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0101,https://hiren.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0102,https://www.yomiunni.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0103,https://www.hellen.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0204,https://grooming-everywhere.com/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0205,https://slowand.com/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0206,https://www.hypnotic.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0207,https://addmore.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0208,https://frenchaube.com/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0209,https://archi-tect.shop/,Y,Y,Y,N,확인 필요,snapshot -d 3에 상품명·상품 링크 미노출(BAG·ORDER·SHOP 구조만 확인)
+MALL-0210,https://ohne.store/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0211,https://dailylook.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0212,https://www.mayddle.com/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0213,https://www.nibbuns.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0214,https://andar.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0215,https://ganaesra.com/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0216,https://feelings.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0217,https://mulawear.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0218,https://realyellow.co.kr/,Y,Y,Y,N,확인 필요,CART·SHOP 확인; 홈·/product/list snapshot에 상품명·상품 링크 미노출
+MALL-0219,https://98doci.com/,Y,Y,N,N,확인 필요,SHOP·카테고리 확인; snapshot에 장바구니·구매 컨트롤 및 상품명 미노출
+MALL-0220,https://noncode.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0221,https://www.whoisnerdy.com/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0222,https://www.rolarola.com/,Y,N,N,N,확인 필요,Cloudflare iframe 보안 검증 실패; /product/list.html 404; 상품·장바구니 미확인
+MALL-0223,https://dayroze.com/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0224,https://everymorning.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0225,https://love-minuet.com/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0226,https://www.localmansion.com/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0227,https://bluepops.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0228,https://cocond.com/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0229,https://coolsis.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0230,https://lylon.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0231,https://micane.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0232,https://pastore.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0233,https://richmood.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0234,https://theasel.co.kr/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0235,https://theglim.kr/,Y,Y,Y,N,확인 필요,/product/list.html 카테고리·정렬만; snapshot에 상품명·상품 링크 미노출
+MALL-0237,https://4dlook.com/,Y,Y,Y,Y,재확인 완료,2026-10-26 agent-browser 직접 확인: a/b/c/d 통과
+MALL-0241,https://acution.co.kr/,Y,N,N,N,exclude,acution.co.kr 접속 시 옥션 모바일 쇼핑 리다이렉트; 독립 여성의류 자사몰 아님
+MALL-0246,https://0000seoul.kr/,Y,Y,Y,N,확인 필요,쇼핑·CART 확인; 홈·product/list snapshot에 상품 미노출
+MALL-0247,https://0025.studio/,Y,Y,Y,N,확인 필요,CART·SHOP 확인; snapshot에 상품명·상품 링크 미노출
+MALL-0248,https://0062.kr/,Y,N,N,N,확인 필요,이미지맵·약관 링크만; 쇼핑 UI·여성의류·장바구니·상품 미노출
+MALL-0252,https://golook.co.kr/,Y,Y,Y,N,확인 필요,BASKET·여성 카테고리 확인; snapshot -d 3에 상품명 미노출(lazy load 가능)

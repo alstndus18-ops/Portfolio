@@ -1,0 +1,11 @@
+mall_id,name,url,category,site_keywords,discovery_queries,status,observed_at,notes,exclude_reason
+MALL-0238,에이스종합쇼핑몰,https://ace-eshop.com/,여성의류,쇼핑몰,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser·firecrawl /: a쇼핑 b여성의류미확인(YouTube·Netflix·게임구독) cBuy Now·Cart d상품노출 — 의류몰 아님,디지털구독·게임상품만
+MALL-0240,아크릴쇼핑몰,https://acrylshopping.co.kr/,여성의류,쇼핑몰,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser /: a쇼핑(아크릴·POP) b여성의류미확인 c장바구니 d상품노출 — 의류몰 아님,아크릴·인테리어용품
+MALL-0243,허브쇼핑몰,https://ahcshop.co.kr/,여성의류,쇼핑몰,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 firecrawl·agent-browser ahcshop.co.kr: a쇼핑 b여성의류미확인(스킨케어·세럼) c장바구니(웹MCP) d상품노출 — 화장품몰,화장품·스킨케어
+MALL-0244,(주)애니룩스,https://anylux.co.kr/,여성의류,룩,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 firecrawl anylux.co.kr/ko: a제조사사이트 b여성의류미확인(LED모듈) c장바구니미확인 d상품(전자부품) — 의류몰 아님,LED 모듈 제조
+MALL-0245,현필라테스 & 자이로토닉(HYUN Pilates & Gyrotonic),https://applink.a-bly.com/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser applink.a-bly.com/@ably: a에이블리앱다운로드 b여성의류몰미확인(웹상품없음) c장바구니미확인 d상품미확인 — 필라테스·스튜디오 앱링크로 보이며 여성의류몰 아님,에이블리 앱 유도만
+MALL-0249,제뉴인니스(GENUINENESS INC.),https://025s.co.kr/,여성의류,의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser·firecrawl 025s.co.kr: a브랜드사이트 b여성의류미확인(향수·티·전시) c장바구니미확인 d상품미확인 — 의류몰 아님,향수·티·전시
+MALL-0259,미셀룩(Michelle Look),https://michellelook.com/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 firecrawl michellelook.com: a쇼핑 b여성의류미확인(디자이너 가방) cCart d가방상품노출 — 의류몰 아님,가방 전문
+MALL-0265,디베르그,https://d-vergr.com/,여성의류,의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 firecrawl shop_list·detail: a쇼핑 b여성의류미확인(남성·스트릿 셔츠·후드) cADD TO CART d상품노출 — 여성의류 기준 미충족,남성·다크웨어 의류
+MALL-0239,주식회사 룩코,https://acloset.app/,여성의류,룩;의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser acloset.app/ko: a앱랜딩 b여성의류몰미확인(AI옷장) c장바구니미확인 d상품미확인 — /product 시도 없음(앱·확장),패션 앱·AI 옷장 랜딩(웹몰·장바구니·상품 없음)
+MALL-0241,엘앤케이(LMK),https://acution.co.kr/,여성의류,쇼핑몰;의류;패션,FTC 통신판매업 의류 후보,확인 필요,2026-10-26,2026-10-26 agent-browser: acution.co.kr 옥션 리다이렉트,독립 여성의류 자사몰 아님(옥션 리다이렉트)
