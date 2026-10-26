@@ -1,0 +1,257 @@
+mall_id,name,category,url,checked_at,access_status,observed_title_or_evidence,notes
+MALL-0001,클릭앤퍼니,여성의류,https://clicknfunny.com/,2026-10-26,title_confirmed,클릭앤퍼니,자체 쇼핑몰 메인 제목 확인
+MALL-0002,바이선,여성의류,https://by-sun.com/,2026-10-26,title_confirmed,바이선,자체 쇼핑몰 메인 제목 확인
+MALL-0004,핑크시슬리,여성의류,https://pinksisly.com/,2026-10-26,title_confirmed,핑크시슬리,자체 쇼핑몰 메인 제목 확인
+MALL-0005,그레이시크,여성의류,https://graychic.co.kr/,2026-10-26,title_confirmed,"무심한듯 시크하게, 그레이시크",자체 쇼핑몰 메인 제목 확인
+MALL-0006,아뜨랑스,여성의류,https://attrangs.co.kr/,2026-10-26,title_confirmed,"20대, 30대 여성 대표쇼핑몰 아뜨랑스",자체 쇼핑몰 메인 제목 확인
+MALL-0007,저스트원,여성의류,https://justone.co.kr/,2026-10-26,title_confirmed,저스트원,자체 쇼핑몰 메인 제목 확인
+MALL-0008,L&D STUDIO,여성의류,https://smartstore.naver.com/laladavid,2026-10-26,http_rate_limited,HTTP 429,"원본·슬래시·모바일 URL을 모두 검사했으며 네이버 측 요청 제한으로 종료"
+MALL-0009,다잇,여성의류,https://dhait.co.kr/,2026-10-26,title_confirmed,"20대, 30대 여성의류쇼핑몰 - 다잇 | 키작녀부터 110사이즈까지",자체 쇼핑몰 메인 제목 확인
+MALL-0010,스타일빅걸,빅사이즈 여성의류,https://www.stylebiggirl.co.kr/,2026-10-26,title_confirmed,빅사이즈여성쇼핑몰 스타일빅걸,자체 쇼핑몰 메인 제목 확인
+MALL-0011,더애수,여성의류,https://aesoo.co.kr/,2026-10-26,title_confirmed,더애수 | 매일 새로운 스타일,자체 쇼핑몰 메인 제목 확인
+MALL-0012,다엘,여성의류,https://dalll.co.kr/,2026-10-26,title_confirmed,다엘 여성의류쇼핑몰,자체 쇼핑몰 메인 제목 확인
+MALL-0013,시크릿라벨,여성의류,https://www.secretlabel.co.kr/,2026-10-26,title_confirmed,시크릿라벨 ♩,자체 쇼핑몰 메인 제목 확인
+MALL-0014,로렌하이,여성의류,https://www.laurenhi.com/,2026-10-26,title_confirmed,로렌하이,자체 쇼핑몰 메인 제목 확인
+MALL-0015,캔마트,여성의류,https://www.canmart.co.kr/,2026-10-26,title_confirmed,취향을담은데일리웨어|여성캐주얼 의류 쇼핑몰 캔마트,브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0016,달트,여성의류,https://www.daltt.co.kr/,2026-10-26,title_confirmed,달트_DALTT,자체 쇼핑몰 메인 제목 확인
+MALL-0017,육육걸즈,여성의류,https://www.66girls.co.kr/,2026-10-26,title_confirmed,"자신감을 입자, 육육걸즈!",자체 쇼핑몰 메인 제목 확인
+MALL-0018,로글램,여성의류,https://roglam.co.kr/,2026-10-26,title_confirmed,Roglam 로글램 - 20·30대 여성의류 쇼핑몰,자체 쇼핑몰 메인 제목 확인
+MALL-0019,시크라인,빅사이즈 여성의류,https://chic-line.com/,2026-10-26,title_confirmed,시크라인 | 하객룩·오피스룩 여성의류,자체 쇼핑몰 메인 제목 확인
+MALL-0020,데드라,빅사이즈 여성의류,https://dedra.co.kr/,2026-10-26,title_confirmed,데드라 | 백화점퀄리티 4060 여성의류 쇼핑몰,자체 쇼핑몰 메인 제목 확인
+MALL-0022,이블렛by제이스타일,빅사이즈 여성의류,https://evellet.com/,2026-10-26,title_confirmed,이블렛 바이 제이스타일 공식 스토어,자체 쇼핑몰 메인 제목 확인
+MALL-0026,위브,여성의류,https://ouiv.kr/,2026-10-26,title_confirmed,ouiv 위브 – 20대 30대 여성의류 쇼핑몰,자체 쇼핑몰 메인 제목 확인
+MALL-0027,클래식블랑,여성의류,https://classic-blanc.com/,2026-10-26,title_confirmed,"[클래식블랑] 20대,30대 여성의류 쇼핑몰",자체 쇼핑몰 메인 제목 확인
+MALL-0028,가십걸,여성의류,https://ggossipgirl.co.kr/,2026-10-26,title_confirmed,"가십걸 - 여성의류쇼핑몰,20대 30대 40대여성쇼핑몰",자체 쇼핑몰 메인 제목 확인
+MALL-0029,루니크,여성의류,https://luniquee.cafe24.com/,2026-10-26,title_confirmed,LUNIQUE | 20대·30대 여성 데일리 쇼핑몰,자체 쇼핑몰 메인 제목 확인
+MALL-0030,하이로제,여성의류,https://high-rose.com/,2026-10-26,title_confirmed,하이로제 HIGH ROSÉ | 여성의류 쇼핑몰·데일리룩·원피스·니트·세트,자체 쇼핑몰 메인 제목 확인
+MALL-0031,딘트,여성의류,https://dint.co.kr/,2026-10-26,title_confirmed,"셀럽들의 선택, DINT",브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0032,깜장오리,여성의류,https://kjoli.com/,2026-10-26,title_confirmed,깜장오리,자체 쇼핑몰 메인 제목 확인
+MALL-0033,뮬랑,여성의류,https://mullang.com/,2026-10-26,title_confirmed,뮬랑 MULLANG,자체 쇼핑몰 메인 제목 확인
+MALL-0034,코코마랑,여성의류,https://coco-marant.co.kr/,2026-10-26,title_confirmed,코코마랑,자체 쇼핑몰 메인 제목 확인
+MALL-0035,오드,여성의류,https://ode.co.kr/,2026-10-26,title_confirmed,오드 ODE | 하객룩&출근룩 대표쇼핑몰,자체 쇼핑몰 메인 제목 확인
+MALL-0036,체크핏,여성의류,https://checkfitt.com/,2026-10-26,title_confirmed,체크핏 CHECK FIT-20-30대 여성의류 쇼핑몰,자체 쇼핑몰 메인 제목 확인
+MALL-0037,마이더스비,여성의류,https://www.midasb.co.kr/,2026-10-26,title_confirmed,마이더스비,브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0038,모모마마,여성의류,https://momomama.kr/,2026-10-26,title_confirmed,모모마마 공식몰 | 30대 40대 여성의류 쇼핑몰,자체 쇼핑몰 메인 제목 확인
+MALL-0039,엘리시아,빅사이즈 여성의류,https://ely-sia.net/,2026-10-26,title_confirmed,자신감을 입다 엘리시아,브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0040,마리앙플러스,빅사이즈 여성의류,https://mariangplus.co.kr/,2026-10-26,title_confirmed,마리앙 플러스,브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0041,리리앤코,여성의류,https://ririnco.com/,2026-10-26,title_confirmed,리리앤코 ♥ RIRInCO,자체 쇼핑몰 메인 제목 확인
+MALL-0042,외출하는날,빅사이즈 여성의류,https://nadri4u.com/,2026-10-26,title_confirmed,빅사이즈 예쁘게입고 외출하는날,자체 쇼핑몰 메인 제목 확인
+MALL-0043,로로텐,빅사이즈 여성의류,https://loloten.com/,2026-10-26,title_confirmed,여성 빅사이즈 쇼핑몰 로로텐,브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0044,핫핑,빅사이즈 여성의류,https://hotping.co.kr/,2026-10-26,title_confirmed,러블리 핫핑 ♥ HOTPING,자체 쇼핑몰 메인 제목 확인
+MALL-0045,로미스토리,빅사이즈 여성의류,https://www.romistory.com/,2026-10-26,title_confirmed,로맨틱 캐주얼 빅사이즈 여성의류 로미스토리,브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0046,어거스트플랜,빅사이즈 여성의류,https://augustplan.com/,2026-10-26,title_confirmed,어거스트플랜,자체 쇼핑몰 메인 제목 확인
+MALL-0047,빅댄디,빅사이즈 여성의류,https://www.bigdandy.co.kr/,2026-10-26,title_confirmed,[BIGDANDY&LOOKSJ] 빅댄디&룩스제이 55부터130까지 플러스사이즈 올사이즈여성의류,자체 쇼핑몰 메인 제목 확인
+MALL-0048,우리다움,빅사이즈 여성의류,https://wooridaoom.com/,2026-10-26,title_confirmed,우리다움-빅사이즈 여성의류 전문 쇼핑몰,자체 쇼핑몰 메인 제목 확인
+MALL-0049,가빅,빅사이즈 여성의류,https://www.gabig.kr/,2026-10-26,blocked_by_client,,브라우저 보안 정책상 접속 차단으로 종료
+MALL-0050,위쉬몰,빅사이즈 여성의류,https://www.wishe.co.kr/,2026-10-26,title_confirmed,위쉬몰 - 빅사이즈여성의류 전문쇼핑몰,자체 쇼핑몰 메인 제목 확인
+MALL-0051,조아맘,여성의류,https://joamom.co.kr/,2026-10-26,title_confirmed,"입을수록 좋아, 조아맘",브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0052,더수리,여성의류,https://sooli.co.kr/,2026-10-26,title_confirmed,더수리... 편안한 모던룩을 즐기는 미시들의 아이템샵..,자체 쇼핑몰 메인 제목 확인
+MALL-0053,어반레이디,여성의류,https://urbanlady.co.kr/,2026-10-26,title_confirmed,어반레이디,자체 쇼핑몰 메인 제목 확인
+MALL-0054,ZOOZOOM,여성의류,https://zoozoom.co.kr/,2026-10-26,title_confirmed,주줌 | 원단이 좋은 옷 ZOOZOOM,자체 쇼핑몰 메인 제목 확인
+MALL-0055,온니꼬,여성의류,https://onnico.co.kr/,2026-10-26,blocked_by_client,,브라우저 보안 정책상 접속 차단으로 종료
+MALL-0056,로즈맘,여성의류,https://rosemom.co.kr/,2026-10-26,title_confirmed,엄마옷 최저가 종합쇼핑몰 로즈맘,자체 쇼핑몰 메인 제목 확인
+MALL-0057,위드엘벳,여성의류,https://elbeth.com/,2026-10-26,title_confirmed,"66/77사이즈, 30대/40대 여성의류 쇼핑몰, 위드엘벳",자체 쇼핑몰 메인 제목 확인
+MALL-0058,마담센스,여성의류,https://www.madamesense.co.kr/,2026-10-26,blocked_by_client,,브라우저 보안 정책상 접속 차단으로 종료
+MALL-0059,조이마담,여성의류,https://joymadam.com/,2026-10-26,title_confirmed,"엄마옷 조이마담-고품격 중년여성의류,미시옷,남성복 전문 쇼핑몰",브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0061,에이와비,여성의류,https://awab.co.kr/,2026-10-26,title_confirmed,에이와비 - AWAB,자체 쇼핑몰 메인 제목 확인
+MALL-0062,산그로우,여성의류,https://sangrow.co.kr/,2026-10-26,title_confirmed,산그로우,자체 쇼핑몰 메인 제목 확인
+MALL-0063,핫텐,여성의류,https://hot-10.com/,2026-10-26,title_confirmed,싸고 예쁜 10대 쇼핑몰 핫텐,자체 쇼핑몰 메인 제목 확인
+MALL-0064,가바바,여성의류,https://gababa.co.kr/,2026-10-26,title_confirmed,"10대, 20대 여성쇼핑몰 남성쇼핑몰 | 가바바",자체 쇼핑몰 메인 제목 확인
+MALL-0065,마지아룩,여성의류,https://mazia.kr/,2026-10-26,title_confirmed,클래식 무드로 완성하는 데일리룩과 아우터 | 마지아룩,브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0066,수헬렌,여성의류,https://suhelen.com/,2026-10-26,title_confirmed,중년여성의류 올드머니룩 수입의류쇼핑몰 수헬렌,자체 쇼핑몰 메인 제목 확인
+MALL-0067,갠소,여성의류,https://gaenso.com/,2026-10-26,title_confirmed,gaenso,자체 쇼핑몰 메인 제목 확인
+MALL-0068,악녀일기,여성의류,https://baddiary.com/,2026-10-26,title_confirmed,악녀일기 | 대한민국 악녀들의 패션 다이어리,자체 쇼핑몰 메인 제목 확인
+MALL-0069,소나무풍경,여성의류,https://pinescene.com/,2026-10-26,title_confirmed,소나무풍경.편안한 데일리 패션 쇼핑몰,자체 쇼핑몰 메인 제목 확인
+MALL-0070,봄나무,여성의류,https://bom-namoo.com/,2026-10-26,title_confirmed,"40대 여성쇼핑몰, 브랜드 퀄리티의 4050 여성의류",자체 쇼핑몰 메인 제목 확인
+MALL-0071,바이슈어,여성의류,https://ny-c.kr/,2026-10-26,title_confirmed,"30대, 40대 여성 쇼핑몰 - 바이슈어 BySure",자체 쇼핑몰 메인 제목 확인
+MALL-0072,미닛걸,여성의류,https://minutegirl.kr/,2026-10-26,title_confirmed,키작녀 전문 쇼핑몰 | 미닛걸,자체 쇼핑몰 메인 제목 확인
+MALL-0073,내추럴가든,여성의류,https://naturalgarden.co.kr/,2026-10-26,title_confirmed,내추럴가든 Natural Garden,자체 쇼핑몰 메인 제목 확인
+MALL-0074,금찌,여성의류,https://www.gumzzi.co.kr/,2026-10-26,title_confirmed,금찌 GUMZZI | 40대 50대 여성을 위한 프리미엄 감성의류 쇼핑몰,브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0075,미즈시크,여성의류,https://rosy0002.flexg.shop/,2026-10-26,title_confirmed,미즈시크 | 40대 50대 여성의류 쇼핑몰,자체 쇼핑몰 메인 제목 확인
+MALL-0076,모슬린,여성의류,https://sooapparel.com/,2026-10-26,title_confirmed,모슬린 | 엄마옷 중년여성의류 쇼핑몰,자체 쇼핑몰 메인 제목 확인
+MALL-0077,마담4060,여성의류,https://www.madam4060.com/,2026-10-26,title_confirmed,엄마옷 마담4060 | 50~60대 중년 여성의류 쇼핑몰,브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0078,고고싱,여성의류,https://ggsing.com/,2026-10-26,title_confirmed,고고싱 : ) 팬츠의 자신감🧡,브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0079,나나진,여성의류,https://nanajean.co.kr/,2026-10-26,title_confirmed,청바지쇼핑몰1위; 나나진♡,자체 쇼핑몰 메인 제목 확인
+MALL-0080,슬로우리스트,여성의류,https://slowlist.co.kr/,2026-10-26,title_confirmed,슬로우리스트,자체 쇼핑몰 메인 제목 확인
+MALL-0081,레브진,여성의류,https://revejin.shop/,2026-10-26,title_confirmed,레브진 [ 작아도 예쁜 옷 입어요 .. ♥︎] 150cm 키작녀 쇼핑몰,자체 쇼핑몰 메인 제목 확인
+MALL-0082,키작은여자,여성의류,https://www.kijakeunyeoja.com/,2026-10-26,title_confirmed,키작은여자 키작녀쇼핑몰 키작은여자쇼핑몰 30대쇼핑몰 40대쇼핑몰 예쁜엄마,자체 쇼핑몰 메인 제목 확인
+MALL-0083,엘걸,여성의류,https://lgirl.co.kr/,2026-10-26,title_confirmed,엘걸ღ,자체 쇼핑몰 메인 제목 확인
+MALL-0084,온마이원,여성의류,https://onmyone.com/,2026-10-26,title_confirmed,온마이원 | 158 키작녀쇼핑몰,자체 쇼핑몰 메인 제목 확인
+MALL-0085,코이브,여성의류,https://coive.co.kr/,2026-10-26,title_confirmed,"코이브 COI.ve | 키작녀 쇼핑몰, 158cm 여성의류",자체 쇼핑몰 메인 제목 확인
+MALL-0086,제니어리,여성의류,https://jenniary.kr/,2026-10-26,title_confirmed,제니어리 | 키작녀의 사계절 데일리룩,자체 쇼핑몰 메인 제목 확인
+MALL-0087,44어패럴,여성의류,https://44apparel.co.kr/,2026-10-26,title_confirmed,"33사이즈 44사이즈 키작녀 쇼핑몰, 44어패럴",자체 쇼핑몰 메인 제목 확인
+MALL-0088,무엔,여성의류,https://www.sibuya.co.kr/,2026-10-26,title_confirmed,차별화된 스타일의 무엔 MOO-N,자체 쇼핑몰 메인 제목 확인
+MALL-0089,나나살롱,여성의류,http://www.nanasalon.com/,2026-10-26,title_confirmed,언제나 당신의_ 나나살롱,자체 쇼핑몰 메인 제목 확인
+MALL-0090,뮬리안,여성의류,https://www.moulian.com/,2026-10-26,title_confirmed,뮬리안,자체 쇼핑몰 메인 제목 확인
+MALL-0091,핫핀,여성의류,http://www.hotpin.co.kr/,2026-10-26,blocked_by_client,,브라우저 보안 정책상 접속 차단으로 종료
+MALL-0092,더무드,여성의류,https://themood.co.kr/,2026-10-26,title_confirmed,더무드 THEMOOD,자체 쇼핑몰 메인 제목 확인
+MALL-0093,메이블랙,여성의류,https://may-black.com/,2026-10-26,title_confirmed,♡예뻐지는습관.....메이블랙♡,자체 쇼핑몰 메인 제목 확인
+MALL-0094,러브패리스,여성의류,https://loveparis.net/,2026-10-26,title_confirmed,러브패리스,자체 쇼핑몰 메인 제목 확인
+MALL-0095,IAM176,여성의류,https://www.iam176.co.kr/,2026-10-26,title_confirmed,키큰여자쇼핑몰 IAM176,자체 쇼핑몰 메인 제목 확인
+MALL-0096,아름다운 174,여성의류,https://www.174.co.kr/,2026-10-26,title_confirmed,키큰여자 아름다운 174,자체 쇼핑몰 메인 제목 확인
+MALL-0097,레미떼,여성의류,https://lemite.com/,2026-10-26,title_confirmed,전상품12%★일상이 특별해지는 레미떼!★,브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0098,사라172,여성의류,https://sara172.com/,2026-10-26,title_confirmed,키큰여자 쇼핑몰 사라172,자체 쇼핑몰 메인 제목 확인
+MALL-0099,키시,여성의류,https://kikilove.kr/,2026-10-26,title_confirmed,키시,자체 쇼핑몰 메인 제목 확인
+MALL-0100,비브앤러브,여성의류,https://www.vivnluv.co.kr/,2026-10-26,title_confirmed,비브앤러브 | 20·30대 여성 쇼핑몰 · 출근룩 데이트룩 하객룩,자체 쇼핑몰 메인 제목 확인
+MALL-0101,히렌,여성의류,https://hiren.kr/,2026-10-26,title_confirmed,HIREN｜히렌,자체 쇼핑몰 메인 제목 확인
+MALL-0102,요미언니,여성의류,https://www.yomiunni.co.kr/,2026-10-26,title_confirmed,요미언니,자체 쇼핑몰 메인 제목 확인
+MALL-0103,헬렌,여성의류,https://www.hellen.co.kr/,2026-10-26,title_confirmed,헬렌 - 고퀄리티 여성의류 편집샵,자체 쇼핑몰 메인 제목 확인
+MALL-0104,리틀블랙,여성의류,https://littleblack.co.kr/,2026-10-26,title_confirmed,LITTLE BLACK,브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0105,공구우먼,빅사이즈 여성의류,https://09women.com/,2026-10-26,title_confirmed,09WOMEN,브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0106,단하루,여성의류,https://danharoo.com/,2026-10-26,title_confirmed,단하루 | 스타일리시 여성 의류 도매 공식몰,자체 쇼핑몰 메인 제목 확인
+MALL-0107,안나디바,여성의류,https://annadiva.com/,2026-10-26,title_confirmed,annadiva,자체 쇼핑몰 메인 제목 확인
+MALL-0108,무드인사이드,여성의류,https://mood-inside.co.kr/,2026-10-26,title_confirmed,무드인사이드,자체 쇼핑몰 메인 제목 확인
+MALL-0109,메이메이,여성의류,https://maymay.kr/,2026-10-26,title_confirmed,메이메이 - 여성 의류 쇼핑몰,자체 쇼핑몰 메인 제목 확인
+MALL-0110,파티수,여성의류,https://partysu.co.kr/,2026-10-26,title_confirmed,파티수,자체 쇼핑몰 메인 제목 확인
+MALL-0111,썸제이,여성의류,https://ssumj.com/,2026-10-26,title_confirmed,SSUMJ 썸제이 | 여성 의류 컬렉션,자체 쇼핑몰 메인 제목 확인
+MALL-0112,스타일온미,여성의류,https://styleonme.com/,2026-10-26,title_confirmed,styleonme,브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0113,홀릭홀릭,여성의류,https://holicholic.com/,2026-10-26,title_confirmed,차분하고 세련된 holicholic,브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0114,퓨어다,여성의류,https://pureda.co.kr/,2026-10-26,title_confirmed,퓨어다,자체 쇼핑몰 메인 제목 확인
+MALL-0115,나는마리,여성의류,https://iammari.com/,2026-10-26,title_confirmed,나는마리 I AM MARI,자체 쇼핑몰 메인 제목 확인
+MALL-0116,메리어라운드,여성의류,https://merryaround.co.kr/,2026-10-26,title_confirmed,메리어라운드 ♥,자체 쇼핑몰 메인 제목 확인
+MALL-0117,플러스플러스,빅사이즈 여성의류,https://plusplus.kr/,2026-10-26,title_confirmed,플러스플러스,자체 쇼핑몰 메인 제목 확인
+MALL-0118,디얼마미,여성의류,https://dearmami.co.kr/,2026-10-26,title_confirmed,"디얼마미, 엄마의 옷장",자체 쇼핑몰 메인 제목 확인
+MALL-0119,쥬시팍시,빅사이즈 여성의류,https://jucifaci.com/,2026-10-26,title_confirmed,편안함이 스타일이 된다 쥬시팍시~!!,자체 쇼핑몰 메인 제목 확인
+MALL-0120,시크드,여성의류,https://chic-de.com/,2026-10-26,title_confirmed,시크드 CHICDE,자체 쇼핑몰 메인 제목 확인
+MALL-0121,리브어리,여성의류,https://liveary.com/,2026-10-26,title_confirmed,LIVEARY 리브어리,자체 쇼핑몰 메인 제목 확인
+MALL-0122,트렌디어패럴,여성의류,https://trendy-apparel.co.kr/,2026-10-26,title_confirmed,트렌디어패럴,브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0123,소녀레시피,여성의류,https://recipeofgirl.com/,2026-10-26,title_confirmed,소녀레시피,자체 쇼핑몰 메인 제목 확인
+MALL-0124,마리앙도트,여성의류,https://mariandoute.co.kr/,2026-10-26,title_confirmed,세련되고 고급스러운 스타일 마리앙도트★,자체 쇼핑몰 메인 제목 확인
+MALL-0125,후즈걸,여성의류,https://whosgirl.co.kr/,2026-10-26,title_confirmed,후즈걸,자체 쇼핑몰 메인 제목 확인
+MALL-0126,위드윤,여성의류,https://withyoon.com/,2026-10-26,title_confirmed,위드윤,자체 쇼핑몰 메인 제목 확인
+MALL-0127,메이비베이비,여성의류,https://maybe-baby.co.kr/,2026-10-26,title_confirmed,MAYBE BABY 메이비베이비,자체 쇼핑몰 메인 제목 확인
+MALL-0128,모데스트무드,여성의류,https://modestmood.com/,2026-10-26,title_confirmed,모데스트무드,자체 쇼핑몰 메인 제목 확인
+MALL-0129,유이니,여성의류,https://yuini.co.kr/,2026-10-26,title_confirmed,유이니 (YUINI),자체 쇼핑몰 메인 제목 확인
+MALL-0130,아모이,여성의류,https://amoistudio.co.kr/,2026-10-26,title_confirmed,아모이,자체 쇼핑몰 메인 제목 확인
+MALL-0131,버앤버브,여성의류,https://avec-el.com/,2026-10-26,title_confirmed,VER&VERVE 버앤버브,자체 쇼핑몰 메인 제목 확인
+MALL-0132,브렌다브렌든,여성의류,https://brendabrenden.com/,2026-10-26,title_confirmed,브렌다브렌든,자체 쇼핑몰 메인 제목 확인
+MALL-0133,아이링,여성의류,https://airingg.kr/,2026-10-26,http_forbidden,403 Forbidden,서버가 HTTP 403으로 접근을 거부해 종료
+MALL-0134,츄,여성의류,https://chuu.co.kr/,2026-10-26,title_confirmed,chuu — 나답고 특별하게 | 츄 chuu 공식 사이트,자체 쇼핑몰 메인 제목 확인
+MALL-0135,나닝9,여성의류,https://naning9.com/,2026-10-26,title_confirmed,[ko]난닝구_이지캐주얼룩,자체 쇼핑몰 메인 제목 확인
+MALL-0136,임블리,여성의류,https://imvely.com/,2026-10-26,title_confirmed,IMVELY :: 임블리,자체 쇼핑몰 메인 제목 확인
+MALL-0137,체리코코,여성의류,https://cherrykoko.com/,2026-10-26,title_confirmed,CHERRYKOKO,자체 쇼핑몰 메인 제목 확인
+MALL-0138,모코블링,여성의류,https://mocobling.com/,2026-10-26,title_confirmed,모코블링,브라우저 응답 오류가 있었으나 이후 제목이 노출됨
+MALL-0139,밀크코코아,여성의류,https://milkcocoa.co.kr/,2026-10-26,title_confirmed,밀크코코아,자체 쇼핑몰 메인 제목 확인
+MALL-0140,커먼유니크,여성의류,https://common-unique.com/,2026-10-26,title_confirmed,커먼유니크,자체 쇼핑몰 메인 제목 확인
+MALL-0141,스토어츠,여성의류,https://storets.com/,2026-10-26,site_loaded_nonbrand_title,"American Express","HTML 제목이 쇼핑몰명이 아닌 결제사 표기로 확인됨"
+MALL-0142,립합,여성의류,https://liphip.co.kr/,2026-10-26,title_confirmed,립힙,자체 쇼핑몰 메인 제목 확인
+MALL-0143,플라이모델,여성의류,https://flymodel.co.kr/,2026-10-26,title_confirmed,오늘도 플라이모델과 함께!,자체 쇼핑몰 메인 제목 확인
+MALL-0144,망고매니플리즈,여성의류,https://mangomanyplease.com/,2026-10-26,title_confirmed,MangoManyPlease,자체 쇼핑몰 메인 제목 확인
+MALL-0145,더실루엣,여성의류,https://sie-official.kr/,2026-10-26,title_confirmed,시에(SIE),자체 쇼핑몰 메인 제목 확인
+MALL-0146,올슨,여성의류,https://olssen.co.kr/,2026-10-26,title_confirmed,OLSSEN,자체 쇼핑몰 메인 제목 확인
+MALL-0147,쓰리컷,여성의류,https://threecut.kr/,2026-10-26,title_confirmed,"쓰리컷, 3CUT",자체 쇼핑몰 메인 제목 확인
+MALL-0148,문트,여성의류,https://moont.kr/,2026-10-26,title_confirmed,문트,자체 쇼핑몰 메인 제목 확인
+MALL-0149,블랙업,여성의류,https://black-up.kr/,2026-10-26,title_confirmed,블랙업,자체 쇼핑몰 메인 제목 확인
+MALL-0150,코디북,빅사이즈 여성의류,https://codibook.net/,2026-10-26,title_confirmed,"코디북 - 패션, 코디, 쇼핑",자체 쇼핑몰 메인 제목 확인
+MALL-0151,룩핀,여성의류,https://lookpin.co.kr/,2026-10-26,title_confirmed,룩핀,자체 쇼핑몰 메인 제목 확인
+MALL-0152,스타일노리터,여성의류,https://stylenoriter.co.kr/,2026-10-26,title_confirmed,"토박스 & 스타일노리터 - 키즈 토털 패션","원본 분류는 여성의류이나 실제 페이지 제목은 키즈 패션으로 확인됨"
+MALL-0153,베니토,여성의류,https://benito.co.kr/,2026-10-26,title_confirmed,"베니토(Benito)",자체 쇼핑몰 메인 제목 확인
+MALL-0154,12탑,여성의류,https://12top.co.kr/,2026-10-26,title_confirmed,"레플, 로스, 40대여성쇼핑몰, 명품스타일여성의류 12탑",자체 쇼핑몰 메인 제목 확인
+MALL-0155,폴앤,여성의류,https://paulanne.co.kr/,2026-10-26,title_confirmed,"폴앤 PaulAnne | 40대 여성의류 쇼핑몰",자체 쇼핑몰 메인 제목 확인
+MALL-0156,안나앤모드,여성의류,https://annanmode.com/,2026-10-26,title_confirmed,안나앤모드,자체 쇼핑몰 메인 제목 확인
+MALL-0157,W걸즈,빅사이즈 여성의류,https://w-girlz.co.kr/,2026-10-26,title_confirmed,"w걸즈 수입 여성의류 쇼핑몰 | 데일리룩·하객룩·패션 아이템",자체 쇼핑몰 메인 제목 확인
+MALL-0158,투엘브,여성의류,https://2lve12.com/,2026-10-26,title_confirmed,"MOMET 모멧 공식사이트","원본 상호와 현재 페이지 표기가 다름"
+MALL-0159,니드썸,여성의류,https://needsome.co.kr/,2026-10-26,title_confirmed,입을수록 탐나는 니썸,"원본 상호와 현재 페이지 표기가 다름"
+MALL-0160,러브모어,여성의류,https://lovemore.co.kr/,2026-10-26,title_confirmed,모어프로덕트,"원본 상호와 현재 페이지 표기가 다름"
+MALL-0161,모어모먼트,여성의류,https://moremoment.com/,2026-10-26,title_confirmed,"모어모먼트 - 모어모먼트",자체 쇼핑몰 메인 제목 확인
+MALL-0162,엠유아이,여성의류,https://m-u-i.co.kr/,2026-10-26,title_confirmed,"더무이, THE MUI","원본 상호와 현재 페이지 표기가 다름"
+MALL-0163,유어메모,여성의류,https://yourmemo.co.kr/,2026-10-26,title_confirmed,"유어메모 : YOURMEMO",자체 쇼핑몰 메인 제목 확인
+MALL-0164,라룸,여성의류,https://la-room.kr/,2026-10-26,title_confirmed,라룸,자체 쇼핑몰 메인 제목 확인
+MALL-0165,베일,여성의류,https://shop-veil.co.kr/,2026-10-26,title_confirmed,샵베일,"원본 상호와 현재 페이지 표기가 다름"
+MALL-0166,하우스제이,여성의류,https://house-j.co.kr/,2026-10-26,title_confirmed,"하우스제이 HOUSE-J",자체 쇼핑몰 메인 제목 확인
+MALL-0167,브론즈부부,여성의류,https://bronzebooboo.co.kr/,2026-10-26,title_confirmed,브론즈부부-여성만을 위한 시크하고 세련된 쇼핑몰,자체 쇼핑몰 메인 제목 확인
+MALL-0168,모어레브,여성의류,https://morereve.com/,2026-10-26,title_confirmed,모어레브,자체 쇼핑몰 메인 제목 확인
+MALL-0169,하우투러브미,여성의류,https://howtoloveme.com/,2026-10-26,title_confirmed,하우투러브미,자체 쇼핑몰 메인 제목 확인
+MALL-0170,유어바웃미,여성의류,https://uaboutme.com/,2026-10-26,title_confirmed,uaboutme 유아부미,자체 쇼핑몰 메인 제목 확인
+MALL-0171,언밸런스,여성의류,https://unbalance.co.kr/,2026-10-26,title_confirmed,언발란스 고퀄리티 남성쇼핑몰,"원본 분류와 달리 현재 페이지는 남성 쇼핑몰"
+MALL-0172,이끌림몰,여성의류,https://ecclimmall.com/,2026-10-26,title_confirmed,이끌림몰,자체 쇼핑몰 메인 제목 확인
+MALL-0173,썸플레이스,여성의류,https://someplace.co.kr/,2026-10-26,title_confirmed,썸플레이스 공식 온라인스토어,자체 쇼핑몰 메인 제목 확인
+MALL-0174,99빈티지,여성의류,https://99vintage.co.kr/,2026-10-26,title_confirmed,"빈티지샵, 빈티지 쇼핑몰,구제샵 - 꾸꾸빈티지 99vintage",자체 쇼핑몰 메인 제목 확인
+MALL-0175,러브유,여성의류,https://loveyou.co.kr/,2026-10-26,title_confirmed,"THE MISS – 국제결혼 · 다문화가족 · 글로벌패밀리 전문신문","원본 분류와 무관한 현재 도메인 용도"
+MALL-0176,믹스믹스KR,여성의류,https://mixxmix.kr/,2026-10-26,title_confirmed,mixxmix,자체 쇼핑몰 메인 제목 확인
+MALL-0177,프롬비기닝,여성의류,https://frombeginning.co.kr/,2026-10-26,title_confirmed,프롬비기닝,자체 쇼핑몰 메인 제목 확인
+MALL-0178,사뿐,여성의류,https://sappun.co.kr/,2026-10-26,title_confirmed,사뿐 공식 홈페이지,자체 쇼핑몰 메인 제목 확인
+MALL-0179,미아마스빈,여성의류,https://miamasvin.co.kr/,2026-10-26,title_confirmed,"사랑해요 미아마스빈",자체 쇼핑몰 메인 제목 확인
+MALL-0180,드래곤블루스,여성의류,https://dragonblues.com/,2026-10-26,title_confirmed,"DRAGONBLUES – dragonblues",자체 쇼핑몰 메인 제목 확인
+MALL-0181,랑돈네,여성의류,https://randonnee.kr/,2026-10-26,title_confirmed,randonnee,자체 쇼핑몰 메인 제목 확인
+MALL-0182,어바웃썸,여성의류,https://aboutsome.co.kr/,2026-10-26,title_confirmed,어바웃썸,자체 쇼핑몰 메인 제목 확인
+MALL-0183,핑크에이지,여성의류,https://pinkage.co.kr/,2026-10-26,title_confirmed,핑크에이지,자체 쇼핑몰 메인 제목 확인
+MALL-0184,썸스토어,여성의류,https://somestore.co.kr/,2026-10-26,title_confirmed,섬스토어,"원본 상호와 현재 페이지 표기가 다름"
+MALL-0185,아보세,여성의류,https://abose.co.kr/,2026-10-26,title_confirmed,"아보세 | 교실에서 즐기는 한국사 북아트","원본 분류와 무관한 현재 도메인 용도"
+MALL-0186,마크들리,여성의류,https://markedly.co.kr/,2026-10-26,title_confirmed,Markedly,자체 쇼핑몰 메인 제목 확인
+MALL-0187,리얼코코,여성의류,https://realcoco.com/,2026-10-26,title_confirmed,"리얼코코 | 자체제작 여성 데일리룩·하객룩",자체 쇼핑몰 메인 제목 확인
+MALL-0188,안나리치,여성의류,https://annarich.co.kr/,2026-10-26,title_confirmed,"특별한 당신을 위한 1% 안나리치",자체 쇼핑몰 메인 제목 확인
+MALL-0189,메이홀릭,여성의류,https://mayholic.co.kr/,2026-10-26,title_confirmed,MAYHOLIC,자체 쇼핑몰 메인 제목 확인
+MALL-0190,ilsang-project,여성의류,https://ilsang-project.com/,2026-10-26,title_confirmed,일상프로젝트,자체 쇼핑몰 메인 제목 확인
+MALL-0191,monosimson,여성의류,https://monosimson.com/,2026-10-26,title_confirmed,MONOSIMSON,자체 쇼핑몰 메인 제목 확인
+MALL-0192,theverlin,여성의류,https://theverlin.com/,2026-10-26,title_confirmed,더베를린,자체 쇼핑몰 메인 제목 확인
+MALL-0193,autumnshop,여성의류,https://autumnshop.kr/,2026-10-26,title_confirmed,어텀,"원본 상호와 현재 페이지 표기가 다름"
+MALL-0194,에이치유,여성의류,https://h-you.co.kr/,2026-10-26,title_confirmed,"에이치유 | 매일의 스타일을 쉽게",자체 쇼핑몰 메인 제목 확인
+MALL-0195,로니엘,여성의류,https://roniel.co.kr/,2026-10-26,title_confirmed,로니엘/RONIEL,자체 쇼핑몰 메인 제목 확인
+MALL-0196,바닐라니트,여성의류,https://vanillaknit.com/,2026-10-26,title_confirmed,"Home - Vanillaknit",자체 쇼핑몰 메인 제목 확인
+MALL-0197,쇼퍼랜드,여성의류,https://shopperland.co.kr/,2026-10-26,title_confirmed,쇼퍼랜드,자체 쇼핑몰 메인 제목 확인
+MALL-0198,키키코,여성의류,https://kikiko.co.kr/,2026-10-26,title_confirmed,"키키코 - 초등고학년·중학생 소녀옷, 엄마가 안심하는 주니어 쇼핑몰 쇼핑, 키 140 옷, 키 150옷","원본 분류는 여성의류이나 현재 페이지는 주니어 의류"
+MALL-0199,르모어,여성의류,https://lemoir.kr/,2026-10-26,title_confirmed,르모어,자체 쇼핑몰 메인 제목 확인
+MALL-0200,민지콩,여성의류,https://mjcong.co.kr/,2026-10-26,title_confirmed,민지콩,자체 쇼핑몰 메인 제목 확인
+MALL-0201,비바루비,여성의류,https://vivaruby.co.kr/,2026-10-26,title_confirmed,모두 다 갖고싶은 비바루비♥,자체 쇼핑몰 메인 제목 확인
+MALL-0202,베일즈,여성의류,https://veils.co.kr/,2026-10-26,title_confirmed,"베일즈 , V E I L S",자체 쇼핑몰 메인 제목 확인
+MALL-0203,큐니걸스,여성의류,https://qng.co.kr/,2026-10-26,title_confirmed,"기대, 그 이상! 큐 니 걸 스 ♡ : )",자체 쇼핑몰 메인 제목 확인
+MALL-0209,아키텍트,여성의류,https://archi-tect.shop/,2026-10-26,title_confirmed,ARCHITECT 아키텍트,자체 쇼핑몰 메인 제목 확인
+MALL-0210,오네,여성의류,https://ohne.store/,2026-10-26,title_confirmed,오네 ohne,자체 쇼핑몰 메인 제목 확인
+MALL-0211,데일리룩,여성의류,https://dailylook.kr/,2026-10-26,title_confirmed,"작은 디테일의 우아함을 입는 매일 | 데일리룩",자체 쇼핑몰 메인 제목 확인
+MALL-0208,프렌치오브,여성의류,https://frenchaube.com/,2026-10-26,title_confirmed,프렌치오브,자체 쇼핑몰 메인 제목 확인
+MALL-0213,니쁜스,여성의류,https://www.nibbuns.co.kr/,2026-10-26,site_placeholder,"Default page","현재 사이트가 기본 안내 페이지로 표시됨"
+MALL-0206,히프나틱,여성의류,https://www.hypnotic.co.kr/,2026-10-26,title_confirmed,히프나틱,자체 쇼핑몰 메인 제목 확인
+MALL-0207,에드모어,여성의류,https://addmore.co.kr/,2026-10-26,title_confirmed,"에드모어 ADDMORE | Notes on us",자체 쇼핑몰 메인 제목 확인
+MALL-0215,가내스라,여성의류,https://ganaesra.com/,2026-10-26,title_confirmed,가내스라,자체 쇼핑몰 메인 제목 확인
+MALL-0216,필링스,여성의류,https://feelings.co.kr/,2026-10-26,title_confirmed,필링스,자체 쇼핑몰 메인 제목 확인
+MALL-0218,리얼옐로우,여성의류,https://realyellow.co.kr/,2026-10-26,title_confirmed,리얼옐로우,자체 쇼핑몰 메인 제목 확인
+MALL-0219,98도씨,여성의류,https://98doci.com/,2026-10-26,title_confirmed,98도씨,자체 쇼핑몰 메인 제목 확인
+MALL-0220,논코드,여성의류,https://noncode.co.kr/,2026-10-26,title_confirmed,"논코드 | 모노톤의 자유로운 미학",자체 쇼핑몰 메인 제목 확인
+MALL-0222,로라로라,여성의류,https://www.rolarola.com/,2026-10-26,title_confirmed,로라로라,자체 쇼핑몰 메인 제목 확인
+MALL-0223,데이로제,여성의류,https://dayroze.com/,2026-10-26,title_confirmed,데이로제 Dayroze,자체 쇼핑몰 메인 제목 확인
+MALL-0224,에브리모닝,여성의류,https://everymorning.co.kr/,2026-10-26,title_confirmed,에브리모닝,자체 쇼핑몰 메인 제목 확인
+MALL-0225,미뉴에트,여성의류,https://love-minuet.com/,2026-10-26,title_confirmed,미뉴에트,자체 쇼핑몰 메인 제목 확인
+MALL-0226,로컬맨션,여성의류,https://www.localmansion.com/,2026-10-26,title_confirmed,로컬맨션,자체 쇼핑몰 메인 제목 확인
+MALL-0227,블루팝스,여성의류,https://bluepops.co.kr/,2026-10-26,title_confirmed,BLUEPOPS,자체 쇼핑몰 메인 제목 확인
+MALL-0228,코코앤유,여성의류,https://cocond.com/,2026-10-26,title_confirmed,"44~88까지 코코앤유♥",자체 쇼핑몰 메인 제목 확인
+MALL-0229,쿨시스,여성의류,https://coolsis.kr/,2026-10-26,title_confirmed,쿨시스,자체 쇼핑몰 메인 제목 확인
+MALL-0230,라일론,여성의류,https://lylon.co.kr/,2026-10-26,title_confirmed,LYLON,자체 쇼핑몰 메인 제목 확인
+MALL-0231,미캐느,여성의류,https://micane.co.kr/,2026-10-26,title_confirmed,"미케네 MICANE","원본 상호와 현재 페이지 표기가 다름"
+MALL-0232,파스토레,여성의류,https://pastore.co.kr/,2026-10-26,title_confirmed,"𝐏𝐀𝐒𝐓𝐎𝐑𝐄 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋",자체 쇼핑몰 메인 제목 확인
+MALL-0233,리치무드,빅사이즈 여성의류,https://richmood.co.kr/,2026-10-26,title_confirmed,리치무드,자체 쇼핑몰 메인 제목 확인
+MALL-0234,더아셀,여성의류,https://theasel.co.kr/,2026-10-26,title_confirmed,더아셀 theasel,자체 쇼핑몰 메인 제목 확인
+MALL-0235,더글림,여성의류,https://theglim.kr/,2026-10-26,title_confirmed,글림 Glim,"원본 상호와 현재 페이지 표기가 다름"
+MALL-0236,룩체크,여성의류,https://2check.kr/,2026-10-26,title_confirmed,룩체크,자체 쇼핑몰 메인 제목 확인
+MALL-0237,포디룩(4DLOOK),여성의류,https://4dlook.com/,2026-10-26,title_confirmed,포디룩,자체 쇼핑몰 메인 제목 확인
+MALL-0241,엘앤케이(LMK),여성의류,https://acution.co.kr/,2026-10-26,redirected_other,"모바일 쇼핑은 옥션","현재 도메인이 옥션 제휴 링크로 이동"
+MALL-0242,어도어룩,여성의류,https://adorelook.com/,2026-10-26,title_confirmed,"Adorelook | 어도어룩",메인 HTML 제목 확인
+MALL-0246,0000 포영,여성의류,https://0000seoul.kr/,2026-10-26,title_confirmed,0000 포영,자체 쇼핑몰 메인 제목 확인
+MALL-0247,0025,여성의류,https://0025.studio/,2026-10-26,title_confirmed,0025,자체 쇼핑몰 메인 제목 확인
+MALL-0248,공공육이(0062),여성의류,https://0062.kr/,2026-10-26,title_confirmed,0062,자체 쇼핑몰 메인 제목 확인
+MALL-0238,에이스종합쇼핑몰,여성의류,https://ace-eshop.com/,2026-10-26,site_loaded_title_blank,"","원본·www 변형도 HTML 제목이 빈 값으로 확인됨"
+MALL-0239,주식회사 룩코,여성의류,https://acloset.app/,2026-10-26,redirected_other,"에이클로젯 — AI가 만드는 스마트 옷장","현재 도메인은 AI 옷장 서비스"
+MALL-0240,아크릴쇼핑몰,여성의류,https://acrylshopping.co.kr/,2026-10-26,redirected_other,"아코박스! 아크릴의 모든 제품을 다룹니다.","현재 도메인은 아크릴 제품 판매"
+MALL-0243,허브쇼핑몰,여성의류,https://ahcshop.co.kr/,2026-10-26,title_confirmed,허브쇼핑몰에 오신 것을 환영합니다!,자체 쇼핑몰 메인 제목 확인
+MALL-0244,(주)애니룩스,여성의류,https://anylux.co.kr/,2026-10-26,title_confirmed,anylux,자체 쇼핑몰 메인 제목 확인
+MALL-0245,현필라테스 & 자이로토닉(HYUN Pilates & Gyrotonic),여성의류,https://applink.a-bly.com/,2026-10-26,redirected_other,"에이블리 - 4천만의 AI 쇼핑메이트 다운받기","현재 도메인은 에이블리 앱 설치 링크"
+MALL-0249,제뉴인니스(GENUINENESS INC.),여성의류,https://025s.co.kr/,2026-10-26,redirected_other,"POINTTWOFIVE·SECOND Official Site - Fragrance, Tea & Exhibitions","현재 도메인은 향·차·전시 브랜드"
+MALL-0250,세컨드 아르무아(02 ARMOIRE),여성의류,https://02armoire.com/,2026-10-26,title_confirmed,"02 ARMOIRE l 세컨드 아르무아",자체 쇼핑몰 메인 제목 확인
+MALL-0251,공삼이일(0321),여성의류,https://0321official.com/,2026-10-26,title_confirmed,0321(공삼이일),자체 쇼핑몰 메인 제목 확인
+MALL-0252,고룩 컴퍼니,여성의류,https://golook.co.kr/,2026-10-26,title_confirmed,"고룩, 짐웨어부터 빅사이즈 데일리룩 까지!",자체 쇼핑몰 메인 제목 확인
+MALL-0253,아이디룩,여성의류,https://idlookmall.com/,2026-10-26,title_confirmed,아이디룩몰,자체 쇼핑몰 메인 제목 확인
+MALL-0254,룩캐스트 (LOOKAST),여성의류,https://lookast.com/,2026-10-26,title_confirmed,LOOKAST 룩캐스트 공식 온라인 스토어,자체 쇼핑몰 메인 제목 확인
+MALL-0255,룩엠제이,여성의류,https://lookmj.co.kr/,2026-10-26,title_confirmed,룩엠제이,자체 쇼핑몰 메인 제목 확인
+MALL-0256,룩앤무드,여성의류,https://looknmood.com/,2026-10-26,title_confirmed,"전상품 무료배송! 룩앤무드",자체 쇼핑몰 메인 제목 확인
+MALL-0257,룩스(LOOKS),여성의류,https://lookslady.co.kr/,2026-10-26,title_confirmed,룩스레이디,"원본 상호와 현재 페이지 표기가 다름"
+MALL-0258,룩티튜드,여성의류,https://looktitude.com/,2026-10-26,title_confirmed,룩티튜드,자체 쇼핑몰 메인 제목 확인
+MALL-0259,미셀룩(Michelle Look),여성의류,https://michellelook.com/,2026-10-26,title_confirmed,"Michelle Look Designer Bag","현재 페이지는 디자이너 가방 중심"
+MALL-0260,마이룩,여성의류,https://mylook.co.kr/,2026-10-26,title_confirmed,"마이룩 | 매일의 특별함을 입다",자체 쇼핑몰 메인 제목 확인
+MALL-0261,피에스룩(PS look),여성의류,https://pslook.co.kr/,2026-10-26,title_confirmed,"PS look",자체 쇼핑몰 메인 제목 확인
+MALL-0262,샌프룩(sanfrook),여성의류,https://sanfrook.co.kr/,2026-10-26,title_confirmed,샌프룩,자체 쇼핑몰 메인 제목 확인
+MALL-0263,슬룩(sslook),여성의류,https://sslook.co.kr/,2026-10-26,title_confirmed,"가치에 재미를 더하다 :: 슬룩-sslook",자체 쇼핑몰 메인 제목 확인
+MALL-0264,위드리본,여성의류,https://withreborn.cafe24.com/,2026-10-26,title_confirmed,"위드리본 | 당신의 일상을 위한 편안함",자체 쇼핑몰 메인 제목 확인
+MALL-0265,디베르그,여성의류,https://d-vergr.com/,2026-10-26,title_confirmed,디베르그,자체 쇼핑몰 메인 제목 확인
+MALL-0204,그루밍에브리웨어,여성의류,https://grooming-everywhere.com/,2026-10-26,title_confirmed,"GROOMING (그루밍 에브리웨어)",메인 HTML 제목 확인
+MALL-0205,슬로우앤드,여성의류,https://slowand.com/,2026-10-26,title_confirmed,슬로우앤드,메인 HTML 제목 확인
+MALL-0212,메이뜰,여성의류,https://www.mayddle.com/,2026-10-26,title_confirmed,"매일 입고 싶은 모던데일리룩, 메이뜰",메인 HTML 제목 확인

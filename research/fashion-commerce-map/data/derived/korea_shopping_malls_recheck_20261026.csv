@@ -1,0 +1,20 @@
+mall_id,url,tried_paths,a,b,c,d,final_status,reason
+MALL-0237,https://4dlook.com/,/,Y,Y,Y,Y,재확인 완료,4 criteria met on /
+MALL-0238,https://ace-eshop.com/,/,Y,N,Y,Y,확인 필요,디지털구독·게임상품만
+MALL-0239,https://acloset.app/,/,Y,N,N,N,확인 필요,AI 옷장 앱 랜딩
+MALL-0240,https://acrylshopping.co.kr/,/,Y,N,Y,Y,확인 필요,아크릴·인테리어용품
+MALL-0241,https://acution.co.kr/,/; auction redirect,Y,N,N,N,확인 필요,옥션 리다이렉트·Cloudflare
+MALL-0242,https://adorelook.com/,/; /order/basket.html,Y,Y,Y,Y,재확인 완료,basket page confirms cart
+MALL-0243,https://ahcshop.co.kr/,/,Y,N,Y,Y,확인 필요,화장품·스킨케어
+MALL-0244,https://anylux.co.kr/ko/,/ko/,Y,N,N,Y,확인 필요,LED 모듈 제조
+MALL-0245,https://applink.a-bly.com/,/@ably,Y,N,N,N,확인 필요,에이블리 앱 유도만
+MALL-0246,https://0000seoul.kr/,/; /product/list.html,Y,Y,Y,N,확인 필요,등록 상품 0개
+MALL-0247,https://0025.studio/,/product/list.html,Y,N,Y,N,확인 필요,등록 상품 0개
+MALL-0248,https://0062.kr/,/,Y,N,N,N,확인 필요,쇼핑 UI·상품 없음
+MALL-0249,https://025s.co.kr/,/,Y,N,N,N,확인 필요,향수·티·전시
+MALL-0250,https://02armoire.com/,/product/list.html?cate_no=94,Y,Y,Y,Y,재확인 완료,WOMENSWEAR list
+MALL-0252,https://golook.co.kr/,/; /product/list_gallery.html?cate_no=44,Y,Y,Y,N,확인 필요,상품 항목 미노출
+MALL-0254,https://lookast.com/,/; /product/detail.html?product_no=6991,Y,Y,Y,Y,재확인 완료,product detail
+MALL-0257,https://lookslady.co.kr/,/; /order/basket.html,Y,Y,Y,Y,재확인 완료,basket heading 장바구니
+MALL-0259,https://michellelook.com/,/,Y,N,Y,Y,확인 필요,가방 전문
+MALL-0265,https://d-vergr.com/,/product/shop_list.html?cate_no=43,Y,N,Y,Y,확인 필요,남성·다크웨어 의류

@@ -7,9 +7,9 @@
 
 | 자료 | 역할 | 현재 상태 |
 | --- | --- | --- |
-| `fashion-commerce-map/data/curated/korea_shopping_malls.csv` | 실제 확인한 쇼핑몰 목록 | 200건 |
-| `fashion-commerce-map/data/curated/korea_entities.csv` | 기업·브랜드·쇼핑몰 등 개체 목록 | 122건 |
-| `fashion-commerce-map/data/curated/korea_relationships.csv` | 기업·브랜드·쇼핑몰 사이의 확인된 관계 | 95건 |
+| `fashion-commerce-map/data/curated/korea_shopping_malls.csv` | 실제 확인한 쇼핑몰 목록 | 252건 |
+| `fashion-commerce-map/data/curated/korea_entities.csv` | 기업·브랜드·쇼핑몰 등 개체 목록 | 228건 |
+| `fashion-commerce-map/data/curated/korea_relationships.csv` | 기업·브랜드·쇼핑몰 사이의 확인된 관계 | 168건 |
 | `01-korea-fashion-sales-channels.md` | 국내 판매 채널이 어떻게 나뉘는지 설명 | 산업 지도 문서 |
 | `02-korea-fashion-platforms.md` | 플랫폼·전문 온라인몰 대표군과 운영 방식 | 11개 초기 사례 |
 | `03-company-brand-channel-map.md` | 기업 → 브랜드 → 판매 채널 관계를 읽는 법 | 관계 데이터 해설 |
@@ -18,9 +18,9 @@
 
 ### 기본 데이터 점검 결과 (2026-10-26)
 
-- 쇼핑몰 200건은 이름·URL 필수값 누락이 없고, 동일 URL 중복도 확인되지 않았다.
-- 엔터티 122건과 관계 95건을 대조했을 때, 존재하지 않는 대상을 가리키는 관계는 없었다.
-- 관계 검증 상태는 `확인` 92건, `부분 확인` 3건이다.
+- 쇼핑몰 252건은 동일 URL 중복이 확인되지 않았다.
+- 엔터티 228건과 관계 168건을 대조했을 때, 존재하지 않는 대상을 가리키는 관계는 없었다.
+- 여성 전용과 유니섹스·남녀 동시 전개 범위를 분리해 보고 있으며, 여성·유니섹스 브랜드는 현재 76건이다.
 - 이 점검은 형식·연결 상태만 확인한 것이다. 각 사이트의 현재 운영 여부와 정보의 최신성은 별도 재확인이 필요하다.
 
 ## 2. 불필요하게 늘리지 않을 것
