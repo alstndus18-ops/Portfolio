@@ -1,0 +1,470 @@
+{
+  "generated_at": "2026-10-26T04:23:55.888496+00:00",
+  "source_scope": "경기도 통신판매사업자 전체",
+  "source_file": "ftc_mail_order_gyeonggi_20261026.csv",
+  "privacy": {
+    "raw_records_exported": false,
+    "excluded_fields": [
+      "대표자명",
+      "전화번호",
+      "전자우편",
+      "사업장소재지",
+      "사업장소재지(도로명)"
+    ]
+  },
+  "method": {
+    "parser": "Python standard-library csv.reader (RFC 4180-style quoted-field handling)",
+    "active_definition": "업소상태가 정확히 '정상영업'인 유효 행",
+    "fashion_candidate_definition": "취급품목에 사전 정의한 패션 관련 키워드가 포함된 유효 행. 검증된 패션 사업자 수가 아님.",
+    "malformed_row_policy": "헤더 열 수와 다른 레코드는 집계에서 제외하고 건수만 공개한다.",
+    "field_safety_policy": "집계 열에서도 형식에 맞지 않는 값은 공개 목록에서 제외하고 건수만 기록한다."
+  },
+  "metrics": {
+    "total_parsed_rows": 719279,
+    "valid_rows": 701274,
+    "malformed_rows": 18005,
+    "active_rows": 484763,
+    "fashion_candidate_rows": 199686,
+    "filtered_value_counts": {
+      "product_type": 1
+    }
+  },
+  "breakdowns": {
+    "status": [
+      {
+        "label": "정상영업",
+        "count": 484763
+      },
+      {
+        "label": "폐업처리",
+        "count": 200535
+      },
+      {
+        "label": "직권말소",
+        "count": 9115
+      },
+      {
+        "label": "직권취소",
+        "count": 4229
+      },
+      {
+        "label": "휴업처리",
+        "count": 2425
+      },
+      {
+        "label": "타시군구전입",
+        "count": 186
+      },
+      {
+        "label": "영업재개",
+        "count": 21
+      }
+    ],
+    "sale_method": [
+      {
+        "label": "인터넷",
+        "count": 620822
+      },
+      {
+        "label": "인터넷 기타",
+        "count": 22599
+      },
+      {
+        "label": "null",
+        "count": 14131
+      },
+      {
+        "label": "기타",
+        "count": 13382
+      },
+      {
+        "label": "인터넷 TV홈쇼핑",
+        "count": 3469
+      },
+      {
+        "label": "인터넷 카달로그",
+        "count": 3191
+      },
+      {
+        "label": "TV홈쇼핑 인터넷",
+        "count": 3185
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 신문잡지 기타",
+        "count": 2608
+      },
+      {
+        "label": "TV홈쇼핑",
+        "count": 2443
+      },
+      {
+        "label": "인터넷 카달로그 기타",
+        "count": 2251
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 신문잡지 기타",
+        "count": 1988
+      },
+      {
+        "label": "인터넷 카달로그 신문잡지 기타",
+        "count": 1194
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 기타",
+        "count": 1069
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 기타",
+        "count": 981
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 신문잡지",
+        "count": 853
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 신문잡지",
+        "count": 732
+      },
+      {
+        "label": "기타 인터넷",
+        "count": 666
+      },
+      {
+        "label": "인터넷 카달로그 신문잡지",
+        "count": 655
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그",
+        "count": 611
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그",
+        "count": 587
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 기타",
+        "count": 427
+      },
+      {
+        "label": "인터넷 신문잡지",
+        "count": 403
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 기타",
+        "count": 350
+      },
+      {
+        "label": "카달로그",
+        "count": 304
+      },
+      {
+        "label": "인터넷 신문잡지 기타",
+        "count": 223
+      },
+      {
+        "label": "카달로그 기타",
+        "count": 183
+      },
+      {
+        "label": "TV홈쇼핑 기타",
+        "count": 156
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 기타 신문잡지",
+        "count": 119
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 기타 신문잡지",
+        "count": 88
+      },
+      {
+        "label": "카달로그 인터넷",
+        "count": 86
+      }
+    ],
+    "product_type": [
+      {
+        "label": "종합몰",
+        "count": 249801
+      },
+      {
+        "label": "의류/패션/잡화/뷰티",
+        "count": 123226
+      },
+      {
+        "label": "기타",
+        "count": 97213
+      },
+      {
+        "label": "건강/식품",
+        "count": 39327
+      },
+      {
+        "label": "종합몰 의류/패션/잡화/뷰티",
+        "count": 15630
+      },
+      {
+        "label": "null",
+        "count": 14354
+      },
+      {
+        "label": "교육/도서/완구/오락",
+        "count": 13176
+      },
+      {
+        "label": "가구/수납용품",
+        "count": 11523
+      },
+      {
+        "label": "종합몰 기타",
+        "count": 7464
+      },
+      {
+        "label": "레저/여행/공연",
+        "count": 6966
+      },
+      {
+        "label": "종합몰 건강/식품",
+        "count": 5969
+      },
+      {
+        "label": "자동차/자동차용품",
+        "count": 5913
+      },
+      {
+        "label": "의류/패션/잡화/뷰티 기타",
+        "count": 5774
+      },
+      {
+        "label": "컴퓨터/사무용품",
+        "count": 5766
+      },
+      {
+        "label": "가전",
+        "count": 5498
+      },
+      {
+        "label": "건강/식품 기타",
+        "count": 3092
+      },
+      {
+        "label": "건강/식품 의류/패션/잡화/뷰티",
+        "count": 2287
+      },
+      {
+        "label": "교육/도서/완구/오락 의류/패션/잡화/뷰티",
+        "count": 2187
+      },
+      {
+        "label": "종합몰 가구/수납용품",
+        "count": 2046
+      },
+      {
+        "label": "가구/수납용품 의류/패션/잡화/뷰티",
+        "count": 1881
+      },
+      {
+        "label": "종합몰 교육/도서/완구/오락",
+        "count": 1793
+      },
+      {
+        "label": "교육/도서/완구/오락 기타",
+        "count": 1764
+      },
+      {
+        "label": "종합몰 건강/식품 의류/패션/잡화/뷰티",
+        "count": 1648
+      },
+      {
+        "label": "의류/패션/잡화/뷰티 건강/식품",
+        "count": 1642
+      },
+      {
+        "label": "가구/수납용품 기타",
+        "count": 1572
+      },
+      {
+        "label": "종합몰 의류/패션/잡화/뷰티 기타",
+        "count": 1464
+      },
+      {
+        "label": "종합몰 가구/수납용품 의류/패션/잡화/뷰티",
+        "count": 1288
+      },
+      {
+        "label": "종합몰 교육/도서/완구/오락 의류/패션/잡화/뷰티",
+        "count": 1244
+      },
+      {
+        "label": "가전 컴퓨터/사무용품",
+        "count": 1221
+      },
+      {
+        "label": "종합몰 가전",
+        "count": 1029
+      }
+    ],
+    "reporting_institution": [
+      {
+        "label": "경기도 김포시",
+        "count": 48035
+      },
+      {
+        "label": "경기도 화성시",
+        "count": 45716
+      },
+      {
+        "label": "경기도 성남시",
+        "count": 44591
+      },
+      {
+        "label": "경기도 남양주시",
+        "count": 40640
+      },
+      {
+        "label": "경기도 파주시",
+        "count": 37441
+      },
+      {
+        "label": "경기도 안산시",
+        "count": 35550
+      },
+      {
+        "label": "경기도 부천시",
+        "count": 28492
+      },
+      {
+        "label": "경기도 용인시 기흥구",
+        "count": 27930
+      },
+      {
+        "label": "경기도 시흥시",
+        "count": 26662
+      },
+      {
+        "label": "경기도 광주시",
+        "count": 23275
+      },
+      {
+        "label": "경기도 고양시 덕양구",
+        "count": 22868
+      },
+      {
+        "label": "경기도 의정부시",
+        "count": 21177
+      },
+      {
+        "label": "경기도 양주시",
+        "count": 18852
+      },
+      {
+        "label": "경기도 고양시 일산동구",
+        "count": 18838
+      },
+      {
+        "label": "경기도 하남시",
+        "count": 16473
+      },
+      {
+        "label": "경기도 고양시 일산서구",
+        "count": 15569
+      },
+      {
+        "label": "경기도 안양시 동안구",
+        "count": 15235
+      },
+      {
+        "label": "경기도 평택시",
+        "count": 15088
+      },
+      {
+        "label": "경기도 용인시 수지구",
+        "count": 14859
+      },
+      {
+        "label": "경기도 용인시 처인구",
+        "count": 14304
+      },
+      {
+        "label": "경기도 수원시 영통구",
+        "count": 13775
+      },
+      {
+        "label": "경기도 수원시 권선구",
+        "count": 13367
+      },
+      {
+        "label": "경기도 광명시",
+        "count": 13219
+      },
+      {
+        "label": "경기도 양평군",
+        "count": 11821
+      },
+      {
+        "label": "경기도 구리시",
+        "count": 10348
+      },
+      {
+        "label": "경기도 군포시",
+        "count": 10110
+      },
+      {
+        "label": "경기도 안양시 만안구",
+        "count": 10023
+      },
+      {
+        "label": "경기도 수원시 팔달구",
+        "count": 9591
+      },
+      {
+        "label": "경기도 포천시",
+        "count": 9307
+      },
+      {
+        "label": "경기도 부천시 원미구",
+        "count": 9273
+      },
+      {
+        "label": "경기도 이천시",
+        "count": 7678
+      },
+      {
+        "label": "경기도 수원시 장안구",
+        "count": 7466
+      },
+      {
+        "label": "경기도 안양시",
+        "count": 6256
+      },
+      {
+        "label": "경기도 의왕시",
+        "count": 4985
+      },
+      {
+        "label": "경기도 안성시",
+        "count": 4180
+      },
+      {
+        "label": "경기도 여주시",
+        "count": 3888
+      },
+      {
+        "label": "경기도 부천시 소사구",
+        "count": 3599
+      },
+      {
+        "label": "경기도 가평군",
+        "count": 3471
+      },
+      {
+        "label": "경기도 과천시",
+        "count": 2850
+      },
+      {
+        "label": "경기도 수원시",
+        "count": 2636
+      }
+    ]
+  }
+}

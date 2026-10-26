@@ -1,0 +1,400 @@
+{
+  "generated_at": "2026-10-26T04:24:50.120932+00:00",
+  "source_scope": "경상남도 통신판매사업자 전체",
+  "source_file": "ftc_mail_order_gyeongsangnam_20261026.csv",
+  "privacy": {
+    "raw_records_exported": false,
+    "excluded_fields": [
+      "대표자명",
+      "전화번호",
+      "전자우편",
+      "사업장소재지",
+      "사업장소재지(도로명)"
+    ]
+  },
+  "method": {
+    "parser": "Python standard-library csv.reader (RFC 4180-style quoted-field handling)",
+    "active_definition": "업소상태가 정확히 '정상영업'인 유효 행",
+    "fashion_candidate_definition": "취급품목에 사전 정의한 패션 관련 키워드가 포함된 유효 행. 검증된 패션 사업자 수가 아님.",
+    "malformed_row_policy": "헤더 열 수와 다른 레코드는 집계에서 제외하고 건수만 공개한다.",
+    "field_safety_policy": "집계 열에서도 형식에 맞지 않는 값은 공개 목록에서 제외하고 건수만 기록한다."
+  },
+  "metrics": {
+    "total_parsed_rows": 81427,
+    "valid_rows": 79132,
+    "malformed_rows": 2295,
+    "active_rows": 54578,
+    "fashion_candidate_rows": 22150,
+    "filtered_value_counts": {}
+  },
+  "breakdowns": {
+    "status": [
+      {
+        "label": "정상영업",
+        "count": 54578
+      },
+      {
+        "label": "폐업처리",
+        "count": 21395
+      },
+      {
+        "label": "직권말소",
+        "count": 2450
+      },
+      {
+        "label": "직권취소",
+        "count": 407
+      },
+      {
+        "label": "휴업처리",
+        "count": 284
+      },
+      {
+        "label": "타시군구전입",
+        "count": 13
+      },
+      {
+        "label": "영업재개",
+        "count": 5
+      }
+    ],
+    "sale_method": [
+      {
+        "label": "인터넷",
+        "count": 70358
+      },
+      {
+        "label": "인터넷 기타",
+        "count": 2639
+      },
+      {
+        "label": "null",
+        "count": 1667
+      },
+      {
+        "label": "기타",
+        "count": 1321
+      },
+      {
+        "label": "인터넷 카달로그",
+        "count": 332
+      },
+      {
+        "label": "TV홈쇼핑 인터넷",
+        "count": 290
+      },
+      {
+        "label": "인터넷 TV홈쇼핑",
+        "count": 288
+      },
+      {
+        "label": "인터넷 카달로그 기타",
+        "count": 268
+      },
+      {
+        "label": "TV홈쇼핑",
+        "count": 250
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 신문잡지 기타",
+        "count": 240
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 신문잡지 기타",
+        "count": 208
+      },
+      {
+        "label": "기타 인터넷",
+        "count": 180
+      },
+      {
+        "label": "인터넷 카달로그 신문잡지 기타",
+        "count": 159
+      },
+      {
+        "label": "인터넷 카달로그 신문잡지",
+        "count": 89
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 신문잡지",
+        "count": 87
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 기타",
+        "count": 85
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 기타",
+        "count": 76
+      },
+      {
+        "label": "인터넷 신문잡지",
+        "count": 65
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 신문잡지",
+        "count": 59
+      },
+      {
+        "label": "카달로그",
+        "count": 44
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그",
+        "count": 39
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그",
+        "count": 38
+      },
+      {
+        "label": "인터넷 신문잡지 기타",
+        "count": 36
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 기타",
+        "count": 30
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 기타",
+        "count": 28
+      },
+      {
+        "label": "카달로그 기타",
+        "count": 20
+      },
+      {
+        "label": "TV홈쇼핑 기타",
+        "count": 14
+      },
+      {
+        "label": "카달로그 인터넷",
+        "count": 14
+      },
+      {
+        "label": "카달로그 신문잡지",
+        "count": 12
+      },
+      {
+        "label": "카달로그 신문잡지 기타",
+        "count": 12
+      }
+    ],
+    "product_type": [
+      {
+        "label": "종합몰",
+        "count": 20568
+      },
+      {
+        "label": "의류/패션/잡화/뷰티",
+        "count": 15421
+      },
+      {
+        "label": "기타",
+        "count": 13691
+      },
+      {
+        "label": "건강/식품",
+        "count": 10481
+      },
+      {
+        "label": "레저/여행/공연",
+        "count": 1622
+      },
+      {
+        "label": "null",
+        "count": 1488
+      },
+      {
+        "label": "종합몰 의류/패션/잡화/뷰티",
+        "count": 1290
+      },
+      {
+        "label": "교육/도서/완구/오락",
+        "count": 1122
+      },
+      {
+        "label": "가구/수납용품",
+        "count": 791
+      },
+      {
+        "label": "종합몰 건강/식품",
+        "count": 765
+      },
+      {
+        "label": "건강/식품 기타",
+        "count": 752
+      },
+      {
+        "label": "종합몰 기타",
+        "count": 731
+      },
+      {
+        "label": "의류/패션/잡화/뷰티 기타",
+        "count": 639
+      },
+      {
+        "label": "자동차/자동차용품",
+        "count": 581
+      },
+      {
+        "label": "컴퓨터/사무용품",
+        "count": 475
+      },
+      {
+        "label": "가전",
+        "count": 453
+      },
+      {
+        "label": "건강/식품 의류/패션/잡화/뷰티",
+        "count": 315
+      },
+      {
+        "label": "기타 건강/식품",
+        "count": 217
+      },
+      {
+        "label": "교육/도서/완구/오락 의류/패션/잡화/뷰티",
+        "count": 214
+      },
+      {
+        "label": "의류/패션/잡화/뷰티 건강/식품",
+        "count": 209
+      },
+      {
+        "label": "레저/여행/공연 기타",
+        "count": 189
+      },
+      {
+        "label": "교육/도서/완구/오락 기타",
+        "count": 171
+      },
+      {
+        "label": "가구/수납용품 의류/패션/잡화/뷰티",
+        "count": 156
+      },
+      {
+        "label": "종합몰 의류/패션/잡화/뷰티 기타",
+        "count": 149
+      },
+      {
+        "label": "종합몰 건강/식품 의류/패션/잡화/뷰티",
+        "count": 145
+      },
+      {
+        "label": "종합몰 교육/도서/완구/오락",
+        "count": 131
+      },
+      {
+        "label": "종합몰 가구/수납용품",
+        "count": 128
+      },
+      {
+        "label": "가구/수납용품 기타",
+        "count": 116
+      },
+      {
+        "label": "종합몰 건강/식품 기타",
+        "count": 114
+      },
+      {
+        "label": "기타 의류/패션/잡화/뷰티",
+        "count": 113
+      }
+    ],
+    "reporting_institution": [
+      {
+        "label": "경상남도 김해시",
+        "count": 13524
+      },
+      {
+        "label": "경상남도 양산시",
+        "count": 11955
+      },
+      {
+        "label": "경상남도 진주시",
+        "count": 7746
+      },
+      {
+        "label": "경상남도 창원시 의창구",
+        "count": 7331
+      },
+      {
+        "label": "경상남도 창원시 성산구",
+        "count": 6947
+      },
+      {
+        "label": "경상남도 창원시 마산합포구",
+        "count": 4824
+      },
+      {
+        "label": "경상남도 창원시 마산회원구",
+        "count": 4415
+      },
+      {
+        "label": "경상남도 창원시 진해구",
+        "count": 4050
+      },
+      {
+        "label": "경상남도 통영시",
+        "count": 3630
+      },
+      {
+        "label": "경상남도 밀양시",
+        "count": 2269
+      },
+      {
+        "label": "경상남도 거창군",
+        "count": 1495
+      },
+      {
+        "label": "경상남도 남해군",
+        "count": 1479
+      },
+      {
+        "label": "경상남도 함안군",
+        "count": 1438
+      },
+      {
+        "label": "경상남도 산청군",
+        "count": 1403
+      },
+      {
+        "label": "경상남도 하동군",
+        "count": 1308
+      },
+      {
+        "label": "경상남도 함양군",
+        "count": 1145
+      },
+      {
+        "label": "경상남도 거제시",
+        "count": 1112
+      },
+      {
+        "label": "경상남도 창녕군",
+        "count": 970
+      },
+      {
+        "label": "경상남도 고성군",
+        "count": 874
+      },
+      {
+        "label": "경상남도 합천군",
+        "count": 773
+      },
+      {
+        "label": "경상남도 의령군",
+        "count": 429
+      },
+      {
+        "label": "경상남도 창원시",
+        "count": 11
+      },
+      {
+        "label": "경상남도 사천시",
+        "count": 4
+      }
+    ]
+  }
+}

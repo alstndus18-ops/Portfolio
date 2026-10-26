@@ -1,0 +1,372 @@
+{
+  "generated_at": "2026-10-26T04:24:35.851795+00:00",
+  "source_scope": "충청남도 통신판매사업자 전체",
+  "source_file": "ftc_mail_order_chungnam_20261026.csv",
+  "privacy": {
+    "raw_records_exported": false,
+    "excluded_fields": [
+      "대표자명",
+      "전화번호",
+      "전자우편",
+      "사업장소재지",
+      "사업장소재지(도로명)"
+    ]
+  },
+  "method": {
+    "parser": "Python standard-library csv.reader (RFC 4180-style quoted-field handling)",
+    "active_definition": "업소상태가 정확히 '정상영업'인 유효 행",
+    "fashion_candidate_definition": "취급품목에 사전 정의한 패션 관련 키워드가 포함된 유효 행. 검증된 패션 사업자 수가 아님.",
+    "malformed_row_policy": "헤더 열 수와 다른 레코드는 집계에서 제외하고 건수만 공개한다.",
+    "field_safety_policy": "집계 열에서도 형식에 맞지 않는 값은 공개 목록에서 제외하고 건수만 기록한다."
+  },
+  "metrics": {
+    "total_parsed_rows": 67661,
+    "valid_rows": 66405,
+    "malformed_rows": 1256,
+    "active_rows": 48481,
+    "fashion_candidate_rows": 16694,
+    "filtered_value_counts": {}
+  },
+  "breakdowns": {
+    "status": [
+      {
+        "label": "정상영업",
+        "count": 48481
+      },
+      {
+        "label": "폐업처리",
+        "count": 16435
+      },
+      {
+        "label": "직권말소",
+        "count": 968
+      },
+      {
+        "label": "직권취소",
+        "count": 316
+      },
+      {
+        "label": "휴업처리",
+        "count": 202
+      },
+      {
+        "label": "영업재개",
+        "count": 2
+      },
+      {
+        "label": "타시군구전입",
+        "count": 1
+      }
+    ],
+    "sale_method": [
+      {
+        "label": "인터넷",
+        "count": 58694
+      },
+      {
+        "label": "인터넷 기타",
+        "count": 2261
+      },
+      {
+        "label": "기타",
+        "count": 1475
+      },
+      {
+        "label": "null",
+        "count": 904
+      },
+      {
+        "label": "인터넷 카달로그",
+        "count": 339
+      },
+      {
+        "label": "TV홈쇼핑 인터넷",
+        "count": 308
+      },
+      {
+        "label": "인터넷 TV홈쇼핑",
+        "count": 284
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 신문잡지 기타",
+        "count": 278
+      },
+      {
+        "label": "인터넷 카달로그 기타",
+        "count": 258
+      },
+      {
+        "label": "TV홈쇼핑",
+        "count": 218
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 신문잡지 기타",
+        "count": 190
+      },
+      {
+        "label": "인터넷 카달로그 신문잡지 기타",
+        "count": 166
+      },
+      {
+        "label": "인터넷 카달로그 신문잡지",
+        "count": 103
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 신문잡지",
+        "count": 94
+      },
+      {
+        "label": "기타 인터넷",
+        "count": 93
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 기타",
+        "count": 91
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 기타",
+        "count": 75
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 신문잡지",
+        "count": 74
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그",
+        "count": 63
+      },
+      {
+        "label": "인터넷 신문잡지",
+        "count": 58
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 기타",
+        "count": 43
+      },
+      {
+        "label": "카달로그",
+        "count": 39
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그",
+        "count": 35
+      },
+      {
+        "label": "인터넷 신문잡지 기타",
+        "count": 33
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 기타",
+        "count": 21
+      },
+      {
+        "label": "TV홈쇼핑 기타",
+        "count": 20
+      },
+      {
+        "label": "카달로그 기타",
+        "count": 15
+      },
+      {
+        "label": "카달로그 인터넷",
+        "count": 10
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 신문잡지",
+        "count": 9
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 신문잡지 기타",
+        "count": 8
+      }
+    ],
+    "product_type": [
+      {
+        "label": "종합몰",
+        "count": 18184
+      },
+      {
+        "label": "기타",
+        "count": 12493
+      },
+      {
+        "label": "의류/패션/잡화/뷰티",
+        "count": 10936
+      },
+      {
+        "label": "건강/식품",
+        "count": 8691
+      },
+      {
+        "label": "레저/여행/공연",
+        "count": 1465
+      },
+      {
+        "label": "교육/도서/완구/오락",
+        "count": 1052
+      },
+      {
+        "label": "종합몰 의류/패션/잡화/뷰티",
+        "count": 1044
+      },
+      {
+        "label": "null",
+        "count": 880
+      },
+      {
+        "label": "종합몰 기타",
+        "count": 696
+      },
+      {
+        "label": "건강/식품 기타",
+        "count": 661
+      },
+      {
+        "label": "종합몰 건강/식품",
+        "count": 631
+      },
+      {
+        "label": "가구/수납용품",
+        "count": 576
+      },
+      {
+        "label": "의류/패션/잡화/뷰티 기타",
+        "count": 530
+      },
+      {
+        "label": "자동차/자동차용품",
+        "count": 495
+      },
+      {
+        "label": "컴퓨터/사무용품",
+        "count": 361
+      },
+      {
+        "label": "가전",
+        "count": 339
+      },
+      {
+        "label": "건강/식품 의류/패션/잡화/뷰티",
+        "count": 249
+      },
+      {
+        "label": "기타 건강/식품",
+        "count": 190
+      },
+      {
+        "label": "교육/도서/완구/오락 의류/패션/잡화/뷰티",
+        "count": 189
+      },
+      {
+        "label": "레저/여행/공연 기타",
+        "count": 163
+      },
+      {
+        "label": "교육/도서/완구/오락 기타",
+        "count": 146
+      },
+      {
+        "label": "종합몰 교육/도서/완구/오락",
+        "count": 146
+      },
+      {
+        "label": "의류/패션/잡화/뷰티 건강/식품",
+        "count": 145
+      },
+      {
+        "label": "종합몰 건강/식품 의류/패션/잡화/뷰티",
+        "count": 145
+      },
+      {
+        "label": "가구/수납용품 의류/패션/잡화/뷰티",
+        "count": 126
+      },
+      {
+        "label": "종합몰 의류/패션/잡화/뷰티 기타",
+        "count": 112
+      },
+      {
+        "label": "종합몰 건강/식품 기타",
+        "count": 107
+      },
+      {
+        "label": "종합몰 교육/도서/완구/오락 의류/패션/잡화/뷰티",
+        "count": 106
+      },
+      {
+        "label": "종합몰 가구/수납용품",
+        "count": 100
+      },
+      {
+        "label": "가구/수납용품 기타",
+        "count": 97
+      }
+    ],
+    "reporting_institution": [
+      {
+        "label": "충청남도 천안시",
+        "count": 25849
+      },
+      {
+        "label": "충청남도 아산시",
+        "count": 10898
+      },
+      {
+        "label": "충청남도 당진시",
+        "count": 4106
+      },
+      {
+        "label": "충청남도 서산시",
+        "count": 4081
+      },
+      {
+        "label": "충청남도 태안군",
+        "count": 2914
+      },
+      {
+        "label": "충청남도 공주시",
+        "count": 2751
+      },
+      {
+        "label": "충청남도 논산시",
+        "count": 2731
+      },
+      {
+        "label": "충청남도 보령시",
+        "count": 2730
+      },
+      {
+        "label": "충청남도 금산군",
+        "count": 2447
+      },
+      {
+        "label": "충청남도 홍성군",
+        "count": 2119
+      },
+      {
+        "label": "충청남도 예산군",
+        "count": 1788
+      },
+      {
+        "label": "충청남도 부여군",
+        "count": 1348
+      },
+      {
+        "label": "충청남도 서천군",
+        "count": 1007
+      },
+      {
+        "label": "충청남도 계룡시",
+        "count": 980
+      },
+      {
+        "label": "충청남도 청양군",
+        "count": 655
+      },
+      {
+        "label": "충청남도 천안시 서북구",
+        "count": 1
+      }
+    ]
+  }
+}

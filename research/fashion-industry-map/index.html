@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Korea Fashion Commerce Map</title>
+  <style>
+    :root { --ink:#121317; --muted:#6e7078; --line:#e8e5df; --paper:#f7f6f2; --accent:#ff5b38; --blue:#3776ff; --green:#2c8b6a; --card:#fff; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    .wrap { max-width:1240px; margin:0 auto; padding:0 24px 72px; }
+    .top { padding:58px 0 28px; display:flex; gap:24px; justify-content:space-between; align-items:end; }
+    .eyebrow { color:var(--accent); font-size:12px; font-weight:800; letter-spacing:.11em; text-transform:uppercase; }
+    h1 { margin:7px 0 8px; font-size:clamp(32px,5vw,62px); letter-spacing:-.055em; line-height:.98; }
+    .intro { max-width:640px; color:var(--muted); margin:0; }
+    .stamp { color:var(--muted); text-align:right; font-size:12px; white-space:nowrap; }
+    .metrics { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:34px; }
+    .metric,.panel,.area,.platform { background:var(--card); border:1px solid var(--line); border-radius:18px; }
+    .metric { padding:20px; min-height:122px; }
+    .metric b { display:block; font-size:38px; letter-spacing:-.06em; line-height:1; margin-bottom:8px; }
+    .metric span { color:var(--muted); font-size:13px; }
+    .grid { display:grid; grid-template-columns:1.45fr .9fr; gap:16px; }
+    .panel { padding:24px; }
+    h2 { font-size:20px; letter-spacing:-.035em; margin:0 0 4px; }
+    .sub { color:var(--muted); margin:0 0 18px; font-size:13px; }
+    .flow { display:flex; align-items:stretch; gap:8px; overflow:auto; padding-bottom:4px; }
+    .node { min-width:128px; padding:15px 13px; border-radius:13px; background:#f2f4ff; border:1px solid #dfe4ff; font-weight:750; }
+    .node small { display:block; color:var(--muted); font-size:11px; font-weight:500; margin-top:5px; }
+    .arrow { align-self:center; color:#a4a5aa; font-size:22px; }
+    .legend { display:grid; gap:11px; margin-top:18px; }
+    .legend div { display:flex; gap:10px; align-items:center; font-size:13px; }
+    .dot { width:10px; height:10px; border-radius:50%; background:var(--accent); flex:0 0 auto; }
+    .dot.blue { background:var(--blue); } .dot.green { background:var(--green); }
+    .areas { display:grid; grid-template-columns:repeat(7,1fr); gap:10px; margin:16px 0 34px; }
+    .area { padding:15px 13px; min-height:148px; }
+    .num { color:var(--accent); font-size:12px; font-weight:800; }
+    .area b { display:block; margin:5px 0; line-height:1.25; }
+    .area p { font-size:12px; color:var(--muted); margin:0; }
+    .status { display:inline-flex; align-items:center; gap:5px; margin-top:10px; color:var(--green); font-size:11px; font-weight:700; }
+    .status::before { content:""; width:6px; height:6px; background:currentColor; border-radius:50%; }
+    .status.next { color:#9b7318; }
+    .toolbar { display:flex; gap:10px; margin:14px 0; flex-wrap:wrap; }
+    input { border:1px solid var(--line); border-radius:10px; padding:10px 12px; min-width:240px; font:inherit; background:#fff; }
+    .platforms { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
+    .platform { padding:15px; }
+    .platform h3 { margin:0 0 4px; font-size:16px; letter-spacing:-.02em; }
+    .platform p { margin:0; color:var(--muted); font-size:12px; min-height:38px; }
+    .tag { display:inline-block; margin-top:10px; color:#2854b9; background:#edf2ff; border-radius:99px; padding:3px 8px; font-size:11px; font-weight:700; }
+    .map { background:#15161a; color:#fff; border-radius:18px; padding:24px; min-height:294px; }
+    .map h2 { color:#fff; } .map .sub { color:#adb0b8; }
+    .map-nav { display:flex; gap:6px; flex-wrap:wrap; margin:16px 0; }
+    .map-nav button { appearance:none; border:1px solid #45474f; color:#d5d7dd; background:transparent; border-radius:99px; padding:5px 9px; font:700 11px/1 system-ui,sans-serif; cursor:pointer; }
+    .map-nav button[aria-pressed="true"] { color:#18191d; background:#ffc6b8; border-color:#ffc6b8; }
+    .relation-layout { display:grid; grid-template-columns:1fr 24px 1.2fr; align-items:center; gap:8px; }
+    .root { color:#ffc6b8; font-weight:800; font-size:15px; }
+    .relation-arrow { color:#858791; text-align:center; font-size:19px; }
+    .relation-group { display:grid; gap:10px; }
+    .relation-label { color:#aeb2bc; font-size:11px; font-weight:700; }
+    .branch { display:flex; flex-wrap:wrap; gap:6px; }
+    .chip { border:1px solid #45474f; border-radius:99px; color:#d5d7dd; font-size:12px; padding:5px 9px; }
+    .chip.channel { border-color:#527cdb; color:#c9d8ff; background:#1d2b4a; }
+    .relation-note { margin-top:14px; color:#ffd3c9; font-size:11px; }
+    .footnote { padding-top:18px; color:var(--muted); font-size:12px; }
+    @media (max-width:900px) { .metrics{grid-template-columns:repeat(2,1fr)} .grid{grid-template-columns:1fr} .areas{grid-template-columns:repeat(2,1fr)} .platforms{grid-template-columns:repeat(2,1fr)} }
+    @media (max-width:560px) { .wrap{padding:0 15px 48px}.top{padding-top:38px;display:block}.stamp{text-align:left;margin-top:16px}.metrics,.platforms{grid-template-columns:1fr}.areas{grid-template-columns:1fr} }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="top">
+      <div><div class="eyebrow">Research dashboard · Korea</div><h1>Fashion<br>Commerce Map</h1><p class="intro">국내 의류·패션 산업을 쇼핑몰 목록이 아닌, 기업·브랜드·판매 채널의 연결 구조로 기록하는 진행형 지도입니다.</p></div>
+      <div class="stamp">데이터 스냅샷<br><strong>2026.10.26</strong></div>
+    </header>
+    <section class="metrics" aria-label="현재 데이터 현황">
+      <div class="metric"><b id="mall-count">222</b><span>확인된 쇼핑몰</span></div>
+      <div class="metric"><b id="entity-count">122</b><span>기업·브랜드·쇼핑몰 엔터티</span></div>
+      <div class="metric"><b id="relation-count">95</b><span>확인된 관계</span></div>
+      <div class="metric"><b id="platform-count">11</b><span>플랫폼 초기 대표군</span></div>
+    </section>
+    <section class="grid">
+      <article class="panel"><h2>상품은 어떻게 소비자에게 가는가</h2><p class="sub">조사의 중심 흐름. 각 단계는 별도 DB로 확장됩니다.</p><div class="flow"><div class="node">소재·부자재<small>원단 · 지퍼 · 라벨</small></div><div class="arrow">→</div><div class="node">제조·생산<small>사입 · 봉제 · OEM</small></div><div class="arrow">→</div><div class="node">기업·브랜드<small>기획 · 디자인 · MD</small></div><div class="arrow">→</div><div class="node">유통·판매<small>자사몰 · 플랫폼 · 매장</small></div><div class="arrow">→</div><div class="node">소비자<small>구매 · 재판매</small></div></div></article>
+      <aside class="panel"><h2>데이터 신뢰 기준</h2><p class="sub">보이는 것보다, 무엇을 아직 모르는지 표시하는 것이 중요합니다.</p><div class="legend"><div><span class="dot"></span>공식 페이지·공개 자료로 확인</div><div><span class="dot blue"></span>관계는 운영·판매를 구분해 기록</div><div><span class="dot green"></span>확인일과 근거를 함께 보관</div></div></aside>
+    </section>
+    <section class="areas" aria-label="패션산업 7개 조사 영역">
+      <div class="area"><span class="num">01</span><b>소재·부자재</b><p>원단, 기능성 소재, 부자재</p><span class="status next">조사 예정</span></div>
+      <div class="area"><span class="num">02</span><b>제조·생산</b><p>사입, 봉제, 국내외 생산</p><span class="status next">조사 예정</span></div>
+      <div class="area"><span class="num">03</span><b>기업·브랜드</b><p>패션기업과 브랜드 포트폴리오</p><span class="status">기초 수집</span></div>
+      <div class="area"><span class="num">04</span><b>보세·개인몰</b><p>사입형·자체제작형 쇼핑몰</p><span class="status">200건 수집</span></div>
+      <div class="area"><span class="num">05</span><b>유통·판매</b><p>자사몰, 플랫폼, 매장, 팝업</p><span class="status">기초 수집</span></div>
+      <div class="area"><span class="num">06</span><b>서비스·지원</b><p>물류, 촬영, 솔루션, 마케팅</p><span class="status next">조사 예정</span></div>
+      <div class="area"><span class="num">07</span><b>시장·트렌드</b><p>소비자, 가격대, 카테고리 변화</p><span class="status next">조사 예정</span></div>
+    </section>
+    <section class="grid">
+      <article class="panel"><h2>패션 플랫폼·전문 온라인몰</h2><p class="sub">초기 대표군 11개. 검색어로 빠르게 찾을 수 있습니다.</p><div class="toolbar"><input id="search" type="search" placeholder="예: 무신사, 리세일, 셀렉트숍"></div><div class="platforms" id="platforms"></div></article>
+      <aside class="map"><h2>기업 → 브랜드 → 채널</h2><p class="sub">기업을 고르면 보유 브랜드와 직접 운영 채널을 구분해 보여 줍니다.</p><div class="map-nav" id="company-nav" aria-label="관계도 기업 선택"></div><div class="relation-layout"><div class="root" id="company-name"></div><div class="relation-arrow">→</div><div class="relation-group"><div><div class="relation-label">보유·운영 브랜드</div><div class="branch" id="brand-list"></div></div><div><div class="relation-label">직접 운영 판매 채널</div><div class="branch" id="channel-list"></div></div></div></div><div class="relation-note">브랜드가 이 채널에서 실제 판매되는지는 상품·브랜드 페이지로 별도 확인해야 합니다.</div></aside>
+    </section>
+    <p class="footnote">이 페이지는 현재 수집 상태를 보여 주는 첫 시각화입니다. 시장 전체 규모·순위·매출을 뜻하지 않으며, 수치와 관계는 원본 CSV의 확인일과 검증 상태를 따라야 합니다.</p>
+  </main>
+  <script>
+    let platforms=[
+      ['무신사','패션·뷰티 플랫폼','브랜드 입점 · 플랫폼 운영'],['29CM','큐레이션 셀렉트숍','취향 기반 패션·라이프스타일'],['지그재그','스타일 커머스 플랫폼','스토어·브랜드 연결 · 배송'],['포스티','4050 패션 플랫폼','4050 고객층 패션'],['W컨셉','디자이너 패션 셀렉트숍','디자이너·국내외 브랜드'],['SSF샵','패션·라이프스타일 전문몰','패션기업 브랜드 그룹'],['코오롱몰','패션 플랫폼','패션·라이프스타일 브랜드'],['더카트','스포츠·라이프스타일 셀렉트숍','골프·스포츠·라이프스타일'],['크림','검수 기반 트렌드 리세일','입찰 거래 · 검수 · 드롭'],['머스트잇','명품 마켓플레이스','판매자 입점 · 해외 디자이너'],['번개장터','C2C 리커머스','개인 간 거래 · 패션 리세일']
+    ];
+    const root=document.querySelector('#platforms'), search=document.querySelector('#search');
+    function draw(){ const q=search.value.trim().toLowerCase(); root.innerHTML=platforms.filter(x=>x.join(' ').toLowerCase().includes(q)).map(x=>`<article class="platform"><h3>${x[0]}</h3><p>${x[2]}</p><span class="tag">${x[1]}</span></article>`).join('') || '<p class="sub">일치하는 채널이 없습니다.</p>'; }
+    search.addEventListener('input',draw); draw();
+    function countCsv(url, target){ fetch(url).then(r=>r.ok?r.text():Promise.reject()).then(t=>{ const lines=t.trim().split(/\r?\n/); document.querySelector(target).textContent=Math.max(0,lines.length-1); }).catch(()=>{}); }
+    countCsv('../fashion-commerce-map/data/curated/korea_shopping_malls.csv','#mall-count');
+    countCsv('../fashion-commerce-map/data/curated/korea_entities.csv','#entity-count');
+    countCsv('../fashion-commerce-map/data/curated/korea_relationships.csv','#relation-count');
+    fetch('data/korea_fashion_platforms_seed.csv').then(r=>r.ok?r.text():Promise.reject()).then(t=>{
+      const [header,...rows]=t.trim().split(/\r?\n/); const keys=header.split(',');
+      platforms=rows.map(row=>{ const item={}; row.split(',').forEach((v,i)=>item[keys[i]]=v); return [item.channel_name,item.channel_type,item.primary_customer_or_product]; });
+      document.querySelector('#platform-count').textContent=platforms.length; draw();
+    }).catch(()=>{});
+    const companyMap={
+      '삼성물산 패션부문':{brands:['빈폴','에잇세컨즈','갤럭시','구호'],channels:['SSF샵']},
+      '코오롱인더스트리 FnC':{brands:['코오롱스포츠','래코드','럭키슈에뜨','지포어'],channels:['코오롱몰','더카트']},
+      '한섬':{brands:['타임','시스템','SJSJ','마인'],channels:['더한섬닷컴']},
+      '이랜드월드 패션사업부':{brands:['스파오','미쏘','후아유','로엠'],channels:['스파오닷컴','이랜드몰']},
+      '엘에프':{brands:['헤지스','닥스','마에스트로','질스튜어트 뉴욕'],channels:['LF몰']}
+    };
+    const nav=document.querySelector('#company-nav'), companyName=document.querySelector('#company-name'), brandList=document.querySelector('#brand-list'), channelList=document.querySelector('#channel-list');
+    function showCompany(name){ const data=companyMap[name]; companyName.textContent=name; brandList.innerHTML=data.brands.map(x=>`<span class="chip">${x}</span>`).join(''); channelList.innerHTML=data.channels.map(x=>`<span class="chip channel">${x}</span>`).join(''); [...nav.children].forEach(b=>b.setAttribute('aria-pressed',String(b.textContent===name))); }
+    Object.keys(companyMap).forEach((name,index)=>{ const button=document.createElement('button'); button.type='button'; button.textContent=name; button.setAttribute('aria-pressed',String(index===0)); button.addEventListener('click',()=>showCompany(name)); nav.append(button); });
+    showCompany(Object.keys(companyMap)[0]);
+  </script>
+</body>
+</html>

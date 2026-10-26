@@ -1,0 +1,12 @@
+platform_id,channel_name,channel_type,operator,primary_customer_or_product,merchant_model,official_url,verification_status,observed_at,source_note
+PLAT-001,무신사,패션·뷰티 플랫폼,주식회사 무신사,국내외 패션·뷰티 브랜드,브랜드 입점·플랫폼 운영,https://corp.musinsa.com/ko/business,확인,2026-10-26,공식 사업 소개에서 파트너 브랜드와 서비스 운영 확인
+PLAT-002,29CM,큐레이션 셀렉트숍,주식회사 무신사,취향 기반 패션·라이프스타일,큐레이션·브랜드 판매,https://corp.musinsa.com/ko/business,기존 근거 재확인 필요,2026-10-19,기존 공식 사업 소개 근거로 운영 관계 확인
+PLAT-003,지그재그,스타일 커머스 플랫폼,주식회사 카카오스타일,여성 패션 중심 스타일 커머스,스토어·브랜드 연결 및 배송 서비스,https://kakaostyle.com/index.html,확인,2026-10-26,공식 회사 연혁에서 지그재그와 직진배송 서비스 확인
+PLAT-004,포스티,4050 패션 플랫폼,주식회사 카카오스타일,4050 고객층 패션,스타일 커머스 플랫폼,https://kakaostyle.com/index.html,확인,2026-10-26,공식 회사 연혁에서 4050 패션 플랫폼으로 소개
+PLAT-005,W컨셉,디자이너 패션 셀렉트숍,에스에스지닷컴,디자이너·국내외 패션 브랜드,큐레이션·브랜드 판매,https://www.shinsegaegroupnewsroom.com/ssg-dotcom-w-concept-designer/,기존 근거 재확인 필요,2026-10-19,기존 신세계그룹 공식 뉴스룸 근거
+PLAT-006,SSF샵,패션·라이프스타일 전문몰,삼성물산 패션부문,패션·라이프스타일 브랜드,브랜드 그룹 전문몰,https://news.samsungcnt.com/ko/%EC%A0%84%EC%B2%B4%EA%B8%B0%EC%82%AC/%ED%8C%A8%EC%85%98%EB%B6%80%EB%AC%B8/2024-09-ssf%EC%83%B5-%EB%8F%99%EB%B0%98%EC%84%B1%EC%9E%A5-%EC%95%9E%EC%9E%A5/,기존 근거 재확인 필요,2026-10-19,기존 삼성물산 공식 뉴스룸 근거
+PLAT-007,코오롱몰,패션 플랫폼,코오롱인더스트리FnC부문,패션·라이프스타일 브랜드,브랜드 그룹 전문몰,https://www.kolon.com/kr/subsidiary/fashion,기존 근거 재확인 필요,2026-10-19,기존 코오롱그룹 공식 사업 소개 근거
+PLAT-008,더카트,스포츠·라이프스타일 셀렉트숍,코오롱인더스트리FnC부문,스포츠·라이프스타일 브랜드,큐레이션·브랜드 판매,https://www.kolonfnc.com/press/1738,기존 근거 재확인 필요,2026-10-19,기존 코오롱FnC 공식 보도자료 근거
+PLAT-009,크림,검수 기반 트렌드 리세일 플랫폼,KREAM Corp.,스니커즈·의류·럭셔리·굿즈 등,개인 간 입찰 거래·검수·한정 발매,https://kreamcorp.com/,확인,2026-10-26,공식 회사 소개에서 거래·검수·드롭 모델 확인
+PLAT-010,머스트잇,명품·해외 디자이너 마켓플레이스,주식회사 머스트잇,명품·해외 디자이너 브랜드,판매자 입점 오픈마켓,https://mustit.co.kr/board/guide_seller,확인,2026-10-26,공식 판매 가이드에서 입점·판매자 모델 확인
+PLAT-011,번개장터,C2C 리커머스 마켓플레이스,주식회사 번개장터,패션을 포함한 중고·개인 간 거래,개인 간 거래 플랫폼,https://www.bunjang.co.kr/,기존 근거 재확인 필요,2026-10-19,패션 전용 플랫폼은 아니나 리세일 시장 분석 대상으로 포함

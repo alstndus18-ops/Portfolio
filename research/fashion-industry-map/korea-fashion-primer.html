@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>한국 패션 산업 입문</title>
+  <style>
+    :root { --ink:#17161b; --muted:#706d75; --paper:#f5f2ed; --card:#fffdfa; --line:#e6e0d8; --red:#ef5a38; --blue:#3956c6; --mint:#d9f2e8; --violet:#eeeaff; }
+    * { box-sizing:border-box; } html { scroll-behavior:smooth; }
+    body { margin:0; color:var(--ink); background:var(--paper); font:15px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif; letter-spacing:-.012em; }
+    .wrap { max-width:1160px; margin:auto; padding:0 24px 80px; }
+    .top { min-height:530px; padding:32px 0 58px; display:flex; flex-direction:column; justify-content:space-between; }
+    .nav { display:flex; align-items:center; justify-content:space-between; gap:16px; font-size:13px; }
+    .brand { font-weight:850; letter-spacing:-.04em; } .brand i { display:inline-block; width:9px; height:9px; margin-right:7px; background:var(--red); border-radius:50%; }
+    .navlinks { display:flex; gap:16px; } .nav a { color:var(--muted); text-decoration:none; } .nav a:hover { color:var(--ink); }
+    .hero { max-width:870px; padding:72px 0 25px; }
+    .eyebrow { color:var(--red); font-size:12px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
+    h1 { margin:10px 0 22px; font-size:clamp(45px,8vw,100px); line-height:.98; letter-spacing:-.075em; }
+    .hero p { max-width:650px; margin:0; color:var(--muted); font-size:clamp(17px,2.4vw,22px); line-height:1.55; }
+    .hero b { color:var(--ink); }
+    .quick { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
+    .quick a { padding:15px 17px; border:1px solid var(--line); border-radius:14px; color:var(--ink); background:rgba(255,255,255,.56); text-decoration:none; font-size:13px; font-weight:700; transition:.18s; }
+    .quick a:hover { transform:translateY(-2px); background:#fff; border-color:#c9c1b6; }
+    section { margin-top:86px; scroll-margin-top:24px; }
+    .section-head { display:flex; gap:20px; align-items:baseline; margin-bottom:25px; }
+    .section-no { color:var(--red); font-size:13px; font-weight:850; letter-spacing:.08em; }
+    h2 { margin:0; font-size:clamp(28px,4vw,45px); line-height:1.05; letter-spacing:-.06em; }
+    .lead { max-width:720px; color:var(--muted); margin:0 0 25px; font-size:17px; }
+    .flow { padding:28px; display:flex; align-items:stretch; gap:8px; overflow:auto; background:#1d1d22; border-radius:22px; color:white; }
+    .step { min-width:142px; padding:16px; background:#2b2b34; border-radius:13px; font-weight:800; }
+    .step small { display:block; margin-top:5px; color:#bcbcc7; font-weight:500; font-size:12px; line-height:1.35; }
+    .arrow { align-self:center; color:#8d8d98; font-size:22px; }
+    .note { margin-top:12px; color:var(--muted); font-size:13px; }
+    .areas { display:grid; grid-template-columns:repeat(7,1fr); gap:10px; }
+    .area { min-height:164px; padding:16px; background:var(--card); border:1px solid var(--line); border-radius:16px; }
+    .area em { color:var(--red); font-size:12px; font-style:normal; font-weight:850; }
+    .area b { display:block; margin:9px 0 5px; font-size:15px; line-height:1.3; }
+    .area span { color:var(--muted); font-size:12px; line-height:1.4; }
+    .diagram { display:grid; grid-template-columns:1fr 44px 1fr 44px 1fr; align-items:center; text-align:center; }
+    .diagram .box { padding:25px 16px; background:var(--card); border:1px solid var(--line); border-radius:18px; font-weight:850; font-size:18px; }
+    .diagram small { display:block; margin-top:5px; color:var(--muted); font-size:12px; font-weight:500; }
+    .diagram .arrow { color:var(--red); }
+    .explain { margin-top:18px; padding:18px 20px; border-left:3px solid var(--red); background:#fff9f5; color:#554f4c; }
+    .channel-grid, .model-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }
+    .channel, .model { padding:19px; background:var(--card); border:1px solid var(--line); border-radius:16px; }
+    .channel h3, .model h3 { margin:0 0 6px; font-size:17px; letter-spacing:-.035em; }
+    .channel p, .model p { margin:0; color:var(--muted); font-size:13px; line-height:1.55; }
+    .roles { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+    .role { padding:28px; border-radius:20px; } .role.md { background:var(--violet); } .role.design { background:var(--mint); }
+    .role .mini { font-size:12px; font-weight:850; letter-spacing:.08em; } .role h3 { margin:4px 0 12px; font-size:31px; letter-spacing:-.06em; }
+    .role p { margin:0; max-width:460px; } .role ul { margin:17px 0 0; padding:0; list-style:none; display:grid; gap:6px; font-size:13px; }
+    .role li::before { content:"→"; margin-right:8px; color:var(--blue); font-weight:850; }
+    .process { counter-reset:process; display:grid; grid-template-columns:repeat(9,1fr); gap:7px; }
+    .process div { min-height:137px; padding:12px; border-top:2px solid var(--ink); background:transparent; }
+    .process div::before { counter-increment:process; content:"0" counter(process); display:block; color:var(--red); font-weight:850; font-size:12px; }
+    .process b { display:block; margin-top:8px; font-size:13px; line-height:1.3; } .process span { display:block; margin-top:5px; color:var(--muted); font-size:11px; line-height:1.35; }
+    .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+    .stat { padding:22px; border-radius:17px; background:var(--card); border:1px solid var(--line); }
+    .stat b { display:block; font-size:42px; line-height:1; letter-spacing:-.065em; } .stat span { display:block; margin-top:8px; color:var(--muted); font-size:13px; }
+    .relations { margin-top:13px; display:grid; grid-template-columns:repeat(2,1fr); gap:10px; }
+    .relation { padding:17px; background:#fff; border:1px solid var(--line); border-radius:15px; }
+    .relation b { display:block; font-size:14px; } .relation p { margin:5px 0 0; color:var(--muted); font-size:12px; }
+    .competition { padding:29px; border-radius:22px; background:var(--blue); color:#fff; }
+    .competition h2 { max-width:520px; } .competition p { color:#dce3ff; max-width:650px; }
+    .questions { display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin-top:22px; }
+    .question { padding:13px; min-height:110px; background:rgba(255,255,255,.12); border:1px solid rgba(255,255,255,.18); border-radius:12px; font-size:13px; font-weight:750; }
+    .question span { display:block; color:#c6d1ff; margin-top:6px; font-size:11px; font-weight:500; line-height:1.45; }
+    .portfolio { display:grid; grid-template-columns:1fr 1fr; gap:12px; } .portfolio article { padding:27px; border-radius:20px; background:var(--card); border:1px solid var(--line); }
+    .portfolio h3 { margin:0 0 9px; font-size:25px; letter-spacing:-.05em; } .portfolio ol { margin:14px 0 0; padding-left:21px; color:var(--muted); font-size:14px; } .portfolio li+li { margin-top:7px; }
+    .action { padding:40px; text-align:center; border-radius:23px; background:#19191f; color:#fff; } .action h2 { font-size:clamp(28px,4vw,42px); } .action p { max-width:600px; margin:15px auto 0; color:#bdbdc8; }
+    .action .actions { margin-top:24px; display:flex; justify-content:center; gap:10px; flex-wrap:wrap; } .actions a { padding:10px 14px; border-radius:99px; color:#fff; border:1px solid #51515d; text-decoration:none; font-size:13px; } .actions a:first-child { color:#18181d; background:#fff; border-color:#fff; font-weight:800; }
+    footer { padding:38px 0 0; color:var(--muted); font-size:12px; text-align:center; }
+    @media (max-width:900px) { .areas{grid-template-columns:repeat(4,1fr)} .process{grid-template-columns:repeat(3,1fr)} .channel-grid,.model-grid{grid-template-columns:repeat(2,1fr)} .questions{grid-template-columns:repeat(2,1fr)} }
+    @media (max-width:600px) { .wrap{padding:0 15px 48px}.top{min-height:470px}.navlinks{display:none}.quick,.areas,.channel-grid,.model-grid,.roles,.stats,.relations,.portfolio{grid-template-columns:1fr}.diagram{grid-template-columns:1fr;gap:7px}.diagram .arrow{transform:rotate(90deg)}.process{grid-template-columns:repeat(2,1fr)}.questions{grid-template-columns:1fr}.section-head{display:block}.section-no{display:block;margin-bottom:7px}.hero{padding-top:58px}.flow{padding:18px}.step{min-width:128px} }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header class="top">
+      <nav class="nav"><span class="brand"><i></i>FASHION FIELD NOTES</span><span class="navlinks"><a href="#map">산업 지도</a><a href="#roles">직무</a><a href="#research">조사 현황</a><a href="#portfolio">포트폴리오</a></span></nav>
+      <div class="hero"><div class="eyebrow">Korea fashion industry primer · 2026.10.26</div><h1>한국 패션 산업,<br>한눈에 이해하기.</h1><p>옷을 만드는 일에서 끝나지 않습니다. <b>기업, 브랜드, 유통, 고객, 데이터</b>가 이어지는 구조를 이해하면 MD·디자이너 취업 준비와 경쟁사 분석이 훨씬 선명해집니다.</p></div>
+      <div class="quick"><a href="#map">01 · 산업의 전체 흐름 보기</a><a href="#roles">02 · MD와 디자이너 이해하기</a><a href="#portfolio">03 · 포트폴리오로 연결하기</a></div>
+    </header>
+
+    <section id="map"><div class="section-head"><span class="section-no">01 / THE BIG PICTURE</span><h2>패션은 연결된 산업이다</h2></div><p class="lead">같은 티셔츠라도 누가 만들고, 누구에게, 어떤 가격으로, 어디에서, 어떤 이야기와 함께 파는지에 따라 전혀 다른 상품이 됩니다.</p><div class="flow"><div class="step">시장·고객 이해<small>트렌드 · 타깃 · 구매 상황</small></div><div class="arrow">→</div><div class="step">상품 기획<small>MD · 디자인 · 소재 · 가격</small></div><div class="arrow">→</div><div class="step">생산·품질<small>샘플 · 납기 · 수량 · 검수</small></div><div class="arrow">→</div><div class="step">브랜드·마케팅<small>룩북 · 콘텐츠 · 캠페인</small></div><div class="arrow">→</div><div class="step">유통·판매<small>자사몰 · 플랫폼 · 매장</small></div><div class="arrow">→</div><div class="step">판매 데이터<small>리뷰 · 재고 · 재구매 · 다음 시즌</small></div></div><p class="note">핵심: 포트폴리오도 예쁜 결과물만 보여주기보다, 이 흐름 중 어디까지 이해하고 고려했는지 보여주면 강해집니다.</p></section>
+
+    <section><div class="section-head"><span class="section-no">02 / 7 AREAS</span><h2>업계를 읽는 7개 축</h2></div><div class="areas"><article class="area"><em>01</em><b>기업·브랜드</b><span>누가 어떤 브랜드를 운영하는가</span></article><article class="area"><em>02</em><b>판매 채널</b><span>고객은 어디에서 상품을 사는가</span></article><article class="area"><em>03</em><b>상품·카테고리</b><span>무엇을 어떤 방식으로 파는가</span></article><article class="area"><em>04</em><b>고객·가격대</b><span>누구에게 얼마에 파는가</span></article><article class="area"><em>05</em><b>생산·공급</b><span>어떻게 만들고 전달하는가</span></article><article class="area"><em>06</em><b>브랜딩·마케팅</b><span>왜 선택하게 만드는가</span></article><article class="area"><em>07</em><b>데이터·성과</b><span>무엇이 왜 잘 팔렸는가</span></article></div></section>
+
+    <section><div class="section-head"><span class="section-no">03 / RELATIONSHIP</span><h2>기업 ≠ 브랜드 ≠ 쇼핑몰</h2></div><p class="lead">세 단어를 구분하는 순간, 패션 업계 구조가 훨씬 덜 복잡해집니다.</p><div class="diagram"><div class="box">기업<small>운영 주체</small></div><div class="arrow">→</div><div class="box">브랜드<small>고객이 인식하는 이름</small></div><div class="arrow">→</div><div class="box">판매 채널<small>상품을 실제로 사는 곳</small></div></div><div class="explain">한 기업은 여러 브랜드를 운영할 수 있고, 한 브랜드는 자사몰·패션 플랫폼·백화점 등 여러 채널에서 판매될 수 있습니다. 그래서 <b>운영 관계</b>와 <b>실제 판매 관계</b>를 따로 기록해야 가격·상품·채널 전략을 제대로 비교할 수 있습니다.</div></section>
+
+    <section><div class="section-head"><span class="section-no">04 / CHANNELS</span><h2>상품은 어디서 팔리는가</h2></div><div class="channel-grid"><article class="channel"><h3>자사몰 · D2C</h3><p>브랜드가 직접 고객에게 판매하는 공간. 브랜드 경험, 고객 데이터, 단독 혜택을 직접 관리합니다.</p></article><article class="channel"><h3>패션 플랫폼</h3><p>여러 브랜드를 비교·탐색하는 공간. 신규 고객 유입, 랭킹, 리뷰, 검색 편의성이 중요합니다.</p></article><article class="channel"><h3>종합몰 · 마켓플레이스</h3><p>패션 외 상품까지 넓게 다루는 판매처. 가격 경쟁, 배송, 검색 노출의 비중이 큽니다.</p></article><article class="channel"><h3>백화점</h3><p>신뢰와 프리미엄 경험의 공간. 브랜드 구성, 위치, 행사, VIP 고객 운영을 봅니다.</p></article><article class="channel"><h3>아울렛</h3><p>이월 상품과 할인 중심 채널. 정상가·할인가, 재고 소진, 시즌 구성을 비교합니다.</p></article><article class="channel"><h3>팝업스토어</h3><p>짧은 기간에 체험과 화제를 만드는 채널. 공간 콘셉트, 참여 방식, SNS 확산을 봅니다.</p></article></div></section>
+
+    <section><div class="section-head"><span class="section-no">05 / BUSINESS MODELS</span><h2>같은 패션 회사가 아니다</h2></div><div class="model-grid"><article class="model"><h3>대형 패션기업</h3><p>여러 브랜드와 자사 유통망을 함께 운영합니다. 브랜드 포트폴리오와 채널 연결을 봅니다.</p></article><article class="model"><h3>독립·디자이너 브랜드</h3><p>강한 콘셉트와 미학을 중심으로 운영합니다. 룩북, 시즌 메시지, 편집숍 유통이 중요합니다.</p></article><article class="model"><h3>SPA</h3><p>기획부터 판매까지 빠르게 연결합니다. 가격, 회전 속도, 기본 상품, 매장/온라인 연동을 봅니다.</p></article><article class="model"><h3>보세·셀러형 쇼핑몰</h3><p>사입·셀렉트·자체 제작을 혼합할 수 있습니다. 타깃, 신상품 속도, 촬영·라이브 판매를 봅니다.</p></article><article class="model"><h3>플랫폼·유통사</h3><p>브랜드를 직접 만들기도, 외부 브랜드를 판매하기도 합니다. 큐레이션·검색·입점 구조가 핵심입니다.</p></article><article class="model"><h3>리세일·C2C</h3><p>개인 간 거래나 검수 기반 재판매를 다룹니다. 희소성, 거래 안전, 상품 상태 관리가 중요합니다.</p></article></div><p class="note">보세 쇼핑몰과 브랜드는 우열이 아니라 사업 모델의 차이입니다. 조사할 때는 한 목록으로 섞지 않고 분리해 봅니다.</p></section>
+
+    <section id="roles"><div class="section-head"><span class="section-no">06 / ROLES</span><h2>MD와 디자이너는 어디서 만나는가</h2></div><div class="roles"><article class="role md"><div class="mini">MERCHANDISER</div><h3>MD</h3><p><b>무엇을, 누구에게, 얼마에, 얼마나 팔 것인가?</b>를 설계합니다.</p><ul><li>시장 조사와 경쟁사 분석</li><li>상품 구성·가격·물량 결정</li><li>판매율·재고·리뷰 분석</li><li>디자인·생산·마케팅과 협업</li></ul></article><article class="role design"><div class="mini">FASHION DESIGNER</div><h3>디자이너</h3><p><b>어떤 디자인으로 브랜드의 상품을 만들 것인가?</b>를 설계합니다.</p><ul><li>트렌드·레퍼런스 조사</li><li>디자인·소재·컬러 제안</li><li>샘플·피팅·사양 협업</li><li>브랜드의 시각 언어 유지</li></ul></article></div><p class="note">공동 목표는 같습니다. 고객에게 매력적이면서도 실제로 판매 가능한 상품을 만드는 것. 좋은 MD는 디자인 언어를, 좋은 디자이너는 고객·가격·생산 제약을 이해합니다.</p></section>
+
+    <section><div class="section-head"><span class="section-no">07 / PRODUCT JOURNEY</span><h2>한 상품이 판매되기까지</h2></div><div class="process"><div><b>시장 관찰</b><span>고객·트렌드·경쟁사</span></div><div><b>상품 기획</b><span>시즌·카테고리·가격</span></div><div><b>디자인·소재</b><span>디자인·원가 검토</span></div><div><b>샘플 수정</b><span>피팅·품질·사양</span></div><div><b>생산 결정</b><span>수량·납기·발주</span></div><div><b>판매 준비</b><span>촬영·상세·룩북</span></div><div><b>판매 시작</b><span>자사몰·플랫폼·매장</span></div><div><b>성과 확인</b><span>판매·리뷰·반품·재고</span></div><div><b>다음 시즌</b><span>리오더·개선·신기획</span></div></div></section>
+
+    <section id="research"><div class="section-head"><span class="section-no">08 / OUR RESEARCH</span><h2>지금까지 만든 조사 기반</h2></div><p class="lead">이 프로젝트는 목록을 모으는 데서 멈추지 않고, 기업·브랜드·판매 채널의 연결을 기록하는 중입니다.</p><div class="stats"><div class="stat"><b>222</b><span>개별 쇼핑몰 탐색 후보</span></div><div class="stat"><b>7</b><span>브랜드 포트폴리오 연결 기업·사업부·그룹</span></div><div class="stat"><b>54</b><span>기업·사업부·그룹에 연결된 브랜드</span></div><div class="stat"><b>32</b><span>확인된 온라인 판매 채널 엔터티</span></div></div><div class="relations"><article class="relation"><b>5개 온라인 채널 구조</b><p>공식몰 12개 · 플랫폼 4개 · 큐레이션·멀티브랜드몰 9개 · 리세일·C2C 3개 · 독립 여성몰 4개</p></article><article class="relation"><b>한섬 · 코오롱 FnC</b><p>현재 DB 기준 브랜드 13개 / 12개를 각각 연결해 기록</p></article><article class="relation"><b>삼성물산 · 이랜드 · LF</b><p>현재 DB 기준 브랜드 8개 / 9개 / 6개를 각각 연결해 기록</p></article><article class="relation"><b>검증 원칙</b><p>실제 판매 관계는 공식 쇼핑몰의 상품·브랜드 목록·기획전에서 노출을 확인하고, 확인일과 근거 URL을 함께 남깁니다.</p></article></div></section>
+
+    <section><div class="competition"><div class="section-no" style="color:#c6d1ff">09 / COMPETITOR ANALYSIS</div><h2>경쟁사는 비슷한 이름의 회사가 아니라, 같은 고객의 선택을 놓고 경쟁하는 대상입니다.</h2><p>분석은 "이 브랜드가 예쁘다"가 아니라, 고객·상품·가격·채널·경험을 같은 기준으로 비교하는 과정입니다.</p><div class="questions"><div class="question">누구를 위한가?<span>연령, 라이프스타일, 구매 상황</span></div><div class="question">무엇을 파는가?<span>카테고리, 스타일, 베스트 상품</span></div><div class="question">어디서 사는가?<span>자사몰, 플랫폼, 매장, 팝업</span></div><div class="question">왜 선택되는가?<span>디자인, 가격, 품질, 편의, 감성</span></div></div></div></section>
+
+    <section id="portfolio"><div class="section-head"><span class="section-no">10 / PORTFOLIO</span><h2>이 지식을 포트폴리오에 쓰는 법</h2></div><div class="portfolio"><article><h3>MD 포트폴리오</h3><ol><li>관심 브랜드 하나와 경쟁 브랜드 3곳을 고릅니다.</li><li>고객, 상품, 가격, 채널 기준으로 비교합니다.</li><li>고객에게 남아 있는 빈틈을 한 문장 가설로 만듭니다.</li><li>그 가설을 상품 구성·가격대·판매 채널로 연결합니다.</li></ol></article><article><h3>디자이너 포트폴리오</h3><ol><li>브랜드의 고객과 가격대를 먼저 확인합니다.</li><li>무드보드에서 컬러·소재·실루엣으로 전개합니다.</li><li>디자인이 브랜드와 고객에게 맞는 이유를 씁니다.</li><li>샘플·사양·소재 등 현실성을 한 단계 더 보여줍니다.</li></ol></article></div><p class="note">수치가 실제 데이터가 아니라면 반드시 <b>가설</b>이라고 표시합니다. AI를 썼다면 결과물을 그대로 내기보다, 무엇을 선택하고 어떻게 수정했는지 보여주는 편이 훨씬 설득력 있습니다.</p></section>
+
+    <section class="action"><h2>처음부터 업계 전체를 외울 필요는 없습니다.</h2><p>브랜드 하나를 고르고, 기업 → 브랜드 → 판매 채널 → 고객 → 상품의 연결을 반복해서 보면 됩니다. 다음 단계는 외부 플랫폼 판매 관계를 더 확인해 채널 전략까지 비교하는 것입니다.</p><div class="actions"><a href="index.html">현재 조사 대시보드 보기</a><a href="06-korea-fashion-industry-primer.md">원문 Markdown 보기</a><a href="05-brand-channel-verification.md">판매 채널 검증 기록 보기</a></div></section>
+    <footer>한국 패션 산업 입문 · 개인 학습 및 포트폴리오 조사용 · 데이터 기준일 2026.10.26</footer>
+  </main>
+</body>
+</html>

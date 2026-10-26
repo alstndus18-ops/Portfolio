@@ -1,0 +1,382 @@
+{
+  "generated_at": "2026-10-26T04:24:59.018081+00:00",
+  "source_scope": "강원특별자치도 통신판매사업자 전체",
+  "source_file": "ftc_mail_order_gangwon_20261026.csv",
+  "privacy": {
+    "raw_records_exported": false,
+    "excluded_fields": [
+      "대표자명",
+      "전화번호",
+      "전자우편",
+      "사업장소재지",
+      "사업장소재지(도로명)"
+    ]
+  },
+  "method": {
+    "parser": "Python standard-library csv.reader (RFC 4180-style quoted-field handling)",
+    "active_definition": "업소상태가 정확히 '정상영업'인 유효 행",
+    "fashion_candidate_definition": "취급품목에 사전 정의한 패션 관련 키워드가 포함된 유효 행. 검증된 패션 사업자 수가 아님.",
+    "malformed_row_policy": "헤더 열 수와 다른 레코드는 집계에서 제외하고 건수만 공개한다.",
+    "field_safety_policy": "집계 열에서도 형식에 맞지 않는 값은 공개 목록에서 제외하고 건수만 기록한다."
+  },
+  "metrics": {
+    "total_parsed_rows": 51392,
+    "valid_rows": 50140,
+    "malformed_rows": 1252,
+    "active_rows": 37663,
+    "fashion_candidate_rows": 10600,
+    "filtered_value_counts": {
+      "product_type": 62
+    }
+  },
+  "breakdowns": {
+    "status": [
+      {
+        "label": "정상영업",
+        "count": 37663
+      },
+      {
+        "label": "폐업처리",
+        "count": 11482
+      },
+      {
+        "label": "직권취소",
+        "count": 789
+      },
+      {
+        "label": "휴업처리",
+        "count": 138
+      },
+      {
+        "label": "직권말소",
+        "count": 62
+      },
+      {
+        "label": "타시군구전입",
+        "count": 4
+      },
+      {
+        "label": "영업재개",
+        "count": 2
+      }
+    ],
+    "sale_method": [
+      {
+        "label": "인터넷",
+        "count": 44072
+      },
+      {
+        "label": "인터넷 기타",
+        "count": 1624
+      },
+      {
+        "label": "기타",
+        "count": 1076
+      },
+      {
+        "label": "null",
+        "count": 1065
+      },
+      {
+        "label": "TV홈쇼핑 인터넷",
+        "count": 243
+      },
+      {
+        "label": "인터넷 카달로그",
+        "count": 223
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 신문잡지 기타",
+        "count": 222
+      },
+      {
+        "label": "TV홈쇼핑",
+        "count": 188
+      },
+      {
+        "label": "인터넷 TV홈쇼핑",
+        "count": 180
+      },
+      {
+        "label": "인터넷 카달로그 기타",
+        "count": 165
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 신문잡지 기타",
+        "count": 115
+      },
+      {
+        "label": "인터넷 카달로그 신문잡지 기타",
+        "count": 103
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 신문잡지",
+        "count": 91
+      },
+      {
+        "label": "기타 인터넷",
+        "count": 84
+      },
+      {
+        "label": "인터넷 카달로그 신문잡지",
+        "count": 69
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 기타",
+        "count": 59
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 기타",
+        "count": 57
+      },
+      {
+        "label": "인터넷 신문잡지",
+        "count": 49
+      },
+      {
+        "label": "카달로그",
+        "count": 42
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그",
+        "count": 41
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 신문잡지",
+        "count": 39
+      },
+      {
+        "label": "인터넷 신문잡지 기타",
+        "count": 36
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 기타",
+        "count": 27
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 기타",
+        "count": 23
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그",
+        "count": 23
+      },
+      {
+        "label": "TV홈쇼핑 기타",
+        "count": 15
+      },
+      {
+        "label": "카달로그 기타",
+        "count": 12
+      },
+      {
+        "label": "카달로그 신문잡지 기타",
+        "count": 11
+      },
+      {
+        "label": "카달로그 인터넷",
+        "count": 11
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 신문잡지 기타",
+        "count": 10
+      }
+    ],
+    "product_type": [
+      {
+        "label": "종합몰",
+        "count": 13357
+      },
+      {
+        "label": "기타",
+        "count": 9403
+      },
+      {
+        "label": "건강/식품",
+        "count": 7456
+      },
+      {
+        "label": "의류/패션/잡화/뷰티",
+        "count": 6837
+      },
+      {
+        "label": "레저/여행/공연",
+        "count": 2514
+      },
+      {
+        "label": "null",
+        "count": 771
+      },
+      {
+        "label": "교육/도서/완구/오락",
+        "count": 688
+      },
+      {
+        "label": "건강/식품 기타",
+        "count": 625
+      },
+      {
+        "label": "종합몰 의류/패션/잡화/뷰티",
+        "count": 610
+      },
+      {
+        "label": "종합몰 기타",
+        "count": 434
+      },
+      {
+        "label": "종합몰 건강/식품",
+        "count": 431
+      },
+      {
+        "label": "의류/패션/잡화/뷰티 기타",
+        "count": 347
+      },
+      {
+        "label": "가구/수납용품",
+        "count": 343
+      },
+      {
+        "label": "레저/여행/공연 기타",
+        "count": 295
+      },
+      {
+        "label": "컴퓨터/사무용품",
+        "count": 294
+      },
+      {
+        "label": "자동차/자동차용품",
+        "count": 261
+      },
+      {
+        "label": "가전",
+        "count": 199
+      },
+      {
+        "label": "건강/식품 의류/패션/잡화/뷰티",
+        "count": 198
+      },
+      {
+        "label": "기타 건강/식품",
+        "count": 189
+      },
+      {
+        "label": "교육/도서/완구/오락 의류/패션/잡화/뷰티",
+        "count": 120
+      },
+      {
+        "label": "의류/패션/잡화/뷰티 건강/식품",
+        "count": 113
+      },
+      {
+        "label": "교육/도서/완구/오락 기타",
+        "count": 95
+      },
+      {
+        "label": "종합몰 건강/식품 의류/패션/잡화/뷰티",
+        "count": 94
+      },
+      {
+        "label": "기타 레저/여행/공연",
+        "count": 89
+      },
+      {
+        "label": "종합몰 가구/수납용품",
+        "count": 87
+      },
+      {
+        "label": "가구/수납용품 의류/패션/잡화/뷰티",
+        "count": 84
+      },
+      {
+        "label": "종합몰 교육/도서/완구/오락",
+        "count": 81
+      },
+      {
+        "label": "종합몰 건강/식품 기타",
+        "count": 80
+      },
+      {
+        "label": "종합몰 레저/여행/공연",
+        "count": 77
+      },
+      {
+        "label": "가구/수납용품 기타",
+        "count": 72
+      }
+    ],
+    "reporting_institution": [
+      {
+        "label": "강원특별자치도 원주시",
+        "count": 17083
+      },
+      {
+        "label": "강원특별자치도 춘천시",
+        "count": 8855
+      },
+      {
+        "label": "강원특별자치도 강릉시",
+        "count": 6625
+      },
+      {
+        "label": "강원특별자치도 속초시",
+        "count": 2949
+      },
+      {
+        "label": "강원특별자치도 홍천군",
+        "count": 2337
+      },
+      {
+        "label": "강원특별자치도 동해시",
+        "count": 2185
+      },
+      {
+        "label": "강원특별자치도 횡성군",
+        "count": 1581
+      },
+      {
+        "label": "강원특별자치도 양양군",
+        "count": 1317
+      },
+      {
+        "label": "강원특별자치도 철원군",
+        "count": 1058
+      },
+      {
+        "label": "강원특별자치도 인제군",
+        "count": 1012
+      },
+      {
+        "label": "강원특별자치도 고성군",
+        "count": 989
+      },
+      {
+        "label": "강원특별자치도 삼척시",
+        "count": 918
+      },
+      {
+        "label": "강원특별자치도 정선군",
+        "count": 898
+      },
+      {
+        "label": "강원특별자치도 태백시",
+        "count": 665
+      },
+      {
+        "label": "강원특별자치도 화천군",
+        "count": 617
+      },
+      {
+        "label": "강원특별자치도 양구군",
+        "count": 483
+      },
+      {
+        "label": "강원특별자치도 영월군",
+        "count": 415
+      },
+      {
+        "label": "강원특별자치도 평창군",
+        "count": 153
+      }
+    ]
+  }
+}

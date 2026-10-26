@@ -1,0 +1,328 @@
+{
+  "generated_at": "2026-10-26T04:24:18.298891+00:00",
+  "source_scope": "광주광역시 통신판매사업자 전체",
+  "source_file": "ftc_mail_order_gwangju_20261026.csv",
+  "privacy": {
+    "raw_records_exported": false,
+    "excluded_fields": [
+      "대표자명",
+      "전화번호",
+      "전자우편",
+      "사업장소재지",
+      "사업장소재지(도로명)"
+    ]
+  },
+  "method": {
+    "parser": "Python standard-library csv.reader (RFC 4180-style quoted-field handling)",
+    "active_definition": "업소상태가 정확히 '정상영업'인 유효 행",
+    "fashion_candidate_definition": "취급품목에 사전 정의한 패션 관련 키워드가 포함된 유효 행. 검증된 패션 사업자 수가 아님.",
+    "malformed_row_policy": "헤더 열 수와 다른 레코드는 집계에서 제외하고 건수만 공개한다.",
+    "field_safety_policy": "집계 열에서도 형식에 맞지 않는 값은 공개 목록에서 제외하고 건수만 기록한다."
+  },
+  "metrics": {
+    "total_parsed_rows": 42198,
+    "valid_rows": 40327,
+    "malformed_rows": 1871,
+    "active_rows": 24227,
+    "fashion_candidate_rows": 13064,
+    "filtered_value_counts": {}
+  },
+  "breakdowns": {
+    "status": [
+      {
+        "label": "정상영업",
+        "count": 24227
+      },
+      {
+        "label": "폐업처리",
+        "count": 14301
+      },
+      {
+        "label": "직권말소",
+        "count": 1031
+      },
+      {
+        "label": "직권취소",
+        "count": 574
+      },
+      {
+        "label": "휴업처리",
+        "count": 188
+      },
+      {
+        "label": "타시군구전입",
+        "count": 5
+      },
+      {
+        "label": "영업재개",
+        "count": 1
+      }
+    ],
+    "sale_method": [
+      {
+        "label": "인터넷",
+        "count": 35057
+      },
+      {
+        "label": "null",
+        "count": 1683
+      },
+      {
+        "label": "인터넷 기타",
+        "count": 1443
+      },
+      {
+        "label": "기타",
+        "count": 730
+      },
+      {
+        "label": "인터넷 TV홈쇼핑",
+        "count": 174
+      },
+      {
+        "label": "인터넷 카달로그",
+        "count": 146
+      },
+      {
+        "label": "인터넷 카달로그 기타",
+        "count": 126
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 신문잡지 기타",
+        "count": 114
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 신문잡지 기타",
+        "count": 100
+      },
+      {
+        "label": "TV홈쇼핑 인터넷",
+        "count": 99
+      },
+      {
+        "label": "TV홈쇼핑",
+        "count": 92
+      },
+      {
+        "label": "인터넷 카달로그 신문잡지 기타",
+        "count": 70
+      },
+      {
+        "label": "기타 인터넷",
+        "count": 50
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 기타",
+        "count": 43
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 신문잡지",
+        "count": 40
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 신문잡지",
+        "count": 38
+      },
+      {
+        "label": "인터넷 카달로그 신문잡지",
+        "count": 38
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그",
+        "count": 33
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 기타",
+        "count": 30
+      },
+      {
+        "label": "인터넷 신문잡지",
+        "count": 30
+      },
+      {
+        "label": "카달로그",
+        "count": 25
+      },
+      {
+        "label": "인터넷 신문잡지 기타",
+        "count": 23
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그",
+        "count": 15
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 기타",
+        "count": 12
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 기타",
+        "count": 11
+      },
+      {
+        "label": "카달로그 기타",
+        "count": 10
+      },
+      {
+        "label": "신문잡지",
+        "count": 7
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 기타 신문잡지",
+        "count": 6
+      },
+      {
+        "label": "카달로그 신문잡지 기타",
+        "count": 6
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 신문잡지 기타",
+        "count": 5
+      }
+    ],
+    "product_type": [
+      {
+        "label": "종합몰",
+        "count": 9695
+      },
+      {
+        "label": "의류/패션/잡화/뷰티",
+        "count": 9285
+      },
+      {
+        "label": "기타",
+        "count": 6562
+      },
+      {
+        "label": "건강/식품",
+        "count": 3802
+      },
+      {
+        "label": "null",
+        "count": 1725
+      },
+      {
+        "label": "종합몰 의류/패션/잡화/뷰티",
+        "count": 723
+      },
+      {
+        "label": "교육/도서/완구/오락",
+        "count": 623
+      },
+      {
+        "label": "종합몰 기타",
+        "count": 466
+      },
+      {
+        "label": "의류/패션/잡화/뷰티 기타",
+        "count": 461
+      },
+      {
+        "label": "종합몰 건강/식품",
+        "count": 406
+      },
+      {
+        "label": "건강/식품 기타",
+        "count": 387
+      },
+      {
+        "label": "레저/여행/공연",
+        "count": 387
+      },
+      {
+        "label": "자동차/자동차용품",
+        "count": 373
+      },
+      {
+        "label": "컴퓨터/사무용품",
+        "count": 326
+      },
+      {
+        "label": "가구/수납용품",
+        "count": 324
+      },
+      {
+        "label": "가전",
+        "count": 264
+      },
+      {
+        "label": "건강/식품 의류/패션/잡화/뷰티",
+        "count": 166
+      },
+      {
+        "label": "의류/패션/잡화/뷰티 건강/식품",
+        "count": 121
+      },
+      {
+        "label": "교육/도서/완구/오락 의류/패션/잡화/뷰티",
+        "count": 110
+      },
+      {
+        "label": "교육/도서/완구/오락 기타",
+        "count": 87
+      },
+      {
+        "label": "종합몰 의류/패션/잡화/뷰티 기타",
+        "count": 87
+      },
+      {
+        "label": "종합몰 건강/식품 의류/패션/잡화/뷰티",
+        "count": 85
+      },
+      {
+        "label": "종합몰 교육/도서/완구/오락",
+        "count": 80
+      },
+      {
+        "label": "기타 의류/패션/잡화/뷰티",
+        "count": 79
+      },
+      {
+        "label": "가구/수납용품 의류/패션/잡화/뷰티",
+        "count": 74
+      },
+      {
+        "label": "상품권",
+        "count": 73
+      },
+      {
+        "label": "컴퓨터/사무용품 기타",
+        "count": 71
+      },
+      {
+        "label": "가전 컴퓨터/사무용품",
+        "count": 66
+      },
+      {
+        "label": "레저/여행/공연 기타",
+        "count": 60
+      },
+      {
+        "label": "가구/수납용품 기타",
+        "count": 59
+      }
+    ],
+    "reporting_institution": [
+      {
+        "label": "광주광역시 광산구",
+        "count": 12426
+      },
+      {
+        "label": "광주광역시 북구",
+        "count": 10597
+      },
+      {
+        "label": "광주광역시 서구",
+        "count": 8286
+      },
+      {
+        "label": "광주광역시 남구",
+        "count": 5193
+      },
+      {
+        "label": "광주광역시 동구",
+        "count": 3825
+      }
+    ]
+  }
+}

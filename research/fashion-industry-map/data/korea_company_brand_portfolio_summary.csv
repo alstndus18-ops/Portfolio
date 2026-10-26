@@ -1,0 +1,8 @@
+owner_name,owner_type,brand_count,brands,source_scope,observed_at
+삼성물산 패션부문,business_unit,8,"빈폴;에잇세컨즈;갤럭시;구호;르베이지;준지;구호플러스;비이커",원본 관계 DB의 owns_or_operates,2026-10-26
+코오롱인더스트리 FnC,business_unit,12,"코오롱스포츠;래코드;시리즈;커스텀멜로우;헨리코튼;캠브리지멤버스;럭키슈에뜨;쿠론;슈콤마보니;지포어;왁;볼디스트",원본 관계 DB의 owns_or_operates·portfolio_includes,2026-10-26
+한섬,company,13,"타임;시스템;SJSJ;마인;더캐시미어;타임 옴므;시스템 옴므;래트;오즈세컨;톰그레이하운드;오브제;랑방컬렉션;랑방블랑",원본 관계 DB의 owns_or_operates·portfolio_includes,2026-10-26
+F&F Holdings,business_group,3,"엠엘비;엠엘비 키즈;디스커버리 익스페디션",원본 관계 DB의 portfolio_includes,2026-10-26
+이랜드월드 패션사업부,business_unit,9,"스파오;미쏘;후아유;슈펜;로엠;에블린;클라비스;뉴발란스;폴더",원본 관계 DB의 owns_or_operates·portfolio_includes,2026-10-26
+엘에프,company,6,"헤지스;닥스;마에스트로;티엔지티;질스튜어트 뉴욕;아떼 바네사브루노",원본 관계 DB의 portfolio_includes,2026-10-26
+에프앤에프,company,3,"듀베티카;수프라;세르지오 타키니",원본 관계 DB의 portfolio_includes,2026-10-26

@@ -1,0 +1,316 @@
+{
+  "generated_at": "2026-10-26T04:24:53.960465+00:00",
+  "source_scope": "제주특별자치도 통신판매사업자 전체",
+  "source_file": "ftc_mail_order_jeju_20261026.csv",
+  "privacy": {
+    "raw_records_exported": false,
+    "excluded_fields": [
+      "대표자명",
+      "전화번호",
+      "전자우편",
+      "사업장소재지",
+      "사업장소재지(도로명)"
+    ]
+  },
+  "method": {
+    "parser": "Python standard-library csv.reader (RFC 4180-style quoted-field handling)",
+    "active_definition": "업소상태가 정확히 '정상영업'인 유효 행",
+    "fashion_candidate_definition": "취급품목에 사전 정의한 패션 관련 키워드가 포함된 유효 행. 검증된 패션 사업자 수가 아님.",
+    "malformed_row_policy": "헤더 열 수와 다른 레코드는 집계에서 제외하고 건수만 공개한다.",
+    "field_safety_policy": "집계 열에서도 형식에 맞지 않는 값은 공개 목록에서 제외하고 건수만 기록한다."
+  },
+  "metrics": {
+    "total_parsed_rows": 32095,
+    "valid_rows": 31503,
+    "malformed_rows": 592,
+    "active_rows": 24889,
+    "fashion_candidate_rows": 5736,
+    "filtered_value_counts": {}
+  },
+  "breakdowns": {
+    "status": [
+      {
+        "label": "정상영업",
+        "count": 24889
+      },
+      {
+        "label": "폐업처리",
+        "count": 6294
+      },
+      {
+        "label": "직권취소",
+        "count": 178
+      },
+      {
+        "label": "휴업처리",
+        "count": 88
+      },
+      {
+        "label": "직권말소",
+        "count": 51
+      },
+      {
+        "label": "영업재개",
+        "count": 2
+      },
+      {
+        "label": "타시군구전입",
+        "count": 1
+      }
+    ],
+    "sale_method": [
+      {
+        "label": "인터넷",
+        "count": 27120
+      },
+      {
+        "label": "인터넷 기타",
+        "count": 1088
+      },
+      {
+        "label": "기타",
+        "count": 954
+      },
+      {
+        "label": "null",
+        "count": 732
+      },
+      {
+        "label": "TV홈쇼핑 인터넷",
+        "count": 208
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 신문잡지 기타",
+        "count": 193
+      },
+      {
+        "label": "인터넷 카달로그",
+        "count": 150
+      },
+      {
+        "label": "기타 인터넷",
+        "count": 136
+      },
+      {
+        "label": "TV홈쇼핑",
+        "count": 110
+      },
+      {
+        "label": "인터넷 카달로그 기타",
+        "count": 98
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 신문잡지",
+        "count": 76
+      },
+      {
+        "label": "인터넷 TV홈쇼핑",
+        "count": 76
+      },
+      {
+        "label": "인터넷 카달로그 신문잡지 기타",
+        "count": 74
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 기타",
+        "count": 62
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 신문잡지 기타",
+        "count": 57
+      },
+      {
+        "label": "인터넷 카달로그 신문잡지",
+        "count": 41
+      },
+      {
+        "label": "인터넷 신문잡지",
+        "count": 32
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그",
+        "count": 29
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 카달로그 기타",
+        "count": 26
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 기타",
+        "count": 26
+      },
+      {
+        "label": "카달로그",
+        "count": 20
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그 신문잡지",
+        "count": 18
+      },
+      {
+        "label": "인터넷 신문잡지 기타",
+        "count": 17
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 신문잡지",
+        "count": 14
+      },
+      {
+        "label": "카달로그 인터넷",
+        "count": 12
+      },
+      {
+        "label": "카달로그 기타",
+        "count": 11
+      },
+      {
+        "label": "인터넷 TV홈쇼핑 카달로그",
+        "count": 10
+      },
+      {
+        "label": "TV홈쇼핑 기타",
+        "count": 7
+      },
+      {
+        "label": "TV홈쇼핑 인터넷 신문잡지 기타",
+        "count": 7
+      },
+      {
+        "label": "신문잡지 기타",
+        "count": 6
+      }
+    ],
+    "product_type": [
+      {
+        "label": "기타",
+        "count": 8178
+      },
+      {
+        "label": "종합몰",
+        "count": 5469
+      },
+      {
+        "label": "건강/식품",
+        "count": 5124
+      },
+      {
+        "label": "의류/패션/잡화/뷰티",
+        "count": 3484
+      },
+      {
+        "label": "레저/여행/공연",
+        "count": 2721
+      },
+      {
+        "label": "null",
+        "count": 532
+      },
+      {
+        "label": "건강/식품 기타",
+        "count": 461
+      },
+      {
+        "label": "교육/도서/완구/오락",
+        "count": 437
+      },
+      {
+        "label": "종합몰 의류/패션/잡화/뷰티",
+        "count": 333
+      },
+      {
+        "label": "종합몰 건강/식품",
+        "count": 325
+      },
+      {
+        "label": "레저/여행/공연 기타",
+        "count": 297
+      },
+      {
+        "label": "종합몰 기타",
+        "count": 246
+      },
+      {
+        "label": "의류/패션/잡화/뷰티 기타",
+        "count": 215
+      },
+      {
+        "label": "가구/수납용품",
+        "count": 160
+      },
+      {
+        "label": "기타 건강/식품",
+        "count": 154
+      },
+      {
+        "label": "건강/식품 의류/패션/잡화/뷰티",
+        "count": 141
+      },
+      {
+        "label": "자동차/자동차용품",
+        "count": 125
+      },
+      {
+        "label": "컴퓨터/사무용품",
+        "count": 103
+      },
+      {
+        "label": "교육/도서/완구/오락 의류/패션/잡화/뷰티",
+        "count": 88
+      },
+      {
+        "label": "종합몰 레저/여행/공연",
+        "count": 87
+      },
+      {
+        "label": "가전",
+        "count": 86
+      },
+      {
+        "label": "의류/패션/잡화/뷰티 건강/식품",
+        "count": 72
+      },
+      {
+        "label": "종합몰 건강/식품 기타",
+        "count": 68
+      },
+      {
+        "label": "교육/도서/완구/오락 기타",
+        "count": 65
+      },
+      {
+        "label": "기타 레저/여행/공연",
+        "count": 65
+      },
+      {
+        "label": "가구/수납용품 의류/패션/잡화/뷰티",
+        "count": 57
+      },
+      {
+        "label": "종합몰 건강/식품 의류/패션/잡화/뷰티",
+        "count": 55
+      },
+      {
+        "label": "종합몰 의류/패션/잡화/뷰티 기타",
+        "count": 55
+      },
+      {
+        "label": "의류/패션/잡화/뷰티 레저/여행/공연",
+        "count": 49
+      },
+      {
+        "label": "종합몰 교육/도서/완구/오락",
+        "count": 41
+      }
+    ],
+    "reporting_institution": [
+      {
+        "label": "제주특별자치도 제주시",
+        "count": 22256
+      },
+      {
+        "label": "제주특별자치도 서귀포시",
+        "count": 9247
+      }
+    ]
+  }
+}

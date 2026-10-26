@@ -1,0 +1,35 @@
+relationship_id,brand_name,channel_name,relationship,verification_status,observed_at,evidence_url,evidence_note
+BC-001,빈폴,SSF샵,sells_through,확인,2026-10-26,https://www.ssfshop.com/,SSF샵 여성·남성 Top Brand와 아울렛 브랜드 목록에서 빈폴 노출 확인
+BC-002,에잇세컨즈,SSF샵,sells_through,확인,2026-10-26,https://www.ssfshop.com/,SSF샵 여성·남성 Top Brand 및 메인 기획전에서 에잇세컨즈 노출 확인
+BC-003,구호,SSF샵,sells_through,확인,2026-10-26,https://www.ssfshop.com/,SSF샵 여성·럭셔리 Top Brand 및 메인 기획전에서 구호 노출 확인
+BC-004,구호플러스,SSF샵,sells_through,확인,2026-10-26,https://www.ssfshop.com/,SSF샵 여성·백앤슈즈 Top Brand 및 메인 기획전에서 구호플러스 노출 확인
+BC-005,준지,SSF샵,sells_through,확인,2026-10-26,https://www.ssfshop.com/,SSF샵 남성·럭셔리 Top Brand 및 메인 기획전에서 준지 노출 확인
+BC-006,르베이지,SSF샵,sells_through,확인,2026-10-26,https://www.ssfshop.com/,SSF샵 여성·럭셔리 Top Brand와 라이프 Top Brand에서 르베이지 노출 확인
+BC-007,코오롱스포츠,코오롱몰,sells_through,확인,2026-10-26,https://www.kolonmall.com/,코오롱몰 인기 브랜드 및 메인 기획전에서 코오롱스포츠 노출 확인
+BC-008,럭키슈에뜨,코오롱몰,sells_through,확인,2026-10-26,https://www.kolonmall.com/,코오롱몰 메인 기획전에서 럭키슈에뜨 노출 확인
+BC-009,시리즈,코오롱몰,sells_through,확인,2026-10-26,https://www.kolonmall.com/,코오롱몰 인기 브랜드 및 메인 기획전에서 시리즈 노출 확인
+BC-010,지포어,코오롱몰,sells_through,확인,2026-10-26,https://www.kolonmall.com/,코오롱몰 인기 브랜드 및 메인 기획전에서 지포어 노출 확인
+BC-011,왁,코오롱몰,sells_through,확인,2026-10-26,https://www.kolonmall.com/,코오롱몰 인기 브랜드 및 메인 기획전에서 왁 노출 확인
+BC-012,쿠론,코오롱몰,sells_through,확인,2026-10-26,https://www.kolonmall.com/,코오롱몰 인기 브랜드 및 메인 기획전에서 쿠론 노출 확인
+BC-013,스파오,스파오닷컴,sells_through,확인,2026-10-26,https://www.spao.com/,스파오 공식 온라인 스토어의 브랜드·운영사 표기 확인
+BC-014,타임,더한섬닷컴,sells_through,확인,2026-10-26,https://www.thehandsome.com/ko/MK/event/25353,공식 기획전 상품 목록에서 타임 상품·가격 노출 확인
+BC-015,시스템,더한섬닷컴,sells_through,확인,2026-10-26,https://www.thehandsome.com/ko/MK/event/25353,공식 기획전 상품 목록에서 시스템 상품·가격 노출 확인
+BC-016,SJSJ,더한섬닷컴,sells_through,확인,2026-10-26,https://www.thehandsome.com/ko/MK/event/25353,공식 기획전 상품 목록에서 SJSJ 상품·가격 노출 확인
+BC-017,마인,더한섬닷컴,sells_through,확인,2026-10-26,https://www.thehandsome.com/en,공식 메인 신상품·구매 상품 목록에서 마인 상품·가격 노출 확인
+BC-018,O'2nd,더한섬닷컴,sells_through,확인,2026-10-26,https://www.thehandsome.com/en,공식 메인 신상품·구매 상품 목록에서 O'2nd 상품·가격 노출 확인
+BC-019,오브제,더한섬닷컴,sells_through,확인,2026-10-26,https://www.thehandsome.com/en,공식 메인 신상품·구매 상품 목록에서 OBZEE 상품·가격 노출 확인
+BC-020,더캐시미어,더한섬닷컴,sells_through,확인,2026-10-26,https://www.thehandsome.com/en,공식 메인 신상품·구매 상품 목록에서 the CASHMERE 상품·가격 노출 확인
+BC-021,타임옴므,더한섬닷컴,sells_through,확인,2026-10-26,https://www.thehandsome.com/en,공식 메인 콘텐츠·상품 목록에서 TIME HOMME 노출 확인
+BC-022,스파오,이랜드몰,sells_through,확인,2026-10-26,https://www.elandmall.co.kr/p/planshop?VTSCROLL_202506056526_tab=2&exhibitionNo=202506056526&pageId=1749922460059&preCornerNo=R01401001_mainBigBanner,공식 이랜드 연합 브랜드데이 기획전의 브랜드·상품 카테고리 노출 확인
+BC-023,미쏘,이랜드몰,sells_through,확인,2026-10-26,https://www.elandmall.co.kr/p/planshop?VTSCROLL_202506056526_tab=2&exhibitionNo=202506056526&pageId=1749922460059&preCornerNo=R01401001_mainBigBanner,공식 이랜드 연합 브랜드데이 기획전의 브랜드 노출 확인
+BC-024,로엠,이랜드몰,sells_through,확인,2026-10-26,https://www.elandmall.co.kr/p/planshop?VTSCROLL_202506056526_tab=2&exhibitionNo=202506056526&pageId=1749922460059&preCornerNo=R01401001_mainBigBanner,공식 이랜드 연합 브랜드데이 기획전의 브랜드·상품 카테고리 노출 확인
+BC-025,클라비스,이랜드몰,sells_through,확인,2026-10-26,https://www.elandmall.co.kr/p/planshop?VTSCROLL_202506056526_tab=2&exhibitionNo=202506056526&pageId=1749922460059&preCornerNo=R01401001_mainBigBanner,공식 이랜드 연합 브랜드데이 기획전의 브랜드·상품 카테고리 노출 확인
+BC-026,에블린,이랜드몰,sells_through,확인,2026-10-26,https://www.elandmall.co.kr/p/planshop?VTSCROLL_202506056526_tab=2&exhibitionNo=202506056526&pageId=1749922460059&preCornerNo=R01401001_mainBigBanner,공식 이랜드 연합 브랜드데이 기획전의 브랜드·상품 카테고리 노출 확인
+BC-027,후아유,이랜드몰,sells_through,확인,2026-10-26,https://www.elandmall.co.kr/p/planshop?VTSCROLL_202506056526_tab=2&exhibitionNo=202506056526&pageId=1749922460059&preCornerNo=R01401001_mainBigBanner,공식 이랜드 연합 브랜드데이 기획전의 브랜드·상품 카테고리 노출 확인
+BC-028,슈펜,이랜드몰,sells_through,확인,2026-10-26,https://www.elandmall.co.kr/p/planshop?VTSCROLL_202506056526_tab=2&exhibitionNo=202506056526&pageId=1749922460059&preCornerNo=R01401001_mainBigBanner,공식 이랜드 연합 브랜드데이 기획전의 브랜드·상품 카테고리 노출 확인
+BC-029,헤지스,LF몰,sells_through,확인,2026-10-26,https://www.lfmall.co.kr/app/exhibition/category/110219,공식 남성의류 카테고리 상품 목록에서 헤지스 상품·가격 노출 확인
+BC-030,닥스,LF몰,sells_through,확인,2026-10-26,https://www.lfmall.co.kr/app/exhibition/category/110219,공식 남성의류 카테고리 상품 목록에서 닥스 상품·가격 노출 확인
+BC-031,질스튜어트뉴욕,LF몰,sells_through,확인,2026-10-26,https://www.lfmall.co.kr/app/exhibition/category/110219,공식 남성의류 카테고리 상품 목록에서 질스튜어트뉴욕 상품·가격 노출 확인
+BC-032,마에스트로,LF몰,sells_through,확인,2026-10-26,https://www.lfmall.co.kr/app/exhibition/category/110219,공식 남성의류 카테고리 상품 목록에서 마에스트로 상품·가격 노출 확인
+BC-033,티엔지티,LF몰,sells_through,확인,2026-10-26,https://m.lfmall.co.kr/app/exhibition/category/110308,공식 통합카테고리 상품 목록에서 티엔지티 상품·가격 노출 확인
+BC-034,알레그리,LF몰,sells_through,확인,2026-10-26,https://www.lfmall.co.kr/app/exhibition/category/110219,공식 남성의류 카테고리 상품 목록에서 알레그리 상품·가격 노출 확인
