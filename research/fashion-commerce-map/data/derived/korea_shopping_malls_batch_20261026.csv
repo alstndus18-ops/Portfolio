@@ -1,0 +1,103 @@
+mall_id,name,url,category,site_keywords,discovery_queries,status,observed_at,notes
+MALL-0104,리틀블랙,https://littleblack.co.kr/,여성의류,원피스;아우터;니트,korea_shopping_candidates_round2,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0105,공구우먼,https://09women.com/,빅사이즈 여성의류,자체제작;원피스;빅사이즈;신상,korea_app_shop_sites_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0106,단하루,https://danharoo.com/,여성의류,원피스;아우터;니트;신상,korea_app_shop_sites_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0107,안나디바,https://annadiva.com/,여성의류,니트,korea_app_shop_sites_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0108,무드인사이드,https://mood-inside.co.kr/,여성의류,데일리룩;자체제작;니트,korea_app_shop_sites_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0109,메이메이,https://maymay.kr/,여성의류,데일리룩;원피스;아우터;니트,korea_app_shop_sites_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0110,파티수,https://partysu.co.kr/,여성의류,신상,korea_app_shop_sites_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0111,썸제이,https://ssumj.com/,여성의류,니트,korea_app_shop_sites_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0112,스타일온미,https://styleonme.com/,여성의류,자체제작;원피스;아우터;니트;신상,korea_app_shop_sites_round4,재확인 완료,2026-10-26,"agent-browser open 불안정(EOF), read·재시도로 재확인 2026-10-26: 여성 상품 확인"
+MALL-0113,홀릭홀릭,https://holicholic.com/,여성의류,원피스;니트;신상,korea_app_shop_sites_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0114,퓨어다,https://pureda.co.kr/,여성의류,자체제작;니트;신상,korea_app_shop_sites_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0115,나는마리,https://iammari.com/,여성의류,데일리룩;자체제작;오피스룩;원피스;아우터,korea_app_discovery_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0116,메리어라운드,https://merryaround.co.kr/,여성의류,데일리룩;자체제작;아우터;니트;신상,korea_app_discovery_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0117,플러스플러스,https://plusplus.kr/,빅사이즈 여성의류,데일리룩;자체제작;원피스;아우터;빅사이즈,korea_app_discovery_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0118,디얼마미,https://dearmami.co.kr/,여성의류,원피스;아우터;니트;신상,korea_app_discovery_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0119,쥬시팍시,https://jucifaci.com/,빅사이즈 여성의류,원피스;아우터;니트;빅사이즈;신상,korea_app_discovery_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인(read)
+MALL-0120,시크드,https://chic-de.com/,여성의류,원피스;니트;신상,korea_app_discovery_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0121,리브어리,https://liveary.com/,여성의류,여성의류;데일리룩,korea_app_discovery_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0122,트렌디어패럴,https://trendy-apparel.co.kr/,여성의류,데일리룩;원피스;니트;신상,korea_app_discovery_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0123,소녀레시피,https://recipeofgirl.com/,여성의류,데일리룩;자체제작;원피스;아우터;니트,korea_app_discovery_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0124,마리앙도트,https://mariandoute.co.kr/,여성의류,원피스;아우터;니트;신상,korea_shopping_candidates_round2,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0125,후즈걸,https://whosgirl.co.kr/,여성의류,데일리룩;원피스;니트;신상,155cm 키작녀 30대 여성 보세 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0126,위드윤,https://withyoon.com/,여성의류,자체제작;원피스;니트;키작녀;신상,155cm 키작녀 30대 여성 보세 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0127,메이비베이비,https://maybe-baby.co.kr/,여성의류,원피스;니트,155cm 키작녀 30대 여성 보세 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0128,모데스트무드,https://modestmood.com/,여성의류,여성의류;데일리룩,155cm 키작녀 30대 여성 보세 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0129,유이니,https://yuini.co.kr/,여성의류,데일리룩;원피스;아우터;니트;신상,155cm 키작녀 30대 여성 보세 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0130,아모이,https://amoistudio.co.kr/,여성의류,원피스,155cm 키작녀 30대 여성 보세 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0131,버앤버브,https://avec-el.com/,여성의류,신상,155cm 키작녀 30대 여성 보세 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0132,브렌다브렌든,https://brendabrenden.com/,여성의류,자체제작;아우터,155cm 키작녀 30대 여성 보세 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0133,아이링,https://airingg.kr/,여성의류,아우터;니트,155cm 키작녀 30대 여성 보세 쇼핑몰 추천,재확인 완료,2026-10-26,"agent-browser 차단 응답, read·snapshot 재확인 2026-10-26: 여성 상품 확인"
+MALL-0134,츄,https://chuu.co.kr/,여성의류,원피스;아우터;니트,보세 여성의류 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0135,나닝9,https://naning9.com/,여성의류,데일리룩;자체제작;원피스;아우터;니트,보세 여성의류 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0136,임블리,https://imvely.com/,여성의류,원피스;아우터;니트;신상,보세 여성의류 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0137,체리코코,https://cherrykoko.com/,여성의류,데일리룩;오피스룩;니트,보세 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0138,모코블링,https://mocobling.com/,여성의류,데일리룩;자체제작;오피스룩;원피스;아우터,20대 여성 쇼핑몰 추천 리스트,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0139,밀크코코아,https://milkcocoa.co.kr/,여성의류,신상,20대 여성 쇼핑몰 추천 리스트,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0140,커먼유니크,https://common-unique.com/,여성의류,데일리룩;오피스룩;원피스;아우터;니트,20대 여성 쇼핑몰 추천 리스트,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0141,스토어츠,https://storets.com/,여성의류,여성의류;데일리룩,동대문 보세 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0142,립합,https://liphip.co.kr/,여성의류,신상,보세 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0143,플라이모델,https://flymodel.co.kr/,여성의류,자체제작;원피스;니트,자체제작 여성 패션 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0144,망고매니플리즈,https://mangomanyplease.com/,여성의류,니트,자체제작 여성 패션 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0145,더실루엣,https://sie-official.kr/,여성의류,오피스룩;니트,자체제작 여성 패션 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0146,올슨,https://olssen.co.kr/,여성의류,여성의류;데일리룩,모던 페미닌 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0147,쓰리컷,https://threecut.kr/,여성의류,자체제작;니트;신상,모던 페미닌 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0148,문트,https://moont.kr/,여성의류,데일리룩;오피스룩;원피스;아우터;니트,모던 페미닌 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0149,블랙업,https://black-up.kr/,여성의류,아우터;니트;신상,인기 저가 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0150,코디북,https://codibook.net/,빅사이즈 여성의류,원피스;아우터;니트;빅사이즈;키작녀,보세 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0151,룩핀,https://lookpin.co.kr/,여성의류,여성의류;데일리룩,보세 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인(코디·카테고리)
+MALL-0152,스타일노리터,https://stylenoriter.co.kr/,여성의류,신상,보세 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0153,베니토,https://benito.co.kr/,여성의류,데일리룩;자체제작;오피스룩;원피스;아우터,20대 여성 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0154,12탑,https://12top.co.kr/,여성의류,오피스룩;원피스;니트;신상,여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0155,폴앤,https://paulanne.co.kr/,여성의류,데일리룩;원피스;아우터;니트;신상,40대 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0156,안나앤모드,https://annanmode.com/,여성의류,자체제작;원피스;아우터;니트;신상,여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0157,W걸즈,https://w-girlz.co.kr/,빅사이즈 여성의류,데일리룩;오피스룩;원피스;아우터;니트,수입 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0158,투엘브,https://2lve12.com/,여성의류,니트,자체제작 여성 패션 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0159,니드썸,https://needsome.co.kr/,여성의류,데일리룩;자체제작;원피스;아우터;니트,지그재그 인기 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0160,러브모어,https://lovemore.co.kr/,여성의류,데일리룩;원피스;니트;신상,지그재그 인기 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0161,모어모먼트,https://moremoment.com/,여성의류,데일리룩;원피스;아우터;니트;신상,지그재그 인기 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0162,엠유아이,https://m-u-i.co.kr/,여성의류,원피스;아우터;니트;신상,지그재그 인기 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0163,유어메모,https://yourmemo.co.kr/,여성의류,데일리룩;오피스룩;니트,지그재그 인기 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0164,라룸,https://la-room.kr/,여성의류,데일리룩;오피스룩;원피스;아우터;니트,지그재그 인기 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0165,베일,https://shop-veil.co.kr/,여성의류,데일리룩;원피스;아우터;니트;신상,20대 여자 감성 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0166,하우스제이,https://house-j.co.kr/,여성의류,데일리룩;자체제작;오피스룩;원피스;니트,보세 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0167,브론즈부부,https://bronzebooboo.co.kr/,여성의류,아우터;니트,보세 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0168,모어레브,https://morereve.com/,여성의류,데일리룩;자체제작;오피스룩;원피스;니트,보세 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0169,하우투러브미,https://howtoloveme.com/,여성의류,원피스;니트;신상,보세 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0170,유어바웃미,https://uaboutme.com/,여성의류,여성의류;데일리룩,보세 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0171,언밸런스,https://unbalance.co.kr/,여성의류,아우터,여성의류 쇼핑몰,확인 실패,2026-10-26,agent-browser 재확인 2026-10-26: 점검 중(쇼핑몰 일시 중단)
+MALL-0172,이끌림몰,https://ecclimmall.com/,여성의류,원피스;아우터;니트;신상,니트 가디건 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0173,썸플레이스,https://someplace.co.kr/,여성의류,데일리룩;자체제작;원피스;신상,여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0174,99빈티지,https://99vintage.co.kr/,여성의류,니트;신상,여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0175,러브유,https://loveyou.co.kr/,여성의류,신상,여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0176,믹스믹스KR,https://mixxmix.kr/,여성의류,데일리룩;신상,믹스엑스믹스 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0177,프롬비기닝,https://frombeginning.co.kr/,여성의류,데일리룩;신상,Pretty Finder 여성의류쇼핑몰 Top5,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0178,사뿐,https://sappun.co.kr/,여성의류,데일리룩;신상,여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0179,미아마스빈,https://miamasvin.co.kr/,여성의류,데일리룩;신상,보세 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0180,드래곤블루스,https://dragonblues.com/,여성의류,데일리룩;신상,자체제작 여성 패션 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0181,랑돈네,https://randonnee.kr/,여성의류,데일리룩;신상,보세 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0182,어바웃썸,https://aboutsome.co.kr/,여성의류,데일리룩;신상,감성 여성의류 브랜드쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0183,핑크에이지,https://pinkage.co.kr/,여성의류,데일리룩;신상,여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0184,썸스토어,https://somestore.co.kr/,여성의류,데일리룩;신상,여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0185,아보세,https://abose.co.kr/,여성의류,데일리룩;신상,국내 여성 의류 보세 쇼핑몰 추천 모음,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0186,마크들리,https://markedly.co.kr/,여성의류,데일리룩;신상,보세 브랜드 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0187,리얼코코,https://realcoco.com/,여성의류,데일리룩;신상,여성의류 전문몰 기사,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0188,안나리치,https://annarich.co.kr/,여성의류,데일리룩;신상,여성의류 전문몰 기사,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0189,메이홀릭,https://mayholic.co.kr/,여성의류,데일리룩;신상,여성의류 전문몰 기사,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0190,ilsang-project,https://ilsang-project.com/,여성의류,데일리룩;신상,국내 여성 의류 보세 쇼핑몰 추천 모음,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0191,monosimson,https://monosimson.com/,여성의류,데일리룩;신상,국내 여성 의류 보세 쇼핑몰 추천 모음,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0192,theverlin,https://theverlin.com/,여성의류,데일리룩;신상,국내 여성 의류 보세 쇼핑몰 추천 모음,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0193,autumnshop,https://autumnshop.kr/,여성의류,데일리룩;신상,국내 여성 의류 보세 쇼핑몰 추천 모음,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0194,becoming27,https://becoming27.com/,여성의류,데일리룩;신상,국내 여성 의류 보세 쇼핑몰 추천 모음,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0195,grooming-everywhere,https://grooming-everywhere.com/,여성의류,데일리룩;신상,국내 여성 의류 보세 쇼핑몰 추천 모음,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0194,에이치유,https://h-you.co.kr/,여성의류,데일리룩;신상,korea_app_discovery_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0195,로니엘,https://roniel.co.kr/,여성의류,데일리룩;신상,korea_shopping_candidates_round2,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0196,바닐라니트,https://vanillaknit.com/,여성의류,데일리룩;신상,니트 여성의류 쇼핑몰 추천,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0197,쇼퍼랜드,https://shopperland.co.kr/,여성의류,데일리룩;신상,korea_shopping_candidates_round2,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0198,키키코,https://kikiko.co.kr/,여성의류,데일리룩;신상,korea_shopping_candidates_round2,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0199,르모어,https://lemoir.kr/,여성의류,데일리룩;신상,국내 여성 의류 보세 쇼핑몰 추천 모음,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0200,민지콩,https://mjcong.co.kr/,여성의류,데일리룩;신상,korea_app_discovery_round4,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0201,비바루비,https://vivaruby.co.kr/,여성의류,데일리룩;트렌디;신상,비바루비 vivaruby 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0202,베일즈,https://veils.co.kr/,여성의류,데일리룩;원피스;신상,VEILS 여성의류 쇼핑몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인
+MALL-0203,큐니걸스,https://qng.co.kr/,여성의류,키작녀;데일리룩;신상,큐니걸스 여성의류 쇼핑몰 공식몰,재확인 완료,2026-10-26,agent-browser 재확인 2026-10-26: 여성 상품 확인

@@ -1,0 +1,23 @@
+mall_id,name,url,category,site_keywords,discovery_queries,status,observed_at,notes
+MALL-0204,그루밍에브리웨어,https://grooming-everywhere.com/,여성의류,데일리룩;자체제작;아우터;니트,국내 여성 의류 보세 쇼핑몰 추천 모음,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 카테고리(OUTER/TOP/DRESS 등) 확인
+MALL-0205,슬로우앤드,https://slowand.com/,여성의류,데일리룩;자체제작;니트;아우터,20대 여성 쇼핑몰 추천,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 쇼핑몰 운영 확인
+MALL-0206,히프나틱,https://www.hypnotic.co.kr/,여성의류,데일리룩;자체제작;아우터;니트,20대 여성 쇼핑몰 추천,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 카테고리 확인
+MALL-0207,에드모어,https://addmore.co.kr/,여성의류,데일리룩;자체제작;아우터;니트,에드모어 여성의류 쇼핑몰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 MADE/OUTER/TOP 등 확인
+MALL-0208,프렌치오브,https://frenchaube.com/,여성의류,데일리룩;자체제작;니트;신상,프렌치오브 쇼핑몰 공식,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 카테고리 확인
+MALL-0209,아키텍트,https://archi-tect.shop/,여성의류,데일리룩;신상,국내 여성 의류 보세 쇼핑몰 추천 모음,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: ARCHITECT 여성 패션몰 로드 확인
+MALL-0210,오네,https://ohne.store/,여성의류,데일리룩;신상,국내 여성 의류 보세 쇼핑몰 추천 모음,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: ohne 여성 의류몰 확인
+MALL-0211,데일리룩,https://dailylook.kr/,여성의류,데일리룩;오피스룩;아우터;니트,데일리룩 여성의류 쇼핑몰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 중심 쇼핑몰(맨즈 카테고리 별도) 확인
+MALL-0212,메이뜰,https://www.mayddle.com/,여성의류,데일리룩;오피스룩;블라우스;원피스,매일 입고 싶은 모던데일리룩 메이뜰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 카테고리 확인
+MALL-0213,니쁜스,https://www.nibbuns.co.kr/,여성의류,데일리룩;자체제작;아우터;니트,감각적인 디자인의 데일리룩 여성의류쇼핑몰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 카테고리 확인
+MALL-0214,안다르,https://andar.co.kr/,애슬레저,데일리룩;운동복;레깅스;애슬레저,애슬레저 여성 의류 자사몰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 애슬레저 자사몰 확인
+MALL-0215,가내스라,https://ganaesra.com/,여성의류,데일리룩;자체제작;니트;신상,가내스라 여성의류 공식몰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 SHOP/MADE 확인
+MALL-0216,필링스,https://feelings.co.kr/,여성의류,데일리룩;캐주얼;데님;신상,필링스 여성의류 쇼핑몰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 쇼핑몰 확인
+MALL-0217,뮬라웨어,https://mulawear.co.kr/,애슬레저,데일리룩;운동복;레깅스;애슬레저,애슬레저 여성 의류 자사몰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 애슬레저 자사몰 확인(주문 중단 공지 배너 노출)
+MALL-0218,리얼옐로우,https://realyellow.co.kr/,여성의류,데일리룩;바지;신상,리얼옐로우 여성의류 쇼핑몰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 SHOP 확인
+MALL-0219,98도씨,https://98doci.com/,여성의류,데일리룩;신상,98도씨 여성의류 쇼핑몰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 SHOP 확인
+MALL-0220,논코드,https://noncode.co.kr/,여성의류,데일리룩;모노톤;아우터;원피스,논코드 여성의류 쇼핑몰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 카테고리 확인
+MALL-0221,너디,https://www.whoisnerdy.com/,애슬레저,데일리룩;아우터;니트;스트릿,애슬레저 여성 의류,사이트 확인,2026-10-26,agent-browser read 2026-10-26: 여성 의류 OUTER/TOP 등 확인
+MALL-0222,로라로라,https://www.rolarola.com/,여성의류,데일리룩;신상,로라로라 여성의류,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 로라로라 공식몰 로드 확인
+MALL-0223,데이로제,https://dayroze.com/,여성의류,데일리룩;자체제작;니트;신상,데이로제 Dayroze 여성의류,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 NEW/SHOP 확인
+MALL-0224,에브리모닝,https://everymorning.co.kr/,여성의류,데일리룩;오피스룩;하객룩;자체제작,에브리모닝 여성의류 쇼핑몰,사이트 확인,2026-10-26,agent-browser read 2026-10-26: 여성 의류 쇼핑몰 확인
+MALL-0225,미뉴에트,https://love-minuet.com/,여성의류,데일리룩;자체제작;아우터;니트,미뉴에트 여성의류 공식몰,사이트 확인,2026-10-26,agent-browser snapshot 2026-10-26: 여성 의류 SHOP/BEST 확인
