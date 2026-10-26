@@ -8,7 +8,8 @@
 
 1. `git pull` 후 `STATUS.md`를 읽는다 (지금 숫자, 직전 작업, 남은 일).
 2. `planning/korea-fashion-monitoring-plan.md` §10 결정 기록을 읽는다. 방향·범위가 걸린 작업이면 기획서 전체를 읽는다.
-3. 작업할 폴더의 기준 문서는 필요할 때만 읽는다. DB: `research/fashion-commerce-map/docs/`, 산업 지도: `research/fashion-industry-map/00-index-and-visualization-plan.md`.
+3. 브랜드·쇼핑몰을 수집하면 `research/fashion-commerce-map/docs/11-collection-know-how.md`(빠른 방법·시행착오)를 먼저 읽고, 끝나면 새로 알게 된 것을 거기에 한 줄 추가한다.
+4. 작업할 폴더의 기준 문서는 필요할 때만 읽는다. DB: `research/fashion-commerce-map/docs/`, 산업 지도: `research/fashion-industry-map/00-index-and-visualization-plan.md`.
 
 ## 지금 단계
 
