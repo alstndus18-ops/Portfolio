@@ -7,9 +7,9 @@
 
 | 자료 | 역할 | 현재 상태 |
 | --- | --- | --- |
-| `fashion-commerce-map/data/curated/korea_shopping_malls.csv` | 실제 확인한 쇼핑몰 목록 | 252건 |
-| `fashion-commerce-map/data/curated/korea_entities.csv` | 기업·브랜드·쇼핑몰 등 개체 목록 | 228건 |
-| `fashion-commerce-map/data/curated/korea_relationships.csv` | 기업·브랜드·쇼핑몰 사이의 확인된 관계 | 168건 |
+| `fashion-commerce-map/data/curated/korea_shopping_malls.csv` | 실제 확인한 쇼핑몰 목록 | 건수는 [STATUS.md](../../STATUS.md) |
+| `fashion-commerce-map/data/curated/korea_entities.csv` | 기업·브랜드·쇼핑몰 등 개체 목록 | 건수는 STATUS.md |
+| `fashion-commerce-map/data/curated/korea_relationships.csv` | 기업·브랜드·쇼핑몰 사이의 확인된 관계 | 건수는 STATUS.md |
 | `01-korea-fashion-sales-channels.md` | 국내 판매 채널이 어떻게 나뉘는지 설명 | 산업 지도 문서 |
 | `02-korea-fashion-platforms.md` | 플랫폼·전문 온라인몰 대표군과 운영 방식 | 11개 초기 사례 |
 | `03-company-brand-channel-map.md` | 기업 → 브랜드 → 판매 채널 관계를 읽는 법 | 관계 데이터 해설 |
@@ -93,12 +93,6 @@ DB가 충분해진 뒤에만 만든다. 특정 브랜드·쇼핑몰을 선택하
 - 관계가 미확인인 경우 빈칸 또는 `미확인`으로 보여 주며 추정하지 않는다.
 - 모바일보다 PC에서 표·관계도를 보기 편하게 먼저 설계하고, 이후 반응형으로 보완한다.
 
-## 6. 가장 효율적인 다음 작업 순서
+## 6. 다음 작업 순서
 
-1. 기존 200개 쇼핑몰의 확인일·유형·URL 품질을 유지한다.
-2. 주요 패션기업 5~10곳의 기업 → 브랜드 → 자사몰 관계를 공식 근거로 채운다.
-3. 대표 브랜드부터 실제 판매 채널을 확인해 `sells_through` 관계를 늘린다.
-4. 백화점·아울렛·동대문 도매를 별도 조사한다.
-5. 이 데이터로 화면 1(전체 현황)과 화면 2(산업 흐름 지도)를 먼저 만든다.
-
-이 순서는 “자료를 많이 모으는 것”과 “보기 쉬운 결과물을 만드는 것”을 동시에 만족시키기 위한 기준이다.
+큰 순서는 [기획서](../../planning/korea-fashion-monitoring-plan.md) §11 다음 단계와 §12 조사 순서, 구체적으로 남은 일은 [STATUS.md](../../STATUS.md)를 따른다. 화면은 데이터가 쌓인 뒤 화면 1(전체 현황)과 화면 2(산업 흐름 지도)부터 만든다.

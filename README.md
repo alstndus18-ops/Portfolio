@@ -9,7 +9,7 @@ MD 업무(이벤트·프로모션 기획, 가격·할인율 결정, 재고 처�
 ④ 업무에 활용 (벤치마킹, 근거 자료)
 ```
 
-방향과 결정의 원본은 [기획서](planning/korea-fashion-monitoring-plan.md)입니다.
+방향과 결정의 원본은 [기획서](planning/korea-fashion-monitoring-plan.md)입니다. 지금 숫자, 최근 작업, 남은 일은 [STATUS.md](STATUS.md)에 있습니다.
 
 ## 폴더
 

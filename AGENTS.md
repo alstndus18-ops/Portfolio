@@ -2,14 +2,13 @@
 
 이 저장소는 두 사람이 각자 PC에서 AI로 작업한다. 대화 기록은 다른 PC에 없으므로 의도와 결정은 파일에 남기고, 파일을 기준으로 판단한다.
 
+**간결하게 한다.** 요청한 것만 하고, 필요 없는 문서·항목·절차·기록을 만들지 않는다. 진행을 느리게 하는 확인·정리는 위험이 보일 때만 한다.
+
 ## 시작
 
-1. `README.md`로 전체 흐름과 폴더를 파악한다.
-2. `planning/korea-fashion-monitoring-plan.md`를 읽는다. 방향·범위·결정의 원본이다 (특히 §4 구조, §5 DB 방침, §10 결정 기록, §11 다음 단계).
-3. 작업할 폴더의 기준 문서를 읽는다.
-   - DB: `research/fashion-commerce-map/README.md`, `docs/`
-   - 산업 지도: `research/fashion-industry-map/00-index-and-visualization-plan.md`
-4. 작업 전에 `git pull`로 최신 상태를 받는다.
+1. `git pull` 후 `STATUS.md`를 읽는다 (지금 숫자, 직전 작업, 남은 일).
+2. `planning/korea-fashion-monitoring-plan.md` §10 결정 기록을 읽는다. 방향·범위가 걸린 작업이면 기획서 전체를 읽는다.
+3. 작업할 폴더의 기준 문서는 필요할 때만 읽는다. DB: `research/fashion-commerce-map/docs/`, 산업 지도: `research/fashion-industry-map/00-index-and-visualization-plan.md`.
 
 ## 지금 단계
 
@@ -28,9 +27,9 @@
 ## 기록과 커밋
 
 - 방향·범위 결정이 나오면 기획서 §10 결정 기록에 날짜와 함께 추가한다. 결정 문서를 따로 만들지 않는다.
-- 진행 숫자가 바뀌면 기획서 §6 스냅샷을 고친다.
+- 작업을 끝내거나 중단하면 `STATUS.md` "최근 작업" 맨 위에 한두 줄(한 일·의도·다음)을 쓰고, 바뀐 숫자와 남은 일을 고친다.
 - 커밋·푸시는 사용자가 요청할 때 한다. 커밋은 자기가 바꾼 파일만 골라 담는다 (`git add -A` 금지, 다른 사람 작업과 섞이지 않게). 메시지는 `data:` / `docs:` 등 + 한국어 한 줄.
-- 작업이 끝나면 바뀐 파일, 확인한 것, 남은 것을 짧게 보고한다.
+- 작업이 끝나면 바뀐 파일, 확인한 것, 남은 것을 짧게 보고한다. `STATUS.md`도 같은 커밋에 담는다.
 
 ## 도구
 

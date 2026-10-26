@@ -39,10 +39,10 @@ data/curated/      출처와 검증 상태가 명확한 정제 데이터
 2. [데이터 모델](docs/01-data-model.md)에 따라 레코드를 만듭니다.
 3. [출처 등록부](docs/02-source-register.md)에 출처와 사용 조건을 기록합니다.
 4. [분류 체계](docs/03-taxonomy.md)를 필요한 만큼만 보완합니다.
-5. 중요한 해석이나 범위 변경은 [의사결정 기록](docs/04-decision-log.md)에 남깁니다.
+5. 중요한 해석이나 범위 변경은 [기획서 §10 결정 기록](../../planning/korea-fashion-monitoring-plan.md)에 남깁니다. [`docs/04-decision-log.md`](docs/04-decision-log.md)는 초기 결정 보관용입니다.
 6. 국내 전수 조사 진행 상황은 [수집 운영 모델](docs/05-korea-collection-operating-model.md)과 [`korea_coverage.csv`](data/curated/korea_coverage.csv)에서 관리합니다.
 7. 조사 대상 분류와 상세 수집 순서는 [한국 조사 카탈로그](docs/06-korea-research-catalog.md)를 기준으로 관리합니다.
 
 ## 현재 상태
 
-기초 설계 단계입니다. 아직 "전수 목록"이나 확정된 경쟁사 관계를 제공하지 않습니다.
+방향과 우선순위는 [기획서](../../planning/korea-fashion-monitoring-plan.md)가 우선합니다 (지금: 보세 여성 쇼핑몰 전국 수집 → 일반 브랜드). 숫자와 남은 일은 [STATUS.md](../../STATUS.md)에 있습니다. 아직 "전수 목록"이나 확정된 경쟁사 관계를 제공하지 않습니다.

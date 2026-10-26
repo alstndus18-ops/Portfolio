@@ -7,3 +7,6 @@ site-package.tar.gz
 # 원본 자료는 출처의 재배포 조건을 확인한 뒤, 필요한 경우만 별도 경로로 관리합니다.
 data/raw/*
 !data/raw/.gitkeep
+
+# 공정위 의류 후보 전체 목록: 원본에서 다시 만들 수 있고 크다. 집계 JSON만 올린다.
+data/derived/korea_ftc_apparel_candidates_*.csv
