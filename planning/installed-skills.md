@@ -55,7 +55,9 @@ npx skills add wshobson/agents@data-storytelling -g -y
 - **master-data-management**: 기준정보 개념, 중복 판정, 골든 레코드, 안티패턴과 체크리스트. 기업 규모 전제가 있어 중복 판정 기준 정도만 가져온다.
 - **demand-forecasting**: 재주문점, 안전재고, 계절성 단계. 도구 설명이 Shopify·Amazon 중심이라 개념만 참고한다.
 - **pricing-strategy**: 가격 모델, 경쟁 가격 분석, 지불 의향, 가격 탄력성. SaaS 예시가 많다.
-- **kosis-stats, bok-ecos-stats**: SKILL.md는 실행 시 외부 패키지(`@nomadamas/k-skill`)의 지침을 받아오는 구조라, 실제 내용은 아직 보지 못했다. 패키지를 확인하기 전까지는 판단 보류.
+- **kosis-stats** (원본 `NomaDamas/k-skill/kosis-stats/instruction.md`, 약 1.6만 바이트 확인): 국가통계포털 KOSIS 표 검색, 메타 확인, 소량 조회 후 출처 인용까지의 절차가 정리되어 있다. 기본 조회는 **호스팅 프록시(`k-skill-proxy.nomadamas.org`)를 거치므로 검색어가 제3자 서버를 지난다**. 공개 통계 검색어라 위험은 낮지만 기록해 둔다. 인증키(`KSKILL_KOSIS_API_KEY`)는 `bigdata`·`--direct` 모드에서만 쓰며 무료 발급이다. 실행은 `npx @nomadamas/k-skill@0 exec` 명령으로 외부 패키지 스크립트를 돌리는 방식이다.
+- **bok-ecos-stats** (원본 instruction.md, 약 4천 바이트 확인): 기준금리, 환율, 소비자물가 같은 한국은행 ECOS 시계열을 조회한다. 키 없이 공개 데모 키 `sample`로 동작하지만 호출당 10행 제한이 있다. 실사용은 무료 발급 키를 권장한다. 실행 방식은 kosis와 같다.
+- **market-sizing-analysis** (wshobson, 별 1.2만, 본문 확인): TAM·SAM·SOM 3단계 틀, 하향식·상향식·가치 기반 계산 방법, 적용 사례가 들어 있다. 시장 개요 페이지에 "전체 시장 규모" 같은 숫자를 넣을 때 참고할 만하다. 다만 원 단위 추정은 근거 자료가 필요하고, 이 DB는 표본이라 상향식 계산의 전제가 약하다는 점을 감안한다.
 - **pricewin-price-comparison**: 호텔 OTA 요금 비교용이고 외부 MCP 서버가 필요하다. 업무와 무관.
 
 ## 설치하지 않은 것
