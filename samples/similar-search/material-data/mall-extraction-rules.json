@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-27",
+  "purpose": "몰별 재질 텍스트 탐색 순서와 시행착오를 누적한다. 모든 값은 명시된 텍스트만 기록한다.",
+  "malls": {
+    "dayroze": {
+      "status": "stable",
+      "steps": [
+        {"method": "dom_text", "target": "상세정보 > 소재", "accept": "소재명과 %가 함께 있는 혼용률"},
+        {"method": "dom_text", "target": "세탁방법 직전 영역", "accept": "소재명과 %가 함께 있는 혼용률"}
+      ],
+      "learning_log": [
+        {"date": "2026-10-27", "finding": "표본 10개 중 9개에서 하단 상세정보 소재로 확인", "action": "DOM 우선"}
+      ]
+    },
+    "sara172": {
+      "status": "stable",
+      "steps": [
+        {"method": "dom_text", "target": "상세정보 > 소재", "accept": "소재명과 %가 함께 있는 혼용률"},
+        {"method": "dom_text", "target": "세탁방법 직전 영역", "accept": "소재명과 %가 함께 있는 혼용률"}
+      ],
+      "learning_log": [
+        {"date": "2026-10-27", "finding": "표본 10개 모두 하단 상세정보 소재로 확인", "action": "DOM 우선"}
+      ]
+    },
+    "mayholic": {
+      "status": "stable_with_conflicts",
+      "steps": [
+        {"method": "dom_text", "target": "상세정보 > 소재", "accept": "구조화된 소재·혼용률"},
+        {"method": "detail_text_or_ocr", "target": "FABRIC", "accept": "상세 설명에 명시된 소재·혼용률"}
+      ],
+      "learning_log": [
+        {"date": "2026-10-27", "finding": "FABRIC과 하단 상세정보 소재가 다른 상품 1건 확인", "action": "하나로 덮어쓰지 말고 충돌 검토 대상으로 남김"}
+      ]
+    },
+    "bluepops": {
+      "status": "stable_with_gaps",
+      "steps": [
+        {"method": "detail_spec_ocr", "target": "상세 이미지의 SIZE TIP → PRODUCT → COMMENT 사이 상품 정보 블록", "cues": ["PRODUCT", "소재", "색상", "사이즈", "제조국", "FABRIC", "MATERIAL"], "accept": "동일 블록 안에 인쇄된 소재·혼용률"},
+        {"method": "dom_text", "target": "상세 페이지 소재/FABRIC 텍스트", "accept": "소재명과 %가 함께 있는 혼용률"}
+      ],
+      "learning_log": [
+        {"date": "2026-10-27", "product_id": "bluepops-53391", "finding": "폴린 티셔츠 상세 이미지 PRODUCT 표에 폴리 62%, 레이온 33%, 스판 5% 표기", "action": "규격표 OCR을 1차 경로로 설정"},
+        {"date": "2026-10-27", "finding": "규격표가 대표·착용 컷 뒤의 상세 이미지(표본 13번째)에 배치됨", "action": "OCR은 more의 6번째 이후 이미지를 먼저 검사하고, 실패 시 나머지 이미지를 검사"},
+        {"date": "2026-10-27", "finding": "OCR이 첫 소재를 놓치면 스판 5% 같은 부분값이 생김", "action": "혼용률 합계 70~105% 또는 단일 100%가 아니면 자동 반영하지 않음"},
+        {"date": "2026-10-27", "finding": "폴린 티셔츠의 규격표 이미지는 흰 배경 비율 88.5%로 착용 컷과 뚜렷하게 구분됨", "action": "재질 판단에는 쓰지 않고, OCR 대상 이미지의 검사 순서만 흰 배경 비율 우선으로 정렬"},
+        {"date": "2026-10-27", "finding": "PRODUCT 표는 SIZE TIP 아래·COMMENT 위에 있고 색상/사이즈/소재/제조국이 함께 반복 배치됨", "action": "PRODUCT·소재뿐 아니라 색상·사이즈·제조국을 블록 단서로 삼아 해당 구간만 확대 재-OCR"},
+        {"date": "2026-10-27", "product_id": "bluepops-53350", "finding": "확대 OCR에서 '폴리 95%, 스판 5%'가 '풀리 959, 스판 59'로 반복 오독됨", "action": "공식 PRODUCT 블록 안에서만 풀리/플리→폴리, 숫자 뒤 9·90·96→% OCR 보정을 적용하고 혼용률 합계 검증"},
+        {"date": "2026-10-27", "finding": "100개 전수 재검사 후 공식 규격표 OCR로 78개 혼용률 확보", "action": "이 경로를 블루팝스 기본 수집 단계로 유지"},
+        {"date": "2026-10-27", "product_id": "bluepops-53350", "finding": "레이 나그랑 티셔츠의 하단 PRODUCT 표에 폴리 95%, 스판 5%가 있으나 OCR이 미인식", "action": "블루팝스 빈값은 '소재 없음'으로 확정하지 말고, 원본 규격표 재-OCR 또는 수동 확인 대기열로 분류"}
+      ]
+    },
+    "moremoment": {
+      "status": "needs_more_samples",
+      "steps": [
+        {"method": "dom_text", "target": "상세 하단의 MATERIAL/FABRIC/소재", "accept": "상품별 소재·혼용률"},
+        {"method": "detail_spec_ocr", "target": "상세 이미지의 PRODUCT/FABRIC/소재 표", "accept": "표 제목과 함께 인쇄된 소재·혼용률"}
+      ],
+      "learning_log": [
+        {"date": "2026-10-27", "finding": "표본 10개에서 SIZE·MODEL SIZE·WASHING INFO·PRODUCTION만 확인", "action": "공통 세탁·제조 안내는 소재 근거로 사용하지 않음"}
+        ,{"date": "2026-10-27", "finding": "68개 전체의 상세 텍스트·캐시된 공식 규격표 이미지를 재확인했으나 명시 혼용률 없음", "action": "빈값 유지; 새 템플릿이 확인될 때만 규칙 추가"}
+      ]
+    }
+  },
+  "global_rules": {
+    "never_infer_from_garment_photo": true,
+    "blank_after_all_steps_fail": true,
+    "promote_exception_after_repetitions": 3,
+    "retain_old_templates": true,
+    "preserve_explicit_partial_dom_composition": true
+  }
+}
