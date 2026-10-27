@@ -95,7 +95,7 @@
 <main id="main"></main>
 <div id="panel"><div class="sheet" id="sheet"></div></div>
 <footer>
-  색과 사이즈는 각 쇼핑몰 상품 페이지의 구매 옵션 기준이다(옵션 색 이름은 색 이름표로 바꿈). 사진은 상의 부분만 오려(SegFormer 의류 분할) 사진 속 옷이 어느 옵션인지 맞추고, 옵션 색이 없는 상품만 사진 색으로 대신한다. 사진 유사도는 FashionCLIP으로 계산했다(모두 이 PC에서). 종류는 상품마다 하나로, 상품명에 있으면 상품명을, 없으면 사진 판정을 따른다. 소매·무늬·넥라인·핏·분위기·디테일·소재는 상품명 사전에 있는 말만 쓴다(사진 판정은 잘 틀려 쓰지 않음, 상품 애칭은 쓰지 않음).
+  색과 사이즈는 각 쇼핑몰 상품 페이지의 구매 옵션 기준이다(옵션 색 이름은 색 이름표로 바꿈). 사진은 상의 부분만 오려(SegFormer 의류 분할) 사진 속 옷이 어느 옵션인지 맞추고, 옵션 색이 없는 상품만 사진 색으로 대신한다. 종류는 상품마다 하나로, 상품명에 있으면 상품명을, 없으면 사진 판정(FashionCLIP, 이 PC에서 계산)을 따른다. 소매·무늬·넥라인·핏·분위기·디테일·소재는 상품명 사전에 있는 말만 쓴다(사진 판정은 잘 틀려 쓰지 않음, 상품 애칭은 쓰지 않음).
   태그마다 근거(상품명·옵션 등)를 함께 보여 준다. 결과는 똑같은 옷이 아니라 참고할 만한 옷을 넓게 보여 주도록 묶었다.
 </footer>
 <script src="data.js"></script>
@@ -108,26 +108,12 @@ const lbl = (g, k) => L[g].values[k] || k;
 const pct = v => Math.round(v * 100) + "%";
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const dE = (a, b) => Math.hypot(a[0] - b[0], a[1] - b[1], a[2] - b[2]);
-const dot = (x, y) => { let s = 0; for (let j = 0; j < x.length; j++) s += x[j] * y[j]; return s; };
 const chip = c => `<i class="dot" style="background:${c.hex}"></i>${esc(c.name)}`;
 // 옷의 대표 색들: 첫 색 + 30% 이상인 두 번째 색
 const mainCols = p => (p.col || []).filter((c, i) => i === 0 || c.share >= 0.3).slice(0, 2);
 
 const has = (p, g, k) => +(p.tags[g] || []).includes(k);
-// 사진 임베딩(int8) 풀기, 속성 벡터(종류·소매·무늬·넥라인·핏, 상품명 태그)
-const AG = ["type", "sleeve", "pattern", "neck", "fit"];
-P.forEach((p, i) => {
-  p.i = i;
-  const b = atob(p.e), v = new Float32Array(b.length);
-  let s = 0;
-  for (let j = 0; j < b.length; j++) { const x = (b.charCodeAt(j) << 24) >> 24; v[j] = x; s += x * x; }
-  const n = Math.sqrt(s) || 1;
-  for (let j = 0; j < v.length; j++) v[j] /= n;
-  p.v = v;
-  const a = AG.flatMap(g => Object.keys(L[g].values).map(k => has(p, g, k)));
-  const an = Math.sqrt(a.reduce((t, x) => t + x * x, 0)) || 1;
-  p.a = a.map(x => x / an);
-});
+P.forEach((p, i) => { p.i = i; });
 const typeOf = p => p.tags.type[0];
 // 비교에 쓰는 디테일 태그(종류·색·분위기 제외)
 const DG = ["detail", "material", "sleeve", "neck", "fit", "pattern"];
@@ -169,18 +155,12 @@ const shared = (a, b) => {
   return colsOf(a).filter(c => cb.some(o => o.pal === c.pal || dE00(o.lab, c.lab) <= SAME_DE));
 };
 const sameCol = (a, b) => shared(a, b).length > 0;
-// 사진 느낌 50% + 옷 속성 30% + 색 20%
-const sim = (a, b) => {
-  const ca = mainCols(a)[0], cb = mainCols(b)[0];
-  const cs = ca && cb ? Math.exp(-dE(ca.lab, cb.lab) / 25) : 0.3;
-  return 0.5 * dot(a.v, b.v) + 0.3 * dot(a.a, b.a) + 0.2 * cs;
-};
 
 const malls = [...new Set(P.map(p => p.mall))];
 const mallOn = new Set(malls);
 const segOk = P.filter(p => p.seg === "ok").length;
 document.getElementById("meta").textContent =
-  `쇼핑몰 ${malls.length}곳 · 상의 ${P.length}개(사진에서 상의를 찾은 것 ${segOk}개) · 수집일 ${D.asOf}. 검색어를 넣거나 옷을 눌러 비슷한 옷을 찾아보세요.`;
+  `쇼핑몰 ${malls.length}곳 · 상의 ${P.length}개(사진에서 상의를 찾은 것 ${segOk}개) · 수집일 ${D.asOf}. 검색어를 넣거나 옷을 눌러 같은 종류·같은 색 옷을 찾아보세요.`;
 document.getElementById("malls").innerHTML = "보여줄 몰: " + malls.map(m =>
   `<label><input type="checkbox" checked data-m="${esc(m)}"> ${esc(m)} (${P.filter(p => p.mall === m).length})</label>`).join("");
 document.getElementById("malls").addEventListener("change", e => {
@@ -302,7 +282,7 @@ function render() {
   const text = q.value.trim(), main = document.getElementById("main");
   if (!text) {
     const pool = P.filter(visible);
-    main.innerHTML = block("전체 상의", "옷을 누르면 비슷한 옷을 찾아 줍니다.", pool.map(p => ({ html: card(p) })), 48);
+    main.innerHTML = block("전체 상의", "옷을 누르면 같은 종류·같은 색 옷을 찾아 줍니다.", pool.map(p => ({ html: card(p) })), 48);
     return;
   }
   const r = search(text);
@@ -332,7 +312,7 @@ function render() {
 }
 
 // 상세 화면 상태: 고른 옷, 같은 종류 색 토글, 다른 종류 토글, 고른 디테일 칩, 같은 몰 포함
-const view = { p: null, col: "all", other: "color", sel: new Set(), sameMall: false, ref: null };
+const view = { p: null, col: "all", sel: new Set(), sameMall: false, ref: null };
 function openItem(p) {
   const fresh = view.p !== p;
   if (fresh) { view.p = p; view.sel = new Set(); view.ref = colsOf(p).find(o => o.photo) || colsOf(p)[0] || null; }
@@ -354,18 +334,17 @@ function drawItem() {
   const p = view.p, mine = tagsOf(p), typ = typeOf(p);
   const rows = P.filter(x => x !== p && visible(x) && (view.sameMall || x.mall !== p.mall))
     .filter(x => [...view.sel].every(t => tagsOf(x).includes(t)))
-    .map(x => { const sh = tagsOf(x).filter(t => mine.includes(t)); return { x, sh, sc: view.ref ? shared({ _c: [view.ref] }, x) : [], s: sim(p, x) + 0.05 * sh.length }; })
-    .sort((a, b) => b.s - a.s);
+    .map(x => { const sh = tagsOf(x).filter(t => mine.includes(t)); return { x, sh, sc: view.ref ? shared({ _c: [view.ref] }, x) : [] }; })
+    .sort((a, b) => (b.sc.length > 0) - (a.sc.length > 0) || b.sh.length - a.sh.length);
   // 카드 이유: 겹치는 색 옵션(같은 색) + 겹치는 디테일
-  const mk = list => list.map(({ x, sh, sc, s }) => ({ html: card(x,
+  const mk = list => list.map(({ x, sh, sc }) => ({ html: card(x,
     (sc.length ? [{ s: 2, why: "같은 색 " + sc.slice(0, 3).map(c => esc(c.name)).join("·") }] : []).concat(sh.slice(0, 4).map(t => ({ s: 2, why: esc(tagName(t)) }))),
-    "비슷함 " + Math.min(99, Math.max(0, Math.round(s * 100))), sc.length ? [view.ref] : null) }));
+    "", sc.length ? [view.ref] : null) }));
   const same = rows.filter(r => typeOf(r.x) === typ);
   const sc = same.filter(r => r.sc.length).length;
   const sameF = same.filter(r => view.col === "all" || (view.col === "same") === (r.sc.length > 0));
   const other = rows.filter(r => typeOf(r.x) !== typ);
   const oc = other.filter(r => r.sc.length);
-  const otherF = view.other === "color" ? oc : other.slice(0, 48);
   const refTxt = view.ref ? `기준 색 '${esc(view.ref.name)}'과 같은(같은 색 이름표 또는 아주 가까운) 색` : "같은 색";
   const tagRows = Object.keys(L).filter(g => g !== "color" && (g === "type" || DG.includes(g) || g === "style")).map(g => {
     const t = p.tags[g] || [];
@@ -393,10 +372,9 @@ function drawItem() {
     ${chips}
     ${sect(`① 같은 종류: ${lbl("type", typ)} <small>${same.length}개</small>`,
       segBtns("col", [["all", `전체 ${same.length}`], ["same", `같은 색 ${sc}`], ["diff", `다른 색 ${same.length - sc}`]]),
-      `같은 색 = ${refTxt} 옵션이 있는 옷. 사진 느낌·속성 점수 순이고, 같은 디테일이 많을수록 앞에.`, mk(sameF), 12)}
-    ${sect(`② 다른 종류 참고 <small>${view.other === "color" ? oc.length : other.length}개</small>`,
-      segBtns("other", [["color", `같은 색 ${oc.length}`], ["mood", "비슷한 분위기"]]),
-      view.other === "color" ? `종류는 다르지만 ${refTxt} 옵션이 있는 옷. 사진 느낌이 비슷한 순.` : "종류는 다르지만 사진 느낌·속성이 비슷한 옷. 점수 순(상위 48개).", mk(otherF), 8)}`;
+      `같은 색 = ${refTxt} 옵션이 있는 옷. 같은 색이 먼저, 그다음 같은 디테일이 많은 순.`, mk(sameF), 12)}
+    ${sect(`② 다른 종류, 같은 색 <small>${oc.length}개</small>`, "",
+      `종류는 다르지만 ${refTxt} 옵션이 있는 옷. 같은 디테일이 많은 순.`, mk(oc), 8)}`;
 }
 document.getElementById("sheet").addEventListener("click", e => {
   const b = e.target.closest("button[data-k], button[data-t], button[data-r]");

@@ -2,10 +2,9 @@
 
 1. 옷 영역 찾기: SegFormer 의류 분할(mattmdjaga/segformer_b2_clothes). 사진 후보 중 옷이 가장 크게 잡힌 컷을 고른다.
 2. 색: 오려낸 옷 픽셀만 Lab 색공간에서 3개로 묶어(k-means) 주요 색을 구하고, 색 이름표(PALETTE)에서 가장 가까운 이름을 붙인다.
-3. 사진 유사도: 오려낸 이미지로 FashionCLIP(patrickjohncyh/fashion-clip). 상품명에 종류가 없을 때만 종류도 사진으로 정한다.
+3. 종류 보완: 상품명에 종류가 없을 때만 오려낸 이미지로 FashionCLIP(patrickjohncyh/fashion-clip) 종류 판정을 쓴다.
 4. 상품명·옵션 색상: 사전(DICT) 대조. 같은 사전과 색 이름표를 웹 검색어 해석에도 쓴다.
 """
-import base64
 import json
 import re
 import shutil
@@ -529,11 +528,6 @@ def main():
         p["tags"], p["src"] = tags, src
         del p["cands"]
         p.pop("more", None)
-
-    arr = img_emb.cpu().numpy()
-    q = np.clip(np.round(arr * 127 / np.abs(arr).max()), -127, 127).astype(np.int8)
-    for p, row in zip(products, q):
-        p["e"] = base64.b64encode(row.tobytes()).decode()
 
     labels = {g: {"name": n, "values": {k: v[0] for k, v in vals.items()}}
               for g, (n, vals) in {**GROUPS, **NAME_ONLY}.items()}
