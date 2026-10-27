@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>비슷한 상의 찾기 (샘플)</title>
+<style>
+  :root { --bg:#f7f6f3; --card:#fff; --ink:#1f1f1f; --sub:#6b6b6b; --line:#e4e2dc; --acc:#2f6f4e; --chip:#eef3ef; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",sans-serif; background:var(--bg); color:var(--ink); }
+  header { padding:28px 32px 12px; max-width:1280px; margin:0 auto; }
+  h1 { margin:0 0 6px; font-size:24px; }
+  .meta { color:var(--sub); font-size:14px; }
+  .bar { position:sticky; top:0; z-index:5; background:var(--bg); border-bottom:1px solid var(--line); }
+  .bar-in { max-width:1280px; margin:0 auto; padding:12px 32px; display:flex; flex-wrap:wrap; gap:10px; align-items:center; }
+  #q { flex:1 1 320px; font-size:17px; padding:12px 14px; border:1px solid var(--line); border-radius:10px; background:#fff; }
+  button { font:inherit; cursor:pointer; }
+  .btn { padding:11px 18px; border:0; border-radius:10px; background:var(--acc); color:#fff; font-size:15px; }
+  .ex { display:flex; gap:6px; flex-wrap:wrap; width:100%; }
+  .ex button { border:1px solid var(--line); background:#fff; border-radius:999px; padding:5px 12px; font-size:13px; color:var(--sub); }
+  .malls { display:flex; gap:12px; flex-wrap:wrap; font-size:13px; color:var(--sub); width:100%; }
+  main { max-width:1280px; margin:0 auto; padding:16px 32px 60px; }
+  .parsed { margin:4px 0 14px; font-size:14px; color:var(--sub); }
+  .parsed b { display:inline-block; background:var(--chip); color:var(--acc); border-radius:6px; padding:2px 8px; margin:2px 4px 2px 0; font-weight:600; }
+  section { margin:22px 0 8px; }
+  section h2 { font-size:17px; margin:0 0 4px; }
+  section p.desc { margin:0 0 10px; font-size:13px; color:var(--sub); }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(168px,1fr)); gap:14px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; cursor:pointer; transition:transform .12s, box-shadow .12s; }
+  .card:hover { transform:translateY(-2px); box-shadow:0 6px 18px rgba(0,0,0,.08); }
+  .card { position:relative; }
+  .card .shot { position:absolute; top:8px; left:8px; background:rgba(0,0,0,.62); color:#fff; font-size:11px; border-radius:5px; padding:2px 7px; }
+  .card img { width:100%; aspect-ratio:3/4; object-fit:cover; display:block; background:#eee; }
+  .card .b { padding:8px 10px 10px; }
+  .card .m { font-size:12px; color:var(--sub); display:flex; justify-content:space-between; gap:6px; }
+  .card .n { font-size:13px; line-height:1.35; margin:3px 0 4px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; min-height:35px; }
+  .card .pr { font-size:14px; font-weight:700; }
+  .cols { font-size:12px; color:var(--sub); margin-top:3px; }
+  .dot { display:inline-block; width:11px; height:11px; border-radius:50%; border:1px solid rgba(0,0,0,.18); vertical-align:-1px; margin-right:3px; }
+  .why { display:flex; flex-wrap:wrap; gap:4px; margin-top:6px; }
+  .why span { font-size:11px; background:var(--chip); color:var(--acc); border-radius:5px; padding:1px 6px; }
+  .why span.off { background:#f6ece8; color:#9a5a3c; }
+  .more { margin:10px 0 0; border:1px solid var(--line); background:#fff; border-radius:8px; padding:7px 14px; font-size:13px; }
+  .empty { color:var(--sub); padding:30px 0; }
+  #panel { position:fixed; inset:0; background:rgba(20,20,20,.45); display:none; z-index:20; }
+  #panel.on { display:block; }
+  #panel .sheet { position:absolute; right:0; top:0; bottom:0; width:min(1040px,100%); background:var(--bg); overflow:auto; padding:22px 26px 50px; }
+  .close { position:sticky; top:0; float:right; border:1px solid var(--line); background:#fff; border-radius:8px; padding:6px 12px; }
+  .hero { display:flex; gap:16px; flex-wrap:wrap; margin-bottom:6px; }
+  .hero figure { margin:0; }
+  .hero figure img { width:220px; aspect-ratio:3/4; object-fit:cover; border-radius:12px; background:#eee; display:block; }
+  .hero figure img.crop { aspect-ratio:1; object-fit:contain; background:#ebebeb; }
+  .hero figcaption { font-size:12px; color:var(--sub); margin-top:4px; }
+  .hero .info { flex:1 1 300px; }
+  .hero h3 { margin:2px 0 6px; font-size:19px; }
+  .tags { margin:12px 0; font-size:13px; }
+  .tags div { margin:5px 0; }
+  .tags .g { display:inline-block; width:64px; color:var(--sub); }
+  .tags span { display:inline-block; background:#fff; border:1px solid var(--line); border-radius:6px; padding:1px 7px; margin:1px 3px 1px 0; }
+  .tags small { color:var(--sub); }
+  .opt { margin:10px 0; font-size:13px; color:var(--sub); }
+  .warn { font-size:12px; color:#9a5a3c; margin:6px 0; }
+  .tog { font-size:13px; color:var(--sub); margin:8px 0 0; }
+  .oc { display:inline-block; font-size:11px; color:var(--ink); background:#f3f2ee; border-radius:5px; padding:1px 5px; margin:1px 3px 1px 0; }
+  .oc.so { text-decoration:line-through; color:#aaa; }
+  .oc sup { font-size:9px; color:var(--acc); margin-left:2px; }
+  .sz { font-size:11px; color:var(--sub); margin-top:3px; }
+  .sz s, .opt s { color:#aaa; }
+  .opt .oc { font-size:12px; }
+  .opt button.ref { border:1px solid transparent; background:none; padding:0; margin:0 2px 0 0; cursor:pointer; border-radius:6px; }
+  .opt button.ref.on { border-color:var(--acc); }
+  section h2 small { color:var(--sub); font-weight:400; font-size:13px; }
+  .segb { display:inline-flex; margin-left:10px; border:1px solid var(--line); border-radius:8px; overflow:hidden; vertical-align:2px; }
+  .segb button { border:0; background:#fff; padding:4px 10px; font-size:12px; color:var(--sub); }
+  .segb button.on { background:var(--acc); color:#fff; }
+  .tchips { font-size:13px; color:var(--sub); margin:10px 0 0; }
+  .tchips button { border:1px solid var(--line); background:#fff; border-radius:999px; padding:3px 10px; margin:2px 3px; font-size:12px; }
+  .tchips button.on { background:var(--acc); border-color:var(--acc); color:#fff; }
+  a.go { display:inline-block; margin-top:6px; color:var(--acc); font-weight:600; }
+  footer { max-width:1280px; margin:0 auto; padding:0 32px 40px; font-size:12px; color:var(--sub); line-height:1.6; }
+</style>
+</head>
+<body>
+<header>
+  <h1>비슷한 상의 찾기 <span style="font-size:14px;color:var(--sub);font-weight:400">샘플</span></h1>
+  <div class="meta" id="meta"></div>
+</header>
+<div class="bar"><div class="bar-in">
+  <input id="q" placeholder="예: 초록 상의, 카키 니트, 스트라이프 셔츠" autocomplete="off">
+  <button class="btn" id="go">찾기</button>
+  <div class="ex" id="ex"></div>
+  <div class="malls" id="malls"></div>
+  <div class="malls" id="sizes"></div>
+</div></div>
+<main id="main"></main>
+<div id="panel"><div class="sheet" id="sheet"></div></div>
+<footer>
+  색과 사이즈는 각 쇼핑몰 상품 페이지의 구매 옵션 기준이다(옵션 색 이름은 색 이름표로 바꿈). 사진은 상의 부분만 오려(SegFormer 의류 분할) 사진 속 옷이 어느 옵션인지 맞추고, 옵션 색이 없는 상품만 사진 색으로 대신한다. 종류·무늬·사진 유사도는 FashionCLIP으로 계산했다(모두 이 PC에서). 종류는 상품마다 하나로, 상품명에 있으면 상품명을, 없으면 사진 판정을 따른다. 디테일·소재는 상품명 사전에 있는 말만 쓴다(상품 애칭은 쓰지 않음).
+  사진 판정은 틀릴 수 있어 근거를 함께 보여 준다. 결과는 똑같은 옷이 아니라 참고할 만한 옷을 넓게 보여 주도록 묶었다.
+</footer>
+<script src="data.js"></script>
+<script>
+const D = window.SS, P = D.products, L = D.labels, PAL = D.palette;
+const EXAMPLES = ["초록 상의", "카키 니트", "검정 니트", "스트라이프 셔츠", "반팔 블라우스", "베이지 가디건", "민트 티셔츠", "오버핏 맨투맨"];
+const STOP = ["상의", "옷", "찾아줘", "찾기", "비슷한", "느낌", "계열", "색", "컬러", "스타일", "제품", "상품"];
+const won = n => n == null ? "" : n.toLocaleString("ko-KR") + "원";
+const lbl = (g, k) => L[g].values[k] || k;
+const pct = v => Math.round(v * 100) + "%";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const dE = (a, b) => Math.hypot(a[0] - b[0], a[1] - b[1], a[2] - b[2]);
+const dot = (x, y) => { let s = 0; for (let j = 0; j < x.length; j++) s += x[j] * y[j]; return s; };
+const chip = c => `<i class="dot" style="background:${c.hex}"></i>${esc(c.name)}`;
+// 옷의 대표 색들: 첫 색 + 30% 이상인 두 번째 색
+const mainCols = p => (p.col || []).filter((c, i) => i === 0 || c.share >= 0.3).slice(0, 2);
+
+// 사진 임베딩(int8) 풀기, 속성 확률 벡터(종류·소매·무늬·넥라인·핏)
+const AG = ["type", "sleeve", "pattern", "neck", "fit"];
+P.forEach((p, i) => {
+  p.i = i;
+  const b = atob(p.e), v = new Float32Array(b.length);
+  let s = 0;
+  for (let j = 0; j < b.length; j++) { const x = (b.charCodeAt(j) << 24) >> 24; v[j] = x; s += x * x; }
+  const n = Math.sqrt(s) || 1;
+  for (let j = 0; j < v.length; j++) v[j] /= n;
+  p.v = v;
+  const a = AG.flatMap(g => Object.keys(L[g].values).map(k => (p.p[g] || {})[k] || 0));
+  const an = Math.sqrt(a.reduce((t, x) => t + x * x, 0)) || 1;
+  p.a = a.map(x => x / an);
+});
+const typeOf = p => p.tags.type[0];
+// 비교에 쓰는 디테일 태그(종류·색·분위기 제외)
+const DG = ["detail", "material", "sleeve", "neck", "fit", "pattern"];
+// 상품명에서 온 태그 + 사진 판정 50% 이상인 태그만(사진 추정은 틀리기 쉬움)
+const tagsOf = p => p._t || (p._t = DG.flatMap(g => (p.tags[g] || [])
+  .filter(k => (p.src[g + ":" + k] || "").includes("상품명") || ((p.p[g] || {})[k] || 0) >= 0.5).map(k => g + ":" + k)));
+const tagName = t => { const [g, k] = t.split(":"); return lbl(g, k); };
+// CIEDE2000 색 차이(사람 눈 기준에 가까움). 2 이하는 거의 같음, 5 넘으면 다른 색으로 보임
+function dE00(x, y) {
+  const [L1, a1, b1] = x, [L2, a2, b2] = y, R = Math.PI / 180;
+  const C1 = Math.hypot(a1, b1), C2 = Math.hypot(a2, b2), Cm = (C1 + C2) / 2;
+  const G = 0.5 * (1 - Math.sqrt(Cm ** 7 / (Cm ** 7 + 25 ** 7)));
+  const A1 = a1 * (1 + G), A2 = a2 * (1 + G);
+  const c1 = Math.hypot(A1, b1), c2 = Math.hypot(A2, b2);
+  const h1 = (Math.atan2(b1, A1) / R + 360) % 360, h2 = (Math.atan2(b2, A2) / R + 360) % 360;
+  let dh = h2 - h1;
+  if (c1 * c2 === 0) dh = 0; else if (dh > 180) dh -= 360; else if (dh < -180) dh += 360;
+  const dL = L2 - L1, dC = c2 - c1, dH = 2 * Math.sqrt(c1 * c2) * Math.sin(dh / 2 * R);
+  const Lm = (L1 + L2) / 2, cm = (c1 + c2) / 2;
+  let hm = h1 + h2;
+  if (c1 * c2 !== 0) hm = Math.abs(h1 - h2) > 180 ? (h1 + h2 + (h1 + h2 < 360 ? 360 : -360)) / 2 : (h1 + h2) / 2;
+  const T = 1 - 0.17 * Math.cos((hm - 30) * R) + 0.24 * Math.cos(2 * hm * R) + 0.32 * Math.cos((3 * hm + 6) * R) - 0.2 * Math.cos((4 * hm - 63) * R);
+  const SL = 1 + 0.015 * (Lm - 50) ** 2 / Math.sqrt(20 + (Lm - 50) ** 2), SC = 1 + 0.045 * cm, SH = 1 + 0.015 * cm * T;
+  const RT = -2 * Math.sqrt(cm ** 7 / (cm ** 7 + 25 ** 7)) * Math.sin(60 * Math.exp(-(((hm - 275) / 25) ** 2)) * R);
+  return Math.sqrt((dL / SL) ** 2 + (dC / SC) ** 2 + (dH / SH) ** 2 + RT * (dC / SC) * (dH / SH));
+}
+// 상품의 색 = 구매 옵션 색(이름을 이름표 색으로 바꾼 것). 옵션 색이 없으면 사진 속 색으로 대신한다.
+const colsOf = p => p._c || (p._c = p.colorSrc === "옵션" ? p.opts.filter(o => o.lab)
+  : mainCols(p).map(c => ({ name: c.name, pal: c.name, lab: c.lab, hex: c.hex, fam: c.fam, fromPhoto: true })));
+const optChip = o => `<span class="oc${o.soldout ? " so" : ""}"${o.soldout ? ' title="품절"' : ""}>${o.hex ? `<i class="dot" style="background:${o.hex}"></i>` : ""}${esc(o.name)}${o.img ? "<sup>사진</sup>" : ""}</span>`;
+const colChips = (p, max = 6) => {
+  const os = p.colorSrc === "옵션" ? p.opts : colsOf(p);
+  return os.slice(0, max).map(optChip).join("") + (os.length > max ? `<span class="oc">+${os.length - max}</span>` : "")
+    + (p.colorSrc === "사진" ? `<small> (옵션 색 없음·사진 색)</small>` : "");
+};
+const sizeText = p => p.sizes && p.sizes.length ? p.sizes.map(s => s.soldout ? `<s>${esc(s.name)}</s>` : esc(s.name)).join(" · ") : "사이즈 옵션 없음";
+// 같은 색: 두 상품이 같은 색 옵션을 공유(같은 이름표 색이거나 CIEDE2000 SAME_DE 이하). 겹치는 a의 색 목록을 돌려준다.
+const SAME_DE = 6;
+const shared = (a, b) => {
+  const cb = colsOf(b);
+  return colsOf(a).filter(c => cb.some(o => o.pal === c.pal || dE00(o.lab, c.lab) <= SAME_DE));
+};
+const sameCol = (a, b) => shared(a, b).length > 0;
+// 사진 느낌 50% + 옷 속성 30% + 색 20%
+const sim = (a, b) => {
+  const ca = mainCols(a)[0], cb = mainCols(b)[0];
+  const cs = ca && cb ? Math.exp(-dE(ca.lab, cb.lab) / 25) : 0.3;
+  return 0.5 * dot(a.v, b.v) + 0.3 * dot(a.a, b.a) + 0.2 * cs;
+};
+
+const malls = [...new Set(P.map(p => p.mall))];
+const mallOn = new Set(malls);
+const segOk = P.filter(p => p.seg === "ok").length;
+document.getElementById("meta").textContent =
+  `쇼핑몰 ${malls.length}곳 · 상의 ${P.length}개(사진에서 상의를 찾은 것 ${segOk}개) · 수집일 ${D.asOf}. 검색어를 넣거나 옷을 눌러 비슷한 옷을 찾아보세요.`;
+document.getElementById("malls").innerHTML = "보여줄 몰: " + malls.map(m =>
+  `<label><input type="checkbox" checked data-m="${esc(m)}"> ${esc(m)} (${P.filter(p => p.mall === m).length})</label>`).join("");
+document.getElementById("malls").addEventListener("change", e => {
+  const m = e.target.dataset.m; e.target.checked ? mallOn.add(m) : mallOn.delete(m); render();
+});
+// 사이즈 필터: 실제 옵션에 나온 값만(여러 개 고르면 그중 하나라도 있는 옷). 고른 게 없으면 전부.
+const sizeOn = new Set();
+const okSize = p => !sizeOn.size || p.sizeKeys.some(k => sizeOn.has(k));
+const visible = p => mallOn.has(p.mall) && okSize(p);
+document.getElementById("sizes").innerHTML = "사이즈: " + D.sizeOrder.map(k => [k, P.filter(p => p.sizeKeys.includes(k)).length])
+  .filter(([, n]) => n).map(([k, n]) => `<label><input type="checkbox" data-z="${esc(k)}"> ${esc(k)} (${n})</label>`).join("");
+document.getElementById("sizes").addEventListener("change", e => {
+  const k = e.target.dataset.z; e.target.checked ? sizeOn.add(k) : sizeOn.delete(k); render();
+});
+document.getElementById("ex").innerHTML = EXAMPLES.map(x => `<button>${x}</button>`).join("");
+document.getElementById("ex").addEventListener("click", e => {
+  if (e.target.tagName === "BUTTON") { q.value = e.target.textContent; render(); }
+});
+const q = document.getElementById("q");
+document.getElementById("go").onclick = render;
+q.addEventListener("keydown", e => { if (e.key === "Enter") render(); });
+
+// 검색어 해석: 분석 때와 같은 사전. 색은 이름표에 있는 세부 색(카키·민트 등)이면 그 색에 가까운 순으로 본다.
+function parse(text) {
+  const out = {}; let rest = text.toLowerCase();
+  for (const [g, d] of Object.entries(D.dict)) {
+    let r = text.toLowerCase();
+    const words = Object.entries(d).flatMap(([k, ws]) => ws.map(w => [w, k])).sort((a, b) => b[0].length - a[0].length);
+    for (const [w, k] of words) if (r.includes(w)) {
+      (out[g] = out[g] || []).includes(k) || out[g].push(k);
+      r = r.split(w).join(" "); rest = rest.split(w).join(" ");
+    }
+  }
+  if (out.type?.includes("sleeveless")) delete out.sleeve;
+  if (out.type?.includes("hoodie")) delete out.neck;
+  const shades = PAL.filter(c => text.includes(c.name) && !["그린", "블루", "레드", "핑크", "블랙", "화이트", "그레이", "브라운", "베이지", "옐로우", "오렌지", "퍼플", "네이비"].includes(c.name));
+  const words = rest.split(/\s+/).filter(w => w.length > 1 && !STOP.includes(w));
+  return { attrs: out, shades, words };
+}
+
+// 색 판정: 상품 색(옵션 색, 없으면 사진 색) 중에 찾는 색이 있으면 맞음. 세부 색(카키 등)은 그 색과 가까운 옵션만.
+function judgeColor(p, k, shades) {
+  const cs = colsOf(p), tl = (shades.length ? shades.filter(s => s.fam === k) : PAL.filter(c => c.fam === k)).map(c => c.lab);
+  const src = p.colorSrc === "옵션" ? "옵션" : "사진 색";
+  const hit = shades.length ? cs.filter(c => shades.some(s => s.name === c.pal || dE00(c.lab, s.lab) <= 10)) : cs.filter(c => c.fam === k);
+  // 유채색을 찾을 때 회색·흰색 옷이 "가까운 색"으로 섞이지 않게 채도 있는 색만 비교한다
+  const vivid = !["black", "gray", "white"].includes(k);
+  const cc = cs.filter(c => !vivid || Math.hypot(c.lab[1], c.lab[2]) >= 10);
+  const d = cc.length && tl.length ? Math.min(...cc.flatMap(c => tl.map(l => dE(c.lab, l)))) : 99;
+  if (hit.length) return { s: 2, d: 0, hit, why: `${src} ` + hit.slice(0, 3).map(optChip).join("") };
+  if (d <= 22) return { s: 1, d, why: "비슷한 색 " + cs.filter(c => cc.includes(c)).slice(0, 3).map(optChip).join("") };
+  return { s: 0, d, why: "색 다름" };
+}
+function judge(p, g, k) {
+  const tag = p.tags[g] || [], pr = (p.p[g] || {})[k] || 0;
+  if (tag.includes(k) || pr >= 0.35) {
+    const src = p.src[g + ":" + k];
+    return { s: 2, why: esc(lbl(g, k)) + (src === "상품명" ? " (상품명)" : pr ? " (사진 " + pct(pr) + ")" : "") };
+  }
+  if (pr >= 0.15) return { s: 1, why: esc(lbl(g, k)) + "일 수도(" + pct(pr) + ")" };
+  return { s: 0, why: esc(lbl(g, k)) + " 아님" };
+}
+
+function search(text) {
+  const { attrs, shades, words } = parse(text);
+  // 종류(니트·티셔츠 등)를 말하면 그 종류만 본다
+  const pool = P.filter(p => visible(p) && (!attrs.type || attrs.type.includes(typeOf(p))));
+  const rows = pool.map(p => {
+    const gs = [];
+    if (attrs.color) gs.push(attrs.color.map(k => ({ g: "color", ...judgeColor(p, k, shades) })).sort((a, b) => b.s - a.s || a.d - b.d)[0]);
+    for (const [g, ks] of Object.entries(attrs)) if (g !== "color" && g !== "type")
+      gs.push(ks.map(k => ({ g, ...judge(p, g, k) })).sort((a, b) => b.s - a.s)[0]);
+    words.forEach(w => gs.push(p.name.toLowerCase().includes(w) ? { g: "word", s: 2, why: `"${esc(w)}" 포함` } : { g: "word", s: 0, why: `"${esc(w)}" 없음` }));
+    const c = gs.find(j => j.g === "color");
+    const score = gs.reduce((a, j) => a + (j.s === 2 ? 1 : j.s === 1 ? 0.4 : 0), 0)
+      + (c ? Math.max(0, 1 - c.d / 40) * 0.5 : 0)
+      + Object.entries(attrs).filter(([g]) => g !== "color").reduce((a, [g, ks]) => a + Math.max(...ks.map(k => (p.p[g] || {})[k] || 0)) * 0.3, 0);
+    return { p, gs, score };
+  });
+  return { attrs, shades, words, rows, n: Object.keys(attrs).filter(g => g !== "type").length + words.length };
+}
+
+// 찾는 색(cols) 옵션의 사진이 있으면 그 옵션. 없으면 null(대표 사진을 쓴다)
+const colorShot = (p, cols) => (cols || []).length ? p.opts.find(o => o.img && o.lab
+  && cols.some(c => c.pal === o.pal || dE00(c.lab, o.lab) <= SAME_DE)) || null : null;
+function card(p, reasons, extra, cols) {
+  const r = (reasons || []).map(j => `<span class="${j.s === 0 ? "off" : ""}">${j.why}</span>`).join("");
+  const shot = colorShot(p, cols);
+  return `<div class="card" data-i="${p.i}"><img loading="lazy" src="${esc(shot ? shot.img : p.img)}" alt="">
+    ${shot && shot.img !== p.img ? `<span class="shot">${esc(shot.name)} 사진</span>` : ""}
+    <div class="b"><div class="m"><span>${esc(p.mall)}</span><span>${extra || ""}</span></div>
+    <div class="n">${esc(p.name)}</div><div class="pr">${won(p.sale || p.price)}</div>
+    <div class="cols">${colChips(p, 5)}</div><div class="sz">${sizeText(p)}</div>
+    ${r ? `<div class="why">${r}</div>` : ""}</div></div>`;
+}
+let blockN = 0;
+const blocks = {};
+function block(title, desc, items, limit = 12) {
+  if (!items.length) return "";
+  const id = "s" + (++blockN);
+  blocks[id] = items;
+  return `<section><h2>${title} <small style="color:var(--sub);font-weight:400">${items.length}개</small></h2>
+    ${desc ? `<p class="desc">${desc}</p>` : ""}
+    <div class="grid" id="${id}">${items.slice(0, limit).map(x => x.html).join("")}</div>
+    ${items.length > limit ? `<button class="more" data-s="${id}" data-n="${limit}">더 보기</button>` : ""}</section>`;
+}
+document.addEventListener("click", e => {
+  const m = e.target.closest(".more");
+  if (m) {
+    const items = blocks[m.dataset.s], n = +m.dataset.n + 24;
+    document.getElementById(m.dataset.s).innerHTML = items.slice(0, n).map(x => x.html).join("");
+    m.dataset.n = n; if (n >= items.length) m.remove();
+    return;
+  }
+  const c = e.target.closest(".card");
+  if (c) openItem(P[+c.dataset.i]);
+});
+
+function render() {
+  const text = q.value.trim(), main = document.getElementById("main");
+  if (!text) {
+    const pool = P.filter(visible);
+    main.innerHTML = block("전체 상의", "옷을 누르면 비슷한 옷을 찾아 줍니다.", pool.map(p => ({ html: card(p) })), 48);
+    return;
+  }
+  const r = search(text);
+  const parsed = Object.entries(r.attrs).map(([g, ks]) => ks.map(k => `<b>${L[g].name}: ${lbl(g, k)}${g === "type" ? "(이 종류만)" : ""}</b>`).join("")).join("")
+    + r.shades.map(s => `<b>세부 색: ${esc(s.name)}</b>`).join("")
+    + r.words.map(w => `<b>상품명: ${esc(w)}</b>`).join("");
+  if (!r.n && !r.attrs.type) { main.innerHTML = `<div class="empty">알아들은 조건이 없어요. 색(초록·카키), 종류(니트·셔츠), 무늬(스트라이프), 소매(반팔) 같은 말로 써 보세요.</div>`; return; }
+  const used = new Set();
+  const colorD = x => x.gs.find(j => j.g === "color")?.d ?? 99;
+  const sorted = r.rows.slice().sort((a, b) => b.score - a.score || colorD(a) - colorD(b));
+  const take = f => sorted.filter(x => !used.has(x.p.i) && f(x)).map(x => { used.add(x.p.i); return { html: card(x.p, x.gs, "", x.gs.find(j => j.g === "color")?.hit) }; });
+  const all = x => x.gs.every(j => j.s === 2);
+  const miss1 = x => r.n > 1 && x.gs.filter(j => j.s !== 2).length === 1;
+  const colorG = x => x.gs.find(j => j.g === "color");
+  let html = `<div class="parsed">이렇게 알아들었어요: ${parsed}</div>`;
+  html += block(r.n ? "조건에 모두 맞아요" : `${r.attrs.type.map(k => lbl("type", k)).join("·")} 전체`, r.attrs.color ? "색이 가까운 순." : "", take(all));
+  html += block("한 가지만 달라요", "색이나 종류 중 하나가 다른 옷. 참고하기 좋습니다.", take(miss1));
+  if (r.attrs.color) {
+    html += block("비슷한 색감이에요", "찾는 색 옵션은 없지만 가까운 색 옵션이 있는 옷(예: 초록 → 민트·올리브). 가까운 순.",
+      sorted.filter(x => !used.has(x.p.i) && colorG(x)?.s === 1).sort((a, b) => colorD(a) - colorD(b))
+        .map(x => { used.add(x.p.i); return { html: card(x.p, x.gs) }; }));
+  }
+  html += r.attrs.type
+    ? block(`나머지 ${r.attrs.type.map(k => lbl("type", k)).join("·")}`, "종류는 같지만 다른 조건이 맞지 않는 옷. 점수 순.", take(() => true))
+    : block("더 넓게 보기", "조건 일부만 맞는 옷. 점수 순.", take(x => x.score > 0.3).slice(0, 60));
+  main.innerHTML = html || `<div class="empty">맞는 옷이 없어요.</div>`;
+}
+
+// 상세 화면 상태: 고른 옷, 같은 종류 색 토글, 다른 종류 토글, 고른 디테일 칩, 같은 몰 포함
+const view = { p: null, col: "all", other: "color", sel: new Set(), sameMall: false, ref: null };
+function openItem(p) {
+  const fresh = view.p !== p;
+  if (fresh) { view.p = p; view.sel = new Set(); view.ref = colsOf(p).find(o => o.photo) || colsOf(p)[0] || null; }
+  drawItem();
+  if (fresh) document.getElementById("sheet").scrollTop = 0;
+  document.getElementById("panel").classList.add("on");
+}
+function segBtns(k, opts) {
+  return `<span class="segb">${opts.map(([v, t]) => `<button data-k="${k}" data-v="${v}" class="${view[k] === v ? "on" : ""}">${t}</button>`).join("")}</span>`;
+}
+function sect(title, ctrl, desc, items, limit) {
+  const id = "s" + (++blockN);
+  blocks[id] = items;
+  return `<section><h2>${title} ${ctrl}</h2>${desc ? `<p class="desc">${desc}</p>` : ""}
+    ${items.length ? `<div class="grid" id="${id}">${items.slice(0, limit).map(x => x.html).join("")}</div>` : `<div class="empty">해당하는 옷이 없어요.</div>`}
+    ${items.length > limit ? `<button class="more" data-s="${id}" data-n="${limit}">더 보기</button>` : ""}</section>`;
+}
+function drawItem() {
+  const p = view.p, mine = tagsOf(p), typ = typeOf(p);
+  const rows = P.filter(x => x !== p && visible(x) && (view.sameMall || x.mall !== p.mall))
+    .filter(x => [...view.sel].every(t => tagsOf(x).includes(t)))
+    .map(x => { const sh = tagsOf(x).filter(t => mine.includes(t)); return { x, sh, sc: view.ref ? shared({ _c: [view.ref] }, x) : [], s: sim(p, x) + 0.05 * sh.length }; })
+    .sort((a, b) => b.s - a.s);
+  // 카드 이유: 겹치는 색 옵션(같은 색) + 겹치는 디테일
+  const mk = list => list.map(({ x, sh, sc, s }) => ({ html: card(x,
+    (sc.length ? [{ s: 2, why: "같은 색 " + sc.slice(0, 3).map(c => esc(c.name)).join("·") }] : []).concat(sh.slice(0, 4).map(t => ({ s: 2, why: esc(tagName(t)) }))),
+    "비슷함 " + Math.min(99, Math.max(0, Math.round(s * 100))), sc.length ? [view.ref] : null) }));
+  const same = rows.filter(r => typeOf(r.x) === typ);
+  const sc = same.filter(r => r.sc.length).length;
+  const sameF = same.filter(r => view.col === "all" || (view.col === "same") === (r.sc.length > 0));
+  const other = rows.filter(r => typeOf(r.x) !== typ);
+  const oc = other.filter(r => r.sc.length);
+  const otherF = view.other === "color" ? oc : other.slice(0, 48);
+  const refTxt = view.ref ? `기준 색 '${esc(view.ref.name)}'과 같은(같은 색 이름표 또는 아주 가까운) 색` : "같은 색";
+  const tagRows = Object.keys(L).filter(g => g !== "color" && (g === "type" || DG.includes(g) || g === "style")).map(g => {
+    const t = p.tags[g] || [];
+    if (!p.p[g] && !t.length) return "";
+    const probs = p.p[g] && g !== "type" ? Object.entries(p.p[g]).slice(0, 3).map(([k, v]) => `${lbl(g, k)} ${pct(v)}`).join(", ") : "";
+    return `<div><span class="g">${L[g].name}</span>${t.map(k => `<span>${lbl(g, k)} <small>${p.src[g + ":" + k] || ""}</small></span>`).join("") || "<small>-</small>"}
+      ${probs ? `<small style="margin-left:6px">사진 판정: ${probs}</small>` : ""}</div>`;
+  }).join("");
+  const chips = mine.length ? `<div class="tchips">이 디테일이 있는 옷만 보기: ${mine.map(t => `<button data-t="${t}" class="${view.sel.has(t) ? "on" : ""}">${esc(tagName(t))}</button>`).join("")}</div>` : "";
+  const colRow = p.seg === "ok" ? (p.col || []).map(c => `<span>${chip(c)} <small>${pct(c.share)}</small></span>`).join("") : "";
+  document.getElementById("sheet").innerHTML = `<button class="close" onclick="closeItem()">닫기</button>
+    <div class="hero">
+      <figure><img src="${esc(view.ref?.img || p.img)}" alt=""><figcaption>${view.ref?.img && view.ref.img !== p.img ? `'${esc(view.ref.name)}' 옵션 사진` : view.ref && !view.ref.img ? `대표 사진('${esc(view.ref.name)}' 사진은 없음)` : "판독에 쓴 사진"}</figcaption></figure>
+      <figure><img class="crop" src="${esc(p.crop)}" alt=""><figcaption>${p.seg === "ok" ? `AI가 본 부분(상의, 사진의 ${pct(p.area)})` : "상의를 찾지 못해 사진 전체로 판독"}</figcaption></figure>
+      <div class="info"><div class="meta">${esc(p.mall)}</div><h3>${esc(p.name)}</h3>
+        <div class="pr" style="font-size:17px;font-weight:700">${won(p.sale || p.price)} ${p.price && p.sale && p.sale < p.price ? `<small style="color:var(--sub);text-decoration:line-through;font-weight:400">${won(p.price)}</small>` : ""}</div>
+        <div class="opt"><b>색상 옵션</b> ${p.opts.length ? p.opts.map(o => (o.lab ? `<button class="ref${o === view.ref ? " on" : ""}" data-r="${p.opts.indexOf(o)}">${optChip(o)}</button>` : optChip(o)) + (o.extra ? `<small>+${won(o.extra)}</small>` : "")).join("") : "없음"}
+          ${p.colorSrc === "옵션" ? `<div><small>색을 누르면 그 색 기준으로 '같은 색'을 다시 찾아요.</small></div>` : ""}
+          ${p.colorSrc === "사진" ? `<div class="warn">색 이름이 있는 옵션이 없어 사진 속 색으로 비교합니다.</div>` : ""}
+          <div style="margin-top:4px"><b>사이즈</b> ${sizeText(p)}</div>
+          <small>취소선 = 품절, '사진' = 그 색 옷 사진이 있는 옵션(누르면 그 사진으로 바뀜)</small></div>
+        ${p.seg !== "ok" ? `<div class="warn">사진에서 상의를 찾지 못했어요(마네킹·여러 벌·옷만 찍은 사진 등).</div>` : ""}
+        <div class="tags"><div><span class="g">사진 색</span>${colRow || "<small>-</small>"}</div>${tagRows}</div>
+        <a class="go" href="${esc(p.url)}" target="_blank" rel="noopener">쇼핑몰에서 보기 →</a>
+        <div class="tog"><label><input type="checkbox" id="sameMall" ${view.sameMall ? "checked" : ""}> 같은 몰(${esc(p.mall)}) 상품도 보기</label></div>
+      </div></div>
+    ${chips}
+    ${sect(`① 같은 종류: ${lbl("type", typ)} <small>${same.length}개</small>`,
+      segBtns("col", [["all", `전체 ${same.length}`], ["same", `같은 색 ${sc}`], ["diff", `다른 색 ${same.length - sc}`]]),
+      `같은 색 = ${refTxt} 옵션이 있는 옷. 사진 느낌·속성 점수 순이고, 같은 디테일이 많을수록 앞에.`, mk(sameF), 12)}
+    ${sect(`② 다른 종류 참고 <small>${view.other === "color" ? oc.length : other.length}개</small>`,
+      segBtns("other", [["color", `같은 색 ${oc.length}`], ["mood", "비슷한 분위기"]]),
+      view.other === "color" ? `종류는 다르지만 ${refTxt} 옵션이 있는 옷. 사진 느낌이 비슷한 순.` : "종류는 다르지만 사진 느낌·속성이 비슷한 옷. 점수 순(상위 48개).", mk(otherF), 8)}`;
+}
+document.getElementById("sheet").addEventListener("click", e => {
+  const b = e.target.closest("button[data-k], button[data-t], button[data-r]");
+  if (!b) return;
+  if (b.dataset.r) view.ref = view.p.opts[+b.dataset.r];
+  else if (b.dataset.k) view[b.dataset.k] = b.dataset.v;
+  else view.sel.has(b.dataset.t) ? view.sel.delete(b.dataset.t) : view.sel.add(b.dataset.t);
+  drawItem();
+});
+document.getElementById("sheet").addEventListener("change", e => {
+  if (e.target.id === "sameMall") { view.sameMall = e.target.checked; drawItem(); }
+});
+function closeItem() { document.getElementById("panel").classList.remove("on"); }
+document.getElementById("panel").addEventListener("click", e => { if (e.target.id === "panel") closeItem(); });
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeItem(); });
+render();
+</script>
+</body>
+</html>

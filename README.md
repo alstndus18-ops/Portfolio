@@ -18,7 +18,7 @@ MD 업무(이벤트·프로모션 기획, 가격·할인율 결정, 재고 처�
 | `planning/` | 기획서. 목적, 단계, DB 방침, 결정 기록(§10), 다음 단계 |
 | `research/fashion-commerce-map/` | ① DB. 쇼핑몰·기업·브랜드·관계 CSV(`data/curated/`)와 수집 기준(`docs/`) |
 | `research/fashion-industry-map/` | 대한민국 패션산업 지도 조사 문서와 정적 화면 |
-| `samples/` | ③·④ 화면 샘플 (블루팝스 BEST·전체 상품 가격 비교) |
+| `samples/` | ③·④ 화면 샘플 (블루팝스 BEST·전체 상품 가격 비교, 비슷한 상의 찾기 `similar-search/`) |
 | `archive/` | 초기 자료. URL 입력식 경쟁사 프로토타입, 옛 작업지침·메모. 참고용 |
 
 ## AI로 작업할 때
