@@ -68,6 +68,17 @@ const meta=async b=>{const h=await (await fetch('/brand/'+encodeURIComponent(b)+
 | 지그재그 | 홈에서 여성 패션 카테고리 URL을 확인할 수 있다: 상의 `474`·원피스 `507`·팬츠 `547`·스커트 `560`·아우터 `436`·슈즈 `582`·가방 `623`·이너웨어 `795`·세트 `538`·주얼리 `633`·플러스사이즈 `845`·트레이닝 `833`·비치웨어 `751` (`/pages/srp-clp-category?category_id=<ID>`). 카테고리 결과는 상품 중심이므로 같은 쇼핑몰의 여러 상품을 세지 말고, 상품 응답의 쇼핑몰/스토어 식별자로 합친다. 전체 스토어 수·쪽수 확인 전에는 전수라고 보고하지 않는다. |
 | EQL | `/brands/homeSearch`의 `a[ctgryno]`에서 영문명(.brand)·한글명(.product)·ctgryno를 읽는다(2,538개, href는 javascript). 여성 의류 `EQLA01A01`·남성 의류 `EQLA02A01` 필터의 브랜드 value로 여성·혼합을 가른다. `/brands/main?brndCategoryNumber=<ctgryno>`에서 소개와 `a[godno][godnm]`의 상품명·가격을 확인(`input[name="frontState"][value="LOADED"]`을 기다린 뒤 읽는다). 잡화·침구 위주는 제외. 자세한 경위는 10-27 Codex EQL 기록. |
 
+## 보세몰 상품 구조 빠르게 조사하기 (similar-search 색상별 사진, 2026-10-28)
+
+몰마다 색 정보를 어디에 두는지 알아낼 때 시간을 줄이는 순서다. 결과는 `samples/similar-search/data/color-photo-rules.json`의 `where`·`evidence`에 남긴다.
+
+1. **상품 HTML은 브라우저 대신 직접 받는다.** 상품 상세(`/product/detail.html?product_no=`)는 로그인 없이 `fetch`로 받아진다(25개, 요청 간격 1.5초, 약 40초). 구매 옵션은 `select#product_option_id1`, 상세 이미지는 `ec-data-src`(지연 로딩) 또는 `src`에서 읽는다. 브라우저를 25번 여는 것보다 빠르다.
+2. **상세 이미지 주소 규칙은 몰마다 다르다.** 대부분 `/web/upload/NNEditor/…`지만 블루팝스는 `//bluepops.co.kr/web/bluepops/<연도>/…`다. 이미지가 0개로 나오면 먼저 `ec-data-src` 전체를 훑는다.
+3. **글자로 색 이름을 찾는 검사는 상세 영역만 본다.** 옵션 선택 목록 자체에 색 이름이 있어서 페이지 전체를 보면 모든 상품이 "색 이름 있음"으로 나온다. `id="prdDetail"` 뒤쪽만 본다. 색 이름은 대부분 이미지 안 글자라서 DOM 글자로는 안 보인다.
+4. **구조는 몰당 상품 2~3개의 사진만 눈으로 봐도 유형이 잡힌다.** 나머지 상품은 옵션 수·상세 이미지 수 같은 HTML 숫자만 본다. 상품마다 구조가 다른 몰(메이홀릭)만 3개 이상 본다.
+5. **사진은 상품 하나를 한 장으로 묶어서 본다.** 갤러리와 상세 이미지를 번호를 붙여 한 장에 모으면(PowerShell `System.Drawing`, webp는 WPF로 PNG 변환) 색상 모음·이름표·모델컷 순서가 한눈에 보인다. 이 PC에는 진짜 Python이 없어(WindowsApps 안내용 파일뿐) `tools/` 스크립트를 못 돌린다. Python이 있는 PC에서 돌린다.
+6. **색 이름이 글자로 없는 몰도 있다.** 사라172는 색상 모음 사진에 글자가 없고 순서도 옵션과 다르다. 이런 몰은 글자 규칙을 더 고치지 말고 evidence를 `lineup`으로 둔다.
+
 ## 시행착오 기록
 
 - 10-26 · Cursor · 무신사 — 후보 19개를 이름으로 떠올려 영문 주소를 추측 → 7개가 주소 불일치로 0건 → 카테고리 목록에서 브랜드를 뽑는 방식으로 바꿈.
@@ -117,3 +128,10 @@ const meta=async b=>{const h=await (await fetch('/brand/'+encodeURIComponent(b)+
 - 10-27 · Codex · 지그재그 — 원피스·팬츠·스커트는 470개 상품에서 스토어 133곳을 확인했고, 상의와 합치면 770개 상품·165곳이다. 같은 이름의 기존 독립몰에는 새 엔터티를 만들지 않고 `sells_through → KR-SF-0003`만 추가해, 무신사·W컨셉 등 복수 채널 관계를 유지한다.
 - 10-27 · Codex · 지그재그 — 홈·검색·카테고리·robots·사이트맵 및 `/shops`·`/stores`·`/brands`를 재점검했지만 전체 스토어 목록·총계는 공개 웹에 없었다. 경로의 HTTP 응답만으로 목록이라고 판단하지 말고, 실제 화면/응답에 스토어 목록이 있는지 확인한다.
 - 10-27 · Codex · 지그재그 — 상의 무한 스크롤을 브라우저 페이지에서 감시하면 GetCnvPageAction의 PAGINATION 입력에 액션 ID·모듈 슬롯 ID·다음 커서·렌더 오프셋이 잡힌다. 응답의 상품 카드에는 상품 ID와 쇼핑몰 정보가 함께 있으므로, 다음에는 화면 스크롤 대신 응답의 다음 커서를 넣어 반복 호출하는 수집기를 먼저 검증한다.
+- 10-28 · Claude · 보세몰(색상별 사진) — 상세 이미지가 0개로 나옴(블루팝스) → 이미지 주소가 `/web/upload/`가 아니라 `//bluepops.co.kr/web/bluepops/…`이고 `ec-data-src`로 지연 로딩 → 정규식을 `/web/upload/`로 한정하지 말고 `ec-data-src` 전체를 훑는다.
+- 10-28 · Claude · 보세몰 — 상세 글자에서 색 이름을 찾는 검사가 모든 상품에서 "있음" → 옵션 선택 목록이 같은 영역 안에 있어 스스로를 찾음 → `prdDetail` 뒤쪽만 보고, 글자 검사는 보조로만 쓴다.
+- 10-28 · Claude · 사라172 — 색 이름 글자 규칙(OCR)을 고치려 함 → 상세 이미지에 색 이름 글자가 아예 없고 모음 사진 순서도 옵션 순서와 다름 → 글자로는 불가, lineup으로만 쓴다.
+- 10-28 · Claude · 메이홀릭 — 같은 색 모델컷이 연속(핑크→그린→블루→화이트)인데 옵션 순서(그린·핑크·블루·화이트)와 달라 순서로 짝지으면 틀림 → 옵션 색 이름의 색과 사진 속 옷 색을 맞춰야 함(color_run, 코드 미구현).
+- 10-28 · Claude · 공통 — bash에서 `node -e`로 한글·역슬래시가 든 스크립트를 넘기면 문자열이 깨짐 → 파일을 Write로 만들어 `node 파일.mjs`로 실행. Node의 `/tmp`는 `C:\tmp`라서 bash `/tmp`로 만든 파일은 전체 경로(`C:/Users/…/Temp`)로 연다.
+- 10-28 · Claude · 공통 — CRLF 파일을 문자열 치환으로 고치려다 앵커가 안 맞음 → 읽자마자 `\r\n`을 `\n`으로 바꿔 고친 뒤 원래 줄바꿈으로 되돌려 쓴다(diff가 줄 전체로 커지지 않음).
+- 10-28 · Claude · Git — `git pull --rebase` 때 다른 세션의 로컬 커밋 2개가 내 작업 위로 재적용되고 내 스테이징 파일이 그중 하나에 섞임 → 푸시 전에 `git log origin/main..HEAD`로 내 커밋만인지 보고, 섞였으면 `reset --soft`로 풀어 `git checkout --detach origin/main` 위에 내 폴더만 커밋해 `git push origin HEAD:main`, 로컬은 `git rebase origin/main`으로 다시 맞춘다.
