@@ -135,3 +135,6 @@ const meta=async b=>{const h=await (await fetch('/brand/'+encodeURIComponent(b)+
 - 10-28 · Claude · 공통 — bash에서 `node -e`로 한글·역슬래시가 든 스크립트를 넘기면 문자열이 깨짐 → 파일을 Write로 만들어 `node 파일.mjs`로 실행. Node의 `/tmp`는 `C:\tmp`라서 bash `/tmp`로 만든 파일은 전체 경로(`C:/Users/…/Temp`)로 연다.
 - 10-28 · Claude · 공통 — CRLF 파일을 문자열 치환으로 고치려다 앵커가 안 맞음 → 읽자마자 `\r\n`을 `\n`으로 바꿔 고친 뒤 원래 줄바꿈으로 되돌려 쓴다(diff가 줄 전체로 커지지 않음).
 - 10-28 · Claude · Git — `git pull --rebase` 때 다른 세션의 로컬 커밋 2개가 내 작업 위로 재적용되고 내 스테이징 파일이 그중 하나에 섞임 → 푸시 전에 `git log origin/main..HEAD`로 내 커밋만인지 보고, 섞였으면 `reset --soft`로 풀어 `git checkout --detach origin/main` 위에 내 폴더만 커밋해 `git push origin HEAD:main`, 로컬은 `git rebase origin/main`으로 다시 맞춘다.
+- 10-28 · Claude · 보세몰(색상별 사진) — 근거 단계를 몰 규칙에 `evidence` 목록으로 적고 코드가 그 목록으로 단계를 걸러내게 하자, 사라172에서 실제로 찾아진 색별 사진 1개가 규칙에서 빠져 있었음 → 규칙을 눈으로 적은 값이라 현실과 어긋남 → 데이터에서 단계별 개수를 세는 점검(`node tools/evidence_report.mjs`)을 먼저 돌려 규칙과 맞춘 뒤 코드에 적용한다.
+- 10-28 · Claude · 공통 — Python이 없는 PC라 `color_photos.py`를 못 돌림 → 데이터 검증은 Node 스크립트로(옵션 색·사진 파일·규칙 대조), 화면은 로컬 정적 서버 + 브라우저로 확인하고, Python 코드는 작게 고쳐 "돌려 보지 않았음"을 AGENTS.md에 적어 둔다.
+- 10-28 · Claude · 공통 — 로컬 정적 서버가 404만 냄 → `path.join` 결과는 역슬래시라 `startsWith("C:/…")`가 틀렸고, 고친 뒤에도 옛 서버가 같은 포트를 잡고 있었음 → `path.resolve`로 기준 경로를 맞추고, 서버를 고치면 포트를 바꿔 띄운다.

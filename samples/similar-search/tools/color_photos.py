@@ -4,6 +4,8 @@ analyze.py 다음에 돌린다. 옷을 오려 색을 재지 않고 글자로만 
 - 올리는 사람마다 글자 위치가 달라 위치를 미리 정하지 않는다. 줄인 이미지에서 글자 상자 위치만 찾고,
   짧은 상자만 읽어 색 이름을 찾는다(사진 위에 쓴 글자 포함). 옵션 색을 다 찾으면 그 상품은 멈춘다.
 - 몰별 규칙(data/color-photo-rules.json)은 예외만: 끄기, 사진 밖 이름표의 사진 방향, 머리글 정규식.
+- 옵션 색마다 근거 단계(ev)를 data.js에 적는다: label(그 색 이름표 사진) → lineup(색상 모음·여러 벌이 함께 찍힌 사진도 허용)
+  → representative(대표 사진, 그 색인지 확인 안 됨). 몰 규칙의 evidence 목록에 없는 단계는 쓰지 않는다.
 - 글자 위치·읽은 글자는 cache/ocr.json에 쌓아 두므로 규칙만 바꿔 다시 돌리면 몇 초면 된다.
 
   python tools/color_photos.py              전체(data.js 갱신)
@@ -200,6 +202,20 @@ def save(cut, out):
     return out
 
 
+EVIDENCE = ["label", "lineup", "representative"]  # 코드에 있는 단계 순서(data/color-photo-rules.json의 fallback_policy 중)
+
+
+def allowed_evidence(rule):
+    """몰 규칙의 evidence 목록(없으면 전부). 목록에 없는 단계는 쓰지 않는다."""
+    return [e for e in EVIDENCE if e in (rule.get("evidence") or EVIDENCE)]
+
+
+def evidence_of(opt, p):
+    """옵션 색 하나가 어떤 사진을 근거로 보이는가. label(그 색 이름표 사진) → lineup(색상 모음·여러 벌이 함께
+    찍힌 사진도 허용) → representative(대표 사진, 그 색인지 확인 안 됨). 화면(index.html colorShot)과 같은 순서."""
+    return "label" if opt.get("img") else "lineup" if p.get("lineup") else "representative"
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     sample = int(sys.argv[sys.argv.index("--sample") + 1]) if "--sample" in sys.argv else 0
@@ -243,6 +259,7 @@ def main():
             p.pop("lineup", None)
             for o in p["opts"]:
                 o.pop("img", None)
+                o.pop("ev", None)
     done, stat = Counter(), Counter()
     for p in data["products"]:
         rule, tg = rules.get(p["mall"], {}), targets(p["opts"])
@@ -253,11 +270,18 @@ def main():
         r = raw[p["id"]]
         shots, lineup, seen = find(r["cands"] + r.get("more", []), rule, tg, boxes, read)
         shots = {k: v for k, v in shots.items() if f"{p['id']}/{k}" not in rule.get("exclude", [])}
+        allowed = allowed_evidence(rule)
+        if "label" not in allowed:  # 몰 규칙이 색별 사진을 쓰지 않게 했다
+            shots = {}
+        if "lineup" not in allowed:  # 여러 벌이 함께 찍힌 사진을 쓰지 않게 했다
+            lineup = None
         stat[p["mall"], "색별"] += len(shots)
         stat[p["mall"], "모음"] += lineup is not None
         stat[p["mall"], "색 수"] += len(pals)
         if sample:
-            print(p["id"], pals, "→ 색별", list(shots), "| 모음", bool(lineup))
+            rest = len(pals) - len(shots)
+            print(p["id"], pals, "→ 색별", list(shots), "| 모음", bool(lineup),
+                  "| 근거 label", len(shots), "lineup", rest if lineup else 0, "representative", 0 if lineup else rest)
             print("   ", seen[:8])
             continue
         for pal, cut in shots.items():
@@ -273,6 +297,16 @@ def main():
     CACHE.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
     for m, n in done.items():
         print(f"{m}: 상품 {n}개, 색 {stat[m, '색 수']}개 중 색별 사진 {stat[m, '색별']}, 색상 모음 사진 {stat[m, '모음']}개")
+    if not sample:
+        # 모든 옵션 색에 근거 단계를 적는다(규칙이 꺼진 몰·색 1개 상품도 representative로 남긴다)
+        ev = Counter()
+        for p in data["products"]:
+            for o in p["opts"]:
+                if "pal" in o:
+                    o["ev"] = evidence_of(o, p)
+                    ev[p["mall"], o["ev"]] += 1
+        for m in sorted({p["mall"] for p in data["products"]}):
+            print(f"{m}: 근거 " + ", ".join(f"{k} {ev[m, k]}" for k in EVIDENCE))
     print(f"{time.time() - t0:.0f}초")
     if not sample:
         DATA.write_text("window.SS = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\n",

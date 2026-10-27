@@ -13,3 +13,5 @@
 - 그 색 단독 사진이 없으면 `fallback_policy` 순서로 내려간다. 여러 벌이 겹친 사진이라도 쓸 수 있으면 쓰되 어느 단계였는지(evidence)를 남기고, 그 색인지 확인 못 한 대표 사진은 확인 안 됨으로 표시한다.
 - 옷 사진의 모습으로 색 이름을 지어내지 않는다. 색 이름은 구매 옵션의 이름만 쓴다.
 - 규칙을 고친 뒤에는 `python tools/color_photos.py --sample 5`로 결과를 보고, 전체를 돌린 뒤 표본 30장을 눈으로 확인해 틀린 수를 `learning_log`에 적는다.
+- 옵션 색마다 근거 단계(`ev`: label → lineup → representative)가 `data.js`에 적히고 카드·상세에 표시된다. 단계별 개수와 규칙 불일치는 `node tools/evidence_report.mjs`로 본다(Python 불필요).
+- 순서: Python 환경에서 `python tools/color_photos.py --sample 5`(몰마다 5개, 파일 안 바뀜) → 결과가 맞으면 `python tools/color_photos.py`(OCR 모델 필요, 처음엔 오래 걸림) → `node tools/evidence_report.mjs`로 `문제 없음` 확인 → 화면에서 표본 확인. `ev` 기록 코드는 2026-10-28에 추가했고 Python으로는 아직 돌려 보지 않았다.

@@ -30,6 +30,8 @@
   .card:hover { transform:translateY(-2px); box-shadow:0 6px 18px rgba(0,0,0,.08); }
   .card { position:relative; }
   .card .shot { position:absolute; top:8px; left:8px; background:rgba(0,0,0,.62); color:#fff; font-size:11px; border-radius:5px; padding:2px 7px; }
+  .card .shot.lineup { background:rgba(122,76,0,.82); }
+  .card .shot.representative { background:rgba(96,96,96,.82); }
   .card img { width:100%; aspect-ratio:3/4; object-fit:cover; display:block; background:#eee; }
   .card .b { padding:8px 10px 10px; }
   .card .m { font-size:12px; color:var(--sub); display:flex; justify-content:space-between; gap:6px; }
@@ -238,18 +240,22 @@ function search(text) {
   return { attrs, shades, words, rows, n: Object.keys(attrs).filter(g => g !== "type").length + words.length };
 }
 
-// 찾는 색(cols) 옵션의 사진이 있으면 그 사진, 없으면 색상 모음 사진. 둘 다 없으면 null(대표 사진을 쓴다)
+// 찾는 색(cols)을 보여줄 사진과 근거 단계(ev): label(그 색 사진) → lineup(색상 모음·여러 벌이 함께 찍힌 사진도 허용)
+// → representative(대표 사진, 그 색인지 확인 안 됨). 같은 색 옵션이 없으면 null. tools/color_photos.py evidence_of와 같은 순서.
 const colorShot = (p, cols) => {
   if (!(cols || []).length) return null;
   const hit = p.opts.filter(o => o.lab && cols.some(c => c.pal === o.pal || dE00(c.lab, o.lab) <= SAME_DE));
+  if (!hit.length) return null;
   const o = hit.find(o => o.img);
-  return o ? { img: o.img, label: `${o.name} 사진` } : hit.length && p.lineup ? { img: p.lineup, label: "색상 모음 사진" } : null;
+  if (o) return { img: o.img, label: `${o.name} 사진`, ev: "label" };
+  if (p.lineup) return { img: p.lineup, label: "색상 모음 사진(여러 벌)", ev: "lineup" };
+  return { img: p.img, label: "대표 사진·색 확인 안 됨", ev: "representative" };
 };
 function card(p, reasons, extra, cols) {
   const r = (reasons || []).map(j => `<span class="${j.s === 0 ? "off" : ""}">${j.why}</span>`).join("");
   const shot = colorShot(p, cols);
   return `<div class="card" data-i="${p.i}"><img loading="lazy" src="${esc(shot ? shot.img : p.img)}" alt="">
-    ${shot ? `<span class="shot">${esc(shot.label)}</span>` : ""}
+    ${shot ? `<span class="shot ${shot.ev}">${esc(shot.label)}</span>` : ""}
     <div class="b"><div class="m"><span>${esc(p.mall)}</span><span>${extra || ""}</span></div>
     <div class="n">${esc(p.name)}</div><div class="pr">${won(p.sale || p.price)}</div>
     <div class="cols">${colChips(p, 5)}</div><div class="sz">${sizeText(p)}</div>
@@ -355,7 +361,7 @@ function drawItem() {
   const colRow = p.seg === "ok" ? (p.col || []).map(c => `<span>${chip(c)} <small>${pct(c.share)}</small></span>`).join("") : "";
   document.getElementById("sheet").innerHTML = `<button class="close" onclick="closeItem()">닫기</button>
     <div class="hero">
-      <figure><img src="${esc(view.ref?.img || (view.ref && p.lineup) || p.img)}" alt=""><figcaption>${view.ref?.img ? `'${esc(view.ref.name)}' 옵션 사진` : view.ref && p.lineup ? `색상 모음 사진('${esc(view.ref.name)}' 단독 사진은 없음)` : view.ref ? `대표 사진('${esc(view.ref.name)}' 사진은 없음)` : "판독에 쓴 사진"}</figcaption></figure>
+      <figure><img src="${esc(view.ref?.img || (view.ref && p.lineup) || p.img)}" alt=""><figcaption>${view.ref?.img ? `'${esc(view.ref.name)}' 옵션 사진` : view.ref && p.lineup ? `색상 모음 사진(여러 벌이 함께 찍힘, '${esc(view.ref.name)}' 단독 사진은 없음)` : view.ref ? `대표 사진('${esc(view.ref.name)}' 색인지 확인 안 됨)` : "판독에 쓴 사진"}</figcaption></figure>
       <figure><img class="crop" src="${esc(p.crop)}" alt=""><figcaption>${p.seg === "ok" ? `AI가 본 부분(상의, 사진의 ${pct(p.area)})` : "상의를 찾지 못해 사진 전체로 판독"}</figcaption></figure>
       <div class="info"><div class="meta">${esc(p.mall)}</div><h3>${esc(p.name)}</h3>
         <div class="pr" style="font-size:17px;font-weight:700">${won(p.sale || p.price)} ${p.price && p.sale && p.sale < p.price ? `<small style="color:var(--sub);text-decoration:line-through;font-weight:400">${won(p.price)}</small>` : ""}</div>
