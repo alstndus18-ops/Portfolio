@@ -2,7 +2,7 @@
 
 브랜드·쇼핑몰을 모으면서 알게 된 빠른 방법과 시행착오를 모은다. Claude·Codex·Cursor 누구든 **수집 전에 "꼭 지킬 것"과 해당 사이트 방법을 읽고**, 수집 후 새로 알게 된 것을 "시행착오 기록"에 한 줄 추가한다.
 
-- 시행착오 기록은 맨 아래에 추가만 한다. 형식: `날짜 · 에이전트 · 사이트 — 겪은 일 → 원인 → 다음엔`.
+- 시행착오 기록은 맨 아래에 추가만 한다. 형식: `날짜 · 에이전트 · 사이트 — 겪은 일 → 원인 → 다음엔`. **1~2줄로 짧게 쓰고, 사이트마다 반복해서 쓸 방법은 "사이트별 메모" 표로 옮긴다.**
 - 같은 교훈이 두 번 이상 나오면 "꼭 지킬 것"이나 사이트 방법을 제자리에서 고친다.
 - 수집 기준은 기획서 §10(지금은 13·14번)과 `AGENTS.md` 데이터 원칙이 우선한다. 여기는 "어떻게 빠르고 확실하게"만 다룬다.
 
@@ -63,8 +63,9 @@ const meta=async b=>{const h=await (await fetch('/brand/'+encodeURIComponent(b)+
 | 사이트 | 메모 |
 |---|---|
 | 무신사 | 브라우저 밖 직접 요청은 403. 상품 목록 2쪽부터는 인증값(`hmacId`)이 필요해 403, `size`는 100까지. 전체 브랜드 목록 페이지는 없지만 카테고리 필터의 브랜드 목록은 쪽 넘김이 된다. 영문 주소 추측은 자주 틀린다(유라고 `urago`). 같은 이름의 브랜드숍이 둘인 경우가 있다(같은 브랜드인지 미확인: `boundary`·`boundary1` / 별개: `antler` 한국·`antler1` 영국). |
-| 29CM | 아직 같은 방식 미확인. |
-| W컨셉 | 아직 같은 방식 미확인. |
+| 29CM | 여성 의류 `/store/category/list?categoryLargeCode=268100100&categoryMediumCode=<코드>`의 브랜드 label과 `data-stn-id`에서 한글·영문명·브랜드 ID를 읽는다(아우터 268102100·니트웨어 268105100·상의 268103100·원피스 268104100·바지 268106100·스커트 268107100·셋업 268117100). 필터 하나가 최대 300개이고 전체 수 보장이 없어 전수로 보고하지 않으며, `categorySmallCode`(세부 분류)로 상위 300개 밖을 더 찾는다. `/store/brand/<ID>`에서 상품명·가격·품절을 확인. 홈웨어 필터에는 침구·펫·속옷이 섞임. 숨겨진 label은 `innerText`가 비어 `textContent`로 읽는다. 자세한 경위는 10-27 Codex 29CM 기록. |
+| W컨셉 | 29CM와 같은 방식은 미확인. 홈은 본문 상품·브랜드 데이터가 로드되지 않아 건너뜀(10-27 Codex). |
+| EQL | `/brands/homeSearch`의 `a[ctgryno]`에서 영문명(.brand)·한글명(.product)·ctgryno를 읽는다(2,538개, href는 javascript). 여성 의류 `EQLA01A01`·남성 의류 `EQLA02A01` 필터의 브랜드 value로 여성·혼합을 가른다. `/brands/main?brndCategoryNumber=<ctgryno>`에서 소개와 `a[godno][godnm]`의 상품명·가격을 확인(`input[name="frontState"][value="LOADED"]`을 기다린 뒤 읽는다). 잡화·침구 위주는 제외. 자세한 경위는 10-27 Codex EQL 기록. |
 
 ## 시행착오 기록
 
@@ -103,3 +104,8 @@ const meta=async b=>{const h=await (await fetch('/brand/'+encodeURIComponent(b)+
 - 10-27 · Codex · EQL — /brands/homeSearch의 a[ctgryno]에서 .brand 영문명·.product 한글명·ctgryno 2,538개를 읽음(href는 javascript). 여성 의류 EQLA01A01·남성 의류 EQLA02A01에서 브랜드 버튼을 열면 [data-que-component="FilterBrandResult"] input의 value/data-brnd-nm/data-brnd-nm-kor로 871·658개 필터 확인. 실제 /brands/main?brndCategoryNumber=<ctgryno> 공개 HTML을 브라우저 안에서 읽어 .general_brand 소개와 a[godno][godnm]의 godnm·lastsaleprc·상품 URL을 근거로 사용. 신규 후보 232곳에서 145개 추가. HTML은 Best 카드 위주이므로 의류가 없으면 추정 추가하지 않음. 남성 필터도 있으면 혼합 분류. 아모멘토 맨/우먼·이지오(EZIO)는 기존 라인 중복 제외. robots의 생성형 AI 그룹은 회원/보안 경로 외 허용, 약관 페이지는 시간 초과로 중단.
 
 - 10-27 · Codex · EQL — 공개 HTML Best 카드 밖 판매 상품은 브라우저의 input[name="frontState"][value="LOADED"]를 기다린 뒤 a[godno][godnm] DOM에서 읽음. 스틸고요 SWIMSUIT·티이지 비키니도 의류. 전체 목록 a[ctgryno]의 brndid와 여성 필터 value를 연결해야 동명 TAS(생활 BDMA01L37·러닝 의류 BDMA0136J)를 구분함. 단순 top/tee 정규식은 rooftop·laptop·STOP 포스터도 오인하므로 상품명 직접 검토 필수. 실제 옷이 있어도 잡화·침구 중심은 이번 의류 수집 범위에서 제외.
+
+- 10-27 · Claude · 공통 — 지시서에 "페이지 방문 25회 상한"을 줬는데 Cursor가 55회까지 감 → 상한이 지시문일 뿐 강제가 아님 → 큰 작업은 후보 10개 단위로 끊어 시키고, 끝나면 방문 횟수를 보고하게 한다.
+- 10-27 · Claude · 공통 — 계획서에 새 절을 추가하며 기존 `## 12`가 있는 줄 모르고 같은 번호로 넣음 → 번호 중복 → 새 절을 넣기 전에 `## ` 제목 목록을 먼저 본다.
+- 10-27 · Claude · Git — 푸시 직후 `fetch`를 다시 하니 그 사이 원격에 커밋이 4개 더 올라와 있음 → 작업 시작·커밋 직전·푸시 직전마다 `fetch`로 확인하고, 겹치지 않으면 `pull --ff-only`로 맞춘다.
+- 10-27 · Claude · 공통 — 브랜드 수·판매 채널 없는 브랜드 수가 STATUS 기록과 DB가 서로 다름(13개 vs 8개 vs 실제 6개) → 숫자는 기록을 믿지 말고 CSV에서 직접 세어 쓴다.
