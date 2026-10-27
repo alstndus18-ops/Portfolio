@@ -64,7 +64,7 @@ const meta=async b=>{const h=await (await fetch('/brand/'+encodeURIComponent(b)+
 |---|---|
 | 무신사 | 브라우저 밖 직접 요청은 403. 상품 목록 2쪽부터는 인증값(`hmacId`)이 필요해 403, `size`는 100까지. 전체 브랜드 목록 페이지는 없지만 카테고리 필터의 브랜드 목록은 쪽 넘김이 된다. 영문 주소 추측은 자주 틀린다(유라고 `urago`). 같은 이름의 브랜드숍이 둘인 경우가 있다(같은 브랜드인지 미확인: `boundary`·`boundary1` / 별개: `antler` 한국·`antler1` 영국). |
 | 29CM | 여성 의류 `/store/category/list?categoryLargeCode=268100100&categoryMediumCode=<코드>`의 브랜드 label과 `data-stn-id`에서 한글·영문명·브랜드 ID를 읽는다(아우터 268102100·니트웨어 268105100·상의 268103100·원피스 268104100·바지 268106100·스커트 268107100·셋업 268117100). 필터 하나가 최대 300개이고 전체 수 보장이 없어 전수로 보고하지 않으며, `categorySmallCode`(세부 분류)로 상위 300개 밖을 더 찾는다. `/store/brand/<ID>`에서 상품명·가격·품절을 확인. 홈웨어 필터에는 침구·펫·속옷이 섞임. 숨겨진 label은 `innerText`가 비어 `textContent`로 읽는다. 자세한 경위는 10-27 Codex 29CM 기록. |
-| W컨셉 | 29CM와 같은 방식은 미확인. 홈은 본문 상품·브랜드 데이터가 로드되지 않아 건너뜀(10-27 Codex). |
+| W컨셉 | `https://www.wconcept.co.kr/Brand`는 브랜드 찾기(`/rn/designer`)로 이동한다. 여성 탭의 실제 목록은 5,871개·196쪽(2026-10-27, 30개/쪽)이며, 탭을 누르면 브라우저 안에서 브랜드 목록 응답을 받는다. 목록의 `brandCd`·한글/영문명·`landingUrl`을 후보 키이자 판매 근거로 쓴다. 신규는 브랜드·W컨셉 관계·근거를 넣고, 기존 브랜드와 이름이 하나로 일치하면 W컨셉 `sells_through` 관계·근거만 추가한다(기획서 §10-16·17). 앱 내부 API는 세션·공개 클라이언트 설정을 요구하므로 주소나 키를 문서·CSV에 기록하거나 브라우저 밖에서 호출하지 않는다. |
 | EQL | `/brands/homeSearch`의 `a[ctgryno]`에서 영문명(.brand)·한글명(.product)·ctgryno를 읽는다(2,538개, href는 javascript). 여성 의류 `EQLA01A01`·남성 의류 `EQLA02A01` 필터의 브랜드 value로 여성·혼합을 가른다. `/brands/main?brndCategoryNumber=<ctgryno>`에서 소개와 `a[godno][godnm]`의 상품명·가격을 확인(`input[name="frontState"][value="LOADED"]`을 기다린 뒤 읽는다). 잡화·침구 위주는 제외. 자세한 경위는 10-27 Codex EQL 기록. |
 
 ## 시행착오 기록
@@ -104,6 +104,9 @@ const meta=async b=>{const h=await (await fetch('/brand/'+encodeURIComponent(b)+
 - 10-27 · Codex · EQL — /brands/homeSearch의 a[ctgryno]에서 .brand 영문명·.product 한글명·ctgryno 2,538개를 읽음(href는 javascript). 여성 의류 EQLA01A01·남성 의류 EQLA02A01에서 브랜드 버튼을 열면 [data-que-component="FilterBrandResult"] input의 value/data-brnd-nm/data-brnd-nm-kor로 871·658개 필터 확인. 실제 /brands/main?brndCategoryNumber=<ctgryno> 공개 HTML을 브라우저 안에서 읽어 .general_brand 소개와 a[godno][godnm]의 godnm·lastsaleprc·상품 URL을 근거로 사용. 신규 후보 232곳에서 145개 추가. HTML은 Best 카드 위주이므로 의류가 없으면 추정 추가하지 않음. 남성 필터도 있으면 혼합 분류. 아모멘토 맨/우먼·이지오(EZIO)는 기존 라인 중복 제외. robots의 생성형 AI 그룹은 회원/보안 경로 외 허용, 약관 페이지는 시간 초과로 중단.
 
 - 10-27 · Codex · EQL — 공개 HTML Best 카드 밖 판매 상품은 브라우저의 input[name="frontState"][value="LOADED"]를 기다린 뒤 a[godno][godnm] DOM에서 읽음. 스틸고요 SWIMSUIT·티이지 비키니도 의류. 전체 목록 a[ctgryno]의 brndid와 여성 필터 value를 연결해야 동명 TAS(생활 BDMA01L37·러닝 의류 BDMA0136J)를 구분함. 단순 top/tee 정규식은 rooftop·laptop·STOP 포스터도 오인하므로 상품명 직접 검토 필수. 실제 옷이 있어도 잡화·침구 중심은 이번 의류 수집 범위에서 제외.
+
+- 10-27 · Codex · W컨셉 — 여성 홈의 현재 판매 브랜드·상품과 sitemap은 확인했지만, 홈 API(`gw-front`)는 세션 밖 직접 접근 시 인증 오류이고 전체 브랜드 목록 경로는 아직 미확인 → 홈의 일부 카드만으로 수천 건을 수집하면 누락·중복이 커지므로, 목록의 전체 수·쪽넘김이 확인될 때까지 대량 입력 보류.
+- 10-27 · Codex · W컨셉 — `/Brand`의 브랜드 찾기에서 여성 탭을 누르자 목록 응답에 전체 5,871개·196쪽과 브랜드 코드·이름·랜딩 URL이 함께 확인됨 → 홈 카드나 sitemap 대신 이 목록을 후보 원본으로 쓰고, 실제 브랜드 페이지의 판매 상품으로만 최종 추가.
 
 - 10-27 · Claude · 공통 — 지시서에 "페이지 방문 25회 상한"을 줬는데 Cursor가 55회까지 감 → 상한이 지시문일 뿐 강제가 아님 → 큰 작업은 후보 10개 단위로 끊어 시키고, 끝나면 방문 횟수를 보고하게 한다.
 - 10-27 · Claude · 공통 — 계획서에 새 절을 추가하며 기존 `## 12`가 있는 줄 모르고 같은 번호로 넣음 → 번호 중복 → 새 절을 넣기 전에 `## ` 제목 목록을 먼저 본다.
