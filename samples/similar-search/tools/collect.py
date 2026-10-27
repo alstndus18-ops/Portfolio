@@ -2,9 +2,12 @@
 
 상품마다 상세 페이지 구매 옵션의 색상·사이즈(품절·추가금 포함)와 사진을 받는다. cands = 대표 사진 후보
 (대표·추가·상세 설명 앞쪽), more = 색상별 사진 후보(나머지 추가·상세 설명 사진).
-사진은 cache/에 있으면 다시 받지 않는다. 상의가 가장 잘 보이는 컷과 색상별 컷은 analyze.py가 고른다.
+사진은 cache/에 있으면 다시 받지 않는다. 대표 컷은 analyze.py, 색상별 컷은 color_photos.py가 고른다.
 출력: data/products_raw.json, cache/<몰>/<상품번호>_<URL 해시>.jpg (긴 변 800px, 저장소에 올리지 않음)
 공개 상품 목록·상세 페이지만 읽는다. 몰마다 페이지 요청 사이 0.4초 쉰다(몰끼리는 동시에, 사진은 상품마다 3장씩 동시에).
+
+  python tools/collect.py               상품부터 새로 모은다
+  python tools/collect.py --more [N]    이미 모은 상품의 색상별 사진 후보(more)만 다시 받는다(N: 몰마다 앞 N개만)
 """
 import csv
 import hashlib
@@ -30,7 +33,7 @@ MALL_TARGET = 4
 CATEGORY = "상의"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
 MAX_EXTRA, MAX_EDITOR = 3, 5  # 대표 사진 후보
-MAX_EXTRA_ALL, MAX_EDITOR_ALL = 12, 40  # 색상별 사진 후보까지
+MAX_EXTRA_ALL, MAX_EDITOR_ALL = 12, 150  # 색상별 사진 후보까지(색 사진은 긴 상세 설명 뒤쪽에 많다)
 IMG_WORKERS = 3
 
 # 쇼핑몰 목록(korea_shopping_malls.csv)에서 상의 카테고리가 확인된 카페24 몰. 무작위 순서(시드 20261027, 1028)
@@ -79,7 +82,10 @@ def save_image(src, dest):
         time.sleep(0.2)
         r = session().get(src, timeout=20)
         r.raise_for_status()
-        im = Image.open(io.BytesIO(r.content)).convert("RGB")
+        im = Image.open(io.BytesIO(r.content)).convert("RGBA")
+        bg = Image.new("RGB", im.size, (255, 255, 255))  # 투명 PNG는 흰 바탕에(그냥 RGB로 바꾸면 검정)
+        bg.paste(im, mask=im.getchannel("A"))
+        im = bg
         if min(im.size) < 150:
             return False
         # 세로로 긴 상세 이미지(색상별 착용 컷을 이어 붙인 것)는 나중에 컷별로 자르므로 폭 기준으로 줄인다
@@ -224,18 +230,51 @@ def image_candidates(html, domain):
     return main, more
 
 
+def save_all(item, url, srcs):
+    """사진들을 cache/에 받고 받은 것의 상대 경로 목록을 돌려준다."""
+    no = url.split("product_no=")[1].split("&")[0]
+    rels = [f"cache/{item['id'].split('-')[0]}/{no}_{hashlib.md5(s.encode()).hexdigest()[:10]}.jpg" for s in srcs]
+    with ThreadPoolExecutor(max_workers=IMG_WORKERS) as ex:
+        ok = list(ex.map(lambda a: save_image(a[0], ROOT / a[1]), zip(srcs, rels)))
+    return [r for r, o in zip(rels, ok) if o]
+
+
 def fetch_detail(item, domain, url):
     html = get(url)
     no = url.split("product_no=")[1].split("&")[0]
     item["colors"], item["sizes"] = parse_options(html, no)
     main, more = image_candidates(html, domain)
-    key = item["id"].split("-")[0]
-    rels = [f"cache/{key}/{no}_{hashlib.md5(src.encode()).hexdigest()[:10]}.jpg" for src in main + more]
-    with ThreadPoolExecutor(max_workers=IMG_WORKERS) as ex:
-        ok = list(ex.map(lambda a: save_image(a[0], ROOT / a[1]), zip(main + more, rels)))
-    item["cands"] = [r for r, o in zip(rels[:len(main)], ok) if o]
-    item["more"] = [r for r, o in zip(rels[len(main):], ok[len(main):]) if o]
+    item["cands"] = save_all(item, url, main)
+    item["more"] = save_all(item, url, more)
     return html
+
+
+def refresh_more(limit=0, pick=None):
+    """이미 모은 상품의 색상별 사진 후보(more)만 다시 받는다. 상품·옵션·대표 후보(cands)는 그대로 둔다
+    (analyze.py를 다시 돌리지 않아도 된다). pick: 다시 받을 상품만 고르는 함수."""
+    products = json.loads(OUT.read_text(encoding="utf-8"))
+    by = {}
+    for p in products:
+        if not pick or pick(p):
+            by.setdefault(p["mall"], []).append(p)
+
+    def run(ps):
+        for p in ps[:limit or None]:
+            try:
+                main, more = image_candidates(get(p["url"]), p["url"].split("/")[2])
+            except Exception as e:  # noqa: BLE001
+                print(f"{p['id']}: 상세 실패 {e}")
+                continue
+            p["more"] = [r for r in save_all(p, p["url"], main + more) if r not in p["cands"]]
+
+    t0 = time.time()
+    with ThreadPoolExecutor(max_workers=len(by)) as ex:
+        list(ex.map(run, by.values()))
+    OUT.write_text(json.dumps(products, ensure_ascii=False, indent=1), encoding="utf-8")
+    for m, ps in by.items():
+        ps = ps[:limit or None]
+        print(f"{m}: 상품 {len(ps)}개, 색상별 사진 후보 평균 {sum(len(p['more']) for p in ps) / len(ps):.1f}장")
+    print(f"{time.time() - t0:.0f}초")
 
 
 def collect_mall(mall_id, name, domain, cate_no):
@@ -312,4 +351,8 @@ def main():
 
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
-    main()
+    if "--more" in sys.argv:
+        rest = sys.argv[sys.argv.index("--more") + 1:]
+        refresh_more(int(rest[0]) if rest else 0)
+    else:
+        main()

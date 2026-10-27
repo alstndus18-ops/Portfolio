@@ -17,7 +17,6 @@ import numpy as np
 import torch
 from PIL import Image
 from scipy import ndimage
-from scipy.optimize import linear_sum_assignment
 from transformers import (AutoImageProcessor, AutoModelForSemanticSegmentation, CLIPModel,
                           CLIPProcessor)
 
@@ -353,23 +352,6 @@ def main_colors(rgb_pixels, k=3):
     return sorted(out, key=lambda o: -o["share"])
 
 
-def panels(im, limit=40):
-    """세로로 긴 상세 이미지를 컷별 (위, 아래) 좌표로 나눈다. 8줄 이상 거의 한 색인 가로 여백을 경계로 보고,
-    여백 없이 길게 붙은 덩어리는 폭의 1.3배 높이로 나눈다. 글자 띠처럼 납작한 조각은 뺀다."""
-    a = np.asarray(im.convert("L"), dtype=np.float32)
-    H, W = a.shape
-    busy = np.convolve(a.std(1) >= 4, np.ones(8), "same") > 0  # 8줄 미만의 여백은 컷 안쪽으로 본다
-    edges = np.flatnonzero(np.diff(np.r_[0, busy.astype(int), 0]))
-    out = []
-    for y0, y1 in zip(edges[::2], edges[1::2]):
-        h = y1 - y0
-        if h < W * 0.5:
-            continue
-        k = max(1, round(h / (W * 1.3))) if h > W * 1.8 else 1
-        out += [(y0 + h * i // k, y0 + h * (i + 1) // k) for i in range(k)]
-    return out[:limit]
-
-
 def segment(segs, im, labels, device, side=SEG_SIDE):
     """옷 마스크·확률과 사진 정보. 분할 모델 여러 개 × 좌우 뒤집기 판정을 평균하고, 비율을 지켜 크게 넣는다.
     돌려주는 값: (마스크, 옷 확률, 사람이 입은 사진인지, 옷 덩어리 수)"""
@@ -416,53 +398,6 @@ def segment(segs, im, labels, device, side=SEG_SIDE):
     return hard, prob, worn, pieces
 
 
-def side_by_side(m):
-    """옷 덩어리 2~4개가 좌우로 나란히 있으면 벌마다 (x0, x1, 마스크), 아니면 [].
-    자르는 범위는 덩어리 양옆으로 폭의 4%까지(옆 옷이 들어오지 않게 덩어리 사이 가운데를 넘지 않는다)."""
-    lab, n = ndimage.label(m)
-    W = m.shape[1]
-    if not 2 <= n <= 4:
-        return []
-    boxes = sorted((sl[1].start, sl[1].stop, k + 1) for k, sl in enumerate(ndimage.find_objects(lab)))
-    if any(b[0] < a[1] - W * 0.03 for a, b in zip(boxes, boxes[1:])):
-        return []
-    cuts = [0] + [(a[1] + b[0]) // 2 for a, b in zip(boxes, boxes[1:])] + [W]
-    pad = int(W * 0.04)
-    parts = [(max(cuts[k], x0 - pad), min(cuts[k + 1], x1 + pad), lab == k_) for k, (x0, x1, k_) in enumerate(boxes)]
-    # 옷 한 벌로 보기 어려운 좁은 띠·작은 조각이 있으면 나누지 않는다
-    sizes = [pm.sum() for _, _, pm in parts]
-    if any(x1 - x0 < W * 0.2 or s < max(sizes) * 0.3 for (x0, x1, _), s in zip(parts, sizes)):
-        return []
-    return parts
-
-
-def color_cand(rgb, m, prob, worn, min_a):
-    """색상별 사진 후보 하나: 옷의 주된 색과 비중, 섞인 색, 점수. 옷이 작으면 None."""
-    a = float(m.mean())
-    if a < min_a:
-        return None
-    inner = ndimage.binary_erosion(m, iterations=4) & (prob > 0.85)
-    px = rgb[inner if inner.sum() >= 200 else m]
-    cs = main_colors(px)
-    if not cs:
-        return None
-    # 사람이 입지 않은 컷은 옷 밖(배경·흰 마네킹 제외)에 보이는 색도 기록한다. 행거·색상 모음 컷에서
-    # 분할이 한 벌만 옷으로 잡아도 다른 옵션 색 옷이 함께 찍혔는지 알 수 있게
-    scene = []
-    if not worn:
-        out = rgb[~m]
-        out = out[np.random.default_rng(0).choice(len(out), min(6000, len(out)), replace=False)]
-        bg = rgb2lab(np.median(np.concatenate([rgb[0], rgb[-1], rgb[:, 0], rgb[:, -1]]), 0))
-        lab = rgb2lab(out)
-        keep = (np.linalg.norm(lab - bg, axis=1) > 12) & ~((lab[:, 0] > 85) & (np.hypot(lab[:, 1], lab[:, 2]) < 12))
-        if keep.sum() >= 300:
-            frac = (~m).mean() * keep.mean()
-            scene = [(c["lab"], round(c["share"] * frac, 3)) for c in main_colors(out[keep], 5)]
-    # 섞인 색 검사는 더 잘게(5묶음) 나눠 본다. 3묶음이면 행거의 검정·회색·갈색이 한 묶음이 된다
-    return {"lab": cs[0]["lab"], "share": cs[0]["share"], "scene": scene,
-            "mix": [(c["lab"], c["share"]) for c in main_colors(px, 5)], "score": a * (1.5 if worn else 1)}
-
-
 def cutout(im, mask):
     """옷만 남기고 나머지는 회색으로 칠해 정사각형으로 자른다. 경계만 1~2px 부드럽게."""
     alpha = ndimage.gaussian_filter(mask.astype(np.float32), 1.0)[..., None]
@@ -483,8 +418,6 @@ def main():
                   for n in SEG_NAMES]
     (ROOT / "images").mkdir(exist_ok=True)
     (ROOT / "crops").mkdir(exist_ok=True)
-    for f in (ROOT / "images").glob("*_*.jpg"):  # 지난번 색상별 사진(상품 id에는 '_'가 없다)
-        f.unlink()
 
     crops = []
     for n, p in enumerate(products):
@@ -498,36 +431,6 @@ def main():
                  for a, (_, _, _, pieces), im in zip(areas, segs, ims)]
         worn = [sc if s[2] and sc >= MIN_AREA * 1.5 else 0 for sc, s in zip(score, segs)]
         best = int(np.argmax(worn)) if max(worn) else int(np.argmax(score)) if max(score) >= MIN_AREA else int(np.argmax(areas))
-        # 색상별 사진 후보: 옷이 한 벌로 또렷하게 잡힌 사진(긴 상세 이미지는 컷별로)마다 옷의 주된 색을 기록.
-        # 나중에 옵션과 맞춘다. 색 옵션이 2개 미만이면 컷 나누기와 나머지 상세 사진(more)은 보지 않는다.
-        n_opt = sum(opt_color(o["name"]) is not None for o in p.get("colors", []))
-        more = [Image.open(ROOT / c).convert("RGB") for c in p.get("more", [])] if n_opt >= 2 else []
-        fast = lambda s: segment(seg_models[:1], s, labels, device, 512)
-        p["_cand"], p["_best"] = [], best
-        for i, im in enumerate(ims + more):
-            if im.height > im.width * 1.8:
-                if n_opt < 2:
-                    continue
-                res = [(im.crop((0, y0, im.width, y1)), (int(y0), int(y1)), 0.06) for y0, y1 in panels(im)]
-                res = [(s, ys, fast(s), a) for s, ys, a in res]
-            else:
-                res = [(im, (0, im.height), segs[i] if i < len(ims) else fast(im), MIN_AREA)]
-            for s, (y0, y1), (m, pr_, wn, pieces), min_a in res:
-                rgb = np.asarray(s)
-                # 두 색을 좌우로 나란히 찍은 컷은 한 벌씩 잘라 따로 본다
-                parts = side_by_side(m) if pieces >= 2 else []
-                if parts:
-                    subs = [(x0, x1, pm[:, x0:x1]) for x0, x1, pm in parts]
-                elif pieces <= 2:
-                    subs = [(0, s.width, m)]
-                else:
-                    continue
-                for x0, x1, sm in subs:
-                    c = color_cand(rgb[:, x0:x1], sm, pr_[:, x0:x1], wn, min_a)
-                    if c:
-                        whole = (x0, x1, y0, y1) == (0, im.width, 0, im.height)
-                        p["_cand"].append({"i": i, "box": None if whole else (x0, y0, x1, y1),
-                                           "g": (i, y0) if parts else None, **c})
         p["img"] = f"images/{p['id']}.jpg"
         shutil.copyfile(ROOT / p["cands"][best], ROOT / p["img"])
         if areas[best] >= MIN_AREA:
@@ -594,61 +497,6 @@ def main():
                 hit["photo"] = True
                 if hit["fam"] == c0["fam"]:
                     hit["lab"], hit["hex"] = c0["lab"], c0["hex"]
-                for o in mapped:
-                    if o["pal"] == hit["pal"]:
-                        o["img"] = p["img"]
-        # 색상별 사진: 후보 사진 속 옷 색을 옵션 색과 맞춰 보관(옵션마다 가장 좋은 한 장).
-        # 그 색 사진이 없으면 대표 사진을 쓴다(화면에서 처리).
-        cands, best = p.pop("_cand"), p.pop("_best")
-        if mapped:
-            # 같은 색 이름표 옵션(브라운(숏)·브라운(롱) 등)은 한 색으로 묶어 판단하고 사진도 같이 쓴다
-            pals = list(dict.fromkeys(o["pal"] for o in mapped))
-            ol = np.array([next(o["lab"] for o in mapped if o["pal"] == k) for k in pals])
-            dist = lambda a, b: np.linalg.norm((np.asarray(a) - b) * [0.5, 1, 1], axis=-1)
-            # 배색·무늬처럼 주된 색이 절반 미만이거나, 다른 색이 합쳐서 15% 이상 섞인 사진
-            # (행거·색상 모음 컷, 마네킹·배경이 옷으로 잡힌 컷)은 쓰지 않는다
-            cands = [c for c in cands if c["share"] >= 0.5
-                     and sum(s for l, s in c["mix"] if dist(l, c["lab"]) > 25) < 0.15]
-            # 옷 밖에 다른 옵션 색 옷이 함께 보이는 컷(행거·색상 모음)
-            crowded = lambda c, j: sum(s for l, s in c["scene"] if s >= 0.03 and dist(l, c["lab"]) > 15
-                                       and np.delete(dist(ol, l), j).min(initial=99) <= 20) >= 0.04
-            groups = {}
-            for c in cands:
-                groups.setdefault(c["g"] or id(c), []).append(c)
-            matched = []
-            for cs in groups.values():
-                labs = np.array([c["lab"] for c in cs])
-                if len(cs) >= 2 and min(dist(a, b) for k, a in enumerate(labs) for b in labs[k + 1:]) >= 10:
-                    # 좌우로 나란히 찍은 서로 다른 색: 서로 비교해 옵션을 하나씩 짝짓는다(네이비·블랙처럼 비슷한 색도 구분)
-                    D = np.array([dist(ol, l) for l in labs])
-                    matched += [(j, cs[r]) for r, j in zip(*linear_sum_assignment(D))
-                                if D[r, j] <= 25 and not crowded(cs[r], j)]
-                    continue
-                for c in cs:
-                    # 한 벌 컷은 가장 가까운 옵션 색이 다른 옵션 색보다 뚜렷하게 가까울 때만
-                    d = dist(ol, c["lab"])
-                    j = int(d.argmin())
-                    gap = float(np.partition(d, 1)[1] - d[j]) if len(d) > 1 else 99
-                    if d[j] <= 25 and gap >= 5 and not crowded(c, j):
-                        matched.append((j, c))
-            pick = {}
-            for j, c in matched:
-                if c["score"] > pick.get(j, (-1, None))[0]:
-                    pick[j] = (c["score"], c)
-            for j, (_, c) in pick.items():
-                group = [o for o in mapped if o["pal"] == pals[j]]
-                img = next((o["img"] for o in group if "img" in o), None)
-                if not img and c["i"] == best and not c["box"]:
-                    img = p["img"]
-                if not img:
-                    img = f"images/{p['id']}_{opts.index(group[0])}.jpg"
-                    shot = Image.open(ROOT / (p["cands"] + p.get("more", []))[c["i"]]).convert("RGB")
-                    if c["box"]:
-                        shot = shot.crop(c["box"])
-                    shot.thumbnail((800, 800))
-                    shot.save(ROOT / img, "JPEG", quality=88)
-                for o in group:
-                    o["img"] = img
         p["opts"], p["colorSrc"] = opts, "옵션" if mapped else "사진"
         p["sizeKeys"] = size_keys(p.get("sizes", []))
         del p["colors"]
