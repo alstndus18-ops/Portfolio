@@ -95,8 +95,8 @@
 <main id="main"></main>
 <div id="panel"><div class="sheet" id="sheet"></div></div>
 <footer>
-  색과 사이즈는 각 쇼핑몰 상품 페이지의 구매 옵션 기준이다(옵션 색 이름은 색 이름표로 바꿈). 사진은 상의 부분만 오려(SegFormer 의류 분할) 사진 속 옷이 어느 옵션인지 맞추고, 옵션 색이 없는 상품만 사진 색으로 대신한다. 종류·무늬·사진 유사도는 FashionCLIP으로 계산했다(모두 이 PC에서). 종류는 상품마다 하나로, 상품명에 있으면 상품명을, 없으면 사진 판정을 따른다. 디테일·소재는 상품명 사전에 있는 말만 쓴다(상품 애칭은 쓰지 않음).
-  사진 판정은 틀릴 수 있어 근거를 함께 보여 준다. 결과는 똑같은 옷이 아니라 참고할 만한 옷을 넓게 보여 주도록 묶었다.
+  색과 사이즈는 각 쇼핑몰 상품 페이지의 구매 옵션 기준이다(옵션 색 이름은 색 이름표로 바꿈). 사진은 상의 부분만 오려(SegFormer 의류 분할) 사진 속 옷이 어느 옵션인지 맞추고, 옵션 색이 없는 상품만 사진 색으로 대신한다. 사진 유사도는 FashionCLIP으로 계산했다(모두 이 PC에서). 종류는 상품마다 하나로, 상품명에 있으면 상품명을, 없으면 사진 판정을 따른다. 소매·무늬·넥라인·핏·분위기·디테일·소재는 상품명 사전에 있는 말만 쓴다(사진 판정은 잘 틀려 쓰지 않음, 상품 애칭은 쓰지 않음).
+  태그마다 근거(상품명·옵션 등)를 함께 보여 준다. 결과는 똑같은 옷이 아니라 참고할 만한 옷을 넓게 보여 주도록 묶었다.
 </footer>
 <script src="data.js"></script>
 <script>
@@ -113,7 +113,8 @@ const chip = c => `<i class="dot" style="background:${c.hex}"></i>${esc(c.name)}
 // 옷의 대표 색들: 첫 색 + 30% 이상인 두 번째 색
 const mainCols = p => (p.col || []).filter((c, i) => i === 0 || c.share >= 0.3).slice(0, 2);
 
-// 사진 임베딩(int8) 풀기, 속성 확률 벡터(종류·소매·무늬·넥라인·핏)
+const has = (p, g, k) => +(p.tags[g] || []).includes(k);
+// 사진 임베딩(int8) 풀기, 속성 벡터(종류·소매·무늬·넥라인·핏, 상품명 태그)
 const AG = ["type", "sleeve", "pattern", "neck", "fit"];
 P.forEach((p, i) => {
   p.i = i;
@@ -123,16 +124,14 @@ P.forEach((p, i) => {
   const n = Math.sqrt(s) || 1;
   for (let j = 0; j < v.length; j++) v[j] /= n;
   p.v = v;
-  const a = AG.flatMap(g => Object.keys(L[g].values).map(k => (p.p[g] || {})[k] || 0));
+  const a = AG.flatMap(g => Object.keys(L[g].values).map(k => has(p, g, k)));
   const an = Math.sqrt(a.reduce((t, x) => t + x * x, 0)) || 1;
   p.a = a.map(x => x / an);
 });
 const typeOf = p => p.tags.type[0];
 // 비교에 쓰는 디테일 태그(종류·색·분위기 제외)
 const DG = ["detail", "material", "sleeve", "neck", "fit", "pattern"];
-// 상품명에서 온 태그 + 사진 판정 50% 이상인 태그만(사진 추정은 틀리기 쉬움)
-const tagsOf = p => p._t || (p._t = DG.flatMap(g => (p.tags[g] || [])
-  .filter(k => (p.src[g + ":" + k] || "").includes("상품명") || ((p.p[g] || {})[k] || 0) >= 0.5).map(k => g + ":" + k)));
+const tagsOf = p => p._t || (p._t = DG.flatMap(g => (p.tags[g] || []).map(k => g + ":" + k)));
 const tagName = t => { const [g, k] = t.split(":"); return lbl(g, k); };
 // CIEDE2000 색 차이(사람 눈 기준에 가까움). 2 이하는 거의 같음, 5 넘으면 다른 색으로 보임
 function dE00(x, y) {
@@ -236,13 +235,8 @@ function judgeColor(p, k, shades) {
   return { s: 0, d, why: "색 다름" };
 }
 function judge(p, g, k) {
-  const tag = p.tags[g] || [], pr = (p.p[g] || {})[k] || 0;
-  if (tag.includes(k) || pr >= 0.35) {
-    const src = p.src[g + ":" + k];
-    return { s: 2, why: esc(lbl(g, k)) + (src === "상품명" ? " (상품명)" : pr ? " (사진 " + pct(pr) + ")" : "") };
-  }
-  if (pr >= 0.15) return { s: 1, why: esc(lbl(g, k)) + "일 수도(" + pct(pr) + ")" };
-  return { s: 0, why: esc(lbl(g, k)) + " 아님" };
+  if (has(p, g, k)) return { s: 2, why: `${esc(lbl(g, k))} (${p.src[g + ":" + k]})` };
+  return { s: 0, why: esc(lbl(g, k)) + " 표시 없음" };
 }
 
 function search(text) {
@@ -258,7 +252,7 @@ function search(text) {
     const c = gs.find(j => j.g === "color");
     const score = gs.reduce((a, j) => a + (j.s === 2 ? 1 : j.s === 1 ? 0.4 : 0), 0)
       + (c ? Math.max(0, 1 - c.d / 40) * 0.5 : 0)
-      + Object.entries(attrs).filter(([g]) => g !== "color").reduce((a, [g, ks]) => a + Math.max(...ks.map(k => (p.p[g] || {})[k] || 0)) * 0.3, 0);
+      + Object.entries(attrs).filter(([g]) => g !== "color").reduce((a, [g, ks]) => a + Math.max(...ks.map(k => has(p, g, k))) * 0.3, 0);
     return { p, gs, score };
   });
   return { attrs, shades, words, rows, n: Object.keys(attrs).filter(g => g !== "type").length + words.length };
@@ -375,10 +369,8 @@ function drawItem() {
   const refTxt = view.ref ? `기준 색 '${esc(view.ref.name)}'과 같은(같은 색 이름표 또는 아주 가까운) 색` : "같은 색";
   const tagRows = Object.keys(L).filter(g => g !== "color" && (g === "type" || DG.includes(g) || g === "style")).map(g => {
     const t = p.tags[g] || [];
-    if (!p.p[g] && !t.length) return "";
-    const probs = p.p[g] && g !== "type" ? Object.entries(p.p[g]).slice(0, 3).map(([k, v]) => `${lbl(g, k)} ${pct(v)}`).join(", ") : "";
-    return `<div><span class="g">${L[g].name}</span>${t.map(k => `<span>${lbl(g, k)} <small>${p.src[g + ":" + k] || ""}</small></span>`).join("") || "<small>-</small>"}
-      ${probs ? `<small style="margin-left:6px">사진 판정: ${probs}</small>` : ""}</div>`;
+    if (!t.length) return "";
+    return `<div><span class="g">${L[g].name}</span>${t.map(k => `<span>${lbl(g, k)} <small>${p.src[g + ":" + k] || ""}</small></span>`).join("")}</div>`;
   }).join("");
   const chips = mine.length ? `<div class="tchips">이 디테일이 있는 옷만 보기: ${mine.map(t => `<button data-t="${t}" class="${view.sel.has(t) ? "on" : ""}">${esc(tagName(t))}</button>`).join("")}</div>` : "";
   const colRow = p.seg === "ok" ? (p.col || []).map(c => `<span>${chip(c)} <small>${pct(c.share)}</small></span>`).join("") : "";

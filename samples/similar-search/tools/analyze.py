@@ -2,7 +2,7 @@
 
 1. 옷 영역 찾기: SegFormer 의류 분할(mattmdjaga/segformer_b2_clothes). 사진 후보 중 옷이 가장 크게 잡힌 컷을 고른다.
 2. 색: 오려낸 옷 픽셀만 Lab 색공간에서 3개로 묶어(k-means) 주요 색을 구하고, 색 이름표(PALETTE)에서 가장 가까운 이름을 붙인다.
-3. 종류·소매·무늬·넥라인·핏·분위기와 사진 유사도: 오려낸 이미지로 FashionCLIP(patrickjohncyh/fashion-clip).
+3. 사진 유사도: 오려낸 이미지로 FashionCLIP(patrickjohncyh/fashion-clip). 상품명에 종류가 없을 때만 종류도 사진으로 정한다.
 4. 상품명·옵션 색상: 사전(DICT) 대조. 같은 사전과 색 이름표를 웹 검색어 해석에도 쓴다.
 """
 import base64
@@ -191,8 +191,6 @@ DICT = {
     },
     **{g: {k: ws for k, (_, ws) in vals.items()} for g, (_, vals) in NAME_ONLY.items()},
 }
-PHOTO_MIN = 0.30  # 사진 판정을 태그로 인정하는 최소 확률(최상위 값일 때)
-
 
 def text_tags(text):
     """문장에서 속성별 값 목록. 속성마다 긴 단어부터 맞추고 맞춘 부분은 지운다."""
@@ -460,25 +458,21 @@ def main():
 
     model = CLIPModel.from_pretrained(CLIP_NAME).to(device).eval()
     proc = CLIPProcessor.from_pretrained(CLIP_NAME)
-    text_emb = {}
     with torch.no_grad():
-        for g, (_, vals) in GROUPS.items():
-            t = proc(text=[pr for _, pr in vals.values()], return_tensors="pt", padding=True).to(device)
-            e = model.text_projection(model.text_model(**t).pooler_output)
-            text_emb[g] = e / e.norm(dim=-1, keepdim=True)
+        # 사진 판정은 상품명에 종류가 없을 때 종류를 정하는 데만 쓴다(소매·핏 등 사진 태그는 잘 틀려 쓰지 않음)
+        t = proc(text=[pr for _, pr in GROUPS["type"][1].values()], return_tensors="pt", padding=True).to(device)
+        type_emb = model.text_projection(model.text_model(**t).pooler_output)
+        type_emb = type_emb / type_emb.norm(dim=-1, keepdim=True)
         embs = []
         for i in range(0, len(crops), 32):
             x = proc(images=crops[i:i + 32], return_tensors="pt").to(device)
             e = model.visual_projection(model.vision_model(pixel_values=x["pixel_values"]).pooler_output)
             embs.append(e / e.norm(dim=-1, keepdim=True))
         img_emb = torch.cat(embs)
-        scale = model.logit_scale.exp()
-        for g, (_, vals) in GROUPS.items():
-            keys = list(vals.keys())
-            probs = (scale * img_emb @ text_emb[g].T).softmax(dim=-1).cpu().numpy()
-            for p, row in zip(products, probs):
-                order = row.argsort()[::-1][:4]
-                p.setdefault("p", {})[g] = {keys[j]: round(float(row[j]), 2) for j in order}
+        keys = list(GROUPS["type"][1].keys())
+        probs = (model.logit_scale.exp() * img_emb @ type_emb.T).softmax(dim=-1).cpu().numpy()
+        for p, row in zip(products, probs):
+            p["_type"] = (keys[int(row.argmax())], float(row.max()))
 
     for p in products:
         name_t = text_tags(p["name"])
@@ -503,10 +497,10 @@ def main():
         tags, src = {}, {}
         # 종류는 하나만: 상품명이 있으면 상품명, 없으면 사진 판정 1위
         nt = name_type(p["name"])
+        k, v = p.pop("_type")
         if nt:
             tags["type"], src[f"type:{nt}"] = [nt], "상품명"
         else:
-            k, v = next(iter(p["p"]["type"].items()))
             tags["type"], src[f"type:{k}"] = [k], f"사진 {round(v * 100)}%"
         for g in NAME_ONLY:
             tags[g] = name_t.get(g, [])
@@ -531,12 +525,6 @@ def main():
                         if c["fam"] not in vals:
                             vals.append(c["fam"])
                         src[f"color:{c['fam']}"] = "상품명·사진 색" if f"color:{c['fam']}" in src else "사진 색"
-            elif not vals:  # 상품명에 값이 있으면 사진 추정은 덧붙이지 않는다
-                top_k, top_v = next(iter(p["p"][g].items()))
-                if top_v >= PHOTO_MIN:
-                    src[f"{g}:{top_k}"] = "상품명·사진" if top_k in vals else "사진"
-                    if top_k not in vals:
-                        vals.append(top_k)
             tags[g] = vals
         p["tags"], p["src"] = tags, src
         del p["cands"]
