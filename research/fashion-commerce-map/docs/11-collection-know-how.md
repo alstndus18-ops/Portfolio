@@ -91,3 +91,15 @@ const meta=async b=>{const h=await (await fetch('/brand/'+encodeURIComponent(b)+
 - 10-27 · Cursor · 무신사 — 재점검에서 `totalCount`(상의 4,059)보다 받은 수(4,021)가 적음 → 재시도·쪽 크기 50으로 바꿔도 같고 마지막 쪽만 짧음 → 무신사 표시 수 차이로 보고 넘어감. 처음 수집 때는 이 비교를 안 했다.
 - 10-27 · Cursor · 무신사 — 이름 일치로 중복 처리해 동명 별개 브랜드 15개가 빠짐(`rab` 랩 ↔ DB `lap` 랩, `diff` ↔ `diiff` 디프 등) → 무신사 주소를 먼저 비교하고, 이름만 같으면 국가·설립을 비교한다.
 - 10-27 · Cursor · 공통 — 점검 스크립트에서 `foreach ($e in $E)`로 돌려 `$E`가 덮어써져 엔터티 수가 비어 나옴(데이터는 정상) → 반복 변수는 `$row`처럼 전혀 다른 이름.
+
+- 10-27 · Codex · 29CM — 여성 의류 `/store/category/list?categoryLargeCode=268100100&categoryMediumCode=<코드>`의 브랜드 h5 아래 label에서 한글·영문명과 data-stn-id의 브랜드 ID를 읽을 수 있음(아우터 268102100·니트웨어 268105100·상의 268103100·원피스 268104100 각 300개). `/store/brand/<ID>`에서 카테고리·`product.29cm.co.kr/catalog/` 상품명·가격·품절을 확인해 기록. 각 300개는 전체 수 보장이 없어 전수로 보고하지 않음. 별칭(퍼블리카=퍼블리카엑스)·기존 브랜드 여성 라인은 재추가하지 않고, 확인 상품 모두 품절이면 건너뜀.
+- 10-27 · Codex · 29CM — 바지 268106100·스커트 268107100·셋업 268117100·홈웨어 268110100·ALL은 각 300개, 점프수트 268115100은 254개·행사복 268127100은 5개 확인. 홈웨어 필터에도 침구·생활용품·속옷이 섞임 → 실제 브랜드숍 소개와 상품 카드로 의류 판매를 확인하고 이번 의류 중심 수집에서 제외. 코닥어패럴=코닥·르꼬끄스포르티브=르꼬끄·살롱드서울 포 우먼=살롱드서울·스탠아드 우먼=스탠아드·에이카화이트=에이카·수수무 홈=수수무처럼 기존 별칭·라인은 재추가하지 않음. 이동 직후 label이 없으면 `waitForSelector('label .text-xs')`로 로딩 완료 후 읽음.
+- 10-27 · Codex · 29CM/W컨셉 — 중분류의 `categorySmallCode` 링크를 따라가면 세부 분류별 브랜드 필터가 달라져 상위 300개 밖 후보를 찾을 수 있음(아우터 27개 확인, 세부 필터도 최대 300개). 브랜드숍 앞 상품이 품절·가방이어도 같은 페이지 나머지 카드에 판매 중 의류가 있을 수 있어 6개까지 읽되 키즈 표기는 근거에서 제외. 누아클레·포터리·메르고·해브해드의 WOMEN 및 파르티멘토 REWORKS는 기존 라인 중복 제외. W컨셉 홈은 본문 상품·브랜드 데이터 미로딩으로 건너뜀.
+
+- 10-27 · Codex · 29CM — 니트웨어 9·상의 9·바지 10·스커트 4·원피스 4개 세부 필터에서 후보 137개를 확인해 71개 추가. 아이홀릭=아이홀릭 캐시미어·이지오=이지오 우먼·이스트로그 퍼머넌트=이스트로그는 기존 브랜드 중복 제외. 상품명 Top_·ZIP-UP도 의류이므로 영문 단어 경계만으로 거르면 판매 상품을 놓침 → 같은 페이지의 상품명·가격·품절을 함께 확인.
+
+- 10-27 · Codex · 29CM — 셋업 3·홈웨어 9개 세부 필터와 홈웨어 중분류 합집합 849개에서 지난 확인을 제외한 신규 후보 110곳 확인, 의류 판매 근거 10개 추가. 홈웨어 필터에 펫 의류도 섞임(르세이지·누우띠) → 소개의 반려동물 표기와 상품명을 함께 보고 제외. 숨겨진 브랜드 label의 innerText는 빈 문자열이므로 .text-m/.text-xs의 textContent, data-stn-id의 세 번째 조각으로 이름·ID를 읽는다.
+
+- 10-27 · Codex · EQL — /brands/homeSearch의 a[ctgryno]에서 .brand 영문명·.product 한글명·ctgryno 2,538개를 읽음(href는 javascript). 여성 의류 EQLA01A01·남성 의류 EQLA02A01에서 브랜드 버튼을 열면 [data-que-component="FilterBrandResult"] input의 value/data-brnd-nm/data-brnd-nm-kor로 871·658개 필터 확인. 실제 /brands/main?brndCategoryNumber=<ctgryno> 공개 HTML을 브라우저 안에서 읽어 .general_brand 소개와 a[godno][godnm]의 godnm·lastsaleprc·상품 URL을 근거로 사용. 신규 후보 232곳에서 145개 추가. HTML은 Best 카드 위주이므로 의류가 없으면 추정 추가하지 않음. 남성 필터도 있으면 혼합 분류. 아모멘토 맨/우먼·이지오(EZIO)는 기존 라인 중복 제외. robots의 생성형 AI 그룹은 회원/보안 경로 외 허용, 약관 페이지는 시간 초과로 중단.
+
+- 10-27 · Codex · EQL — 공개 HTML Best 카드 밖 판매 상품은 브라우저의 input[name="frontState"][value="LOADED"]를 기다린 뒤 a[godno][godnm] DOM에서 읽음. 스틸고요 SWIMSUIT·티이지 비키니도 의류. 전체 목록 a[ctgryno]의 brndid와 여성 필터 value를 연결해야 동명 TAS(생활 BDMA01L37·러닝 의류 BDMA0136J)를 구분함. 단순 top/tee 정규식은 rooftop·laptop·STOP 포스터도 오인하므로 상품명 직접 검토 필수. 실제 옷이 있어도 잡화·침구 중심은 이번 의류 수집 범위에서 제외.
