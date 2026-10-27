@@ -39,7 +39,7 @@ BusinessUnit ──operates──> Storefront
 BusinessUnit ──owns_or_operates──> Brand
 Company ──owns_or_operates──> Brand
 Seller ──sells_through──> Storefront 또는 Platform
-Brand ──has_sales_channel──> SalesChannel
+Brand ──sells_through──> Storefront 또는 Platform
 Brand / Storefront ──belongs_to──> Category
 각 관계 ──supported_by──> Evidence
 ```
