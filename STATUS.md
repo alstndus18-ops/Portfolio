@@ -11,6 +11,7 @@
 
 ## 최근 작업
 
+- 10-28 · Codex: `planning/operating-metrics.md`를 시장 자료 6건과 대조해 보강. 공개 관측의 오해(최초 발견=출시, 미노출=폐업 등)를 정정하고 가격·발주·반품·재고·채널 결정표, 할인 손익 예시, 소규모 시험 방법을 추가했다. 내부 데이터 연결·자동화는 제안만 했으며 보류 결정 유지. 다음: 기준 회사·주력 카테고리·해결할 문제 선택 후 비교 카드 검토.
 - 10-28 · Cursor: 사용자 요청으로 운영·기획 지표 설계를 `planning/operating-metrics.md`에 정리(판매량 제외, 공개 정보만으로 4P별 지표·근거 이론·역할별 활용·원칙). 판매량 제외 결정은 기획서 §10-20. 다음: 기준 브랜드·비교군 10곳·주력 카테고리를 받은 뒤 기준값 카드부터.
 - 10-28 · Cursor: 사용자 요청으로 `samples/similar-search/`에서 사진 유사도(FashionCLIP 임베딩·"비슷함" 점수·"비슷한 분위기" 보기)를 뺐다. 상세 화면은 같은 색이 먼저, 그다음 같은 디테일이 많은 순으로만 정렬하고, ② 칸은 "다른 종류, 같은 색"만 남김. FashionCLIP은 상품명에 종류가 없을 때 종류 판정(7개)에만 쓴다. `data.js`에서 임베딩을 지워 942KB→619KB(나머지 값은 그대로).
 - 10-28 · Claude: 비슷한 상의 찾기의 색상별 사진을 몰별로 점검(상품 25개 HTML, 사진 11개 확인). 몰마다 색 정보 위치가 달라 `samples/similar-search/data/color-photo-rules.json`에 where·evidence·fallback_policy·learning_flow로 기록했다(그 색 사진이 없으면 여러 벌이 겹친 사진도 사용). 같은 날 색 근거 단계(label→lineup→representative)를 `color_photos.py`가 옵션마다 기록하고 카드·상세에 표시, `node tools/evidence_report.mjs`로 점검(Python으로는 아직 못 돌려 봄). 빠른 조사 순서와 시행착오는 `docs/11-collection-know-how.md`에 기록. 다음: 모어모먼트 이름 순서↔옷걸이 위치 확인, 사라172·메이홀릭 색 구분 방법 결정.
