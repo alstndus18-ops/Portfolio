@@ -1,0 +1,717 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/4279",
+ "title": "낫띵리튼(Nothing written)",
+ "ko": "낫띵리튼",
+ "en": "Nothing written",
+ "sub": "편안함을 지향하며 절제된 멋을 추구하는 브랜드",
+ "est": 2021,
+ "heart": 189805,
+ "intro": "군더더기 없는 클래식 복식을 현대적 감각으로 재해석하는 낫띵리튼. 에센셜한 디자인, 좋은 원단과 봉제 기술로 견고하면서도 과정에 충실한 시즌리스 아이템을 선보입니다. 브랜드가 최고의 가치로 여기는 '부담 없이 입을 수 있는 편안함'을 만끽해보세요.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 43000,
+  "q1": 169000,
+  "med": 189000,
+  "q3": 239000,
+  "p90": 389000,
+  "max": 459000,
+  "mean": 219380
+ },
+ "disc": {
+  "n": 0,
+  "med": null
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 5056,
+  "med": 6,
+  "max": 997,
+  "rated": 42
+ },
+ "rate": 4.63,
+ "tags": {
+  "조건부 무료배송": 50,
+  "신상품": 30,
+  "가을 필수": 48,
+  "단독": 2
+ },
+ "names": [
+  "[예약주문 11/25 순차배송] Miro v-neck pullover (Muted olive)",
+  "[예약주문 11/05 순차배송] Miro v-neck pullover (Camel orange)",
+  "[예약주문 11/24 순차배송] Misha faux fur jacket (Black)",
+  "Bunny Wool Pullover Knit (Pure Ivory)",
+  "[예약주문 11/03 순차배송] Plaza zip blouson (Dark gray)",
+  "Mona mini skirt (Midnight black)",
+  "Vinci wool skirt (Smoky taupe)",
+  "Poche velvet jacket (Deep black)",
+  "Erin wool v-neck pullover (Gray)",
+  "[예약주문 11/05 순차배송] Borough utility jumper (Ash beige)",
+  "Vinci wool skirt (Mineral beige)",
+  "Nils straight jeans (Washed blue)",
+  "Vinci wool skirt (Slate gray)",
+  "Kate v-neck pullover (Gray)",
+  "Pound alpaca sweater (Gray)",
+  "Vernis baguette bag (Black velvet)",
+  "Carna v-neck pullover (Clean white)",
+  "Shoulder leather bag (Caramel)",
+  "Hany cashmere knit (Black)",
+  "Kate v-neck pullover (Pure ivory)",
+  "[예약주문 11/11 순차배송] Runa v-neck pullover (Warm ivory)",
+  "[예약주문 11/24 순차배송] Misha faux fur coat (Brown)",
+  "Pound alpaca sweater (Pecan)",
+  "Kate bowling bag (Black)",
+  "Runa v-neck pullover (Charcoal)",
+  "Cocoon corduroy pants (Black)",
+  "Miro v-neck pullover (Charcoal)",
+  "Della tote bag (Black)",
+  "[예약주문 11/11 순차배송] Cocoon corduroy pants (Ivory)",
+  "Jain leather jacket (Black)",
+  "Miro v-neck pullover (Milk ivory)",
+  "Nep boat neck sweater (Charcoal)",
+  "Charlotte v-neck pullover (Charcoal)",
+  "Classic mini golf bag (Black)",
+  "Shoulder leather bag (Black)",
+  "[예약주문 11/09 순차배송] Field note jacket (Sage gray)",
+  "[예약주문 11/18 순차배송] Charlotte v-neck pullover (Mocha gray)",
+  "Fungus beanie (Cookie and cream)",
+  "Kate v-neck pullover (Black)",
+  "Nep boat neck sweater (Biscuit brown)"
+ ],
+ "cards": [
+  {
+   "n": "[예약주문 11/25 순차배송] Miro v-neck pullover (Muted olive)",
+   "p": 239000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 21,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[예약주문 11/05 순차배송] Miro v-neck pullover (Camel orange)",
+   "p": 239000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 20,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[예약주문 11/24 순차배송] Misha faux fur jacket (Black)",
+   "p": 389000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 88,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Bunny Wool Pullover Knit (Pure Ivory)",
+   "p": 145000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 160,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[예약주문 11/03 순차배송] Plaza zip blouson (Dark gray)",
+   "p": 425000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 25,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Mona mini skirt (Midnight black)",
+   "p": 158000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Vinci wool skirt (Smoky taupe)",
+   "p": 189000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Poche velvet jacket (Deep black)",
+   "p": 369000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Erin wool v-neck pullover (Gray)",
+   "p": 155000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 416,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[예약주문 11/05 순차배송] Borough utility jumper (Ash beige)",
+   "p": 429000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Vinci wool skirt (Mineral beige)",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Nils straight jeans (Washed blue)",
+   "p": 189000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Vinci wool skirt (Slate gray)",
+   "p": 189000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Kate v-neck pullover (Gray)",
+   "p": 155000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 6,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Pound alpaca sweater (Gray)",
+   "p": 179000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 791,
+   "t": [
+    "조건부 무료배송",
+    "단독",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Vernis baguette bag (Black velvet)",
+   "p": 179000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Carna v-neck pullover (Clean white)",
+   "p": 179000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 147,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Shoulder leather bag (Caramel)",
+   "p": 189000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 997,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Hany cashmere knit (Black)",
+   "p": 129000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 373,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Kate v-neck pullover (Pure ivory)",
+   "p": 155000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[예약주문 11/11 순차배송] Runa v-neck pullover (Warm ivory)",
+   "p": 178000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 11,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[예약주문 11/24 순차배송] Misha faux fur coat (Brown)",
+   "p": 459000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 38,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Pound alpaca sweater (Pecan)",
+   "p": 179000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 358,
+   "t": [
+    "조건부 무료배송",
+    "단독",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Kate bowling bag (Black)",
+   "p": 319000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 46,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Runa v-neck pullover (Charcoal)",
+   "p": 178000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 8,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Cocoon corduroy pants (Black)",
+   "p": 159000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Miro v-neck pullover (Charcoal)",
+   "p": 239000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Della tote bag (Black)",
+   "p": 289000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[예약주문 11/11 순차배송] Cocoon corduroy pants (Ivory)",
+   "p": 159000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Jain leather jacket (Black)",
+   "p": 459000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 234,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Miro v-neck pullover (Milk ivory)",
+   "p": 239000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Nep boat neck sweater (Charcoal)",
+   "p": 169000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Charlotte v-neck pullover (Charcoal)",
+   "p": 179000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 38,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Classic mini golf bag (Black)",
+   "p": 253000,
+   "d": null,
+   "lk": null,
+   "rt": null,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Shoulder leather bag (Black)",
+   "p": 189000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 763,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[예약주문 11/09 순차배송] Field note jacket (Sage gray)",
+   "p": 389000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[예약주문 11/18 순차배송] Charlotte v-neck pullover (Mocha gray)",
+   "p": 179000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Fungus beanie (Cookie and cream)",
+   "p": 79000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Kate v-neck pullover (Black)",
+   "p": 155000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Nep boat neck sweater (Biscuit brown)",
+   "p": 169000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 5,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Nils straight jeans (Black)",
+   "p": 179000,
+   "d": null,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Pound alpaca sweater (French navy)",
+   "p": 179000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 322,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Jeanne cotton pants (Dusty charcoal)",
+   "p": 189000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 7,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[예약주문 10/29 순차배송] Lune a-line wool skirt (Charcoal)",
+   "p": 219000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Runa v-neck pullover (Walnut taupe)",
+   "p": 178000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 9,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Cocoon corduroy pants (Dusty charcoal)",
+   "p": 159000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 57,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Ligne straight pants (Warm charcoal)",
+   "p": 249000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Loaf bread tote bag (Dark Brownie)",
+   "p": 289000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 63,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "90s t-shirt (White)",
+   "p": 43000,
+   "d": null,
+   "lk": null,
+   "rt": null,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Vera collar knit (Black)",
+   "p": 189000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  }
+ ],
+ "id": 4279,
+ "observed_at": "2026-10-29"
+}

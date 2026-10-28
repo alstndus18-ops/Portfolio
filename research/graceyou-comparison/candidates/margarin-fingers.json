@@ -1,0 +1,144 @@
+{
+ "slug": "margarin-fingers",
+ "ko": "마가린핑거스",
+ "en": "margarin fingers",
+ "status": "후보",
+ "tier": "디자이너·온라인 브랜드",
+ "tags": [
+  "유니크",
+  "캐주얼",
+  "트렌디"
+ ],
+ "found": [
+  "29CM DB 1차"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 181
+ },
+ "price_source": "29CM",
+ "intro": "2010년 시작한 마가린핑거스는 디자이너 이주현의 브랜드로 독창적이고 유니크한 느낌을 가진 캐주얼 브랜드입니다. 웨어러블 한 아이템을 바탕으로 흥미로운 디테일과 위트 있는 실루엣으로 독특한 무드를 표현하고 있어요.",
+ "sub": "흥미로운 디테일과 유니크함으로 사랑받는 여성복",
+ "est": 2010,
+ "heart": 41490,
+ "off": null,
+ "score": {
+  "k": 1.49,
+  "list_q1": 98194,
+  "list_med": 110478,
+  "list_q3": 176343,
+  "s_price": 28,
+  "s_band": 22,
+  "s_mood": 0,
+  "score": 13,
+  "partial": 26
+ },
+ "evidence": [
+  {
+   "idx": "209666",
+   "date": "2024-02-01",
+   "title": "살롱드물레, ‘히어리·밈더워드로브’ 육성 속도",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=209666&cat=CAT113",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "참고(트렌드·무드 탐색)",
+ "rank": 65,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/181",
+   "title": "마가린 핑거스(margarin fingers)",
+   "ko": "마가린 핑거스",
+   "en": "margarin fingers",
+   "sub": "흥미로운 디테일과 유니크함으로 사랑받는 여성복",
+   "est": 2010,
+   "heart": 41490,
+   "intro": "2010년 시작한 마가린핑거스는 디자이너 이주현의 브랜드로 독창적이고 유니크한 느낌을 가진 캐주얼 브랜드입니다. 웨어러블 한 아이템을 바탕으로 흥미로운 디테일과 위트 있는 실루엣으로 독특한 무드를 표현하고 있어요.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 16070,
+    "q1": 65790,
+    "med": 74020,
+    "q3": 118150,
+    "p90": 186150,
+    "max": 279650,
+    "mean": 96153
+   },
+   "disc": {
+    "n": 50,
+    "med": 33,
+    "max": 54
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 490,
+    "med": 2,
+    "max": 130,
+    "rated": 33
+   },
+   "rate": 4.93,
+   "tags": {
+    "쿠폰": 50,
+    "조건부 무료배송": 50,
+    "신상품": 12
+   },
+   "names": [
+    "[제현경님 착용][4차 리오더] CORSAGE MIX PULLOVER (CREAM)",
+    "[3차 리오더] CORSAGE MIX PULLOVER (LIGHT BLUE)",
+    "[리오더] PANEL FLARE LONG SKIRT (CHARCOAL)",
+    "[3차 리오더] ROSE SCARF (IVORY)",
+    "FLORAL POINT FLEECE JACKET (LIGHT BLUE)",
+    "[소연님 착용] [2차 리오더] DEEP V-NECK BUTTON PULLOVER (MINT)",
+    "[2차 리오더] V-NECK WRAP T-SHIRT (MELANGE)",
+    "[2차 리오더] DEEP V-NECK BUTTON PULLOVER (NAVY)",
+    "FUR EDGE REVERSIBLE MUSTANG (BROWN)",
+    "FLOWER FLEECE CARDIGAN (CREAM)",
+    "FLORAL POINT FLEECE JACKET (SMOKE PINK)",
+    "HIGH-NECK COTTON BOMBER JACKET (LIGHT BEIGE)",
+    "[리오더] BOAT NECK RUFFLE T-SHIRT (BROWN)",
+    "[연예인 착용][3차 리오더] CORSAGE POINTELLE PULLOVER (PURPLE)",
+    "[연예인 착용][8차 리오더] HAIRY HIGH NECK KNIT (LIGHT YELLOW)",
+    "[29CM 단독][3차 리오더] HAIRY WOOL JACKET (IVORY)",
+    "PANEL FLARE LONG SKIRT (IVORY)",
+    "ROSE JACQUARD KNIT (PINK)",
+    "[6차 리오더] HAIRY HIGH NECK KNIT (LIGHT BLUE)",
+    "[연예인 착용] [3차 리오더] CORSAGE POINTELLE PULLOVER (IVORY)",
+    "[2차 리오더] ROSE JACQUARD CARDIGAN (GREY)",
+    "ROSE LACE HOODED T-SHIRT (CREAM)",
+    "FLOWER BUTTON FLEECE PANTS (CREAM)",
+    "FLOWER FLEECE CARDIGAN (BROWN)",
+    "[리오더] FLORAL RAGLAN T-SHIRT (PURPLE)",
+    "CORSAGE POINTELLE PULLOVER (VIOLET)",
+    "[2차 리오더] ROSE CORSAGE CARDIGAN (LIGHT YELLOW)",
+    "[2차 리오더] HAIRY HIGH NECK KNIT (IVORY)",
+    "FLOWER BUTTON FLEECE PANTS (BROWN)",
+    "WIDE EYELET BELT (BUTTER)",
+    "FRILL OPEN COLLAR SHIRT (PINK)",
+    "UNICORN STITCH SLEEVELESS (MINT)",
+    "BASIC LOGO CARDIGAN (PINK)",
+    "CORSAGE BROOCH (GREY)",
+    "[소연님 착용] OVERLAP COLLAR HALF COAT (CREAM)",
+    "FLARE HALF COLLAR JACKET (PINK)",
+    "FAKE LEATHER HALF JACKET (BROWN)",
+    "PEARL POINT PULLOVER (GREY)",
+    "[1차 리오더] CORSAGE KNIT GLOVES (RED)",
+    "OFF-SHOULDER LAYERED T-SHIRT (LIGHT BLUE)"
+   ],
+   "id": 181,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": null
+ }
+}

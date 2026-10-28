@@ -1,0 +1,734 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/15071",
+ "title": "시엔느(SIENNE)",
+ "ko": "시엔느",
+ "en": "SIENNE",
+ "sub": "무심한 멋과 감도 높은 컬러, 기본의 것에서 표현하는 특별함",
+ "est": 2018,
+ "heart": 243491,
+ "intro": "'그녀의 것'을 의미하는 시엔느는 세련된 빈티지 스타일을 선보이며 서울을 베이스로 전개하는 패션 브랜드입니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 41030,
+  "q1": 88220,
+  "med": 111780,
+  "q3": 127980,
+  "p90": 160380,
+  "max": 366930,
+  "mean": 120044
+ },
+ "disc": {
+  "n": 50,
+  "med": 19,
+  "max": 40
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 3875,
+  "med": 2,
+  "max": 930,
+  "rated": 35
+ },
+ "rate": 4.98,
+ "tags": {
+  "쿠폰": 50,
+  "조건부 무료배송": 50,
+  "가을 필수": 22,
+  "신상품": 22,
+  "단독": 1
+ },
+ "names": [
+  "[17차] Sienne Lace Sweatshirts (Melange Gray)",
+  "[18차] Sienne Lace Sweatshirts (Navy)",
+  "[14차] Old Father Sweater (Cream)",
+  "[3차] Roma Pants (Yellow)",
+  "[3차] Rosha Organza Alpaca Cardigan (Violet)",
+  "[2차] Vincent Fleece Anorak (Black)",
+  "[11차] Sienne Patch Sweatshirts (Navy)",
+  "[29CM 단독] Walter Fleece Hoodie (Yellow Melange)",
+  "Old Father Sweater (Snow Mint)",
+  "[3차] [29CM 단독] Jack Black Goose-Down (Black)",
+  "Selvedge Denim Pants (Indigo)",
+  "[11차] Sienne Patch Sweatshirts (Melange Gray)",
+  "Wool Wholegarment Knit (Green)",
+  "[8차] Old Father Sweater (Gray)",
+  "Walter Fleece Hoodie (Charcoal)",
+  "Selvedge Denim Pants (Khaki)",
+  "[3차] Linz Tote Bag (Black)",
+  "Manon Wool Knit (Orange)",
+  "Vincent Fleece Anorak (Charcoal)",
+  "[27차] Sienne Padding Bag (Cream)",
+  "[2차] Belle Stripe Knit (Green)",
+  "[10차] Sienne Padding Bag (Black)",
+  "[8차] Old Father Sweater (Navy)",
+  "Hooded Balmacaan Coat (Charcoal)",
+  "[3차] Roma Pants (Black)",
+  "[9차] Leather Padding Bag (Black)",
+  "[7차] Simone Cotton Skirt (Beige)",
+  "Jack Black Goose-Down (Red)",
+  "Organic Sweatshirt (Blue)",
+  "Fog Stripe Knit (Navy)",
+  "Essential Long Sleeves (Purple)",
+  "Sally Stripe Top (Brown)",
+  "Wool Wholegarment Knit (Melange Gray)",
+  "Fog Stripe Knit (Cream)",
+  "[3차] Mua Skirt (Charcoal)",
+  "Josee Knit (Lime)",
+  "[2차] Cambon Wool Cardigan (Winter Green)",
+  "Sante Wool Skirt (Misty Yellow)",
+  "[2차] Camus Alpaca Cardigan (Burgundy)",
+  "[2차] Camus Alpaca Cardigan (Beige)"
+ ],
+ "cards": [
+  {
+   "n": "[17차] Sienne Lace Sweatshirts (Melange Gray)",
+   "p": 68120,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 628,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[18차] Sienne Lace Sweatshirts (Navy)",
+   "p": 68120,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 930,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[14차] Old Father Sweater (Cream)",
+   "p": 120690,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 869,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[3차] Roma Pants (Yellow)",
+   "p": 111780,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[3차] Rosha Organza Alpaca Cardigan (Violet)",
+   "p": 118630,
+   "d": 25,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2차] Vincent Fleece Anorak (Black)",
+   "p": 133650,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[11차] Sienne Patch Sweatshirts (Navy)",
+   "p": 72840,
+   "d": 25,
+   "lk": null,
+   "rt": 5,
+   "rv": 339,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[29CM 단독] Walter Fleece Hoodie (Yellow Melange)",
+   "p": 109350,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Old Father Sweater (Snow Mint)",
+   "p": 120690,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[3차] [29CM 단독] Jack Black Goose-Down (Black)",
+   "p": 306180,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 375,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "Selvedge Denim Pants (Indigo)",
+   "p": 127980,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[11차] Sienne Patch Sweatshirts (Melange Gray)",
+   "p": 72840,
+   "d": 25,
+   "lk": null,
+   "rt": 5,
+   "rv": 204,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Wool Wholegarment Knit (Green)",
+   "p": 109350,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[8차] Old Father Sweater (Gray)",
+   "p": 120690,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 172,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Walter Fleece Hoodie (Charcoal)",
+   "p": 109350,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Selvedge Denim Pants (Khaki)",
+   "p": 127980,
+   "d": 19,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[3차] Linz Tote Bag (Black)",
+   "p": 102730,
+   "d": 35,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 25,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Manon Wool Knit (Orange)",
+   "p": 118630,
+   "d": 25,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Vincent Fleece Anorak (Charcoal)",
+   "p": 133650,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[27차] Sienne Padding Bag (Cream)",
+   "p": 41030,
+   "d": 23,
+   "lk": null,
+   "rt": null,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2차] Belle Stripe Knit (Green)",
+   "p": 136080,
+   "d": 19,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[10차] Sienne Padding Bag (Black)",
+   "p": 41030,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 20,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[8차] Old Father Sweater (Navy)",
+   "p": 120690,
+   "d": 19,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 132,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Hooded Balmacaan Coat (Charcoal)",
+   "p": 366930,
+   "d": 19,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[3차] Roma Pants (Black)",
+   "p": 111780,
+   "d": 19,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[9차] Leather Padding Bag (Black)",
+   "p": 45670,
+   "d": 23,
+   "lk": null,
+   "rt": null,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[7차] Simone Cotton Skirt (Beige)",
+   "p": 111130,
+   "d": 25,
+   "lk": null,
+   "rt": 5,
+   "rv": 28,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Jack Black Goose-Down (Red)",
+   "p": 306180,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Organic Sweatshirt (Blue)",
+   "p": 74770,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Fog Stripe Knit (Navy)",
+   "p": 111780,
+   "d": 19,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Essential Long Sleeves (Purple)",
+   "p": 42270,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Sally Stripe Top (Brown)",
+   "p": 62320,
+   "d": 25,
+   "lk": null,
+   "rt": 5,
+   "rv": 23,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Wool Wholegarment Knit (Melange Gray)",
+   "p": 109350,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 39,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Fog Stripe Knit (Cream)",
+   "p": 111780,
+   "d": 19,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[3차] Mua Skirt (Charcoal)",
+   "p": 127980,
+   "d": 19,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Josee Knit (Lime)",
+   "p": 123930,
+   "d": 19,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[2차] Cambon Wool Cardigan (Winter Green)",
+   "p": 114880,
+   "d": 25,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Sante Wool Skirt (Misty Yellow)",
+   "p": 94170,
+   "d": 40,
+   "lk": null,
+   "rt": 5,
+   "rv": 18,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2차] Camus Alpaca Cardigan (Burgundy)",
+   "p": 160380,
+   "d": 19,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[2차] Camus Alpaca Cardigan (Beige)",
+   "p": 160380,
+   "d": 19,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Josee Knit (Gray)",
+   "p": 123930,
+   "d": 19,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[2차] Louise Embroidery Blouson (Charcoal)",
+   "p": 126140,
+   "d": 25,
+   "lk": null,
+   "rt": 5,
+   "rv": 16,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Odette Alpaca Cardigan (Pale Pink)",
+   "p": 133650,
+   "d": 25,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Charlotte Tweed Jacket (Green)",
+   "p": 212700,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Toka Corduroy Pants (Khaki)",
+   "p": 88220,
+   "d": 40,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 9,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Essential Long Sleeves (Jade)",
+   "p": 42270,
+   "d": 35,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[2차] August Stripe Shirt (Blue)",
+   "p": 111130,
+   "d": 25,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Fog Stripe Knit (Brown)",
+   "p": 111780,
+   "d": 19,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Organic Sweatshirt (Brown)",
+   "p": 74770,
+   "d": 35,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[3차] Uncle Wool Knit (Lavender)",
+   "p": 149850,
+   "d": 19,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  }
+ ],
+ "id": 15071,
+ "observed_at": "2026-10-29"
+}

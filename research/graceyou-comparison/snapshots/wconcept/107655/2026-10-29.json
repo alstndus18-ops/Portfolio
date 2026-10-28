@@ -1,0 +1,563 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/107655",
+ "title": "윤세(YUNSE) | W컨셉(W CONCEPT)",
+ "ko": "윤세",
+ "en": "YUNSE",
+ "intro": "YUNSE(윤세)는 영국을 베이스로하는 컨템포러리 여성복 브랜드이다. 서로 다른 물질 혹은 추상적인 개념들이 조화되거나 충돌할 때 가장 아름다울 수 있다는 컨셉으로 매시즌 YUNSE(윤세)만의 색깔을 표현하기위해 깊이 탐구한다. 나이 혹은 국적에 제한되지 않고, 여성들이 '나'를 표현할 때 스스럼없이 선택할 수 있는 디자인을 제시하고 있다.",
+ "n": 99,
+ "p": {
+  "min": 16530,
+  "q1": 58000,
+  "med": 85000,
+  "q3": 120060,
+  "p90": 143000,
+  "max": 238000,
+  "mean": 92316
+ },
+ "disc": {
+  "n": 30,
+  "med": 13,
+  "max": 30
+ },
+ "names": [
+  "Hatch Stripe T-Shirt (Grey)",
+  "Sheer Two-Way Pants (Gray)",
+  "Hatch Embroidery Beanie (Navy)",
+  "Layer Cardigan (Charcoal)",
+  "Olive Slim Cardigan (White)",
+  "2 Way String Sleeveless Dress (Black)",
+  "BB Shoulder Bag (Navy)",
+  "Wave Print Top (Red)",
+  "Paisley Top",
+  "[2차 리오더] Layered Skirt (Black)",
+  "138,000",
+  "Hatch Cotton Cap (Black)",
+  "56,000",
+  "[1차 리오더] Hatch Ego Eco Bag (Silver Flower)",
+  "45,000",
+  "[단독]Pantalica Long Jersey dress (Blue)",
+  "153,000",
+  "Printed Halter Bikini Set (Black Floral)",
+  "135,000",
+  "[1차 리오더] Printed Halter Bikini Set (Yellow Floral)",
+  "[1차 리오더] Studded Halter Sleeveless Top (Black)",
+  "85,000",
+  "Ruffled Midi Skirt (Charcoal)",
+  "89,000",
+  "Ruffled Midi Skirt (Mint)",
+  "Hatch Ego Eco Bag (Mint)",
+  "19,000",
+  "Posh Weapon Eco Bag (Black)",
+  "35,000",
+  "Sheer Pleated Cardigan (Salmon)",
+  "118,000",
+  "Sheer Pleated Cardigan (Brown)",
+  "Halter Neck Knit Vest (Beige)",
+  "Halter Neck Knit Vest (Black)",
+  "Halter Neck Knit Vest (White)",
+  "Backless Ribbon Top (Gray)",
+  "Basic Eyelet Sleeveless Top (Black)",
+  "38,000",
+  "Basic Eyelet Sleeveless Top (Mint)",
+  "38,000"
+ ],
+ "cards": [
+  {
+   "n": "Hatch Stripe T-Shirt (Grey)",
+   "p": 59160,
+   "d": null
+  },
+  {
+   "n": "Sheer Two-Way Pants (Gray)",
+   "p": 117450,
+   "d": null
+  },
+  {
+   "n": "Hatch Embroidery Beanie (Navy)",
+   "p": 30450,
+   "d": null
+  },
+  {
+   "n": "Layer Cardigan (Charcoal)",
+   "p": 154860,
+   "d": null
+  },
+  {
+   "n": "Olive Slim Cardigan (White)",
+   "p": 137460,
+   "d": null
+  },
+  {
+   "n": "2 Way String Sleeveless Dress (Black)",
+   "p": 100485,
+   "d": null
+  },
+  {
+   "n": "BB Shoulder Bag (Navy)",
+   "p": 93960,
+   "d": null
+  },
+  {
+   "n": "Wave Print Top (Red)",
+   "p": 80910,
+   "d": null
+  },
+  {
+   "n": "Paisley Top",
+   "p": 78000,
+   "d": null
+  },
+  {
+   "n": "[2차 리오더] Layered Skirt (Black)",
+   "p": 138000,
+   "d": null
+  },
+  {
+   "n": "138,000",
+   "p": 120060,
+   "d": 13
+  },
+  {
+   "n": "Hatch Cotton Cap (Black)",
+   "p": 56000,
+   "d": null
+  },
+  {
+   "n": "56,000",
+   "p": 48720,
+   "d": 13
+  },
+  {
+   "n": "[1차 리오더] Hatch Ego Eco Bag (Silver Flower)",
+   "p": 45000,
+   "d": null
+  },
+  {
+   "n": "45,000",
+   "p": 39150,
+   "d": 13
+  },
+  {
+   "n": "[단독]Pantalica Long Jersey dress (Blue)",
+   "p": 153000,
+   "d": null
+  },
+  {
+   "n": "153,000",
+   "p": 133110,
+   "d": 13
+  },
+  {
+   "n": "Printed Halter Bikini Set (Black Floral)",
+   "p": 135000,
+   "d": null
+  },
+  {
+   "n": "135,000",
+   "p": 111577,
+   "d": 17
+  },
+  {
+   "n": "[1차 리오더] Printed Halter Bikini Set (Yellow Floral)",
+   "p": 135000,
+   "d": null
+  },
+  {
+   "n": "[1차 리오더] Studded Halter Sleeveless Top (Black)",
+   "p": 85000,
+   "d": null
+  },
+  {
+   "n": "85,000",
+   "p": 73950,
+   "d": 13
+  },
+  {
+   "n": "Ruffled Midi Skirt (Charcoal)",
+   "p": 89000,
+   "d": null
+  },
+  {
+   "n": "89,000",
+   "p": 73558,
+   "d": 17
+  },
+  {
+   "n": "Ruffled Midi Skirt (Mint)",
+   "p": 89000,
+   "d": null
+  },
+  {
+   "n": "Hatch Ego Eco Bag (Mint)",
+   "p": 19000,
+   "d": null
+  },
+  {
+   "n": "19,000",
+   "p": 16530,
+   "d": 13
+  },
+  {
+   "n": "Posh Weapon Eco Bag (Black)",
+   "p": 35000,
+   "d": null
+  },
+  {
+   "n": "35,000",
+   "p": 30450,
+   "d": 13
+  },
+  {
+   "n": "Sheer Pleated Cardigan (Salmon)",
+   "p": 118000,
+   "d": null
+  },
+  {
+   "n": "118,000",
+   "p": 102660,
+   "d": 13
+  },
+  {
+   "n": "Sheer Pleated Cardigan (Brown)",
+   "p": 118000,
+   "d": null
+  },
+  {
+   "n": "Halter Neck Knit Vest (Beige)",
+   "p": 85000,
+   "d": null
+  },
+  {
+   "n": "Halter Neck Knit Vest (Black)",
+   "p": 85000,
+   "d": null
+  },
+  {
+   "n": "Halter Neck Knit Vest (White)",
+   "p": 85000,
+   "d": null
+  },
+  {
+   "n": "Backless Ribbon Top (Gray)",
+   "p": 138000,
+   "d": null
+  },
+  {
+   "n": "Basic Eyelet Sleeveless Top (Black)",
+   "p": 38000,
+   "d": null
+  },
+  {
+   "n": "38,000",
+   "p": 31920,
+   "d": 16
+  },
+  {
+   "n": "Basic Eyelet Sleeveless Top (Mint)",
+   "p": 38000,
+   "d": null
+  },
+  {
+   "n": "38,000",
+   "p": 33060,
+   "d": 13
+  },
+  {
+   "n": "Crinkle Sleeveless Top (Black)",
+   "p": 73000,
+   "d": null
+  },
+  {
+   "n": "73,000",
+   "p": 63510,
+   "d": 13
+  },
+  {
+   "n": "Crinkle Sleeveless Top (White)",
+   "p": 73000,
+   "d": null
+  },
+  {
+   "n": "[5차 리오더] Back Twist Sleeveless Top (Melange Gray)",
+   "p": 75000,
+   "d": null
+  },
+  {
+   "n": "75,000",
+   "p": 65250,
+   "d": 13
+  },
+  {
+   "n": "[5차 리오더] Back Twist Sleeveless Top (Charcoal)",
+   "p": 75000,
+   "d": null
+  },
+  {
+   "n": "YS Graphic Sleeveless Top (Black)",
+   "p": 58000,
+   "d": null
+  },
+  {
+   "n": "58,000",
+   "p": 48720,
+   "d": 16
+  },
+  {
+   "n": "YS Graphic Sleeveless Top (White Melange)",
+   "p": 58000,
+   "d": null
+  },
+  {
+   "n": "58,000",
+   "p": 50460,
+   "d": 13
+  },
+  {
+   "n": "Asymmetric Off-Shoulder Top (Gray)",
+   "p": 63000,
+   "d": null
+  },
+  {
+   "n": "63,000",
+   "p": 54810,
+   "d": 13
+  },
+  {
+   "n": "Asymmetric Off-Shoulder Top (White)",
+   "p": 63000,
+   "d": null
+  },
+  {
+   "n": "Ego Graphic T-Shirt (White)",
+   "p": 58000,
+   "d": null
+  },
+  {
+   "n": "Ego Graphic T-Shirt (Charcoal)",
+   "p": 58000,
+   "d": null
+  },
+  {
+   "n": "Ego Graphic T-Shirt (Blue)",
+   "p": 58000,
+   "d": null
+  },
+  {
+   "n": "Washed Hatch Graphic T-Shirt (White)",
+   "p": 55000,
+   "d": null
+  },
+  {
+   "n": "55,000",
+   "p": 47850,
+   "d": 13
+  },
+  {
+   "n": "Ornamental Printed Pants (White)",
+   "p": 128000,
+   "d": null
+  },
+  {
+   "n": "128,000",
+   "p": 111360,
+   "d": 13
+  },
+  {
+   "n": "Ornamental Printed Pants (Black)",
+   "p": 128000,
+   "d": null
+  },
+  {
+   "n": "Ornamental Printed Pants (Burgundy)",
+   "p": 128000,
+   "d": null
+  },
+  {
+   "n": "Micro Banding Shorts (Blue Check)",
+   "p": 68000,
+   "d": null
+  },
+  {
+   "n": "68,000",
+   "p": 59160,
+   "d": 13
+  },
+  {
+   "n": "Micro Banding Shorts (Brown)",
+   "p": 68000,
+   "d": null
+  },
+  {
+   "n": "68,000",
+   "p": 57120,
+   "d": 16
+  },
+  {
+   "n": "Studded Denim Shorts (Black Denim)",
+   "p": 115000,
+   "d": null
+  },
+  {
+   "n": "115,000",
+   "p": 100050,
+   "d": 13
+  },
+  {
+   "n": "Studded Denim Shorts (Gray)",
+   "p": 115000,
+   "d": null
+  },
+  {
+   "n": "Sweat Bermuda pants (Charcoal)",
+   "p": 98000,
+   "d": null
+  },
+  {
+   "n": "98,000",
+   "p": 85260,
+   "d": 13
+  },
+  {
+   "n": "[2차 리오더] Floral Printed Skirt (Yellow Floral)",
+   "p": 135000,
+   "d": null
+  },
+  {
+   "n": "135,000",
+   "p": 117450,
+   "d": 13
+  },
+  {
+   "n": "Crinkle Mini Skirt (White)",
+   "p": 73000,
+   "d": null
+  },
+  {
+   "n": "Crinkle Mini Skirt (Black)",
+   "p": 73000,
+   "d": null
+  },
+  {
+   "n": "String Two-Way Dress (Black/White)",
+   "p": 160000,
+   "d": null
+  },
+  {
+   "n": "160,000",
+   "p": 118320,
+   "d": 26
+  },
+  {
+   "n": "String Two-Way Dress (Beige/Gray)",
+   "p": 160000,
+   "d": null
+  },
+  {
+   "n": "Studded Volume Mini Dress (Black)",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "158,000",
+   "p": 109968,
+   "d": 30
+  },
+  {
+   "n": "Studded Volume Mini Dress (White)",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "Shirred Halter Dress (Black)",
+   "p": 125000,
+   "d": null
+  },
+  {
+   "n": "125,000",
+   "p": 92437,
+   "d": 26
+  },
+  {
+   "n": "Pleated Sheer Scarf (White)",
+   "p": 45000,
+   "d": null
+  },
+  {
+   "n": "Studded Canvas Bag (Charcoal)",
+   "p": 115000,
+   "d": null
+  },
+  {
+   "n": "Studded Canvas Bag (Blue)",
+   "p": 115000,
+   "d": null
+  },
+  {
+   "n": "Snap Collar Jacket (Gray)",
+   "p": 238000,
+   "d": null
+  },
+  {
+   "n": "238,000",
+   "p": 207060,
+   "d": 13
+  },
+  {
+   "n": "Snap Collar Jacket (Burgundy)",
+   "p": 238000,
+   "d": null
+  },
+  {
+   "n": "Posh Lettering Zip-Up Hoodie (Black)",
+   "p": 143000,
+   "d": null
+  },
+  {
+   "n": "143,000",
+   "p": 124410,
+   "d": 13
+  },
+  {
+   "n": "Posh Lettering Zip-Up Hoodie (Gray)",
+   "p": 143000,
+   "d": null
+  },
+  {
+   "n": "Sheer Off-Shoulder Knit Top (Beige)",
+   "p": 80000,
+   "d": null
+  },
+  {
+   "n": "80,000",
+   "p": 69600,
+   "d": 13
+  },
+  {
+   "n": "Sheer Off-Shoulder Knit Top (Navy)",
+   "p": 80000,
+   "d": null
+  },
+  {
+   "n": "Sheer Off-Shoulder Knit Top (Mint)",
+   "p": 80000,
+   "d": null
+  },
+  {
+   "n": "[2차 리오더] Lace 3/4 Sleeve Tee (White)",
+   "p": 68000,
+   "d": null
+  },
+  {
+   "n": "[3차 리오더] Lace 3/4 Sleeve Tee (Mint)",
+   "p": 68000,
+   "d": null
+  },
+  {
+   "n": "Eyelet Crop Shirt (Blue Check)",
+   "p": 135000,
+   "d": null
+  }
+ ],
+ "id": 107655,
+ "observed_at": "2026-10-29"
+}

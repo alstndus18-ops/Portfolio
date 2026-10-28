@@ -1,0 +1,738 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/65260",
+ "title": "다이닛(DEINET)",
+ "ko": "다이닛",
+ "en": "DEINET",
+ "sub": "다이닛은 미니멀하고 클래식한 디자인, 그리고 위트있는 디테일들로 완성도 높은 실루엣을 제안 합니다.",
+ "est": 2024,
+ "heart": 14805,
+ "intro": "다이닛(DEINET)은 디렉터인 김다인 대표의 이름을 독일식으로 표기한 DEIN과 ‘ET’ (그리고)의 합성어입니다. 브랜드명의 어원처럼 브랜드의 넥스트 플로어에 대해 생각하고 탐구하며, 그 가능성은 무한대로 열려 있음을 의미합니다. 미니멀하고 클래식한 디자인과 정제되고 위트 있는 디테일들이 모여 완성도 높은 실루엣을 고객들에게 제안합니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 31590,
+  "q1": 74520,
+  "med": 106200,
+  "q3": 133200,
+  "p90": 169290,
+  "max": 200160,
+  "mean": 108428
+ },
+ "disc": {
+  "n": 48,
+  "med": 15,
+  "max": 46
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 1007,
+  "med": 2,
+  "max": 263,
+  "rated": 32
+ },
+ "rate": 4.86,
+ "tags": {
+  "쿠폰": 48,
+  "무료배송": 50,
+  "가을 필수": 47,
+  "신상품": 5
+ },
+ "names": [
+  "STUD POCKET BIG BAG IN BLACK",
+  "PATCH COLOR FAUX SUEDE BOOTS IN CAMEL",
+  "PATCH COLOR FAUX SUEDE BOOTS IN MINT",
+  "PATCH COLOR FAUX SUEDE BOOTS IN PINK",
+  "PATCH COLOR FAUX SUEDE BOOTS IN LIGHT BLUE",
+  "HIGH TOP SNEAKERS IN BROWN",
+  "DRAPED SCARF JACKET IN BROWN",
+  "DEINET BIG LOGO CAP IN BLACK",
+  "CROCODILE STUD FLAT SHOES IN BLACK",
+  "STUD POCKET BAG IN BLACK",
+  "RIPPED DAMAGE BOOTS CUT DENIM IN BLUE",
+  "DISTRESSED SLEEVE WARMER BOLERO KNIT IN CHARCOAL",
+  "DRAPED SCARF JACKET IN BLACK",
+  "PATCH COLOR FAUX SUEDE BOOTS IN BROWN",
+  "CROCODILE STUD FLAT SHOES IN IVORY",
+  "ZIPPER CURVED LINE FLATFORM BOOTS IN BLACK",
+  "TABI POINT FLAT SHOES IN BLACK",
+  "SLIM SEMI BOOTCUT DENIM IN BLACK",
+  "TABI STUD POINT SLIPPERS IN BLACK",
+  "PLEATED GRAPHIC T-SHIRT IN BLACK",
+  "STUD DETAIL POINT POCKET BAG IN BLACK",
+  "DISTRESSED SLEEVE WARMER BOLERO KNIT IN BLACK",
+  "BUCKLE STRAP SLINGBACKS IN BLACK",
+  "SMOOTH D LOGO SWEATSHIRTS IN GREY",
+  "DEINET 5-WAY STUD POCKET MULTI BAG IN BLACK",
+  "WRINKLE SCARF IN OATMEAL",
+  "SLIM SEMI BOOTCUT DENIM IN BLUE",
+  "STUD POCKET BIG BAG IN BURGUNDY",
+  "WILD BUCKLE BOOTS IN BLACK",
+  "STUD CHECK POINT MA1 JUMPER IN BLACK",
+  "V-NECK HOODIE IN KHAKI",
+  "PATCH COLOR FAUX SUEDE BOOTS IN BLACK",
+  "LOGO DUFFLE MINI BAG IN LEOPARD",
+  "JELLY TWO-WAY BAG IN ICE BLUE",
+  "APPLIQUE ABLE OVERSIZE HOOD ZIP UP IN NAVY",
+  "WRINKLED FLAT SHOES (3 COLORS)",
+  "CROCODILE STUD FLAT SHOES IN PURPLE",
+  "SNAP CURVED LINE FLATFORM BOOTS IN BLACK",
+  "APPLIQUE ABLE OVERSIZE HOOD ZIP UP IN CHARCOAL",
+  "STUD POCKET BIG BAG IN KHAKI"
+ ],
+ "cards": [
+  {
+   "n": "STUD POCKET BIG BAG IN BLACK",
+   "p": 169290,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 263,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "PATCH COLOR FAUX SUEDE BOOTS IN CAMEL",
+   "p": 106200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "PATCH COLOR FAUX SUEDE BOOTS IN MINT",
+   "p": 106200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "PATCH COLOR FAUX SUEDE BOOTS IN PINK",
+   "p": 106200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "PATCH COLOR FAUX SUEDE BOOTS IN LIGHT BLUE",
+   "p": 106200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "HIGH TOP SNEAKERS IN BROWN",
+   "p": 117990,
+   "d": 15,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 34,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "DRAPED SCARF JACKET IN BROWN",
+   "p": 196200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "DEINET BIG LOGO CAP IN BLACK",
+   "p": 31590,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 92,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "CROCODILE STUD FLAT SHOES IN BLACK",
+   "p": 97200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "STUD POCKET BAG IN BLACK",
+   "p": 119880,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 170,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "RIPPED DAMAGE BOOTS CUT DENIM IN BLUE",
+   "p": 74520,
+   "d": 46,
+   "lk": null,
+   "rt": 5,
+   "rv": 40,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "DISTRESSED SLEEVE WARMER BOLERO KNIT IN CHARCOAL",
+   "p": 133200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "DRAPED SCARF JACKET IN BLACK",
+   "p": 196200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "PATCH COLOR FAUX SUEDE BOOTS IN BROWN",
+   "p": 106200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "CROCODILE STUD FLAT SHOES IN IVORY",
+   "p": 97200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "ZIPPER CURVED LINE FLATFORM BOOTS IN BLACK",
+   "p": 135360,
+   "d": 28,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 11,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "TABI POINT FLAT SHOES IN BLACK",
+   "p": 97200,
+   "d": 10,
+   "lk": null,
+   "rt": 4,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "SLIM SEMI BOOTCUT DENIM IN BLACK",
+   "p": 103680,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "TABI STUD POINT SLIPPERS IN BLACK",
+   "p": 108000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "PLEATED GRAPHIC T-SHIRT IN BLACK",
+   "p": 63180,
+   "d": 19,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "STUD DETAIL POINT POCKET BAG IN BLACK",
+   "p": 156960,
+   "d": 28,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "DISTRESSED SLEEVE WARMER BOLERO KNIT IN BLACK",
+   "p": 133200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "BUCKLE STRAP SLINGBACKS IN BLACK",
+   "p": 92160,
+   "d": 28,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 23,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "SMOOTH D LOGO SWEATSHIRTS IN GREY",
+   "p": 71280,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 103,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "DEINET 5-WAY STUD POCKET MULTI BAG IN BLACK",
+   "p": 176580,
+   "d": 19,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 22,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "WRINKLE SCARF IN OATMEAL",
+   "p": 61200,
+   "d": 10,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "SLIM SEMI BOOTCUT DENIM IN BLUE",
+   "p": 103680,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "STUD POCKET BIG BAG IN BURGUNDY",
+   "p": 169290,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 13,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "WILD BUCKLE BOOTS IN BLACK",
+   "p": 144180,
+   "d": 19,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 15,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "STUD CHECK POINT MA1 JUMPER IN BLACK",
+   "p": 200160,
+   "d": 28,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "V-NECK HOODIE IN KHAKI",
+   "p": 70200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "PATCH COLOR FAUX SUEDE BOOTS IN BLACK",
+   "p": 106200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "LOGO DUFFLE MINI BAG IN LEOPARD",
+   "p": 58320,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 30,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "JELLY TWO-WAY BAG IN ICE BLUE",
+   "p": 79380,
+   "d": 19,
+   "lk": null,
+   "rt": 4,
+   "rv": 66,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "APPLIQUE ABLE OVERSIZE HOOD ZIP UP IN NAVY",
+   "p": 88200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "WRINKLED FLAT SHOES (3 COLORS)",
+   "p": 103680,
+   "d": 19,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 27,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "CROCODILE STUD FLAT SHOES IN PURPLE",
+   "p": 97200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "SNAP CURVED LINE FLATFORM BOOTS IN BLACK",
+   "p": 160200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "APPLIQUE ABLE OVERSIZE HOOD ZIP UP IN CHARCOAL",
+   "p": 88200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "STUD POCKET BIG BAG IN KHAKI",
+   "p": 169290,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 44,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "BRUSH RIBBED KNIT ZIP UP IN CHARCOAL",
+   "p": 106200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "V-NECK HOODIE IN BEIGE",
+   "p": 70200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "TABI STUD POINT SLIPPERS IN CREAM",
+   "p": 108000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "PLEATED GRAPHIC T-SHIRT IN WHITE",
+   "p": 63180,
+   "d": 19,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 9,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "LAYERED VINTAGE LONG SLEEVE IN CHARCOAL",
+   "p": 70200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "DEINET BIG LOGO CAP IN NAVY",
+   "p": 31590,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 15,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "STUD DETAIL POINT POCKET BAG IN GREY",
+   "p": 156960,
+   "d": 28,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "LOST IN SYDNEY ZIP-UP HOODIE IN NAVY",
+   "p": 103680,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "PLEATED GRAPHIC T-SHIRT IN LIGHT GREY",
+   "p": 63180,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "BIG BUCKLE BELT IN BLACK",
+   "p": 46980,
+   "d": 19,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  }
+ ],
+ "id": 65260,
+ "observed_at": "2026-10-29"
+}

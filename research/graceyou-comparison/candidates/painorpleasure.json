@@ -1,0 +1,133 @@
+{
+ "slug": "painorpleasure",
+ "ko": "페인오어플레져",
+ "en": "painorpleasure",
+ "status": "후보",
+ "tier": "디자이너·온라인 브랜드",
+ "tags": [
+  "캐주얼",
+  "스트리트",
+  "유니크"
+ ],
+ "found": [
+  "29CM 후보(1차 보류분)"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 8867
+ },
+ "price_source": "29CM",
+ "intro": "페인오어플레져는 2017년 서울에서 론칭된 디자이너 브랜드입니다. 우리는 여성 고유의 아름다움을 드러내는 핏과 실루엣에 중점을 두고, 독창적이면서도 일상 속에서 즐길 수 있는 캐주얼한 디자인을 전개하고 있습니다.",
+ "sub": "사랑스러운 스트리트 무드의 디자이너 브랜드",
+ "est": null,
+ "heart": 22179,
+ "off": null,
+ "score": {
+  "k": 1.0,
+  "list_q1": 85000,
+  "list_med": 149000,
+  "list_q3": 198000,
+  "s_price": 61,
+  "s_band": 29,
+  "s_mood": 0,
+  "score": 24,
+  "partial": 48
+ },
+ "evidence": [],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "참고(트렌드·무드 탐색)",
+ "rank": 55,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/8867",
+   "title": "페인오어플레져(painorpleasure)",
+   "ko": "페인오어플레져",
+   "en": "painorpleasure",
+   "sub": "사랑스러운 스트리트 무드의 디자이너 브랜드",
+   "heart": 22179,
+   "intro": "페인오어플레져는 2017년 서울에서 론칭된 디자이너 브랜드입니다. 우리는 여성 고유의 아름다움을 드러내는 핏과 실루엣에 중점을 두고, 독창적이면서도 일상 속에서 즐길 수 있는 캐주얼한 디자인을 전개하고 있습니다.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 35000,
+    "q1": 85000,
+    "med": 149000,
+    "q3": 198000,
+    "p90": 259000,
+    "max": 379000,
+    "mean": 152460
+   },
+   "disc": {
+    "n": 0,
+    "med": null
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 61,
+    "med": 0,
+    "max": 20,
+    "rated": 16
+   },
+   "rate": 4.83,
+   "tags": {
+    "조건부 무료배송": 44,
+    "신상품": 1,
+    "품절": 6
+   },
+   "names": [
+    "DUSK LEATHER JACKET cream",
+    "CUT-OUT LAYERED TEE black",
+    "NIX MINI SKIRT black",
+    "SWAN LACE HAIRBAND pink",
+    "CUT-OUT LAYERED TEE white",
+    "VIVIAN SCARF SHIRT beige",
+    "SWAN SATIN LONG DRESS charcoal",
+    "VIVIAN SCARF SHIRT white",
+    "RUBY HOOK OVER KNIT black",
+    "MIDNIGHT HALTER TOP black",
+    "TWILIGHT TOP white",
+    "RUBY HOOK OVER KNIT ivory",
+    "TWILIGHT TOP cream",
+    "MOONFLOWER TOP cream",
+    "TWILIGHT TOP grey",
+    "ROSE SHIRRING TOP pink",
+    "MOONRISE BLOUSE cream",
+    "SWAN SKIRT pink",
+    "SWAN LACE HAIRBAND cream",
+    "ANEMONE TOP cream",
+    "FOG TOP mint",
+    "FOG TOP grey",
+    "CUT-OUT LONG SKIRT black",
+    "LACE BOATNECK TOP white",
+    "DUSK LAYERED SKIRT black",
+    "MARIA TOP light grey",
+    "DUSK LEATHER JACKET black",
+    "RUBY HOOK LONG SLEEVE charcoal",
+    "LACE BOATNECK TOP black",
+    "MOONFLOWER SKIRT cream",
+    "HEART RIBBON DRESS cream",
+    "WENDY RIBBON DRESS white",
+    "SOFT DRAPED OFF SHOULDER TOP black",
+    "LILY COWL RIBBON TOP black",
+    "BIANCA SQUARE NECK BLOUSE blue",
+    "SWAN SKIRT white",
+    "DREAMY DRESS cream",
+    "HEART RIBBON TOP (SS ver.) ivory",
+    "JENNIE BUTTONED TOP ivory",
+    "PURITY DRESS white"
+   ],
+   "id": 8867,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": null
+ }
+}

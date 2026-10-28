@@ -1,0 +1,137 @@
+{
+ "slug": "j-chung",
+ "ko": "제이청",
+ "en": "J CHUNG",
+ "status": "후보",
+ "tier": "디자이너·온라인 브랜드",
+ "tags": [
+  "엘레강스",
+  "캐주얼",
+  "페미닌",
+  "유니크"
+ ],
+ "found": [
+  "29CM DB 1차"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 3542
+ },
+ "price_source": "29CM",
+ "intro": "제이청은 일상의 불완전함 속에서 새로운 아름다움의 가능성을 발견합니다.",
+ "sub": "엘레강스 캐주얼 브랜드",
+ "est": 2015,
+ "heart": 15897,
+ "off": null,
+ "score": {
+  "k": 1.41,
+  "list_q1": 131408,
+  "list_med": 159000,
+  "list_q3": 249000,
+  "s_price": 68,
+  "s_band": 73,
+  "s_mood": 22,
+  "score": 46,
+  "partial": 70
+ },
+ "evidence": [],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "참고(트렌드·무드 탐색)",
+ "rank": 22,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/3542",
+   "title": "제이청(J CHUNG)",
+   "ko": "제이청",
+   "en": "J CHUNG",
+   "sub": "엘레강스 캐주얼 브랜드",
+   "est": 2015,
+   "heart": 15897,
+   "intro": "제이청은 일상의 불완전함 속에서 새로운 아름다움의 가능성을 발견합니다.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 45900,
+    "q1": 93300,
+    "med": 112890,
+    "q3": 176790,
+    "p90": 247790,
+    "max": 334000,
+    "mean": 136752
+   },
+   "disc": {
+    "n": 50,
+    "med": 29,
+    "max": 57
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 96,
+    "med": 0,
+    "max": 24,
+    "rated": 22
+   },
+   "rate": 4.8,
+   "tags": {
+    "쿠폰": 45,
+    "조건부 무료배송": 45,
+    "신상품": 11,
+    "품절": 5
+   },
+   "names": [
+    "Washed Faux Leather Blouson_Brown",
+    "Hairy Tweed Jacket_Black",
+    "Hairy Tweed Jacket_Ivory",
+    "Soft Faux Leather Field Jumper_Black",
+    "Light V-neck Pullover_Black",
+    "[재입고/컬러추가] Sheer Button Up Cardigan [3COL]",
+    "Round Corduroy Pants_Muted Navy",
+    "Fine Rib Henley Neck Top_Black",
+    "Signature System Dramatic Pants_Black",
+    "Round Corduroy Pants_Black",
+    "Contoured Quilted Coat_Cream",
+    "Waffle Slim Hood_Beige",
+    "Waffle Slim Hood_Black",
+    "[1차 리오더] Raw-cut Track Pants_Charcoal",
+    "Curved A-line Sweatpants_Navy",
+    "Round Corduroy Pants_Ivory",
+    "Signature Denim Pants_White",
+    "Waah String Tee_Grey",
+    "Signature A-line Zipper Top_Sharp Ivory",
+    "Fine Rib Henley Neck Top_Brown",
+    "Slim Washed Faux Leather Jacket_Charcoal",
+    "Basic Shirts_White",
+    "Off-Shoulder Sweatshirts_Charcoal",
+    "Surf Bear Tee_Melange",
+    "Unfold Tuck Boots cut Trouser_Charcoal",
+    "Ziggle Pleats Top_Knife Black",
+    "Velvet Signature Denim Pants_Navy",
+    "Flowing Draped Tee_Charcoal",
+    "Kidmohair V-neck Pullover_Sky",
+    "Signature Denim Pants_Charcoal",
+    "Fluffy Faux Fur Jacket_Light Beige",
+    "Kidmohair V-neck Pullover_Charcoal",
+    "Waffle Slim Hood_Melange Grey",
+    "Soft Jersey Maxi Skirt_Navy",
+    "Lovely Half Jacket_Cream",
+    "Chewy Basic Knit_Oat Ivory",
+    "Lovely Half Jacket_Black",
+    "Soft Jersey Maxi Skirt_Beige",
+    "Off-Shoulder Sweatshirts_Navy",
+    "Kidmohair V-neck Pullover_Beige"
+   ],
+   "id": 3542,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": null
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "slug": "b426622",
+ "ko": "진도캐시미어",
+ "en": "",
+ "status": "후보",
+ "tier": "패션그룹 프리미엄",
+ "tags": [
+  "소재중시",
+  "클래식"
+ ],
+ "found": [
+  "기사: 2030 프리미엄 수요 겨냥"
+ ],
+ "note": "가격 미수집·DB에 없음",
+ "ids": {},
+ "price_source": "",
+ "intro": "",
+ "sub": "",
+ "est": null,
+ "heart": null,
+ "off": null,
+ "score": {},
+ "evidence": [
+  {
+   "idx": "228167",
+   "date": "2026-10-12",
+   "title": "모피 1등이 만든 '진도캐시미어'…2030 프리미엄 수요까지 잡는다",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=228167&cat=CAT310",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "227700",
+   "date": "2026-09-17",
+   "title": "'모피 1위' 진도모피, 신규 브랜드 '진도캐시미어' 런칭",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=227700&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "기사 요약(약함)",
+ "role": "미평가(가격 미수집)",
+ "rank": 98,
+ "platform": {
+  "29cm": null,
+  "wconcept": null
+ }
+}

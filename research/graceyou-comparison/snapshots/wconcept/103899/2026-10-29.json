@@ -1,0 +1,497 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/103899",
+ "title": "낫띵리튼(NOTHING WRITTEN) | W컨셉(W CONCEPT)",
+ "ko": "낫띵리튼",
+ "en": "NOTHING WRITTEN",
+ "intro": "낫띵리튼은 베이직을 추구하는, 누구나 접할 수 있는 Comfortable Look을 기반으로 하는 브랜드다. 기본에 충실한 입체 패턴과 고급 원단에 집중하여 견고함을 바탕으로 옷을 만듦에 있어 과정에 충실한 시즌리스 제품들을 선보인다. 클래식을 추구하며 현대적인 감각으로 풀어낸 절제된 멋을 추구한다.",
+ "n": 86,
+ "p": {
+  "min": 1013,
+  "q1": 129000,
+  "med": 179000,
+  "q3": 255000,
+  "p90": 359000,
+  "max": 859000,
+  "mean": 193570
+ },
+ "disc": {
+  "n": 0,
+  "med": null
+ },
+ "names": [
+  "Misha faux fur coat (Brown)",
+  "Misha faux fur jacket (Black)",
+  "Classic mini golf bag (Black)",
+  "Metis Cotton Shirt (Blue Stripe)",
+  "Lambskin Bomber Jacket (Black)",
+  "Theo field jacket (Black, W)",
+  "Erin wool v-neck pullover (Gray)",
+  "90s t-shirt (White)",
+  "Pound alpaca sweater (Dove)",
+  "Ferro single trench (Cream, W)",
+  "Monday cotton shirt (Gray stripe, W)",
+  "Double pocket cotton shirt (Dark brown)",
+  "Jeff chino pants (Black)",
+  "Vintage button cardigan (White)",
+  "Esme rib-knitted cami (White)",
+  "Minty v-neck pullover (Soft blue)",
+  "Minty v-neck pullover (Green)",
+  "Vintage button cardigan (Black)",
+  "Lumie shirt (Charcoal)",
+  "Light balmacaan trench (Off white)",
+  "Frame cuff trousers (White)",
+  "Frame cuff trousers (Light beige)",
+  "Relaxed low-rise pants (Greige)",
+  "Frame cuff trousers (Black)",
+  "Loaf bread tote bag (Ivory)",
+  "Stitch leather belt (Black)",
+  "Loaf bread tote mini bag (Ivory)",
+  "Loaf bread tote mini bag (Dark brownie)",
+  "Relaxed low-rise pants (Black)",
+  "Esme rib-knitted cami (Black)",
+  "Palie raglan pullover (Black / Ivory)",
+  "Paper sleeveless top (Dark gray)",
+  "[단독]HT nylon shoulder bag (Salt)",
+  "Benico half neck knit (Ivory)",
+  "Extreme fine wool pullover (Neutral)",
+  "Marrie soft pocket cardigan (Cream)",
+  "Ralph hoodie zipup (Neutral)",
+  "Kiri brushed wool pullover (Royal ivory)",
+  "Shoulder leather bag (Caramel)",
+  "Caron stripe jumper (Dark navy)"
+ ],
+ "cards": [
+  {
+   "n": "Misha faux fur coat (Brown)",
+   "p": 459000,
+   "d": null
+  },
+  {
+   "n": "Misha faux fur jacket (Black)",
+   "p": 389000,
+   "d": null
+  },
+  {
+   "n": "Classic mini golf bag (Black)",
+   "p": 253000,
+   "d": null
+  },
+  {
+   "n": "Metis Cotton Shirt (Blue Stripe)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "Lambskin Bomber Jacket (Black)",
+   "p": 859000,
+   "d": null
+  },
+  {
+   "n": "Theo field jacket (Black, W)",
+   "p": 429000,
+   "d": null
+  },
+  {
+   "n": "Erin wool v-neck pullover (Gray)",
+   "p": 155000,
+   "d": null
+  },
+  {
+   "n": "90s t-shirt (White)",
+   "p": 43000,
+   "d": null
+  },
+  {
+   "n": "Pound alpaca sweater (Dove)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "Ferro single trench (Cream, W)",
+   "p": 429000,
+   "d": null
+  },
+  {
+   "n": "Monday cotton shirt (Gray stripe, W)",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "Double pocket cotton shirt (Dark brown)",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "Jeff chino pants (Black)",
+   "p": 165000,
+   "d": null
+  },
+  {
+   "n": "Vintage button cardigan (White)",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "Esme rib-knitted cami (White)",
+   "p": 98000,
+   "d": null
+  },
+  {
+   "n": "Minty v-neck pullover (Soft blue)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "Minty v-neck pullover (Green)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "Vintage button cardigan (Black)",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "Lumie shirt (Charcoal)",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "Light balmacaan trench (Off white)",
+   "p": 395000,
+   "d": null
+  },
+  {
+   "n": "Frame cuff trousers (White)",
+   "p": 195000,
+   "d": null
+  },
+  {
+   "n": "Frame cuff trousers (Light beige)",
+   "p": 195000,
+   "d": null
+  },
+  {
+   "n": "Relaxed low-rise pants (Greige)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "Frame cuff trousers (Black)",
+   "p": 195000,
+   "d": null
+  },
+  {
+   "n": "Loaf bread tote bag (Ivory)",
+   "p": 289000,
+   "d": null
+  },
+  {
+   "n": "Stitch leather belt (Black)",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "Loaf bread tote mini bag (Ivory)",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "Loaf bread tote mini bag (Dark brownie)",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "Relaxed low-rise pants (Black)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "Esme rib-knitted cami (Black)",
+   "p": 98000,
+   "d": null
+  },
+  {
+   "n": "Palie raglan pullover (Black / Ivory)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "Paper sleeveless top (Dark gray)",
+   "p": 65000,
+   "d": null
+  },
+  {
+   "n": "[단독]HT nylon shoulder bag (Salt)",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "Benico half neck knit (Ivory)",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "Extreme fine wool pullover (Neutral)",
+   "p": 255000,
+   "d": null
+  },
+  {
+   "n": "Marrie soft pocket cardigan (Cream)",
+   "p": 255000,
+   "d": null
+  },
+  {
+   "n": "Ralph hoodie zipup (Neutral)",
+   "p": 289000,
+   "d": null
+  },
+  {
+   "n": "Kiri brushed wool pullover (Royal ivory)",
+   "p": 165000,
+   "d": null
+  },
+  {
+   "n": "Shoulder leather bag (Caramel)",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "Caron stripe jumper (Dark navy)",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "Hany cashmere knit (Black)",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "(87)",
+   "p": 1224,
+   "d": null
+  },
+  {
+   "n": "Bunny Wool Pullover Knit (Pure Ivory)",
+   "p": 145000,
+   "d": null
+  },
+  {
+   "n": "1967 half tote bag (Black)",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "Pound alpaca sweater (Black)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "Caron stripe knit muffler (Dark navy)",
+   "p": 59000,
+   "d": null
+  },
+  {
+   "n": "(319)",
+   "p": 3720,
+   "d": null
+  },
+  {
+   "n": "Kate bowling bag (Black)",
+   "p": 319000,
+   "d": null
+  },
+  {
+   "n": "Nella strap bag (Black)",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "(212)",
+   "p": 5579,
+   "d": null
+  },
+  {
+   "n": "Pound alpaca sweater (Oatmeal)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "Nella strap large bag (Black)",
+   "p": 249000,
+   "d": null
+  },
+  {
+   "n": "(40)",
+   "p": 1862,
+   "d": null
+  },
+  {
+   "n": "Erin wool v-neck pullover (Ivory)",
+   "p": 155000,
+   "d": null
+  },
+  {
+   "n": "(51)",
+   "p": 1013,
+   "d": null
+  },
+  {
+   "n": "Cocoon corduroy pants (Dusty charcoal)",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "Cropped string puffer jacket (Hale navy)",
+   "p": 519000,
+   "d": null
+  },
+  {
+   "n": "Pound alpaca sweater (French navy)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "Atelier wool coat (Black)",
+   "p": 559000,
+   "d": null
+  },
+  {
+   "n": "Heritage Leather Vest (Dark Mocha)",
+   "p": 359000,
+   "d": null
+  },
+  {
+   "n": "Loaf bread tote bag (Dark Brownie)",
+   "p": 289000,
+   "d": null
+  },
+  {
+   "n": "Bunny Wool Pullover Knit (Navy)",
+   "p": 145000,
+   "d": null
+  },
+  {
+   "n": "Petit frame mini bag (Dark brownie)",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "90s t-shirt (Gray)",
+   "p": 43000,
+   "d": null
+  },
+  {
+   "n": "(465)",
+   "p": 2807,
+   "d": null
+  },
+  {
+   "n": "Ralph hoodie zipup (Black and white)",
+   "p": 289000,
+   "d": null
+  },
+  {
+   "n": "Diene round cardigan (Olive)",
+   "p": 165000,
+   "d": null
+  },
+  {
+   "n": "Extreme fine wool pullover (Charcoal)",
+   "p": 255000,
+   "d": null
+  },
+  {
+   "n": "Nou Fatigue Pants (Dark Navy)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "Eden washing pants (Charcoal)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "Charlotte v-neck pullover (Clean White)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "Charlotte v-neck pullover (Brown)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "NW Silk scarf (Navy)",
+   "p": 95000,
+   "d": null
+  },
+  {
+   "n": "Fungus beanie (Cookie and cream)",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "Casta knit pants (Black)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "Triangle cashmere muffler (Brown)",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "Classic mini golf bag (Mahogany)",
+   "p": 253000,
+   "d": null
+  },
+  {
+   "n": "(236)",
+   "p": 7291,
+   "d": null
+  },
+  {
+   "n": "Molly V-Neck Pullover (Ocean Stripe)",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "Meadow washed cotton Pants (Washed blue)",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "90s t-shirt (Red)",
+   "p": 43000,
+   "d": null
+  },
+  {
+   "n": "(148)",
+   "p": 1555,
+   "d": null
+  },
+  {
+   "n": "Nou Fatigue Pants (Indi Blue)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "Triangle cashmere muffler (Camel)",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "Sunne shirt (Ocean)",
+   "p": 155000,
+   "d": null
+  },
+  {
+   "n": "Panny Harrington Jacket (White)",
+   "p": 319000,
+   "d": null
+  }
+ ],
+ "id": 103899,
+ "observed_at": "2026-10-29"
+}

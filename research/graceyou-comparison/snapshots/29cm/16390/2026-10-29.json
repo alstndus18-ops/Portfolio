@@ -1,0 +1,639 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/16390",
+ "title": "오픈와이와이(OPEN YY)",
+ "ko": "오픈와이와이",
+ "en": "OPEN YY",
+ "sub": "TheOpen Product의 새로운 레이블, ‘OPEN YY’",
+ "est": 2020,
+ "heart": 76382,
+ "intro": "크리에이티브 디렉터 지영과 보영, 두 자매의 이름 ‘영’에서 착안한 YY,\n공유하는 문자 '영'은 동음이의어로, 같은 소리를 공유하면서 두 가지 다른 의미를 가집니다.\n첫 번째 영은 '밝음’, 다른 하나는 '꽃봉오리'를 뜻합니다.\nOPEN YY는 비슷하면서도 다른 각각의 다양성과 각 개성이 가지고 있는 아름다움을 표현합니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 50490,
+  "q1": 118000,
+  "med": 194600,
+  "q3": 309000,
+  "p90": 469000,
+  "max": 698000,
+  "mean": 224730
+ },
+ "disc": {
+  "n": 30,
+  "med": 10,
+  "max": 50
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 484,
+  "med": 3,
+  "max": 135,
+  "rated": 40
+ },
+ "rate": 4.8,
+ "tags": {
+  "조건부 무료배송": 10,
+  "무료배송": 38,
+  "품절": 2,
+  "쿠폰": 1
+ },
+ "names": [
+  "THIGH HIGH BALLET BOOTS, BLACK",
+  "YY WOOL HEART BONE BALL CAP (BLACK)",
+  "BELTED CARGO FIELD JACKET (KHAKI)",
+  "FRINGED ZIP SHAWL (BLACK)",
+  "PET CLUB ROCKER LONG SLEEVE (CHARCOAL)",
+  "DRAPED COTTON SKIRT (GRAY)",
+  "BALLET SLOUCHY SHORT BOOTS, CHARCOAL",
+  "PET CLUB ROCKER LONG SLEEVE (BLUE)",
+  "YY CHECKERED HEART BONE BALL CAP (MUSTARD)",
+  "FLEECE APPLIQUE ZIPUP JACKET (BLACK)",
+  "RAW CUT RUFFLE DRESS TOP (CHARCOAL)",
+  "YY WOOL HEART BONE BALL CAP (RED)",
+  "WAIWAI TRUCKER CAP (BLACK)",
+  "WIRE KNIT BEANIE (BLACK)",
+  "BUTTON UP BLOUSON CARDIGAN (CHARCOAL)",
+  "SLOUCHY V-NECK SWEATSHIRT (GRAY)",
+  "OIL SKIN MINI TOTE w. FURRY STRAP (BLACK)",
+  "FAIR ISLE ZIP UP SWEATER (BLACK)",
+  "CROSS BUCKLE BALLET FLATS, CHARCOAL",
+  "YY PHONETIC TRUCKER CAP (BLACK)",
+  "APPLIQUE KNIT ZIPUP JACKET (KHAKI)",
+  "TRIPLE KNOT CREW NECK TOP (BLACK)",
+  "FLUID CARGO BOMBER (BLACK)",
+  "STITCH ZIP UP KNIT HOODIE (IVORY)",
+  "STITCH ZIP UP KNIT HOODIE (BLUE)",
+  "HOUNDS TOOTH STAR COWICHAN (GRAY)",
+  "I LOVE YY FIT HOODIE (CHARCOAL)",
+  "DRAPED COTTON SKIRT (LIGHT YELLOW)",
+  "OXFORD FLATS, BLACK",
+  "FLUID CARGO BOMBER (KHAKI)",
+  "TAILORED BOOTCUT PANTS (CHARCOAL)",
+  "OVERSIZED FAUX FUR HOOD PARKA (BEIGE)",
+  "I LOVE YY FIT HOODIE (MELANGE)",
+  "CROSS BAND BALLET FLATS, GUNMETAL",
+  "STITCH ZIP UP KNIT HOODIE (BROWN)",
+  "FLAPPER PLEATS DRESS (BLACK)",
+  "WOOL CRISS CROSS WRAP KNIT (GRAY)",
+  "BALLET SLOUCHY BOOTS, MULTI",
+  "BALLET SLOUCHY SHORT BOOTS, BURGUNDY",
+  "RAW CUT RUFFLE DRESS TOP (GRAY)"
+ ],
+ "cards": [
+  {
+   "n": "THIGH HIGH BALLET BOOTS, BLACK",
+   "p": 398000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 58,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "YY WOOL HEART BONE BALL CAP (BLACK)",
+   "p": 88200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "BELTED CARGO FIELD JACKET (KHAKI)",
+   "p": 489000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "FRINGED ZIP SHAWL (BLACK)",
+   "p": 172800,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "PET CLUB ROCKER LONG SLEEVE (CHARCOAL)",
+   "p": 118000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "DRAPED COTTON SKIRT (GRAY)",
+   "p": 152100,
+   "d": 10,
+   "lk": null,
+   "rt": 4,
+   "rv": 2,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "BALLET SLOUCHY SHORT BOOTS, CHARCOAL",
+   "p": 489000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 18,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "PET CLUB ROCKER LONG SLEEVE (BLUE)",
+   "p": 118000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "YY CHECKERED HEART BONE BALL CAP (MUSTARD)",
+   "p": 97200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "FLEECE APPLIQUE ZIPUP JACKET (BLACK)",
+   "p": 160300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 11,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "RAW CUT RUFFLE DRESS TOP (CHARCOAL)",
+   "p": 196200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "YY WOOL HEART BONE BALL CAP (RED)",
+   "p": 88200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "WAIWAI TRUCKER CAP (BLACK)",
+   "p": 68600,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 11,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "WIRE KNIT BEANIE (BLACK)",
+   "p": 97200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "BUTTON UP BLOUSON CARDIGAN (CHARCOAL)",
+   "p": 178200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "SLOUCHY V-NECK SWEATSHIRT (GRAY)",
+   "p": 151200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "OIL SKIN MINI TOTE w. FURRY STRAP (BLACK)",
+   "p": 318000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "FAIR ISLE ZIP UP SWEATER (BLACK)",
+   "p": 309000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "CROSS BUCKLE BALLET FLATS, CHARCOAL",
+   "p": 329000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 32,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "YY PHONETIC TRUCKER CAP (BLACK)",
+   "p": 54600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 23,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "APPLIQUE KNIT ZIPUP JACKET (KHAKI)",
+   "p": 208600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "TRIPLE KNOT CREW NECK TOP (BLACK)",
+   "p": 64500,
+   "d": 50,
+   "lk": null,
+   "rt": 5,
+   "rv": 13,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "FLUID CARGO BOMBER (BLACK)",
+   "p": 358200,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 9,
+   "t": [
+    "품절"
+   ]
+  },
+  {
+   "n": "STITCH ZIP UP KNIT HOODIE (IVORY)",
+   "p": 208600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 9,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "STITCH ZIP UP KNIT HOODIE (BLUE)",
+   "p": 208600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "HOUNDS TOOTH STAR COWICHAN (GRAY)",
+   "p": 194600,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 10,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "I LOVE YY FIT HOODIE (CHARCOAL)",
+   "p": 158000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "DRAPED COTTON SKIRT (LIGHT YELLOW)",
+   "p": 152100,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "OXFORD FLATS, BLACK",
+   "p": 318000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "FLUID CARGO BOMBER (KHAKI)",
+   "p": 358200,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 9,
+   "t": [
+    "품절"
+   ]
+  },
+  {
+   "n": "TAILORED BOOTCUT PANTS (CHARCOAL)",
+   "p": 268200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "OVERSIZED FAUX FUR HOOD PARKA (BEIGE)",
+   "p": 244500,
+   "d": 50,
+   "lk": null,
+   "rt": 4,
+   "rv": 2,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "I LOVE YY FIT HOODIE (MELANGE)",
+   "p": 158000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "CROSS BAND BALLET FLATS, GUNMETAL",
+   "p": 287000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 22,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "STITCH ZIP UP KNIT HOODIE (BROWN)",
+   "p": 208600,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 6,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "FLAPPER PLEATS DRESS (BLACK)",
+   "p": 166600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 9,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "WOOL CRISS CROSS WRAP KNIT (GRAY)",
+   "p": 189000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "BALLET SLOUCHY BOOTS, MULTI",
+   "p": 469000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 9,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "BALLET SLOUCHY SHORT BOOTS, BURGUNDY",
+   "p": 489000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 8,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "RAW CUT RUFFLE DRESS TOP (GRAY)",
+   "p": 196200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "FAIR ISLE ZIP UP SWEATER (IVORY)",
+   "p": 309000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "WIRE KNIT BEANIE (CHARCOAL)",
+   "p": 97200,
+   "d": 10,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "FLOWER-STUD BALLET BIKER BOOTS, CHARCOAL",
+   "p": 698000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "I LOVE YY BOX TEE (WHITE)",
+   "p": 50490,
+   "d": 36,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 135,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "WOOL CRISS CROSS WRAP KNIT (BROWN)",
+   "p": 189000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "YY SNAP WESTERN BELT (BLACK)",
+   "p": 140400,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "CROSS BAND MESH FLATS, BLACK",
+   "p": 349000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SEOUL LOUNGE TEE (GRAY)",
+   "p": 82800,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "ROCKING BABY TEE (CHARCOAL)",
+   "p": 55300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 27,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "CROSS BAND BALLET FLATS, BLACK",
+   "p": 287000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 17,
+   "t": [
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 16390,
+ "observed_at": "2026-10-29"
+}

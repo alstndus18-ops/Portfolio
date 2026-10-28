@@ -1,0 +1,71 @@
+{
+ "slug": "the-cashmere",
+ "ko": "더캐시미어",
+ "en": "the CASHMERE",
+ "status": "후보",
+ "tier": "패션그룹 프리미엄",
+ "tags": [
+  "소재중시",
+  "클래식"
+ ],
+ "found": [
+  "기사: 25 FW 라운지 컬렉션(캐시미어)"
+ ],
+ "note": "가격 미수집",
+ "ids": {
+  "off": "https://thehandsome.com"
+ },
+ "price_source": "",
+ "intro": "",
+ "sub": "",
+ "est": null,
+ "heart": null,
+ "off": null,
+ "score": {},
+ "evidence": [
+  {
+   "idx": "228367",
+   "date": "2026-10-20",
+   "title": "더캐시미어, 남성 라인 선보여",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=228367&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "219797",
+   "date": "2025-09-02",
+   "title": "더캐시미어, 25 FW 라운지 컬렉션 공개",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=219797&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "217916",
+   "date": "2025-06-05",
+   "title": "더캐시미어, SUMMER VOYAGE 캠페인 화보 공개",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=217916&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "218657",
+   "date": "2025-07-08",
+   "title": "현대百, 새로운 소비 트렌드 '시즌리스 상품'",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=218657&cat=CAT121",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "기사 요약(약함)",
+ "role": "미평가(가격 미수집)",
+ "rank": 81,
+ "platform": {
+  "29cm": null,
+  "wconcept": null
+ }
+}

@@ -1,0 +1,636 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/8867",
+ "title": "페인오어플레져(painorpleasure)",
+ "ko": "페인오어플레져",
+ "en": "painorpleasure",
+ "sub": "사랑스러운 스트리트 무드의 디자이너 브랜드",
+ "heart": 22179,
+ "intro": "페인오어플레져는 2017년 서울에서 론칭된 디자이너 브랜드입니다. 우리는 여성 고유의 아름다움을 드러내는 핏과 실루엣에 중점을 두고, 독창적이면서도 일상 속에서 즐길 수 있는 캐주얼한 디자인을 전개하고 있습니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 35000,
+  "q1": 85000,
+  "med": 149000,
+  "q3": 198000,
+  "p90": 259000,
+  "max": 379000,
+  "mean": 152460
+ },
+ "disc": {
+  "n": 0,
+  "med": null
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 61,
+  "med": 0,
+  "max": 20,
+  "rated": 16
+ },
+ "rate": 4.83,
+ "tags": {
+  "조건부 무료배송": 44,
+  "신상품": 1,
+  "품절": 6
+ },
+ "names": [
+  "DUSK LEATHER JACKET cream",
+  "CUT-OUT LAYERED TEE black",
+  "NIX MINI SKIRT black",
+  "SWAN LACE HAIRBAND pink",
+  "CUT-OUT LAYERED TEE white",
+  "VIVIAN SCARF SHIRT beige",
+  "SWAN SATIN LONG DRESS charcoal",
+  "VIVIAN SCARF SHIRT white",
+  "RUBY HOOK OVER KNIT black",
+  "MIDNIGHT HALTER TOP black",
+  "TWILIGHT TOP white",
+  "RUBY HOOK OVER KNIT ivory",
+  "TWILIGHT TOP cream",
+  "MOONFLOWER TOP cream",
+  "TWILIGHT TOP grey",
+  "ROSE SHIRRING TOP pink",
+  "MOONRISE BLOUSE cream",
+  "SWAN SKIRT pink",
+  "SWAN LACE HAIRBAND cream",
+  "ANEMONE TOP cream",
+  "FOG TOP mint",
+  "FOG TOP grey",
+  "CUT-OUT LONG SKIRT black",
+  "LACE BOATNECK TOP white",
+  "DUSK LAYERED SKIRT black",
+  "MARIA TOP light grey",
+  "DUSK LEATHER JACKET black",
+  "RUBY HOOK LONG SLEEVE charcoal",
+  "LACE BOATNECK TOP black",
+  "MOONFLOWER SKIRT cream",
+  "HEART RIBBON DRESS cream",
+  "WENDY RIBBON DRESS white",
+  "SOFT DRAPED OFF SHOULDER TOP black",
+  "LILY COWL RIBBON TOP black",
+  "BIANCA SQUARE NECK BLOUSE blue",
+  "SWAN SKIRT white",
+  "DREAMY DRESS cream",
+  "HEART RIBBON TOP (SS ver.) ivory",
+  "JENNIE BUTTONED TOP ivory",
+  "PURITY DRESS white"
+ ],
+ "cards": [
+  {
+   "n": "DUSK LEATHER JACKET cream",
+   "p": 329000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "CUT-OUT LAYERED TEE black",
+   "p": 119000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "NIX MINI SKIRT black",
+   "p": 169000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 20,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SWAN LACE HAIRBAND pink",
+   "p": 35000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "CUT-OUT LAYERED TEE white",
+   "p": 119000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "품절"
+   ]
+  },
+  {
+   "n": "VIVIAN SCARF SHIRT beige",
+   "p": 129000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 10,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SWAN SATIN LONG DRESS charcoal",
+   "p": 209000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "VIVIAN SCARF SHIRT white",
+   "p": 129000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 11,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "RUBY HOOK OVER KNIT black",
+   "p": 149000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "품절"
+   ]
+  },
+  {
+   "n": "MIDNIGHT HALTER TOP black",
+   "p": 185000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "TWILIGHT TOP white",
+   "p": 79000,
+   "d": null,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "RUBY HOOK OVER KNIT ivory",
+   "p": 149000,
+   "d": null,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "품절"
+   ]
+  },
+  {
+   "n": "TWILIGHT TOP cream",
+   "p": 79000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "MOONFLOWER TOP cream",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "품절"
+   ]
+  },
+  {
+   "n": "TWILIGHT TOP grey",
+   "p": 79000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "ROSE SHIRRING TOP pink",
+   "p": 179000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "MOONRISE BLOUSE cream",
+   "p": 259000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SWAN SKIRT pink",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SWAN LACE HAIRBAND cream",
+   "p": 35000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "ANEMONE TOP cream",
+   "p": 89000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "FOG TOP mint",
+   "p": 79000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "품절"
+   ]
+  },
+  {
+   "n": "FOG TOP grey",
+   "p": 79000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "CUT-OUT LONG SKIRT black",
+   "p": 169000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "LACE BOATNECK TOP white",
+   "p": 89000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DUSK LAYERED SKIRT black",
+   "p": 219000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "MARIA TOP light grey",
+   "p": 89000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DUSK LEATHER JACKET black",
+   "p": 329000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "RUBY HOOK LONG SLEEVE charcoal",
+   "p": 79000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "LACE BOATNECK TOP black",
+   "p": 89000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "MOONFLOWER SKIRT cream",
+   "p": 189000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "HEART RIBBON DRESS cream",
+   "p": 259000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "WENDY RIBBON DRESS white",
+   "p": 259000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SOFT DRAPED OFF SHOULDER TOP black",
+   "p": 119000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "LILY COWL RIBBON TOP black",
+   "p": 89000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "BIANCA SQUARE NECK BLOUSE blue",
+   "p": 169000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SWAN SKIRT white",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DREAMY DRESS cream",
+   "p": 219000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "HEART RIBBON TOP (SS ver.) ivory",
+   "p": 149000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "JENNIE BUTTONED TOP ivory",
+   "p": 109000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "PURITY DRESS white",
+   "p": 219000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "WRINKLED ORCHID TOP beige",
+   "p": 79000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DUSK GRAPHIC TEE charcoal",
+   "p": 85000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DUSK GRAPHIC TEE pink",
+   "p": 85000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "ANGEL STRAP TOP pink",
+   "p": 79000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "FOG TOP black",
+   "p": 79000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "LUNA BELTED SHEARLING JACKET cream",
+   "p": 379000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "품절"
+   ]
+  },
+  {
+   "n": "CUT-OUT LONG SKIRT charcoal",
+   "p": 169000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "HEART RIBBON DRESS brown",
+   "p": 259000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DREAMY DRESS black",
+   "p": 219000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "REGINA TOP pink",
+   "p": 75000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 8867,
+ "observed_at": "2026-10-29"
+}

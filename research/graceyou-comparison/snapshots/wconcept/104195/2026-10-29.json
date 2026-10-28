@@ -1,0 +1,412 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/104195",
+ "title": "모이아(MOIA) | W컨셉(W CONCEPT)",
+ "ko": "모이아",
+ "en": "MOIA",
+ "intro": "참신한 소재와 모던한 실루엣, 자연스러움이 흐르는 모이아는 일상에 스며드는 옷, 오래 간직하고 싶은 것에 가치를 둡니다. MOIA 26FALL Portrait of a Muse MOIA PRE-ORDER 가장 먼저 만나보는 모이아의 가을 MOIA 26SUMMER Her Repose MOIA 26SS PORTRAIT OF A MUSE MOIA PRE-ORDER 가장 먼저 만나보는 모이아 베스트 캐리오버 아이템 MOIA 25SUMMER 삶의 틈 속에 피어난 꽃 MOIA 25SS 뉴멕시코의 자연과 삶 MOIA 24WINTER 와비사비 미학과 철학 MOIA 24FW 하트를 14.2만 개 받았어요 최근 조회수가 3.3만을 넘었어요 베스트 아이템 stripe shirt (gray) 183,000 1 side tuck pants (stone gray) 189,000 2 deep v-neck pullover (wood) 198,000 3 flow knit pants (smoke brown) 198,000 4 hoodie cardigan (oat) 219,000 5 dolman leather jacket (black) 489,000 6 2way scarf blouse (vi",
+ "n": 69,
+ "p": {
+  "min": 67000,
+  "q1": 173000,
+  "med": 189000,
+  "q3": 239000,
+  "p90": 298000,
+  "max": 498000,
+  "mean": 210806
+ },
+ "disc": {
+  "n": 0,
+  "med": null
+ },
+ "names": [
+  "stripe shirt (gray)",
+  "side tuck pants (stone gray)",
+  "deep v-neck pullover (wood)",
+  "flow knit pants (smoke brown)",
+  "hoodie cardigan (oat)",
+  "dolman leather jacket (black)",
+  "2way scarf blouse (vintage black)",
+  "draped trench coat (charcoal brown)",
+  "leather jumper (black)",
+  "A-line wind coat (black)",
+  "dolman half coat (charcoal)",
+  "leather jumper (deep brown)",
+  "wool vest (charcoal)",
+  "washed stripe shirt (midnight)",
+  "washed stripe shirt (smoke brown)",
+  "multi yarn sweater (charcoal brown)",
+  "half placket shirt (ash gray)",
+  "half placket shirt (black)",
+  "stripe shirt (ash)",
+  "drawstring blouse (charcoal brown)",
+  "drawstring blouse (black)",
+  "soft mock knit (gray)",
+  "soft cape knit (gray)",
+  "soft cape knit (ash)",
+  "knit leg warmer (black)",
+  "flow muffler (midnight)",
+  "flow muffler (gray)",
+  "flow muffler (smoke brown)",
+  "moon belt bag (black)",
+  "moon belt bag (brown)",
+  "hen mini tote (black)",
+  "hen mini tote (brown)",
+  "hen shoulder bag (black)",
+  "hen shoulder bag (brown)",
+  "low ankle boots (mud khaki)",
+  "low ankle boots (black)",
+  "pebble ballet shoes (smoke brown)",
+  "pebble ballet shoes (black)",
+  "stitched pebble loafer (smoke brown)",
+  "stitched pebble loafer (black)"
+ ],
+ "cards": [
+  {
+   "n": "stripe shirt (gray)",
+   "p": 183000,
+   "d": null
+  },
+  {
+   "n": "side tuck pants (stone gray)",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "deep v-neck pullover (wood)",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "flow knit pants (smoke brown)",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "hoodie cardigan (oat)",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "dolman leather jacket (black)",
+   "p": 489000,
+   "d": null
+  },
+  {
+   "n": "2way scarf blouse (vintage black)",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "draped trench coat (charcoal brown)",
+   "p": 379000,
+   "d": null
+  },
+  {
+   "n": "leather jumper (black)",
+   "p": 498000,
+   "d": null
+  },
+  {
+   "n": "A-line wind coat (black)",
+   "p": 349000,
+   "d": null
+  },
+  {
+   "n": "dolman half coat (charcoal)",
+   "p": 328000,
+   "d": null
+  },
+  {
+   "n": "leather jumper (deep brown)",
+   "p": 498000,
+   "d": null
+  },
+  {
+   "n": "wool vest (charcoal)",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "washed stripe shirt (midnight)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "washed stripe shirt (smoke brown)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "multi yarn sweater (charcoal brown)",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "half placket shirt (ash gray)",
+   "p": 183000,
+   "d": null
+  },
+  {
+   "n": "half placket shirt (black)",
+   "p": 183000,
+   "d": null
+  },
+  {
+   "n": "stripe shirt (ash)",
+   "p": 183000,
+   "d": null
+  },
+  {
+   "n": "drawstring blouse (charcoal brown)",
+   "p": 163000,
+   "d": null
+  },
+  {
+   "n": "drawstring blouse (black)",
+   "p": 163000,
+   "d": null
+  },
+  {
+   "n": "soft mock knit (gray)",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "soft cape knit (gray)",
+   "p": 176000,
+   "d": null
+  },
+  {
+   "n": "soft cape knit (ash)",
+   "p": 176000,
+   "d": null
+  },
+  {
+   "n": "knit leg warmer (black)",
+   "p": 69000,
+   "d": null
+  },
+  {
+   "n": "flow muffler (midnight)",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "flow muffler (gray)",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "flow muffler (smoke brown)",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "moon belt bag (black)",
+   "p": 187000,
+   "d": null
+  },
+  {
+   "n": "moon belt bag (brown)",
+   "p": 187000,
+   "d": null
+  },
+  {
+   "n": "hen mini tote (black)",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "hen mini tote (brown)",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "hen shoulder bag (black)",
+   "p": 298000,
+   "d": null
+  },
+  {
+   "n": "hen shoulder bag (brown)",
+   "p": 298000,
+   "d": null
+  },
+  {
+   "n": "low ankle boots (mud khaki)",
+   "p": 298000,
+   "d": null
+  },
+  {
+   "n": "low ankle boots (black)",
+   "p": 298000,
+   "d": null
+  },
+  {
+   "n": "pebble ballet shoes (smoke brown)",
+   "p": 263000,
+   "d": null
+  },
+  {
+   "n": "pebble ballet shoes (black)",
+   "p": 263000,
+   "d": null
+  },
+  {
+   "n": "stitched pebble loafer (smoke brown)",
+   "p": 289000,
+   "d": null
+  },
+  {
+   "n": "stitched pebble loafer (black)",
+   "p": 289000,
+   "d": null
+  },
+  {
+   "n": "maxi flow knit skirt (gray)",
+   "p": 173000,
+   "d": null
+  },
+  {
+   "n": "maxi flow knit skirt (smoke brown)",
+   "p": 173000,
+   "d": null
+  },
+  {
+   "n": "flow knit pants (black)",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "pebble loafer (black)",
+   "p": 249000,
+   "d": null
+  },
+  {
+   "n": "small ST shirt (navy stripe)",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "[EXCLUSIVE] sweatshirt (brown)",
+   "p": 68600,
+   "d": null
+  },
+  {
+   "n": "V box shirt (skyblue)",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "button shape knit (smoke brown)",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "mock neck cardigan (brown)",
+   "p": 217000,
+   "d": null
+  },
+  {
+   "n": "melange wool pants (charcoal)",
+   "p": 208000,
+   "d": null
+  },
+  {
+   "n": "side tuck pants (espresso)",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "herringbone dyed denim (smoke brown)",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "wide round pants (black)",
+   "p": 187000,
+   "d": null
+  },
+  {
+   "n": "low pocket pants (ash gray)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "low pocket pants (smoke brown)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "herringbone dyed denim (midnight)",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "button shirring pants (charcoal)",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "deep v-neck pullover (charcoal)",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "high neck cardigan (mushroom)",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "draped shirring skirt (gray)",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "deep v-neck pullover (melange gray)",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "button shirring pants (gray)",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "flare skirt (oat)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "wool leg warmer (wood)",
+   "p": 67000,
+   "d": null
+  },
+  {
+   "n": "raw pocket denim (charcoal brown)",
+   "p": 143000,
+   "d": null
+  },
+  {
+   "n": "draped shirring skirt (vintage black)",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "raw pocket denim (indigo blue)",
+   "p": 143000,
+   "d": null
+  },
+  {
+   "n": "low pocket pants (midnight)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "washed plain shirt (french roast)",
+   "p": 173000,
+   "d": null
+  }
+ ],
+ "id": 104195,
+ "observed_at": "2026-10-29"
+}

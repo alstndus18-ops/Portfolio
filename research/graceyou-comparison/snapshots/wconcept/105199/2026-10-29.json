@@ -1,0 +1,973 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/105199",
+ "title": "루에브르(LOEUVRE) | W컨셉(W CONCEPT)",
+ "ko": "루에브르",
+ "en": "LOEUVRE",
+ "intro": "loeuvre는 프렌치 감성을 기반으로 하며 시각적 트렌드에 민감하다. 시각적 체험의 기본이 되는 빛과 그림자를 기반으로 하며 제품이 표현하는 선과 컬러감, 소재의 중요성에 많은 시간과 공을 들여 ‘작품’과 같은 개념의 제품을 만들어내고자 한다.",
+ "n": 181,
+ "p": {
+  "min": 1006,
+  "q1": 72713,
+  "med": 179863,
+  "q3": 270141,
+  "p90": 312550,
+  "max": 399000,
+  "mean": 173757
+ },
+ "disc": {
+  "n": 77,
+  "med": 22,
+  "max": 34
+ },
+ "names": [
+  "[NEW컬러추가][단독] Oversized tweed jacket SW5SJ102_3color",
+  "Asymmetric Placket Faux Suede Jacket SL5XJ830-B8",
+  "Faux Leather Double Placket Blouson Zip-up Jumper SL6AM802-10",
+  "[단독]Balancoire Tote Medium (suede ver.) FA6AA383-N9",
+  "Trapeze Shoulder Medium FA5AB344-FH",
+  "2-Way Deep V-neck Knit Pullover SK6WP988_2color",
+  "Plie Shoulder Medium FA6SB365-FH",
+  "Arche Shoulder Large FA6AB376-FH",
+  "Trapeze Shoulder Large FA5AB343-FH",
+  "[단독]Balancoire Tote Medium FA6AA382-FH",
+  "[단독]Balancoire Tote Medium FA6AA382-NB",
+  "Plie Shoulder Medium FA6AB365-93",
+  "Bise Hobo Medium (suede ver.) FA6AD392-N9",
+  "Bise Hobo Medium FA6AD391-FH",
+  "Calla Shoulder Medium FA6AB386_2color",
+  "Tulipe Shoulder Medium FA6AB379-NB",
+  "Serein Shoulder Small (suede ver.) FA6AB390_2color",
+  "Serein Shoulder Small FA6AB389-NA",
+  "Billet Card Wallet FA6AR658_3color",
+  "Jumelle Card Wallet FA6AR659_3color",
+  "Rose Charme FZ6AS660_2color",
+  "Arche Shoulder Large (suede ver.) FA6AB377-N8",
+  "Arche Shoulder Large (suede ver.) FA6AB377-N9",
+  "Pluie Charme FZ5SS647_5color",
+  "Tour Hobo Large FA5SD331-FH",
+  "Anse Zipper Wallet FA4AR308_2color",
+  "Hand-made Belted Half-Coat SW6XH407-92",
+  "[단독] High-Neck Faux Fur Jacket SF6WJ908-9E",
+  "[단독] High-Neck Faux Fur Jacket SF6WJ908-11",
+  "Faux Fur Short Jacket SF6XJ401-93",
+  "Faux Fur Short Jacket SF6XJ401-96",
+  "Quilted Lined Alpaca Jacket SW6XJ970-91",
+  "Quilted Lined Alpaca Jacket SW6XJ970-94",
+  "Toggle Point Half Fur Jacket SM6XJ442-91",
+  "Mink-Touch High-Neck Half Coat SF6WJ910-03",
+  "High-Neck Faux Fur Vest SF6WV918-90",
+  "Textured Belted Shearling Long Coat SF6WJ940-94",
+  "Faux Leather Single-Breasted Car Coat SL6AJ869-94",
+  "Two-Way Single-Breasted Blazer SW6AJ870-93",
+  "Two-Way Single-Breasted Blazer SW6AJ870-9E"
+ ],
+ "cards": [
+  {
+   "n": "[NEW컬러추가][단독] Oversized tweed jacket SW5SJ102_3color",
+   "p": 179863,
+   "d": 30
+  },
+  {
+   "n": "Asymmetric Placket Faux Suede Jacket SL5XJ830-B8",
+   "p": 293550,
+   "d": 18
+  },
+  {
+   "n": "Faux Leather Double Placket Blouson Zip-up Jumper SL6AM802-10",
+   "p": 236113,
+   "d": 18
+  },
+  {
+   "n": "[단독]Balancoire Tote Medium (suede ver.) FA6AA383-N9",
+   "p": 193752,
+   "d": 30
+  },
+  {
+   "n": "Trapeze Shoulder Medium FA5AB344-FH",
+   "p": 215034,
+   "d": 34
+  },
+  {
+   "n": "2-Way Deep V-neck Knit Pullover SK6WP988_2color",
+   "p": 121733,
+   "d": 18
+  },
+  {
+   "n": "Plie Shoulder Medium FA6SB365-FH",
+   "p": 207641,
+   "d": 30
+  },
+  {
+   "n": "Arche Shoulder Large FA6AB376-FH",
+   "p": 242363,
+   "d": 30
+  },
+  {
+   "n": "Trapeze Shoulder Large FA5AB343-FH",
+   "p": 228106,
+   "d": 34
+  },
+  {
+   "n": "[단독]Balancoire Tote Medium FA6AA382-FH",
+   "p": 193752,
+   "d": 30
+  },
+  {
+   "n": "[단독]Balancoire Tote Medium FA6AA382-NB",
+   "p": 193752,
+   "d": 30
+  },
+  {
+   "n": "Plie Shoulder Medium FA6AB365-93",
+   "p": 207641,
+   "d": 30
+  },
+  {
+   "n": "Bise Hobo Medium (suede ver.) FA6AD392-N9",
+   "p": 263973,
+   "d": 26
+  },
+  {
+   "n": "Bise Hobo Medium FA6AD391-FH",
+   "p": 241914,
+   "d": 26
+  },
+  {
+   "n": "Calla Shoulder Medium FA6AB386_2color",
+   "p": 207641,
+   "d": 30
+  },
+  {
+   "n": "Tulipe Shoulder Medium FA6AB379-NB",
+   "p": 179863,
+   "d": 30
+  },
+  {
+   "n": "Serein Shoulder Small (suede ver.) FA6AB390_2color",
+   "p": 165974,
+   "d": 30
+  },
+  {
+   "n": "Serein Shoulder Small FA6AB389-NA",
+   "p": 165974,
+   "d": 30
+  },
+  {
+   "n": "Billet Card Wallet FA6AR658_3color",
+   "p": 68751,
+   "d": 30
+  },
+  {
+   "n": "Jumelle Card Wallet FA6AR659_3color",
+   "p": 110418,
+   "d": 30
+  },
+  {
+   "n": "Rose Charme FZ6AS660_2color",
+   "p": 50736,
+   "d": 26
+  },
+  {
+   "n": "Arche Shoulder Large (suede ver.) FA6AB377-N8",
+   "p": 270141,
+   "d": 30
+  },
+  {
+   "n": "Arche Shoulder Large (suede ver.) FA6AB377-N9",
+   "p": 270141,
+   "d": 30
+  },
+  {
+   "n": "Pluie Charme FZ5SS647_5color",
+   "p": 36030,
+   "d": 26
+  },
+  {
+   "n": "Tour Hobo Large FA5SD331-FH",
+   "p": 124307,
+   "d": 30
+  },
+  {
+   "n": "Anse Zipper Wallet FA4AR308_2color",
+   "p": 94854,
+   "d": 26
+  },
+  {
+   "n": "Hand-made Belted Half-Coat SW6XH407-92",
+   "p": 312550,
+   "d": 17
+  },
+  {
+   "n": "[단독] High-Neck Faux Fur Jacket SF6WJ908-9E",
+   "p": 263973,
+   "d": 26
+  },
+  {
+   "n": "[단독] High-Neck Faux Fur Jacket SF6WJ908-11",
+   "p": 263973,
+   "d": 26
+  },
+  {
+   "n": "Faux Fur Short Jacket SF6XJ401-93",
+   "p": 268793,
+   "d": 18
+  },
+  {
+   "n": "Faux Fur Short Jacket SF6XJ401-96",
+   "p": 268793,
+   "d": 18
+  },
+  {
+   "n": "Quilted Lined Alpaca Jacket SW6XJ970-91",
+   "p": 293550,
+   "d": 18
+  },
+  {
+   "n": "Quilted Lined Alpaca Jacket SW6XJ970-94",
+   "p": 293550,
+   "d": 18
+  },
+  {
+   "n": "Toggle Point Half Fur Jacket SM6XJ442-91",
+   "p": 331550,
+   "d": 16
+  },
+  {
+   "n": "Mink-Touch High-Neck Half Coat SF6WJ910-03",
+   "p": 293550,
+   "d": 18
+  },
+  {
+   "n": "High-Neck Faux Fur Vest SF6WV918-90",
+   "p": 211603,
+   "d": 18
+  },
+  {
+   "n": "Textured Belted Shearling Long Coat SF6WJ940-94",
+   "p": 312550,
+   "d": 17
+  },
+  {
+   "n": "Faux Leather Single-Breasted Car Coat SL6AJ869-94",
+   "p": 227943,
+   "d": 18
+  },
+  {
+   "n": "Two-Way Single-Breasted Blazer SW6AJ870-93",
+   "p": 211603,
+   "d": 18
+  },
+  {
+   "n": "Two-Way Single-Breasted Blazer SW6AJ870-9E",
+   "p": 211603,
+   "d": 18
+  },
+  {
+   "n": "Raw Edge Tweed Jacket SW6AJ872-10",
+   "p": 195263,
+   "d": 18
+  },
+  {
+   "n": "Multi Color Tweed Jacket SW6AJ879-BQ",
+   "p": 244283,
+   "d": 18
+  },
+  {
+   "n": "Faux Leather Double Placket Blouson Zip-up Jumper SL6AM802-94",
+   "p": 236113,
+   "d": 18
+  },
+  {
+   "n": "Faux Leather Layered Placket Belted High-neck Jacket SL6AM803-94",
+   "p": 293550,
+   "d": 18
+  },
+  {
+   "n": "Asymmetric Wide Lapel Long Trench Coat SW6AR895-6G",
+   "p": 268793,
+   "d": 18
+  },
+  {
+   "n": "Belted High-Neck Long Coat SW5XH914-10",
+   "p": 331550,
+   "d": null
+  },
+  {
+   "n": "Round-neck Tucked Tie Blouse SW4AB853-K6",
+   "p": 113563,
+   "d": null
+  },
+  {
+   "n": "Crease Jersey Top SW6XE108_3color",
+   "p": 48203,
+   "d": null
+  },
+  {
+   "n": "[단독] See-through Oversized Lace-up Shirt SW5MB281_3color",
+   "p": 121733,
+   "d": null
+  },
+  {
+   "n": "Button-Up Simple Tie Blouse SW6AB883_2color",
+   "p": 129903,
+   "d": null
+  },
+  {
+   "n": "Ruisseu Shoulder Medium FA6SB364_3color",
+   "p": 156210,
+   "d": null
+  },
+  {
+   "n": "Cosse Shoulder Medium (box ver.) FA5SB330-FH",
+   "p": 293550,
+   "d": null
+  },
+  {
+   "n": "Sheer Jersey Drape Cardigan SW6ME789_2color",
+   "p": 72713,
+   "d": null
+  },
+  {
+   "n": "Cowl-neck String Blouse SW6XB226_4color",
+   "p": 105393,
+   "d": null
+  },
+  {
+   "n": "Volume Soft Jumper SW6XM202_2color",
+   "p": 146243,
+   "d": null
+  },
+  {
+   "n": "Drop-Tie Cowl-Neck Sleeveless Blouse SW6MB731_2color",
+   "p": 89053,
+   "d": null
+  },
+  {
+   "n": "H-Line Maxi Jersey Skirt SW6MS778_2color",
+   "p": 72713,
+   "d": null
+  },
+  {
+   "n": "[NEW컬러추가][단독] Oversized tweed jacket SW5SJ102_3color",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "259,000",
+   "p": 179863,
+   "d": 30
+  },
+  {
+   "n": "Asymmetric Placket Faux Suede Jacket SL5XJ830-B8",
+   "p": 359000,
+   "d": null
+  },
+  {
+   "n": "359,000",
+   "p": 293550,
+   "d": 18
+  },
+  {
+   "n": "Faux Leather Double Placket Blouson Zip-up Jumper SL6AM802-10",
+   "p": 289000,
+   "d": null
+  },
+  {
+   "n": "289,000",
+   "p": 236113,
+   "d": 18
+  },
+  {
+   "n": "(14)",
+   "p": 1123,
+   "d": null
+  },
+  {
+   "n": "[단독특가] [단독]Balancoire Tote Medium (suede ver.) FA6AA383-N9",
+   "p": 279000,
+   "d": null
+  },
+  {
+   "n": "279,000",
+   "p": 193752,
+   "d": 30
+  },
+  {
+   "n": "(24)",
+   "p": 2358,
+   "d": null
+  },
+  {
+   "n": "2-Way Deep V-neck Knit Pullover SK6WP988_2color",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "149,000",
+   "p": 121733,
+   "d": 18
+  },
+  {
+   "n": "(22)",
+   "p": 1236,
+   "d": null
+  },
+  {
+   "n": "[단독특가] Trapeze Shoulder Medium FA5AB344-FH",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "329,000",
+   "p": 215034,
+   "d": 34
+  },
+  {
+   "n": "(141)",
+   "p": 7358,
+   "d": null
+  },
+  {
+   "n": "Crinkle Scarf Tie Blouse SW6AB880_2color",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "139,000",
+   "p": 113563,
+   "d": 18
+  },
+  {
+   "n": "(15)",
+   "p": 2208,
+   "d": null
+  },
+  {
+   "n": "Wool Hourglass Jacket SW4WJ919-24",
+   "p": 299000,
+   "d": null
+  },
+  {
+   "n": "299,000",
+   "p": 244283,
+   "d": 18
+  },
+  {
+   "n": "Hand-made Belted Half-Coat SW5WH407-KF",
+   "p": 379000,
+   "d": null
+  },
+  {
+   "n": "379,000",
+   "p": 312550,
+   "d": 17
+  },
+  {
+   "n": "(19)",
+   "p": 1488,
+   "d": null
+  },
+  {
+   "n": "Spangle Tweed Jacket SW4AJ809-11",
+   "p": 279000,
+   "d": null
+  },
+  {
+   "n": "279,000",
+   "p": 227943,
+   "d": 18
+  },
+  {
+   "n": "(112)",
+   "p": 5773,
+   "d": null
+  },
+  {
+   "n": "Raw Edge Tweed Jacket SW6AJ872-10",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "239,000",
+   "p": 195263,
+   "d": 18
+  },
+  {
+   "n": "(5)",
+   "p": 1449,
+   "d": null
+  },
+  {
+   "n": "[단독특가] Plie Shoulder Medium FA6SB365-FH",
+   "p": 299000,
+   "d": null
+  },
+  {
+   "n": "299,000",
+   "p": 207641,
+   "d": 30
+  },
+  {
+   "n": "[단독특가] Trapeze Shoulder Large FA5AB343-FH",
+   "p": 349000,
+   "d": null
+  },
+  {
+   "n": "349,000",
+   "p": 228106,
+   "d": 34
+  },
+  {
+   "n": "(195)",
+   "p": 9783,
+   "d": null
+  },
+  {
+   "n": "Faux Leather Double Placket Blouson Zip-up Jumper SL6AM802-94",
+   "p": 289000,
+   "d": null
+  },
+  {
+   "n": "Asymmetric Placket Faux Leather Jacket SL4AJ820-91",
+   "p": 289000,
+   "d": null
+  },
+  {
+   "n": "(141)",
+   "p": 5872,
+   "d": null
+  },
+  {
+   "n": "Asymmetric Placket Faux Leather Jacket SL4AJ820-10",
+   "p": 289000,
+   "d": null
+  },
+  {
+   "n": "(75)",
+   "p": 2264,
+   "d": null
+  },
+  {
+   "n": "[단독특가] Arche Shoulder Large FA6AB376-FH",
+   "p": 349000,
+   "d": null
+  },
+  {
+   "n": "349,000",
+   "p": 242363,
+   "d": 30
+  },
+  {
+   "n": "(29)",
+   "p": 2927,
+   "d": null
+  },
+  {
+   "n": "[단독] Jaquard Cross-Tie T-Shirt SW6AE886_3color",
+   "p": 99000,
+   "d": null
+  },
+  {
+   "n": "99,000",
+   "p": 72795,
+   "d": 26
+  },
+  {
+   "n": "[단독특가] [단독]Balancoire Tote Medium FA6AA382-FH",
+   "p": 279000,
+   "d": null
+  },
+  {
+   "n": "(13)",
+   "p": 1614,
+   "d": null
+  },
+  {
+   "n": "Belted H-Line Mini Skirt (Faux Suede / Faux Leather) SL6XS141_3color",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "159,000",
+   "p": 129903,
+   "d": 18
+  },
+  {
+   "n": "(32)",
+   "p": 1318,
+   "d": null
+  },
+  {
+   "n": "Hand-made Belted Half-Coat SW6XH407-92",
+   "p": 379000,
+   "d": null
+  },
+  {
+   "n": "Faux Suede Collarless Layered Jacket SL6XJ938-91",
+   "p": 299000,
+   "d": null
+  },
+  {
+   "n": "(11)",
+   "p": 1269,
+   "d": null
+  },
+  {
+   "n": "Draped Wrap-Tie Dress SW6AO805-13",
+   "p": 199000,
+   "d": null
+  },
+  {
+   "n": "199,000",
+   "p": 154454,
+   "d": 22
+  },
+  {
+   "n": "(12)",
+   "p": 1976,
+   "d": null
+  },
+  {
+   "n": "V-neck Faux Leather Blouson Jacket SL6SM604-10",
+   "p": 289000,
+   "d": null
+  },
+  {
+   "n": "(36)",
+   "p": 1006,
+   "d": null
+  },
+  {
+   "n": "Faux Fur Short Jacket SF5WJ401-11",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "329,000",
+   "p": 268793,
+   "d": 18
+  },
+  {
+   "n": "(80)",
+   "p": 3790,
+   "d": null
+  },
+  {
+   "n": "Hand-made Belted Half-Coat SW5WH407-10",
+   "p": 379000,
+   "d": null
+  },
+  {
+   "n": "Cross Tie Blouse SW6XB371_5color",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "(171)",
+   "p": 6030,
+   "d": null
+  },
+  {
+   "n": "Belted High-Neck Long Coat SW5XH914-1F",
+   "p": 399000,
+   "d": null
+  },
+  {
+   "n": "399,000",
+   "p": 331550,
+   "d": 16
+  },
+  {
+   "n": "(127)",
+   "p": 5828,
+   "d": null
+  },
+  {
+   "n": "Minimal Boucle Texture Jacket SW6SJ624-10",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "(11)",
+   "p": 1530,
+   "d": null
+  },
+  {
+   "n": "[단독특가] Lettre Card Wallet FA3AR249_5color",
+   "p": 99000,
+   "d": null
+  },
+  {
+   "n": "Leather Blouson Jumper SL6AM605_2color",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "[NEW컬러추가] Sheer Striped Asymmetric Placket Shirt SW6AB702_2color",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "(231)",
+   "p": 5836,
+   "d": null
+  },
+  {
+   "n": "Multi Color Tweed Jacket SW6AJ879-BQ",
+   "p": 299000,
+   "d": null
+  },
+  {
+   "n": "[단독특가] Plie Shoulder Medium FA6AB365-93",
+   "p": 299000,
+   "d": null
+  },
+  {
+   "n": "Soft Wrinkled Jersey Scarf SX6XF026_2color",
+   "p": 39000,
+   "d": null
+  },
+  {
+   "n": "39,000",
+   "p": 31863,
+   "d": 18
+  },
+  {
+   "n": "Asymmetric Placket Faux Suede Jacket SL5XJ830-91",
+   "p": 359000,
+   "d": null
+  },
+  {
+   "n": "(210)",
+   "p": 6907,
+   "d": null
+  },
+  {
+   "n": "Sac de Cle Medium FA3AA235-FH",
+   "p": 349000,
+   "d": null
+  },
+  {
+   "n": "349,000",
+   "p": 285133,
+   "d": 18
+  },
+  {
+   "n": "(212)",
+   "p": 7855,
+   "d": null
+  },
+  {
+   "n": "[단독특가] Calla Shoulder Medium FA6AB386_2color",
+   "p": 299000,
+   "d": null
+  },
+  {
+   "n": "[단독] See-through Oversized Lace-up Shirt SW5MB281_3color",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "[단독특가] Arche Shoulder Large (suede ver.) FA6AB377-N9",
+   "p": 389000,
+   "d": null
+  },
+  {
+   "n": "389,000",
+   "p": 270141,
+   "d": 30
+  },
+  {
+   "n": "[단독특가] Sac de Flot Small FA4SB270-FH",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "139,000",
+   "p": 96529,
+   "d": 30
+  },
+  {
+   "n": "[단독특가] Pluie Charme FZ5SS647_5color",
+   "p": 49000,
+   "d": null
+  },
+  {
+   "n": "49,000",
+   "p": 36030,
+   "d": 26
+  },
+  {
+   "n": "(237)",
+   "p": 2475,
+   "d": null
+  },
+  {
+   "n": "[단독특가] Jardin Card Wallet FA3SR223_4color",
+   "p": 99000,
+   "d": null
+  },
+  {
+   "n": "(266)",
+   "p": 6493,
+   "d": null
+  },
+  {
+   "n": "Tie Puff Sleeve Blouse SW4XB354-03",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "(177)",
+   "p": 8221,
+   "d": null
+  },
+  {
+   "n": "Sucre Pumps HA6AF028_3color",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "259,000",
+   "p": 211603,
+   "d": 18
+  },
+  {
+   "n": "Belted H-Line Mini Skirt (Check Patterned) SW6AS161-13",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "179,000",
+   "p": 146243,
+   "d": 18
+  },
+  {
+   "n": "A-line Wool Mini Skirt SW4WS920-24",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "(186)",
+   "p": 5807,
+   "d": null
+  },
+  {
+   "n": "Belted High-Neck Long Coat SW5XH914-10",
+   "p": 399000,
+   "d": null
+  },
+  {
+   "n": "(45)",
+   "p": 4643,
+   "d": null
+  },
+  {
+   "n": "[단독특가] Sac de Flot Large FA4SB269-FH",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "159,000",
+   "p": 110418,
+   "d": 30
+  },
+  {
+   "n": "See-through Jersey top SW5XE524_4color",
+   "p": 59000,
+   "d": null
+  },
+  {
+   "n": "59,000",
+   "p": 48203,
+   "d": 18
+  },
+  {
+   "n": "(732)",
+   "p": 7986,
+   "d": null
+  },
+  {
+   "n": "[단독특가] Volant Tote Small FA6AA384-FH",
+   "p": 299000,
+   "d": null
+  },
+  {
+   "n": "299,000",
+   "p": 195426,
+   "d": 34
+  },
+  {
+   "n": "Floral Jacquard Long Skirt SW6AS899-10",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "Floral Jacquard Lace Midi Skirt SW6AS877-24",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "Loose-fit Curved Jeans SJ6AL896_2color",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "Tie Puff Sleeve Blouse SW3AB354-90",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "Cowl Halter Layered Jersey Top SW6XE343_3color",
+   "p": 69000,
+   "d": null
+  },
+  {
+   "n": "69,000",
+   "p": 56373,
+   "d": 18
+  },
+  {
+   "n": "(203)",
+   "p": 4827,
+   "d": null
+  },
+  {
+   "n": "Douceur Moccasins (suede ver.) HA6AA026-94",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "Faux Fur Short Jacket SF6XJ401-96",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "[단독특가] Tour Hobo Large FA5SD331-FH",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "179,000",
+   "p": 124307,
+   "d": 30
+  },
+  {
+   "n": "(147)",
+   "p": 6249,
+   "d": null
+  },
+  {
+   "n": "Single-Tie Slit T-shirts SW6AE887_2color",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "79,000",
+   "p": 64543,
+   "d": 18
+  }
+ ],
+ "id": 105199,
+ "observed_at": "2026-10-29"
+}

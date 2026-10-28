@@ -1,0 +1,55 @@
+{
+ "slug": "dailist",
+ "ko": "데일리스트",
+ "en": "DAILIST",
+ "status": "후보",
+ "tier": "패션그룹 컨템포러리",
+ "tags": [
+  "페미닌",
+  "모던"
+ ],
+ "found": [
+  "기사: '어른 여자' 트렌드 가을 컬렉션"
+ ],
+ "note": "가격 미수집",
+ "ids": {
+  "off": "https://sejungmall.com"
+ },
+ "price_source": "",
+ "intro": "",
+ "sub": "",
+ "est": null,
+ "heart": null,
+ "off": null,
+ "score": {},
+ "evidence": [
+  {
+   "idx": "227239",
+   "date": "2026-08-27",
+   "title": "데일리스트, '어른 여자' 트렌드 반영 가을 컬렉션 공개",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=227239&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "215113",
+   "date": "2025-01-17",
+   "title": "웰메이드, ‘설 선물 기획전’ 진행",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=215113&cat=CAT11B",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "기사 요약(약함)",
+ "role": "미평가(가격 미수집)",
+ "rank": 82,
+ "platform": {
+  "29cm": null,
+  "wconcept": null
+ }
+}

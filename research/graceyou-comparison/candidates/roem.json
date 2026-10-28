@@ -1,0 +1,243 @@
+{
+ "slug": "roem",
+ "ko": "로엠",
+ "en": "ROEM",
+ "status": "후보",
+ "tier": "패션그룹 SPA·대중",
+ "tags": [
+  "로맨틱",
+  "트렌디",
+  "데일리"
+ ],
+ "found": [
+  "기사: 하객룩 재킷 중심 브랜드"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 71939,
+  "wc": 107361
+ },
+ "price_source": "29CM",
+ "intro": "로엠은 일상을 빛내는 로맨틱한 무드와 편안한 감성, 섬세한 디테일로 매일의 특별한 아름다움을 완성합니다.",
+ "sub": "트렌디하고 감각적인 스타일로 나만의 아름다움을 표현하도록 돕는 브랜드",
+ "est": 1982,
+ "heart": 701,
+ "off": null,
+ "score": {
+  "k": 1.0,
+  "list_q1": 58700,
+  "list_med": 59900,
+  "list_q3": 135150,
+  "s_price": 0,
+  "s_band": 0,
+  "s_mood": 25,
+  "score": 12,
+  "partial": 0
+ },
+ "evidence": [
+  {
+   "idx": "219557",
+   "date": "2025-08-25",
+   "title": "로엠, 2025 가을 1차 캠페인 공개",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=219557&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "216947",
+   "date": "2025-04-17",
+   "title": "로엠, 2025 여름 시즌 캠페인 공개",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=216947&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "216412",
+   "date": "2025-03-27",
+   "title": "로엠, 트위드 재킷·원피스 온라인 매출 33% 성장",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=216412&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "225296",
+   "date": "2026-05-18",
+   "title": "원피스 대신 셋업…하객룩이 달라졌다",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=225296&cat=CAT11Z",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "205031",
+   "date": "2023-04-10",
+   "title": "봄 시즌 여성복, ‘트위드가 다 했다’",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=205031&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": [
+   "2026-10-29"
+  ]
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "가격 앵커(저가)",
+ "rank": 67,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/71939",
+   "title": "로엠(ROEM)",
+   "ko": "로엠",
+   "en": "ROEM",
+   "sub": "트렌디하고 감각적인 스타일로 나만의 아름다움을 표현하도록 돕는 브랜드",
+   "est": 1982,
+   "heart": 701,
+   "intro": "로엠은 일상을 빛내는 로맨틱한 무드와 편안한 감성, 섬세한 디테일로 매일의 특별한 아름다움을 완성합니다.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 19900,
+    "q1": 58700,
+    "med": 59900,
+    "q3": 135150,
+    "p90": 199000,
+    "max": 199000,
+    "mean": 93704
+   },
+   "disc": {
+    "n": 8,
+    "med": 15,
+    "max": 15
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 10,
+    "med": 0,
+    "max": 1,
+    "rated": 10
+   },
+   "rate": 4.9,
+   "tags": {
+    "조건부 무료배송": 50,
+    "신상품": 9
+   },
+   "names": [
+    "[RE] 미디 트위드 자켓 RMJKG49NT1",
+    "하이넥 꼬임 블라우스 RMBLG49RT3",
+    "[올데이] 칼라리스 트위드 자켓 RMJKG49A11",
+    "랩 디테일 롱 스커트 RMWHG4TR13",
+    "베이직 하이넥 타이 블라우스 RMBLG49R05",
+    "트위드 2IN1 미니 원피스 RMOWG4TS12",
+    "핸드메이드 미니스커트 RMWHG4VR52",
+    "뷔스티에 매칭 블라우스 RMBLG24NT4",
+    "타이 블라우스 RMBLG49S12",
+    "미디 트렌치 코트 RMJTG49RT1",
+    "[RE] 베이직 고정타이 블라우스 (RMBLG12R03) RMBLG49R03",
+    "자켓형 2IN1 롱 원피스 RMOWG49S11",
+    "[올데이] 벨티드 원턱 와이드 밴딩 슬랙스 RMTWG49A51",
+    "하이넥 카라 숏코트 RMJHG4VR21",
+    "자켓형 트위드 2IN1 롱 원피스 RMOWG4TS13",
+    "스쿱넥 칼라리스 자켓 RMJKG49NT2",
+    "[RE] 베이직 라운드넥 블라우스 (RMBLG12R04) RMBLG49R04",
+    "9부 카프리 팬츠 RMTJG49RT2",
+    "시스루 레이스 하이넥 티셔츠 RMLWG49R13",
+    "RE 새틴 롱 스커트 (RMWHG49RT3) RMWHG4TRT3",
+    "카라 트위드자켓 셋업 RMJKG12S51",
+    "밑단 시스루 레이어드 원피스 RMOWG49ST1",
+    "플레어핏 데님 팬츠 RMTJG49R17",
+    "울 치마바지 RMTWG4VR51",
+    "플레어핏 슬랙스 RMTWG49R55",
+    "스칼럽 반하이넥 풀오버 RMKAG4TRTH",
+    "페이크 스웨이드 블루종 점퍼 RMJKG4TR13",
+    "베이직 셋업 자켓(슬랙스) RMJKG49R02",
+    "하이넥 블라우스 RMBLG49S11",
+    "레이어드 홀터넥 티셔츠 RMLWG49RT2",
+    "부츠컷 슬랙스 (세트) RMTWG49R52",
+    "[올데이] 하이넥 텐셀 반팔 티셔츠 RMLWG49A12",
+    "트위드 미니 스커트 (세트) RMWHG12S51",
+    "부클 하프 코트 RMJHG4VN12",
+    "올데이 (기본ver) 와이드 데님 팬츠 RMTJG49A11",
+    "올데이 벨티드 맥코트 RMJHG4VA01",
+    "캐시미어 가디건 RMCKG4TR01",
+    "올데이 카라 미디코트 RMJHG4VA11",
+    "[RE] H라인 롱 스커트 RMWHG49RT2",
+    "베이직 반팔 고정타이 블라우스 RMBLG24R04"
+   ],
+   "id": 71939,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": {
+   "url": "https://display.wconcept.co.kr/rn/brand/107361",
+   "title": "로엠(roem) | W컨셉(W CONCEPT)",
+   "ko": "로엠",
+   "en": "roem",
+   "intro": "MAKE ME BLOOM,  여성들의 로맨틱한 매일에 가장 나답게 피어날 수 있는 순간을 선사합니다. 전형적인 로맨틱의 경계를 넘어, 자신만의 방식으로 나답게 피어내는 진정한 의미의 로맨틱 애티튜드를 제안합니다.",
+   "n": 89,
+   "p": {
+    "min": 26013,
+    "q1": 49900,
+    "med": 59900,
+    "q3": 99900,
+    "p90": 138330,
+    "max": 299000,
+    "mean": 81443
+   },
+   "disc": {
+    "n": 20,
+    "med": 13,
+    "max": 47
+   },
+   "names": [
+    "[반팔버전입고] 브이넥 스트랩 블라우스_RMBLF25R98",
+    "린넨 반팔 자켓_RMJKF37RT1",
+    "타이 브이넥 블라우스_RMBLF24RT2",
+    "하이넥 타이 블라우스_RMBLF23ST2",
+    "올데이 라운드넥 가디건_RMCKF23R99",
+    "[리오더입고] 칼라리스 트위드 반팔자켓_RMJKF37S99",
+    "올데이 브이넥 가디건_RMCKF23R98",
+    "[리오더입고] 올데이가디건 브이넥 반팔 가디건_RMCKF37R99",
+    "올데이가디건 브이넥 반팔 가디건_RMCKF25R99",
+    "[리오더입고] 칼라리스 트위드 반팔자켓_RMJKF37S99",
+    "99,900",
+    "리본끈 미니 원피스_RMOWF37R11",
+    "백리본 긴팔 셔츠_RMYWF37R11",
+    "59,900",
+    "긴팔 시스루 스웨터_RMKAF37R11",
+    "[리오더입고] 라운드 긴팔 린넨 가디건_RMCKF37R97",
+    "49,900",
+    "[리오더입고] 올데이가디건 브이넥 반팔 가디건_RMCKF37R99",
+    "데님 플리츠 치마 바지_RMWJF37G15",
+    "69,900",
+    "레이어드 원피스_RMOWF26RT1",
+    "[리오더] 반팔 레이스 나시 가디건 세트_RMHWF26RT2",
+    "논페이드 쿨 데님_RMTJF26GT2",
+    "시스루 긴팔 셔츠_RMYWF37R12",
+    "린넨 반팔 가디건_RMCKF37RT1",
+    "린넨 롱 스커트_RMWHF37RT1",
+    "린넨 바지_RMTWF37RT4",
+    "린넨 나시 원피스_RMOWF37RT2",
+    "린넨 쇼츠_RMTWF37RT3",
+    "린넨 반팔 자켓_RMJKF37RT1",
+    "오프숄더 반팔 스웨터_RMKAF24R12",
+    "59,900",
+    "밴딩 와이드 슬랙스_RMTWF26R12",
+    "린넨라이크 부츠컷 밴딩슬랙스_RMTWF25R14",
+    "버뮤다 팬츠_RMTJF25G16",
+    "Fit_me와이드 데님 숏ver_RMTJF24G06",
+    "레이어드 프릴 나시_RMRNF24RTA",
+    "29,900",
+    "데님 뷔스티에 롱 원피스_RMOWF25R18",
+    "99,900"
+   ],
+   "id": 107361,
+   "observed_at": "2026-10-29"
+  }
+ }
+}

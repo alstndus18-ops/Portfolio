@@ -1,0 +1,695 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/5433",
+ "title": "루에브르(LOEUVRE)",
+ "ko": "루에브르",
+ "en": "LOEUVRE",
+ "sub": "현대 미학과 모던 건축에서 영감을 얻는 프렌치 감성 브랜드",
+ "est": 2018,
+ "heart": 220646,
+ "intro": "작가나 아티스트, 작곡가의 모든 생애 작품을 뜻하는 루에브르는 빛과 그림자를 콘셉트로 선과 색감, 소재에 많은 시간과 공을 들인 작품 같은 제품을 제안합니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 29140,
+  "q1": 118780,
+  "med": 203320,
+  "q3": 238380,
+  "p90": 291100,
+  "max": 363100,
+  "mean": 187218
+ },
+ "disc": {
+  "n": 50,
+  "med": 25,
+  "max": 50
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 6243,
+  "med": 33,
+  "max": 876,
+  "rated": 42
+ },
+ "rate": 4.99,
+ "tags": {
+  "쿠폰": 37,
+  "조건부 무료배송": 50,
+  "단독": 7,
+  "신상품": 11,
+  "가을 필수": 1
+ },
+ "names": [
+  "[29CM 단독] Faux Suede Collarless Layered Jacket SL5XJ938-B8",
+  "[29CM 단독] Vine Shoulder Medium FA6SB358-FH",
+  "[29CM 단독] Jour Shoulder Bag (Medium / Large) FA6AB393_4color",
+  "Faux Leather Double Placket Blouson Zip-up Jumper SL6AM802-10",
+  "Floral Jacquard Lace Midi Skirt SW6AS877_2color",
+  "Asymmetric Placket Faux Suede Jacket SL5XJ830-B8",
+  "Arche Shoulder Large FA6AB376-FH",
+  "Hand-made Belted Half-Coat SW5WH407-KF",
+  "Fur-Trim Padded Blouson Jacket SP6WM982-24",
+  "Plie Shoulder Medium FA6SB365-FH",
+  "Soft Wrinkled Jersey Scarf SX6XF026_2color",
+  "Spangle Tweed Jacket SW4AJ809-11",
+  "Reversible Shearling Jacket SM6WJ973-92",
+  "Belted H-Line Mini Skirt (Faux Suede / Faux Leather) SL6XS141_3color",
+  "Hand-made Belted Half-Coat SW6XH407-92",
+  "Wool Hourglass Jacket SW4WJ919-24",
+  "Draped High-Neck Handmade Long Coat SW6WH903-11",
+  "Lettre Card Wallet FA3AR249_5color",
+  "[GREY 단독]Asymmetrical-neck muffler Rib-knit Pullover SK4WP948_3color",
+  "Scarf-Detail Handmade Half Coat SW6WH905-94",
+  "Belted High-Neck Long Coat SW5XH914-10",
+  "Trapeze Shoulder Large FA5AB343-FH",
+  "Trapeze Shoulder Medium FA5AB344-FH",
+  "V-Neck Lambswool Knit Pullover SK6WP991_4color",
+  "Hand-made Belted Half-Coat SW5WH407-10",
+  "Arche Shoulder Large (suede ver.) FA6AB377-N9",
+  "V-Neck Knit Cardigan with Muffler Patch Detail SK6WD986_2color",
+  "High-neck Belted Down Coat SD6XM418_3color",
+  "2-Way Deep V-neck Knit Pullover SK6WP988_4color",
+  "[29CM 단독] Collarless Layered Jacket SW4WJ928-12",
+  "Asymmetric Placket Faux Leather Jacket SL4AJ820-91",
+  "Scarf Detail Button Knit Pullover SK6WP990_2color",
+  "Leather Toggle Boucle Fur Jacket SM6WJ909-KR",
+  "Anse Zipper Wallet FA6AR308_2color",
+  "Single-Tie Slit T-shirts SW6AE887_2color",
+  "Floral Jacquard Long Skirt SW6AS899-10",
+  "Cowl Halter Layered Jersey Top SW6XE343_3color",
+  "Belted High-Neck Long Coat SW5XH914-1F",
+  "[29CM 단독] Vine Shoulder Medium FA6AB358-NB",
+  "Wholegarment Mock-Neck Knit Two-Way Cardigan SK6WD985_2color"
+ ],
+ "cards": [
+  {
+   "n": "[29CM 단독] Faux Suede Collarless Layered Jacket SL5XJ938-B8",
+   "p": 198540,
+   "d": 34,
+   "lk": null,
+   "rt": 5,
+   "rv": 276,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[29CM 단독] Vine Shoulder Medium FA6SB358-FH",
+   "p": 203320,
+   "d": 32,
+   "lk": null,
+   "rt": 5,
+   "rv": 753,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[29CM 단독] Jour Shoulder Bag (Medium / Large) FA6AB393_4color",
+   "p": 213440,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 105,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "Faux Leather Double Placket Blouson Zip-up Jumper SL6AM802-10",
+   "p": 179910,
+   "d": 38,
+   "lk": null,
+   "rt": 5,
+   "rv": 21,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Floral Jacquard Lace Midi Skirt SW6AS877_2color",
+   "p": 112180,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 35,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "Asymmetric Placket Faux Suede Jacket SL5XJ830-B8",
+   "p": 238380,
+   "d": 34,
+   "lk": null,
+   "rt": 5,
+   "rv": 156,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Arche Shoulder Large FA6AB376-FH",
+   "p": 266990,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 26,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Hand-made Belted Half-Coat SW5WH407-KF",
+   "p": 291100,
+   "d": 23,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 33,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Fur-Trim Padded Blouson Jacket SP6WM982-24",
+   "p": 223360,
+   "d": 25,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Plie Shoulder Medium FA6SB365-FH",
+   "p": 228740,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 84,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Soft Wrinkled Jersey Scarf SX6XF026_2color",
+   "p": 29140,
+   "d": 25,
+   "lk": null,
+   "rt": 5,
+   "rv": 20,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Spangle Tweed Jacket SW4AJ809-11",
+   "p": 185260,
+   "d": 34,
+   "lk": null,
+   "rt": 5,
+   "rv": 132,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Reversible Shearling Jacket SM6WJ973-92",
+   "p": 246100,
+   "d": 25,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Belted H-Line Mini Skirt (Faux Suede / Faux Leather) SL6XS141_3color",
+   "p": 118780,
+   "d": 25,
+   "lk": null,
+   "rt": 5,
+   "rv": 104,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Hand-made Belted Half-Coat SW6XH407-92",
+   "p": 291100,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Wool Hourglass Jacket SW4WJ919-24",
+   "p": 210950,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 187,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Draped High-Neck Handmade Long Coat SW6WH903-11",
+   "p": 363100,
+   "d": 21,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Lettre Card Wallet FA3AR249_5color",
+   "p": 84150,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 850,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[GREY 단독]Asymmetrical-neck muffler Rib-knit Pullover SK4WP948_3color",
+   "p": 112180,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 212,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "Scarf-Detail Handmade Half Coat SW6WH905-94",
+   "p": 255150,
+   "d": 29,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Belted High-Neck Long Coat SW5XH914-10",
+   "p": 231820,
+   "d": 42,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 57,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Trapeze Shoulder Large FA5AB343-FH",
+   "p": 296650,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 360,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Trapeze Shoulder Medium FA5AB344-FH",
+   "p": 279650,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 220,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "V-Neck Lambswool Knit Pullover SK6WP991_4color",
+   "p": 103840,
+   "d": 25,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Hand-made Belted Half-Coat SW5WH407-10",
+   "p": 291100,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 11,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Arche Shoulder Large (suede ver.) FA6AB377-N9",
+   "p": 297590,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 19,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "V-Neck Knit Cardigan with Muffler Patch Detail SK6WD986_2color",
+   "p": 126250,
+   "d": 25,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "High-neck Belted Down Coat SD6XM418_3color",
+   "p": 309100,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 24,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "2-Way Deep V-neck Knit Pullover SK6WP988_4color",
+   "p": 105120,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 9,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[29CM 단독] Collarless Layered Jacket SW4WJ928-12",
+   "p": 211820,
+   "d": 34,
+   "lk": null,
+   "rt": 5,
+   "rv": 208,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "Asymmetric Placket Faux Leather Jacket SL4AJ820-91",
+   "p": 143930,
+   "d": 50,
+   "lk": null,
+   "rt": 5,
+   "rv": 121,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Scarf Detail Button Knit Pullover SK6WP990_2color",
+   "p": 118780,
+   "d": 25,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Leather Toggle Boucle Fur Jacket SM6WJ909-KR",
+   "p": 291100,
+   "d": 23,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Anse Zipper Wallet FA6AR308_2color",
+   "p": 109650,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 200,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Single-Tie Slit T-shirts SW6AE887_2color",
+   "p": 59020,
+   "d": 25,
+   "lk": null,
+   "rt": 5,
+   "rv": 26,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Floral Jacquard Long Skirt SW6AS899-10",
+   "p": 112180,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Cowl Halter Layered Jersey Top SW6XE343_3color",
+   "p": 48680,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 512,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Belted High-Neck Long Coat SW5XH914-1F",
+   "p": 231820,
+   "d": 42,
+   "lk": null,
+   "rt": 5,
+   "rv": 92,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[29CM 단독] Vine Shoulder Medium FA6AB358-NB",
+   "p": 203320,
+   "d": 32,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "Wholegarment Mock-Neck Knit Two-Way Cardigan SK6WD985_2color",
+   "p": 118780,
+   "d": 25,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Asymmetric Placket Faux Suede Jacket SL5XJ830-91",
+   "p": 238380,
+   "d": 34,
+   "lk": null,
+   "rt": 5,
+   "rv": 107,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Faux Leather Double Placket Blouson Zip-up Jumper SL6AM802-94",
+   "p": 179910,
+   "d": 38,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Jardin CARD WALLET_5color",
+   "p": 84150,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 221,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Cross Tie Blouse SW6XB371_5color",
+   "p": 92300,
+   "d": 34,
+   "lk": null,
+   "rt": 5,
+   "rv": 60,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Scarf Wool Maxi Jersey Skirt SW6WS977-13",
+   "p": 118780,
+   "d": 25,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Asymmetric Placket Faux Leather Jacket SL4AJ820-10",
+   "p": 143930,
+   "d": 50,
+   "lk": null,
+   "rt": 5,
+   "rv": 71,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Plie Shoulder Medium FA6AB365-93",
+   "p": 228740,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Belted High-Neck Long Coat SW5XH914-M9",
+   "p": 231820,
+   "d": 42,
+   "lk": null,
+   "rt": 5,
+   "rv": 27,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Tour Hobo Large FA5SD331-FH",
+   "p": 152150,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 876,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Draped Wrap-Tie Dress SW6AO805-13",
+   "p": 148660,
+   "d": 25,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 5433,
+ "observed_at": "2026-10-29"
+}

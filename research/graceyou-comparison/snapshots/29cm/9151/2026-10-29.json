@@ -1,0 +1,686 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/9151",
+ "title": "크랭크(CRANK)",
+ "ko": "크랭크",
+ "en": "CRANK",
+ "sub": "크랭크(CRANK)는 자유로운 소녀의 감성과 아이덴티티을 담은 브랜드입니다.",
+ "est": 2017,
+ "heart": 18484,
+ "intro": "CRANK는 \"We are still young”이라는 아이덴디티로 나이에 얽매이지 않으면서 자유롭게 자신을 표현하는 사람들을 위한 브랜드입니다. </br>\n크랭크만의 유니크함과 다양한 디테일로 특별한 일상을 보낼 수 있는 디자인을 선보입니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 28350,
+  "q1": 31360,
+  "med": 45360,
+  "q3": 56530,
+  "p90": 74340,
+  "max": 106470,
+  "mean": 48322
+ },
+ "disc": {
+  "n": 50,
+  "med": 37,
+  "max": 44
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 1185,
+  "med": 10,
+  "max": 173,
+  "rated": 45
+ },
+ "rate": 4.82,
+ "tags": {
+  "쿠폰": 50,
+  "조건부 무료배송": 50
+ },
+ "names": [
+  "SOFT RIB HOODED TOP_NAVY",
+  "LUCKY BUNNY SKIRT_PURPLE",
+  "SHEER COLLARED TOP_YELLOW",
+  "BASIC HENLEY NECK TOP_PURPLE",
+  "SHEER COLLARED TOP_BLUE GREEN",
+  "PK MICRO SKIRT_BLACK",
+  "BASIC HENLEY NECK TOP_WHITE",
+  "KNIT LAYERED CHECK SHIRT_GREY",
+  "SOFT RIB HOODED TOP_SKY BLUE",
+  "SOFT RIB HOODED TOP_LIGHT MELANGE GREY",
+  "BASIC HENLEY NECK TOP_MELANGE GREY",
+  "PK MICRO SKIRT_PLUM",
+  "RIBBON MICRO SKIRT_NAVY",
+  "TATTOO LAYERED TOP_IVORY",
+  "TATTOO LAYERED TOP_SKY",
+  "KNIT MICROSHORTS_BLACK",
+  "KNIT LAYERED CHECK SHIRT_NAVY",
+  "DEAR MY TEE 7_WHITE",
+  "RIBBON MICRO SKIRT_GREY",
+  "KNIT STUD BUTTON CARDIGAN_NAVY",
+  "RIBBON-TIED KNIT CARDIGAN_BLACK",
+  "BASIC HENLEY NECK TOP_MINT",
+  "LUCKY BUNNY HOODIE_LIGHT MELANGE GREY",
+  "SHEER COLOR BUTTON CARDIGAN_MELANGE GREY",
+  "SOFT V-NECK KNIT_BROWN",
+  "LUCKY BUNNY SKIRT_SKY BLUE",
+  "RIBBON-TIED KNIT CARDIGAN_NAVY",
+  "PK MICRO SKIRT_NAVY",
+  "MULTI BUTTON CARDIGAN_NAVY",
+  "BASIC BOATNECK TOP_IVORY",
+  "DEAR MY TEE 7_MELANGE GREY",
+  "KNIT STUD BUTTON CARDIGAN_RED",
+  "CREW NECK BASIC LONG SLEEVE TOP_BLACK",
+  "SHEER BASIC TOP_PINK",
+  "DEAR MY TEE 7_BLACK",
+  "WOOL CHECK MICRO SHORTS_BROWN",
+  "LUCKY BUNNY SKIRT_CAMEL",
+  "CREW NECK BASIC LONG SLEEVE TOP_WHITE",
+  "TIERED MICRO SKIRT PANTS_WINE CHECK",
+  "BABY PANTY WALLET_RED"
+ ],
+ "cards": [
+  {
+   "n": "SOFT RIB HOODED TOP_NAVY",
+   "p": 51660,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 66,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "LUCKY BUNNY SKIRT_PURPLE",
+   "p": 74340,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SHEER COLLARED TOP_YELLOW",
+   "p": 34020,
+   "d": 37,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 173,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "BASIC HENLEY NECK TOP_PURPLE",
+   "p": 31360,
+   "d": 44,
+   "lk": null,
+   "rt": 5,
+   "rv": 23,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SHEER COLLARED TOP_BLUE GREEN",
+   "p": 34020,
+   "d": 37,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 127,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "PK MICRO SKIRT_BLACK",
+   "p": 49140,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 13,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "BASIC HENLEY NECK TOP_WHITE",
+   "p": 31360,
+   "d": 44,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 9,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "KNIT LAYERED CHECK SHIRT_GREY",
+   "p": 64260,
+   "d": 41,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 31,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SOFT RIB HOODED TOP_SKY BLUE",
+   "p": 51660,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 8,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SOFT RIB HOODED TOP_LIGHT MELANGE GREY",
+   "p": 51660,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 28,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "BASIC HENLEY NECK TOP_MELANGE GREY",
+   "p": 31360,
+   "d": 44,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "PK MICRO SKIRT_PLUM",
+   "p": 49140,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 36,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "RIBBON MICRO SKIRT_NAVY",
+   "p": 70210,
+   "d": 41,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "TATTOO LAYERED TOP_IVORY",
+   "p": 68040,
+   "d": 37,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "TATTOO LAYERED TOP_SKY",
+   "p": 68040,
+   "d": 37,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "KNIT MICROSHORTS_BLACK",
+   "p": 28350,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 10,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "KNIT LAYERED CHECK SHIRT_NAVY",
+   "p": 64260,
+   "d": 41,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DEAR MY TEE 7_WHITE",
+   "p": 30240,
+   "d": 37,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 14,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "RIBBON MICRO SKIRT_GREY",
+   "p": 70210,
+   "d": 41,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "KNIT STUD BUTTON CARDIGAN_NAVY",
+   "p": 40320,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 152,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "RIBBON-TIED KNIT CARDIGAN_BLACK",
+   "p": 42840,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 13,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "BASIC HENLEY NECK TOP_MINT",
+   "p": 31360,
+   "d": 44,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "LUCKY BUNNY HOODIE_LIGHT MELANGE GREY",
+   "p": 103950,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SHEER COLOR BUTTON CARDIGAN_MELANGE GREY",
+   "p": 45360,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 40,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SOFT V-NECK KNIT_BROWN",
+   "p": 56530,
+   "d": 33,
+   "lk": null,
+   "rt": 4,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "LUCKY BUNNY SKIRT_SKY BLUE",
+   "p": 74340,
+   "d": 37,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "RIBBON-TIED KNIT CARDIGAN_NAVY",
+   "p": 42840,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 37,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "PK MICRO SKIRT_NAVY",
+   "p": 49140,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 22,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "MULTI BUTTON CARDIGAN_NAVY",
+   "p": 47250,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 16,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "BASIC BOATNECK TOP_IVORY",
+   "p": 28350,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 11,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DEAR MY TEE 7_MELANGE GREY",
+   "p": 30240,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 12,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "KNIT STUD BUTTON CARDIGAN_RED",
+   "p": 40320,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 52,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "CREW NECK BASIC LONG SLEEVE TOP_BLACK",
+   "p": 28350,
+   "d": 37,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 13,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SHEER BASIC TOP_PINK",
+   "p": 43230,
+   "d": 33,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DEAR MY TEE 7_BLACK",
+   "p": 30240,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 7,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "WOOL CHECK MICRO SHORTS_BROWN",
+   "p": 70210,
+   "d": 41,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "LUCKY BUNNY SKIRT_CAMEL",
+   "p": 74340,
+   "d": 37,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "CREW NECK BASIC LONG SLEEVE TOP_WHITE",
+   "p": 28350,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 24,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "TIERED MICRO SKIRT PANTS_WINE CHECK",
+   "p": 56070,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 7,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "BABY PANTY WALLET_RED",
+   "p": 39240,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "PK MICRO SKIRT_MELANGE GREY",
+   "p": 49140,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 10,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "MULTI STRIPED POLO SHIRTS_BROWN",
+   "p": 43470,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 63,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "KNIT STUD CARDIGAN_BLACK",
+   "p": 40320,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 7,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "KNIT MICROSHORTS_CHARCOAL",
+   "p": 28350,
+   "d": 37,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "CURVED RIVET JOGGER PANTS_YELLOW",
+   "p": 106470,
+   "d": 37,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "MULTI BUTTON CARDIGAN_OLIVE",
+   "p": 47250,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 10,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "LACE STRING OFF SHOULDER TOP_WHITE",
+   "p": 39060,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 60,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "CANCAN FRILL MINI SKIRT_IVORY",
+   "p": 49140,
+   "d": 37,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 50,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "STRIPED BASIC BOATNECK TOP_GREY",
+   "p": 28350,
+   "d": 37,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "KNIT MICROSHORTS_RED",
+   "p": 28350,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 9151,
+ "observed_at": "2026-10-29"
+}

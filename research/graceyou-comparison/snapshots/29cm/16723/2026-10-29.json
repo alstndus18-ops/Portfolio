@@ -1,0 +1,669 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/16723",
+ "title": "글로니(GLOWNY)",
+ "ko": "글로니",
+ "en": "GLOWNY",
+ "sub": "You Glow Differently, Glowny",
+ "est": 2020,
+ "heart": 111017,
+ "intro": "글로니는 개성, 아름다움, 빛을 중시하는 브랜드입니다. 모든 제품은 섬세함과 사랑이란 모토 아래 제작됩니다. 개개인의 빛에서 영감을 얻어 디자인되는 모든 제품은 각기 다른 개성과 아름다움을 발합니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 30960,
+  "q1": 61920,
+  "med": 114560,
+  "q3": 135880,
+  "p90": 168000,
+  "max": 208400,
+  "mean": 106215
+ },
+ "disc": {
+  "n": 50,
+  "med": 14,
+  "max": 30
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 3776,
+  "med": 21,
+  "max": 581,
+  "rated": 47
+ },
+ "rate": 4.98,
+ "tags": {
+  "무료배송": 50,
+  "신상품": 22,
+  "단독": 6,
+  "쿠폰": 3
+ },
+ "names": [
+  "G FLEECE ZIP UP (CHARCOAL)",
+  "G CLASSIC LONG SLEEVE_3 Colors",
+  "[닝닝 착용] 3/4 BUTTON FLY TEE_3 Colors",
+  "G FLEECE PANTS (CHARCOAL)",
+  "G COMFORT HOODIE_3 Colors",
+  "G ELIO AIRY PADDING JACKET (BLACK)",
+  "[6차] THE MALISSA JEANS (WASHED BLUE)",
+  "G FLEECE ZIP UP (BLACK)",
+  "[카리나 착용] [3차] G LEATHER SHOULDER BAG (BLACK)",
+  "[29CM 단독] THE RODEO JEANS (CHARCOAL BLUE)",
+  "G FLEECE PANTS (BLACK)",
+  "[4차] G COMFORT STRING PANTS (BLACK)",
+  "[4차] G COMFORT HOODIE (NAVY)",
+  "G ELIO AIRY PADDING JACKET (BROWN)",
+  "[2차] G STANDARD ZIP-UP HOODIE (NAVY)",
+  "SHEARLING LEATHER JACKET (BROWN)",
+  "[조이 착용] THE RODEO JEANS (WASHED BLUE)",
+  "G CHARM V-NECK LONG SLEEVE (MELANGE GRAY)",
+  "[2차] G CONTRAST SWEATPANTS 2.0 (NAVY)",
+  "G STRIPE HENLEY LOOSE FIT KNIT (NAVY)",
+  "[3차] THE RODEO JEANS (MID BLUE)",
+  "G FLEECE ZIP UP (BROWN)",
+  "G CLASSIC CAMISOLE_3 Colors",
+  "G CHARM V-NECK LONG SLEEVE (MOCHA)",
+  "G CHARM V-NECK LONG SLEEVE (WHITE)",
+  "G BABY TEE_3 Colors",
+  "G LOOSE DEEP V-NECK KNIT (GRAY)",
+  "G LOOSE DEEP V-NECK KNIT (BLACK)",
+  "3/4 SOFT WAVE TEE (GRAY STRIPE)",
+  "G LOOSE DEEP V-NECK KNIT (OATMEAL)",
+  "SHEARLING LEATHER JACKET (BLACK)",
+  "[4차] G COMFORT HOODIE (CHOCO)",
+  "G STANDARD ZIP-UP HOODIE (MELANGE GRAY)",
+  "ANGEL PUPPY V NECK 3/4 SLEEVE (NAVY)",
+  "[3차] THE MALISSA JEANS (MID BLUE)",
+  "G PLAIN HENLEY LONG SLEEVE (WHITE)",
+  "G WRINKLE LEATHER SHOULDER BAG (BLACK)",
+  "[8차] 3/4 BUTTON FLY TEE (NAVY)",
+  "3/4 SOFT WAVE TEE (WHITE)",
+  "[4차] THE RODEO JEANS (BLACK)"
+ ],
+ "cards": [
+  {
+   "n": "G FLEECE ZIP UP (CHARCOAL)",
+   "p": 144480,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 79,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "G CLASSIC LONG SLEEVE_3 Colors",
+   "p": 43000,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 444,
+   "t": [
+    "무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[닝닝 착용] 3/4 BUTTON FLY TEE_3 Colors",
+   "p": 43000,
+   "d": 14,
+   "lk": null,
+   "rt": null,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "G FLEECE PANTS (CHARCOAL)",
+   "p": 127280,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 24,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "G COMFORT HOODIE_3 Colors",
+   "p": 53320,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 436,
+   "t": [
+    "무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "G ELIO AIRY PADDING JACKET (BLACK)",
+   "p": 198000,
+   "d": 13,
+   "lk": null,
+   "rt": 5,
+   "rv": 48,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[6차] THE MALISSA JEANS (WASHED BLUE)",
+   "p": 135880,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 581,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "G FLEECE ZIP UP (BLACK)",
+   "p": 144480,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 20,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[카리나 착용] [3차] G LEATHER SHOULDER BAG (BLACK)",
+   "p": 114560,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 184,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[29CM 단독] THE RODEO JEANS (CHARCOAL BLUE)",
+   "p": 122300,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 11,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "G FLEECE PANTS (BLACK)",
+   "p": 127280,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 18,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[4차] G COMFORT STRING PANTS (BLACK)",
+   "p": 84280,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 229,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[4차] G COMFORT HOODIE (NAVY)",
+   "p": 53320,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 81,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "G ELIO AIRY PADDING JACKET (BROWN)",
+   "p": 198000,
+   "d": 13,
+   "lk": null,
+   "rt": 5,
+   "rv": 45,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[2차] G STANDARD ZIP-UP HOODIE (NAVY)",
+   "p": 102340,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 39,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "SHEARLING LEATHER JACKET (BROWN)",
+   "p": 208400,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[조이 착용] THE RODEO JEANS (WASHED BLUE)",
+   "p": 122300,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 140,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "G CHARM V-NECK LONG SLEEVE (MELANGE GRAY)",
+   "p": 58480,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 13,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[2차] G CONTRAST SWEATPANTS 2.0 (NAVY)",
+   "p": 127280,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 21,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "G STRIPE HENLEY LOOSE FIT KNIT (NAVY)",
+   "p": 144480,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 8,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[3차] THE RODEO JEANS (MID BLUE)",
+   "p": 122300,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 82,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "G FLEECE ZIP UP (BROWN)",
+   "p": 144480,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "G CLASSIC CAMISOLE_3 Colors",
+   "p": 30960,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 484,
+   "t": [
+    "무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "G CHARM V-NECK LONG SLEEVE (MOCHA)",
+   "p": 58480,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 9,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "G CHARM V-NECK LONG SLEEVE (WHITE)",
+   "p": 58480,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 10,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "G BABY TEE_3 Colors",
+   "p": 36120,
+   "d": 14,
+   "lk": null,
+   "rt": null,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "G LOOSE DEEP V-NECK KNIT (GRAY)",
+   "p": 135880,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 9,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "G LOOSE DEEP V-NECK KNIT (BLACK)",
+   "p": 135880,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 11,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "3/4 SOFT WAVE TEE (GRAY STRIPE)",
+   "p": 68120,
+   "d": 23,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 6,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "G LOOSE DEEP V-NECK KNIT (OATMEAL)",
+   "p": 135880,
+   "d": 14,
+   "lk": null,
+   "rt": 3.5,
+   "rv": 11,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "SHEARLING LEATHER JACKET (BLACK)",
+   "p": 208400,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[4차] G COMFORT HOODIE (CHOCO)",
+   "p": 53320,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 39,
+   "t": [
+    "무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "G STANDARD ZIP-UP HOODIE (MELANGE GRAY)",
+   "p": 102340,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 31,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "ANGEL PUPPY V NECK 3/4 SLEEVE (NAVY)",
+   "p": 61920,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 17,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[3차] THE MALISSA JEANS (MID BLUE)",
+   "p": 135880,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 75,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "G PLAIN HENLEY LONG SLEEVE (WHITE)",
+   "p": 101480,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 14,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "G WRINKLE LEATHER SHOULDER BAG (BLACK)",
+   "p": 158000,
+   "d": 16,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 8,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[8차] 3/4 BUTTON FLY TEE (NAVY)",
+   "p": 43000,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 185,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "3/4 SOFT WAVE TEE (WHITE)",
+   "p": 68120,
+   "d": 23,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 4,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[4차] THE RODEO JEANS (BLACK)",
+   "p": 122300,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 39,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "G CLASSIC LONG SLEEVE (NAVY)",
+   "p": 43000,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 45,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[4차] THE HANNAH JEANS (DEEP BLUE)",
+   "p": 144480,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 35,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "3/4 SOFT WAVE TEE (BLACK)",
+   "p": 68120,
+   "d": 23,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "THE BELLA BAGGY JEANS (OCEAN BLUE)",
+   "p": 122300,
+   "d": 23,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "HERITAGE STRIPE BUTTON HOODIE (WHITE)",
+   "p": 110080,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 7,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[2차] G CLASSIC BRAIDED BELT (BLACK)",
+   "p": 75680,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 134,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "G MODERN BOOTCUT WOOL SLACKS (BLACK)",
+   "p": 168000,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "G DEEP V-NECK KNIT (BLACK)",
+   "p": 84280,
+   "d": 14,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 49,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "G KNIT REST SKIRT (BLACK)",
+   "p": 92880,
+   "d": 14,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 38,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "3/4 SOFT WAVE TEE (IVORY STRIPE)",
+   "p": 68120,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  }
+ ],
+ "id": 16723,
+ "observed_at": "2026-10-29"
+}

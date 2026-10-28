@@ -1,0 +1,692 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/22861",
+ "title": "로트르드민(L'AUTRE DE MIN)",
+ "ko": "로트르드민",
+ "en": "L'AUTRE DE MIN",
+ "sub": "페미닌하고 고급스러운 여성 컨템포러리 브랜드 입니다.",
+ "heart": 17546,
+ "intro": "로트르드(L’autre)는 '다른, 차별화'라는 프랑스어로 디자이너의 이름을 따서 민의 차별화라는 의미를 가지고 있습니다. 차별화된 소재와 디자인으로 절제된 세련됨을 추구합니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 40600,
+  "q1": 68600,
+  "med": 85260,
+  "q3": 96600,
+  "p90": 129630,
+  "max": 208600,
+  "mean": 88282
+ },
+ "disc": {
+  "n": 50,
+  "med": 30,
+  "max": 37
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 1507,
+  "med": 8,
+  "max": 256,
+  "rated": 39
+ },
+ "rate": 4.81,
+ "tags": {
+  "쿠폰": 50,
+  "조건부 무료배송": 50,
+  "신상품": 4,
+  "단독": 1
+ },
+ "names": [
+  "[컬러추가][셀럽착용] Layered sheer shirt knit",
+  "[컬러추가] Satin lace Cami Top",
+  "[컬러추가] Lautre Lace Satin flare skirt",
+  "Halter layered shirts Top",
+  "[컬러 추가] Lautre Off shirts",
+  "[컬러추가] Pencil long Skirt",
+  "[컬러 추가] Layered shirts knit",
+  "NOE Cream Blouse",
+  "Lautre Amanda Off shirts",
+  "Cowl buckle Ivory knit",
+  "Lace knit Ivory cardigan",
+  "Lautre Anna Black Flare Skirt",
+  "Layered Feminine Top",
+  "Bijou Mohair Butter Cardigan",
+  "Lautre Halter Buckle Ivory knit",
+  "Lautre Ivory Collar Fur Jacket",
+  "Sienne Shiring Tied Blouse",
+  "Bustier layerd knit Top",
+  "Lautre Draped Off shoulder T shirts",
+  "Lace knit Black cardigan",
+  "Lautre new shine Black knit cardigan",
+  "Lautre Halter Buckle Gray knit",
+  "Classic shirring Shirt Black Dress",
+  "Rosy Halter Knit",
+  "Velvet lace skirt",
+  "Lautre Ribbon Knit sleeveless",
+  "Flared V Neck Knit Gray Cardigan",
+  "Stripe Beige Embroid shirts",
+  "Lautre Anna Beige Flare skirt",
+  "Bijou Mohair Pink Cardigan",
+  "L'autre de min Basic Belt",
+  "Halter Layerd Sheer Ivory Blouse",
+  "Lua Pleated skirt",
+  "Lautre Amanda Blue Off shirts",
+  "Volume Pleated Skirt",
+  "Emu boat knit",
+  "[XS사이즈추가] Lautre Tulip skirt",
+  "Daze belted leather Black jacket",
+  "Lautre Lace Satin flare Pink skirt",
+  "Jadin Suede Leather Bag"
+ ],
+ "cards": [
+  {
+   "n": "[컬러추가][셀럽착용] Layered sheer shirt knit",
+   "p": 88200,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 149,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[컬러추가] Satin lace Cami Top",
+   "p": 40600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 73,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[컬러추가] Lautre Lace Satin flare skirt",
+   "p": 86100,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 43,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Halter layered shirts Top",
+   "p": 74820,
+   "d": 31,
+   "lk": null,
+   "rt": 5,
+   "rv": 8,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[컬러 추가] Lautre Off shirts",
+   "p": 83300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 209,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[컬러추가] Pencil long Skirt",
+   "p": 68600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 38,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[컬러 추가] Layered shirts knit",
+   "p": 118300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 39,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "NOE Cream Blouse",
+   "p": 92400,
+   "d": 34,
+   "lk": null,
+   "rt": 5,
+   "rv": 12,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Lautre Amanda Off shirts",
+   "p": 116760,
+   "d": 31,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 120,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Cowl buckle Ivory knit",
+   "p": 68600,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 15,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Lace knit Ivory cardigan",
+   "p": 94830,
+   "d": 32,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Lautre Anna Black Flare Skirt",
+   "p": 96600,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 49,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Layered Feminine Top",
+   "p": 90470,
+   "d": 35,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Bijou Mohair Butter Cardigan",
+   "p": 90300,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 8,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Lautre Halter Buckle Ivory knit",
+   "p": 68600,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 60,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Lautre Ivory Collar Fur Jacket",
+   "p": 208600,
+   "d": 30,
+   "lk": null,
+   "rt": 4,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Sienne Shiring Tied Blouse",
+   "p": 73080,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Bustier layerd knit Top",
+   "p": 46700,
+   "d": 31,
+   "lk": null,
+   "rt": 5,
+   "rv": 22,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Lautre Draped Off shoulder T shirts",
+   "p": 40600,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 100,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Lace knit Black cardigan",
+   "p": 97300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Lautre new shine Black knit cardigan",
+   "p": 82600,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 45,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "Lautre Halter Buckle Gray knit",
+   "p": 68600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Classic shirring Shirt Black Dress",
+   "p": 129630,
+   "d": 31,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Rosy Halter Knit",
+   "p": 68600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Velvet lace skirt",
+   "p": 83300,
+   "d": 30,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Lautre Ribbon Knit sleeveless",
+   "p": 46130,
+   "d": 32,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 51,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Flared V Neck Knit Gray Cardigan",
+   "p": 83300,
+   "d": 35,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Stripe Beige Embroid shirts",
+   "p": 91700,
+   "d": 34,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Lautre Anna Beige Flare skirt",
+   "p": 96600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 256,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Bijou Mohair Pink Cardigan",
+   "p": 90300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "L'autre de min Basic Belt",
+   "p": 41300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 35,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Halter Layerd Sheer Ivory Blouse",
+   "p": 91560,
+   "d": 34,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Lua Pleated skirt",
+   "p": 110600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Lautre Amanda Blue Off shirts",
+   "p": 117600,
+   "d": 30,
+   "lk": null,
+   "rt": 3.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Volume Pleated Skirt",
+   "p": 76300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Emu boat knit",
+   "p": 48300,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 9,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[XS사이즈추가] Lautre Tulip skirt",
+   "p": 85260,
+   "d": 34,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 12,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Daze belted leather Black jacket",
+   "p": 194600,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Lautre Lace Satin flare Pink skirt",
+   "p": 86100,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Jadin Suede Leather Bag",
+   "p": 139300,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Fleur knit skirt",
+   "p": 83300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 39,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[컬러추가] Silhouette White shirts",
+   "p": 114840,
+   "d": 32,
+   "lk": null,
+   "rt": 4,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Lautre Strap Mocha beige Satin flare skirt",
+   "p": 75600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Classic shirring Shirt White Dress",
+   "p": 129630,
+   "d": 31,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Lautre Strap Black Satin flare skirt",
+   "p": 74760,
+   "d": 31,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 34,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Cowl buckle Brown knit",
+   "p": 68600,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 16,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Halter Frill Sleeveless Brown dot Top",
+   "p": 44210,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Leather Brown pencil skirt",
+   "p": 68600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Lautre Elene Black Flared Skirt",
+   "p": 94830,
+   "d": 31,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 27,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Flared V Neck Knit Cardigan",
+   "p": 83300,
+   "d": 35,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 22861,
+ "observed_at": "2026-10-29"
+}

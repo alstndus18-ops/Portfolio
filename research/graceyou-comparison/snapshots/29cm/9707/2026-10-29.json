@@ -1,0 +1,698 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/9707",
+ "title": "이아(EAAH)",
+ "ko": "이아",
+ "en": "EAAH",
+ "sub": "미니멀리즘에 현대적인 감각을 더한 일상복의 유연한 매력",
+ "est": 2020,
+ "heart": 62755,
+ "intro": "이아는 미니멀리즘에 현대적인 감각을 더해 일상복의 매력을 유연하게 담아내며, 엄선된 소재와 디자인으로 컬렉션을 완성합니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 65550,
+  "q1": 148000,
+  "med": 159600,
+  "q3": 278000,
+  "p90": 398050,
+  "max": 407550,
+  "mean": 209924
+ },
+ "disc": {
+  "n": 34,
+  "med": 5,
+  "max": 5
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 3325,
+  "med": 30,
+  "max": 659,
+  "rated": 46
+ },
+ "rate": 4.98,
+ "tags": {
+  "조건부 무료배송": 50,
+  "단독": 50,
+  "신상품": 11
+ },
+ "names": [
+  "[티슈 착용] ENRI LAYERED V NECK KNIT TOP (CHARCOAL)",
+  "ENRI LAYERED V NECK KNIT TOP (TAUPE)",
+  "[티슈 착용] HAYES HALF COAT (LIGHT GREY)",
+  "ENRI WOOL KNIT SKIRT (TAUPE)",
+  "TIE SHIRRING BLOUSE (BEIGE)",
+  "WOOL BALMACAAN COAT (BLACK)",
+  "AUSTIN CASHMERE HOODIE ZIP UP (GREY)",
+  "MEG COWL NECK BLOUSE (CHARCOAL)",
+  "[티슈 착용] FW MAXI SLIT SKIRT (BLACK)",
+  "BABY ALPACA MOCK NECK KNIT TOP (BLACK)",
+  "HAYES HALF COAT (BLACK)",
+  "ALPACA DAVE HALF COAT (GREY)",
+  "STRAIGHT DENIM PANTS (BLACK)",
+  "ENRI WOOL KNIT SKIRT (CHARCOAL)",
+  "FW MAXI SLIT SKIRT (TAUPE)",
+  "FW MAXI SLIT SKIRT (CHARCOAL)",
+  "TIE SHIRRING BLOUSE (TAUPE)",
+  "NEP YARN CREWNECK PULLOVER (BLUE)",
+  "RODE CASHMERE V NECK PULLOVER (BLACK)",
+  "[티슈 착용] [SHORT/LONG 기장 선택] TAILORING WOOL COAT (CHARCOAL)",
+  "RODE CASHMERE V NECK PULLOVER (CHARCOAL)",
+  "[홍보현 착용] MOSS COTTON UTILITY JACKET (LIGHT KHAKI)",
+  "[티슈 착용] ROY CASHMERE KNIT SCARF (IVORY)",
+  "WOOL BALMACAAN COAT (CHARCOAL)",
+  "ALPACA DAVE HALF COAT (SAGE GREEN)",
+  "[SHORT/LONG 기장 선택] TAILORING WOOL COAT (BLACK)",
+  "TIE SHIRRING BLOUSE (IVORY)",
+  "FW WIDE TUCK PANTS (CHARCOAL)",
+  "HIGH NECK SHIRRING SHIRT (BLACK)",
+  "MEG COWL NECK BLOUSE (BEIGE)",
+  "ENRI WOOL KNIT SKIRT (BLACK)",
+  "TAREN LEATHER BELT (BLACK)",
+  "ALPACA DAVE HALF COAT (IVORY)",
+  "LOE MAXI SKIRT (BLACK)",
+  "VELL TWEED JACKET (BLACK)",
+  "ENRI LAYERED V NECK KNIT TOP (BLACK)",
+  "LOE BANDING TUCK PANTS (CHARCOAL)",
+  "MEG COWL NECK BLOUSE (IVORY)",
+  "LIV VOLUME COTTON SKIRT (CHARCOAL)",
+  "JUDE HALF TRENCH COAT (DARK BROWN)"
+ ],
+ "cards": [
+  {
+   "n": "[티슈 착용] ENRI LAYERED V NECK KNIT TOP (CHARCOAL)",
+   "p": 169100,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "ENRI LAYERED V NECK KNIT TOP (TAUPE)",
+   "p": 169100,
+   "d": 5,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[티슈 착용] HAYES HALF COAT (LIGHT GREY)",
+   "p": 322050,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 62,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "단독"
+   ]
+  },
+  {
+   "n": "ENRI WOOL KNIT SKIRT (TAUPE)",
+   "p": 131100,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 26,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "TIE SHIRRING BLOUSE (BEIGE)",
+   "p": 148000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 65,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "WOOL BALMACAAN COAT (BLACK)",
+   "p": 407550,
+   "d": 5,
+   "lk": null,
+   "rt": null,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "단독"
+   ]
+  },
+  {
+   "n": "AUSTIN CASHMERE HOODIE ZIP UP (GREY)",
+   "p": 218000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 28,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "MEG COWL NECK BLOUSE (CHARCOAL)",
+   "p": 148000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 186,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[티슈 착용] FW MAXI SLIT SKIRT (BLACK)",
+   "p": 121600,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 46,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "BABY ALPACA MOCK NECK KNIT TOP (BLACK)",
+   "p": 102600,
+   "d": 5,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 13,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "HAYES HALF COAT (BLACK)",
+   "p": 322050,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 162,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "단독"
+   ]
+  },
+  {
+   "n": "ALPACA DAVE HALF COAT (GREY)",
+   "p": 398050,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "단독"
+   ]
+  },
+  {
+   "n": "STRAIGHT DENIM PANTS (BLACK)",
+   "p": 140600,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 42,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "ENRI WOOL KNIT SKIRT (CHARCOAL)",
+   "p": 131100,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 54,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "FW MAXI SLIT SKIRT (TAUPE)",
+   "p": 121600,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 40,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "FW MAXI SLIT SKIRT (CHARCOAL)",
+   "p": 121600,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 34,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "TIE SHIRRING BLOUSE (TAUPE)",
+   "p": 148000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 156,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "NEP YARN CREWNECK PULLOVER (BLUE)",
+   "p": 158000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "RODE CASHMERE V NECK PULLOVER (BLACK)",
+   "p": 150100,
+   "d": 5,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 57,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[티슈 착용] [SHORT/LONG 기장 선택] TAILORING WOOL COAT (CHARCOAL)",
+   "p": 398050,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 65,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "단독"
+   ]
+  },
+  {
+   "n": "RODE CASHMERE V NECK PULLOVER (CHARCOAL)",
+   "p": 150100,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 55,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[홍보현 착용] MOSS COTTON UTILITY JACKET (LIGHT KHAKI)",
+   "p": 258000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 10,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[티슈 착용] ROY CASHMERE KNIT SCARF (IVORY)",
+   "p": 71250,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 70,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "WOOL BALMACAAN COAT (CHARCOAL)",
+   "p": 407550,
+   "d": 5,
+   "lk": null,
+   "rt": null,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "단독"
+   ]
+  },
+  {
+   "n": "ALPACA DAVE HALF COAT (SAGE GREEN)",
+   "p": 398050,
+   "d": 5,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "단독"
+   ]
+  },
+  {
+   "n": "[SHORT/LONG 기장 선택] TAILORING WOOL COAT (BLACK)",
+   "p": 398050,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 68,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "단독"
+   ]
+  },
+  {
+   "n": "TIE SHIRRING BLOUSE (IVORY)",
+   "p": 148000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 37,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "FW WIDE TUCK PANTS (CHARCOAL)",
+   "p": 140600,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 38,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "HIGH NECK SHIRRING SHIRT (BLACK)",
+   "p": 178000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 24,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "MEG COWL NECK BLOUSE (BEIGE)",
+   "p": 148000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 76,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "ENRI WOOL KNIT SKIRT (BLACK)",
+   "p": 131100,
+   "d": 5,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "TAREN LEATHER BELT (BLACK)",
+   "p": 65550,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 92,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "ALPACA DAVE HALF COAT (IVORY)",
+   "p": 398050,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 21,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "LOE MAXI SKIRT (BLACK)",
+   "p": 159600,
+   "d": 5,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 19,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "VELL TWEED JACKET (BLACK)",
+   "p": 258000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 38,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "ENRI LAYERED V NECK KNIT TOP (BLACK)",
+   "p": 169100,
+   "d": 5,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "LOE BANDING TUCK PANTS (CHARCOAL)",
+   "p": 188100,
+   "d": 5,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 23,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "MEG COWL NECK BLOUSE (IVORY)",
+   "p": 148000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 39,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "LIV VOLUME COTTON SKIRT (CHARCOAL)",
+   "p": 148000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "JUDE HALF TRENCH COAT (DARK BROWN)",
+   "p": 278000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 30,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "HIGH NECK SHIRRING SHIRT (CREAM)",
+   "p": 178000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 22,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "MAYA CASHMERE V NECK PULLOVER (TAUPE BEIGE)",
+   "p": 158000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[홍보현 착용] LOE MAXI SKIRT (CHARCOAL)",
+   "p": 159600,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 20,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "ROY CASHMERE KNIT SCARF (GREY)",
+   "p": 71250,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 235,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "WOOL BALMACAAN COAT (NAVY)",
+   "p": 407550,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 654,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "단독"
+   ]
+  },
+  {
+   "n": "WOOL BALMACAAN COAT (DARK BROWN HERRINGBONE)",
+   "p": 407550,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 19,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "단독"
+   ]
+  },
+  {
+   "n": "IAN SHORT COAT (GREY)",
+   "p": 284050,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 659,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "단독"
+   ]
+  },
+  {
+   "n": "[티슈 착용] LOE SIDE TUCK PANTS (CHARCOAL STRIPE)",
+   "p": 188100,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "AUSTIN CASHMERE HOODIE ZIP UP (OATMEAL)",
+   "p": 218000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 7,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "LOE WOOL FLARE SKIRT (CHARCOAL)",
+   "p": 156750,
+   "d": 5,
+   "lk": null,
+   "rt": 5,
+   "rv": 16,
+   "t": [
+    "조건부 무료배송",
+    "단독"
+   ]
+  }
+ ],
+ "id": 9707,
+ "observed_at": "2026-10-29"
+}

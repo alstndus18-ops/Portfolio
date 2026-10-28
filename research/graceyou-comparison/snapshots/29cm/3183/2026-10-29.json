@@ -1,0 +1,634 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/3183",
+ "title": "모이아(MOIA)",
+ "ko": "모이아",
+ "en": "MOIA",
+ "sub": "취향을 공유하고 삶을 소통하는 모이아",
+ "est": 2017,
+ "heart": 63302,
+ "intro": "참신한 소재와 모던한 실루엣, 자연스러움이 흐르는 모이아는 일상에 스며드는 옷, 오래 간직하고 싶은 것에 가치를 둡니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 69000,
+  "q1": 179000,
+  "med": 198000,
+  "q3": 219000,
+  "p90": 328000,
+  "max": 498000,
+  "mean": 212900
+ },
+ "disc": {
+  "n": 0,
+  "med": null
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 102,
+  "med": 1,
+  "max": 37,
+  "rated": 26
+ },
+ "rate": 4.81,
+ "tags": {
+  "조건부 무료배송": 50
+ },
+ "names": [
+  "button shape knit (smoke brown)",
+  "flow knit pants (smoke brown)",
+  "leather jumper (black)",
+  "wool vest (charcoal)",
+  "deep v-neck pullover (wood)",
+  "herringbone dyed denim (smoke brown)",
+  "melange wool pants (charcoal)",
+  "multi yarn sweater (charcoal brown)",
+  "draped trench coat (charcoal brown)",
+  "deep v-neck pullover (melange gray)",
+  "flare skirt (oat)",
+  "drawstring blouse (black)",
+  "A-line wind coat (black)",
+  "2way scarf blouse (vintage black)",
+  "wide round pants (black)",
+  "stripe shirt (gray)",
+  "flow knit pants (black)",
+  "dolman half coat (charcoal)",
+  "soft cape knit (gray)",
+  "deep v-neck pullover (charcoal)",
+  "stitched pebble loafer (black)",
+  "leather jumper (deep brown)",
+  "hoodie cardigan (oat)",
+  "flow muffler (midnight)",
+  "soft mock knit (gray)",
+  "drawstring blouse (charcoal brown)",
+  "pebble ballet shoes (smoke brown)",
+  "draped shirring skirt (vintage black)",
+  "hoodie sweater (charcoal)",
+  "washed stripe shirt (smoke brown)",
+  "maxi flow knit skirt (gray)",
+  "washed stripe shirt (midnight)",
+  "knit leg warmer (black)",
+  "raw pocket denim (indigo blue)",
+  "side tuck pants (stone gray)",
+  "turtle knit top (light gray)",
+  "low ankle boots (black)",
+  "low pocket pants (ash gray)",
+  "high neck cardigan (mushroom)",
+  "low pocket pants (midnight)"
+ ],
+ "cards": [
+  {
+   "n": "button shape knit (smoke brown)",
+   "p": 169000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "flow knit pants (smoke brown)",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "leather jumper (black)",
+   "p": 498000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 37,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "wool vest (charcoal)",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "deep v-neck pullover (wood)",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "herringbone dyed denim (smoke brown)",
+   "p": 139000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 7,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "melange wool pants (charcoal)",
+   "p": 208000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "multi yarn sweater (charcoal brown)",
+   "p": 189000,
+   "d": null,
+   "lk": null,
+   "rt": 2,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "draped trench coat (charcoal brown)",
+   "p": 379000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "deep v-neck pullover (melange gray)",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "flare skirt (oat)",
+   "p": 179000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "drawstring blouse (black)",
+   "p": 163000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "A-line wind coat (black)",
+   "p": 349000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "2way scarf blouse (vintage black)",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "wide round pants (black)",
+   "p": 187000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "stripe shirt (gray)",
+   "p": 183000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "flow knit pants (black)",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "dolman half coat (charcoal)",
+   "p": 328000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "soft cape knit (gray)",
+   "p": 176000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "deep v-neck pullover (charcoal)",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "stitched pebble loafer (black)",
+   "p": 289000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "leather jumper (deep brown)",
+   "p": 498000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "hoodie cardigan (oat)",
+   "p": 219000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "flow muffler (midnight)",
+   "p": 109000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "soft mock knit (gray)",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "drawstring blouse (charcoal brown)",
+   "p": 163000,
+   "d": null,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "pebble ballet shoes (smoke brown)",
+   "p": 263000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "draped shirring skirt (vintage black)",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "hoodie sweater (charcoal)",
+   "p": 228000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "washed stripe shirt (smoke brown)",
+   "p": 179000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "maxi flow knit skirt (gray)",
+   "p": 173000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "washed stripe shirt (midnight)",
+   "p": 179000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "knit leg warmer (black)",
+   "p": 69000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "raw pocket denim (indigo blue)",
+   "p": 143000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "side tuck pants (stone gray)",
+   "p": 189000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "turtle knit top (light gray)",
+   "p": 118000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "low ankle boots (black)",
+   "p": 298000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "low pocket pants (ash gray)",
+   "p": 179000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "high neck cardigan (mushroom)",
+   "p": 239000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "low pocket pants (midnight)",
+   "p": 179000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "hoodie sweater (melange gray)",
+   "p": 228000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "low pocket pants (smoke brown)",
+   "p": 179000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "side tuck pants (espresso)",
+   "p": 189000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "button shirring pants (gray)",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "maxi flow knit skirt (smoke brown)",
+   "p": 173000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "hen mini tote (black)",
+   "p": 239000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "mock neck cardigan (brown)",
+   "p": 217000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 28,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "stripe shirt (ash)",
+   "p": 183000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "button shirring pants (charcoal)",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "draped shirring skirt (gray)",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 3183,
+ "observed_at": "2026-10-29"
+}

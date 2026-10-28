@@ -1,0 +1,753 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/102698",
+ "title": "쿠메(KUME) | W컨셉(W CONCEPT)",
+ "ko": "쿠메",
+ "en": "KUME",
+ "intro": "KUME (쿠메) 는 ‘꿈을 입는다’ 라는 의미를 갖고 시작하였습니다.어떤 장소, 어떤 상황에서도 KUME로 자신만의 취향과 특별함을 표현하고, 각자가 바라는 감성과 삶의 모습을 보여줄 수 있으면 좋겠습니다.아름다운 핏, 좋은 소재, 편안한 움직임들이 모여 KUME가 되고, KUME를 입는 모든 이들에게 ‘꿈’ 을 줄 수 있는 브랜드를 만들고자 합니다.",
+ "n": 137,
+ "p": {
+  "min": 56550,
+  "q1": 164430,
+  "med": 189000,
+  "q3": 259000,
+  "p90": 432500,
+  "max": 1050000,
+  "mean": 251945
+ },
+ "disc": {
+  "n": 65,
+  "med": 13,
+  "max": 32
+ },
+ "names": [
+  "[단독] [1차리오더] Wool Blend Double-Breasted Short Trench Coat, Beige",
+  "[단독][1차리오더] Cashmere Blend Layering V-Neck Knit, Ivory",
+  "[단독] Wool Blend Double-Breasted Short Trench Coat, Melange Gray",
+  "[단독] Floral Applique Satin Midi Skirt, Brown",
+  "Raccoon Blend Muffler Knit Sweater, Mocha",
+  "Faux Leather Highneck Blouson, Black",
+  "Fringed Trim Semi-Cropped Tweed Jacket, Charcoal",
+  "[단독] Asymmetric Off-Shoulder Ruched Top, Black",
+  "Faux Leather Highneck Blouson, Brown",
+  "[단독] Reversible Faux Fur Jacket, Beige",
+  "[단독] Reversible Faux Fur Jacket, Brown",
+  "Men High-Neck Alpaca Blend Short Coat, Beige",
+  "Alpaca Wool Belted Long Coat, Oatmeal",
+  "Alpaca Wool Belted Long Coat, Mocha",
+  "Pure Wool Double-Breasted Half Coat, Charcoal",
+  "Pure Wool Double-Breasted Half Coat, Brown",
+  "Fatigue Corduroy Bootcut Pants, Brown",
+  "[단독] Wool Relaxed V-Neck Sweater, Light Gray",
+  "Nappa Lambskin Car Coat, Black",
+  "Men Nappa Lambskin Car Coat, Black",
+  "Men Alpaca Blend Collared Cardigan, Charcoal",
+  "Washed Slim Stretch Bootcut Pants, Black",
+  "Men Washed Corduroy Wide Pants, Light Blue",
+  "Wool Relaxed V-Neck Sweater, Light Blue",
+  "Men Wool Blend Waffle Henley Sweater, Black",
+  "Men Wool Blend Waffle Henley Sweater, Khaki",
+  "Men Wool Blend Waffle Henley Sweater, Gray",
+  "Men Alpaca Blend Collared Cardigan, Olive",
+  "Mohair Sheer Mermaid Maxi Skirt, Charcoal",
+  "[단독] Handmade Suri Alpaca Merino Wool Half Coat, Melange Gray",
+  "[단독] Handmade Suri Alpaca Merino Wool Half Coat, Ivory",
+  "[4차리오더] Linen Pleated Long Skirt, Ivory",
+  "Lace Pintucked Midi Skirt, Olive",
+  "Linen Boat-Neck Pintucked Dress, Navy",
+  "Pintuck Sheer Layered Long Dress, Light Beige",
+  "[2차리오더] 레이어링 텐셀 홀터 니트, 화이트",
+  "One Shoulder Silky Tencel Blouse, Beige",
+  "Crinkled Tencel Wrap Skirt, Beige",
+  "Crochet Short Sleeved Sweater, Ivory",
+  "Crochet Short Sleeved Sweater, Skin"
+ ],
+ "cards": [
+  {
+   "n": "[단독] [1차리오더] Wool Blend Double-Breasted Short Trench Coat, Beige",
+   "p": 248994,
+   "d": 21
+  },
+  {
+   "n": "[단독][1차리오더] Cashmere Blend Layering V-Neck Knit, Ivory",
+   "p": 175740,
+   "d": 13
+  },
+  {
+   "n": "[단독] Wool Blend Double-Breasted Short Trench Coat, Melange Gray",
+   "p": 248994,
+   "d": 21
+  },
+  {
+   "n": "[단독] Floral Applique Satin Midi Skirt, Brown",
+   "p": 164430,
+   "d": 13
+  },
+  {
+   "n": "Raccoon Blend Muffler Knit Sweater, Mocha",
+   "p": 187050,
+   "d": 13
+  },
+  {
+   "n": "Faux Leather Highneck Blouson, Black",
+   "p": 226287,
+   "d": 21
+  },
+  {
+   "n": "Fringed Trim Semi-Cropped Tweed Jacket, Charcoal",
+   "p": 248994,
+   "d": 21
+  },
+  {
+   "n": "[단독] Asymmetric Off-Shoulder Ruched Top, Black",
+   "p": 77430,
+   "d": 13
+  },
+  {
+   "n": "Faux Leather Highneck Blouson, Brown",
+   "p": 226287,
+   "d": 21
+  },
+  {
+   "n": "[단독] Reversible Faux Fur Jacket, Beige",
+   "p": 358000,
+   "d": 10
+  },
+  {
+   "n": "[단독] Reversible Faux Fur Jacket, Brown",
+   "p": 358000,
+   "d": 10
+  },
+  {
+   "n": "Men High-Neck Alpaca Blend Short Coat, Beige",
+   "p": 358000,
+   "d": 10
+  },
+  {
+   "n": "Alpaca Wool Belted Long Coat, Oatmeal",
+   "p": 585000,
+   "d": 6
+  },
+  {
+   "n": "Alpaca Wool Belted Long Coat, Mocha",
+   "p": 585000,
+   "d": 6
+  },
+  {
+   "n": "Pure Wool Double-Breasted Half Coat, Charcoal",
+   "p": 375000,
+   "d": 9
+  },
+  {
+   "n": "Pure Wool Double-Breasted Half Coat, Brown",
+   "p": 375000,
+   "d": 9
+  },
+  {
+   "n": "Fatigue Corduroy Bootcut Pants, Brown",
+   "p": 160950,
+   "d": 13
+  },
+  {
+   "n": "[단독] Wool Relaxed V-Neck Sweater, Light Gray",
+   "p": 159000,
+   "d": 15
+  },
+  {
+   "n": "Nappa Lambskin Car Coat, Black",
+   "p": 905000,
+   "d": 13
+  },
+  {
+   "n": "Men Nappa Lambskin Car Coat, Black",
+   "p": 905000,
+   "d": 13
+  },
+  {
+   "n": "Men Alpaca Blend Collared Cardigan, Charcoal",
+   "p": 180960,
+   "d": 13
+  },
+  {
+   "n": "Washed Slim Stretch Bootcut Pants, Black",
+   "p": 137460,
+   "d": 13
+  },
+  {
+   "n": "Men Washed Corduroy Wide Pants, Light Blue",
+   "p": 164430,
+   "d": 13
+  },
+  {
+   "n": "Wool Relaxed V-Neck Sweater, Light Blue",
+   "p": 164430,
+   "d": 13
+  },
+  {
+   "n": "Men Wool Blend Waffle Henley Sweater, Black",
+   "p": 146160,
+   "d": 13
+  },
+  {
+   "n": "Men Wool Blend Waffle Henley Sweater, Khaki",
+   "p": 146160,
+   "d": 13
+  },
+  {
+   "n": "Men Wool Blend Waffle Henley Sweater, Gray",
+   "p": 146160,
+   "d": 13
+  },
+  {
+   "n": "Men Alpaca Blend Collared Cardigan, Olive",
+   "p": 180960,
+   "d": 13
+  },
+  {
+   "n": "Mohair Sheer Mermaid Maxi Skirt, Charcoal",
+   "p": 160950,
+   "d": 13
+  },
+  {
+   "n": "[단독] Handmade Suri Alpaca Merino Wool Half Coat, Melange Gray",
+   "p": 432500,
+   "d": 17
+  },
+  {
+   "n": "[단독] Handmade Suri Alpaca Merino Wool Half Coat, Ivory",
+   "p": 432500,
+   "d": 17
+  },
+  {
+   "n": "[4차리오더] Linen Pleated Long Skirt, Ivory",
+   "p": 185962,
+   "d": null
+  },
+  {
+   "n": "Lace Pintucked Midi Skirt, Olive",
+   "p": 156208,
+   "d": null
+  },
+  {
+   "n": "Linen Boat-Neck Pintucked Dress, Navy",
+   "p": 202492,
+   "d": null
+  },
+  {
+   "n": "Pintuck Sheer Layered Long Dress, Light Beige",
+   "p": 263653,
+   "d": null
+  },
+  {
+   "n": "[2차리오더] 레이어링 텐셀 홀터 니트, 화이트",
+   "p": 142842,
+   "d": null
+  },
+  {
+   "n": "One Shoulder Silky Tencel Blouse, Beige",
+   "p": 127838,
+   "d": null
+  },
+  {
+   "n": "Crinkled Tencel Wrap Skirt, Beige",
+   "p": 222328,
+   "d": null
+  },
+  {
+   "n": "Crochet Short Sleeved Sweater, Ivory",
+   "p": 156208,
+   "d": null
+  },
+  {
+   "n": "Crochet Short Sleeved Sweater, Skin",
+   "p": 156208,
+   "d": null
+  },
+  {
+   "n": "[임지우 PICK]에어리 오버핏 블루종, 올리브",
+   "p": 230593,
+   "d": null
+  },
+  {
+   "n": "Summer Tweed H-line Skirt, Ivory",
+   "p": 197533,
+   "d": null
+  },
+  {
+   "n": "에어리 오버핏 블루종, 차콜",
+   "p": 235552,
+   "d": null
+  },
+  {
+   "n": "[한정특가] [단독] [1차리오더] Wool Blend Double-Breasted Short Trench Coat, Beige",
+   "p": 318000,
+   "d": null
+  },
+  {
+   "n": "318,000",
+   "p": 248994,
+   "d": 21
+  },
+  {
+   "n": "Raccoon Blend Muffler Knit Sweater, Mocha",
+   "p": 215000,
+   "d": null
+  },
+  {
+   "n": "215,000",
+   "p": 187050,
+   "d": 13
+  },
+  {
+   "n": "[단독] Reversible Faux Fur Jacket, Brown",
+   "p": 398000,
+   "d": null
+  },
+  {
+   "n": "398,000",
+   "p": 358000,
+   "d": 10
+  },
+  {
+   "n": "[한정특가] Fringed Trim Semi-Cropped Tweed Jacket, Charcoal",
+   "p": 318000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Faux Leather Highneck Blouson, Black",
+   "p": 289000,
+   "d": null
+  },
+  {
+   "n": "289,000",
+   "p": 226287,
+   "d": 21
+  },
+  {
+   "n": "[단독][1차리오더] Cashmere Blend Layering V-Neck Knit, Ivory",
+   "p": 202000,
+   "d": null
+  },
+  {
+   "n": "202,000",
+   "p": 175740,
+   "d": 13
+  },
+  {
+   "n": "[한정특가] Triple-Stitch Tweed Round Neck Jacket, Black",
+   "p": 318000,
+   "d": null
+  },
+  {
+   "n": "[단독] Reversible Faux Fur Jacket, Beige",
+   "p": 398000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] [단독] Wool Blend Double-Breasted Short Trench Coat, Melange Gray",
+   "p": 318000,
+   "d": null
+  },
+  {
+   "n": "Mohair Sheer Mermaid Maxi Skirt, Khaki",
+   "p": 185000,
+   "d": null
+  },
+  {
+   "n": "185,000",
+   "p": 160950,
+   "d": 13
+  },
+  {
+   "n": "[단독] Cashmere Blend Fold-Over Knit Skirt, Ivory",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "189,000",
+   "p": 164430,
+   "d": 13
+  },
+  {
+   "n": "[한정특가] Faux Leather Highneck Blouson, Brown",
+   "p": 289000,
+   "d": null
+  },
+  {
+   "n": "[단독] Floral Applique Satin Midi Skirt, Brown",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] [단독] Handmade Suri Alpaca Merino Wool Half Coat, Ivory",
+   "p": 525000,
+   "d": null
+  },
+  {
+   "n": "525,000",
+   "p": 432500,
+   "d": 17
+  },
+  {
+   "n": "Raccoon Blend Muffler Knit Sweater, Ivory",
+   "p": 215000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Nappa Lambskin Car Coat, Black",
+   "p": 1050000,
+   "d": null
+  },
+  {
+   "n": "1,050,000",
+   "p": 905000,
+   "d": 13
+  },
+  {
+   "n": "Mohair Sheer Argyle Knit, Khaki",
+   "p": 175000,
+   "d": null
+  },
+  {
+   "n": "175,000",
+   "p": 152250,
+   "d": 13
+  },
+  {
+   "n": "Halter Layered Ribbed knit Cardigan, Black",
+   "p": 185000,
+   "d": null
+  },
+  {
+   "n": "[단독] Asymmetric Off-Shoulder Ruched Top, Black",
+   "p": 89000,
+   "d": null
+  },
+  {
+   "n": "89,000",
+   "p": 77430,
+   "d": 13
+  },
+  {
+   "n": "Relaxed Barrel-Leg Denim Pants, Gray",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "High-Waisted Pleated Wide Pants, Charcoal",
+   "p": 168000,
+   "d": null
+  },
+  {
+   "n": "168,000",
+   "p": 141120,
+   "d": 16
+  },
+  {
+   "n": "[2차리오더] 레이어링 텐셀 홀터 니트, 블랙",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "179,000",
+   "p": 142842,
+   "d": 20
+  },
+  {
+   "n": "Cotton Tweed Frayed H-Line Maxi Skirt, Black",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "239,000",
+   "p": 207930,
+   "d": 13
+  },
+  {
+   "n": "Cashmere Blend Layering V-Neck Knit, Black",
+   "p": 202000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] [단독] Handmade Suri Alpaca Merino Wool Half Coat, Melange Gray",
+   "p": 525000,
+   "d": null
+  },
+  {
+   "n": "[단독] Asymmetric Off-Shoulder Ruched Top, Brown",
+   "p": 89000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Oversized Belted Faux Leather Jacket, Black",
+   "p": 358000,
+   "d": null
+  },
+  {
+   "n": "358,000",
+   "p": 282200,
+   "d": 21
+  },
+  {
+   "n": "Alpaca Wool Belted Long Coat, Mocha",
+   "p": 625000,
+   "d": null
+  },
+  {
+   "n": "625,000",
+   "p": 585000,
+   "d": 6
+  },
+  {
+   "n": "Wool Blend Buttoned Hem Knit Jogger Pants, Charcoal",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "189,000",
+   "p": 159000,
+   "d": 15
+  },
+  {
+   "n": "Mohair Sheer Mermaid Maxi Skirt, Charcoal",
+   "p": 185000,
+   "d": null
+  },
+  {
+   "n": "Mohair Sheer Mermaid Maxi Skirt, Ivory",
+   "p": 185000,
+   "d": null
+  },
+  {
+   "n": "[단독] Asymmetric Off-Shoulder Ruched Top, Blue",
+   "p": 89000,
+   "d": null
+  },
+  {
+   "n": "89,000",
+   "p": 74760,
+   "d": 16
+  },
+  {
+   "n": "[한정특가] Handmade Cashmere Blend Muffler Coat, Charcoal",
+   "p": 749000,
+   "d": null
+  },
+  {
+   "n": "749,000",
+   "p": 634100,
+   "d": 15
+  },
+  {
+   "n": "Alpaca Boucle Midi Jacket, Melange Gray",
+   "p": 459000,
+   "d": null
+  },
+  {
+   "n": "459,000",
+   "p": 350150,
+   "d": 23
+  },
+  {
+   "n": "Wool Relaxed V-Neck Sweater, Light Blue",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "Crinkled Satin Layered Midi Skirt, Brown",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "149,000",
+   "p": 129630,
+   "d": 13
+  },
+  {
+   "n": "High-Waisted Pleated Wide Pants, Brown",
+   "p": 168000,
+   "d": null
+  },
+  {
+   "n": "168,000",
+   "p": 146160,
+   "d": 13
+  },
+  {
+   "n": "UNISEX Cashmere Blend Color-Block Layered Knit, Deep Khaki",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 168000,
+   "d": 15
+  },
+  {
+   "n": "[1차리오더] Cashmere Blend Layering V-Neck Knit, Beige",
+   "p": 202000,
+   "d": null
+  },
+  {
+   "n": "Wool Blend Bootcut Pants, Charcoal",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "239,000",
+   "p": 166344,
+   "d": 30
+  },
+  {
+   "n": "Halter Layered Ribbed knit Cardigan, Blue",
+   "p": 185000,
+   "d": null
+  },
+  {
+   "n": "[단독] [1차리오더] Wool Blend Buttoned Hem Knit Jogger Pants, Deep Khaki",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "Cashmere Blend Fold-Over Knit Skirt, Black",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "Belted Slit-Hem Wool Blend Pants, Black",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "219,000",
+   "p": 189000,
+   "d": 13
+  },
+  {
+   "n": "Basic Wool Blend Layering Top, Black",
+   "p": 65000,
+   "d": null
+  },
+  {
+   "n": "65,000",
+   "p": 56550,
+   "d": 13
+  },
+  {
+   "n": "Raccoon Blend Muffler Knit Sweater, Light Gray",
+   "p": 215000,
+   "d": null
+  },
+  {
+   "n": "[단독] [1차리오더] Wool Blend Buttoned Hem Hoodie, Deep Khaki",
+   "p": 199000,
+   "d": null
+  },
+  {
+   "n": "199,000",
+   "p": 173130,
+   "d": 13
+  },
+  {
+   "n": "[1차리오더] Basic Wool Blend Layering Top, White",
+   "p": 65000,
+   "d": null
+  },
+  {
+   "n": "UNISEX Cashmere Blend Color-Block Layered Knit, Melange Gray",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "[단독] Halter Layered Ribbed knit Cardigan, Brown",
+   "p": 185000,
+   "d": null
+  },
+  {
+   "n": "185,000",
+   "p": 155400,
+   "d": 16
+  },
+  {
+   "n": "Mohair Sheer Argyle Knit, Charcoal",
+   "p": 175000,
+   "d": null
+  },
+  {
+   "n": "UNISEX Cashmere Blend Color-Block Layered Knit, Deep Brown",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 172260,
+   "d": 13
+  },
+  {
+   "n": "Wool Relaxed V-Neck Sweater, Navy",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "Mohair Sheer Argyle Knit, Ivory",
+   "p": 175000,
+   "d": null
+  },
+  {
+   "n": "Men Slub Melange Knitted Cardigan, Gray",
+   "p": 245000,
+   "d": null
+  },
+  {
+   "n": "245,000",
+   "p": 213150,
+   "d": 13
+  },
+  {
+   "n": "[25%쿠폰] Lace Pintucked Midi Skirt, Ivory",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "189,000",
+   "p": 156208,
+   "d": 17
+  },
+  {
+   "n": "[1차리오더] H-line Pocket Long Skirt, Beige",
+   "p": 229000,
+   "d": null
+  },
+  {
+   "n": "229,000",
+   "p": 153888,
+   "d": 32
+  },
+  {
+   "n": "[1차리오더] Vegan Leather Pleated Cargo Skirt, Burgundy",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "259,000",
+   "p": 180264,
+   "d": 30
+  },
+  {
+   "n": "Washed Slim Stretch Bootcut Pants, Black",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "158,000",
+   "p": 137460,
+   "d": 13
+  },
+  {
+   "n": "Relaxed Barrel-Leg Denim Pants, Ivory",
+   "p": 189000,
+   "d": null
+  }
+ ],
+ "id": 102698,
+ "observed_at": "2026-10-29"
+}

@@ -1,0 +1,928 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/104236",
+ "title": "틸아이다이(TILLIDIE) | W컨셉(W CONCEPT)",
+ "ko": "틸아이다이",
+ "en": "TILLIDIE",
+ "intro": "\"Stay with you for a long time＂ 틸아이다이는 시간이 지나도 변치 않는 가치를 담아, 당신의 일상에 깊이 스며드는 브랜드입니다. 클래식함을 기반으로 하되, 현대적이고 유연한 시선으로 새롭게 재해석한 아이템들을 선보입니다. 하나의 디테일까지도 우리의 정체성을 담아내며, 단순한 소유를 넘어 당신의 삶에 특별한 순간을 더해가고자 합니다. 평범한 하루가 아름다운 기억으로 빛나는 찰나에, 우리가 당신과 오랜 시간 함께하길 바랍니다.",
+ "n": 172,
+ "p": {
+  "min": 1015,
+  "q1": 44000,
+  "med": 98928,
+  "q3": 199039,
+  "p90": 286360,
+  "max": 449000,
+  "mean": 127798
+ },
+ "disc": {
+  "n": 69,
+  "med": 28,
+  "max": 35
+ },
+ "names": [
+  "[여울 Pick]Classic collar point quilting jumper [TIWT02JP02]_2color",
+  "Wool cashmere V neck knit set [TIFA05SW04]_Ivory",
+  "Modal basic slim t-shirt_Melange",
+  "STRIPE COTTON TEE [TIFA04LT05]_Gray",
+  "[여울 Pick] Modal basic slim t-shirt[4color]",
+  "[주미니 Pick] Raglan oversized modal tee [TIFA06LT06]_Navy",
+  "[다연 Pick] Wool 100 handmade half coat [TIWT04CT01]_Light beige",
+  "[여울 Pick]Stella wool jacket_3color",
+  "CASHMERE BLENDED ROUND WOOL KNIT [TIFA04SW07]_Brown",
+  "Pattern lining quilting jumper [TIWT05JP01]_Cream",
+  "Pattern lining quilting jumper [TIWT05JP02]_Navy",
+  "Alpaca raglan half coat [TIWT05CT05]_Camel",
+  "Alpaca raglan half coat [TIWT05CT06]_Charcoal",
+  "Wool 100 handmade long coat [TIWT05CT01]_Camel",
+  "Wool 100 handmade long coat [TIWT05CT02]_Black",
+  "[다연 Pick] Wool 100 handmade quilting coat [TIWT05CT03]_Charcoal",
+  "Wool 100 handmade quilting coat [TIWT05CT04]_Black",
+  "Faux fur high neck jacket [TIWT05JK01]_Gray",
+  "Faux fur high neck jacket [TIWT05JK02]_Brown",
+  "Strap collar reversible mustang [TIWT05MU01]_Camel",
+  "Strap collar reversible mustang [TIWT05MU02]_Brown",
+  "Silk cashmere wool v-neck knit [TIWT05SW01]_Ivory",
+  "[다연 Pick] Silk cashmere wool v-neck knit [TIWT05SW02]_Pink",
+  "Silk cashmere wool v-neck knit [TIWT05SW03]_Blue",
+  "Silk cashmere wool v-neck knit [TIWT05SW04]_Purple",
+  "Silk cashmere wool v-neck knit [TIWT05SW05]_Charcoal",
+  "Silk cashmere wool cardigan [TIWT05CD01]_Mint",
+  "Silk cashmere wool cardigan [TIWT05CD02]_Yellow",
+  "Silk cashmere wool cardigan [TIWT05CD03]_Brown",
+  "Leather point check trench coat [TISP05CT03]_Gray",
+  "CASHMERE BLENDED WOOL CARDIGAN [TIFA04CD06]_Blue",
+  "Frill wrap blouse TISU03BL04_Brown",
+  "[다연 Pick] Classic belted trench coat [TIFA05CT03]_Light beige",
+  "[다연 Pick] [스크런치 SET] Check overfit shirt jacket set [TIFA05SH03]_Navy",
+  "[다연 Pick] All brush washing denim pants_Vintage Blue",
+  "Natural crack leather blouson_Brown",
+  "[여울 Pick]Single suede half jacket TIFA01JP05_2color",
+  "One-button collar trench coat [TIFA05CT02]_Charcoal",
+  "Pleated raglan cardigan [TISU06CD02]_Black",
+  "Shirring puff blouse TISU01BL10_Butter"
+ ],
+ "cards": [
+  {
+   "n": "[여울 Pick]Classic collar point quilting jumper [TIWT02JP02]_2color",
+   "p": 163369,
+   "d": 28
+  },
+  {
+   "n": "Wool cashmere V neck knit set [TIFA05SW04]_Ivory",
+   "p": 98928,
+   "d": 27
+  },
+  {
+   "n": "Modal basic slim t-shirt_Melange",
+   "p": 29963,
+   "d": 28
+  },
+  {
+   "n": "STRIPE COTTON TEE [TIFA04LT05]_Gray",
+   "p": 32494,
+   "d": 27
+  },
+  {
+   "n": "[여울 Pick] Modal basic slim t-shirt[4color]",
+   "p": 29963,
+   "d": 28
+  },
+  {
+   "n": "[주미니 Pick] Raglan oversized modal tee [TIFA06LT06]_Navy",
+   "p": 54880,
+   "d": 27
+  },
+  {
+   "n": "[다연 Pick] Wool 100 handmade half coat [TIWT04CT01]_Light beige",
+   "p": 253257,
+   "d": 28
+  },
+  {
+   "n": "[여울 Pick]Stella wool jacket_3color",
+   "p": 160115,
+   "d": 25
+  },
+  {
+   "n": "CASHMERE BLENDED ROUND WOOL KNIT [TIFA04SW07]_Brown",
+   "p": 78709,
+   "d": 27
+  },
+  {
+   "n": "Pattern lining quilting jumper [TIWT05JP01]_Cream",
+   "p": 164795,
+   "d": 28
+  },
+  {
+   "n": "Pattern lining quilting jumper [TIWT05JP02]_Navy",
+   "p": 164795,
+   "d": 28
+  },
+  {
+   "n": "Alpaca raglan half coat [TIWT05CT05]_Camel",
+   "p": 286360,
+   "d": 28
+  },
+  {
+   "n": "Alpaca raglan half coat [TIWT05CT06]_Charcoal",
+   "p": 286360,
+   "d": 28
+  },
+  {
+   "n": "Wool 100 handmade long coat [TIWT05CT01]_Camel",
+   "p": 311780,
+   "d": 27
+  },
+  {
+   "n": "Wool 100 handmade long coat [TIWT05CT02]_Black",
+   "p": 311780,
+   "d": 27
+  },
+  {
+   "n": "[다연 Pick] Wool 100 handmade quilting coat [TIWT05CT03]_Charcoal",
+   "p": 328180,
+   "d": 26
+  },
+  {
+   "n": "Wool 100 handmade quilting coat [TIWT05CT04]_Black",
+   "p": 328180,
+   "d": 26
+  },
+  {
+   "n": "Faux fur high neck jacket [TIWT05JK01]_Gray",
+   "p": 220441,
+   "d": 28
+  },
+  {
+   "n": "Faux fur high neck jacket [TIWT05JK02]_Brown",
+   "p": 220441,
+   "d": 28
+  },
+  {
+   "n": "Strap collar reversible mustang [TIWT05MU01]_Camel",
+   "p": 213307,
+   "d": 28
+  },
+  {
+   "n": "Strap collar reversible mustang [TIWT05MU02]_Brown",
+   "p": 213307,
+   "d": 28
+  },
+  {
+   "n": "Silk cashmere wool v-neck knit [TIWT05SW01]_Ivory",
+   "p": 86321,
+   "d": 28
+  },
+  {
+   "n": "[다연 Pick] Silk cashmere wool v-neck knit [TIWT05SW02]_Pink",
+   "p": 86321,
+   "d": 28
+  },
+  {
+   "n": "Silk cashmere wool v-neck knit [TIWT05SW03]_Blue",
+   "p": 86321,
+   "d": 28
+  },
+  {
+   "n": "Silk cashmere wool v-neck knit [TIWT05SW04]_Purple",
+   "p": 86321,
+   "d": 28
+  },
+  {
+   "n": "Silk cashmere wool v-neck knit [TIWT05SW05]_Charcoal",
+   "p": 86321,
+   "d": 28
+  },
+  {
+   "n": "Silk cashmere wool cardigan [TIWT05CD01]_Mint",
+   "p": 92029,
+   "d": 28
+  },
+  {
+   "n": "Silk cashmere wool cardigan [TIWT05CD02]_Yellow",
+   "p": 92029,
+   "d": 28
+  },
+  {
+   "n": "Silk cashmere wool cardigan [TIWT05CD03]_Brown",
+   "p": 92029,
+   "d": 28
+  },
+  {
+   "n": "Leather point check trench coat [TISP05CT03]_Gray",
+   "p": 122847,
+   "d": null
+  },
+  {
+   "n": "CASHMERE BLENDED WOOL CARDIGAN [TIFA04CD06]_Blue",
+   "p": 78709,
+   "d": null
+  },
+  {
+   "n": "Frill wrap blouse TISU03BL04_Brown",
+   "p": 48440,
+   "d": null
+  },
+  {
+   "n": "[다연 Pick] Classic belted trench coat [TIFA05CT03]_Light beige",
+   "p": 134598,
+   "d": null
+  },
+  {
+   "n": "[다연 Pick] [스크런치 SET] Check overfit shirt jacket set [TIFA05SH03]_Navy",
+   "p": 87374,
+   "d": null
+  },
+  {
+   "n": "[다연 Pick] All brush washing denim pants_Vintage Blue",
+   "p": 69913,
+   "d": null
+  },
+  {
+   "n": "Natural crack leather blouson_Brown",
+   "p": 199039,
+   "d": null
+  },
+  {
+   "n": "[여울 Pick]Single suede half jacket TIFA01JP05_2color",
+   "p": 174574,
+   "d": null
+  },
+  {
+   "n": "One-button collar trench coat [TIFA05CT02]_Charcoal",
+   "p": 194245,
+   "d": null
+  },
+  {
+   "n": "Pleated raglan cardigan [TISU06CD02]_Black",
+   "p": 30694,
+   "d": null
+  },
+  {
+   "n": "Shirring puff blouse TISU01BL10_Butter",
+   "p": 44445,
+   "d": null
+  },
+  {
+   "n": "[다연 Pick] Natural washed bootcut denim pants_Blue",
+   "p": 71340,
+   "d": null
+  },
+  {
+   "n": "Bunny half sleeve volume ringer t-shirt_Melange",
+   "p": 35218,
+   "d": null
+  },
+  {
+   "n": "Linen blended half sleeve jacket [TISU05JK03]_Beige",
+   "p": 99377,
+   "d": null
+  },
+  {
+   "n": "Race texured frill blouse_Ivory",
+   "p": 73289,
+   "d": null
+  },
+  {
+   "n": "Stripe soft touch T-shirt_Navy",
+   "p": 32173,
+   "d": null
+  },
+  {
+   "n": "[여울 Pick]Classic collar point quilting jumper [TIWT02JP02]_2color",
+   "p": 229000,
+   "d": null
+  },
+  {
+   "n": "229,000",
+   "p": 163369,
+   "d": 28
+  },
+  {
+   "n": "(42)",
+   "p": 5935,
+   "d": null
+  },
+  {
+   "n": "[여울 Pick] Modal basic slim t-shirt[4color]",
+   "p": 42000,
+   "d": null
+  },
+  {
+   "n": "42,000",
+   "p": 29963,
+   "d": 28
+  },
+  {
+   "n": "(465)",
+   "p": 7918,
+   "d": null
+  },
+  {
+   "n": "[다연 Pick] Wool 100 handmade half coat [TIWT04CT01]_Light beige",
+   "p": 355000,
+   "d": null
+  },
+  {
+   "n": "355,000",
+   "p": 253257,
+   "d": 28
+  },
+  {
+   "n": "Modal basic slim t-shirt_Melange",
+   "p": 42000,
+   "d": null
+  },
+  {
+   "n": "(222)",
+   "p": 5593,
+   "d": null
+  },
+  {
+   "n": "[여울 Pick]Stella wool jacket_3color",
+   "p": 214000,
+   "d": null
+  },
+  {
+   "n": "214,000",
+   "p": 160115,
+   "d": 25
+  },
+  {
+   "n": "(145)",
+   "p": 7835,
+   "d": null
+  },
+  {
+   "n": "STRIPE COTTON TEE [TIFA04LT05]_Gray",
+   "p": 45000,
+   "d": null
+  },
+  {
+   "n": "45,000",
+   "p": 32494,
+   "d": 27
+  },
+  {
+   "n": "(50)",
+   "p": 1529,
+   "d": null
+  },
+  {
+   "n": "[다연 Pick] Silk cashmere wool cardigan [TIWT05CD04]_Purple",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "129,000",
+   "p": 92029,
+   "d": 28
+  },
+  {
+   "n": "Pattern lining quilting jumper [TIWT05JP02]_Navy",
+   "p": 231000,
+   "d": null
+  },
+  {
+   "n": "231,000",
+   "p": 164795,
+   "d": 28
+  },
+  {
+   "n": "Wool cashmere V neck knit set [TIFA05SW04]_Ivory",
+   "p": 137000,
+   "d": null
+  },
+  {
+   "n": "137,000",
+   "p": 98928,
+   "d": 27
+  },
+  {
+   "n": "(80)",
+   "p": 6597,
+   "d": null
+  },
+  {
+   "n": "[주미니 Pick] Raglan oversized modal tee [TIFA06LT06]_Navy",
+   "p": 76000,
+   "d": null
+  },
+  {
+   "n": "76,000",
+   "p": 54880,
+   "d": 27
+  },
+  {
+   "n": "(27)",
+   "p": 1060,
+   "d": null
+  },
+  {
+   "n": "Alpaca raglan half coat [TIWT05CT06]_Charcoal",
+   "p": 398000,
+   "d": null
+  },
+  {
+   "n": "398,000",
+   "p": 286360,
+   "d": 28
+  },
+  {
+   "n": "CASHMERE BLENDED ROUND WOOL KNIT [TIFA04SW07]_Brown",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "109,000",
+   "p": 78709,
+   "d": 27
+  },
+  {
+   "n": "(18)",
+   "p": 1023,
+   "d": null
+  },
+  {
+   "n": "Faux leather overfit jumper_Black",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "239,000",
+   "p": 170503,
+   "d": 28
+  },
+  {
+   "n": "Faux leather pocket jacket_Black",
+   "p": 209000,
+   "d": null
+  },
+  {
+   "n": "209,000",
+   "p": 149101,
+   "d": 28
+  },
+  {
+   "n": "[여울 Pick]Scarf tie detail blouse [TISP05BL03]_Ivory",
+   "p": 111000,
+   "d": null
+  },
+  {
+   "n": "111,000",
+   "p": 79187,
+   "d": 28
+  },
+  {
+   "n": "(74)",
+   "p": 5392,
+   "d": null
+  },
+  {
+   "n": "Strap collar reversible mustang [TIWT05MU02]_Brown",
+   "p": 299000,
+   "d": null
+  },
+  {
+   "n": "299,000",
+   "p": 213307,
+   "d": 28
+  },
+  {
+   "n": "String belt natural leather jacket_Black",
+   "p": 229000,
+   "d": null
+  },
+  {
+   "n": "(194)",
+   "p": 6780,
+   "d": null
+  },
+  {
+   "n": "Waffle fleece half zip-up [TIWT04LT03]_Blue",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "Silk cashmere wool cardigan [TIWT05CD02]_Yellow",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "Ryker corduroy collar padding_Black",
+   "p": 188000,
+   "d": null
+  },
+  {
+   "n": "188,000",
+   "p": 130848,
+   "d": 30
+  },
+  {
+   "n": "(81)",
+   "p": 3472,
+   "d": null
+  },
+  {
+   "n": "Leather quilting high neck blouson [TIFA06LE01]_Black",
+   "p": 249000,
+   "d": null
+  },
+  {
+   "n": "249,000",
+   "p": 175470,
+   "d": 29
+  },
+  {
+   "n": "[사이즈추가]Reversible suede mustang_Beige",
+   "p": 359000,
+   "d": null
+  },
+  {
+   "n": "359,000",
+   "p": 256111,
+   "d": 28
+  },
+  {
+   "n": "[다연 Pick] Classic belted trench coat [TIFA05CT03]_Light beige",
+   "p": 191000,
+   "d": null
+  },
+  {
+   "n": "191,000",
+   "p": 134598,
+   "d": 29
+  },
+  {
+   "n": "(6)",
+   "p": 1400,
+   "d": null
+  },
+  {
+   "n": "Stripe soft touch T-shirt_Navy",
+   "p": 43000,
+   "d": null
+  },
+  {
+   "n": "43,000",
+   "p": 32173,
+   "d": 25
+  },
+  {
+   "n": "(134)",
+   "p": 2328,
+   "d": null
+  },
+  {
+   "n": "BRUSHED ZIP UP MTM [TIFA04LT03]_Melange",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "(4)",
+   "p": 1091,
+   "d": null
+  },
+  {
+   "n": "Silket cotton long sleeve t-shirt_Ivory",
+   "p": 44000,
+   "d": null
+  },
+  {
+   "n": "44,000",
+   "p": 31390,
+   "d": 28
+  },
+  {
+   "n": "(386)",
+   "p": 7458,
+   "d": null
+  },
+  {
+   "n": "Wool blend hairy cardigan [TIWT04CD06]_Yellow",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "[다연 Pick] H-line belt set skirt [TIFA05SK01]_Charcoal",
+   "p": 106000,
+   "d": null
+  },
+  {
+   "n": "106,000",
+   "p": 76543,
+   "d": 27
+  },
+  {
+   "n": "(16)",
+   "p": 1322,
+   "d": null
+  },
+  {
+   "n": "[다연 Pick] [스크런치 SET] Check overfit shirt jacket set [TIFA05SH03]_Navy",
+   "p": 121000,
+   "d": null
+  },
+  {
+   "n": "121,000",
+   "p": 87374,
+   "d": 27
+  },
+  {
+   "n": "(24)",
+   "p": 1015,
+   "d": null
+  },
+  {
+   "n": "Hooded fur short jacket [TIWT03JK01]_Beige",
+   "p": 359000,
+   "d": null
+  },
+  {
+   "n": "(65)",
+   "p": 5854,
+   "d": null
+  },
+  {
+   "n": "Wool 100 handmade tailoring jacket [TIWT04JK06]_Gray",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "329,000",
+   "p": 234709,
+   "d": 28
+  },
+  {
+   "n": "Washed cotton high neck jacket [TIFA05JK01]_Beige",
+   "p": 209000,
+   "d": null
+  },
+  {
+   "n": "209,000",
+   "p": 147282,
+   "d": 29
+  },
+  {
+   "n": "(5)",
+   "p": 1257,
+   "d": null
+  },
+  {
+   "n": "[여울 Pick] Wool blend classic shorts [TIFA06PT02]_Black",
+   "p": 108000,
+   "d": null
+  },
+  {
+   "n": "108,000",
+   "p": 77987,
+   "d": 27
+  },
+  {
+   "n": "Modal basic slim t-shirt_Black",
+   "p": 42000,
+   "d": null
+  },
+  {
+   "n": "[다연 Pick] Fur reversible jumper [TIWT04JP01]_Cream",
+   "p": 265000,
+   "d": null
+  },
+  {
+   "n": "265,000",
+   "p": 189051,
+   "d": 28
+  },
+  {
+   "n": "Italian leather classic plain belt[3color]",
+   "p": 69000,
+   "d": null
+  },
+  {
+   "n": "69,000",
+   "p": 49225,
+   "d": 28
+  },
+  {
+   "n": "(540)",
+   "p": 5020,
+   "d": null
+  },
+  {
+   "n": "Alpaca raglan half coat [TIWT05CT05]_Camel",
+   "p": 398000,
+   "d": null
+  },
+  {
+   "n": "High-neck leather point work jacket [TISP05JK06]_Black",
+   "p": 241000,
+   "d": null
+  },
+  {
+   "n": "241,000",
+   "p": 171929,
+   "d": 28
+  },
+  {
+   "n": "(29)",
+   "p": 1229,
+   "d": null
+  },
+  {
+   "n": "Wool cashmere V neck knit set [TIFA05SW08]_Charcoal",
+   "p": 137000,
+   "d": null
+  },
+  {
+   "n": "137,000",
+   "p": 92968,
+   "d": 32
+  },
+  {
+   "n": "Pattern lining quilting jumper [TIWT05JP01]_Cream",
+   "p": 231000,
+   "d": null
+  },
+  {
+   "n": "[여울 Pick]Single suede half jacket TIFA01JP05_2color",
+   "p": 254000,
+   "d": null
+  },
+  {
+   "n": "254,000",
+   "p": 174574,
+   "d": 31
+  },
+  {
+   "n": "(81)",
+   "p": 3595,
+   "d": null
+  },
+  {
+   "n": "Herringbone wool pleats mini skirt_2color",
+   "p": 125000,
+   "d": null
+  },
+  {
+   "n": "125,000",
+   "p": 89175,
+   "d": 28
+  },
+  {
+   "n": "(38)",
+   "p": 1484,
+   "d": null
+  },
+  {
+   "n": "[다연 Pick] All brush washing denim pants_Vintage Blue",
+   "p": 98000,
+   "d": null
+  },
+  {
+   "n": "98,000",
+   "p": 69913,
+   "d": 28
+  },
+  {
+   "n": "Strap collar reversible mustang [TIWT05MU01]_Camel",
+   "p": 299000,
+   "d": null
+  },
+  {
+   "n": "Raglan oversized modal tee [TIFA06LT04]_Ivory",
+   "p": 76000,
+   "d": null
+  },
+  {
+   "n": "Bonheur stripe cotton t-shirt_Gray",
+   "p": 75000,
+   "d": null
+  },
+  {
+   "n": "75,000",
+   "p": 48611,
+   "d": 35
+  },
+  {
+   "n": "(164)",
+   "p": 5398,
+   "d": null
+  },
+  {
+   "n": "Silket cotton long sleeve t-shirt_Black",
+   "p": 44000,
+   "d": null
+  },
+  {
+   "n": "(209)",
+   "p": 3350,
+   "d": null
+  },
+  {
+   "n": "[다연 Pick] Silk cashmere wool v-neck knit [TIWT05SW02]_Pink",
+   "p": 121000,
+   "d": null
+  },
+  {
+   "n": "121,000",
+   "p": 86321,
+   "d": 28
+  },
+  {
+   "n": "[여울 Pick] Wool cashmere V neck knit set [TIFA05SW05]_Mint",
+   "p": 137000,
+   "d": null
+  },
+  {
+   "n": "(7)",
+   "p": 1382,
+   "d": null
+  },
+  {
+   "n": "[다연 Pick] Wool 100 handmade quilting coat [TIWT05CT03]_Charcoal",
+   "p": 449000,
+   "d": null
+  },
+  {
+   "n": "449,000",
+   "p": 328180,
+   "d": 26
+  },
+  {
+   "n": "High-neck dumble quilting jumper [TIWT02JP01]_2color",
+   "p": 269000,
+   "d": null
+  },
+  {
+   "n": "269,000",
+   "p": 191905,
+   "d": 28
+  },
+  {
+   "n": "(17)",
+   "p": 2732,
+   "d": null
+  },
+  {
+   "n": "CASHMERE BLENDED ROUND WOOL KNIT [TIFA04SW05]_Charcoal",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "Brushed straight long skirt [TIWT05SK02]_Charcoal",
+   "p": 73000,
+   "d": null
+  },
+  {
+   "n": "73,000",
+   "p": 52078,
+   "d": 28
+  },
+  {
+   "n": "Wool 100 handmade half coat [TIWT04CT03]_Black",
+   "p": 355000,
+   "d": null
+  },
+  {
+   "n": "STRIPE COTTON TEE [TIFA04LT08]_Black",
+   "p": 45000,
+   "d": null
+  },
+  {
+   "n": "[여울 Pick]CASHMERE BLENDED WOOL CARDIGAN [TIFA04CD01]_lvory",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "109,000",
+   "p": 76812,
+   "d": 29
+  },
+  {
+   "n": "STRIPE COTTON TEE [TIFA04LT06]_Ivory",
+   "p": 45000,
+   "d": null
+  },
+  {
+   "n": "Modal basic slim t-shirt_Wine",
+   "p": 42000,
+   "d": null
+  },
+  {
+   "n": "Wool 100 handmade tailoring jacket [TIWT04JK05]_Beige",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "Grace tweed jacket_Navy",
+   "p": 211000,
+   "d": null
+  },
+  {
+   "n": "211,000",
+   "p": 150527,
+   "d": 28
+  }
+ ],
+ "id": 104236,
+ "observed_at": "2026-10-29"
+}

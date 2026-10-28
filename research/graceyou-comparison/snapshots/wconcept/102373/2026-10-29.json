@@ -1,0 +1,303 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/102373",
+ "title": "모노로우(MONOROW) | W컨셉(W CONCEPT)",
+ "ko": "모노로우",
+ "en": "MONOROW",
+ "intro": "MONOROW는 절제된 디자인과 균형 잡힌 실루엣을 통해 시간이 지나도 변하지 않는 아름다움을 제안합니다. 단순함 속에 형태와 소재의 완성도를 담아, 일상에 자연스럽게 스며들고 오래도록 함께할 수 있는 가방을 만듭니다. 모노로우 가을 스타일링 제안 모노로우 베스트 노아백 & 주리백 뉴컬러 추천 댓글 이벤트 모노로우 26FW 발매, 30% 쿠폰 Influencer's Pick : BAG 7월 인플루언서 PICK 여름 가방,~30% 쿠폰 SUMMER WEEK BEST BAG 폴뉴아부터 루멘까지, 인기 가방 주말 최대혜택 모노로우 W ONLY 여기에서만 만나는 모노로우, 30% 쿠폰 모노로우 서머 캠페인 인기 노아백 특별한 쿠폰 혜택 모노로우 모노로우 화제의 위빙백 & 백팩 제안 모노로우 26SS 단독 선발매 신상품 오직 이곳에서만, ~20% + 쿠폰 모노로우 무드별 가방 추천 25%쿠폰과 함께하는 가방 제안전 하트를 15.8만 개 받았어요 최근 조회수가 13.7만을 넘었어요 베스트 아이템 [단독]NOA BAG 2COLORS 26% 139,765 1 [단독]JUDE 3COLORS 26% 139,765 2 [단독]SARA BAG 6COLORS 26% 124,975 ",
+ "n": 47,
+ "p": {
+  "min": 1239,
+  "q1": 112778,
+  "med": 139765,
+  "q3": 169000,
+  "p90": 189000,
+  "max": 219000,
+  "mean": 124154
+ },
+ "disc": {
+  "n": 21,
+  "med": 26,
+  "max": 26
+ },
+ "names": [
+  "[단독]NOA BAG 2COLORS",
+  "[단독]JUDE 3COLORS",
+  "[단독]SARA BAG 6COLORS",
+  "[단독]JURI BAG 4COLORS",
+  "[단독]BLANC MEDIUM 4COLORS",
+  "[단독]MARE 2COLORS",
+  "[단독]BLANC SUEDE 2COLORS",
+  "[단독]BLANC LARGE 4COLORS",
+  "[단독]BLANC MINI 4COLORS",
+  "[단독]ARC 3COLORS",
+  "[단독]DIA BAG 3COLORS",
+  "[단독]MONO BAG 4COLORS",
+  "[단독]VENA 2COLORS",
+  "[단독]NOA BAG 2COLORS",
+  "189,000",
+  "[단독]JUDE 3COLORS",
+  "(43)",
+  "[단독]SARA BAG 6COLORS",
+  "169,000",
+  "[단독]JURI BAG 4COLORS",
+  "149,000",
+  "[단독]BLANC MEDIUM 4COLORS",
+  "[단독]MARE 2COLORS",
+  "[단독]BLANC SUEDE 2COLORS",
+  "(110)",
+  "[단독]BLANC LARGE 4COLORS",
+  "219,000",
+  "(202)",
+  "[단독]BLANC MINI 4COLORS",
+  "(61)",
+  "[단독]ARC 3COLORS",
+  "[단독]MONO BAG 4COLORS",
+  "(57)",
+  "[한정특가] [단독]DIA BAG 3COLORS",
+  "(34)",
+  "[단독]VENA 2COLORS",
+  "149,000",
+  "(15)",
+  "[단독]MIO 2COLORS",
+  "149,000"
+ ],
+ "cards": [
+  {
+   "n": "[단독]NOA BAG 2COLORS",
+   "p": 139765,
+   "d": 26
+  },
+  {
+   "n": "[단독]JUDE 3COLORS",
+   "p": 139765,
+   "d": 26
+  },
+  {
+   "n": "[단독]SARA BAG 6COLORS",
+   "p": 124975,
+   "d": 26
+  },
+  {
+   "n": "[단독]JURI BAG 4COLORS",
+   "p": 110185,
+   "d": 26
+  },
+  {
+   "n": "[단독]BLANC MEDIUM 4COLORS",
+   "p": 124975,
+   "d": 26
+  },
+  {
+   "n": "[단독]MARE 2COLORS",
+   "p": 124975,
+   "d": 26
+  },
+  {
+   "n": "[단독]BLANC SUEDE 2COLORS",
+   "p": 124975,
+   "d": 26
+  },
+  {
+   "n": "[단독]BLANC LARGE 4COLORS",
+   "p": 161950,
+   "d": 26
+  },
+  {
+   "n": "[단독]BLANC MINI 4COLORS",
+   "p": 110185,
+   "d": 26
+  },
+  {
+   "n": "[단독]ARC 3COLORS",
+   "p": 139765,
+   "d": 26
+  },
+  {
+   "n": "[단독]DIA BAG 3COLORS",
+   "p": 124975,
+   "d": 26
+  },
+  {
+   "n": "[단독]MONO BAG 4COLORS",
+   "p": 124975,
+   "d": 26
+  },
+  {
+   "n": "[단독]VENA 2COLORS",
+   "p": 123148,
+   "d": null
+  },
+  {
+   "n": "[단독]NOA BAG 2COLORS",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "189,000",
+   "p": 139765,
+   "d": 26
+  },
+  {
+   "n": "[단독]JUDE 3COLORS",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "(43)",
+   "p": 2335,
+   "d": null
+  },
+  {
+   "n": "[단독]SARA BAG 6COLORS",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "169,000",
+   "p": 124975,
+   "d": 26
+  },
+  {
+   "n": "[단독]JURI BAG 4COLORS",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "149,000",
+   "p": 110185,
+   "d": 26
+  },
+  {
+   "n": "[단독]BLANC MEDIUM 4COLORS",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "[단독]MARE 2COLORS",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "[단독]BLANC SUEDE 2COLORS",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "(110)",
+   "p": 5780,
+   "d": null
+  },
+  {
+   "n": "[단독]BLANC LARGE 4COLORS",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "219,000",
+   "p": 161950,
+   "d": 26
+  },
+  {
+   "n": "(202)",
+   "p": 8346,
+   "d": null
+  },
+  {
+   "n": "[단독]BLANC MINI 4COLORS",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "(61)",
+   "p": 5465,
+   "d": null
+  },
+  {
+   "n": "[단독]ARC 3COLORS",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "[단독]MONO BAG 4COLORS",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "(57)",
+   "p": 2268,
+   "d": null
+  },
+  {
+   "n": "[한정특가] [단독]DIA BAG 3COLORS",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "(34)",
+   "p": 1239,
+   "d": null
+  },
+  {
+   "n": "[단독]VENA 2COLORS",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "149,000",
+   "p": 123148,
+   "d": 17
+  },
+  {
+   "n": "(15)",
+   "p": 1291,
+   "d": null
+  },
+  {
+   "n": "[단독]MIO 2COLORS",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "149,000",
+   "p": 112778,
+   "d": 24
+  },
+  {
+   "n": "[단독]MODE BAG 3COLORS",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "189,000",
+   "p": 164430,
+   "d": 13
+  },
+  {
+   "n": "[단독]JADE SUEDE 2COLORS",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "169,000",
+   "p": 141960,
+   "d": 16
+  },
+  {
+   "n": "[단독]ANGLE BAG 3COLORS",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "169,000",
+   "p": 127916,
+   "d": 24
+  },
+  {
+   "n": "(83)",
+   "p": 3773,
+   "d": null
+  }
+ ],
+ "id": 102373,
+ "observed_at": "2026-10-29"
+}

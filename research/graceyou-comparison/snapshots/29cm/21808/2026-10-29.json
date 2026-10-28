@@ -1,0 +1,686 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/21808",
+ "title": "오디에스(ODS)",
+ "ko": "오디에스",
+ "en": "ODS",
+ "sub": "시간이 지나도 변하지 않는 아름다움, 평범함 속 특별함을 담은 룩을 선보입니다.",
+ "est": 2018,
+ "heart": 21971,
+ "intro": "오디에스는 부드러운 촉감과 색채, 유려한 실루엣으로 시각과 촉각을 모두 만족시키는 작업을 추구하는 브랜드입니다.<br/>\n‘평범함 속 특별함’을 모토로 시간이 지나도 변하지 않는 타임리스 디자인에 위트있는 디테일을 더하여 트렌디한 스타일을 제안합니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 41650,
+  "q1": 102090,
+  "med": 115370,
+  "q3": 136950,
+  "p90": 156870,
+  "max": 207500,
+  "mean": 116360
+ },
+ "disc": {
+  "n": 50,
+  "med": 17,
+  "max": 29
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 1021,
+  "med": 6,
+  "max": 173,
+  "rated": 36
+ },
+ "rate": 4.68,
+ "tags": {
+  "쿠폰": 50,
+  "조건부 무료배송": 50
+ },
+ "names": [
+  "Ribbon Flat (Black)",
+  "[Essential] Rio Jogger Pants (Charcoal)",
+  "Roze Knit Bustier (Black)",
+  "Tess Ankle Boots (Black)",
+  "Gave Wool Slacks (Navy)",
+  "Gave Wool Slacks (Deep Brown)",
+  "Tencel Silky Shirts (Sky Blue)",
+  "Gave Wool Slacks (Charcoal)",
+  "019 Kent Boots Cut Denim (Mid Blue)",
+  "[Cashmere] Easy V-neck Knit (Ivory)",
+  "Veline Suede Boots (Black)",
+  "Veline Suede Boots (Sand Beige)",
+  "[Essential] Rio Jogger Pants (Melange Gray)",
+  "Basic Wool Cardigan (Olive)",
+  "Gave Wool Slacks (Beige)",
+  "Gave Wool Slacks (Cream)",
+  "[Essential] Rio Jogger Pants (Black)",
+  "Gave Wool Slacks (Black)",
+  "Basic Wool Cardigan (Lavender Mist)",
+  "[Cashmere] Plain Cardigan (Ivory)",
+  "Mark boots (Black)",
+  "Basic Wool Cardigan (Midnight Navy)",
+  "[Cashmere] Plain Cardigan (Charcoal)",
+  "022 Worn Boots Cut Denim (Black)",
+  "Slope Off Shoulder Knit (Beige)",
+  "Wrap Silky Shirts (Beige)",
+  "Open Line Cardigan (Black)",
+  "Basic Wool Cardigan (Midnight Charcoal)",
+  "[Essential] Lily Lace Sleeveless T (Black)",
+  "Mona Mini Skirt Pants (Charcoal)",
+  "[Essential] Lily Lace Sleeveless T (Plum)",
+  "Tencel Silky Shirts (Black)",
+  "Notch Tencel Blouse (Beige)",
+  "Notch Tencel Blouse (Ivory)",
+  "Turn Line Shirt (Ivory)",
+  "[Essential] Soft Tencel T (Ivory)",
+  "[Extra Fine Wool] Ron Open V-Knit (Gray)",
+  "Crinkle Scarf (Charcoal)",
+  "Mark boots (Dark Brown)",
+  "Slouchy Buckle Boots (Tan Brown)"
+ ],
+ "cards": [
+  {
+   "n": "Ribbon Flat (Black)",
+   "p": 91590,
+   "d": 29,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[Essential] Rio Jogger Pants (Charcoal)",
+   "p": 82560,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 19,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Roze Knit Bustier (Black)",
+   "p": 66360,
+   "d": 16,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 173,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Tess Ankle Boots (Black)",
+   "p": 91590,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Gave Wool Slacks (Navy)",
+   "p": 115370,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 33,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Gave Wool Slacks (Deep Brown)",
+   "p": 115370,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 56,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Tencel Silky Shirts (Sky Blue)",
+   "p": 115370,
+   "d": 17,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 167,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Gave Wool Slacks (Charcoal)",
+   "p": 115370,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 60,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "019 Kent Boots Cut Denim (Mid Blue)",
+   "p": 115370,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 21,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[Cashmere] Easy V-neck Knit (Ivory)",
+   "p": 136950,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Veline Suede Boots (Black)",
+   "p": 207500,
+   "d": 17,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Veline Suede Boots (Sand Beige)",
+   "p": 207500,
+   "d": 17,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 10,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[Essential] Rio Jogger Pants (Melange Gray)",
+   "p": 82560,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 11,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Basic Wool Cardigan (Olive)",
+   "p": 116200,
+   "d": 17,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 53,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Gave Wool Slacks (Beige)",
+   "p": 115370,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 39,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Gave Wool Slacks (Cream)",
+   "p": 115370,
+   "d": 17,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 33,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[Essential] Rio Jogger Pants (Black)",
+   "p": 82560,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 13,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Gave Wool Slacks (Black)",
+   "p": 115370,
+   "d": 17,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 46,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Basic Wool Cardigan (Lavender Mist)",
+   "p": 116200,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[Cashmere] Plain Cardigan (Ivory)",
+   "p": 116200,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Mark boots (Black)",
+   "p": 146910,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Basic Wool Cardigan (Midnight Navy)",
+   "p": 116200,
+   "d": 17,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[Cashmere] Plain Cardigan (Charcoal)",
+   "p": 116200,
+   "d": 17,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 18,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "022 Worn Boots Cut Denim (Black)",
+   "p": 119520,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Slope Off Shoulder Knit (Beige)",
+   "p": 94360,
+   "d": 29,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Wrap Silky Shirts (Beige)",
+   "p": 136950,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 40,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Open Line Cardigan (Black)",
+   "p": 118570,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Basic Wool Cardigan (Midnight Charcoal)",
+   "p": 116200,
+   "d": 17,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 11,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[Essential] Lily Lace Sleeveless T (Black)",
+   "p": 50920,
+   "d": 15,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Mona Mini Skirt Pants (Charcoal)",
+   "p": 110390,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 9,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[Essential] Lily Lace Sleeveless T (Plum)",
+   "p": 50920,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Tencel Silky Shirts (Black)",
+   "p": 114880,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Notch Tencel Blouse (Beige)",
+   "p": 147940,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Notch Tencel Blouse (Ivory)",
+   "p": 148570,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Turn Line Shirt (Ivory)",
+   "p": 156870,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[Essential] Soft Tencel T (Ivory)",
+   "p": 50920,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 50,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[Extra Fine Wool] Ron Open V-Knit (Gray)",
+   "p": 102090,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Crinkle Scarf (Charcoal)",
+   "p": 41650,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Mark boots (Dark Brown)",
+   "p": 146910,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Slouchy Buckle Boots (Tan Brown)",
+   "p": 184600,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Soft Wool Boatneck Cardigan (Ivory)",
+   "p": 131970,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Flow Stud Pants (Black)",
+   "p": 115370,
+   "d": 17,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 33,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[Cashmere] Easy V-neck Knit (Powder Blue)",
+   "p": 136950,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[Cashmere] Easy V-neck Knit (Charcoal)",
+   "p": 136950,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Mona Mini Skirt Pants (White)",
+   "p": 110390,
+   "d": 17,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 54,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Multi-Way Tencel Knit (Ivory)",
+   "p": 104580,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Wrap Silky Shirts (Black)",
+   "p": 136950,
+   "d": 17,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 7,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Via Collar Cardigan (Ivory)",
+   "p": 117030,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Slouchy Buckle Boots (Dusty Charcoal)",
+   "p": 184600,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[Essential] Lily Lace Sleeveless T (Ivory)",
+   "p": 50920,
+   "d": 15,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 29,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 21808,
+ "observed_at": "2026-10-29"
+}

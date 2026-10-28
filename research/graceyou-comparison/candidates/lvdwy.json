@@ -1,0 +1,120 @@
+{
+ "slug": "lvdwy",
+ "ko": "러브듀이",
+ "en": "LVDWY",
+ "status": "후보",
+ "tier": "디자이너·온라인 브랜드",
+ "tags": [],
+ "found": [
+  "기사: 쿠메와 함께 W Stage 최종 10개 브랜드"
+ ],
+ "note": "구두 브랜드(의류 아님)",
+ "ids": {
+  "wc": 106488
+ },
+ "price_source": "W컨셉",
+ "intro": "당신의 하루가 더욱 충만하도록 LVDWY는 구두라는 일상의 도구를 짓습니다. 이슬이 맺힌 새벽녘의 싱그러움(dewy)처럼, 생동하는 시작을 보듬는 마음(love)을 담았습니다. 편안하게 발을 감싸는 안락함과 시선이 멈추는 디자인으로 마냥 걷고 싶은 나날을 선물합니다. 모든걸음의 출발선에서 매일 나아가는 당신의 첫번째 동행이 되겠습니다.",
+ "sub": "",
+ "est": null,
+ "heart": null,
+ "off": null,
+ "score": {
+  "k": 1.0,
+  "list_q1": 142120,
+  "list_med": 163400,
+  "list_q3": 205000,
+  "s_price": 71,
+  "s_band": 47,
+  "partial": 62
+ },
+ "evidence": [
+  {
+   "idx": "227320",
+   "date": "2026-09-01",
+   "title": "W컨셉, ‘W Stage’ 최종 10개 브랜드 선정",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=227320&cat=CAT127",
+   "where": "요약",
+   "anchor": "쿠메",
+   "excerpt": "두 달간 대면 심사, 정밀 인터뷰, 현장 실사 등을 진행했으며, 국내 탑 스타일리스트, 매거진 편집장 등으로 구성된 내외부 전문가가 상품성, 콘셉트, 성장성, 운영 역량 등을 종합적으로 평가해 파이널리스트 10개 브랜드를 선정했다.   최종 파이널리스트에는 ▲하우투러브미 ▲레터프롬문 ▲쿠메 ▲던 팩토리 ▲씨엘로 ▲디스이즈파인 ▲무아르보 ▲러브듀이 ▲드메리엘 ▲에포이즈 등 뛰어난 역량을 갖춘 신진 디자이너 브랜드가 이름을 올렸다.   파이널리스트에 오른 브랜드에는"
+  }
+ ],
+ "snap_days": {
+  "29cm": [],
+  "wconcept": [
+   "2026-10-29"
+  ]
+ },
+ "reviewed": "",
+ "tags_src": "",
+ "role": "비의류·참고",
+ "rank": 76,
+ "platform": {
+  "29cm": null,
+  "wconcept": {
+   "url": "https://display.wconcept.co.kr/rn/brand/106488",
+   "title": "러브듀이(LVDWY) | W컨셉(W CONCEPT)",
+   "ko": "러브듀이",
+   "en": "LVDWY",
+   "intro": "당신의 하루가 더욱 충만하도록 LVDWY는 구두라는 일상의 도구를 짓습니다. 이슬이 맺힌 새벽녘의 싱그러움(dewy)처럼, 생동하는 시작을 보듬는 마음(love)을 담았습니다. 편안하게 발을 감싸는 안락함과 시선이 멈추는 디자인으로 마냥 걷고 싶은 나날을 선물합니다. 모든걸음의 출발선에서 매일 나아가는 당신의 첫번째 동행이 되겠습니다.",
+   "n": 153,
+   "p": {
+    "min": 1046,
+    "q1": 142120,
+    "med": 163400,
+    "q3": 205000,
+    "p90": 245000,
+    "max": 395000,
+    "mean": 164311
+   },
+   "disc": {
+    "n": 67,
+    "med": 27,
+    "max": 35
+   },
+   "names": [
+    "[단독]PIPI ballet pumps (3colors, 4cm)_ 피피 발레펌프스",
+    "[단독]MAVE loafer (3cm)_메이브로퍼",
+    "[단독]Standard ankle boots_3colors",
+    "[단독]Bow kitten heel (3cm, 2color)",
+    "[단독]ATELIER flat (3cm, 5colors)_아뜰리에 플랫",
+    "[단독]CITY wedge slingback (5cm, 2colors) / 시티웨지슬링백",
+    "[단독]23 V heel (5cm, 2colors)",
+    "[단독]2 STRAP maryjane (5cm, 4colors) _ 투스트랩메리제인",
+    "[단독]All new ribbon(suede ver. 2cm, 3colors)",
+    "[단독]MOMO knot flat (2cm, 4colors) / 모모 노트플랫",
+    "[단독]FLEUVE slingback (3cm) / 플레브슬링백",
+    "[단독]V CUT wedge slingback (5cm)_ 브이컷웨지슬링백",
+    "[단독]NOIR wedge mule (5cm) _ 누아르 웨지뮬",
+    "[단독]MAGOT maryjane (2cm, 2colors) / 마고메리제인",
+    "[단독]MAREN pumps (5cm, 3colors) / 마렌 펌프스",
+    "[단독]MORPH pumps (5cm, 2colors) / 모프펌프스",
+    "[단독]MACARON ribbon flat(6colors, 2cm)",
+    "[단독]SIGNATURE ribbon slingback (3cm, 7colors)_시그니쳐리본슬링백",
+    "[단독] Signature ribbon flat (6colors, 3cm)",
+    "[단독]Tulip slingback(10color)",
+    "[단독]Braid slingback(3color)",
+    "[단독]DEMOORE slingback (5cm, 3colors)_드무어슬링백",
+    "[단독]PLIE ribbon flat (1cm, 4colors)_플리에 리본플랫",
+    "[단독]PLIE loafer (1cm, 2color)_플리에 로퍼",
+    "[단독][일부사이즈당일출고] WELT pumps (5&7cm, 4color)_웰트펌프스",
+    "[단독]BALLET STRAP flat (1cm, 6colors)_발렛스트랩플랫",
+    "[단독]Fondement loafer (2.5cm, 6colors)_폰드먼트로퍼",
+    "[단독]LINE WEDGE slingback (4cm, 4colors)_라인웨지슬링백",
+    "[단독] DEMOORE slingback(sapngle 5cm) _ 드무어슬링백(스팽글)",
+    "[단독]CITY sandal (mesh ver. 6cm, 3color)_시티샌들 메쉬",
+    "[단독]CITY sandal (solid ver. 6cm, 4color)_시티샌들 솔리드",
+    "[단독]X strap slingback(7cm, 3colors)",
+    "[단독]BALLET STRAP flat _ 스터드 (1cm, 2colors) _ 발렛스트랩플랫(스터드)",
+    "[단독]SILHOUETTE mary jane (1cm, 3colors)_실루엣메리제인",
+    "[단독]SILHOUETTE round toe flat (1cm, 5colors)_실루엣플랫",
+    "[단독]LINEA flip flops (1cm, 4colors)_리네아플립플랍 쪼리",
+    "[단독]20-2WAY SANDAL (3cm, 10color) _ 20투웨이샌들",
+    "[단독]PIPI ballet pumps (3colors, 4cm)_ 피피 발레펌프스",
+    "195,000",
+    "(30)"
+   ],
+   "id": 106488,
+   "observed_at": "2026-10-29"
+  }
+ }
+}

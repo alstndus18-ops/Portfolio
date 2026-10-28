@@ -1,0 +1,145 @@
+{
+ "slug": "athe-vanessabruno",
+ "ko": "아떼 바네사브루노",
+ "en": "ATHE VANESSABRUNO",
+ "status": "후보",
+ "tier": "잡화(가방·소품) 브랜드",
+ "tags": [
+  "빈티지",
+  "엘레강스",
+  "디자이너레이블"
+ ],
+ "found": [
+  "29CM DB 1차"
+ ],
+ "note": "가방·잡화 브랜드(의류 아님)",
+ "ids": {
+  "c29": 26133
+ },
+ "price_source": "29CM",
+ "intro": "빈티지를 모던한 감성으로 풀어가는 바네사브루노는 보헤미안에 쿠튀르 디테일을 더한 프랑스 디자이너 브랜드입니다. 핸드백뿐 아니라 다양한 패션 소품을 제안합니다.",
+ "sub": "삶 자체가 스타일이 되는 도시 파리(Paris), 자연스럽게 태도에서 묻어나는 내추럴한 프렌치 시크 무드의 아떼 바네사브루노 Bag & Accessory 브랜드입니다.",
+ "est": 2021,
+ "heart": 18797,
+ "off": null,
+ "score": {
+  "k": 1.18,
+  "list_q1": 188471,
+  "list_med": 264918,
+  "list_q3": 341153,
+  "s_price": 76,
+  "s_band": 50,
+  "s_mood": 11,
+  "score": 38,
+  "partial": 66
+ },
+ "evidence": [
+  {
+   "idx": "224372",
+   "date": "2026-04-02",
+   "title": "너도나도 품절대란…올봄 아우터 시장을 점령한 '가죽 재킷'",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=224372&cat=CAT11Z",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "비의류·참고",
+ "rank": 37,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/26133",
+   "title": "아떼 바네사브루노(ATHE VANESSABRUNO)",
+   "ko": "아떼 바네사브루노",
+   "en": "ATHE VANESSABRUNO",
+   "sub": "삶 자체가 스타일이 되는 도시 파리(Paris), 자연스럽게 태도에서 묻어나는 내추럴한 프렌치 시크 무드의 아떼 바네사브루노 Bag & Accessory 브랜드입니다.",
+   "est": 2021,
+   "heart": 18797,
+   "intro": "빈티지를 모던한 감성으로 풀어가는 바네사브루노는 보헤미안에 쿠튀르 디테일을 더한 프랑스 디자이너 브랜드입니다. 핸드백뿐 아니라 다양한 패션 소품을 제안합니다.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 79200,
+    "q1": 160200,
+    "med": 225180,
+    "q3": 289980,
+    "p90": 340290,
+    "max": 403380,
+    "mean": 224469
+   },
+   "disc": {
+    "n": 50,
+    "med": 15,
+    "max": 46
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 656,
+    "med": 2,
+    "max": 146,
+    "rated": 33
+   },
+   "rate": 4.97,
+   "tags": {
+    "쿠폰": 50,
+    "조건부 무료배송": 50,
+    "가을 필수": 49,
+    "신상품": 2
+   },
+   "names": [
+    "[6차완판][DEMAIN] 블랙 드망 토트백 S AABA75280BK",
+    "[박소령PICK][DEMAIN] 초코브라운 스웨이드 드망 토트백 S AABA6F282W3",
+    "[12차 재입고][STAMP] 브라운 스탬프 지퍼 동전 카드지갑 AAHO6FF55W2",
+    "[DEMAIN] 다크브라운 드망 토트백 S AABA75281W3",
+    "브라운 알렉산드라 레더 아코디언 카드지갑 AAHO6F321W2",
+    "[BIJOU] 블랙 레더 비쥬 숄더백 M AABA6F310BK",
+    "[WRINKEL] 링클 버건디 레더 슬림 명함지갑 AAHO75817D3",
+    "[유주PICK][BIJOU] 브라운 비쥬 숄더백 M AABA6F310W2",
+    "브라운 레더 3단 지폐 지갑 AAHO75427W2",
+    "[1차완판][DEMAIN] 블랙 레더 드망 숄더백 L AABA6F285BK",
+    "브라운 알렉산드라 레더 명함 카드지갑 AAHO6F352W2",
+    "브라운 멀티웨이 슬라우치 부츠 AASO6F378D3",
+    "[LEJOUR] 샌드브라운 스웨이드 르주르 숄더백 M AABA6F301W1",
+    "[REA] 블랙 레더 레아 플랩 숄더백 M AABA6F360BK",
+    "[10차완판][PANIER] 블랙 레더 파니에 버킷백 S AABA6F205BK",
+    "[MARON] 블랙 마롱 소프트 라이트 토트백 S AABA6F450BK",
+    "[LEJOUR] 블랙 레더 르주르 숄더백 M AABA6F300BK",
+    "[STAMP] 스탬프 맥세이프 카드지갑 AAHO6F914W2",
+    "버건디 보딸라또 레더 명함 카드지갑 AAHO6F351D3",
+    "[WRINKEL] 링클 블랙 레더 슬림 명함지갑 AAHO75817BK",
+    "[PANIER] 초코브라운 스웨이드 파니에 버킷백 L AABA6F203W3",
+    "블랙 더블에이 셔링 로퍼 AASO6F302BK",
+    "다크브라운 더블에이 클래식 로퍼 AASO6F001W3",
+    "[Hello Kitty x athe] 르봉 글로시 블랙 백팩 겸 숄더백 S AABA6E003BK",
+    "[DEMAIN] 샌드브라운 스웨이드 드망 숄더백 L AABA6F288W1",
+    "[DEMAIN] 초코브라운 스웨이드 드망 숄더백 L AABA6F287W3",
+    "버건디 보딸라또 단카드지갑 AAHO75324D3",
+    "브라운 레더 플랩 카드지갑 AAHO6E361W2",
+    "다크그레이 울캐시미어 케이블니트 머플러숄 AAMU6F608G3",
+    "블랙 더블에이 미들부츠(리얼레더) AASO6F600BK",
+    "[NACRE] 나크레 다크 브라운 3단 지폐 지갑 AAHO75613W3",
+    "[FRILL] 블랙 듀프스킨 프릴체인 투웨이 숄더백 M AABA6F721BK",
+    "브라운 알렉산드라 레더 단카드 카드지갑 AAHO75323W2",
+    "브라운 더블에이 셔링 로퍼 AASO75302W2",
+    "블랙 보딸라또 3단 지폐 지갑 AAHO6F327BK",
+    "블랙 멀티웨이 슬라우치 부츠 AASO6F378BK",
+    "[BIJOU] 비쥬 블랙 크로커엠보 레더 토트겸 크로스백 S AABA6F318BK",
+    "더블에이 브라운 지퍼돌이 카드지갑 AAHO6F855W2",
+    "[SELLE] 블랙 베지터블 레더 미니 크로스백 AAWA6F572BK",
+    "[SINGLE A] 싱글에이 토페 베이지 2단 지폐 지갑 AAHO6F449G1"
+   ],
+   "id": 26133,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": null
+ }
+}

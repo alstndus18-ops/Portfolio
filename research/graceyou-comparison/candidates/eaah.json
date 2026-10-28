@@ -1,0 +1,177 @@
+{
+ "slug": "eaah",
+ "ko": "이아",
+ "en": "EAAH",
+ "status": "후보",
+ "tier": "디자이너·온라인 브랜드",
+ "tags": [
+  "미니멀",
+  "모던",
+  "소재중시"
+ ],
+ "found": [
+  "기사: 여성복 26FW 아우터 강화"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 9707,
+  "ms": "eaah"
+ },
+ "price_source": "29CM",
+ "intro": "이아는 미니멀리즘에 현대적인 감각을 더해 일상복의 매력을 유연하게 담아내며, 엄선된 소재와 디자인으로 컬렉션을 완성합니다.",
+ "sub": "미니멀리즘에 현대적인 감각을 더한 일상복의 유연한 매력",
+ "est": 2020,
+ "heart": 62755,
+ "off": null,
+ "score": {
+  "k": 1.05,
+  "list_q1": 155789,
+  "list_med": 168000,
+  "list_q3": 292632,
+  "s_price": 74,
+  "s_band": 82,
+  "s_mood": 25,
+  "score": 51,
+  "partial": 77
+ },
+ "evidence": [
+  {
+   "idx": "227268",
+   "date": "2026-09-02",
+   "title": "‘이아’, 26FW 아우터 강화…성장세 이어간다",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=227268&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "222995",
+   "date": "2026-02-02",
+   "title": "\"품질에 대한 집요함으로, '이아'의 확실한 존재 가치 증명했죠\"",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=222995&cat=CAT310",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "222303",
+   "date": "2025-12-22",
+   "title": "미니멀한 매력의 코트와 니트로 주목받는 신예 여성복 ‘이아’",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=222303&cat=CAT350",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "224202",
+   "date": "2026-03-27",
+   "title": "29CM, '타이 블라우스' 거래액 4배 증가",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=224202&cat=CAT127",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "222471",
+   "date": "2026-01-05",
+   "title": "승승장구하는 K패션?…제조 기반이 무너진다",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=222471&cat=CAT11Z",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "가격 근접·무드 다름",
+ "rank": 19,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/9707",
+   "title": "이아(EAAH)",
+   "ko": "이아",
+   "en": "EAAH",
+   "sub": "미니멀리즘에 현대적인 감각을 더한 일상복의 유연한 매력",
+   "est": 2020,
+   "heart": 62755,
+   "intro": "이아는 미니멀리즘에 현대적인 감각을 더해 일상복의 매력을 유연하게 담아내며, 엄선된 소재와 디자인으로 컬렉션을 완성합니다.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 65550,
+    "q1": 148000,
+    "med": 159600,
+    "q3": 278000,
+    "p90": 398050,
+    "max": 407550,
+    "mean": 209924
+   },
+   "disc": {
+    "n": 34,
+    "med": 5,
+    "max": 5
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 3325,
+    "med": 30,
+    "max": 659,
+    "rated": 46
+   },
+   "rate": 4.98,
+   "tags": {
+    "조건부 무료배송": 50,
+    "단독": 50,
+    "신상품": 11
+   },
+   "names": [
+    "[티슈 착용] ENRI LAYERED V NECK KNIT TOP (CHARCOAL)",
+    "ENRI LAYERED V NECK KNIT TOP (TAUPE)",
+    "[티슈 착용] HAYES HALF COAT (LIGHT GREY)",
+    "ENRI WOOL KNIT SKIRT (TAUPE)",
+    "TIE SHIRRING BLOUSE (BEIGE)",
+    "WOOL BALMACAAN COAT (BLACK)",
+    "AUSTIN CASHMERE HOODIE ZIP UP (GREY)",
+    "MEG COWL NECK BLOUSE (CHARCOAL)",
+    "[티슈 착용] FW MAXI SLIT SKIRT (BLACK)",
+    "BABY ALPACA MOCK NECK KNIT TOP (BLACK)",
+    "HAYES HALF COAT (BLACK)",
+    "ALPACA DAVE HALF COAT (GREY)",
+    "STRAIGHT DENIM PANTS (BLACK)",
+    "ENRI WOOL KNIT SKIRT (CHARCOAL)",
+    "FW MAXI SLIT SKIRT (TAUPE)",
+    "FW MAXI SLIT SKIRT (CHARCOAL)",
+    "TIE SHIRRING BLOUSE (TAUPE)",
+    "NEP YARN CREWNECK PULLOVER (BLUE)",
+    "RODE CASHMERE V NECK PULLOVER (BLACK)",
+    "[티슈 착용] [SHORT/LONG 기장 선택] TAILORING WOOL COAT (CHARCOAL)",
+    "RODE CASHMERE V NECK PULLOVER (CHARCOAL)",
+    "[홍보현 착용] MOSS COTTON UTILITY JACKET (LIGHT KHAKI)",
+    "[티슈 착용] ROY CASHMERE KNIT SCARF (IVORY)",
+    "WOOL BALMACAAN COAT (CHARCOAL)",
+    "ALPACA DAVE HALF COAT (SAGE GREEN)",
+    "[SHORT/LONG 기장 선택] TAILORING WOOL COAT (BLACK)",
+    "TIE SHIRRING BLOUSE (IVORY)",
+    "FW WIDE TUCK PANTS (CHARCOAL)",
+    "HIGH NECK SHIRRING SHIRT (BLACK)",
+    "MEG COWL NECK BLOUSE (BEIGE)",
+    "ENRI WOOL KNIT SKIRT (BLACK)",
+    "TAREN LEATHER BELT (BLACK)",
+    "ALPACA DAVE HALF COAT (IVORY)",
+    "LOE MAXI SKIRT (BLACK)",
+    "VELL TWEED JACKET (BLACK)",
+    "ENRI LAYERED V NECK KNIT TOP (BLACK)",
+    "LOE BANDING TUCK PANTS (CHARCOAL)",
+    "MEG COWL NECK BLOUSE (IVORY)",
+    "LIV VOLUME COTTON SKIRT (CHARCOAL)",
+    "JUDE HALF TRENCH COAT (DARK BROWN)"
+   ],
+   "id": 9707,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": null
+ }
+}

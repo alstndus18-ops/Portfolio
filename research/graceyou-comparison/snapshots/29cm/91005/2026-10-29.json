@@ -1,0 +1,699 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/91005",
+ "title": "아뜰리에 드 루멘(ATELIER DE LUMEN)",
+ "ko": "아뜰리에 드 루멘",
+ "en": "ATELIER DE LUMEN",
+ "sub": "루멘은 평범한 일상 속 본연의 아름다움을 지닌 이들의 매일을 반짝이게 비추는 잔잔한 빛이 됩니다.",
+ "est": 2021,
+ "heart": 24689,
+ "intro": "Atelier de LUMEN<br/>\n루멘은 보편적이고 일상적인 것에서 진정한 아름다움을 발견합니다.<br/>\n다양한 취향이 어우러진 디자인과 섬세한 디테일을 통해 평범한 하루에도 특별함을 더하는 제품을 제안합니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 46150,
+  "q1": 154780,
+  "med": 183180,
+  "q3": 225780,
+  "p90": 247080,
+  "max": 310980,
+  "mean": 191865
+ },
+ "disc": {
+  "n": 50,
+  "med": 29,
+  "max": 33
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 1516,
+  "med": 18,
+  "max": 294,
+  "rated": 45
+ },
+ "rate": 4.96,
+ "tags": {
+  "쿠폰": 50,
+  "무료배송": 50,
+  "단독": 6,
+  "신상품": 5
+ },
+ "names": [
+  "LOG MIDDLE BAG (SOFT BLACK)",
+  "ANNEAU FLAP BAG (SOFT BLACK)",
+  "MARRON BAG (ORGAN BROWN)",
+  "[29CM 단독] LOG MIDDLE BAG (VINTAGE BROWN)",
+  "SHIRRING BALLET FLAT (SOFT BLACK)",
+  "PANIER PETIT BAG (TAN BROWN)",
+  "[단독] BAIA BAG (SOFT BLACK)",
+  "FADE BOSTON BAG (SOFT BLACK)",
+  "LUNE FORME TOTE BAG (SOFT BLACK)",
+  "PILLOW HOBO BAG (SOFT BLACK)",
+  "DOUBLE STRAP SHOULDER BAG (SOFT BLACK)",
+  "PILLOW HOBO BAG (ORGAN BROWN)",
+  "PANIER PETIT BAG (ORGAN BROWN)",
+  "LOG LARGE BAG (SOFT BLACK)",
+  "MOSSY HOBO BAG (LEATHER BLACK)",
+  "PANIER PETIT BAG (SOFT BLACK)",
+  "NADEL BAG (SUEDE BROWN)",
+  "BASE TOP LOAFER (SUEDE SAND)",
+  "MARRON BAG (SOFT BLACK)",
+  "LUNE FORME BAG (SOFT BLACK)",
+  "DOUBLE STRAP SHOULDER BAG (VINTAGE BROWN)",
+  "BASE FLAT SHOES (SOFT BLACK)",
+  "MONIQUE SHOULDER BAG (CARMINE RED)",
+  "ARETE BAG (SOFT BLACK)",
+  "PANIER PETIT BAG (PATTERN BLACK)",
+  "MOSSY HOBO BAG (SUEDE BROWN)",
+  "[단독] CUBE HOBO BAG (SUEDE BROWN)",
+  "PILLOW TOTE BAG (SOFT BLACK)",
+  "SOBRE LEATHER BELT (SOFT BLACK)",
+  "ANNEAU FLAP BAG (HAY YELLOW)",
+  "DOUBLE STRAP BAG (SOFT BLACK)",
+  "[단독] BAIA BAG (TAWNY BROWN)",
+  "FANTINE BAG (SOFT BLACK)",
+  "PANIER FLAP BAG (ORGAN BROWN)",
+  "[단독] PANIER PETIT BAG_Suede 2colors",
+  "LOG LARGE BAG (VINTAGE BROWN)",
+  "PANIER FLAP BAG (SOFT BLACK)",
+  "[LUMEN x YEODONG YUN] NECKLACE 1",
+  "PANIER TOTE BAG (PATTERN BLACK)",
+  "MOON BAG (SUEDE CAMEL)"
+ ],
+ "cards": [
+  {
+   "n": "LOG MIDDLE BAG (SOFT BLACK)",
+   "p": 247080,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 11,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "ANNEAU FLAP BAG (SOFT BLACK)",
+   "p": 239980,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 23,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "MARRON BAG (ORGAN BROWN)",
+   "p": 154780,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 59,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[29CM 단독] LOG MIDDLE BAG (VINTAGE BROWN)",
+   "p": 234730,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 15,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "SHIRRING BALLET FLAT (SOFT BLACK)",
+   "p": 154780,
+   "d": 29,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 37,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "PANIER PETIT BAG (TAN BROWN)",
+   "p": 154780,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 294,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[단독] BAIA BAG (SOFT BLACK)",
+   "p": 214500,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 83,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "FADE BOSTON BAG (SOFT BLACK)",
+   "p": 239980,
+   "d": 29,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "LUNE FORME TOTE BAG (SOFT BLACK)",
+   "p": 168980,
+   "d": 29,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 18,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "PILLOW HOBO BAG (SOFT BLACK)",
+   "p": 225780,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 30,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "DOUBLE STRAP SHOULDER BAG (SOFT BLACK)",
+   "p": 183180,
+   "d": 29,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "PILLOW HOBO BAG (ORGAN BROWN)",
+   "p": 225780,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 27,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "PANIER PETIT BAG (ORGAN BROWN)",
+   "p": 154780,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 71,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "LOG LARGE BAG (SOFT BLACK)",
+   "p": 275480,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "MOSSY HOBO BAG (LEATHER BLACK)",
+   "p": 168980,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 67,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "PANIER PETIT BAG (SOFT BLACK)",
+   "p": 154780,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 98,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "NADEL BAG (SUEDE BROWN)",
+   "p": 225780,
+   "d": 29,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "BASE TOP LOAFER (SUEDE SAND)",
+   "p": 204480,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "MARRON BAG (SOFT BLACK)",
+   "p": 154780,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 48,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "LUNE FORME BAG (SOFT BLACK)",
+   "p": 239980,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 32,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "DOUBLE STRAP SHOULDER BAG (VINTAGE BROWN)",
+   "p": 183180,
+   "d": 29,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "BASE FLAT SHOES (SOFT BLACK)",
+   "p": 176080,
+   "d": 29,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 13,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "MONIQUE SHOULDER BAG (CARMINE RED)",
+   "p": 176080,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 12,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "ARETE BAG (SOFT BLACK)",
+   "p": 261280,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 9,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "PANIER PETIT BAG (PATTERN BLACK)",
+   "p": 154780,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 59,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "MOSSY HOBO BAG (SUEDE BROWN)",
+   "p": 168980,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 60,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[단독] CUBE HOBO BAG (SUEDE BROWN)",
+   "p": 160540,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "PILLOW TOTE BAG (SOFT BLACK)",
+   "p": 154780,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 53,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "SOBRE LEATHER BELT (SOFT BLACK)",
+   "p": 46150,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 60,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "ANNEAU FLAP BAG (HAY YELLOW)",
+   "p": 239980,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "DOUBLE STRAP BAG (SOFT BLACK)",
+   "p": 219300,
+   "d": 31,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[단독] BAIA BAG (TAWNY BROWN)",
+   "p": 214500,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 31,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "FANTINE BAG (SOFT BLACK)",
+   "p": 126380,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 32,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "PANIER FLAP BAG (ORGAN BROWN)",
+   "p": 204480,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 13,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[단독] PANIER PETIT BAG_Suede 2colors",
+   "p": 147050,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 21,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "LOG LARGE BAG (VINTAGE BROWN)",
+   "p": 275480,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "PANIER FLAP BAG (SOFT BLACK)",
+   "p": 204480,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 23,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[LUMEN x YEODONG YUN] NECKLACE 1",
+   "p": 134190,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "PANIER TOTE BAG (PATTERN BLACK)",
+   "p": 176080,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 13,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "MOON BAG (SUEDE CAMEL)",
+   "p": 183180,
+   "d": 29,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "PANIER TOTE BAG (SOFT BLACK)",
+   "p": 176080,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 39,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[단독] ARETE DEMI BAG (BRUSHED BROWN)",
+   "p": 194260,
+   "d": 33,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 24,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "BRISE GRAND BAG (SOFT BLACK)",
+   "p": 310980,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 16,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "BLEP SHOULDER BAG (SOFT BLACK)",
+   "p": 239980,
+   "d": 29,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "MOSSY HOBO BAG (SUEDE BLACK)",
+   "p": 168980,
+   "d": 29,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 13,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "MOSSY HOBO BAG (SUEDE SAND)",
+   "p": 168980,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 46,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "ARETE DEMI BAG (NUBUCK FAWN)",
+   "p": 204480,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 18,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "BASE FLAT SHOES (ORGAN BROWN)",
+   "p": 176080,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 10,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[29CM 단독] PILLOW TOTE BAG (CAMEL BROWN)",
+   "p": 147050,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "MONIQUE SHOULDER BAG (SOFT BLACK)",
+   "p": 176080,
+   "d": 29,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "무료배송"
+   ]
+  }
+ ],
+ "id": 91005,
+ "observed_at": "2026-10-29"
+}

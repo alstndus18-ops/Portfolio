@@ -1,0 +1,191 @@
+{
+ "slug": "besti-belli",
+ "ko": "베스띠벨리",
+ "en": "BESTI BELLI",
+ "status": "후보",
+ "tier": "패션그룹 컨템포러리",
+ "tags": [
+  "엘레강스",
+  "클래식",
+  "시즌리스",
+  "미니멀",
+  "페미닌"
+ ],
+ "found": [
+  "기사: 신원 여성복 전속 모델 마케팅"
+ ],
+ "note": "",
+ "ids": {
+  "wc": 113288
+ },
+ "price_source": "W컨셉",
+ "intro": "여성의 우아함과 편안함을 우선으로 고려한 디자인은 늘 한결같은 타임리스 스타일을 만들어내며 미니멀한 실루엣에 시대의 감성을 반영한 디테일로 세대를 아우르는 감각적인 아이템을 선보입니다. 베스트 아이템 워싱 데님 자켓 (BLJKI2116)",
+ "sub": "",
+ "est": null,
+ "heart": null,
+ "off": null,
+ "score": {
+  "k": 1.0,
+  "list_q1": 156513,
+  "list_med": 219000,
+  "list_q3": 499000,
+  "s_price": 97,
+  "s_band": 50,
+  "s_mood": 33,
+  "score": 56,
+  "partial": 78
+ },
+ "evidence": [
+  {
+   "idx": "215292",
+   "date": "2025-02-04",
+   "title": "‘베스띠벨리·씨’ 25 SS 화보 공개",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=215292&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "223002",
+   "date": "2026-02-02",
+   "title": "신원, 여성복 전속 모델 내세워 ‘스타 마케팅’ 강화",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=223002&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "214914",
+   "date": "2025-01-06",
+   "title": "상품 기획 전문가들이 말하는 ‘기획 고도화’",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=214914&cat=CAT11Z",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "210864",
+   "date": "2024-04-18",
+   "title": "여성복, 올 여름 승부처는 ‘데님’",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=210864&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "209921",
+   "date": "2024-02-22",
+   "title": "신원, 내수 사업 파이 키운다",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=209921&cat=CAT113",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "205031",
+   "date": "2023-04-10",
+   "title": "봄 시즌 여성복, ‘트위드가 다 했다’",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=205031&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "198769",
+   "date": "2022-06-28",
+   "title": "‘퀸잇’ 6월 인기상품 16",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=198769&cat=CAT330",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "193202",
+   "date": "2021-10-13",
+   "title": "4050 패션 앱 ‘퀸잇’, 1년 만에 거래액 10배 증가",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=193202&cat=CAT127",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "189488",
+   "date": "2021-04-09",
+   "title": "패션 시장 회복세 뚜렷…고가, 해외패션, 골프 쏠림",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=189488&cat=CAT11Z",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [],
+  "wconcept": [
+   "2026-10-29"
+  ]
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "가격·무드 모두 근접",
+ "rank": 7,
+ "platform": {
+  "29cm": null,
+  "wconcept": {
+   "url": "https://display.wconcept.co.kr/rn/brand/113288",
+   "title": "베스띠벨리(BESTI BELLI) | W컨셉(W CONCEPT)",
+   "ko": "베스띠벨리",
+   "en": "BESTI BELLI",
+   "intro": "여성의 우아함과 편안함을 우선으로 고려한 디자인은 늘 한결같은 타임리스 스타일을 만들어내며 미니멀한 실루엣에 시대의 감성을 반영한 디테일로 세대를 아우르는 감각적인 아이템을 선보입니다. 베스트 아이템 워싱 데님 자켓 (BLJKI2116)",
+   "n": 114,
+   "p": {
+    "min": 41499,
+    "q1": 156513,
+    "med": 219000,
+    "q3": 499000,
+    "p90": 859000,
+    "max": 1099000,
+    "mean": 364546
+   },
+   "disc": {
+    "n": 54,
+    "med": 66,
+    "max": 80
+   },
+   "names": [
+    "워싱 데님 자켓 (BLJKI2116)",
+    "[26신상] 벨티드 후드 폭스 퍼 덕다운 패딩 (BPDJY7640)",
+    "[26신상] 숏 후디드 덕다운 점퍼 (BPDJX7626)",
+    "[26신상] 니트 후드 탈부착 덕다운 점퍼 (BPDJX7623)",
+    "덕다운 퍼 숏 패딩 (BPDJY7633)",
+    "덕다운 퀼팅 숏 패딩 (BPDJX7625)",
+    "퍼 후드 벨티드 롱 덕다운 패딩 (BPDJY7630)",
+    "퍼 후드 롱 덕다운 패딩 (BPDJY7627)",
+    "5부 퍼 후드 집업 (BPCZX7140)",
+    "퍼 카라 케이프 코트 (BPHRY7646)",
+    "퍼카라 래글런 핸드메이드 코트 (BPHRY7681)",
+    "울 블랜디드 하프 코트 (BPHRY7642)",
+    "울 블렌디드 원버튼 롱코트 (BPHRX7649)",
+    "니트 후드 집업 (BPCCX7977)",
+    "카라 배색 가디건 (BPCCX7964)",
+    "배색 포인트 풀오버 (BPUCX7921)",
+    "배색 카라 풀오버 (BPUCX7928)",
+    "버튼 배색 포인트 니트 (BPUCX7933)",
+    "메쉬 넥 레이스 디테일 니트 (BPUCX7913)",
+    "오픈카라 스트링 반소매 셔츠 (BPBAH7410)",
+    "벨트 퍼 롱 패딩 자켓 (BLDJY7626)",
+    "트렌치형 덕 다운 (BLDJX2631)",
+    "699,000",
+    "벨트 퍼 퀼팅 패딩 자켓 (BLDJY7621)",
+    "899,000",
+    "핸드메이드 루즈핏 하프 코트 (BLHRY7645)",
+    "799,000",
+    "퀼팅 트렌치 패딩 점퍼 (BLMIX7183)",
+    "699,000",
+    "다이아 퀼팅 롱 후드 점퍼 (BLMIX7184)",
+    "659,000",
+    "니트 베스트 후드 집업 (BLVCX2942)",
+    "259,000",
+    "[26신상] 벨티드 후드 폭스 퍼 덕다운 패딩 (BPDJY7640)",
+    "899,000",
+    "[26신상] 숏 후디드 덕다운 점퍼 (BPDJX7626)",
+    "759,000",
+    "[26신상] 니트 후드 탈부착 덕다운 점퍼 (BPDJX7623)",
+    "덕다운 퍼 숏 패딩 (BPDJY7633)",
+    "1,099,000"
+   ],
+   "id": 113288,
+   "observed_at": "2026-10-29"
+  }
+ }
+}

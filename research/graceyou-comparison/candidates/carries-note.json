@@ -1,0 +1,93 @@
+{
+ "slug": "carries-note",
+ "ko": "캐리스노트",
+ "en": "CARRIES NOTE",
+ "status": "후보",
+ "tier": "패션그룹 컨템포러리",
+ "tags": [
+  "모던",
+  "페미닌"
+ ],
+ "found": [
+  "기사: 형지I&C 여성 컨템포러리 브랜드"
+ ],
+ "note": "가격 미수집(공식몰 주소 미확인)",
+ "ids": {},
+ "price_source": "",
+ "intro": "",
+ "sub": "",
+ "est": null,
+ "heart": null,
+ "off": null,
+ "score": {},
+ "evidence": [
+  {
+   "idx": "228568",
+   "date": "2026-10-27",
+   "title": "캐리스노트, 롯데백화점 잠실점 매장 리뉴얼 오픈",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=228568&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "196251",
+   "date": "2022-03-15",
+   "title": "‘캐리스노트’ 어덜트 컨템 포지셔닝 구축",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=196251&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "189392",
+   "date": "2021-04-05",
+   "title": "위기의 여성 패션… 이미지 바꾸기",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=189392&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "163889",
+   "date": "2016-12-06",
+   "title": "패션그룹형지, 한국의경영대상 ‘명예의전당’ 헌액",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=163889&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "81581",
+   "date": "2016-07-22",
+   "title": "여성 커리어 외형 확대 전략 편다",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=81581&cat=CAT900",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "162127",
+   "date": "2016-07-19",
+   "title": "百 커리어 단일 브랜드 외형 확대",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=162127&cat=CAT900",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "157854",
+   "date": "2015-10-20",
+   "title": "패션그룹형지, 마케팅대상 최고경영자상 2관왕",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=157854&cat=CAT900",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "기사 요약(약함)",
+ "role": "미평가(가격 미수집)",
+ "rank": 99,
+ "platform": {
+  "29cm": null,
+  "wconcept": null
+ }
+}

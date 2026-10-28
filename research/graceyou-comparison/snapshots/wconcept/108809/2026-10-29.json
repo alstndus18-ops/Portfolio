@@ -1,0 +1,868 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/108809",
+ "title": "그레이스유(GRACE U) | W컨셉(W CONCEPT)",
+ "ko": "그레이스유",
+ "en": "GRACE U",
+ "intro": "GRACE U는 '우아함'에 대한 깊은 고찰에서 시작됩니다. 그레이스유가 추구하는 우아함이란 단지 외적으로 보여지는 모습이 아닙니다. 진정한 우아함은 '자신의 삶을 대하는 태도'에서부터 비롯됩니다. 타인의 기대가 아닌, 오직 나만의 기준으로 삶을 채워나갈 때 당신의 우아함은 시작됩니다. 그레이스유를 택한다는 것은 겉모습을 넘어, 자신의 삶의 가치를 나타내는 선언입니다. 그레이스유는 시간이 지나도 변치 않을 가치로 당신의 일상을 더욱 특별하게 할 가치를 선사합니다. 우아한 당신을 위한, 그레이스유",
+ "n": 160,
+ "p": {
+  "min": 1263,
+  "q1": 105000,
+  "med": 186528,
+  "q3": 243000,
+  "p90": 298000,
+  "max": 498000,
+  "mean": 176896
+ },
+ "disc": {
+  "n": 83,
+  "med": 13,
+  "max": 30
+ },
+ "names": [
+  "Joy Cardigan (9 Color)",
+  "[Ivory 단독] Isabel Halter-Neck One-piece (3 Color)",
+  "Joy Sleeveless Top (9 Color)",
+  "Kaley One-piece (Black)",
+  "[단독] Liora Handmade Half Coat (4color)",
+  "Sienna Sailor Collar Jacket (2color)",
+  "Janie Knit Top (2color)",
+  "Mercury Skirt (Black)",
+  "Dayana Off shoulder Knit Top (Black)",
+  "Bonnie Short-Sleeve Jacket (2 Color)",
+  "Ava Top (3 Color)",
+  "Maya BootCut Denim (2 Color)",
+  "Daria Mermaid One-piece (3 Color)",
+  "Carys H-Line One-piece (3 Color)",
+  "Robin Eyelet One-piece (2 Color)",
+  "Marina Ribbon Mini One-piece (3 Color)",
+  "Elizabeth Lace Dress (2 Color)",
+  "Riona Peplum Sleeveless One-piece (2 Color)",
+  "[APHRODITE] #05 Scarf Dress (2 Color)",
+  "Ashlyn Apron (Brown)",
+  "[APHRODITE] #04 Wrap Dress (2 Color)",
+  "Fia Tweed Mermaid One-piece (3 Color)",
+  "Off-shoulder Jacket Mini One-piece (2 Color)",
+  "Bianca Tweed Shorts (Ivory)",
+  "Peony Tie One-piece (3 Color)",
+  "Stila Toile One-piece (Blue)",
+  "Mercury Mini Skirt (Black)",
+  "Mielle Knit Sleeveless Top (4color)",
+  "Mielle Knit Cardigan (4color)",
+  "Noelle knit dress (3color)",
+  "[단독] Veloni Suede Belted Jacket (2color)",
+  "Lumi Halfneck Knit Top (3color)",
+  "Sepia Round Cardigan (6color)",
+  "Sienna Flare Skirt (2color)",
+  "Wendy Tie Blouse (2 Color)",
+  "Bonita Satin Mini Skirt (3 Color)",
+  "Fiona Jersey One-piece (2 Color)",
+  "Zozo Ruffle Cardigan (2 Color)",
+  "Zozo Cardigan (5 Color)",
+  "Erin Sailor Collar Jacket (2 Color)"
+ ],
+ "cards": [
+  {
+   "n": "Joy Cardigan (9 Color)",
+   "p": 53940,
+   "d": 13
+  },
+  {
+   "n": "[Ivory 단독] Isabel Halter-Neck One-piece (3 Color)",
+   "p": 255780,
+   "d": 13
+  },
+  {
+   "n": "Joy Sleeveless Top (9 Color)",
+   "p": 33060,
+   "d": 13
+  },
+  {
+   "n": "Kaley One-piece (Black)",
+   "p": 247080,
+   "d": 13
+  },
+  {
+   "n": "[단독] Liora Handmade Half Coat (4color)",
+   "p": 358400,
+   "d": 28
+  },
+  {
+   "n": "Sienna Sailor Collar Jacket (2color)",
+   "p": 186528,
+   "d": 30
+  },
+  {
+   "n": "Janie Knit Top (2color)",
+   "p": 146160,
+   "d": 13
+  },
+  {
+   "n": "Mercury Skirt (Black)",
+   "p": 180090,
+   "d": 13
+  },
+  {
+   "n": "Dayana Off shoulder Knit Top (Black)",
+   "p": 189660,
+   "d": 13
+  },
+  {
+   "n": "Bonnie Short-Sleeve Jacket (2 Color)",
+   "p": 172260,
+   "d": 13
+  },
+  {
+   "n": "Ava Top (3 Color)",
+   "p": 154860,
+   "d": 13
+  },
+  {
+   "n": "Maya BootCut Denim (2 Color)",
+   "p": 88740,
+   "d": 13
+  },
+  {
+   "n": "Daria Mermaid One-piece (3 Color)",
+   "p": 259260,
+   "d": 13
+  },
+  {
+   "n": "Carys H-Line One-piece (3 Color)",
+   "p": 239250,
+   "d": 13
+  },
+  {
+   "n": "Robin Eyelet One-piece (2 Color)",
+   "p": 318000,
+   "d": 11
+  },
+  {
+   "n": "Marina Ribbon Mini One-piece (3 Color)",
+   "p": 168000,
+   "d": 15
+  },
+  {
+   "n": "Elizabeth Lace Dress (2 Color)",
+   "p": 387000,
+   "d": 9
+  },
+  {
+   "n": "Riona Peplum Sleeveless One-piece (2 Color)",
+   "p": 215760,
+   "d": 13
+  },
+  {
+   "n": "[APHRODITE] #05 Scarf Dress (2 Color)",
+   "p": 240120,
+   "d": 13
+  },
+  {
+   "n": "Ashlyn Apron (Brown)",
+   "p": 111360,
+   "d": 13
+  },
+  {
+   "n": "[APHRODITE] #04 Wrap Dress (2 Color)",
+   "p": 334000,
+   "d": 10
+  },
+  {
+   "n": "Fia Tweed Mermaid One-piece (3 Color)",
+   "p": 259260,
+   "d": 13
+  },
+  {
+   "n": "Off-shoulder Jacket Mini One-piece (2 Color)",
+   "p": 224460,
+   "d": 13
+  },
+  {
+   "n": "Bianca Tweed Shorts (Ivory)",
+   "p": 135720,
+   "d": 13
+  },
+  {
+   "n": "Peony Tie One-piece (3 Color)",
+   "p": 259260,
+   "d": 13
+  },
+  {
+   "n": "Stila Toile One-piece (Blue)",
+   "p": 211410,
+   "d": 13
+  },
+  {
+   "n": "Mercury Mini Skirt (Black)",
+   "p": 141120,
+   "d": 16
+  },
+  {
+   "n": "Mielle Knit Sleeveless Top (4color)",
+   "p": 111360,
+   "d": 13
+  },
+  {
+   "n": "Mielle Knit Cardigan (4color)",
+   "p": 172260,
+   "d": 13
+  },
+  {
+   "n": "Noelle knit dress (3color)",
+   "p": 259260,
+   "d": 13
+  },
+  {
+   "n": "[단독] Veloni Suede Belted Jacket (2color)",
+   "p": 207408,
+   "d": 30
+  },
+  {
+   "n": "Lumi Halfneck Knit Top (3color)",
+   "p": 189660,
+   "d": 13
+  },
+  {
+   "n": "Sepia Round Cardigan (6color)",
+   "p": 120060,
+   "d": 13
+  },
+  {
+   "n": "Sienna Flare Skirt (2color)",
+   "p": 172260,
+   "d": 13
+  },
+  {
+   "n": "Wendy Tie Blouse (2 Color)",
+   "p": 100050,
+   "d": 13
+  },
+  {
+   "n": "Bonita Satin Mini Skirt (3 Color)",
+   "p": 91350,
+   "d": 13
+  },
+  {
+   "n": "Fiona Jersey One-piece (2 Color)",
+   "p": 141120,
+   "d": 16
+  },
+  {
+   "n": "Zozo Ruffle Cardigan (2 Color)",
+   "p": 56550,
+   "d": 13
+  },
+  {
+   "n": "Zozo Cardigan (5 Color)",
+   "p": 45240,
+   "d": 13
+  },
+  {
+   "n": "Erin Sailor Collar Jacket (2 Color)",
+   "p": 230550,
+   "d": null
+  },
+  {
+   "n": "Cora Square Neck Vest (2 Color)",
+   "p": 128760,
+   "d": null
+  },
+  {
+   "n": "Ari Sleeveless One-piece (2 Color)",
+   "p": 99180,
+   "d": null
+  },
+  {
+   "n": "Elara Square-neck One-piece (3 Color)",
+   "p": 239250,
+   "d": null
+  },
+  {
+   "n": "Orb Organza One-piece (3 Color)",
+   "p": 224460,
+   "d": null
+  },
+  {
+   "n": "Lucy Long Skirt (2 Color)",
+   "p": 180960,
+   "d": null
+  },
+  {
+   "n": "Anais Off-shoulder Blouse (Beige)",
+   "p": 193175,
+   "d": null
+  },
+  {
+   "n": "Joy Cardigan (9 Color)",
+   "p": 62000,
+   "d": null
+  },
+  {
+   "n": "62,000",
+   "p": 53940,
+   "d": 13
+  },
+  {
+   "n": "[Ivory 단독] Isabel Halter-Neck One-piece (3 Color)",
+   "p": 294000,
+   "d": null
+  },
+  {
+   "n": "294,000",
+   "p": 255780,
+   "d": 13
+  },
+  {
+   "n": "[한정특가] [단독] Liora Handmade Half Coat (4color)",
+   "p": 498000,
+   "d": null
+  },
+  {
+   "n": "498,000",
+   "p": 358400,
+   "d": 28
+  },
+  {
+   "n": "Kaley One-piece (Black)",
+   "p": 284000,
+   "d": null
+  },
+  {
+   "n": "284,000",
+   "p": 247080,
+   "d": 13
+  },
+  {
+   "n": "Joy Sleeveless Top (9 Color)",
+   "p": 38000,
+   "d": null
+  },
+  {
+   "n": "38,000",
+   "p": 33060,
+   "d": 13
+  },
+  {
+   "n": "[한정특가] Sienna Sailor Collar Jacket (2color)",
+   "p": 268000,
+   "d": null
+  },
+  {
+   "n": "268,000",
+   "p": 186528,
+   "d": 30
+  },
+  {
+   "n": "Mercury Skirt (Black)",
+   "p": 207000,
+   "d": null
+  },
+  {
+   "n": "207,000",
+   "p": 180090,
+   "d": 13
+  },
+  {
+   "n": "(153)",
+   "p": 4890,
+   "d": null
+  },
+  {
+   "n": "Janie Knit Top (2color)",
+   "p": 168000,
+   "d": null
+  },
+  {
+   "n": "168,000",
+   "p": 146160,
+   "d": 13
+  },
+  {
+   "n": "Dayana Off shoulder Knit Top (Black)",
+   "p": 218000,
+   "d": null
+  },
+  {
+   "n": "218,000",
+   "p": 189660,
+   "d": 13
+  },
+  {
+   "n": "Carys H-Line One-piece (3 Color)",
+   "p": 275000,
+   "d": null
+  },
+  {
+   "n": "275,000",
+   "p": 239250,
+   "d": 13
+  },
+  {
+   "n": "Sienna Flare Skirt (2color)",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 172260,
+   "d": 13
+  },
+  {
+   "n": "Off-shoulder Jacket Mini One-piece (2 Color)",
+   "p": 258000,
+   "d": null
+  },
+  {
+   "n": "258,000",
+   "p": 224460,
+   "d": 13
+  },
+  {
+   "n": "Maya BootCut Denim (2 Color)",
+   "p": 102000,
+   "d": null
+  },
+  {
+   "n": "102,000",
+   "p": 88740,
+   "d": 13
+  },
+  {
+   "n": "Zozo Cardigan (5 Color)",
+   "p": 52000,
+   "d": null
+  },
+  {
+   "n": "52,000",
+   "p": 45240,
+   "d": 13
+  },
+  {
+   "n": "(312)",
+   "p": 3458,
+   "d": null
+  },
+  {
+   "n": "Mercury Tweed Jacket (2 Color)",
+   "p": 238000,
+   "d": null
+  },
+  {
+   "n": "238,000",
+   "p": 207060,
+   "d": 13
+  },
+  {
+   "n": "Joy Mini Skirt (3 Color)",
+   "p": 75000,
+   "d": null
+  },
+  {
+   "n": "75,000",
+   "p": 65250,
+   "d": 13
+  },
+  {
+   "n": "Bonita Satin Skirt (2 Color)",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "159,000",
+   "p": 138330,
+   "d": 13
+  },
+  {
+   "n": "Mercury Tweed Skirt (2 Color)",
+   "p": 208000,
+   "d": null
+  },
+  {
+   "n": "208,000",
+   "p": 180960,
+   "d": 13
+  },
+  {
+   "n": "Elara Square-neck One-piece (3 Color)",
+   "p": 275000,
+   "d": null
+  },
+  {
+   "n": "Zozo Sleeveless Top (5 Color)",
+   "p": 26000,
+   "d": null
+  },
+  {
+   "n": "26,000",
+   "p": 22620,
+   "d": 13
+  },
+  {
+   "n": "(358)",
+   "p": 3789,
+   "d": null
+  },
+  {
+   "n": "Sepia Round Cardigan (6color)",
+   "p": 138000,
+   "d": null
+  },
+  {
+   "n": "138,000",
+   "p": 120060,
+   "d": 13
+  },
+  {
+   "n": "Mila Bootcut Denim (2 Color)",
+   "p": 124000,
+   "d": null
+  },
+  {
+   "n": "124,000",
+   "p": 107880,
+   "d": 13
+  },
+  {
+   "n": "[한정특가] [단독] Veloni Suede Belted Jacket (2color)",
+   "p": 298000,
+   "d": null
+  },
+  {
+   "n": "298,000",
+   "p": 207408,
+   "d": 30
+  },
+  {
+   "n": "Peony Tie One-piece (3 Color)",
+   "p": 298000,
+   "d": null
+  },
+  {
+   "n": "298,000",
+   "p": 259260,
+   "d": 13
+  },
+  {
+   "n": "Noelle knit dress (3color)",
+   "p": 298000,
+   "d": null
+  },
+  {
+   "n": "Mercury Mini Skirt (Black)",
+   "p": 168000,
+   "d": null
+  },
+  {
+   "n": "168,000",
+   "p": 141120,
+   "d": 16
+  },
+  {
+   "n": "(36)",
+   "p": 2090,
+   "d": null
+  },
+  {
+   "n": "Fia Tweed Mermaid One-piece (3 Color)",
+   "p": 298000,
+   "d": null
+  },
+  {
+   "n": "Linda Slacks (2 Color)",
+   "p": 137000,
+   "d": null
+  },
+  {
+   "n": "137,000",
+   "p": 119190,
+   "d": 13
+  },
+  {
+   "n": "Calista Satin Bag (2 Color)",
+   "p": 84000,
+   "d": null
+  },
+  {
+   "n": "84,000",
+   "p": 73080,
+   "d": 13
+  },
+  {
+   "n": "Bibiane Jacket (2 Color)",
+   "p": 243000,
+   "d": null
+  },
+  {
+   "n": "243,000",
+   "p": 211410,
+   "d": 13
+  },
+  {
+   "n": "Mielle Knit Cardigan (4color)",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "Isabel Halter-neck Blouse (4 Color)",
+   "p": 187000,
+   "d": null
+  },
+  {
+   "n": "187,000",
+   "p": 162690,
+   "d": 13
+  },
+  {
+   "n": "(28)",
+   "p": 1263,
+   "d": null
+  },
+  {
+   "n": "Daria Mermaid One-piece (3 Color)",
+   "p": 298000,
+   "d": null
+  },
+  {
+   "n": "(4)",
+   "p": 2379,
+   "d": null
+  },
+  {
+   "n": "Bibiane Skirt (2 Color)",
+   "p": 298000,
+   "d": null
+  },
+  {
+   "n": "Bessie shorts (Black)",
+   "p": 144000,
+   "d": null
+  },
+  {
+   "n": "144,000",
+   "p": 125280,
+   "d": 13
+  },
+  {
+   "n": "(63)",
+   "p": 1931,
+   "d": null
+  },
+  {
+   "n": "Maylin Cape Long One-Piece (2 Color)",
+   "p": 373000,
+   "d": null
+  },
+  {
+   "n": "373,000",
+   "p": 333000,
+   "d": 10
+  },
+  {
+   "n": "Bianca Tweed Skirt (Cream)",
+   "p": 187000,
+   "d": null
+  },
+  {
+   "n": "Mielle Knit Sleeveless Top (4color)",
+   "p": 128000,
+   "d": null
+  },
+  {
+   "n": "128,000",
+   "p": 111360,
+   "d": 13
+  },
+  {
+   "n": "Zena Hair Shushu (Cream)",
+   "p": 43000,
+   "d": null
+  },
+  {
+   "n": "43,000",
+   "p": 37410,
+   "d": 13
+  },
+  {
+   "n": "Fiona Jersey One-piece (2 Color)",
+   "p": 168000,
+   "d": null
+  },
+  {
+   "n": "Elizabeth Lace Dress (2 Color)",
+   "p": 427000,
+   "d": null
+  },
+  {
+   "n": "427,000",
+   "p": 387000,
+   "d": 9
+  },
+  {
+   "n": "Ray Pants Light (3 Color)",
+   "p": 187000,
+   "d": null
+  },
+  {
+   "n": "Kylie Tweed Jacket (Beige)",
+   "p": 287000,
+   "d": null
+  },
+  {
+   "n": "287,000",
+   "p": 249690,
+   "d": 13
+  },
+  {
+   "n": "[APHRODITE] #05 Scarf Dress (2 Color)",
+   "p": 276000,
+   "d": null
+  },
+  {
+   "n": "276,000",
+   "p": 240120,
+   "d": 13
+  },
+  {
+   "n": "(3)",
+   "p": 1828,
+   "d": null
+  },
+  {
+   "n": "Anais Wrap Skirt (Black)",
+   "p": 217000,
+   "d": null
+  },
+  {
+   "n": "217,000",
+   "p": 188790,
+   "d": 13
+  },
+  {
+   "n": "Kylie Tweed Skirt (Beige)",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "Zozo Ruffle Cardigan (2 Color)",
+   "p": 65000,
+   "d": null
+  },
+  {
+   "n": "65,000",
+   "p": 56550,
+   "d": 13
+  },
+  {
+   "n": "Lumi Halfneck Knit Top (3color)",
+   "p": 218000,
+   "d": null
+  },
+  {
+   "n": "Ava Top (3 Color)",
+   "p": 178000,
+   "d": null
+  },
+  {
+   "n": "178,000",
+   "p": 154860,
+   "d": 13
+  },
+  {
+   "n": "(102)",
+   "p": 2735,
+   "d": null
+  },
+  {
+   "n": "Bonnie Short-Sleeve Jacket (2 Color)",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "(25)",
+   "p": 2593,
+   "d": null
+  },
+  {
+   "n": "Grace Slim Leather Belt (3 Color)",
+   "p": 68000,
+   "d": null
+  },
+  {
+   "n": "68,000",
+   "p": 59160,
+   "d": 13
+  },
+  {
+   "n": "Robin Eyelet One-piece (2 Color)",
+   "p": 358000,
+   "d": null
+  },
+  {
+   "n": "358,000",
+   "p": 318000,
+   "d": 11
+  },
+  {
+   "n": "Ashlyn Apron (Brown)",
+   "p": 128000,
+   "d": null
+  },
+  {
+   "n": "Bonita Satin Mini Skirt (3 Color)",
+   "p": 105000,
+   "d": null
+  },
+  {
+   "n": "105,000",
+   "p": 91350,
+   "d": 13
+  },
+  {
+   "n": "Milly Top (4 Color)",
+   "p": 68000,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] Lucy Tie Jacket (2 Color)",
+   "p": 234000,
+   "d": null
+  },
+  {
+   "n": "234,000",
+   "p": 203580,
+   "d": 13
+  },
+  {
+   "n": "Bianca Tweed Skirt (Yellow)",
+   "p": 187000,
+   "d": null
+  },
+  {
+   "n": "Charlotte Jacket One-piece (3 Color)",
+   "p": 338000,
+   "d": null
+  },
+  {
+   "n": "338,000",
+   "p": 298000,
+   "d": 11
+  },
+  {
+   "n": "Riona Peplum Sleeveless One-piece (2 Color)",
+   "p": 248000,
+   "d": null
+  },
+  {
+   "n": "248,000",
+   "p": 215760,
+   "d": 13
+  },
+  {
+   "n": "Mercury Cubic Skirt (Navy)",
+   "p": 238000,
+   "d": null
+  }
+ ],
+ "id": 108809,
+ "observed_at": "2026-10-29"
+}

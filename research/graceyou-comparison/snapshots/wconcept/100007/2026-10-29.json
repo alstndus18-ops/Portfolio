@@ -1,0 +1,833 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/100007",
+ "title": "분더캄머(WNDERKAMMER) | W컨셉(W CONCEPT)",
+ "ko": "분더캄머",
+ "en": "WNDERKAMMER",
+ "intro": "WNDERKAMMER(분더캄머) 브랜드 분더캄머는 자극적이지도 도발적이지도 않으며 꾸밈이 없는 자연스러움을 강조하고자 하는 브랜드이다. 지극히 평범해 보이지만 그 속에서 대중이 느낄 수 있는 은근히 다가오는 강렬함이 있는 브랜드이다.",
+ "n": 153,
+ "p": {
+  "min": 28728,
+  "q1": 88000,
+  "med": 137808,
+  "q3": 193662,
+  "p90": 255258,
+  "max": 528000,
+  "mean": 151157
+ },
+ "disc": {
+  "n": 78,
+  "med": 47,
+  "max": 58
+ },
+ "names": [
+  "Soft Suede Seam Jumper_Olive",
+  "[2차 리오더]Corduroy Straight Pants_Brown",
+  "Back Brushed 2-way Jacket_Grey",
+  "26 Tweed Puff Top_Black",
+  "Reversible Mink fur Jumper_Brown",
+  "[1차 리오더]Alpaca Softroll Knit Pullover_4 Color",
+  "25 Jersey Long Dress_Dark Grey",
+  "25 Corduroy 2-Way Jacket_Black",
+  "Check 2-way Jacket_Khaki",
+  "Puff sleeve dress_Light Khaki",
+  "Drape Blouse_Black",
+  "26 Classic Tuck Pants_Beige",
+  "26 Classic Tuck Pants_Light Khaki",
+  "Tied Mini Skirt_Navy",
+  "Sailor Collar Layered Top_White",
+  "Layered Sleeveless Top_Black",
+  "Puff Sleeve Blouse_Brown",
+  "Puff Sleeve Blouse_Dark Navy",
+  "Henleyneck Tied shirt_Navy",
+  "Back Yoke Straight Pants_Black",
+  "Straight Leg Denim Pants_Blue",
+  "Daily Fitted T_Navy",
+  "U neck Sheer T_Grey",
+  "25 Basic Short Sleeve T_Navy",
+  "Puff sleeve dress_Dark Navy",
+  "Drape Blouse_Light Blue",
+  "Shirred Jogger Pants_Navy",
+  "Tied Mini Skirt_Brown",
+  "Layered Sleeveless Top_Cream",
+  "Drape Blouse_White",
+  "Sailor Collar Layered Top_Olive",
+  "[2pack]Sleeveless Top",
+  "26 Tweed Skirt_White",
+  "26 Tweed Puff Top_White",
+  "26 Tweed Skirt_Black",
+  "Ponte Fitted Dress_Black",
+  "Shirring Maxi Skirt_White",
+  "[1차 리오더]Floral Leg Warmer_3 Color",
+  "Sleeveless Maxi Dress_Dark Grey",
+  "[응정 PICK]Waist Tied T_White"
+ ],
+ "cards": [
+  {
+   "n": "Soft Suede Seam Jumper_Olive",
+   "p": 239076,
+   "d": 47
+  },
+  {
+   "n": "[2차 리오더]Corduroy Straight Pants_Brown",
+   "p": 94752,
+   "d": 49
+  },
+  {
+   "n": "Back Brushed 2-way Jacket_Grey",
+   "p": 150336,
+   "d": 47
+  },
+  {
+   "n": "26 Tweed Puff Top_Black",
+   "p": 131544,
+   "d": 21
+  },
+  {
+   "n": "Reversible Mink fur Jumper_Brown",
+   "p": 255258,
+   "d": 47
+  },
+  {
+   "n": "[1차 리오더]Alpaca Softroll Knit Pullover_4 Color",
+   "p": 103356,
+   "d": 47
+  },
+  {
+   "n": "25 Jersey Long Dress_Dark Grey",
+   "p": 82476,
+   "d": 47
+  },
+  {
+   "n": "25 Corduroy 2-Way Jacket_Black",
+   "p": 193662,
+   "d": 39
+  },
+  {
+   "n": "Check 2-way Jacket_Khaki",
+   "p": 160800,
+   "d": 49
+  },
+  {
+   "n": "Puff sleeve dress_Light Khaki",
+   "p": 155034,
+   "d": 21
+  },
+  {
+   "n": "Drape Blouse_Black",
+   "p": 155034,
+   "d": 21
+  },
+  {
+   "n": "26 Classic Tuck Pants_Beige",
+   "p": 155034,
+   "d": 21
+  },
+  {
+   "n": "26 Classic Tuck Pants_Light Khaki",
+   "p": 155034,
+   "d": 21
+  },
+  {
+   "n": "Tied Mini Skirt_Navy",
+   "p": 147204,
+   "d": 21
+  },
+  {
+   "n": "Sailor Collar Layered Top_White",
+   "p": 170694,
+   "d": 21
+  },
+  {
+   "n": "Layered Sleeveless Top_Black",
+   "p": 84564,
+   "d": 21
+  },
+  {
+   "n": "Puff Sleeve Blouse_Brown",
+   "p": 131544,
+   "d": 21
+  },
+  {
+   "n": "Puff Sleeve Blouse_Dark Navy",
+   "p": 131544,
+   "d": 21
+  },
+  {
+   "n": "Henleyneck Tied shirt_Navy",
+   "p": 123714,
+   "d": 21
+  },
+  {
+   "n": "Back Yoke Straight Pants_Black",
+   "p": 137025,
+   "d": 21
+  },
+  {
+   "n": "Straight Leg Denim Pants_Blue",
+   "p": 93438,
+   "d": 47
+  },
+  {
+   "n": "Daily Fitted T_Navy",
+   "p": 37584,
+   "d": 47
+  },
+  {
+   "n": "U neck Sheer T_Grey",
+   "p": 37584,
+   "d": 47
+  },
+  {
+   "n": "25 Basic Short Sleeve T_Navy",
+   "p": 36192,
+   "d": 30
+  },
+  {
+   "n": "Puff sleeve dress_Dark Navy",
+   "p": 155034,
+   "d": 21
+  },
+  {
+   "n": "Drape Blouse_Light Blue",
+   "p": 155034,
+   "d": 21
+  },
+  {
+   "n": "Shirred Jogger Pants_Navy",
+   "p": 131544,
+   "d": 39
+  },
+  {
+   "n": "Tied Mini Skirt_Brown",
+   "p": 147204,
+   "d": 21
+  },
+  {
+   "n": "Layered Sleeveless Top_Cream",
+   "p": 81648,
+   "d": 24
+  },
+  {
+   "n": "Drape Blouse_White",
+   "p": 155034,
+   "d": 21
+  },
+  {
+   "n": "Sailor Collar Layered Top_Olive",
+   "p": 170694,
+   "d": 21
+  },
+  {
+   "n": "[2pack]Sleeveless Top",
+   "p": 51330,
+   "d": 53
+  },
+  {
+   "n": "26 Tweed Skirt_White",
+   "p": 127008,
+   "d": 24
+  },
+  {
+   "n": "26 Tweed Puff Top_White",
+   "p": 131544,
+   "d": 21
+  },
+  {
+   "n": "26 Tweed Skirt_Black",
+   "p": 131544,
+   "d": 21
+  },
+  {
+   "n": "Ponte Fitted Dress_Black",
+   "p": 140112,
+   "d": null
+  },
+  {
+   "n": "Shirring Maxi Skirt_White",
+   "p": 170694,
+   "d": null
+  },
+  {
+   "n": "[1차 리오더]Floral Leg Warmer_3 Color",
+   "p": 28728,
+   "d": null
+  },
+  {
+   "n": "Sleeveless Maxi Dress_Dark Grey",
+   "p": 128760,
+   "d": null
+  },
+  {
+   "n": "[응정 PICK]Waist Tied T_White",
+   "p": 59160,
+   "d": null
+  },
+  {
+   "n": "[응정 PICK]Stripe Jacquard Knit Shorts_Cream",
+   "p": 47328,
+   "d": null
+  },
+  {
+   "n": "Bijou Embellishment Tunnel Pants_Dark Navy",
+   "p": 137808,
+   "d": null
+  },
+  {
+   "n": "[딘디 PICK]Opened collar Knit Top_3 Color",
+   "p": 172260,
+   "d": null
+  },
+  {
+   "n": "[딘디 PICK]Moon Jar - Shaped Belted Bag_Mint",
+   "p": 72471,
+   "d": null
+  },
+  {
+   "n": "Moon Jar - Shaped Trench Coat_Beige",
+   "p": 280600,
+   "d": null
+  },
+  {
+   "n": "[5차 리오더]Stripe Jacquard Knit Dress_Navy",
+   "p": 123888,
+   "d": null
+  },
+  {
+   "n": "[1차 리오더]Moon Jar - Shaped Chiffon Pants_Black",
+   "p": 137808,
+   "d": null
+  },
+  {
+   "n": "[딘디 PICK]Solid V-neck Shirts_3Color",
+   "p": 137460,
+   "d": null
+  },
+  {
+   "n": "Shirred Moon Jar Jumper_Black",
+   "p": 199752,
+   "d": null
+  },
+  {
+   "n": "[딘디 PICK]Bijou Embellishment Tunnel Pants_Brown",
+   "p": 133056,
+   "d": null
+  },
+  {
+   "n": "[2차 리오더]Corduroy Straight Pants_Brown",
+   "p": 188000,
+   "d": null
+  },
+  {
+   "n": "188,000",
+   "p": 94752,
+   "d": 49
+  },
+  {
+   "n": "[1차 리오더]Alpaca Softroll Knit Pullover_4 Color",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 103356,
+   "d": 47
+  },
+  {
+   "n": "Reversible Mink fur Jumper_Brown",
+   "p": 489000,
+   "d": null
+  },
+  {
+   "n": "489,000",
+   "p": 255258,
+   "d": 47
+  },
+  {
+   "n": "Cupra Wide Pants_Indian Pink",
+   "p": 178000,
+   "d": null
+  },
+  {
+   "n": "178,000",
+   "p": 74760,
+   "d": 58
+  },
+  {
+   "n": "Knit Rib Half Turtleneck T-shirt_Blue",
+   "p": 98000,
+   "d": null
+  },
+  {
+   "n": "98,000",
+   "p": 42630,
+   "d": 56
+  },
+  {
+   "n": "Fake Leather Skirt_Olive",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 141372,
+   "d": 28
+  },
+  {
+   "n": "25 Corduroy 2-Way Jacket_Black",
+   "p": 318000,
+   "d": null
+  },
+  {
+   "n": "318,000",
+   "p": 193662,
+   "d": 39
+  },
+  {
+   "n": "[3차 리오더]Corduroy Straight Pants_Khaki",
+   "p": 188000,
+   "d": null
+  },
+  {
+   "n": "188,000",
+   "p": 98136,
+   "d": 47
+  },
+  {
+   "n": "[1차 리오더]Easy One-piece_Red",
+   "p": 88000,
+   "d": null
+  },
+  {
+   "n": "88,000",
+   "p": 68904,
+   "d": 21
+  },
+  {
+   "n": "26 Tweed Puff Top_Black",
+   "p": 168000,
+   "d": null
+  },
+  {
+   "n": "168,000",
+   "p": 131544,
+   "d": 21
+  },
+  {
+   "n": "Back Brushed 2-way Jacket_Grey",
+   "p": 288000,
+   "d": null
+  },
+  {
+   "n": "288,000",
+   "p": 150336,
+   "d": 47
+  },
+  {
+   "n": "Open Point Washed Shirt_Grey",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 83160,
+   "d": 58
+  },
+  {
+   "n": "Corduroy Balloon Vest_Black",
+   "p": 108000,
+   "d": null
+  },
+  {
+   "n": "108,000",
+   "p": 45360,
+   "d": 58
+  },
+  {
+   "n": "Midi Leather Skirt_Blue",
+   "p": 218000,
+   "d": null
+  },
+  {
+   "n": "218,000",
+   "p": 170694,
+   "d": 21
+  },
+  {
+   "n": "Cupra Wide Pants_Charcoal",
+   "p": 178000,
+   "d": null
+  },
+  {
+   "n": "178,000",
+   "p": 92916,
+   "d": 47
+  },
+  {
+   "n": "Cupra Wide Pants_Khaki",
+   "p": 178000,
+   "d": null
+  },
+  {
+   "n": "178,000",
+   "p": 77430,
+   "d": 56
+  },
+  {
+   "n": "[2pack]Fitted Short Sleeve T",
+   "p": 116000,
+   "d": null
+  },
+  {
+   "n": "116,000",
+   "p": 51330,
+   "d": 55
+  },
+  {
+   "n": "[응정 PICK]25 Basic Short Sleeve T_Red",
+   "p": 52000,
+   "d": null
+  },
+  {
+   "n": "52,000",
+   "p": 31668,
+   "d": 39
+  },
+  {
+   "n": "U neck Sheer T_Navy",
+   "p": 72000,
+   "d": null
+  },
+  {
+   "n": "72,000",
+   "p": 37584,
+   "d": 47
+  },
+  {
+   "n": "Open Point Boxy T-shirt_Red",
+   "p": 88000,
+   "d": null
+  },
+  {
+   "n": "88,000",
+   "p": 36960,
+   "d": 58
+  },
+  {
+   "n": "Soft Suede Seam Jumper_Olive",
+   "p": 458000,
+   "d": null
+  },
+  {
+   "n": "458,000",
+   "p": 239076,
+   "d": 47
+  },
+  {
+   "n": "Open Point Boxy T-shirt_Yellow Green",
+   "p": 88000,
+   "d": null
+  },
+  {
+   "n": "88,000",
+   "p": 38280,
+   "d": 56
+  },
+  {
+   "n": "25 Jersey Long Dress_Dark Grey",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "158,000",
+   "p": 82476,
+   "d": 47
+  },
+  {
+   "n": "26 Tweed Skirt_Black",
+   "p": 168000,
+   "d": null
+  },
+  {
+   "n": "Round Poket Skirt_Pattern",
+   "p": 138000,
+   "d": null
+  },
+  {
+   "n": "138,000",
+   "p": 72036,
+   "d": 47
+  },
+  {
+   "n": "26 Classic Tuck Pants_Light Khaki",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 155034,
+   "d": 21
+  },
+  {
+   "n": "[1차 리오더]Crinkle T-Shirt_Beige",
+   "p": 75000,
+   "d": null
+  },
+  {
+   "n": "75,000",
+   "p": 58725,
+   "d": 21
+  },
+  {
+   "n": "Puff Holiday Dress_Black",
+   "p": 258000,
+   "d": null
+  },
+  {
+   "n": "258,000",
+   "p": 112230,
+   "d": 56
+  },
+  {
+   "n": "Damage V-neck sweatshirt_Melange",
+   "p": 128000,
+   "d": null
+  },
+  {
+   "n": "128,000",
+   "p": 105792,
+   "d": 17
+  },
+  {
+   "n": "Check 2-way Jacket_Khaki",
+   "p": 318000,
+   "d": null
+  },
+  {
+   "n": "318,000",
+   "p": 160800,
+   "d": 49
+  },
+  {
+   "n": "Minimal Maxi Dress_Navy",
+   "p": 278000,
+   "d": null
+  },
+  {
+   "n": "278,000",
+   "p": 120930,
+   "d": 56
+  },
+  {
+   "n": "Round Graphic T_White",
+   "p": 68000,
+   "d": null
+  },
+  {
+   "n": "68,000",
+   "p": 47328,
+   "d": 30
+  },
+  {
+   "n": "Check Wide Tuck Pants_Khaki",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 99792,
+   "d": 49
+  },
+  {
+   "n": "Steady Wide Tuck Pants_Grey",
+   "p": 178000,
+   "d": null
+  },
+  {
+   "n": "178,000",
+   "p": 89712,
+   "d": 49
+  },
+  {
+   "n": "Soft Suede Seam Jumper_Brown",
+   "p": 458000,
+   "d": null
+  },
+  {
+   "n": "Soft Suede Seam Jumper_Black",
+   "p": 458000,
+   "d": null
+  },
+  {
+   "n": "Wool Half Coat_Brown",
+   "p": 528000,
+   "d": null
+  },
+  {
+   "n": "528,000",
+   "p": 229680,
+   "d": 56
+  },
+  {
+   "n": "Midi Leather Skirt_Brown",
+   "p": 218000,
+   "d": null
+  },
+  {
+   "n": "Shirred Jogger Pants_Navy",
+   "p": 218000,
+   "d": null
+  },
+  {
+   "n": "218,000",
+   "p": 131544,
+   "d": 39
+  },
+  {
+   "n": "[5차 리오더]Applique Embroidery V-neck Shirts_White",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 133056,
+   "d": 32
+  },
+  {
+   "n": "Oversized Shirt_Navy",
+   "p": 208000,
+   "d": null
+  },
+  {
+   "n": "208,000",
+   "p": 108576,
+   "d": 47
+  },
+  {
+   "n": "Cupra Over-Fit Shirt_Khaki",
+   "p": 188000,
+   "d": null
+  },
+  {
+   "n": "Damage Knit Vest_Grey",
+   "p": 188000,
+   "d": null
+  },
+  {
+   "n": "188,000",
+   "p": 81780,
+   "d": 56
+  },
+  {
+   "n": "Corduroy Balloon Pants_Brown",
+   "p": 188000,
+   "d": null
+  },
+  {
+   "n": "188,000",
+   "p": 78960,
+   "d": 58
+  },
+  {
+   "n": "U neck Sheer T_Brown",
+   "p": 72000,
+   "d": null
+  },
+  {
+   "n": "U neck Sheer T_Black",
+   "p": 72000,
+   "d": null
+  },
+  {
+   "n": "72,000",
+   "p": 36288,
+   "d": 49
+  },
+  {
+   "n": "U neck Sheer T_Khaki",
+   "p": 72000,
+   "d": null
+  },
+  {
+   "n": "[단독]Open Point Crop Knit Cardigan_Grey",
+   "p": 268000,
+   "d": null
+  },
+  {
+   "n": "268,000",
+   "p": 116580,
+   "d": 56
+  },
+  {
+   "n": "[단독]Open Point Crop Knit Cardigan_Beige",
+   "p": 268000,
+   "d": null
+  },
+  {
+   "n": "[단독]Open Point Crop Knit Cardigan_Turquoise Blue",
+   "p": 268000,
+   "d": null
+  },
+  {
+   "n": "[2pack]Sleeveless Top",
+   "p": 110000,
+   "d": null
+  },
+  {
+   "n": "110,000",
+   "p": 51330,
+   "d": 53
+  },
+  {
+   "n": "Puff sleeve dress_Light Khaki",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "Puff sleeve dress_Dark Navy",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "Drape Blouse_White",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "Drape Blouse_Light Blue",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "Drape Blouse_Black",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "26 Classic Tuck Pants_Beige",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "Tied Mini Skirt_Brown",
+   "p": 188000,
+   "d": null
+  },
+  {
+   "n": "188,000",
+   "p": 147204,
+   "d": 21
+  },
+  {
+   "n": "Tied Mini Skirt_Navy",
+   "p": 188000,
+   "d": null
+  },
+  {
+   "n": "Sailor Collar Layered Top_White",
+   "p": 218000,
+   "d": null
+  }
+ ],
+ "id": 100007,
+ "observed_at": "2026-10-29"
+}

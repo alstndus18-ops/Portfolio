@@ -1,0 +1,688 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/117670",
+ "title": "디스이즈파인(THIS IS FINE) | W컨셉(W CONCEPT)",
+ "ko": "디스이즈파인",
+ "en": "THIS IS FINE",
+ "intro": "Contemporary Fine Casual for the Fine Ones 이 세상에 편안하기만 한 옷은 많습니다. ’THIS IS FINE’은 편안함 위에 당신의 빛나는 태도를 더합니다. 선별된 소재, 동시대적 디자인, 그리고 섬세한 바느질. 깊이 있는 안목을 가진 당신의 삶에 자연스럽게 스며듭니다. 일상에서도 fine jewelry의 아름다움과 fine dining의 섬세함을 담는 것. 그것이 우리가 추구하는 fine casual입니다.",
+ "n": 124,
+ "p": {
+  "min": 1051,
+  "q1": 60040,
+  "med": 79000,
+  "q3": 136800,
+  "p90": 195000,
+  "max": 310000,
+  "mean": 99691
+ },
+ "disc": {
+  "n": 47,
+  "med": 39,
+  "max": 46
+ },
+ "names": [
+  "Slim V-neck Knit Stripe Tee Brown+Sky",
+  "Look So Fine Graphic LS Tee White",
+  "Quarter-Zip Balloon Pullover Fleece Gray",
+  "[박현지] Slim V-neck Ribbed Tee Charcoal",
+  "[박현지] Slim V-Neck Stripe Tee Black",
+  "Slim V-neck Knit Stripe Tee Gray+Yellow",
+  "[박현지] Slim V-neck Ribbed Tee Beige",
+  "Quarter-Zip Balloon Pullover Fleece Black",
+  "[박현지] Slim V-neck Ribbed Tee Ivory",
+  "Wide Pleated Trousers Black Stripe",
+  "Henley Neck Waffle Tee Sand",
+  "Henley Neck Waffle Tee Ultramarine",
+  "Hybrid Shorts Black",
+  "Hybrid Shorts Charcoal",
+  "Hybrid Shorts Melange Gray",
+  "Hybrid Trousers Black",
+  "Hybrid Trousers Charcoal",
+  "Hybrid Trousers Melange Gray",
+  "Hybrid Blazer Black",
+  "Hybrid Blazer Charcoal",
+  "Henley Neck Waffle LS Tee Black",
+  "Henley Neck Waffle LS Tee Sand",
+  "Henley Neck Waffle LS Tee Gray",
+  "Layered LS Tee",
+  "THIS IS FINE Applique Hoodie Black",
+  "THIS IS FINE Applique Hoodie Cream",
+  "Quarter-Zip Balloon Pullover Fleece Beige",
+  "Wizard Graphic LS Tee White",
+  "Relaxed Signature Jean Suede Black",
+  "[박현지] Slim V-neck Stripe Tee White",
+  "Knitted Beanie Black",
+  "Knitted Gloves Black",
+  "Track Jacket Black",
+  "Can Sleep All Day Tee",
+  "Cropped Signature Tee White",
+  "Slim Laced Camisole Charcoal",
+  "Engineered Jean Light Blue",
+  "Slim Laurels Tee Sportif Gray",
+  "Signature Ball Cap Black",
+  "Quarter-Zip Balloon Pullover Fleece Gray"
+ ],
+ "cards": [
+  {
+   "n": "Slim V-neck Knit Stripe Tee Brown+Sky",
+   "p": 60040,
+   "d": 24
+  },
+  {
+   "n": "Look So Fine Graphic LS Tee White",
+   "p": 60040,
+   "d": 24
+  },
+  {
+   "n": "Quarter-Zip Balloon Pullover Fleece Gray",
+   "p": 76000,
+   "d": 39
+  },
+  {
+   "n": "[박현지] Slim V-neck Ribbed Tee Charcoal",
+   "p": 44840,
+   "d": 24
+  },
+  {
+   "n": "[박현지] Slim V-Neck Stripe Tee Black",
+   "p": 60040,
+   "d": 24
+  },
+  {
+   "n": "Slim V-neck Knit Stripe Tee Gray+Yellow",
+   "p": 60040,
+   "d": 24
+  },
+  {
+   "n": "[박현지] Slim V-neck Ribbed Tee Beige",
+   "p": 44840,
+   "d": 24
+  },
+  {
+   "n": "Quarter-Zip Balloon Pullover Fleece Black",
+   "p": 76000,
+   "d": 39
+  },
+  {
+   "n": "[박현지] Slim V-neck Ribbed Tee Ivory",
+   "p": 44840,
+   "d": 24
+  },
+  {
+   "n": "Wide Pleated Trousers Black Stripe",
+   "p": 110200,
+   "d": 24
+  },
+  {
+   "n": "Henley Neck Waffle Tee Sand",
+   "p": 60192,
+   "d": 39
+  },
+  {
+   "n": "Henley Neck Waffle Tee Ultramarine",
+   "p": 60192,
+   "d": 39
+  },
+  {
+   "n": "Hybrid Shorts Black",
+   "p": 106400,
+   "d": 39
+  },
+  {
+   "n": "Hybrid Shorts Charcoal",
+   "p": 106400,
+   "d": 39
+  },
+  {
+   "n": "Hybrid Shorts Melange Gray",
+   "p": 106400,
+   "d": 39
+  },
+  {
+   "n": "Hybrid Trousers Black",
+   "p": 148960,
+   "d": 39
+  },
+  {
+   "n": "Hybrid Trousers Charcoal",
+   "p": 148960,
+   "d": 39
+  },
+  {
+   "n": "Hybrid Trousers Melange Gray",
+   "p": 148960,
+   "d": 39
+  },
+  {
+   "n": "Hybrid Blazer Black",
+   "p": 209760,
+   "d": 39
+  },
+  {
+   "n": "Hybrid Blazer Charcoal",
+   "p": 209760,
+   "d": 39
+  },
+  {
+   "n": "Henley Neck Waffle LS Tee Black",
+   "p": 66880,
+   "d": 39
+  },
+  {
+   "n": "Henley Neck Waffle LS Tee Sand",
+   "p": 66880,
+   "d": 39
+  },
+  {
+   "n": "Henley Neck Waffle LS Tee Gray",
+   "p": 66880,
+   "d": 39
+  },
+  {
+   "n": "Layered LS Tee",
+   "p": 60192,
+   "d": 39
+  },
+  {
+   "n": "THIS IS FINE Applique Hoodie Black",
+   "p": 82080,
+   "d": 39
+  },
+  {
+   "n": "THIS IS FINE Applique Hoodie Cream",
+   "p": 82080,
+   "d": 39
+  },
+  {
+   "n": "Quarter-Zip Balloon Pullover Fleece Beige",
+   "p": 76000,
+   "d": 39
+  },
+  {
+   "n": "Wizard Graphic LS Tee White",
+   "p": 60040,
+   "d": null
+  },
+  {
+   "n": "Relaxed Signature Jean Suede Black",
+   "p": 152000,
+   "d": null
+  },
+  {
+   "n": "[박현지] Slim V-neck Stripe Tee White",
+   "p": 60040,
+   "d": null
+  },
+  {
+   "n": "Knitted Beanie Black",
+   "p": 52440,
+   "d": null
+  },
+  {
+   "n": "Knitted Gloves Black",
+   "p": 52440,
+   "d": null
+  },
+  {
+   "n": "Track Jacket Black",
+   "p": 118560,
+   "d": null
+  },
+  {
+   "n": "Can Sleep All Day Tee",
+   "p": 52440,
+   "d": null
+  },
+  {
+   "n": "Cropped Signature Tee White",
+   "p": 44840,
+   "d": null
+  },
+  {
+   "n": "Slim Laced Camisole Charcoal",
+   "p": 37240,
+   "d": null
+  },
+  {
+   "n": "Engineered Jean Light Blue",
+   "p": 95760,
+   "d": null
+  },
+  {
+   "n": "Slim Laurels Tee Sportif Gray",
+   "p": 52440,
+   "d": null
+  },
+  {
+   "n": "Signature Ball Cap Black",
+   "p": 44840,
+   "d": null
+  },
+  {
+   "n": "Quarter-Zip Balloon Pullover Fleece Gray",
+   "p": 125000,
+   "d": null
+  },
+  {
+   "n": "125,000",
+   "p": 76000,
+   "d": 39
+  },
+  {
+   "n": "(6)",
+   "p": 1755,
+   "d": null
+  },
+  {
+   "n": "Slim V-neck Knit Stripe Tee Brown+Sky",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "79,000",
+   "p": 60040,
+   "d": 24
+  },
+  {
+   "n": "Look So Fine Graphic LS Tee White",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "(11)",
+   "p": 1395,
+   "d": null
+  },
+  {
+   "n": "[박현지] Slim V-neck Ribbed Tee Charcoal",
+   "p": 59000,
+   "d": null
+  },
+  {
+   "n": "59,000",
+   "p": 44840,
+   "d": 24
+  },
+  {
+   "n": "(8)",
+   "p": 1059,
+   "d": null
+  },
+  {
+   "n": "[박현지] Slim V-Neck Stripe Tee Black",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "(46)",
+   "p": 3087,
+   "d": null
+  },
+  {
+   "n": "Slim V-neck Knit Stripe Tee Gray+Yellow",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "Quarter-Zip Balloon Pullover Fleece Black",
+   "p": 125000,
+   "d": null
+  },
+  {
+   "n": "[박현지] Slim V-neck Ribbed Tee Beige",
+   "p": 59000,
+   "d": null
+  },
+  {
+   "n": "[박현지] Slim V-neck Ribbed Tee Ivory",
+   "p": 59000,
+   "d": null
+  },
+  {
+   "n": "(15)",
+   "p": 1051,
+   "d": null
+  },
+  {
+   "n": "Slim Laced Camisole White",
+   "p": 49000,
+   "d": null
+  },
+  {
+   "n": "49,000",
+   "p": 37240,
+   "d": 24
+  },
+  {
+   "n": "Quarter-Zip Balloon Pullover Fleece Beige",
+   "p": 125000,
+   "d": null
+  },
+  {
+   "n": "Recruit Graphic LS Tee Charcoal",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "Slim Laced Camisole Charcoal",
+   "p": 49000,
+   "d": null
+  },
+  {
+   "n": "Look So Fine Graphic LS Tee Blue",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "[박현지] Slim V-neck Stripe Tee Sky",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "Pajama Overshirt Blue",
+   "p": 195000,
+   "d": null
+  },
+  {
+   "n": "195,000",
+   "p": 148200,
+   "d": 24
+  },
+  {
+   "n": "Button Sweatpants Oat",
+   "p": 140000,
+   "d": null
+  },
+  {
+   "n": "140,000",
+   "p": 74480,
+   "d": 46
+  },
+  {
+   "n": "[박현지] Slim V-neck Stripe Tee White",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "Engineered Jean Light Blue",
+   "p": 180000,
+   "d": null
+  },
+  {
+   "n": "180,000",
+   "p": 95760,
+   "d": 46
+  },
+  {
+   "n": "Wizard Graphic LS Tee White",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "Track Jacket Black",
+   "p": 195000,
+   "d": null
+  },
+  {
+   "n": "195,000",
+   "p": 118560,
+   "d": 39
+  },
+  {
+   "n": "Wizard Graphic LS Tee Brown",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "Pajama Overshirt Pink",
+   "p": 195000,
+   "d": null
+  },
+  {
+   "n": "Track Jacket Offwhite",
+   "p": 195000,
+   "d": null
+  },
+  {
+   "n": "Low Rise Flare Jean Vintage Blue",
+   "p": 180000,
+   "d": null
+  },
+  {
+   "n": "180,000",
+   "p": 136800,
+   "d": 24
+  },
+  {
+   "n": "Pajama Shorts Pink",
+   "p": 155000,
+   "d": null
+  },
+  {
+   "n": "155,000",
+   "p": 117800,
+   "d": 24
+  },
+  {
+   "n": "Slim Henley Neck Waffle Tee",
+   "p": 89000,
+   "d": null
+  },
+  {
+   "n": "89,000",
+   "p": 67640,
+   "d": 24
+  },
+  {
+   "n": "Knitted Gloves Black",
+   "p": 69000,
+   "d": null
+  },
+  {
+   "n": "69,000",
+   "p": 52440,
+   "d": 24
+  },
+  {
+   "n": "THIS IS FINE Applique Hoodie Black",
+   "p": 135000,
+   "d": null
+  },
+  {
+   "n": "135,000",
+   "p": 82080,
+   "d": 39
+  },
+  {
+   "n": "FINE as F Graphic LS Tee White",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "Double Layer Sweatpants Black",
+   "p": 145000,
+   "d": null
+  },
+  {
+   "n": "145,000",
+   "p": 110200,
+   "d": 24
+  },
+  {
+   "n": "Button Sweatpants Sportif Gray",
+   "p": 140000,
+   "d": null
+  },
+  {
+   "n": "Pajama Shorts Blue",
+   "p": 155000,
+   "d": null
+  },
+  {
+   "n": "Quarter-Zip Balloon Pullover Shirt Blue",
+   "p": 125000,
+   "d": null
+  },
+  {
+   "n": "125,000",
+   "p": 95000,
+   "d": 24
+  },
+  {
+   "n": "Pajama Overshirt Floral",
+   "p": 195000,
+   "d": null
+  },
+  {
+   "n": "Pajama Shorts Floral",
+   "p": 155000,
+   "d": null
+  },
+  {
+   "n": "Wide Pajama Trousers Cream",
+   "p": 220000,
+   "d": null
+  },
+  {
+   "n": "220,000",
+   "p": 167200,
+   "d": 24
+  },
+  {
+   "n": "Henley Neck Waffle LS Tee Gray",
+   "p": 110000,
+   "d": null
+  },
+  {
+   "n": "110,000",
+   "p": 66880,
+   "d": 39
+  },
+  {
+   "n": "Recruit Graphic LS Tee White",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "Signature Ball Cap Navy",
+   "p": 59000,
+   "d": null
+  },
+  {
+   "n": "Signature Ball Cap Cream",
+   "p": 59000,
+   "d": null
+  },
+  {
+   "n": "[박현지, 유나겸] Ribbed Sleeveless Top White",
+   "p": 49000,
+   "d": null
+  },
+  {
+   "n": "[박현지] Slim V-neck Stripe Tee Mint",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "Hooded Windbreaker Black",
+   "p": 195000,
+   "d": null
+  },
+  {
+   "n": "Wide Pleated Trousers Black Stripe",
+   "p": 145000,
+   "d": null
+  },
+  {
+   "n": "THIS IS FINE Applique Hoodie Cream",
+   "p": 135000,
+   "d": null
+  },
+  {
+   "n": "Slim Laurels Tee Sportif Gray",
+   "p": 69000,
+   "d": null
+  },
+  {
+   "n": "Can Sleep All Day Cap",
+   "p": 59000,
+   "d": null
+  },
+  {
+   "n": "Baby Cropped Tee Cream",
+   "p": 59000,
+   "d": null
+  },
+  {
+   "n": "Cropped Signature Tee White",
+   "p": 59000,
+   "d": null
+  },
+  {
+   "n": "Knitted Gloves Cream",
+   "p": 69000,
+   "d": null
+  },
+  {
+   "n": "Knitted Beanie Black",
+   "p": 69000,
+   "d": null
+  },
+  {
+   "n": "Knitted Beanie Cream",
+   "p": 69000,
+   "d": null
+  },
+  {
+   "n": "Wide Pajama Trousers Blue",
+   "p": 220000,
+   "d": null
+  },
+  {
+   "n": "Belted Pajama Double Jacket Cream",
+   "p": 310000,
+   "d": null
+  },
+  {
+   "n": "310,000",
+   "p": 235600,
+   "d": 24
+  },
+  {
+   "n": "Belted Pajama Double Jacket Blue",
+   "p": 310000,
+   "d": null
+  },
+  {
+   "n": "Henley Neck Waffle Tee Sand",
+   "p": 99000,
+   "d": null
+  },
+  {
+   "n": "99,000",
+   "p": 60192,
+   "d": 39
+  },
+  {
+   "n": "Henley Neck Waffle Tee Ultramarine",
+   "p": 99000,
+   "d": null
+  },
+  {
+   "n": "Hybrid Shorts Black",
+   "p": 175000,
+   "d": null
+  },
+  {
+   "n": "175,000",
+   "p": 106400,
+   "d": 39
+  },
+  {
+   "n": "Hybrid Shorts Charcoal",
+   "p": 175000,
+   "d": null
+  }
+ ],
+ "id": 117670,
+ "observed_at": "2026-10-29"
+}

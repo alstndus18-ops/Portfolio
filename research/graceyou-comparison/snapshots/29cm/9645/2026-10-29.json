@@ -1,0 +1,648 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/9645",
+ "title": "오호스(OJOS)",
+ "ko": "오호스",
+ "en": "OJOS",
+ "sub": "We are a group that creates a different present with inspiration found in faded things.",
+ "est": 2018,
+ "heart": 38800,
+ "intro": "오호스는 빛바랜 것들에서 발견한 영감으로 색다른 현재를 완성합니다. 제품이 아닌 메시지를 드러내고자 하며, 단순한 진열이 아닌 전시를 지향합니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 49000,
+  "q1": 111000,
+  "med": 158000,
+  "q3": 248000,
+  "p90": 389000,
+  "max": 494000,
+  "mean": 195118
+ },
+ "disc": {
+  "n": 11,
+  "med": 18,
+  "max": 20
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 28,
+  "med": 0,
+  "max": 8,
+  "rated": 14
+ },
+ "rate": 4.7,
+ "tags": {
+  "무료배송": 49,
+  "신상품": 11,
+  "품절": 1
+ },
+ "names": [
+  "Detachable Span Denim Jacket / Charcoal",
+  "Detachable Span Denim Jacket / Khaki",
+  "Raw-Cut Knit Midi Skirt / Charcoal",
+  "Raw-Cut Knit Midi Skirt / Grey",
+  "[OJOS X NEGATIVETHREE] Kimera Knee-High Draping Boots / Dusty Beige",
+  "Detachable Bolero Half Zip-up / Off White",
+  "Curved Cut Layered Tee / Black",
+  "Utility Loop Band Jersey Cap / Black",
+  "Button Denim Mini Skirt / Khaki",
+  "Multistrap Stiletto Heels / Black",
+  "Reversible Check Padded Jacket / Ivory",
+  "Raw-Cut Cropped Knit Jacket / Charcoal",
+  "Strap Flatseam Long Sleeve Top / Grey",
+  "Light Down Hooded Jacket / Light Yellow",
+  "Reversible Check Padded Jacket / Black",
+  "Hotfix Fur Hoodie Zip-up / Ivory",
+  "Curved Cut Layered Tee / Beige",
+  "Reversible Check Padded Jacket / Grey",
+  "Ruffled Drape Cardigan / Ivory",
+  "Reversible Fleece Bomber Jacket / Beige",
+  "i:e Breathform Running 3 Shorts / Mint",
+  "Reversible Check Padded Jacket / Charcoal",
+  "Reversible Fleece Bomber Jacket / Black",
+  "Detachable Bolero Half Zip-up / Grey",
+  "Detachable Bolero Half Zip-up / Black",
+  "[OJOS X NEGATIVETHREE] Kimera Knee-High Draping Boots / Dusty Grey",
+  "Micro Wool Shorts / Black",
+  "Asym Shearling Wedge Boot / Grey",
+  "Button Slit Track Skirt / Black",
+  "Fleece Lined Nylon Pants / Charcoal",
+  "Detach Panel Knit Hoodie / Black",
+  "Double-Layered Long Sleeve Top / Black",
+  "Starquilt Padded Backpack S / Black",
+  "Paneled Lightweight Windbreaker / Charcoal",
+  "Double Strap Angora Beanie / Black",
+  "Micro Wool Shorts / Grey",
+  "Detach Panel Knit Hoodie / Tan",
+  "Varsity V-Neck Knit Top / Ivory",
+  "i:e Gel Hoodie 02 / Black",
+  "Off-Shoulder Halter Jacket / Stone Brown"
+ ],
+ "cards": [
+  {
+   "n": "Detachable Span Denim Jacket / Charcoal",
+   "p": 150400,
+   "d": 20,
+   "lk": null,
+   "rt": 5,
+   "rv": 8,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Detachable Span Denim Jacket / Khaki",
+   "p": 150400,
+   "d": 20,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Raw-Cut Knit Midi Skirt / Charcoal",
+   "p": 162360,
+   "d": 18,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Raw-Cut Knit Midi Skirt / Grey",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[OJOS X NEGATIVETHREE] Kimera Knee-High Draping Boots / Dusty Beige",
+   "p": 494000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Detachable Bolero Half Zip-up / Off White",
+   "p": 129560,
+   "d": 18,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Curved Cut Layered Tee / Black",
+   "p": 137760,
+   "d": 18,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Utility Loop Band Jersey Cap / Black",
+   "p": 104960,
+   "d": 18,
+   "lk": null,
+   "rt": 3,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Button Denim Mini Skirt / Khaki",
+   "p": 89380,
+   "d": 18,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Multistrap Stiletto Heels / Black",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Reversible Check Padded Jacket / Ivory",
+   "p": 389000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Raw-Cut Cropped Knit Jacket / Charcoal",
+   "p": 188000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Strap Flatseam Long Sleeve Top / Grey",
+   "p": 104960,
+   "d": 18,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Light Down Hooded Jacket / Light Yellow",
+   "p": 389000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Reversible Check Padded Jacket / Black",
+   "p": 389000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Hotfix Fur Hoodie Zip-up / Ivory",
+   "p": 188000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Curved Cut Layered Tee / Beige",
+   "p": 137760,
+   "d": 18,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Reversible Check Padded Jacket / Grey",
+   "p": 389000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Ruffled Drape Cardigan / Ivory",
+   "p": 104960,
+   "d": 18,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Reversible Fleece Bomber Jacket / Beige",
+   "p": 349000,
+   "d": null,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "i:e Breathform Running 3 Shorts / Mint",
+   "p": 108000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Reversible Check Padded Jacket / Charcoal",
+   "p": 389000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Reversible Fleece Bomber Jacket / Black",
+   "p": 349000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Detachable Bolero Half Zip-up / Grey",
+   "p": 158000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Detachable Bolero Half Zip-up / Black",
+   "p": 158000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[OJOS X NEGATIVETHREE] Kimera Knee-High Draping Boots / Dusty Grey",
+   "p": 494000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Micro Wool Shorts / Black",
+   "p": 129000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Asym Shearling Wedge Boot / Grey",
+   "p": 329000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Button Slit Track Skirt / Black",
+   "p": 138000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Fleece Lined Nylon Pants / Charcoal",
+   "p": 148000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Detach Panel Knit Hoodie / Black",
+   "p": 248000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Double-Layered Long Sleeve Top / Black",
+   "p": 108000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Starquilt Padded Backpack S / Black",
+   "p": 158000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Paneled Lightweight Windbreaker / Charcoal",
+   "p": 158400,
+   "d": 20,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Double Strap Angora Beanie / Black",
+   "p": 111000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Micro Wool Shorts / Grey",
+   "p": 129000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "품절"
+   ]
+  },
+  {
+   "n": "Detach Panel Knit Hoodie / Tan",
+   "p": 248000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Varsity V-Neck Knit Top / Ivory",
+   "p": 178000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "i:e Gel Hoodie 02 / Black",
+   "p": 138000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Off-Shoulder Halter Jacket / Stone Brown",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Button Slit Midi Skirt / Mint Grey",
+   "p": 109000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Asym Shearling Wedge Boot / Stone Brown",
+   "p": 329000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Hairy Beanie / Ivory",
+   "p": 49000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Paneled Lightweight Windbreaker / Black",
+   "p": 198000,
+   "d": null,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Starquilt padded Hobo Bag / Grey",
+   "p": 118000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Muffler Knit Halter Top / Charcoal",
+   "p": 69000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Double Strap Angora Beanie / Grey",
+   "p": 111000,
+   "d": null,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Hairy Beanie / Grey",
+   "p": 49000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Flatseam Long Sleeve Top / Pink",
+   "p": 78000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Strap Flatseam Long Sleeve Top / Black",
+   "p": 128000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  }
+ ],
+ "id": 9645,
+ "observed_at": "2026-10-29"
+}

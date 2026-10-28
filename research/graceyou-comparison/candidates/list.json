@@ -1,0 +1,188 @@
+{
+ "slug": "list",
+ "ko": "리스트",
+ "en": "LIST",
+ "status": "후보",
+ "tier": "패션그룹 컨템포러리(29CM 입점)",
+ "tags": [
+  "모던",
+  "페미닌",
+  "캐주얼",
+  "트렌디"
+ ],
+ "found": [
+  "29CM DB 1차",
+  "패션그룹 컨템포러리"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 112921,
+  "off": "https://www.idfmall.co.kr"
+ },
+ "price_source": "29CM",
+ "intro": "트렌드를 감각적으로 해석한 컨템포러리 여성복 브랜드<br/>\n유연한 실루엣과 여성스러운 디테일을 기반으로 일상에서 활용도 높은 룩을 전개",
+ "sub": "일상적이면서 쿨한 애티튜드의 NEW BASIC과 TREND를 조화시킨 컨템포러리 브랜드",
+ "est": 2003,
+ "heart": 964,
+ "off": null,
+ "score": {
+  "k": 4.17,
+  "list_q1": 175583,
+  "list_med": 292875,
+  "list_q3": 537500,
+  "s_price": 65,
+  "s_band": 39,
+  "s_mood": 22,
+  "score": 38,
+  "partial": 55
+ },
+ "evidence": [
+  {
+   "idx": "215317",
+   "date": "2025-02-04",
+   "title": "프랑스 패션 트레이드쇼 ‘리스트 쇼룸 서울’ 개최",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=215317&cat=CAT11F",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "205894",
+   "date": "2023-05-22",
+   "title": "‘퀸잇’ 인기상품",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=205894&cat=CAT330",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "205031",
+   "date": "2023-04-10",
+   "title": "봄 시즌 여성복, ‘트위드가 다 했다’",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=205031&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "201580",
+   "date": "2022-11-02",
+   "title": "올 가을에도 가장 핫한 패션 브랜드는 ‘구찌’",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=201580&cat=CAT160",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "194456",
+   "date": "2021-12-13",
+   "title": "“따라올 테면 따라와 봐”…‘퀸잇’ 초격차 전략 스타트",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=194456&cat=CAT127",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "193202",
+   "date": "2021-10-13",
+   "title": "4050 패션 앱 ‘퀸잇’, 1년 만에 거래액 10배 증가",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=193202&cat=CAT127",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "참고(트렌드·무드 탐색)",
+ "rank": 38,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/112921",
+   "title": "리스트(LIST)",
+   "ko": "리스트",
+   "en": "LIST",
+   "sub": "일상적이면서 쿨한 애티튜드의 NEW BASIC과 TREND를 조화시킨 컨템포러리 브랜드",
+   "est": 2003,
+   "heart": 964,
+   "intro": "트렌드를 감각적으로 해석한 컨템포러리 여성복 브랜드<br/>\n유연한 실루엣과 여성스러운 디테일을 기반으로 일상에서 활용도 높은 룩을 전개",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 20590,
+    "q1": 42140,
+    "med": 70290,
+    "q3": 129000,
+    "p90": 179100,
+    "max": 319000,
+    "mean": 94514
+   },
+   "disc": {
+    "n": 46,
+    "med": 76,
+    "max": 88
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 43,
+    "med": 0,
+    "max": 8,
+    "rated": 17
+   },
+   "rate": 4.73,
+   "tags": {
+    "쿠폰": 12,
+    "조건부 무료배송": 50,
+    "가을 필수": 24,
+    "신상품": 3
+   },
+   "names": [
+    "울 헤어리 투버튼 자켓_TWWJKP82030",
+    "울 베이직 브이넥 니트_TSKPOP82130",
+    "울 터틀넥 래글런 니트_TSKPOP82310",
+    "[다연 Pick] [골드라벨] 소프트 터치 하이넥 래글런 점퍼_TWWJPQ73020",
+    "백 밴딩 투턱 와이드 팬츠_TWWSLP82100",
+    "[골드라벨] 백 슬릿 A라인 스커트_TWWSKQ73020",
+    "울 백 슬릿 H라인 스커트_TWWSKQ72070",
+    "울 트위드 싱글 카라 자켓_TWWJKP72100",
+    "벨벳 H라인 스커트_TWWSKP82090",
+    "울 패치 포켓 라운드넥 자켓_TWWJKQ72070",
+    "[다연 Pick] [골드라벨] 소프트 터치 밴딩 카라 점퍼_TWWJPQ73010",
+    "히든 원턱 스트레이트 팬츠_TWWSLQ72720",
+    "울 테일러드 싱글 투버튼 자켓_TWWJKQ82020",
+    "[다연 Pick] 베이직 라운드넥 니트 풀오버_TSKPOQ72010",
+    "울 핸드메이드 블루종 자켓_TWHJKP82030",
+    "스트라이프 카라 티셔츠_TSJTSP72050",
+    "울 블렌드 라운드넥 가디건_TSKCDP82040",
+    "울 하이넥 핸드메이드 코트_TWHCTQ82080",
+    "울 베이직 라운드넥 가디건_TSKCDP82020",
+    "울 백 플랩 핸드메이드 롱 코트_TWHCTP82080",
+    "코듀로이 테일러드 싱글 자켓_TWWJKQ72080",
+    "울 핸드메이드 하프 맥코트_TWHCTP82110",
+    "레더 카라 블루종 점퍼_TWWJPP72010",
+    "울 카라 더블 하프 코트_TWHCTP82180",
+    "투버튼 크롭 셋업 자켓_TWSJKP50040",
+    "모던 오픈 카라 셋업 자켓_TWSJKQ72030",
+    "코듀로이 백 슬릿 롱 스커트_TWWSKQ82100",
+    "플리츠 미디 스커트_TWWSKP62080",
+    "코듀로이 원턱 와이드 팬츠_TWWSLP82080",
+    "니트 H라인 롱 스커트_TSKSKQ72010",
+    "울 혼방 터틀넥 골지 니트_TSKPOP82810",
+    "울 블렌드 라운드넥 크롭 니트_TSKPOP82040",
+    "데일리 슬림 데님 팬츠_TSMSLP72020",
+    "울 브이넥 래글런 니트 풀오버_TSKPOQ82020",
+    "넥 포인트 리브드 니트_TSKPOP52030",
+    "미니 플리츠 스커트_TWWSKP52050",
+    "울 머플러 핸드메이드 자켓_TWHJKQ82040",
+    "벨벳 플레어 롱 스커트_TWWSKP82030",
+    "울 베이직 브이넥 니트_TSKPOP80030",
+    "[골드라벨] 투턱 와이드 스트레이트 팬츠_TWWSLQ63040"
+   ],
+   "id": 112921,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": null
+ }
+}

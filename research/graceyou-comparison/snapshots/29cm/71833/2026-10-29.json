@@ -1,0 +1,693 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/71833",
+ "title": "씨타(CITTA)",
+ "ko": "씨타",
+ "en": "CITTA",
+ "sub": "캐주얼하지만 시크한, 클래식하지만 진부하지 않은, 빈티지와 모던함이 조화로운 아이템을 선보입니다.",
+ "est": 2023,
+ "heart": 30539,
+ "intro": "CITTA는 편안한 실루엣에 감각적인 포인트 컬러를 더해, 쉽지만 평범하지 않은 도시의 스타일을 제안합니다.</br>\n자연스럽게 힘을 뺀 균형 속에서 CITTA만의 쿨하고 선명한 무드를 완성합니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 17750,
+  "q1": 29310,
+  "med": 48600,
+  "q3": 68630,
+  "p90": 114380,
+  "max": 153390,
+  "mean": 54944
+ },
+ "disc": {
+  "n": 50,
+  "med": 43,
+  "max": 62
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 3585,
+  "med": 29,
+  "max": 554,
+  "rated": 48
+ },
+ "rate": 4.71,
+ "tags": {
+  "쿠폰": 50,
+  "조건부 무료배송": 50,
+  "단독": 4,
+  "신상품": 1
+ },
+ "names": [
+  "[소담,유미 pick]Daily Soft Slim Raglan Tee_CTT3039(6color)",
+  "[29CM 단독]Essential Lounge Maxi Skirt_CTS625(6color)",
+  "[29EDITION X 설쁘][SET]Signature Logo Vintage Hoodie Zip-Up Set-Up(4color)",
+  "[29CM 단독컬러][재이 pick]Number 23 Raglan Off-Shoulder T-Shirt_CTT3002(5color)",
+  "Soft Roll-Up Cuff Knit Hood Zip-up_CTK279(3color)",
+  "Classic Loose Fit Corduroy Boot-cut Pants_CTB533(5color)",
+  "Toggle Point Fur Coat_CTO149(3color)",
+  "[29CM 단독컬러] Soft Cotton Relaxed Raglan T-Shirt_CTT391(5color)",
+  "[29EDITION X 설쁘]Blur Bloom Satin Maxi Skirt_CTS636(2color)",
+  "Every Day Comfort Long Skirt_CTS618(10color)",
+  "Wool Blend Comfort-Fit Waffle Long-sleeve T-shirt_CTT392(5color)",
+  "[Assential]Basic Slim Boat Neck T-Shirt_CTT333(Ivory)",
+  "Everyday Wool Blend Beanie_CTA943(5color)",
+  "[16차 리오더][진현 pick]Signature Logo Knit Hair Band_CTA929(5color)",
+  "Tencel Deep V Neck T-Shirt_CTT3031(3color)",
+  "Every Day Relaxed Boot-cut Trousers_CTB504(Black)",
+  "[다나 pick]Raglan Number 23 T-Shirt_CTT349(6color)",
+  "Every Day Soft Vneck Knit_CTK260(4color)",
+  "[재이 pick]Every Day Comfort Long Skirt (FW)_CTS623(5color)",
+  "Urban Field Maxi Safari Coat_CTO143(4color)",
+  "[29EDITION X 설쁘]Signature Logo Vintage Hoodie Zip-Up_CTO157(4color)",
+  "[SET][다나 pick]Essential Wool Round Knit Cardigan Set Up(8color)",
+  "[소담,재이 pick]Multi-Stripe Knit Beanie_CTA960(Charcoal)",
+  "Daily Soft Relaxed Boat-Neck Knit_CTK282(4color)",
+  "[29EDITION X 설쁘]Signature Logo Vintage Sweatpants_CTB581(4color)",
+  "[유미 pick][29CM 단독컬러]Deep U-Neck Wool Knit_CTK276(5color)",
+  "[29EDITION X 설쁘]Essential Waffle Maxi Skirt_CTS635(4color)",
+  "Every Day Wool Off-shoulder Knit_CTK252(4color)",
+  "[29EDITION X 설쁘]Essential Boat Neck Half Sleeve T-shirt_CTT3038(4color)",
+  "[SET]Signature Logo Half Zip-up Fleece Set-up(4color)",
+  "Multi-Stripe Knit Beanie_CTA960(Burgundy)",
+  "Citta Logo Basic Hood Knit_CTK214(5color)",
+  "Hook and Eye Henley T-Shirt_CTT3032(Mint)",
+  "Chain Stich Logo Sweatshirts_CTT309(Oatmeal)",
+  "Wool Blended Heavy Brush Knit Hood Zip-up_CTK243(Beige)",
+  "[다나 pick]Multi-Stripe Knit Beanie_CTA960(Blue)",
+  "Soft Multi Stripe Collar Knit_CTK261(2color)",
+  "Contrast Stitch Soft U-neck Long Sleeve T-Shirt_CTT393(8color)",
+  "[설쁘 pick]Oversized Faux Leather Car Coat_CTO158(Black)",
+  "Side Patch Pocket Cargo Pants_CTD431(Khaki)"
+ ],
+ "cards": [
+  {
+   "n": "[소담,유미 pick]Daily Soft Slim Raglan Tee_CTT3039(6color)",
+   "p": 26780,
+   "d": 40,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 173,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[29CM 단독]Essential Lounge Maxi Skirt_CTS625(6color)",
+   "p": 34700,
+   "d": 41,
+   "lk": null,
+   "rt": null,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[29EDITION X 설쁘][SET]Signature Logo Vintage Hoodie Zip-Up Set-Up(4color)",
+   "p": 114380,
+   "d": 47,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 71,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[29CM 단독컬러][재이 pick]Number 23 Raglan Off-Shoulder T-Shirt_CTT3002(5color)",
+   "p": 29800,
+   "d": 47,
+   "lk": null,
+   "rt": 5,
+   "rv": 554,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "Soft Roll-Up Cuff Knit Hood Zip-up_CTK279(3color)",
+   "p": 71990,
+   "d": 36,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 18,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Classic Loose Fit Corduroy Boot-cut Pants_CTB533(5color)",
+   "p": 48600,
+   "d": 45,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 116,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Toggle Point Fur Coat_CTO149(3color)",
+   "p": 135580,
+   "d": 50,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 23,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[29CM 단독컬러] Soft Cotton Relaxed Raglan T-Shirt_CTT391(5color)",
+   "p": 36500,
+   "d": 45,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 320,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[29EDITION X 설쁘]Blur Bloom Satin Maxi Skirt_CTS636(2color)",
+   "p": 69440,
+   "d": 36,
+   "lk": null,
+   "rt": 5,
+   "rv": 56,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Every Day Comfort Long Skirt_CTS618(10color)",
+   "p": 32630,
+   "d": 45,
+   "lk": null,
+   "rt": null,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Wool Blend Comfort-Fit Waffle Long-sleeve T-shirt_CTT392(5color)",
+   "p": 29310,
+   "d": 45,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 469,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[Assential]Basic Slim Boat Neck T-Shirt_CTT333(Ivory)",
+   "p": 21840,
+   "d": 44,
+   "lk": null,
+   "rt": 5,
+   "rv": 121,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Everyday Wool Blend Beanie_CTA943(5color)",
+   "p": 17750,
+   "d": 54,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[16차 리오더][진현 pick]Signature Logo Knit Hair Band_CTA929(5color)",
+   "p": 17830,
+   "d": 53,
+   "lk": null,
+   "rt": 5,
+   "rv": 279,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Tencel Deep V Neck T-Shirt_CTT3031(3color)",
+   "p": 29290,
+   "d": 38,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 29,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Every Day Relaxed Boot-cut Trousers_CTB504(Black)",
+   "p": 26090,
+   "d": 62,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 99,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[다나 pick]Raglan Number 23 T-Shirt_CTT349(6color)",
+   "p": 31810,
+   "d": 46,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 251,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Every Day Soft Vneck Knit_CTK260(4color)",
+   "p": 26020,
+   "d": 56,
+   "lk": null,
+   "rt": 4,
+   "rv": 25,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[재이 pick]Every Day Comfort Long Skirt (FW)_CTS623(5color)",
+   "p": 33810,
+   "d": 51,
+   "lk": null,
+   "rt": 5,
+   "rv": 133,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Urban Field Maxi Safari Coat_CTO143(4color)",
+   "p": 133840,
+   "d": 44,
+   "lk": null,
+   "rt": 5,
+   "rv": 36,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[29EDITION X 설쁘]Signature Logo Vintage Hoodie Zip-Up_CTO157(4color)",
+   "p": 79630,
+   "d": 36,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[SET][다나 pick]Essential Wool Round Knit Cardigan Set Up(8color)",
+   "p": 54750,
+   "d": 45,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 48,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[소담,재이 pick]Multi-Stripe Knit Beanie_CTA960(Charcoal)",
+   "p": 27090,
+   "d": 40,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Daily Soft Relaxed Boat-Neck Knit_CTK282(4color)",
+   "p": 47010,
+   "d": 40,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[29EDITION X 설쁘]Signature Logo Vintage Sweatpants_CTB581(4color)",
+   "p": 63070,
+   "d": 36,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 9,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[유미 pick][29CM 단독컬러]Deep U-Neck Wool Knit_CTK276(5color)",
+   "p": 53460,
+   "d": 36,
+   "lk": null,
+   "rt": 5,
+   "rv": 35,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[29EDITION X 설쁘]Essential Waffle Maxi Skirt_CTS635(4color)",
+   "p": 37590,
+   "d": 36,
+   "lk": null,
+   "rt": 5,
+   "rv": 49,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Every Day Wool Off-shoulder Knit_CTK252(4color)",
+   "p": 55440,
+   "d": 44,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[29EDITION X 설쁘]Essential Boat Neck Half Sleeve T-shirt_CTT3038(4color)",
+   "p": 28670,
+   "d": 36,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 34,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[SET]Signature Logo Half Zip-up Fleece Set-up(4color)",
+   "p": 97910,
+   "d": 48,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 15,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Multi-Stripe Knit Beanie_CTA960(Burgundy)",
+   "p": 27090,
+   "d": 40,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Citta Logo Basic Hood Knit_CTK214(5color)",
+   "p": 55330,
+   "d": 47,
+   "lk": null,
+   "rt": 5,
+   "rv": 135,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Hook and Eye Henley T-Shirt_CTT3032(Mint)",
+   "p": 31900,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Chain Stich Logo Sweatshirts_CTT309(Oatmeal)",
+   "p": 52990,
+   "d": 39,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 60,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Wool Blended Heavy Brush Knit Hood Zip-up_CTK243(Beige)",
+   "p": 131670,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[다나 pick]Multi-Stripe Knit Beanie_CTA960(Blue)",
+   "p": 27090,
+   "d": 40,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Soft Multi Stripe Collar Knit_CTK261(2color)",
+   "p": 49220,
+   "d": 45,
+   "lk": null,
+   "rt": 5,
+   "rv": 30,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Contrast Stitch Soft U-neck Long Sleeve T-Shirt_CTT393(8color)",
+   "p": 21300,
+   "d": 45,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 99,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[설쁘 pick]Oversized Faux Leather Car Coat_CTO158(Black)",
+   "p": 153390,
+   "d": 38,
+   "lk": null,
+   "rt": 5,
+   "rv": 8,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Side Patch Pocket Cargo Pants_CTD431(Khaki)",
+   "p": 77260,
+   "d": 38,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[다나 pick]Essential Wool Round Knit Cardigan_CTK238(8color)",
+   "p": 39610,
+   "d": 43,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 81,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Linen Blend Utility Field Jacket_CTO155(4color)",
+   "p": 102310,
+   "d": 45,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 53,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Daily Garment-Dyed Loose Bootcut Pants_CTD432(Purple)",
+   "p": 63120,
+   "d": 36,
+   "lk": null,
+   "rt": 5,
+   "rv": 11,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Satin Layered Lace Slip Dress_CTOP714(2color)",
+   "p": 68630,
+   "d": 47,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 18,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Hook and Eye Henley T-Shirt_CTT3032(Charcoal)",
+   "p": 31900,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Signature Logo Anorak Sweatshirt_CTT3011(White Melange)",
+   "p": 39130,
+   "d": 43,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 14,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Daily Garment-Dyed Loose Bootcut Pants_CTD432(Khaki)",
+   "p": 63120,
+   "d": 36,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[29EDITION X 설쁘]Sheer Stripe Collar Wool Knit_CTK277(4color)",
+   "p": 59250,
+   "d": 36,
+   "lk": null,
+   "rt": 5,
+   "rv": 30,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Wool Blended 3-Piece Knit Set_CTK249(4color)",
+   "p": 81740,
+   "d": 41,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 19,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Essential Leg Warmer Layerd Pants_CTB558(Charcoal)",
+   "p": 58520,
+   "d": 38,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 18,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 71833,
+ "observed_at": "2026-10-29"
+}

@@ -1,0 +1,257 @@
+{
+ "slug": "shesmiss",
+ "ko": "쉬즈미스",
+ "en": "SHESMISS",
+ "status": "확정",
+ "tier": "패션그룹 컨템포러리(29CM 입점)",
+ "tags": [
+  "모던",
+  "페미닌",
+  "엘레강스",
+  "오피스",
+  "데일리"
+ ],
+ "found": [
+  "29CM DB 1차",
+  "패션그룹 컨템포러리"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 112920,
+  "off": "https://www.idfmall.co.kr"
+ },
+ "price_source": "29CM",
+ "intro": "도시적 감성과 세련된 페미닌 무드를 기반으로 한 여성복 브랜드<br/>\n정제된 실루엣과 안정적인 퀄리티를 구현하며, 오피스부터 데일리까지 폭넓은 스타일링 제안",
+ "sub": "MODERN & CHIC 컨템포러리 무드의 고감도 컨셉 브랜드",
+ "est": 1997,
+ "heart": 866,
+ "off": {
+  "rows": 101,
+  "styles": 101,
+  "list": {
+   "n": 101,
+   "min": 57000,
+   "q1": 138000,
+   "med": 178000,
+   "q3": 238000,
+   "p90": 298000,
+   "max": 558000,
+   "mean": 196495
+  },
+  "sale": {
+   "n": 101,
+   "min": 39000,
+   "q1": 67200,
+   "med": 84200,
+   "q3": 118200,
+   "p90": 139000,
+   "max": 279000,
+   "mean": 95554
+  },
+  "disc_share": 0.88,
+  "disc_med": 50,
+  "disc_max": 72,
+  "source": "https://www.idfmall.co.kr/product/list.html?cate_no=159 (브랜드 SHESMISS만)",
+  "knit": {
+   "styles": 67,
+   "list": {
+    "n": 67,
+    "min": 57000,
+    "q1": 138000,
+    "med": 178000,
+    "q3": 258000,
+    "p90": 318000,
+    "max": 558000,
+    "mean": 204716
+   },
+   "sale": {
+    "n": 67,
+    "min": 50200,
+    "q1": 75700,
+    "med": 89000,
+    "q3": 127850,
+    "p90": 159000,
+    "max": 279000,
+    "mean": 103973
+   },
+   "disc_share": 0.85,
+   "disc_med": 50
+  }
+ },
+ "score": {
+  "k": 3.45,
+  "list_q1": 196552,
+  "list_med": 261138,
+  "list_q3": 364793,
+  "s_price": 78,
+  "s_band": 43,
+  "s_mood": 50,
+  "score": 57,
+  "partial": 64
+ },
+ "evidence": [
+  {
+   "idx": "227154",
+   "date": "2026-08-25",
+   "title": "쉬즈미스, 2026 FW '현대적 클래식' 강조…아우터 라인업 강화",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=227154&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "206543",
+   "date": "2023-07-03",
+   "title": "‘퀸잇’ 인기상품",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=206543&cat=CAT330",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "205894",
+   "date": "2023-05-22",
+   "title": "‘퀸잇’ 인기상품",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=205894&cat=CAT330",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "205031",
+   "date": "2023-04-10",
+   "title": "봄 시즌 여성복, ‘트위드가 다 했다’",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=205031&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "193202",
+   "date": "2021-10-13",
+   "title": "4050 패션 앱 ‘퀸잇’, 1년 만에 거래액 10배 증가",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=193202&cat=CAT127",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "180573",
+   "date": "2020-01-23",
+   "title": "백화점, 여성복 ‘줄이고 합치고’",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=180573&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "81581",
+   "date": "2016-07-22",
+   "title": "여성 커리어 외형 확대 전략 편다",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=81581&cat=CAT900",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "162127",
+   "date": "2016-07-19",
+   "title": "百 커리어 단일 브랜드 외형 확대",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=162127&cat=CAT900",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "직접 경쟁(확정)",
+ "rank": 4,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/112920",
+   "title": "쉬즈미스(SHESMISS)",
+   "ko": "쉬즈미스",
+   "en": "SHESMISS",
+   "sub": "MODERN & CHIC 컨템포러리 무드의 고감도 컨셉 브랜드",
+   "est": 1997,
+   "heart": 866,
+   "intro": "도시적 감성과 세련된 페미닌 무드를 기반으로 한 여성복 브랜드<br/>\n정제된 실루엣과 안정적인 퀄리티를 구현하며, 오피스부터 데일리까지 폭넓은 스타일링 제안",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 23600,
+    "q1": 57000,
+    "med": 75730,
+    "q3": 105790,
+    "p90": 157650,
+    "max": 259000,
+    "mean": 87824
+   },
+   "disc": {
+    "n": 45,
+    "med": 71,
+    "max": 84
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 47,
+    "med": 0,
+    "max": 21,
+    "rated": 12
+   },
+   "rate": 4.97,
+   "tags": {
+    "쿠폰": 9,
+    "조건부 무료배송": 50,
+    "가을 필수": 22,
+    "신상품": 6
+   },
+   "names": [
+    "페이크 퍼 라운드넥 자켓_SWFJKP42010",
+    "스웨이드 H라인 롱 스커트_SWWSKQ32080",
+    "울 혼방 헤어리 싱글 자켓_SWWJKP42020",
+    "[골드라벨] 하이넥 핸드메이드 자켓_SWHJKQ43030",
+    "[골드라벨] 프론트 슬릿 H라인 롱 스커트_SWWSKQ33010",
+    "울 블렌드 백 슬릿 롱 스커트_SWHSKQ42010",
+    "[이환 Pick] [골드라벨] 레더 집업 블루종 점퍼_SWWJPQ33010",
+    "세미 부츠컷 크롭 데님 팬츠_SSMSLP42050",
+    "울 체크 H라인 롱 스커트_SWWSKQ32700",
+    "울 벨티드 핸드메이드 롱 코트_SWHCTP42151",
+    "[골드라벨] 울 숄카라 핸드메이드 자켓_SWHJKQ43010",
+    "백 슬릿 H라인 미디 스커트_SWWSKQ42050",
+    "울 체크 투 버튼 자켓_SWWJKQ32700",
+    "밴딩 플레어 롱 스커트_SWWSKQ22020",
+    "울 블렌드 모크넥 니트 원피스_SSKOPQ32010",
+    "스트레이트 데님 팬츠_SSMSLP32050",
+    "울 타이넥 솔리드 풀오버_SSKPOQ42190",
+    "울 하프넥 집업 가디건_SSKCDP42020",
+    "[이환 Pick] 펜슬 미디 셋업 스커트_SWSSKQ32030",
+    "코듀로이 텍스처 슬릿 롱 밴딩 스커트_SWWSKP42800",
+    "울 싱글 핸드메이드 롱 코트_SWHCTP41110",
+    "벨티드 건플랩 트렌치 코트_SWWBYQ12030",
+    "[골드라벨] 울 블렌드 숄 세트 가디건_SSKCDQ43020",
+    "슬릿 H라인 롱 스커트_SWWSKQ32040",
+    "[골드라벨] 울 후드 집업 니트 베스트_SSKVTQ43010",
+    "하프넥 페이크 퍼 밴딩 자켓_SWFJKP41010",
+    "[골드라벨] 울 래글런 라운드넥 니트_SSKPOQ43010",
+    "라운드넥 버튼 케이프 가디건_SSKCDQ32030",
+    "소프트터치 라운드넥 크롭 자켓_SWWJKQ32080",
+    "[블랙라벨] 코듀로이 H라인 스커트_SWWSKQ34800",
+    "울 알파카 라운드넥 핸드메이드 자켓_SWHJKQ42020",
+    "라운드넥 타이넥 블라우스_SWWBLQ42010",
+    "[골드라벨] 울 블렌드 하프 맥 코트_SWHCTQ43080",
+    "[골드라벨] 코튼 체크 패턴 셔츠_SWWSTQ33010",
+    "하프넥 래글런 니트 풀오버_SSKPOP42120",
+    "하이넥 루즈핏 니트_SSKPOP42150",
+    "백 밴딩 슬림 스트레이트 팬츠_SWWSLQ22200",
+    "카울넥 드레이프 티셔츠_SSJTSQ12010",
+    "싱글 버튼 라인 자켓_SWWJKP11040",
+    "베이직 크루넥 니트 풀오버_SSKPOP42530"
+   ],
+   "id": 112920,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": null
+ }
+}

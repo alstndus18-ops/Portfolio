@@ -1,0 +1,737 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/3421",
+ "title": "틸아이다이(TILLIDIE)",
+ "ko": "틸아이다이",
+ "en": "TILLIDIE",
+ "sub": "컨템포러리 우먼 패션 브랜드",
+ "est": 2018,
+ "heart": 193224,
+ "intro": "\"stay with you for a long time\"\n틸아이다이는 시간이 지나도 변치 않는 가치를 담아, 당신의 일상에 깊이 스며드는 브랜드입니다. 클래식함을 기반으로 하되, 현대적이고 유연한 시선으로 새롭게 재해석한 아이템들을 선보입니다. 하나의 디테일까지도 우리의 정체성을 담아내며, 단순한 소유를 넘어 당신의 삶에 특별한 순간을 더해가고자 합니다. 평범한 하루가 아름다운 기억으로 빛나는 찰나에, 우리가 당신과 오랜 시간 함께하길 바랍니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 34850,
+  "q1": 86740,
+  "med": 107070,
+  "q3": 179720,
+  "p90": 231570,
+  "max": 305150,
+  "mean": 132068
+ },
+ "disc": {
+  "n": 50,
+  "med": 17,
+  "max": 31
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 4566,
+  "med": 16,
+  "max": 726,
+  "rated": 45
+ },
+ "rate": 4.82,
+ "tags": {
+  "쿠폰": 50,
+  "조건부 무료배송": 50,
+  "신상품": 4,
+  "가을 필수": 45
+ },
+ "names": [
+  "[다연 Pick]Wool 100 handmade half coat [TIWT04CT01]_Light beige",
+  "[29CM 단독]Fleece check half zip hoodie [TIWT06LT05]_Gray",
+  "[주미니 Pick]Raglan oversized modal tee [TIFA06LT06]_Navy",
+  "Soft pleated long scarf [TIFA05AC04]_Ivory",
+  "[여울 Pick]Classic collar point quilting jumper [TIWT02JP02]_2color",
+  "[29CM 단독]Wool blend teddy jumper [TIWT06JP04]_Gray",
+  "Soft pleated long scarf [TIFA05AC05]_Black",
+  "Wool cashmere V neck knit set [TIFA05SW04]_Ivory",
+  "Wool blend hairy cardigan [TIWT04CD08]_Charcoal",
+  "Faux leather pocket jacket_Black",
+  "[오제 PICK]BRUSHED ZIP UP MTM [TIFA04LT03]_Melange",
+  "Raglan oversized modal tee [TIFA06LT04]_Ivory",
+  "[여울 Pick]Scarf tie detail blouse [TISP05BL03]_Ivory",
+  "Waffle fleece half zip-up [TIWT04LT03]_Blue",
+  "[29CM 단독]Fleece check half zip hoodie [TIWT06LT06]_Wine",
+  "BRUSHED ZIP UP MTM [TIFA04LT04]_Red",
+  "Crispy compact wind breaker jumper_Black",
+  "[오제 PICK]Leather quilting high neck blouson [TIFA06LE01]_Black",
+  "Wool blend hairy cardigan [TIWT04CD06]_Yellow",
+  "[여울 Pick]Stella wool jacket_3color",
+  "[여울 Pick]Over-Fit utility jacket [TISP05JK09]_Stone beige",
+  "Soft warm quilting jacket_Navy",
+  "[오제 PICK]Raglan oversized modal tee [TIFA06LT05]_Blue",
+  "[29CM 단독]Wool blend teddy jumper [TIWT06JP03]_Ivory",
+  "[오제 PICK]Merino argyle loose knit [TIWT04SW03]_Gray",
+  "[여울 Pick]Suede double collar jumper [TIFA05LE04]_Stone beige",
+  "Natural crack leather blouson_Brown",
+  "[여울 Pick]Wool cashmere V neck knit set [TIFA05SW05]_Mint",
+  "[다연 Pick] H-line belt set skirt [TIFA05SK01]_Charcoal",
+  "Cargo dyeing denim pants [TISP06DP01]_Beige",
+  "STRIPE COTTON TEE [TIFA04LT05]_Gray",
+  "Belt set pleats skirt[3color]",
+  "Italian leather classic plain belt[3color]",
+  "Stripe soft touch T-shirt_Black",
+  "Waffle check henley sweatshirt [TIFA05LT06]_Oatmeal",
+  "Wool stretch scarf t-shirt [TIFA06LT08]_Charcoal",
+  "[다연 Pick] Fur reversible jumper [TIWT04JP01]_Cream",
+  "Ryker corduroy collar padding_Black",
+  "[사이즈추가]Reversible suede mustang_Beige",
+  "String belt natural leather jacket_Black"
+ ],
+ "cards": [
+  {
+   "n": "[다연 Pick]Wool 100 handmade half coat [TIWT04CT01]_Light beige",
+   "p": 301750,
+   "d": 15,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[29CM 단독]Fleece check half zip hoodie [TIWT06LT05]_Gray",
+   "p": 86740,
+   "d": 31,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[주미니 Pick]Raglan oversized modal tee [TIFA06LT06]_Navy",
+   "p": 64600,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 184,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Soft pleated long scarf [TIFA05AC04]_Ivory",
+   "p": 34850,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 16,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[여울 Pick]Classic collar point quilting jumper [TIWT02JP02]_2color",
+   "p": 190070,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 101,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[29CM 단독]Wool blend teddy jumper [TIWT06JP04]_Gray",
+   "p": 179720,
+   "d": 31,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Soft pleated long scarf [TIFA05AC05]_Black",
+   "p": 34850,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 14,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Wool cashmere V neck knit set [TIFA05SW04]_Ivory",
+   "p": 113710,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 60,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Wool blend hairy cardigan [TIWT04CD08]_Charcoal",
+   "p": 107070,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Faux leather pocket jacket_Black",
+   "p": 173470,
+   "d": 17,
+   "lk": null,
+   "rt": null,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[오제 PICK]BRUSHED ZIP UP MTM [TIFA04LT03]_Melange",
+   "p": 90470,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 12,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Raglan oversized modal tee [TIFA06LT04]_Ivory",
+   "p": 64600,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 34,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[여울 Pick]Scarf tie detail blouse [TISP05BL03]_Ivory",
+   "p": 92130,
+   "d": 17,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 47,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Waffle fleece half zip-up [TIWT04LT03]_Blue",
+   "p": 107070,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[29CM 단독]Fleece check half zip hoodie [TIWT06LT06]_Wine",
+   "p": 86740,
+   "d": 31,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "BRUSHED ZIP UP MTM [TIFA04LT04]_Red",
+   "p": 90470,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Crispy compact wind breaker jumper_Black",
+   "p": 149400,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 295,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[오제 PICK]Leather quilting high neck blouson [TIFA06LE01]_Black",
+   "p": 202540,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 17,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Wool blend hairy cardigan [TIWT04CD06]_Yellow",
+   "p": 107070,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[여울 Pick]Stella wool jacket_3color",
+   "p": 177620,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 114,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[여울 Pick]Over-Fit utility jacket [TISP05JK09]_Stone beige",
+   "p": 186270,
+   "d": 19,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 87,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Soft warm quilting jacket_Navy",
+   "p": 192560,
+   "d": 17,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 303,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[오제 PICK]Raglan oversized modal tee [TIFA06LT05]_Blue",
+   "p": 64600,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 17,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[29CM 단독]Wool blend teddy jumper [TIWT06JP03]_Ivory",
+   "p": 179720,
+   "d": 31,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[오제 PICK]Merino argyle loose knit [TIWT04SW03]_Gray",
+   "p": 108730,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[여울 Pick]Suede double collar jumper [TIFA05LE04]_Stone beige",
+   "p": 218810,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Natural crack leather blouson_Brown",
+   "p": 231570,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 355,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[여울 Pick]Wool cashmere V neck knit set [TIFA05SW05]_Mint",
+   "p": 113710,
+   "d": 17,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 14,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[다연 Pick] H-line belt set skirt [TIFA05SK01]_Charcoal",
+   "p": 87980,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 18,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Cargo dyeing denim pants [TISP06DP01]_Beige",
+   "p": 87150,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 51,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "STRIPE COTTON TEE [TIFA04LT05]_Gray",
+   "p": 38250,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 30,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Belt set pleats skirt[3color]",
+   "p": 90470,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 370,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Italian leather classic plain belt[3color]",
+   "p": 57480,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 726,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Stripe soft touch T-shirt_Black",
+   "p": 36550,
+   "d": 15,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 659,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Waffle check henley sweatshirt [TIFA05LT06]_Oatmeal",
+   "p": 84150,
+   "d": 15,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 15,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Wool stretch scarf t-shirt [TIFA06LT08]_Charcoal",
+   "p": 74140,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[다연 Pick] Fur reversible jumper [TIWT04JP01]_Cream",
+   "p": 219950,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Ryker corduroy collar padding_Black",
+   "p": 149800,
+   "d": 20,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 70,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[사이즈추가]Reversible suede mustang_Beige",
+   "p": 305150,
+   "d": 15,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 417,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "String belt natural leather jacket_Black",
+   "p": 190070,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 384,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "CASHMERE BLENDED WOOL CARDIGAN [TIFA04CD03]_Light gray",
+   "p": 90470,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 10,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Stripe soft touch T-shirt_Ivory",
+   "p": 36550,
+   "d": 15,
+   "lk": null,
+   "rt": null,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Wool 100 handmade half coat [TIWT04CT03]_Black",
+   "p": 301750,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "BRUSHED ZIP UP MTM [TIFA04LT01]_Cream",
+   "p": 88670,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[다연 Pick][스크런치 SET] Check overfit shirt jacket set [TIFA05SH03]_Navy",
+   "p": 100430,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 28,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Wool 100 handmade half coat [TIWT04CT02]_Butter",
+   "p": 301750,
+   "d": 15,
+   "lk": null,
+   "rt": 4,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[다연 Pick] Classic belted trench coat [TIFA05CT03]_Light beige",
+   "p": 155360,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 17,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Washed cotton high neck jacket [TIFA05JK02]_Navy",
+   "p": 170010,
+   "d": 19,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 13,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Belt set pleats midi skirt_2color",
+   "p": 107300,
+   "d": 23,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 51,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[다연 Pick] Suede a-line mini skirt [TIFA06SK02]_Black",
+   "p": 79050,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 3421,
+ "observed_at": "2026-10-29"
+}

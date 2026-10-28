@@ -1,0 +1,33 @@
+{
+ "slug": "ronron",
+ "ko": "론론",
+ "en": "RONRON",
+ "status": "후보",
+ "tier": "디자이너 컨템포러리",
+ "tags": [],
+ "found": [
+  "DB 디자이너 여성복"
+ ],
+ "note": "가격 미수집",
+ "ids": {},
+ "price_source": "",
+ "intro": "",
+ "sub": "",
+ "est": null,
+ "heart": null,
+ "off": null,
+ "score": {},
+ "evidence": [],
+ "snap_days": {
+  "29cm": [],
+  "wconcept": []
+ },
+ "reviewed": "",
+ "tags_src": "",
+ "role": "미평가(가격 미수집)",
+ "rank": 85,
+ "platform": {
+  "29cm": null,
+  "wconcept": null
+ }
+}

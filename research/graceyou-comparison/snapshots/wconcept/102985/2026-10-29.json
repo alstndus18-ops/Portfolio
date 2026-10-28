@@ -1,0 +1,803 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/102985",
+ "title": "앤유(AND YOU) | W컨셉(W CONCEPT)",
+ "ko": "앤유",
+ "en": "AND YOU",
+ "intro": "Classic looks with fresh color accents - AND YOU AND YOU 앤유 26WT OPEN AND YOU 앤유 26FW 정규 OPEN AND YOU 썸머 CAPSULE COLLECTION 썸머 캡슐 컬렉션 단독 선오픈 W STYLE with HANSSEM The Room with in Her 앤유 26 SUMMER COLLECTION New Classic AND YOU 26SP OPEN AND YOU A Gentle Winter AND YOU 25FW, Serendipity AND YOU 라이프 트래블러의 하루 AND YOU 클래식한 무드와 여성스러운 디테일 하트를 91.3만 개 받았어요 최근 조회수가 7.6만을 넘었어요 베스트 아이템 [5차]나이보더 워싱 데님팬츠 (Beige / 롱,숏 기장추가) 10% 142,200 1 [5차]나이보더 워싱 데님팬츠 (Vintage navy / 롱,숏 기장추가) 10% 142,200 2 페이크 레더 미니 랩스커트 (Black/Chocolate)_2FFUSK04 49% 49,980 3 [11차]BAENGNOKDAM Leather belt (7color) 10% 65,700 4 [3차]나이보",
+ "n": 147,
+ "p": {
+  "min": 1031,
+  "q1": 80240,
+  "med": 134300,
+  "q3": 158000,
+  "p90": 198000,
+  "max": 423300,
+  "mean": 129809
+ },
+ "disc": {
+  "n": 65,
+  "med": 15,
+  "max": 49
+ },
+ "names": [
+  "[5차]나이보더 워싱 데님팬츠 (Beige / 롱,숏 기장추가)",
+  "[5차]나이보더 워싱 데님팬츠 (Vintage navy / 롱,숏 기장추가)",
+  "페이크 레더 미니 랩스커트 (Black/Chocolate)_2FFUSK04",
+  "[11차]BAENGNOKDAM Leather belt (7color)",
+  "[3차]나이보더 워싱 데님 팬츠 (Khaki brown)_2GFUPT53",
+  "[4차]나이보더 워싱 데님팬츠 (Ivory / 롱,숏 기장추가)",
+  "셸란 베이직 코듀로이 쇼츠 (Navy/Chocolate)",
+  "[단독] 더블 하이넥 벨티드 트렌치 코트 (Khaki)_2GFUCT01",
+  "[3차]나이보더 워싱 데님 팬츠 (Deep blue)_2GFUPT53",
+  "리얼 레더 카라 하이넥 울 롱 코트 (Charcoal/Khaki)_2GWUCT05",
+  "버튼업 하이넥 골지 니트 (Brown/Charcoal)_2GWUKN05",
+  "울100 릴렉스핏 래글런 니트 (Melange beige/Khaki brown)_2GFUKN04",
+  "[단독] 울100 릴렉스핏 래글런 니트 (Deep blue)_2GFUKN04",
+  "브이넥 골지 슬림핏 니트 (Charcoal/Ivory/Burgundy)_2GFUKN07",
+  "하이넥 스웨이드 자켓 (Brown/Beige)_2GFUJK04",
+  "링클 벨티드 트렌치 코트 (Light gray)_2GFUCT02",
+  "[단독] 울100 크루넥 골지 니트 (Chocolate)_2GFUKN09",
+  "[단독] 시어 모헤어 크롭 터틀넥 니트 (Melange gray)_2GFUKN08",
+  "클래식 원턱 와이드 윈터 슬랙스 (Gray/Mocha brown)_2GWUPT01",
+  "벨벳 와이드 스트링 스웻 팬츠 (Cream/Black)_2GWUPT02",
+  "[단독] 링클 벨티드 트렌치 코트 (Black)_2GFUCT02",
+  "릴렉스핏 크롭 셔츠 (Light blue/White)_2GFUBL03",
+  "[3차]워시드 코튼 스트레이트핏 팬츠 (Khaki/Blue)_2GMUPT09",
+  "클래식 원턱 와이드 슬랙스 (Brown/Charcoal)_2GFUPT01",
+  "코튼 맥시 스커트 (Dusty olive)_2GFUSK04",
+  "[단독] 코튼 맥시 스커트 (Teal green)_2GFUSK04",
+  "[3차]코튼 맥시 스커트 (Blue)_2GMUSK10",
+  "[3차]코튼 맥시 스커트 (Ivory / 숏기장 추가)",
+  "[3차]코튼 맥시 스커트 (Khaki)_2GMUSK10",
+  "코튼 맥시 스커트 (Beige / 숏기장 추가)",
+  "롱 커프스 루즈핏 셔츠 (Brown stripe/Pink/White)",
+  "시어 모헤어 크롭 터틀넥 니트 (Camel)_2GFUKN08",
+  "[4차]오픈 카라 셔츠 (5col)_2GFUBL09",
+  "[3차]차이나 카라 코튼 셔츠 (Mint/Butter/Light pink/Charcoal gray/Navy)_2GSUBL01",
+  "볼륨 소매 릴렉스핏 반팔 셔츠 (Light butter stripe/Light blue/White navy stripe)_2GMUBL14",
+  "백리스 체크 슬리브리스 원피스 (White/Navy)_2GMUOP11",
+  "[단독]할리우드 셔링 디테일 원피스 (Navy pin stripe)",
+  "[SET] 라운드넥 골지 슬리브리스 니트+라운드넥 골지 니트 가디건 (Pale mint/Olive)",
+  "시스루 릴렉스핏 반팔 셔츠 (White/Light blue/Pale pink)_2GMUBL20",
+  "크롭 반팔 자켓 (White/Black)_2GMUJK06"
+ ],
+ "cards": [
+  {
+   "n": "[5차]나이보더 워싱 데님팬츠 (Beige / 롱,숏 기장추가)",
+   "p": 142200,
+   "d": 10
+  },
+  {
+   "n": "[5차]나이보더 워싱 데님팬츠 (Vintage navy / 롱,숏 기장추가)",
+   "p": 142200,
+   "d": 10
+  },
+  {
+   "n": "페이크 레더 미니 랩스커트 (Black/Chocolate)_2FFUSK04",
+   "p": 49980,
+   "d": 49
+  },
+  {
+   "n": "[11차]BAENGNOKDAM Leather belt (7color)",
+   "p": 65700,
+   "d": 10
+  },
+  {
+   "n": "[3차]나이보더 워싱 데님 팬츠 (Khaki brown)_2GFUPT53",
+   "p": 142200,
+   "d": 10
+  },
+  {
+   "n": "[4차]나이보더 워싱 데님팬츠 (Ivory / 롱,숏 기장추가)",
+   "p": 142200,
+   "d": 10
+  },
+  {
+   "n": "셸란 베이직 코듀로이 쇼츠 (Navy/Chocolate)",
+   "p": 80240,
+   "d": 32
+  },
+  {
+   "n": "[단독] 더블 하이넥 벨티드 트렌치 코트 (Khaki)_2GFUCT01",
+   "p": 253300,
+   "d": 15
+  },
+  {
+   "n": "[3차]나이보더 워싱 데님 팬츠 (Deep blue)_2GFUPT53",
+   "p": 142200,
+   "d": 10
+  },
+  {
+   "n": "리얼 레더 카라 하이넥 울 롱 코트 (Charcoal/Khaki)_2GWUCT05",
+   "p": 423300,
+   "d": 15
+  },
+  {
+   "n": "버튼업 하이넥 골지 니트 (Brown/Charcoal)_2GWUKN05",
+   "p": 134300,
+   "d": 15
+  },
+  {
+   "n": "울100 릴렉스핏 래글런 니트 (Melange beige/Khaki brown)_2GFUKN04",
+   "p": 168000,
+   "d": 15
+  },
+  {
+   "n": "[단독] 울100 릴렉스핏 래글런 니트 (Deep blue)_2GFUKN04",
+   "p": 168300,
+   "d": 15
+  },
+  {
+   "n": "브이넥 골지 슬림핏 니트 (Charcoal/Ivory/Burgundy)_2GFUKN07",
+   "p": 117300,
+   "d": 15
+  },
+  {
+   "n": "하이넥 스웨이드 자켓 (Brown/Beige)_2GFUJK04",
+   "p": 253300,
+   "d": 15
+  },
+  {
+   "n": "링클 벨티드 트렌치 코트 (Light gray)_2GFUCT02",
+   "p": 278800,
+   "d": 15
+  },
+  {
+   "n": "[단독] 울100 크루넥 골지 니트 (Chocolate)_2GFUKN09",
+   "p": 168300,
+   "d": 15
+  },
+  {
+   "n": "[단독] 시어 모헤어 크롭 터틀넥 니트 (Melange gray)_2GFUKN08",
+   "p": 132720,
+   "d": 16
+  },
+  {
+   "n": "클래식 원턱 와이드 윈터 슬랙스 (Gray/Mocha brown)_2GWUPT01",
+   "p": 134300,
+   "d": 15
+  },
+  {
+   "n": "벨벳 와이드 스트링 스웻 팬츠 (Cream/Black)_2GWUPT02",
+   "p": 117300,
+   "d": 15
+  },
+  {
+   "n": "[단독] 링클 벨티드 트렌치 코트 (Black)_2GFUCT02",
+   "p": 278800,
+   "d": 15
+  },
+  {
+   "n": "릴렉스핏 크롭 셔츠 (Light blue/White)_2GFUBL03",
+   "p": 118000,
+   "d": null
+  },
+  {
+   "n": "[3차]워시드 코튼 스트레이트핏 팬츠 (Khaki/Blue)_2GMUPT09",
+   "p": 138000,
+   "d": null
+  },
+  {
+   "n": "클래식 원턱 와이드 슬랙스 (Brown/Charcoal)_2GFUPT01",
+   "p": 134300,
+   "d": 15
+  },
+  {
+   "n": "코튼 맥시 스커트 (Dusty olive)_2GFUSK04",
+   "p": 124200,
+   "d": 10
+  },
+  {
+   "n": "[단독] 코튼 맥시 스커트 (Teal green)_2GFUSK04",
+   "p": 124200,
+   "d": 10
+  },
+  {
+   "n": "[3차]코튼 맥시 스커트 (Blue)_2GMUSK10",
+   "p": 124200,
+   "d": 10
+  },
+  {
+   "n": "[3차]코튼 맥시 스커트 (Ivory / 숏기장 추가)",
+   "p": 124200,
+   "d": 10
+  },
+  {
+   "n": "[3차]코튼 맥시 스커트 (Khaki)_2GMUSK10",
+   "p": 124200,
+   "d": 10
+  },
+  {
+   "n": "코튼 맥시 스커트 (Beige / 숏기장 추가)",
+   "p": 124200,
+   "d": 10
+  },
+  {
+   "n": "롱 커프스 루즈핏 셔츠 (Brown stripe/Pink/White)",
+   "p": 134300,
+   "d": 15
+  },
+  {
+   "n": "시어 모헤어 크롭 터틀넥 니트 (Camel)_2GFUKN08",
+   "p": 134300,
+   "d": 15
+  },
+  {
+   "n": "[4차]오픈 카라 셔츠 (5col)_2GFUBL09",
+   "p": 100300,
+   "d": null
+  },
+  {
+   "n": "[3차]차이나 카라 코튼 셔츠 (Mint/Butter/Light pink/Charcoal gray/Navy)_2GSUBL01",
+   "p": 118000,
+   "d": null
+  },
+  {
+   "n": "볼륨 소매 릴렉스핏 반팔 셔츠 (Light butter stripe/Light blue/White navy stripe)_2GMUBL14",
+   "p": 94656,
+   "d": null
+  },
+  {
+   "n": "백리스 체크 슬리브리스 원피스 (White/Navy)_2GMUOP11",
+   "p": 163560,
+   "d": null
+  },
+  {
+   "n": "[단독]할리우드 셔링 디테일 원피스 (Navy pin stripe)",
+   "p": 207060,
+   "d": null
+  },
+  {
+   "n": "[SET] 라운드넥 골지 슬리브리스 니트+라운드넥 골지 니트 가디건 (Pale mint/Olive)",
+   "p": 179220,
+   "d": null
+  },
+  {
+   "n": "시스루 릴렉스핏 반팔 셔츠 (White/Light blue/Pale pink)_2GMUBL20",
+   "p": 68208,
+   "d": null
+  },
+  {
+   "n": "크롭 반팔 자켓 (White/Black)_2GMUJK06",
+   "p": 154860,
+   "d": null
+  },
+  {
+   "n": "라운드넥 반팔 니트 (Navy/Beige/Charcoal)_2GMUKN22",
+   "p": 88000,
+   "d": null
+  },
+  {
+   "n": "딥 브이넥 니트 (Oatmeal/Black)_2GMUKN25",
+   "p": 74088,
+   "d": null
+  },
+  {
+   "n": "스트링 디테일 셔링 블라우스 (Black/White stripe)_2GMUBL17",
+   "p": 72471,
+   "d": null
+  },
+  {
+   "n": "[2차]코튼 라운드넥 자켓 (Ivory/Light khaki beige)_2GSUJK02",
+   "p": 178000,
+   "d": null
+  },
+  {
+   "n": "[5차]나이보더 워싱 데님팬츠 (Beige / 롱,숏 기장추가)",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "158,000",
+   "p": 142200,
+   "d": 10
+  },
+  {
+   "n": "[5차]나이보더 워싱 데님팬츠 (Vintage navy / 롱,숏 기장추가)",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "[3차]나이보더 워싱 데님 팬츠 (Khaki brown)_2GFUPT53",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "[11차]BAENGNOKDAM Leather belt (7color)",
+   "p": 73000,
+   "d": null
+  },
+  {
+   "n": "73,000",
+   "p": 65700,
+   "d": 10
+  },
+  {
+   "n": "(842)",
+   "p": 5322,
+   "d": null
+  },
+  {
+   "n": "페이크 레더 미니 랩스커트 (Black/Chocolate)_2FFUSK04",
+   "p": 98000,
+   "d": null
+  },
+  {
+   "n": "98,000",
+   "p": 49980,
+   "d": 49
+  },
+  {
+   "n": "[4차]나이보더 워싱 데님팬츠 (Ivory / 롱,숏 기장추가)",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "셸란 베이직 코듀로이 쇼츠 (Navy/Chocolate)",
+   "p": 118000,
+   "d": null
+  },
+  {
+   "n": "118,000",
+   "p": 80240,
+   "d": 32
+  },
+  {
+   "n": "(38)",
+   "p": 1031,
+   "d": null
+  },
+  {
+   "n": "[10차]나이보더 워싱 데님팬츠 (Light indigo / 롱,숏 기장추가)",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "(195)",
+   "p": 2541,
+   "d": null
+  },
+  {
+   "n": "[3차]나이보더 워싱 데님 팬츠 (Deep blue)_2GFUPT53",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "[2차]첼시 세미 부츠컷 데님 팬츠 (Black/Light blue)_2GSUPT05",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "[단독] 더블 하이넥 벨티드 트렌치 코트 (Khaki)_2GFUCT01",
+   "p": 298000,
+   "d": null
+  },
+  {
+   "n": "298,000",
+   "p": 253300,
+   "d": 15
+  },
+  {
+   "n": "[2차]스퀘어 스웨이드 벨트 (Brown/Khaki beige/Beige)_2FFUAB01",
+   "p": 78000,
+   "d": null
+  },
+  {
+   "n": "78,000",
+   "p": 70200,
+   "d": 10
+  },
+  {
+   "n": "[8차]BICERIN Basic T-shirts (Navy/Ivory/Black/Melange gray)",
+   "p": 45000,
+   "d": null
+  },
+  {
+   "n": "45,000",
+   "p": 39150,
+   "d": 13
+  },
+  {
+   "n": "(417)",
+   "p": 2378,
+   "d": null
+  },
+  {
+   "n": "페이크 레더 셔링 봄버 (Black/Chocolate)_2FFUJP01",
+   "p": 268000,
+   "d": null
+  },
+  {
+   "n": "268,000",
+   "p": 136680,
+   "d": 49
+  },
+  {
+   "n": "[9차]WATERLOO Volume sleeve shirt (Blue stripe/Ivory/Sky blue)",
+   "p": 108000,
+   "d": null
+  },
+  {
+   "n": "108,000",
+   "p": 93960,
+   "d": 13
+  },
+  {
+   "n": "(414)",
+   "p": 9741,
+   "d": null
+  },
+  {
+   "n": "[5차]나이보더 워싱 데님팬츠 (Washed black)",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "룬데토른 브이넥 라쿤 니트 (Red/Charcoal)",
+   "p": 138000,
+   "d": null
+  },
+  {
+   "n": "138,000",
+   "p": 70380,
+   "d": 49
+  },
+  {
+   "n": "(137)",
+   "p": 5359,
+   "d": null
+  },
+  {
+   "n": "[4차]나이보더 워싱 데님팬츠 (Mid blue)",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "트라팔가 볼륨 슬리브 울 코트 (Charcoal)",
+   "p": 348000,
+   "d": null
+  },
+  {
+   "n": "348,000",
+   "p": 207060,
+   "d": 40
+  },
+  {
+   "n": "(261)",
+   "p": 7119,
+   "d": null
+  },
+  {
+   "n": "소호 라운드 토 스웨이드 뮬 (Black/Camel)",
+   "p": 178000,
+   "d": null
+  },
+  {
+   "n": "178,000",
+   "p": 160200,
+   "d": 10
+  },
+  {
+   "n": "탁 클래식 테일러드 울 자켓 (Brown)",
+   "p": 298000,
+   "d": null
+  },
+  {
+   "n": "298,000",
+   "p": 150192,
+   "d": 49
+  },
+  {
+   "n": "[4차]오픈 카라 셔츠 (5col)_2GFUBL09",
+   "p": 118000,
+   "d": null
+  },
+  {
+   "n": "118,000",
+   "p": 100300,
+   "d": 15
+  },
+  {
+   "n": "포켓 디테일 데님 셔츠 (Blue stripe/Mid blue/Washed black)_2FFUBL52",
+   "p": 188000,
+   "d": null
+  },
+  {
+   "n": "188,000",
+   "p": 147204,
+   "d": 21
+  },
+  {
+   "n": "배색 포인트 카라 티셔츠 (Ivory)_2FFUTS08",
+   "p": 78000,
+   "d": null
+  },
+  {
+   "n": "78,000",
+   "p": 61074,
+   "d": 21
+  },
+  {
+   "n": "[3차]코튼 맥시 스커트 (Ivory / 숏기장 추가)",
+   "p": 138000,
+   "d": null
+  },
+  {
+   "n": "138,000",
+   "p": 124200,
+   "d": 10
+  },
+  {
+   "n": "[단독] 코튼 맥시 스커트 (Teal green)_2GFUSK04",
+   "p": 138000,
+   "d": null
+  },
+  {
+   "n": "클래식 원턱 와이드 윈터 슬랙스 (Gray/Mocha brown)_2GWUPT01",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "158,000",
+   "p": 134300,
+   "d": 15
+  },
+  {
+   "n": "브이넥 투웨이 니트 가디건 (Camel/Melange gray/Black/Red)_2GSUKN07",
+   "p": 118000,
+   "d": null
+  },
+  {
+   "n": "118,000",
+   "p": 102660,
+   "d": 13
+  },
+  {
+   "n": "플라워 아플리케 미니 스커트 (Burgundy/Charcoal)_2FWUSK13",
+   "p": 108000,
+   "d": null
+  },
+  {
+   "n": "108,000",
+   "p": 70470,
+   "d": 34
+  },
+  {
+   "n": "[단독] 울100 릴렉스핏 래글런 니트 (Deep blue)_2GFUKN04",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 168300,
+   "d": 15
+  },
+  {
+   "n": "[2차]나이보더 워싱 데님팬츠 (Mid wash)_2GSUPT52",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "[3차]코튼 맥시 스커트 (Khaki)_2GMUSK10",
+   "p": 138000,
+   "d": null
+  },
+  {
+   "n": "WATERLOO Volume sleeve shirt (Deep pink/Beige/Beige stripe)",
+   "p": 108000,
+   "d": null
+  },
+  {
+   "n": "108,000",
+   "p": 58968,
+   "d": 45
+  },
+  {
+   "n": "칼스버그 루즈핏 체크 셔츠 (Green check/Blue check)",
+   "p": 138000,
+   "d": null
+  },
+  {
+   "n": "138,000",
+   "p": 90045,
+   "d": 34
+  },
+  {
+   "n": "(135)",
+   "p": 3702,
+   "d": null
+  },
+  {
+   "n": "코튼 맥시 스커트 (Dusty olive)_2GFUSK04",
+   "p": 138000,
+   "d": null
+  },
+  {
+   "n": "[단독] 시어 모헤어 크롭 터틀넥 니트 (Melange gray)_2GFUKN08",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "158,000",
+   "p": 132720,
+   "d": 16
+  },
+  {
+   "n": "핀턱 디테일 슬림핏 티셔츠 (White/Melange gray/Charcoal gray)_2GSUTS07",
+   "p": 58000,
+   "d": null
+  },
+  {
+   "n": "58,000",
+   "p": 39440,
+   "d": 32
+  },
+  {
+   "n": "슬리브리스 점프수트 (Black)_2FFUJS03",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 129195,
+   "d": 34
+  },
+  {
+   "n": "울100 릴렉스핏 래글런 니트 (Melange beige/Khaki brown)_2GFUKN04",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 168000,
+   "d": 15
+  },
+  {
+   "n": "[3차]코튼 맥시 스커트 (Blue)_2GMUSK10",
+   "p": 138000,
+   "d": null
+  },
+  {
+   "n": "니스 발레리나 키튼힐 펌프스 (Red/Black/Ivory)_2GFUAS13",
+   "p": 178000,
+   "d": null
+  },
+  {
+   "n": "프릴 소매 라운드넥 앙고라 니트 (Red/Navy)_2FFUKN05",
+   "p": 118000,
+   "d": null
+  },
+  {
+   "n": "[2차]케이트 스탠다드핏 반팔 티셔츠 (9col)_2GSUTS09",
+   "p": 39000,
+   "d": null
+  },
+  {
+   "n": "[2차]슬림 가죽 벨트 (Olive/Black/Chocolate)_2GSUAB01",
+   "p": 68000,
+   "d": null
+  },
+  {
+   "n": "베니스 레더 플랩 숄더백 (Red/Brown/Black)_2GMUAH07",
+   "p": 218000,
+   "d": null
+  },
+  {
+   "n": "218,000",
+   "p": 185300,
+   "d": 15
+  },
+  {
+   "n": "프릴 디테일 롱 원피스 (Ivory)_2FFUOP01",
+   "p": 218000,
+   "d": null
+  },
+  {
+   "n": "218,000",
+   "p": 142245,
+   "d": 34
+  },
+  {
+   "n": "슬림 스웨이드 벨트 (Brown/Beige)_2GSUAB02",
+   "p": 68000,
+   "d": null
+  },
+  {
+   "n": "68,000",
+   "p": 61200,
+   "d": 10
+  },
+  {
+   "n": "나이보더 워싱 데님팬츠 (Vintage ice blue)_2GSUPT52",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "칼스버그 루즈핏 체크 셔츠 (Light blue check/Navy check)_2GMUBL15",
+   "p": 138000,
+   "d": null
+  },
+  {
+   "n": "138,000",
+   "p": 115920,
+   "d": 16
+  },
+  {
+   "n": "로고 자수 티셔츠 (Ivory stripe/Blue stripe)_2FFUTS04",
+   "p": 68000,
+   "d": null
+  },
+  {
+   "n": "68,000",
+   "p": 44370,
+   "d": 34
+  },
+  {
+   "n": "마레 포인티드 토 스웨이드 뮬 (Black/Camel)_2GFUAS03",
+   "p": 178000,
+   "d": null
+  },
+  {
+   "n": "브이넥 골지 슬림핏 니트 (Charcoal/Ivory/Burgundy)_2GFUKN07",
+   "p": 138000,
+   "d": null
+  },
+  {
+   "n": "138,000",
+   "p": 117300,
+   "d": 15
+  },
+  {
+   "n": "클래식 원턱 와이드 슬랙스 (Brown/Charcoal)_2GFUPT01",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "프릴 디테일 리본 벨벳 가디건 (Black)_2FFUTS07",
+   "p": 128000,
+   "d": null
+  },
+  {
+   "n": "128,000",
+   "p": 65280,
+   "d": 49
+  },
+  {
+   "n": "프릴 포인트 H라인 미디 스커트 (Gray dot)_2FFUSK03",
+   "p": 138000,
+   "d": null
+  },
+  {
+   "n": "[12차]SEONYUDO Basic logo ball cap (7color)",
+   "p": 49000,
+   "d": null
+  },
+  {
+   "n": "(1,270)",
+   "p": 8729,
+   "d": null
+  },
+  {
+   "n": "롱 커프스 루즈핏 셔츠 (Brown stripe/Pink/White)",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "러플 디테일 코듀로이 밴딩 팬츠 (Navy/Beige)_2FWUPT04",
+   "p": 128000,
+   "d": null
+  },
+  {
+   "n": "크롭 반팔 자켓 (White/Black)_2GMUJK06",
+   "p": 178000,
+   "d": null
+  },
+  {
+   "n": "178,000",
+   "p": 154860,
+   "d": 13
+  }
+ ],
+ "id": 102985,
+ "observed_at": "2026-10-29"
+}

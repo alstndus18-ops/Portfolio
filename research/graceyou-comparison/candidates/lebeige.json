@@ -1,0 +1,88 @@
+{
+ "slug": "lebeige",
+ "ko": "르베이지",
+ "en": "LEBEIGE",
+ "status": "후보",
+ "tier": "패션그룹 프리미엄",
+ "tags": [
+  "미니멀",
+  "클래식",
+  "엘레강스"
+ ],
+ "found": [
+  "기사: 삼성물산 '조용한 럭셔리' 2026 FW"
+ ],
+ "note": "가격 미수집(백화점 프리미엄 가격대 추정)",
+ "ids": {
+  "off": "https://ssfshop.com"
+ },
+ "price_source": "",
+ "intro": "",
+ "sub": "",
+ "est": null,
+ "heart": null,
+ "off": null,
+ "score": {},
+ "evidence": [
+  {
+   "idx": "227688",
+   "date": "2026-09-16",
+   "title": "삼성물산 르베이지, 2026 FW '조용한 럭셔리' 담았다",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=227688&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "219249",
+   "date": "2025-08-12",
+   "title": "르베이지, 2025년 가을·겨울 시즌 캠페인 공개",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=219249&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "227928",
+   "date": "2026-09-29",
+   "title": "올 추동 시즌 주력은 '캐시미어'",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=227928&cat=CAT11Z",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "225575",
+   "date": "2026-06-02",
+   "title": "신세계 아울렛, 3일부터 상반기 최대 규모 '슈퍼세일' 진행",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=225575&cat=CAT123",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "211512",
+   "date": "2024-05-29",
+   "title": "신세계百, 타임스퀘어점 여성 패션 전문관 리뉴얼",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=211512&cat=CAT121",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "211306",
+   "date": "2024-05-16",
+   "title": "삼성패션, 웨딩의 계절 5월 맞아 분위기 따른 하객룩 제안",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=211306&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "기사 요약(약함)",
+ "role": "미평가(가격 미수집)",
+ "rank": 86,
+ "platform": {
+  "29cm": null,
+  "wconcept": null
+ }
+}

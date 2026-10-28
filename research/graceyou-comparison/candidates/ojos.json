@@ -1,0 +1,144 @@
+{
+ "slug": "ojos",
+ "ko": "오호스",
+ "en": "OJOS",
+ "status": "후보",
+ "tier": "디자이너·온라인 브랜드",
+ "tags": [
+  "유니크",
+  "빈티지",
+  "캐주얼"
+ ],
+ "found": [
+  "29CM 후보(1차 보류분)"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 9645
+ },
+ "price_source": "29CM",
+ "intro": "오호스는 빛바랜 것들에서 발견한 영감으로 색다른 현재를 완성합니다. 제품이 아닌 메시지를 드러내고자 하며, 단순한 진열이 아닌 전시를 지향합니다.",
+ "sub": "We are a group that creates a different present with inspiration found in faded things.",
+ "est": 2018,
+ "heart": 38800,
+ "off": null,
+ "score": {
+  "k": 1.0,
+  "list_q1": 111000,
+  "list_med": 158000,
+  "list_q3": 248000,
+  "s_price": 67,
+  "s_band": 60,
+  "s_mood": 0,
+  "score": 32,
+  "partial": 64
+ },
+ "evidence": [
+  {
+   "idx": "211790",
+   "date": "2024-06-17",
+   "title": "휠라, ‘오호스’와 2번째 협업 컬렉션 출시",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=211790&cat=CAT115",
+   "where": "제목",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "참고(트렌드·무드 탐색)",
+ "rank": 47,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/9645",
+   "title": "오호스(OJOS)",
+   "ko": "오호스",
+   "en": "OJOS",
+   "sub": "We are a group that creates a different present with inspiration found in faded things.",
+   "est": 2018,
+   "heart": 38800,
+   "intro": "오호스는 빛바랜 것들에서 발견한 영감으로 색다른 현재를 완성합니다. 제품이 아닌 메시지를 드러내고자 하며, 단순한 진열이 아닌 전시를 지향합니다.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 49000,
+    "q1": 111000,
+    "med": 158000,
+    "q3": 248000,
+    "p90": 389000,
+    "max": 494000,
+    "mean": 195118
+   },
+   "disc": {
+    "n": 11,
+    "med": 18,
+    "max": 20
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 28,
+    "med": 0,
+    "max": 8,
+    "rated": 14
+   },
+   "rate": 4.7,
+   "tags": {
+    "무료배송": 49,
+    "신상품": 11,
+    "품절": 1
+   },
+   "names": [
+    "Detachable Span Denim Jacket / Charcoal",
+    "Detachable Span Denim Jacket / Khaki",
+    "Raw-Cut Knit Midi Skirt / Charcoal",
+    "Raw-Cut Knit Midi Skirt / Grey",
+    "[OJOS X NEGATIVETHREE] Kimera Knee-High Draping Boots / Dusty Beige",
+    "Detachable Bolero Half Zip-up / Off White",
+    "Curved Cut Layered Tee / Black",
+    "Utility Loop Band Jersey Cap / Black",
+    "Button Denim Mini Skirt / Khaki",
+    "Multistrap Stiletto Heels / Black",
+    "Reversible Check Padded Jacket / Ivory",
+    "Raw-Cut Cropped Knit Jacket / Charcoal",
+    "Strap Flatseam Long Sleeve Top / Grey",
+    "Light Down Hooded Jacket / Light Yellow",
+    "Reversible Check Padded Jacket / Black",
+    "Hotfix Fur Hoodie Zip-up / Ivory",
+    "Curved Cut Layered Tee / Beige",
+    "Reversible Check Padded Jacket / Grey",
+    "Ruffled Drape Cardigan / Ivory",
+    "Reversible Fleece Bomber Jacket / Beige",
+    "i:e Breathform Running 3 Shorts / Mint",
+    "Reversible Check Padded Jacket / Charcoal",
+    "Reversible Fleece Bomber Jacket / Black",
+    "Detachable Bolero Half Zip-up / Grey",
+    "Detachable Bolero Half Zip-up / Black",
+    "[OJOS X NEGATIVETHREE] Kimera Knee-High Draping Boots / Dusty Grey",
+    "Micro Wool Shorts / Black",
+    "Asym Shearling Wedge Boot / Grey",
+    "Button Slit Track Skirt / Black",
+    "Fleece Lined Nylon Pants / Charcoal",
+    "Detach Panel Knit Hoodie / Black",
+    "Double-Layered Long Sleeve Top / Black",
+    "Starquilt Padded Backpack S / Black",
+    "Paneled Lightweight Windbreaker / Charcoal",
+    "Double Strap Angora Beanie / Black",
+    "Micro Wool Shorts / Grey",
+    "Detach Panel Knit Hoodie / Tan",
+    "Varsity V-Neck Knit Top / Ivory",
+    "i:e Gel Hoodie 02 / Black",
+    "Off-Shoulder Halter Jacket / Stone Brown"
+   ],
+   "id": 9645,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": null
+ }
+}

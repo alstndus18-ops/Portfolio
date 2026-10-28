@@ -1,0 +1,51 @@
+{
+ "slug": "b780125",
+ "ko": "아비에무아",
+ "en": "",
+ "status": "후보",
+ "tier": "디자이너·온라인 브랜드",
+ "tags": [],
+ "found": [
+  "기사: 쿠메와 함께 샤오홍슈 협업"
+ ],
+ "note": "가격 미수집·DB에 없음",
+ "ids": {},
+ "price_source": "",
+ "intro": "",
+ "sub": "",
+ "est": null,
+ "heart": null,
+ "off": null,
+ "score": {},
+ "evidence": [
+  {
+   "idx": "225580",
+   "date": "2026-06-03",
+   "title": "유피인터, '샤오홍슈' 운영 대행 성과",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=225580&cat=CAT157",
+   "where": "요약",
+   "anchor": "쿠메",
+   "excerpt": "·KOC 협업을 통해 누적 인터랙션 100만 건 이상을 달성했다. 글로벌 티몰 일 매출은 5만 위안을 돌파했다.   '프리터'는 샤오홍슈 운영 1개월 차에 팔로워 219명, 인터랙션 9,200건을 기록했으며, 이후 국내 오프라인 매장 방문 고객 증가 효과를 얻었다.   유피인터는 현재 쿠메, 슬로우앤드, 아비에무아, 포트레, 앙개, 닐바이피, 루저스클럽, 사파리스팟 등 국내 패션 브랜드들과 협업을 확대하고 있다. 샤오홍슈 콘텐츠 운영부터 인플루언서 시딩, 라이브"
+  },
+  {
+   "idx": "212113",
+   "date": "2024-07-09",
+   "title": "활기 띠는 주얼리 시장... 신규 브랜드 봇물",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=212113&cat=CAT118",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [],
+  "wconcept": []
+ },
+ "reviewed": "",
+ "tags_src": "",
+ "role": "미평가(가격 미수집)",
+ "rank": 92,
+ "platform": {
+  "29cm": null,
+  "wconcept": null
+ }
+}

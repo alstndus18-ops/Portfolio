@@ -1,0 +1,173 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/36108",
+ "title": "비롯(BIRROT)",
+ "ko": "비롯",
+ "en": "BIRROT",
+ "sub": "BIRROT",
+ "est": 2018,
+ "heart": 1436,
+ "intro": "한국 디자이너 김경민과 홍세영은 2018년 코펜하겐에서 함께 비롯을 설립해 한국의 미학과 스칸디나비아의 미니멀리즘을 조화롭게 담아낸 여성 컬렉션을 제안합니다. 간결한 컷과 차분한 색상의 티셔츠와 블레이저, 밝은 파스텔 색감의 니트웨어와 액세서리 등 정교한 테일러링이 빛을 발하는 비롯의 컬렉션은 현대문화를 향한 호기심, 비율과 실루엣에 대한 예리한 통찰력을 바탕으로 완성됩니다. 비롯은 유행과 무관하게 오래 입을 수 있는 슬로우 패션을 지향하며 다양한 문화가 어우러진 현대적인 여성 컬렉션을 선보이고 있습니다.",
+ "promo": [
+  "최대 가격"
+ ],
+ "n": 10,
+ "p": {
+  "min": 104000,
+  "q1": 105660,
+  "med": 150930,
+  "q3": 207900,
+  "p90": 288500,
+  "max": 288500,
+  "mean": 158709
+ },
+ "disc": {
+  "n": 10,
+  "med": 41,
+  "max": 60
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 1,
+  "med": 0,
+  "max": 1,
+  "rated": 1
+ },
+ "rate": 5,
+ "tags": {
+  "무료배송": 7,
+  "가을 필수": 4,
+  "품절": 3
+ },
+ "names": [
+  "(W) BIDAN SKIRT (BLACK)",
+  "(W) V KNIT CARDIGAN (FOSSIL BROWN)",
+  "(W) LINE LEGGINGS (BLACK)",
+  "(W) LAY2 SLEEVELESS TOP (BLACK)",
+  "(W) LAY2 BANDEAU (BLACK)",
+  "(W) LAY2 SLEEVELESS TOP (CHOCOLATE)",
+  "(W) GIWA SKIRT (BROWN)",
+  "(W) BIDAN SKIRT - TWO WAY (BROWN)",
+  "(W) LAY2 CAPRI TROUSER (CARAMEL)",
+  "(W) 샤인 레글런 블라우스 블랙 SHINE RAGLAN BLOUSE BLACK"
+ ],
+ "cards": [
+  {
+   "n": "(W) BIDAN SKIRT (BLACK)",
+   "p": 207900,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "(W) V KNIT CARDIGAN (FOSSIL BROWN)",
+   "p": 288500,
+   "d": 41,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "(W) LINE LEGGINGS (BLACK)",
+   "p": 105660,
+   "d": 44,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "(W) LAY2 SLEEVELESS TOP (BLACK)",
+   "p": 104000,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "(W) LAY2 BANDEAU (BLACK)",
+   "p": 121300,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "(W) LAY2 SLEEVELESS TOP (CHOCOLATE)",
+   "p": 104000,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "(W) GIWA SKIRT (BROWN)",
+   "p": 226750,
+   "d": 43,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "품절",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "(W) BIDAN SKIRT - TWO WAY (BROWN)",
+   "p": 150930,
+   "d": 44,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "(W) LAY2 CAPRI TROUSER (CARAMEL)",
+   "p": 159250,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "품절"
+   ]
+  },
+  {
+   "n": "(W) 샤인 레글런 블라우스 블랙 SHINE RAGLAN BLOUSE BLACK",
+   "p": 118800,
+   "d": 60,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "품절"
+   ]
+  }
+ ],
+ "id": 36108,
+ "observed_at": "2026-10-29"
+}

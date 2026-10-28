@@ -1,0 +1,260 @@
+{
+ "slug": "loeuvre",
+ "ko": "루에브르",
+ "en": "LOEUVRE",
+ "status": "후보",
+ "tier": "디자이너·온라인 브랜드",
+ "tags": [
+  "모던",
+  "클래식",
+  "미니멀",
+  "소재중시"
+ ],
+ "found": [
+  "기사: 낫띵리튼과 함께 W컨셉 인기 브랜드"
+ ],
+ "note": "가방 비중이 큼(29CM 표본에 가방 다수).",
+ "ids": {
+  "c29": 5433,
+  "wc": 105199,
+  "ms": "loeuvre"
+ },
+ "price_source": "29CM",
+ "intro": "작가나 아티스트, 작곡가의 모든 생애 작품을 뜻하는 루에브르는 빛과 그림자를 콘셉트로 선과 색감, 소재에 많은 시간과 공을 들인 작품 같은 제품을 제안합니다.",
+ "sub": "현대 미학과 모던 건축에서 영감을 얻는 프렌치 감성 브랜드",
+ "est": 2018,
+ "heart": 220646,
+ "off": null,
+ "score": {
+  "k": 1.33,
+  "list_q1": 158373,
+  "list_med": 271093,
+  "list_q3": 317840,
+  "s_price": 74,
+  "s_band": 75,
+  "s_mood": 38,
+  "score": 56,
+  "partial": 74
+ },
+ "evidence": [
+  {
+   "idx": "219838",
+   "date": "2025-09-03",
+   "title": "롯데百 인천점, 여성패션관 리뉴얼 오픈",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=219838&cat=CAT121",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "216454",
+   "date": "2025-03-28",
+   "title": "29CM, 봄 하객룩·셀프 웨딩룩 검색량 2배 증가",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=216454&cat=CAT127",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "211180",
+   "date": "2024-05-07",
+   "title": "'W컨셉' 인기상품",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=211180&cat=CAT330",
+   "where": "요약",
+   "anchor": "낫띵리튼",
+   "excerpt": "판매는 거의 종료된 가운데 일부 트위드 재킷과 니트 카디건이 랭킹에 올라 있고, 주로 반팔 티셔츠가 많이 팔려 나가고 있다. 하의는 와이드 슬랙스가 가장 인기가 높다.   가방은 실용적인 백팩과 중간 사이즈의 숄더백이 대세다. 여성스러운 디자인의 밝은 컬러가 주로 팔려 나가고 있다. ‘낫띵리튼’과 ‘루에브르’, ‘아뜰리에드루멘’ 등 늘상 상위권을 차지하는 브랜드들이 여전히 우위를 차지하고 있는 가운데, ‘시오르’의 개성 넘치는 니트백이 랭킹에 새롭게 진입했다. "
+  },
+  {
+   "idx": "202708",
+   "date": "2022-12-20",
+   "title": "29CM 11월 인기상품",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=202708&cat=CAT330",
+   "where": "요약",
+   "anchor": "낫띵리튼",
+   "excerpt": "며 다양한 아이템이 상위권에 올라 있다. 올해는 특히 부츠보다 슬리퍼 스타일이 더 인기가 높다.   ‘클락스’의 왈라비와 ‘이피티’의 코트, ‘락피쉬웨더웨어’의 메리제인 슈즈도 하반기 내내 인기가 식지 않고 있다.   가방은 캐주얼한 제품보다 격식을 갖춘 외출용 가죽 제품이 대세다. ‘낫띵리튼’의 클래식 미니 골프 백이 가을 시즌 이후 인기가 지속되며 랭킹 1위에 올라 있고, ‘노이에’의 보스톤백과 ‘루에브르’, ‘마뗑킴’, ‘분크’의 숄더백이 상위권을 지키고 "
+  },
+  {
+   "idx": "202526",
+   "date": "2022-12-13",
+   "title": "W컨셉 11월 인기상품",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=202526&cat=CAT330",
+   "where": "요약",
+   "anchor": "낫띵리튼",
+   "excerpt": "한 인기를 얻으며 연말까지 상위권에 올라 있고, 롱부츠와 스판 앵클 부츠의 판매도 증가 추세다.   가방도 1년 내내 상위권의 변동이 크게 없었는데, 11월 추이도 그대로 이어지고 있다. 소위 톱 랭커 4인방이 굳히기에 성공한 모습이다.   ‘분크’와 ‘조이그라이슨’, ‘루에브르’, ‘낫띵리튼’의 20만 원~30만원 대 제품이 노세일에도 지속적인 판매량을 기록중이다.   외출과 행사 등 일상으로의 복귀가 이루어지면서, 캐주얼한 제품보다 가죽 핸드백을 중심으로 한"
+  },
+  {
+   "idx": "201745",
+   "date": "2022-11-09",
+   "title": "29CM 10월 인기상품",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=201745&cat=CAT330",
+   "where": "요약",
+   "anchor": "낫띵리튼",
+   "excerpt": " 젊은 남성층이 ‘나이키’에 대한 선호도가 절대적이라면, ‘뉴발란스’는 여성층의 절대적인 지지를 받고 있다. 클래식 아이템을 재해석한 M1906 시리즈가 가장 많이 팔려나갔다.   가방은 격식이 있으면서 실용적인 중간 사이즈의 숄더백이 주류를 이루고 있다. ‘루에브르’, ‘노이에’, ‘낫띵리튼’의 제품이 한 달 내내 톱 순위에 올라 있고, ‘마뗑킴’의 버클백과 ‘시엔느’의 패딩백도 인기가 높다.       --> 카카오톡 페이스북 트위터 카카오스토리 --> 관련"
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": [
+   "2026-10-29"
+  ]
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "가격·무드 모두 근접",
+ "rank": 8,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/5433",
+   "title": "루에브르(LOEUVRE)",
+   "ko": "루에브르",
+   "en": "LOEUVRE",
+   "sub": "현대 미학과 모던 건축에서 영감을 얻는 프렌치 감성 브랜드",
+   "est": 2018,
+   "heart": 220646,
+   "intro": "작가나 아티스트, 작곡가의 모든 생애 작품을 뜻하는 루에브르는 빛과 그림자를 콘셉트로 선과 색감, 소재에 많은 시간과 공을 들인 작품 같은 제품을 제안합니다.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 29140,
+    "q1": 118780,
+    "med": 203320,
+    "q3": 238380,
+    "p90": 291100,
+    "max": 363100,
+    "mean": 187218
+   },
+   "disc": {
+    "n": 50,
+    "med": 25,
+    "max": 50
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 6243,
+    "med": 33,
+    "max": 876,
+    "rated": 42
+   },
+   "rate": 4.99,
+   "tags": {
+    "쿠폰": 37,
+    "조건부 무료배송": 50,
+    "단독": 7,
+    "신상품": 11,
+    "가을 필수": 1
+   },
+   "names": [
+    "[29CM 단독] Faux Suede Collarless Layered Jacket SL5XJ938-B8",
+    "[29CM 단독] Vine Shoulder Medium FA6SB358-FH",
+    "[29CM 단독] Jour Shoulder Bag (Medium / Large) FA6AB393_4color",
+    "Faux Leather Double Placket Blouson Zip-up Jumper SL6AM802-10",
+    "Floral Jacquard Lace Midi Skirt SW6AS877_2color",
+    "Asymmetric Placket Faux Suede Jacket SL5XJ830-B8",
+    "Arche Shoulder Large FA6AB376-FH",
+    "Hand-made Belted Half-Coat SW5WH407-KF",
+    "Fur-Trim Padded Blouson Jacket SP6WM982-24",
+    "Plie Shoulder Medium FA6SB365-FH",
+    "Soft Wrinkled Jersey Scarf SX6XF026_2color",
+    "Spangle Tweed Jacket SW4AJ809-11",
+    "Reversible Shearling Jacket SM6WJ973-92",
+    "Belted H-Line Mini Skirt (Faux Suede / Faux Leather) SL6XS141_3color",
+    "Hand-made Belted Half-Coat SW6XH407-92",
+    "Wool Hourglass Jacket SW4WJ919-24",
+    "Draped High-Neck Handmade Long Coat SW6WH903-11",
+    "Lettre Card Wallet FA3AR249_5color",
+    "[GREY 단독]Asymmetrical-neck muffler Rib-knit Pullover SK4WP948_3color",
+    "Scarf-Detail Handmade Half Coat SW6WH905-94",
+    "Belted High-Neck Long Coat SW5XH914-10",
+    "Trapeze Shoulder Large FA5AB343-FH",
+    "Trapeze Shoulder Medium FA5AB344-FH",
+    "V-Neck Lambswool Knit Pullover SK6WP991_4color",
+    "Hand-made Belted Half-Coat SW5WH407-10",
+    "Arche Shoulder Large (suede ver.) FA6AB377-N9",
+    "V-Neck Knit Cardigan with Muffler Patch Detail SK6WD986_2color",
+    "High-neck Belted Down Coat SD6XM418_3color",
+    "2-Way Deep V-neck Knit Pullover SK6WP988_4color",
+    "[29CM 단독] Collarless Layered Jacket SW4WJ928-12",
+    "Asymmetric Placket Faux Leather Jacket SL4AJ820-91",
+    "Scarf Detail Button Knit Pullover SK6WP990_2color",
+    "Leather Toggle Boucle Fur Jacket SM6WJ909-KR",
+    "Anse Zipper Wallet FA6AR308_2color",
+    "Single-Tie Slit T-shirts SW6AE887_2color",
+    "Floral Jacquard Long Skirt SW6AS899-10",
+    "Cowl Halter Layered Jersey Top SW6XE343_3color",
+    "Belted High-Neck Long Coat SW5XH914-1F",
+    "[29CM 단독] Vine Shoulder Medium FA6AB358-NB",
+    "Wholegarment Mock-Neck Knit Two-Way Cardigan SK6WD985_2color"
+   ],
+   "id": 5433,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": {
+   "url": "https://display.wconcept.co.kr/rn/brand/105199",
+   "title": "루에브르(LOEUVRE) | W컨셉(W CONCEPT)",
+   "ko": "루에브르",
+   "en": "LOEUVRE",
+   "intro": "loeuvre는 프렌치 감성을 기반으로 하며 시각적 트렌드에 민감하다. 시각적 체험의 기본이 되는 빛과 그림자를 기반으로 하며 제품이 표현하는 선과 컬러감, 소재의 중요성에 많은 시간과 공을 들여 ‘작품’과 같은 개념의 제품을 만들어내고자 한다.",
+   "n": 181,
+   "p": {
+    "min": 1006,
+    "q1": 72713,
+    "med": 179863,
+    "q3": 270141,
+    "p90": 312550,
+    "max": 399000,
+    "mean": 173757
+   },
+   "disc": {
+    "n": 77,
+    "med": 22,
+    "max": 34
+   },
+   "names": [
+    "[NEW컬러추가][단독] Oversized tweed jacket SW5SJ102_3color",
+    "Asymmetric Placket Faux Suede Jacket SL5XJ830-B8",
+    "Faux Leather Double Placket Blouson Zip-up Jumper SL6AM802-10",
+    "[단독]Balancoire Tote Medium (suede ver.) FA6AA383-N9",
+    "Trapeze Shoulder Medium FA5AB344-FH",
+    "2-Way Deep V-neck Knit Pullover SK6WP988_2color",
+    "Plie Shoulder Medium FA6SB365-FH",
+    "Arche Shoulder Large FA6AB376-FH",
+    "Trapeze Shoulder Large FA5AB343-FH",
+    "[단독]Balancoire Tote Medium FA6AA382-FH",
+    "[단독]Balancoire Tote Medium FA6AA382-NB",
+    "Plie Shoulder Medium FA6AB365-93",
+    "Bise Hobo Medium (suede ver.) FA6AD392-N9",
+    "Bise Hobo Medium FA6AD391-FH",
+    "Calla Shoulder Medium FA6AB386_2color",
+    "Tulipe Shoulder Medium FA6AB379-NB",
+    "Serein Shoulder Small (suede ver.) FA6AB390_2color",
+    "Serein Shoulder Small FA6AB389-NA",
+    "Billet Card Wallet FA6AR658_3color",
+    "Jumelle Card Wallet FA6AR659_3color",
+    "Rose Charme FZ6AS660_2color",
+    "Arche Shoulder Large (suede ver.) FA6AB377-N8",
+    "Arche Shoulder Large (suede ver.) FA6AB377-N9",
+    "Pluie Charme FZ5SS647_5color",
+    "Tour Hobo Large FA5SD331-FH",
+    "Anse Zipper Wallet FA4AR308_2color",
+    "Hand-made Belted Half-Coat SW6XH407-92",
+    "[단독] High-Neck Faux Fur Jacket SF6WJ908-9E",
+    "[단독] High-Neck Faux Fur Jacket SF6WJ908-11",
+    "Faux Fur Short Jacket SF6XJ401-93",
+    "Faux Fur Short Jacket SF6XJ401-96",
+    "Quilted Lined Alpaca Jacket SW6XJ970-91",
+    "Quilted Lined Alpaca Jacket SW6XJ970-94",
+    "Toggle Point Half Fur Jacket SM6XJ442-91",
+    "Mink-Touch High-Neck Half Coat SF6WJ910-03",
+    "High-Neck Faux Fur Vest SF6WV918-90",
+    "Textured Belted Shearling Long Coat SF6WJ940-94",
+    "Faux Leather Single-Breasted Car Coat SL6AJ869-94",
+    "Two-Way Single-Breasted Blazer SW6AJ870-93",
+    "Two-Way Single-Breasted Blazer SW6AJ870-9E"
+   ],
+   "id": 105199,
+   "observed_at": "2026-10-29"
+  }
+ }
+}

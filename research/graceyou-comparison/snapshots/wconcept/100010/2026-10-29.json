@@ -1,0 +1,933 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/100010",
+ "title": "프론트로우(FRONTROW) | W컨셉(W CONCEPT)",
+ "ko": "프론트로우",
+ "en": "FRONTROW",
+ "intro": "FRONTROW는 패션쇼 무대를 가장 가까이에서 볼 수 있는 패션쇼장의 맨 앞줄을 의미합니다. 2009년 다양한 디자이너 브랜드와의 콜라보레이션을 기반으로 시작하여 현재는 자체 디자인한 Contemporary Classic을 기본으로 세련되고 감도 높은 트렌드의 방향성을 제시합니다. 특히 고감도 소재, 입체 패턴 그리고 유니크한 디자인 감성을 바탕으로 한 심플하면서도 차별화된 실루엣으로 W컨셉 Contemporary에서 독보적으로 주목받는 브랜드입니다.",
+ "n": 173,
+ "p": {
+  "min": 1011,
+  "q1": 72240,
+  "med": 129000,
+  "q3": 215400,
+  "p90": 329000,
+  "max": 759000,
+  "mean": 154155
+ },
+ "disc": {
+  "n": 77,
+  "med": 40,
+  "max": 52
+ },
+ "names": [
+  "[Premium] Cashmere-blend Handmade Coat_3color",
+  "[이태리 트위드]Trimmed Over-fit Tweed Jacket_3color",
+  "Leather Half Jacket",
+  "[Drama Signature] Relaxed Bootcut Trousers_2color",
+  "[Premium] Cashmere Knit Cardigan_8color",
+  "H-line Midi Skirt_2color",
+  "[Drama Signature] Tie-Collar Silky Blouse_6color",
+  "[Premium] Cowl-neck Cashmere Half Coat_2color",
+  "[Drama Signature] Slim Button Blazer_3color",
+  "[Premium]Cashmere-blend Cowl-neck Coat _2color",
+  "H-line Long Skirt_3color",
+  "Layered Tie Knit Cardigan_2color",
+  "[Merino Wool]H-line Knit Skirt_2color",
+  "Suede Bomber Jacket_3 color",
+  "Straight Fit Washed Denim_2color",
+  "[Drama Signature] Slim Bootcut Trousers_3color",
+  "[Drama Signature] Collarless Classic Jacket",
+  "[이태리 울]Over-fit Wool Single Jacket_3color",
+  "[Drama Signature] Two-button Tailored Blazer_3color",
+  "Bold Rib Knit Cardigan_2color",
+  "Fluffy Fur Jacket_2color",
+  "Mustang Long Coat",
+  "Textured Fur Muffler Set Jacket",
+  "Soft Touch V-neck Knit_2color",
+  "Shearling Half Coat_2color",
+  "Boucle Winter Tweed Jacket_2color",
+  "Slim Rip Zip Knit_2color",
+  "Hairy Texture Cable Knit_2color",
+  "Velvet Slim Bootcut Pants_2color",
+  "Fluffy Fur Muffler_2color",
+  "[Premium] Cashmere V-neck Knit Pullover_5color",
+  "High-neck Goose Down Jumper_2color",
+  "Cocoon Down Muffler Jumper_2color",
+  "Shaggy Alpaca-blend Double Coat_2color",
+  "Relaxed Collar Knit_2color",
+  "[Merino Wool]Soft V-neck Knit_3color",
+  "[Merino Wool]High-neck Cardigan with Warmer_2color",
+  "[Merino Wool]Wholegarment Fine Knit Top_2color",
+  "Chevron Ribbed Knit Top_2color",
+  "Brushed Winter Bootcut Denim_2color"
+ ],
+ "cards": [
+  {
+   "n": "[Premium] Cashmere-blend Handmade Coat_3color",
+   "p": 459200,
+   "d": 34
+  },
+  {
+   "n": "[이태리 트위드]Trimmed Over-fit Tweed Jacket_3color",
+   "p": 156240,
+   "d": 44
+  },
+  {
+   "n": "Leather Half Jacket",
+   "p": 124320,
+   "d": 52
+  },
+  {
+   "n": "[Drama Signature] Relaxed Bootcut Trousers_2color",
+   "p": 89400,
+   "d": 40
+  },
+  {
+   "n": "[Premium] Cashmere Knit Cardigan_8color",
+   "p": 72280,
+   "d": 48
+  },
+  {
+   "n": "H-line Midi Skirt_2color",
+   "p": 77400,
+   "d": 40
+  },
+  {
+   "n": "[Drama Signature] Tie-Collar Silky Blouse_6color",
+   "p": 89400,
+   "d": 40
+  },
+  {
+   "n": "[Premium] Cowl-neck Cashmere Half Coat_2color",
+   "p": 229760,
+   "d": 36
+  },
+  {
+   "n": "[Drama Signature] Slim Button Blazer_3color",
+   "p": 131400,
+   "d": 40
+  },
+  {
+   "n": "[Premium]Cashmere-blend Cowl-neck Coat _2color",
+   "p": 459200,
+   "d": 34
+  },
+  {
+   "n": "H-line Long Skirt_3color",
+   "p": 95360,
+   "d": 36
+  },
+  {
+   "n": "Layered Tie Knit Cardigan_2color",
+   "p": 77480,
+   "d": 48
+  },
+  {
+   "n": "[Merino Wool]H-line Knit Skirt_2color",
+   "p": 95360,
+   "d": 36
+  },
+  {
+   "n": "Suede Bomber Jacket_3 color",
+   "p": 124320,
+   "d": 52
+  },
+  {
+   "n": "Straight Fit Washed Denim_2color",
+   "p": 95360,
+   "d": 36
+  },
+  {
+   "n": "[Drama Signature] Slim Bootcut Trousers_3color",
+   "p": 89400,
+   "d": 40
+  },
+  {
+   "n": "[Drama Signature] Collarless Classic Jacket",
+   "p": 140160,
+   "d": 36
+  },
+  {
+   "n": "[이태리 울]Over-fit Wool Single Jacket_3color",
+   "p": 145040,
+   "d": 44
+  },
+  {
+   "n": "[Drama Signature] Two-button Tailored Blazer_3color",
+   "p": 113880,
+   "d": 48
+  },
+  {
+   "n": "Bold Rib Knit Cardigan_2color",
+   "p": 72240,
+   "d": 44
+  },
+  {
+   "n": "Fluffy Fur Jacket_2color",
+   "p": 223720,
+   "d": 32
+  },
+  {
+   "n": "Mustang Long Coat",
+   "p": 359720,
+   "d": 32
+  },
+  {
+   "n": "Textured Fur Muffler Set Jacket",
+   "p": 223720,
+   "d": 32
+  },
+  {
+   "n": "Soft Touch V-neck Knit_2color",
+   "p": 74120,
+   "d": 32
+  },
+  {
+   "n": "Shearling Half Coat_2color",
+   "p": 223720,
+   "d": 32
+  },
+  {
+   "n": "Boucle Winter Tweed Jacket_2color",
+   "p": 215400,
+   "d": 40
+  },
+  {
+   "n": "Slim Rip Zip Knit_2color",
+   "p": 101320,
+   "d": 32
+  },
+  {
+   "n": "Hairy Texture Cable Knit_2color",
+   "p": 101320,
+   "d": 32
+  },
+  {
+   "n": "Velvet Slim Bootcut Pants_2color",
+   "p": 82560,
+   "d": 36
+  },
+  {
+   "n": "Fluffy Fur Muffler_2color",
+   "p": 78480,
+   "d": 28
+  },
+  {
+   "n": "[Premium] Cashmere V-neck Knit Pullover_5color",
+   "p": 72280,
+   "d": 48
+  },
+  {
+   "n": "High-neck Goose Down Jumper_2color",
+   "p": 341496,
+   "d": 25
+  },
+  {
+   "n": "Cocoon Down Muffler Jumper_2color",
+   "p": 457070,
+   "d": 23
+  },
+  {
+   "n": "Shaggy Alpaca-blend Double Coat_2color",
+   "p": 319176,
+   "d": 25
+  },
+  {
+   "n": "Relaxed Collar Knit_2color",
+   "p": 82560,
+   "d": 36
+  },
+  {
+   "n": "[Merino Wool]Soft V-neck Knit_3color",
+   "p": 89400,
+   "d": 40
+  },
+  {
+   "n": "[Merino Wool]High-neck Cardigan with Warmer_2color",
+   "p": 114560,
+   "d": 36
+  },
+  {
+   "n": "[Merino Wool]Wholegarment Fine Knit Top_2color",
+   "p": 63360,
+   "d": 36
+  },
+  {
+   "n": "Chevron Ribbed Knit Top_2color",
+   "p": 95360,
+   "d": 36
+  },
+  {
+   "n": "Brushed Winter Bootcut Denim_2color",
+   "p": 77400,
+   "d": null
+  },
+  {
+   "n": "Collar Crop Padding Jacket_2color",
+   "p": 86040,
+   "d": null
+  },
+  {
+   "n": "Layering Wrap Knit_3color",
+   "p": 63360,
+   "d": null
+  },
+  {
+   "n": "[이태리 트위드] Sierra Tweed Jacket_ 2color",
+   "p": 155480,
+   "d": null
+  },
+  {
+   "n": "[Premium] Erin Wool Single Jacket_2color",
+   "p": 184240,
+   "d": null
+  },
+  {
+   "n": "Baguette Picnic Bag_BR",
+   "p": 142400,
+   "d": null
+  },
+  {
+   "n": "Belted Leather Blouson_2color",
+   "p": 155480,
+   "d": null
+  },
+  {
+   "n": "Pleated Wide Winter Trousers_3color",
+   "p": 89400,
+   "d": null
+  },
+  {
+   "n": "[Premium] Cashmere-blend Handmade Coat_3color",
+   "p": 699000,
+   "d": null
+  },
+  {
+   "n": "699,000",
+   "p": 459200,
+   "d": 34
+  },
+  {
+   "n": "[Premium] Cowl-neck Cashmere Half Coat_2color",
+   "p": 359000,
+   "d": null
+  },
+  {
+   "n": "359,000",
+   "p": 229760,
+   "d": 36
+  },
+  {
+   "n": "(14)",
+   "p": 3413,
+   "d": null
+  },
+  {
+   "n": "[이태리 트위드]Trimmed Over-fit Tweed Jacket_3color",
+   "p": 279000,
+   "d": null
+  },
+  {
+   "n": "279,000",
+   "p": 156240,
+   "d": 44
+  },
+  {
+   "n": "H-line Midi Skirt_2color",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "129,000",
+   "p": 77400,
+   "d": 40
+  },
+  {
+   "n": "(120)",
+   "p": 3167,
+   "d": null
+  },
+  {
+   "n": "[Premium] Cashmere Knit Cardigan_8color",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "139,000",
+   "p": 72280,
+   "d": 48
+  },
+  {
+   "n": "Leather Half Jacket",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "259,000",
+   "p": 124320,
+   "d": 52
+  },
+  {
+   "n": "(23)",
+   "p": 2447,
+   "d": null
+  },
+  {
+   "n": "[Drama Signature] Tie-Collar Silky Blouse_6color",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "149,000",
+   "p": 89400,
+   "d": 40
+  },
+  {
+   "n": "[Drama Signature] Relaxed Bootcut Trousers_2color",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "[Drama Signature] Collarless Classic Jacket",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "219,000",
+   "p": 140160,
+   "d": 36
+  },
+  {
+   "n": "(23)",
+   "p": 2250,
+   "d": null
+  },
+  {
+   "n": "[Premium]Cashmere-blend Cowl-neck Coat _2color",
+   "p": 699000,
+   "d": null
+  },
+  {
+   "n": "(12)",
+   "p": 1646,
+   "d": null
+  },
+  {
+   "n": "[Drama Signature] Slim Bootcut Trousers_3color",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "Suede Bomber Jacket_3 color",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "[Drama Signature] Slim Button Blazer_3color",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "219,000",
+   "p": 131400,
+   "d": 40
+  },
+  {
+   "n": "Boucle Winter Tweed Jacket_2color",
+   "p": 359000,
+   "d": null
+  },
+  {
+   "n": "359,000",
+   "p": 215400,
+   "d": 40
+  },
+  {
+   "n": "215,400",
+   "p": 1029,
+   "d": null
+  },
+  {
+   "n": "[이태리 울]Over-fit Wool Single Jacket_3color",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "259,000",
+   "p": 145040,
+   "d": 44
+  },
+  {
+   "n": "(116)",
+   "p": 6301,
+   "d": null
+  },
+  {
+   "n": "Bold Rib Knit Cardigan_2color",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "129,000",
+   "p": 72240,
+   "d": 44
+  },
+  {
+   "n": "(99)",
+   "p": 5820,
+   "d": null
+  },
+  {
+   "n": "Half-neck Trench Jumper_2color",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "259,000",
+   "p": 134680,
+   "d": 48
+  },
+  {
+   "n": "(9)",
+   "p": 2308,
+   "d": null
+  },
+  {
+   "n": "Pleated Wide Winter Trousers_3color",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "[Drama Signature] Slim Bootcut Winter Trousers_2color",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "149,000",
+   "p": 95360,
+   "d": 36
+  },
+  {
+   "n": "(298)",
+   "p": 3631,
+   "d": null
+  },
+  {
+   "n": "[Drama Signature] Two-button Tailored Blazer_3color",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "219,000",
+   "p": 113880,
+   "d": 48
+  },
+  {
+   "n": "(796)",
+   "p": 8911,
+   "d": null
+  },
+  {
+   "n": "[Day-Wool] Semi-Wide Winter Trousers_4color",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "(1,100)",
+   "p": 8801,
+   "d": null
+  },
+  {
+   "n": "[Premium] Cashmere Balmacaan Handmade Coat_2color",
+   "p": 699000,
+   "d": null
+  },
+  {
+   "n": "(128)",
+   "p": 8054,
+   "d": null
+  },
+  {
+   "n": "[Drama Signature] Button Silky Blouse _4color",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "149,000",
+   "p": 77480,
+   "d": 48
+  },
+  {
+   "n": "(41)",
+   "p": 1097,
+   "d": null
+  },
+  {
+   "n": "[Drama Signature] Belted Blazer Dress",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "239,000",
+   "p": 143400,
+   "d": 40
+  },
+  {
+   "n": "Tailored Bootcut Denim Pants_2color",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "109,000",
+   "p": 69760,
+   "d": 36
+  },
+  {
+   "n": "(53)",
+   "p": 2351,
+   "d": null
+  },
+  {
+   "n": "Tailored Straight Denim Pants_2color",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "109,000",
+   "p": 56680,
+   "d": 48
+  },
+  {
+   "n": "(114)",
+   "p": 2561,
+   "d": null
+  },
+  {
+   "n": "[Drama Signature] Slim Leather Belt_2color",
+   "p": 69000,
+   "d": null
+  },
+  {
+   "n": "69,000",
+   "p": 44160,
+   "d": 36
+  },
+  {
+   "n": "(547)",
+   "p": 7213,
+   "d": null
+  },
+  {
+   "n": "[Premium] Cashmere V-neck Knit Pullover_5color",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "(191)",
+   "p": 7659,
+   "d": null
+  },
+  {
+   "n": "2-way Mockneck Knit Top_4color",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "129,000",
+   "p": 67080,
+   "d": 48
+  },
+  {
+   "n": "(201)",
+   "p": 6316,
+   "d": null
+  },
+  {
+   "n": "[Merino Wool]Soft V-neck Knit_3color",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "Corduroy High-rise Straight Pants_4color",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "109,000",
+   "p": 65400,
+   "d": 40
+  },
+  {
+   "n": "(185)",
+   "p": 2804,
+   "d": null
+  },
+  {
+   "n": "[Drama Signature] Tailored Wrap Dress",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "High-neck Lambskin Bomber Jacket",
+   "p": 759000,
+   "d": null
+  },
+  {
+   "n": "759,000",
+   "p": 507200,
+   "d": 33
+  },
+  {
+   "n": "[Premium] Erin Wool Single Jacket_2color",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "329,000",
+   "p": 184240,
+   "d": 44
+  },
+  {
+   "n": "Shoulder Padded Knit Pullover_3color",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "179,000",
+   "p": 114560,
+   "d": 36
+  },
+  {
+   "n": "Oversized Wool Tailored Jacket_2color",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "Relaxed Collar Knit_2color",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "129,000",
+   "p": 82560,
+   "d": 36
+  },
+  {
+   "n": "[Drama Signature] High-neck Tie Silky Blouse_5color",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "[Drama Signature] Slit Long Skirt",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "(44)",
+   "p": 1474,
+   "d": null
+  },
+  {
+   "n": "Mustang Long Coat",
+   "p": 529000,
+   "d": null
+  },
+  {
+   "n": "529,000",
+   "p": 359720,
+   "d": 32
+  },
+  {
+   "n": "[Premium] Cashmere Hourglass Handmade Half Coat_2color",
+   "p": 499000,
+   "d": null
+  },
+  {
+   "n": "499,000",
+   "p": 239520,
+   "d": 52
+  },
+  {
+   "n": "(12)",
+   "p": 2079,
+   "d": null
+  },
+  {
+   "n": "Stitch Turtle-neck Top_4color",
+   "p": 59000,
+   "d": null
+  },
+  {
+   "n": "59,000",
+   "p": 30680,
+   "d": 48
+  },
+  {
+   "n": "[수입 소재] Half Mac Coat_2color",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "(28)",
+   "p": 3314,
+   "d": null
+  },
+  {
+   "n": "V-neck Cardigan & Sleeveless Top Set_9color",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "129,000",
+   "p": 61920,
+   "d": 52
+  },
+  {
+   "n": "Oversized Maxi Trench Coat_2color",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "329,000",
+   "p": 171080,
+   "d": 48
+  },
+  {
+   "n": "(15)",
+   "p": 1204,
+   "d": null
+  },
+  {
+   "n": "Button Slim Long Sleeve T-shirt_3color",
+   "p": 59000,
+   "d": null
+  },
+  {
+   "n": "59,000",
+   "p": 35400,
+   "d": 40
+  },
+  {
+   "n": "[Premium] Cashmere Crewneck Knit Pullover_4color",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "(64)",
+   "p": 1825,
+   "d": null
+  },
+  {
+   "n": "Velvet Slim Bootcut Pants_2color",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "[Merino Wool]Wholegarment Fine Knit Top_2color",
+   "p": 99000,
+   "d": null
+  },
+  {
+   "n": "99,000",
+   "p": 63360,
+   "d": 36
+  },
+  {
+   "n": "Sheer Tie-neck Blouse_ 2color",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "Straight Fit Washed Denim_2color",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "Padded Half Jacket",
+   "p": 299000,
+   "d": null
+  },
+  {
+   "n": "299,000",
+   "p": 179400,
+   "d": 40
+  },
+  {
+   "n": "[Premium] Hourglass Collarless Tweed Jacket",
+   "p": 279000,
+   "d": null
+  },
+  {
+   "n": "279,000",
+   "p": 178560,
+   "d": 36
+  },
+  {
+   "n": "Mid-rise Bootscut Denim Pants_2color",
+   "p": 99000,
+   "d": null
+  },
+  {
+   "n": "99,000",
+   "p": 51480,
+   "d": 48
+  },
+  {
+   "n": "(278)",
+   "p": 4872,
+   "d": null
+  },
+  {
+   "n": "[이태리 트위드] Sierra Tweed Jacket_ 2color",
+   "p": 299000,
+   "d": null
+  },
+  {
+   "n": "299,000",
+   "p": 155480,
+   "d": 48
+  },
+  {
+   "n": "[Merino Wool]High-neck Cardigan with Warmer_2color",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "[Drama Signature] Cowl-neck Silky Blouse_2color",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "(13)",
+   "p": 1011,
+   "d": null
+  },
+  {
+   "n": "H-line Long Skirt_3color",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "Textured Fur Muffler Set Jacket",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "329,000",
+   "p": 223720,
+   "d": 32
+  },
+  {
+   "n": "Layered Knit Top_3color",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "(70)",
+   "p": 5259,
+   "d": null
+  }
+ ],
+ "id": 100010,
+ "observed_at": "2026-10-29"
+}

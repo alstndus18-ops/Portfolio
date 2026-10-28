@@ -1,0 +1,338 @@
+{
+ "slug": "kume",
+ "ko": "쿠메",
+ "en": "KUME",
+ "status": "확정",
+ "tier": "디자이너·온라인 브랜드",
+ "tags": [
+  "페미닌",
+  "캐주얼",
+  "소재중시",
+  "모던"
+ ],
+ "found": [
+  "29CM DB 1차",
+  "W컨셉 기사 공동 언급"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 1939,
+  "wc": 102698,
+  "off": "https://kume-studio.co.kr"
+ },
+ "price_source": "29CM",
+ "intro": "KUMÉ (쿠메) 는 ‘꿈을 입는다’ 라는 의미를 갖고 시작하였습니다.\n\n어떤 장소, 어떤 상황에서도 KUMÉ로 자신만의 취향과 특별함을 표현하고, 각자가 바라는 감성과 삶의 모습을 보여줄 수 있으면 좋겠습니다.\n\n아름다운 핏, 좋은 소재, 편안한 움직임들이 모여 KUMÉ가 되고, KUMÉ를 입는 모든 이들에게 ‘꿈’ 을 줄 수 있는 브랜드를 만들고자 합니다.",
+ "sub": "믹스 앤 매치 컨템포러리 페미닌 캐주얼을 제안합니다.",
+ "est": null,
+ "heart": 7996,
+ "off": {
+  "rows": 129,
+  "styles": 58,
+  "list": {
+   "n": 58,
+   "min": 49000,
+   "q1": 111500,
+   "med": 166500,
+   "q3": 189000,
+   "p90": 216200,
+   "max": 285000,
+   "mean": 154983
+  },
+  "sale": {
+   "n": 58,
+   "min": 46550,
+   "q1": 89200,
+   "med": 134750,
+   "q3": 175200,
+   "p90": 191900,
+   "max": 228000,
+   "mean": 134685
+  },
+  "disc_share": 1.0,
+  "disc_med": 15,
+  "disc_max": 20,
+  "source": "https://kume-studio.co.kr/product/list.html?cate_no=459/460/461 (SWEATER·BLOUSE&SHIRT·T-SHIRT&MTM)",
+  "knit": {
+   "styles": 23,
+   "list": {
+    "n": 23,
+    "min": 125000,
+    "q1": 170000,
+    "med": 185000,
+    "q3": 202000,
+    "p90": 231000,
+    "max": 285000,
+    "mean": 188696
+   },
+   "sale": {
+    "n": 23,
+    "min": 100000,
+    "q1": 142075,
+    "med": 170050,
+    "q3": 190000,
+    "p90": 219450,
+    "max": 228000,
+    "mean": 166854
+   },
+   "disc_share": 1.0,
+   "disc_med": 15
+  }
+ },
+ "score": {
+  "k": 1.11,
+  "list_q1": 175000,
+  "list_med": 189000,
+  "list_q3": 229000,
+  "s_price": 87,
+  "s_band": 35,
+  "s_mood": 38,
+  "score": 52,
+  "partial": 66
+ },
+ "evidence": [
+  {
+   "idx": "221394",
+   "date": "2025-11-10",
+   "title": "김보영의 ‘ 쿠메 ’, 맨즈 라인 런칭",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=221394&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "209594",
+   "date": "2024-01-25",
+   "title": "쿠메 , 신주쿠 이세탄 팝업",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=209594&cat=CAT114",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "190807",
+   "date": "2021-06-10",
+   "title": "쿠메 스포츠, 현대백화점서 팝업스토어 진행",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=190807&cat=CAT115",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "228379",
+   "date": "2026-10-21",
+   "title": "W컨셉, 파리 팝업 효과…글로벌몰 방문자 95% 증가",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=228379&cat=CAT127",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "227320",
+   "date": "2026-09-01",
+   "title": "W컨셉, ‘W Stage’ 최종 10개 브랜드 선정",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=227320&cat=CAT127",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "225580",
+   "date": "2026-06-03",
+   "title": "유피인터, '샤오홍슈' 운영 대행 성과",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=225580&cat=CAT157",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "220817",
+   "date": "2025-10-17",
+   "title": "패션코드 2026 S/S 오는 23일 개막",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=220817&cat=CAT1A0",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "197322",
+   "date": "2022-04-26",
+   "title": "더카트골프, 입점 브랜드와 ‘그린컬렉션’ 발매",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=197322&cat=CAT115",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "195890",
+   "date": "2022-02-24",
+   "title": "롯데관광개발, ‘한 컬렉션 드림골프 슈퍼세일전’",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=195890&cat=CAT124",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "192767",
+   "date": "2021-09-16",
+   "title": "제주 드림타워 ‘한 컬렉션’ 골프웨어 매장 오픈",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=192767&cat=CAT11B",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": [
+   "2026-10-29"
+  ]
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "직접 경쟁(확정)",
+ "rank": 14,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/1939",
+   "title": "쿠메(KUME)",
+   "ko": "쿠메",
+   "en": "KUME",
+   "sub": "믹스 앤 매치 컨템포러리 페미닌 캐주얼을 제안합니다.",
+   "heart": 7996,
+   "intro": "KUMÉ (쿠메) 는 ‘꿈을 입는다’ 라는 의미를 갖고 시작하였습니다.\n\n어떤 장소, 어떤 상황에서도 KUMÉ로 자신만의 취향과 특별함을 표현하고, 각자가 바라는 감성과 삶의 모습을 보여줄 수 있으면 좋겠습니다.\n\n아름다운 핏, 좋은 소재, 편안한 움직임들이 모여 KUMÉ가 되고, KUMÉ를 입는 모든 이들에게 ‘꿈’ 을 줄 수 있는 브랜드를 만들고자 합니다.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 56550,
+    "q1": 157500,
+    "med": 170100,
+    "q3": 206100,
+    "p90": 373500,
+    "max": 674100,
+    "mean": 205687
+   },
+   "disc": {
+    "n": 50,
+    "med": 10,
+    "max": 22
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 57,
+    "med": 0,
+    "max": 24,
+    "rated": 13
+   },
+   "rate": 4.84,
+   "tags": {
+    "조건부 무료배송": 48,
+    "신상품": 4,
+    "품절": 2
+   },
+   "names": [
+    "Frill Chiffon Midi Skirt, Peach",
+    "Back Slit Capri Pants, Black",
+    "Raccoon Blend Muffler Knit Sweater, Mocha",
+    "Mohair Sheer Argyle Knit, Khaki",
+    "Triple-Stitch Tweed Round Neck Jacket, Black",
+    "Wool Blend Buttoned Hem Hoodie, Charcoal",
+    "Mohair Sheer Mermaid Maxi Skirt, Khaki",
+    "Wool Blend Buttoned Hem Knit Jogger Pants, Charcoal",
+    "Mohair Sheer Mermaid Maxi Skirt, Charcoal",
+    "Double-Pleated Tailored Wide Pants, Beige",
+    "[2차리오더] Halter Layering Tencel Sweater, White",
+    "Pure Wool Double-Breasted Half Coat, Brown",
+    "Relaxed Barrel-Leg Denim Pants, Ivory",
+    "Henley Neck Side Slit Top, White",
+    "Basic Wool Blend Layering Top, Gray",
+    "[1차리오더] Back Banding Rayon Pants, Light Yellow",
+    "Mohair Sheer Mermaid Maxi Skirt, Ivory",
+    "Pure Wool Double-Breasted Half Coat, Charcoal",
+    "Raccoon Blend Muffler Knit Sweater, Light Gray",
+    "[4차리오더] Linen Pleated Long Skirt, Ivory",
+    "[Men] Wrinkle Free Over-Fit Shirt, Sky Blue",
+    "Mohair Sheer Argyle Knit, Ivory",
+    "Halter Layered Ribbed knit Cardigan, Ivory",
+    "Wool Relaxed V-Neck Sweater, Navy",
+    "Faux Leather Highneck Blouson, Brown",
+    "[2차리오더] Halter Layering Tencel Sweater, Black",
+    "Halter Layered Ribbed knit Cardigan, Black",
+    "[1차 리오더] Wool Blend Side Button Skirt, Navy Stripe",
+    "[송지효,문가영,웬디 착용] KUME Destroyed Straight Denim Pants, Blue",
+    "Mohair Sheer Argyle Knit, Charcoal",
+    "Men Washed Corduroy Wide Pants, Light Blue",
+    "Raccoon Blend Muffler Knit Sweater, Ivory",
+    "Basic Wool Blend Layering Top, White",
+    "Halter Layered Ribbed knit Cardigan, Blue",
+    "Linen Boat-Neck Pintucked Dress, Navy",
+    "Alpaca Boucle Midi Jacket, Ivory",
+    "Frill Chiffon Midi Skirt, Ivory",
+    "Fatigue Corduroy Bootcut Pants, Brown",
+    "Alpaca Wool Belted Long Coat, Oatmeal",
+    "Crochet Short Sleeved Sweater, Ivory"
+   ],
+   "id": 1939,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": {
+   "url": "https://display.wconcept.co.kr/rn/brand/102698",
+   "title": "쿠메(KUME) | W컨셉(W CONCEPT)",
+   "ko": "쿠메",
+   "en": "KUME",
+   "intro": "KUME (쿠메) 는 ‘꿈을 입는다’ 라는 의미를 갖고 시작하였습니다.어떤 장소, 어떤 상황에서도 KUME로 자신만의 취향과 특별함을 표현하고, 각자가 바라는 감성과 삶의 모습을 보여줄 수 있으면 좋겠습니다.아름다운 핏, 좋은 소재, 편안한 움직임들이 모여 KUME가 되고, KUME를 입는 모든 이들에게 ‘꿈’ 을 줄 수 있는 브랜드를 만들고자 합니다.",
+   "n": 137,
+   "p": {
+    "min": 56550,
+    "q1": 164430,
+    "med": 189000,
+    "q3": 259000,
+    "p90": 432500,
+    "max": 1050000,
+    "mean": 251945
+   },
+   "disc": {
+    "n": 65,
+    "med": 13,
+    "max": 32
+   },
+   "names": [
+    "[단독] [1차리오더] Wool Blend Double-Breasted Short Trench Coat, Beige",
+    "[단독][1차리오더] Cashmere Blend Layering V-Neck Knit, Ivory",
+    "[단독] Wool Blend Double-Breasted Short Trench Coat, Melange Gray",
+    "[단독] Floral Applique Satin Midi Skirt, Brown",
+    "Raccoon Blend Muffler Knit Sweater, Mocha",
+    "Faux Leather Highneck Blouson, Black",
+    "Fringed Trim Semi-Cropped Tweed Jacket, Charcoal",
+    "[단독] Asymmetric Off-Shoulder Ruched Top, Black",
+    "Faux Leather Highneck Blouson, Brown",
+    "[단독] Reversible Faux Fur Jacket, Beige",
+    "[단독] Reversible Faux Fur Jacket, Brown",
+    "Men High-Neck Alpaca Blend Short Coat, Beige",
+    "Alpaca Wool Belted Long Coat, Oatmeal",
+    "Alpaca Wool Belted Long Coat, Mocha",
+    "Pure Wool Double-Breasted Half Coat, Charcoal",
+    "Pure Wool Double-Breasted Half Coat, Brown",
+    "Fatigue Corduroy Bootcut Pants, Brown",
+    "[단독] Wool Relaxed V-Neck Sweater, Light Gray",
+    "Nappa Lambskin Car Coat, Black",
+    "Men Nappa Lambskin Car Coat, Black",
+    "Men Alpaca Blend Collared Cardigan, Charcoal",
+    "Washed Slim Stretch Bootcut Pants, Black",
+    "Men Washed Corduroy Wide Pants, Light Blue",
+    "Wool Relaxed V-Neck Sweater, Light Blue",
+    "Men Wool Blend Waffle Henley Sweater, Black",
+    "Men Wool Blend Waffle Henley Sweater, Khaki",
+    "Men Wool Blend Waffle Henley Sweater, Gray",
+    "Men Alpaca Blend Collared Cardigan, Olive",
+    "Mohair Sheer Mermaid Maxi Skirt, Charcoal",
+    "[단독] Handmade Suri Alpaca Merino Wool Half Coat, Melange Gray",
+    "[단독] Handmade Suri Alpaca Merino Wool Half Coat, Ivory",
+    "[4차리오더] Linen Pleated Long Skirt, Ivory",
+    "Lace Pintucked Midi Skirt, Olive",
+    "Linen Boat-Neck Pintucked Dress, Navy",
+    "Pintuck Sheer Layered Long Dress, Light Beige",
+    "[2차리오더] 레이어링 텐셀 홀터 니트, 화이트",
+    "One Shoulder Silky Tencel Blouse, Beige",
+    "Crinkled Tencel Wrap Skirt, Beige",
+    "Crochet Short Sleeved Sweater, Ivory",
+    "Crochet Short Sleeved Sweater, Skin"
+   ],
+   "id": 102698,
+   "observed_at": "2026-10-29"
+  }
+ }
+}

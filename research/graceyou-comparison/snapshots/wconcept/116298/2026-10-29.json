@@ -1,0 +1,838 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/116298",
+ "title": "앙개(anggae) | W컨셉(W CONCEPT)",
+ "ko": "앙개",
+ "en": "anggae",
+ "intro": "'anggae(앙개)'는 페미닌 컨템포러리 브랜드로 여성의 실루엣을 감각적이고 유연하게 표현해 본연의 아름다움을 자연스럽게 드러내는 브랜드입니다. anggae 앙개 26FW 3차 OPEN anggae 26SS 여름 레이어링 anggae 26SS PT.5 anggae SPRING PT.4 anggae 26SS PT.3 anggae 셀럽 PICK 26 SPRING PART 2. anggae 26SS 1st Drop. CLEARANCE SALE 인기 브랜드 클리어런스 세일 anggae 민주&딘디 인플루언서 PICK anggae 25 F/W PART 5. 하트를 1만 개 받았어요 베스트 아이템 Thinsulate Jumper Light Grey (AG6939B062) 12% 289,000 1 Halter Neck Blouse Navy (AG5665B01R) 39% 96,831 2 Draped Hoodie Knit Pullover Grey (AG6X51A023) 13% 225,330 3 Curved Cotton Pants Brown (AG6621B01D) 13% 164,430 4 Glossy Leather Collar Blouson Black (AG6939B015) ",
+ "n": 154,
+ "p": {
+  "min": 60030,
+  "q1": 159000,
+  "med": 207930,
+  "q3": 309000,
+  "p90": 439000,
+  "max": 519000,
+  "mean": 235818
+ },
+ "disc": {
+  "n": 84,
+  "med": 13,
+  "max": 41
+ },
+ "names": [
+  "Thinsulate Jumper Light Grey (AG6939B062)",
+  "Halter Neck Blouse Navy (AG5665B01R)",
+  "Draped Hoodie Knit Pullover Grey (AG6X51A023)",
+  "Curved Cotton Pants Brown (AG6621B01D)",
+  "Glossy Leather Collar Blouson Black (AG6939B015)",
+  "Denim Blouson Jacket Ivory (AG6339A020)",
+  "Light Welon Padded Jumper Light Grey (AG6938B082)",
+  "Wool String Detail Pants Dark Grey (AG4821A024)",
+  "Light Windbreaker Black (AG6939B075)",
+  "Office Tote Brown (AG68D3A01D)",
+  "Contrast Pants Ash (AG6921A014)",
+  "Curved Barrel Pants Ash (AG6921A044)",
+  "Curved Barrel Pants Black (AG6921A045)",
+  "Jacquard Blouson Jacket Black (AG6939B05R)",
+  "Glossy Leather High-Neck Blouson Brown (AG6939B03D)",
+  "Suede High Neck Blouson Jacket Brown (AG6939B02D)",
+  "Wired Collar Shaket Brown (AG6939A03D)",
+  "Low Waist Safari Jacket (Suede) Brown (AG6939A02D)",
+  "Half Zip Up Pullover Ash (AG6951B034)",
+  "Muffler Knit Top Sky Blue (AG695UA01Q)",
+  "Draped Hoodie Knit Pullover Brown (AG6X51A02D)",
+  "Curved Sleeve Pullover Brown (AG6951A03D)",
+  "Curved Sleeve Pullover Sky Blue (AG6951A03Q)",
+  "Waist Tie Cardigan Sky Blue (AG695AA01Q)",
+  "Snap Cardigan Black (AG6X5AA015)",
+  "Snap Cardigan Ash (AG6X5AA014)",
+  "Snap Cardigan Ivory (AG6X5AA010)",
+  "Muffler Puffer Brown (AG6X38A01D)",
+  "Muffler Puffer Black (AG6X38A015)",
+  "Muffler Puffer Ivory (AG6X38A010)",
+  "Multy Way Muffler Black (AG6984A015)",
+  "Draped Skirt Black (AG6X27A015)",
+  "Draped Skirt Ash (AG6X27A014)",
+  "Knit Draped Skirt Ash (AG6X27A024)",
+  "Knit Draped Skirt Light Grey (AG6X27A022)",
+  "Knit Long Dress Ash (AG6X71A014)",
+  "High Neck ALine Half Coat Ash (AG6X30A024)",
+  "Short Fur Jacket Brown (AG6Y3VB10D)",
+  "Duck Down Anggae Puffer Brown (AG6X38A02D)",
+  "Duck Down Anggae Puffer Ivory (AG6X38A020)"
+ ],
+ "cards": [
+  {
+   "n": "Thinsulate Jumper Light Grey (AG6939B062)",
+   "p": 289000,
+   "d": 12
+  },
+  {
+   "n": "Halter Neck Blouse Navy (AG5665B01R)",
+   "p": 96831,
+   "d": 39
+  },
+  {
+   "n": "Draped Hoodie Knit Pullover Grey (AG6X51A023)",
+   "p": 225330,
+   "d": 13
+  },
+  {
+   "n": "Curved Cotton Pants Brown (AG6621B01D)",
+   "p": 164430,
+   "d": 13
+  },
+  {
+   "n": "Glossy Leather Collar Blouson Black (AG6939B015)",
+   "p": 319000,
+   "d": 11
+  },
+  {
+   "n": "Denim Blouson Jacket Ivory (AG6339A020)",
+   "p": 289000,
+   "d": 12
+  },
+  {
+   "n": "Light Welon Padded Jumper Light Grey (AG6938B082)",
+   "p": 309000,
+   "d": 11
+  },
+  {
+   "n": "Wool String Detail Pants Dark Grey (AG4821A024)",
+   "p": 102921,
+   "d": 39
+  },
+  {
+   "n": "Light Windbreaker Black (AG6939B075)",
+   "p": 251430,
+   "d": 13
+  },
+  {
+   "n": "Office Tote Brown (AG68D3A01D)",
+   "p": 155730,
+   "d": 13
+  },
+  {
+   "n": "Contrast Pants Ash (AG6921A014)",
+   "p": 159000,
+   "d": 15
+  },
+  {
+   "n": "Curved Barrel Pants Ash (AG6921A044)",
+   "p": 164430,
+   "d": 13
+  },
+  {
+   "n": "Curved Barrel Pants Black (AG6921A045)",
+   "p": 164430,
+   "d": 13
+  },
+  {
+   "n": "Jacquard Blouson Jacket Black (AG6939B05R)",
+   "p": 289000,
+   "d": 12
+  },
+  {
+   "n": "Glossy Leather High-Neck Blouson Brown (AG6939B03D)",
+   "p": 339000,
+   "d": 10
+  },
+  {
+   "n": "Suede High Neck Blouson Jacket Brown (AG6939B02D)",
+   "p": 339000,
+   "d": 10
+  },
+  {
+   "n": "Wired Collar Shaket Brown (AG6939A03D)",
+   "p": 359000,
+   "d": 10
+  },
+  {
+   "n": "Low Waist Safari Jacket (Suede) Brown (AG6939A02D)",
+   "p": 359000,
+   "d": 10
+  },
+  {
+   "n": "Half Zip Up Pullover Ash (AG6951B034)",
+   "p": 207930,
+   "d": 13
+  },
+  {
+   "n": "Muffler Knit Top Sky Blue (AG695UA01Q)",
+   "p": 225330,
+   "d": 13
+  },
+  {
+   "n": "Draped Hoodie Knit Pullover Brown (AG6X51A02D)",
+   "p": 225330,
+   "d": 13
+  },
+  {
+   "n": "Curved Sleeve Pullover Brown (AG6951A03D)",
+   "p": 147030,
+   "d": 13
+  },
+  {
+   "n": "Curved Sleeve Pullover Sky Blue (AG6951A03Q)",
+   "p": 147030,
+   "d": 13
+  },
+  {
+   "n": "Waist Tie Cardigan Sky Blue (AG695AA01Q)",
+   "p": 190530,
+   "d": 13
+  },
+  {
+   "n": "Snap Cardigan Black (AG6X5AA015)",
+   "p": 207930,
+   "d": 13
+  },
+  {
+   "n": "Snap Cardigan Ash (AG6X5AA014)",
+   "p": 207930,
+   "d": 13
+  },
+  {
+   "n": "Snap Cardigan Ivory (AG6X5AA010)",
+   "p": 207930,
+   "d": 13
+  },
+  {
+   "n": "Muffler Puffer Brown (AG6X38A01D)",
+   "p": 479000,
+   "d": 7
+  },
+  {
+   "n": "Muffler Puffer Black (AG6X38A015)",
+   "p": 479000,
+   "d": 7
+  },
+  {
+   "n": "Muffler Puffer Ivory (AG6X38A010)",
+   "p": 479000,
+   "d": 7
+  },
+  {
+   "n": "Multy Way Muffler Black (AG6984A015)",
+   "p": 112230,
+   "d": 13
+  },
+  {
+   "n": "Draped Skirt Black (AG6X27A015)",
+   "p": 190530,
+   "d": 13
+  },
+  {
+   "n": "Draped Skirt Ash (AG6X27A014)",
+   "p": 190530,
+   "d": 13
+  },
+  {
+   "n": "Knit Draped Skirt Ash (AG6X27A024)",
+   "p": 155730,
+   "d": 13
+  },
+  {
+   "n": "Knit Draped Skirt Light Grey (AG6X27A022)",
+   "p": 155730,
+   "d": 13
+  },
+  {
+   "n": "Knit Long Dress Ash (AG6X71A014)",
+   "p": 190530,
+   "d": 13
+  },
+  {
+   "n": "High Neck ALine Half Coat Ash (AG6X30A024)",
+   "p": 439000,
+   "d": 8
+  },
+  {
+   "n": "Short Fur Jacket Brown (AG6Y3VB10D)",
+   "p": 359000,
+   "d": 10
+  },
+  {
+   "n": "Duck Down Anggae Puffer Brown (AG6X38A02D)",
+   "p": 459000,
+   "d": 8
+  },
+  {
+   "n": "Duck Down Anggae Puffer Ivory (AG6X38A020)",
+   "p": 459000,
+   "d": 8
+  },
+  {
+   "n": "Half Neck Snap Pullover Ash (AG6X51A014)",
+   "p": 173130,
+   "d": 13
+  },
+  {
+   "n": "Half Neck Snap Pullover Light Grey (AG6X51A012)",
+   "p": 173130,
+   "d": 13
+  },
+  {
+   "n": "Draped Hoodie Zip Up Brown (AG6X5AA02D)",
+   "p": 272000,
+   "d": 12
+  },
+  {
+   "n": "Draped Hoodie Zip Up Grey (AG6X5AA023)",
+   "p": 272000,
+   "d": 12
+  },
+  {
+   "n": "Big Hoodie Snap Cardigan Ash (AG695AA024)",
+   "p": 225330,
+   "d": 13
+  },
+  {
+   "n": "Big Hoodie Snap Cardigan Light Grey (AG695AA022)",
+   "p": 225330,
+   "d": 13
+  },
+  {
+   "n": "Mini Boxer Bag Black (AG71D3A045)",
+   "p": 138330,
+   "d": 13
+  },
+  {
+   "n": "Sheer Long Shirt Ivory (AG6464B050)",
+   "p": 120930,
+   "d": null
+  },
+  {
+   "n": "Oversized Back Draped TShirt Ivory (AG6642B060)",
+   "p": 60030,
+   "d": null
+  },
+  {
+   "n": "Jacquard Wide Pants Black (AG6221B01R)",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "Satin ZipUp Shirt Brown (AG6364B01D)",
+   "p": 173130,
+   "d": null
+  },
+  {
+   "n": "Belted Tunic Blouse Black (AG6364A055)",
+   "p": 164430,
+   "d": null
+  },
+  {
+   "n": "Black Sheer Blouse Black (AG4764A065)",
+   "p": 96831,
+   "d": null
+  },
+  {
+   "n": "Jacquard Jacket Black (AG5811A01R)",
+   "p": 208104,
+   "d": null
+  },
+  {
+   "n": "Track Jumper Black (AG5938A025)",
+   "p": 228984,
+   "d": null
+  },
+  {
+   "n": "Faux Fur Coat Navy (AG5X3VA03R)",
+   "p": 351200,
+   "d": null
+  },
+  {
+   "n": "Multiple Knit Vest Magenta (AG5X5UA01W)",
+   "p": 96744,
+   "d": null
+  },
+  {
+   "n": "Thinsulate Jumper Light Grey (AG6939B062)",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "329,000",
+   "p": 289000,
+   "d": 12
+  },
+  {
+   "n": "Halter Neck Blouse Navy (AG5665B01R)",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "159,000",
+   "p": 96831,
+   "d": 39
+  },
+  {
+   "n": "Half Zip Up Pullover Ash (AG6951B034)",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "239,000",
+   "p": 207930,
+   "d": 13
+  },
+  {
+   "n": "Curved Cotton Pants Brown (AG6621B01D)",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "189,000",
+   "p": 164430,
+   "d": 13
+  },
+  {
+   "n": "Denim Blouson Jacket Ivory (AG6339A020)",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "Light Windbreaker Black (AG6939B075)",
+   "p": 289000,
+   "d": null
+  },
+  {
+   "n": "289,000",
+   "p": 251430,
+   "d": 13
+  },
+  {
+   "n": "Half Neck Snap Pullover Ash (AG6X51A014)",
+   "p": 199000,
+   "d": null
+  },
+  {
+   "n": "199,000",
+   "p": 173130,
+   "d": 13
+  },
+  {
+   "n": "Mini Ball Bag Brown (AG58D3A04D)",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "Curved Barrel Pants Ash (AG6921A044)",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "Draped Hoodie Knit Pullover Grey (AG6X51A023)",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "259,000",
+   "p": 225330,
+   "d": 13
+  },
+  {
+   "n": "Low Crotch Denim Blue (AG6821A03P)",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "Glossy Leather Collar Blouson Black (AG6939B015)",
+   "p": 359000,
+   "d": null
+  },
+  {
+   "n": "359,000",
+   "p": 319000,
+   "d": 11
+  },
+  {
+   "n": "Snap Cardigan Ash (AG6X5AA014)",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "Wool String Detail Pants Dark Grey (AG4821A024)",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "169,000",
+   "p": 102921,
+   "d": 39
+  },
+  {
+   "n": "Light Welon Padded Jumper Light Grey (AG6938B082)",
+   "p": 349000,
+   "d": null
+  },
+  {
+   "n": "349,000",
+   "p": 309000,
+   "d": 11
+  },
+  {
+   "n": "Wonderer Wrinkle Trench Coat Ivory (AG4830A010)",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "329,000",
+   "p": 200361,
+   "d": 39
+  },
+  {
+   "n": "Layered Two Tone Sweatshirt Black (AG5951A035)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "179,000",
+   "p": 124584,
+   "d": 30
+  },
+  {
+   "n": "VNeck Knit Light Grey (AG6851B012)",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "169,000",
+   "p": 147030,
+   "d": 13
+  },
+  {
+   "n": "Satin Shirt Ivory (AG6864A010)",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "159,000",
+   "p": 138330,
+   "d": 13
+  },
+  {
+   "n": "Twisted Back Knit Tank Black (AG595UA015)",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "129,000",
+   "p": 89784,
+   "d": 30
+  },
+  {
+   "n": "Halter Dress White (AG6371A021)",
+   "p": 269000,
+   "d": null
+  },
+  {
+   "n": "269,000",
+   "p": 234030,
+   "d": 13
+  },
+  {
+   "n": "Checkered Skirt Pants Light Grey (AG6427A012)",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "Hoodie Pullover Grey (AG6251A033)",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "Anggae Skant Grey (AG6921B044)",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "Satin ZipUp Shirt Brown (AG6364B01D)",
+   "p": 199000,
+   "d": null
+  },
+  {
+   "n": "Scoop Neck Short Sleeve TShirt White (AG6742B021)",
+   "p": 69000,
+   "d": null
+  },
+  {
+   "n": "69,000",
+   "p": 60030,
+   "d": 13
+  },
+  {
+   "n": "Track Jumper Lemon (AG5938A02F)",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "329,000",
+   "p": 228984,
+   "d": 30
+  },
+  {
+   "n": "Balloon Padded Midi Skirt Black (AG5927A025)",
+   "p": 199000,
+   "d": null
+  },
+  {
+   "n": "199,000",
+   "p": 138504,
+   "d": 30
+  },
+  {
+   "n": "Pleats Short Sleeve Top Navy (AG6865B01R)",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "119,000",
+   "p": 103530,
+   "d": 13
+  },
+  {
+   "n": "Faux Fur Coat Navy (AG5X3VA03R)",
+   "p": 489000,
+   "d": null
+  },
+  {
+   "n": "489,000",
+   "p": 351200,
+   "d": 28
+  },
+  {
+   "n": "Short Fur Jacket Brown (AG6Y3VB10D)",
+   "p": 399000,
+   "d": null
+  },
+  {
+   "n": "399,000",
+   "p": 359000,
+   "d": 10
+  },
+  {
+   "n": "Glossy Leather High-Neck Blouson Brown (AG6939B03D)",
+   "p": 379000,
+   "d": null
+  },
+  {
+   "n": "379,000",
+   "p": 339000,
+   "d": 10
+  },
+  {
+   "n": "Snap Cardigan Ivory (AG6X5AA010)",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "Knit Long Dress Ash (AG6X71A014)",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "219,000",
+   "p": 190530,
+   "d": 13
+  },
+  {
+   "n": "Big Cowl Tie Pullover Ivory (AG6251A020)",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "189,000",
+   "p": 159000,
+   "d": 15
+  },
+  {
+   "n": "Flocky Pattern Jacket Grey (AG5311A032)",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "259,000",
+   "p": 157731,
+   "d": 39
+  },
+  {
+   "n": "Contrast Pants Ash (AG6921A014)",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "Unbalanced Satin Skirt Brown (AG6327B02D)",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "Crafted Rib Hooded Pullover Navy (AG5351A02R)",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "219,000",
+   "p": 133371,
+   "d": 39
+  },
+  {
+   "n": "Big Boxer Bag Black (AG65D3B115)",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "159,000",
+   "p": 133560,
+   "d": 16
+  },
+  {
+   "n": "Paddies Asymmetric Pullover Ivory (AG4X51A010)",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "219,000",
+   "p": 128772,
+   "d": 41
+  },
+  {
+   "n": "Pleats Cardigan Navy (AG6864B02R)",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "139,000",
+   "p": 120930,
+   "d": 13
+  },
+  {
+   "n": "Faux Leather Belt Black (AG718ZC045)",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "79,000",
+   "p": 66360,
+   "d": 16
+  },
+  {
+   "n": "Muffler Puffer Brown (AG6X38A01D)",
+   "p": 519000,
+   "d": null
+  },
+  {
+   "n": "519,000",
+   "p": 479000,
+   "d": 7
+  },
+  {
+   "n": "Muffler Puffer Black (AG6X38A015)",
+   "p": 519000,
+   "d": null
+  },
+  {
+   "n": "Muffler Puffer Ivory (AG6X38A010)",
+   "p": 519000,
+   "d": null
+  },
+  {
+   "n": "Multy Way Muffler Black (AG6984A015)",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "129,000",
+   "p": 112230,
+   "d": 13
+  },
+  {
+   "n": "Draped Skirt Black (AG6X27A015)",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "Draped Skirt Ash (AG6X27A014)",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "Knit Draped Skirt Ash (AG6X27A024)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "179,000",
+   "p": 155730,
+   "d": 13
+  },
+  {
+   "n": "Knit Draped Skirt Light Grey (AG6X27A022)",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "High Neck ALine Half Coat Ash (AG6X30A024)",
+   "p": 479000,
+   "d": null
+  },
+  {
+   "n": "479,000",
+   "p": 439000,
+   "d": 8
+  },
+  {
+   "n": "Duck Down Anggae Puffer Brown (AG6X38A02D)",
+   "p": 499000,
+   "d": null
+  },
+  {
+   "n": "499,000",
+   "p": 459000,
+   "d": 8
+  },
+  {
+   "n": "Duck Down Anggae Puffer Ivory (AG6X38A020)",
+   "p": 499000,
+   "d": null
+  },
+  {
+   "n": "Half Neck Snap Pullover Light Grey (AG6X51A012)",
+   "p": 199000,
+   "d": null
+  },
+  {
+   "n": "Draped Hoodie Zip Up Brown (AG6X5AA02D)",
+   "p": 312000,
+   "d": null
+  },
+  {
+   "n": "312,000",
+   "p": 272000,
+   "d": 12
+  },
+  {
+   "n": "Draped Hoodie Zip Up Grey (AG6X5AA023)",
+   "p": 312000,
+   "d": null
+  },
+  {
+   "n": "Big Hoodie Snap Cardigan Ash (AG695AA024)",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "Big Hoodie Snap Cardigan Light Grey (AG695AA022)",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "Mini Boxer Bag Black (AG71D3A045)",
+   "p": 159000,
+   "d": null
+  }
+ ],
+ "id": 116298,
+ "observed_at": "2026-10-29"
+}

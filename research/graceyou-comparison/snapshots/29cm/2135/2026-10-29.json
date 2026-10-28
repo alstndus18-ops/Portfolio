@@ -1,0 +1,685 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/2135",
+ "title": "다이애그널(DIAGONAL)",
+ "ko": "다이애그널",
+ "en": "DIAGONAL",
+ "sub": "간결하고 절제된 디자인으로 페미닌 캐주얼함을 추구하는 브랜드",
+ "est": 2014,
+ "heart": 45818,
+ "intro": "2014년 설립된 간소하지만 감각적인 디자인을 제안하는 현대적인 여성복 브랜드. 단순한 선과 일상적인 형태 안에서 독특함을 찾고자 합니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 34440,
+  "q1": 68060,
+  "med": 94830,
+  "q3": 112230,
+  "p90": 139500,
+  "max": 170100,
+  "mean": 92469
+ },
+ "disc": {
+  "n": 50,
+  "med": 18,
+  "max": 18
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 520,
+  "med": 5,
+  "max": 63,
+  "rated": 43
+ },
+ "rate": 4.76,
+ "tags": {
+  "쿠폰": 48,
+  "조건부 무료배송": 49,
+  "품절": 1
+ },
+ "names": [
+  "[7th] STITCHED TRAPEZE SKIRT (black)",
+  "[10th] V NECK CASHMERE KNIT (plum)",
+  "[3rd] ASMY SHIRRING TEE (charcoal)",
+  "V NECK BASIC KNIT (charcoal)",
+  "SLOGAN WAFFLE LONG SLEEVE TEE (charcoal)",
+  "[2nd] STRIPE OFF SHOULDER CARDIGAN (plum)",
+  "[2nd] BOUCLE KNIT JACKET (black)",
+  "[2nd] U NECK BASIC KNIT (ivory)",
+  "[2nd] U NECK BASIC KNIT (mocha)",
+  "[4th] LAYERED HENLEY TEE (mint)",
+  "[2nd] LACE KNOT BELT PANTS (black)",
+  "[2nd] LACE KNOT BELT PANTS (melange grey)",
+  "[2nd] TWO WAY LAYERED DRESS (black)",
+  "[3rd] LAYERED HENLEY TEE (black)",
+  "DIAGONAL BUTTON STRAP CARDIGAN (charcoal)",
+  "[2nd] DOUBLE LAYERED LACE SKIRT (black)",
+  "WARM JOGGER PANTS (dark grey)",
+  "[12th] LOOSE SHIRRING TOP (charcoal)",
+  "[8th] BRAID STRING TOP (melange grey)",
+  "[2nd] DOUBLE SLEEVE DAMAGE CARDIGAN (blue)",
+  "[14th] DOUBLE LAYERED LONG DRESS (melange grey)",
+  "[7th] LOW RISE MIDI SKIRT (grey)",
+  "[13th] DOUBLE LAYERED LONG DRESS (black)",
+  "[4th] LAYERED HENLEY TEE (mocha)",
+  "SLOGAN WAFFLE LONG SLEEVE TEE (beige)",
+  "STRIPE HOODIE LAYERED TEE (black)",
+  "BUSTIER RIBBED ZIP UP (black)",
+  "LACE POINT SEE THROUGH TOP (beige)",
+  "V NECK BASIC KNIT (red)",
+  "STRIPE OFF SHOULDER CARDIGAN (black)",
+  "STITCHED TRAPEZE SKIRT (white)",
+  "[2nd] HENLEY BUTTON CAMISOLE (4color)",
+  "STRIPE POCKET SHIRTS (ivory)",
+  "V NECK BASIC KNIT (yellow)",
+  "[4th] SNAP DOUBLE BELT (black)",
+  "LACE POINT SEE THROUGH TOP (black)",
+  "[4th] TWO WAY LONG DRESS (charcoal)",
+  "[5th] LOW RISE MIDI SKIRT (black)",
+  "STRIPE JERSEY ZIP HOODIE (blue grey)",
+  "FLORAL BLEED TEE (grey)"
+ ],
+ "cards": [
+  {
+   "n": "[7th] STITCHED TRAPEZE SKIRT (black)",
+   "p": 147030,
+   "d": 13,
+   "lk": null,
+   "rt": 5,
+   "rv": 51,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[10th] V NECK CASHMERE KNIT (plum)",
+   "p": 111600,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 63,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[3rd] ASMY SHIRRING TEE (charcoal)",
+   "p": 50840,
+   "d": 18,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "V NECK BASIC KNIT (charcoal)",
+   "p": 97580,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SLOGAN WAFFLE LONG SLEEVE TEE (charcoal)",
+   "p": 77080,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2nd] STRIPE OFF SHOULDER CARDIGAN (plum)",
+   "p": 97580,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2nd] BOUCLE KNIT JACKET (black)",
+   "p": 122180,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2nd] U NECK BASIC KNIT (ivory)",
+   "p": 97580,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2nd] U NECK BASIC KNIT (mocha)",
+   "p": 97580,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[4th] LAYERED HENLEY TEE (mint)",
+   "p": 51660,
+   "d": 18,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 9,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2nd] LACE KNOT BELT PANTS (black)",
+   "p": 89380,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 7,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2nd] LACE KNOT BELT PANTS (melange grey)",
+   "p": 89380,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2nd] TWO WAY LAYERED DRESS (black)",
+   "p": 134480,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[3rd] LAYERED HENLEY TEE (black)",
+   "p": 51660,
+   "d": 18,
+   "lk": null,
+   "rt": 4,
+   "rv": 10,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DIAGONAL BUTTON STRAP CARDIGAN (charcoal)",
+   "p": 68060,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2nd] DOUBLE LAYERED LACE SKIRT (black)",
+   "p": 113980,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "WARM JOGGER PANTS (dark grey)",
+   "p": 125100,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[12th] LOOSE SHIRRING TOP (charcoal)",
+   "p": 46980,
+   "d": 13,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 35,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[8th] BRAID STRING TOP (melange grey)",
+   "p": 77080,
+   "d": 18,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 23,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2nd] DOUBLE SLEEVE DAMAGE CARDIGAN (blue)",
+   "p": 75600,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[14th] DOUBLE LAYERED LONG DRESS (melange grey)",
+   "p": 112230,
+   "d": 13,
+   "lk": null,
+   "rt": 5,
+   "rv": 24,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[7th] LOW RISE MIDI SKIRT (grey)",
+   "p": 94830,
+   "d": 13,
+   "lk": null,
+   "rt": 5,
+   "rv": 34,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[13th] DOUBLE LAYERED LONG DRESS (black)",
+   "p": 108360,
+   "d": 16,
+   "lk": null,
+   "rt": 5,
+   "rv": 32,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[4th] LAYERED HENLEY TEE (mocha)",
+   "p": 51660,
+   "d": 18,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 7,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SLOGAN WAFFLE LONG SLEEVE TEE (beige)",
+   "p": 77080,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "STRIPE HOODIE LAYERED TEE (black)",
+   "p": 61200,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "BUSTIER RIBBED ZIP UP (black)",
+   "p": 80100,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "LACE POINT SEE THROUGH TOP (beige)",
+   "p": 37720,
+   "d": 18,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "V NECK BASIC KNIT (red)",
+   "p": 107100,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "STRIPE OFF SHOULDER CARDIGAN (black)",
+   "p": 97580,
+   "d": 18,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "STITCHED TRAPEZE SKIRT (white)",
+   "p": 138580,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 12,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2nd] HENLEY BUTTON CAMISOLE (4color)",
+   "p": 34440,
+   "d": 18,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 30,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "STRIPE POCKET SHIRTS (ivory)",
+   "p": 104160,
+   "d": 16,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "V NECK BASIC KNIT (yellow)",
+   "p": 97580,
+   "d": 18,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[4th] SNAP DOUBLE BELT (black)",
+   "p": 62100,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 8,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "LACE POINT SEE THROUGH TOP (black)",
+   "p": 37720,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[4th] TWO WAY LONG DRESS (charcoal)",
+   "p": 80360,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 30,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[5th] LOW RISE MIDI SKIRT (black)",
+   "p": 107100,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "STRIPE JERSEY ZIP HOODIE (blue grey)",
+   "p": 126280,
+   "d": 18,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "FLORAL BLEED TEE (grey)",
+   "p": 47560,
+   "d": 18,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[3rd] LACE SLIP DRESS (ivory)",
+   "p": 138600,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "품절"
+   ]
+  },
+  {
+   "n": "[DIAGONAL X FINCA] HOLIDAY HOME WEAR SET",
+   "p": 139500,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[4th] TWO WAY LONG DRESS (beige)",
+   "p": 80360,
+   "d": 18,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 17,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2nd] VINTAGE CAMPUS TEE (blue)",
+   "p": 62100,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 19,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "MOHAIR BASIC KNIT (pink)",
+   "p": 152100,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "MOHAIR SILHOUETTE CARDIGAN (red brown)",
+   "p": 170100,
+   "d": 10,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[5th] SOFT OFF SHOULDER CARDIGAN (stripe blue)",
+   "p": 93480,
+   "d": 18,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 27,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "STRING SLEEVELESS BLOUSE (white)",
+   "p": 80100,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "HEART ARGYLE JACQUARD HOOD ZIP UP (black)",
+   "p": 152100,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2nd] DOUBLE EYELET ADORNMENT BELT (black)",
+   "p": 68880,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 10,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 2135,
+ "observed_at": "2026-10-29"
+}

@@ -1,0 +1,688 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/2657",
+ "title": "레이브(RAIVE)",
+ "ko": "레이브",
+ "en": "RAIVE",
+ "sub": "화려하면서도 자유로운 스타일링의 컨템포러리룩",
+ "est": 2017,
+ "heart": 125722,
+ "intro": "레이브는 음악, 영화, 예술 등 다양한 문화에서 영감을 받아 경계 없고 자유분방한 스타일을 제안하는 패션 레이블입니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 28000,
+  "q1": 128000,
+  "med": 148000,
+  "q3": 202300,
+  "p90": 304300,
+  "max": 328000,
+  "mean": 169238
+ },
+ "disc": {
+  "n": 11,
+  "med": 15,
+  "max": 50
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 2360,
+  "med": 6,
+  "max": 635,
+  "rated": 40
+ },
+ "rate": 4.97,
+ "tags": {
+  "조건부 무료배송": 50,
+  "가을 필수": 34,
+  "신상품": 17
+ },
+ "names": [
+  "High-neck Leather Blouson Jacket VL5AJ093_2color",
+  "(컬러추가) Low-Belted Half Coat VW5WH041_3color",
+  "High Neck Boucle Half Coat VW6WHA43_2color",
+  "High Neck Short Coat VW3WJ032_2color",
+  "Shirring Jersey Skirt VW6AS960_2color",
+  "Hair Fur Half Jacket VF6WJB25_2color",
+  "(컬러추가) Hairy Wool Jacket VW4WJ035_3color",
+  "V-neck Collared Button Knit VK6AP977_3color",
+  "Oversized Double-Layer Leather Jacket VL6AJ909_2color",
+  "Nia Shoulder UB6AB138_3color",
+  "Dot Slit Detail Skirt VW6AS981_2color",
+  "Muir Shoulder UB6AB135_2color",
+  "Cashmere Wool V neck Knit VK6AP971_6color",
+  "Velvet Halter Layered T-Shirt VW6WEA66_2color",
+  "Contrast Detail Zip-up Knit VK6WDA76_2color",
+  "Ruffle Detail Top VW6AE960_2color",
+  "Suede Buckle Mini Skirt Pants VW6AL995_2color",
+  "Reversible Suede Half Mustang VM6WMB10_2color",
+  "Coloring Layered T-shirts VW6AE963_4color",
+  "Soft Touch Semi-Boot Cut Pants VW6WLA84_3color",
+  "Layered Open-Toe Knee Socks VX5AK624_4color",
+  "Belted H-line Long Skirt VW6AS984_2color",
+  "Striped Hairy Knit VK6WPA75_2color",
+  "Hadi Shoulder UB6AB141_3color",
+  "Raccoon Blended Deep V-neck Knit VK6WPA71_2color",
+  "Raglan Graphic T-Shirts VW6AE964_2color",
+  "Hairy Collarless Jacket VW6WJA01_2color",
+  "Suede Midi Skirt VW6AS980_2color",
+  "Toggle Detail Oversized Coat VW6WHA46_3color",
+  "Stella Clog Mule WA6AE022_2color",
+  "Buckle Detail High neck Jacket VW4WJ033_2color",
+  "Trimmed Hook Midi Tweed Jacket VW5AJ230_2color",
+  "Claire Mid Boots WA6AD024_3color",
+  "Striped Collar Knit VK5WP293_2color",
+  "Leo Shoulder UF5SB088_3color",
+  "Suede Blouson Jacket VL6AJ906_2color",
+  "High-neck Belted Half Coat VW6WHA42_2color",
+  "Boucle Duffel Half Coat Jacket in Black VW5WJ241-10",
+  "Cloude Stud Flats in Black WA6AB020-10",
+  "Corduroy Layered Skirt Pants VW6WLA85_2color"
+ ],
+ "cards": [
+  {
+   "n": "High-neck Leather Blouson Jacket VL5AJ093_2color",
+   "p": 180600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 635,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "(컬러추가) Low-Belted Half Coat VW5WH041_3color",
+   "p": 328000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 97,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "High Neck Boucle Half Coat VW6WHA43_2color",
+   "p": 304300,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "High Neck Short Coat VW3WJ032_2color",
+   "p": 166800,
+   "d": 40,
+   "lk": null,
+   "rt": 5,
+   "rv": 207,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Shirring Jersey Skirt VW6AS960_2color",
+   "p": 98000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 16,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Hair Fur Half Jacket VF6WJB25_2color",
+   "p": 258000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "(컬러추가) Hairy Wool Jacket VW4WJ035_3color",
+   "p": 298000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 49,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "V-neck Collared Button Knit VK6AP977_3color",
+   "p": 138000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 15,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Oversized Double-Layer Leather Jacket VL6AJ909_2color",
+   "p": 253300,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 18,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Nia Shoulder UB6AB138_3color",
+   "p": 138000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 34,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Dot Slit Detail Skirt VW6AS981_2color",
+   "p": 128000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 18,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Muir Shoulder UB6AB135_2color",
+   "p": 168000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 7,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Cashmere Wool V neck Knit VK6AP971_6color",
+   "p": 128000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 16,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Velvet Halter Layered T-Shirt VW6WEA66_2color",
+   "p": 98000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 4,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Contrast Detail Zip-up Knit VK6WDA76_2color",
+   "p": 134300,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Ruffle Detail Top VW6AE960_2color",
+   "p": 68000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 20,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Suede Buckle Mini Skirt Pants VW6AL995_2color",
+   "p": 128000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Reversible Suede Half Mustang VM6WMB10_2color",
+   "p": 295800,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Coloring Layered T-shirts VW6AE963_4color",
+   "p": 68000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Soft Touch Semi-Boot Cut Pants VW6WLA84_3color",
+   "p": 128000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Layered Open-Toe Knee Socks VX5AK624_4color",
+   "p": 28000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 29,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Belted H-line Long Skirt VW6AS984_2color",
+   "p": 138000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Striped Hairy Knit VK6WPA75_2color",
+   "p": 118000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Hadi Shoulder UB6AB141_3color",
+   "p": 168000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 7,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Raccoon Blended Deep V-neck Knit VK6WPA71_2color",
+   "p": 158000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Raglan Graphic T-Shirts VW6AE964_2color",
+   "p": 68000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 25,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Hairy Collarless Jacket VW6WJA01_2color",
+   "p": 298000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Suede Midi Skirt VW6AS980_2color",
+   "p": 138000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Toggle Detail Oversized Coat VW6WHA46_3color",
+   "p": 258000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Stella Clog Mule WA6AE022_2color",
+   "p": 138000,
+   "d": null,
+   "lk": null,
+   "rt": 4,
+   "rv": 6,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Buckle Detail High neck Jacket VW4WJ033_2color",
+   "p": 328000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 148,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Trimmed Hook Midi Tweed Jacket VW5AJ230_2color",
+   "p": 202300,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 138,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Claire Mid Boots WA6AD024_3color",
+   "p": 158000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 8,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Striped Collar Knit VK5WP293_2color",
+   "p": 128000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 129,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Leo Shoulder UF5SB088_3color",
+   "p": 88000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 613,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Suede Blouson Jacket VL6AJ906_2color",
+   "p": 166600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "High-neck Belted Half Coat VW6WHA42_2color",
+   "p": 328000,
+   "d": null,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Boucle Duffel Half Coat Jacket in Black VW5WJ241-10",
+   "p": 328000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 13,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Cloude Stud Flats in Black WA6AB020-10",
+   "p": 98000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 47,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Corduroy Layered Skirt Pants VW6WLA85_2color",
+   "p": 158000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Alpaca Blended Half Zip-up Knit VK6WPA73_2color",
+   "p": 178000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Check Layered Banding Pants VW6WLA83_2color",
+   "p": 138000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Belted Half Trench Jacket VW6AR902_2color",
+   "p": 173600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "High-neck Belted Long Coat VW6WHA47_2color",
+   "p": 253300,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Shearling Mustang Jacket in Black VM5WM015-10",
+   "p": 129000,
+   "d": 50,
+   "lk": null,
+   "rt": 5,
+   "rv": 9,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Stripe Fleece Zip-up in Grey VW6WMA52-12",
+   "p": 178000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Side Button Detail T-shirts VW6AE962_3color",
+   "p": 68000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 10,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Raive Applique Ball Cap VX6WAA96_2color",
+   "p": 58000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Mohair Blended Layered Knit VK6AP975_2color",
+   "p": 138000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Ribbed Zip-up Knit VK6AD982_2color",
+   "p": 148000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 2657,
+ "observed_at": "2026-10-29"
+}

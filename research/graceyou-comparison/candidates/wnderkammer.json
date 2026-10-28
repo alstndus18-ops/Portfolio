@@ -1,0 +1,125 @@
+{
+ "slug": "wnderkammer",
+ "ko": "분더캄머",
+ "en": "WNDERKAMMER",
+ "status": "후보",
+ "tier": "디자이너 컨템포러리",
+ "tags": [
+  "미니멀",
+  "캐주얼",
+  "데일리"
+ ],
+ "found": [
+  "DB 디자이너 여성복"
+ ],
+ "note": "",
+ "ids": {
+  "wc": 100007
+ },
+ "price_source": "W컨셉",
+ "intro": "WNDERKAMMER(분더캄머) 브랜드 분더캄머는 자극적이지도 도발적이지도 않으며 꾸밈이 없는 자연스러움을 강조하고자 하는 브랜드이다. 지극히 평범해 보이지만 그 속에서 대중이 느낄 수 있는 은근히 다가오는 강렬함이 있는 브랜드이다.",
+ "sub": "",
+ "est": null,
+ "heart": null,
+ "off": null,
+ "score": {
+  "k": 1.89,
+  "list_q1": 166038,
+  "list_med": 260015,
+  "list_q3": 365400,
+  "s_price": 78,
+  "s_band": 60,
+  "s_mood": 11,
+  "score": 41,
+  "partial": 71
+ },
+ "evidence": [
+  {
+   "idx": "211519",
+   "date": "2024-05-29",
+   "title": "하고의 신흥 여성 패션 3인방… 어몽, 큐리티, 콤스튜디오",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=211519&cat=CAT350",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [],
+  "wconcept": [
+   "2026-10-29"
+  ]
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "가격 근접·무드 다름",
+ "rank": 32,
+ "platform": {
+  "29cm": null,
+  "wconcept": {
+   "url": "https://display.wconcept.co.kr/rn/brand/100007",
+   "title": "분더캄머(WNDERKAMMER) | W컨셉(W CONCEPT)",
+   "ko": "분더캄머",
+   "en": "WNDERKAMMER",
+   "intro": "WNDERKAMMER(분더캄머) 브랜드 분더캄머는 자극적이지도 도발적이지도 않으며 꾸밈이 없는 자연스러움을 강조하고자 하는 브랜드이다. 지극히 평범해 보이지만 그 속에서 대중이 느낄 수 있는 은근히 다가오는 강렬함이 있는 브랜드이다.",
+   "n": 153,
+   "p": {
+    "min": 28728,
+    "q1": 88000,
+    "med": 137808,
+    "q3": 193662,
+    "p90": 255258,
+    "max": 528000,
+    "mean": 151157
+   },
+   "disc": {
+    "n": 78,
+    "med": 47,
+    "max": 58
+   },
+   "names": [
+    "Soft Suede Seam Jumper_Olive",
+    "[2차 리오더]Corduroy Straight Pants_Brown",
+    "Back Brushed 2-way Jacket_Grey",
+    "26 Tweed Puff Top_Black",
+    "Reversible Mink fur Jumper_Brown",
+    "[1차 리오더]Alpaca Softroll Knit Pullover_4 Color",
+    "25 Jersey Long Dress_Dark Grey",
+    "25 Corduroy 2-Way Jacket_Black",
+    "Check 2-way Jacket_Khaki",
+    "Puff sleeve dress_Light Khaki",
+    "Drape Blouse_Black",
+    "26 Classic Tuck Pants_Beige",
+    "26 Classic Tuck Pants_Light Khaki",
+    "Tied Mini Skirt_Navy",
+    "Sailor Collar Layered Top_White",
+    "Layered Sleeveless Top_Black",
+    "Puff Sleeve Blouse_Brown",
+    "Puff Sleeve Blouse_Dark Navy",
+    "Henleyneck Tied shirt_Navy",
+    "Back Yoke Straight Pants_Black",
+    "Straight Leg Denim Pants_Blue",
+    "Daily Fitted T_Navy",
+    "U neck Sheer T_Grey",
+    "25 Basic Short Sleeve T_Navy",
+    "Puff sleeve dress_Dark Navy",
+    "Drape Blouse_Light Blue",
+    "Shirred Jogger Pants_Navy",
+    "Tied Mini Skirt_Brown",
+    "Layered Sleeveless Top_Cream",
+    "Drape Blouse_White",
+    "Sailor Collar Layered Top_Olive",
+    "[2pack]Sleeveless Top",
+    "26 Tweed Skirt_White",
+    "26 Tweed Puff Top_White",
+    "26 Tweed Skirt_Black",
+    "Ponte Fitted Dress_Black",
+    "Shirring Maxi Skirt_White",
+    "[1차 리오더]Floral Leg Warmer_3 Color",
+    "Sleeveless Maxi Dress_Dark Grey",
+    "[응정 PICK]Waist Tied T_White"
+   ],
+   "id": 100007,
+   "observed_at": "2026-10-29"
+  }
+ }
+}

@@ -1,0 +1,266 @@
+{
+ "slug": "atelier-nain",
+ "ko": "아틀리에 나인",
+ "en": "ATELIER NAIN",
+ "status": "제외-가격대",
+ "tier": "컨템포러리 브랜드",
+ "tags": [
+  "페미닌",
+  "클래식",
+  "데일리",
+  "시즌리스"
+ ],
+ "found": [
+  "29CM DB 1차"
+ ],
+ "note": "공식몰 상의 정가 중앙 8.9만원으로 그레이스유의 절반 수준이라 상의 비교 후보에서 제외. 저가 쪽 참고로 보관.",
+ "ids": {
+  "c29": 27282,
+  "wc": 112424,
+  "off": "https://nain.co.kr"
+ },
+ "price_source": "29CM",
+ "intro": "아틀리에 나인(Atelier Nain)은 TAKE YOUR TIME을 모티브로 내 삶의 행복한 순간들을 위해 나만의 스타일, 패션, 아트, 감성들로 아카이빙 하는 브랜드입니다. 바쁜 일상 속에서 내가 좋아하는 감성을 아카이빙하고 잠깐 멈춰보는 순간의 여유를 선사합니다.",
+ "sub": "내 삶의 행복한 순간을 위해 나만의 스타일과 패션, 감성으로 아카이빙하는 브랜드입니다.",
+ "est": 2006,
+ "heart": 67350,
+ "off": {
+  "rows": 380,
+  "styles": 351,
+  "list": {
+   "n": 351,
+   "min": 29000,
+   "q1": 69000,
+   "med": 89000,
+   "q3": 119000,
+   "p90": 139000,
+   "max": 189000,
+   "mean": 92234
+  },
+  "sale": {
+   "n": 351,
+   "min": 27300,
+   "q1": 59000,
+   "med": 79000,
+   "q3": 98000,
+   "p90": 129000,
+   "max": 189000,
+   "mean": 82307
+  },
+  "disc_share": 0.39,
+  "disc_med": 30,
+  "disc_max": 50,
+  "source": "https://nain.co.kr/shop/shopbrand.html?xcode=173/175/223",
+  "knit": {
+   "styles": 173,
+   "list": {
+    "n": 173,
+    "min": 49000,
+    "q1": 79000,
+    "med": 98000,
+    "q3": 109000,
+    "p90": 139000,
+    "max": 189000,
+    "mean": 100798
+   },
+   "sale": {
+    "n": 173,
+    "min": 29500,
+    "q1": 71200,
+    "med": 89000,
+    "q3": 104300,
+    "p90": 129000,
+    "max": 169000,
+    "mean": 90424
+   },
+   "disc_share": 0.43,
+   "disc_med": 30
+  }
+ },
+ "score": {
+  "k": 1.45,
+  "list_q1": 90290,
+  "list_med": 126957,
+  "list_q3": 272899,
+  "s_price": 44,
+  "s_band": 57,
+  "s_mood": 38,
+  "score": 43,
+  "partial": 49
+ },
+ "evidence": [
+  {
+   "idx": "222225",
+   "date": "2025-12-17",
+   "title": "“중국 1·2선 도시 젊은 층 해외 패션 충성도·구매력 뚜렷”",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=222225&cat=CAT127",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": [
+   "2026-10-29"
+  ]
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "저가 참고(상의 후보에서 제외)",
+ "rank": 29,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/27282",
+   "title": "아틀리에 나인(ATELIER NAIN)",
+   "ko": "아틀리에 나인",
+   "en": "ATELIER NAIN",
+   "sub": "내 삶의 행복한 순간을 위해 나만의 스타일과 패션, 감성으로 아카이빙하는 브랜드입니다.",
+   "est": 2006,
+   "heart": 67350,
+   "intro": "아틀리에 나인(Atelier Nain)은 TAKE YOUR TIME을 모티브로 내 삶의 행복한 순간들을 위해 나만의 스타일, 패션, 아트, 감성들로 아카이빙 하는 브랜드입니다. 바쁜 일상 속에서 내가 좋아하는 감성을 아카이빙하고 잠깐 멈춰보는 순간의 여유를 선사합니다.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 27300,
+    "q1": 62300,
+    "med": 87600,
+    "q3": 188300,
+    "p90": 278600,
+    "max": 342300,
+    "mean": 129773
+   },
+   "disc": {
+    "n": 50,
+    "med": 31,
+    "max": 38
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 1681,
+    "med": 5,
+    "max": 715,
+    "rated": 41
+   },
+   "rate": 4.65,
+   "tags": {
+    "쿠폰": 50,
+    "조건부 무료배송": 50,
+    "신상품": 15
+   },
+   "names": [
+    "[정린 PICK] (T-7309)TUCK DETAIL DRAPE KNIT",
+    "[4차][정린 PICK] (T-7299)ASYMMETRY CUT-OUT SLIM KNIT",
+    "[한겨레 PICK] YAK BLENDED MUFFLER SET CARDIGAN S(CD-2235)",
+    "TOQUE WOOL HANDMADE HALF COAT(CT-1460)",
+    "DRAPE SCARF WOOL HANDMADE COAT (CT-1459)",
+    "[정린 PICK] CUTOUT OBLIQUE KNIT (T-7131)",
+    "[정린 PICK] TOQUE WOOL HANDMADE COAT S(CT-1440)",
+    "LOND2 WAIST TUCK BLOUSE (Z-BL-4287)",
+    "(T-7305)ARGYLE WOOL STITCH POINT V-NECK KNIT",
+    "(JP-619)LIGHTWEIGHT GLOSSY HOODY DUCK DOWN",
+    "[정린 PICK] (CT-1488)LOW BELTED HALF HANDMADE COAT S",
+    "[정린 PICK] (CD-2283)LAYERED RIBBED SHEER CARDIGAN &TOP KNIT SET S",
+    "(T-7230)WOOL BLENDED DEEP V-NECK KNIT",
+    "(T-7324)AN WOOL LOOSE FIT BUTTON COLLAR KNIT SET UP",
+    "(PT-5835)CURVED COTTON COLOR DENIM",
+    "PIN STRIPE WRAP SKIRT PANTS (PT-5743)",
+    "[한겨레 PICK] (JP-608)HIGH NECK GLOSSY DOWN JUMPER",
+    "[정린 PICK] (CT-1494)MUFFLER HANDMADE SHORT COAT S",
+    "ESSENTIAL WINTER TUCK PANTS(PT-5685)",
+    "(JP-623)LIGHTWEIGHT HOODY DUCK DOWN",
+    "(CT-1489)HIGH NECK BELTED HALF HANDMADE COAT S",
+    "[장다연 PICK] HALTER VEST LAYERD BOAT NECK KNIT (T-7189)",
+    "(CT-1490)DRAPE SCARF WOOL HALF HANDMADE COAT S",
+    "[한겨레 PICK] (CT-1495)HAIRY WOOL OVERSIZED TOGGLE HALF COAT",
+    "(T-7302)WOOL STRIPE V-NECK KNIT",
+    "HAIRY WOOL BELTED HALF COAT S (CT-1450)",
+    "(CD-2288)ALPACA REVERSIBLE COLOR POINT CARDIGAN",
+    "(T-7349)COLOR-BLOCK LAYERED COWLNECK KNIT",
+    "[장다연,슈멍 PICK] (JP-609)LEATHER HIGH NECK OVERSIZED JUMPER",
+    "(CD-2278)FRINGE TWEED KNIT CARDIGAN",
+    "[한겨레 PICK] COTTON&WOOL OVERFIT V-NECK KNIT (T-7192)",
+    "FLY SHIRRING TOP&CARDIGAN SET S (CD-2253)",
+    "MOCK NECK TIE BLOUSE (BL-4386)",
+    "(SH-3482)KNEE-HIGH SLOUCHY 4WAY BOOTS",
+    "PENNY UNBALANCED POINT KNIT (Z-T-7108)",
+    "MULTI USED STRING V-NECK SLIM CARDIGAN (CD-2272)",
+    "(T-7325)COLOR-BLOCK HALTER DEEP V-NECK KNIT",
+    "(T-7331)ONE SHOULDER LAYERED SHIRRING TEE",
+    "[슈멍 PICK] N HALTER SLEEVELESS LAYERED BLOUSE (BL-4404)",
+    "ASSYMETRIC TIED BLOUSE (BL-4390)"
+   ],
+   "id": 27282,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": {
+   "url": "https://display.wconcept.co.kr/rn/brand/112424",
+   "title": "아틀리에 나인(Atelier Nain) | W컨셉(W CONCEPT)",
+   "ko": "아틀리에 나인",
+   "en": "Atelier Nain",
+   "intro": "아틀리에 나인(Atelier Nain)은 TAKE YOUR TIME을 모티브로 내 삶의 행복한 순간들을 위해 나만의 스타일, 패션, 아트, 감성들로 아카이빙 하는 브랜드입니다. 바쁜 일상 속에서 내가 좋아하는 감성을 아카이빙하고 잠깐 멈춰보는 순간의 여유를 선사합니다.",
+   "n": 153,
+   "p": {
+    "min": 1037,
+    "q1": 70616,
+    "med": 109000,
+    "q3": 142026,
+    "p90": 268945,
+    "max": 489000,
+    "mean": 127476
+   },
+   "disc": {
+    "n": 70,
+    "med": 20,
+    "max": 32
+   },
+   "names": [
+    "[W컨셉 단독] UNBALANCEBUTTON STRING VOLUME CARDIGAN S (CD-2248)",
+    "LOND2 WAIST TUCK BLOUSE(Z-BL-4287)",
+    "[정린 PICK](T-7299)ASYMMETRY CUT-OUT SLIM KNIT",
+    "[정린 PICK] CUTOUT OBLIQUE KNIT(T-7131)",
+    "[정린 PICK](T-7309)TUCK DETAIL DRAPE KNIT",
+    "(PT-5809)AUTUMN WASHING CURVED COLOR JEAN",
+    "MULTI USED STRING V-NECK SLIM CARDIGAN (CD-2272)",
+    "(JP-613)OVERFIT GLOSSY LEATHER HIGH NECK BLOUSON",
+    "COTTON&WOOL OVERFIT V-NECK KNIT (T-7192)",
+    "[장다연 PICK] LOND WAIST TUCK T-SHIRT (Z-BL-4225)",
+    "(BL-4437)STRIPE TWO-WAY DRAPE SHIRT",
+    "[W컨셉 단독] VOLUME SLEEVE LACE COTTON BLOUSE (BL-4394)",
+    "SOFT SLIMFIT BOAT NECK TEE (T-7171)",
+    "ASSYMETRIC TIED BLOUSE (BL-4390)",
+    "FLY SHIRRING TOP&CARDIGAN SET S (CD-2253)",
+    "ONE OFF SHOULDER STRAP SLIM FIT KNIT (T-7180)",
+    "PIN STRIPE WRAP SKIRT PANTS (PT-5743)",
+    "[장다연 PICK] NOVELA SLIM LINE TEE(Z-T-6811)",
+    "UNBALANCED NECK STRING KNIT(T-7011)",
+    "BOATNECK BUTTON UP SLIM T (T-7257)",
+    "(PT-5840)BLACK COATED WIDE CURVED JEAN",
+    "(PT-5835)CURVED COTTON COLOR DENIM",
+    "(PT-5842)WARM DOUBLE WAIST BAND WIDE JEAN",
+    "(PT-5839)CURVED TURN UP HEM DENIM PANTS",
+    "(PT-5837)WIDE STRAIGHT VELVET DENIM PANTS",
+    "(PT-5831)WARM TWO TUCK WIDE DENIM PANTS",
+    "(PT-5841)BOUCLE WIDE STRAIGHT DENIM PANTS",
+    "(T-7353)CROSS DRAPED HALTER LAYERD SLIM KNIT",
+    "(T-7359)OUTSEAM DETAIL TUCK DRAPE KNIT",
+    "(T-7356)ONE OFF SHOULDER SOFT DRAPE KNIT",
+    "(SK-5134)STRIPE SET-UP LONG H LINE SKIRT",
+    "(BL-4456)STRIPE SET-UP BUSTIER BLOUSE",
+    "(PT-5836)WARM TEXTURED STRIPE SKIRT PANTS",
+    "(PT-5846)REVERSE WAISTBAND BOOTSCUT JEAN",
+    "(JP-606)CURVED STITCHED RIPSTOP HOOD DOWN JUMPER",
+    "(JP-607)FLAP PUFFY POCKET BUTTON DOWN JUMPER",
+    "(JP-605)NYLON REVERSIBLE VOLUME DOWN JUMPER",
+    "(CD-2293)RIBBED LAYERED CARDIGAN & BUSTIER KNIT SET",
+    "(JP-608)HIGH NECK GLOSSY DOWN JUMPER",
+    "(CT-1495)HAIRY WOOL OVERSIZED TOGGLE HALF COAT"
+   ],
+   "id": 112424,
+   "observed_at": "2026-10-29"
+  }
+ }
+}

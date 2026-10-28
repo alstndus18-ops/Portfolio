@@ -1,0 +1,711 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/1995",
+ "title": "시눈(SINOON)",
+ "ko": "시눈",
+ "en": "SINOON",
+ "sub": "드로잉이나 설치 작업 등을 기반으로 자연스러운 로망의 무드를 보여줍니다",
+ "est": 2021,
+ "heart": 143187,
+ "intro": "시눈은 꿈꿔왔던 자연스러운 무드를 만들어 나갑니다. 매 시즌 주변의 일상이나 다양한 회화 작업, 영상과 오브제 등에 영감을 받아 서울의 무드로 재해석합니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 34200,
+  "q1": 79200,
+  "med": 133200,
+  "q3": 160200,
+  "p90": 250200,
+  "max": 349200,
+  "mean": 130050
+ },
+ "disc": {
+  "n": 50,
+  "med": 10,
+  "max": 10
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 1570,
+  "med": 4,
+  "max": 594,
+  "rated": 40
+ },
+ "rate": 4.88,
+ "tags": {
+  "쿠폰": 50,
+  "조건부 무료배송": 50,
+  "신상품": 16,
+  "가을 필수": 5,
+  "단독": 1
+ },
+ "names": [
+  "Faux Fur Denim Pants (Blue)",
+  "[프리지아,스텔라 착용, 4차 리오더] Rose Frill Mini Skirt (Black)",
+  "Floral Jacquard Knit Pullover (Black)",
+  "Floral Jacquard Knit Pullover (Ivory)",
+  "Teddy Fleece Half Zip-Up (Soft Blue)",
+  "[11차 리오더] Pear Drop Necklace (Silver)",
+  "Fringe Knit Cardigan (Black)",
+  "Hairy V-Neck Cardigan (Dark Navy)",
+  "Jacquard Wrap Skirt (Beige)",
+  "[송하영 착용] SN Rose Velvet Eyelet Knit (Black)",
+  "Mixed Boucle Collar Knit (Candy)",
+  "[공효진,신시아 착용] Sinoon Smocking Flared Skirt (Navy)",
+  "Teddy Fleece Half Zip-Up (Brown)",
+  "Fur Point Leather Padded Jacket (Brown)",
+  "Hairy V-Neck Cardigan (Cream)",
+  "Henley Neck Pocket T-Shirt (Melange Grey)",
+  "Rose Scalloped Hairpin Set (Red)",
+  "Logo Collar Sweatshirt (Navy)",
+  "Faux Fur Denim Pants (Black)",
+  "Flower Beanie (Melange Grey)",
+  "Chiffon Shirring Knit (Grey)",
+  "[7차 리오더] Cloven Garlic Necklace (Silver Gold)",
+  "[채원,원희,곽민경 착용] Flower Neck Ribbon T-Shirt (White)",
+  "Light Down Hoodie Jacket (Light Beige)",
+  "Long Warm Daily Tights (Charcoal)",
+  "Flower Drawing Cardigan (Charcoal)",
+  "[5차 리오더] Flower Beanie (Black Cream)",
+  "Puffer Jacket (6 Colors)",
+  "Maxi Fur Jacket (Brown)",
+  "Ribbon Tie T-Shirt (Ivory)",
+  "SN Hairy Button Pullover (Beige)",
+  "Low-Waist Pleated Mini Skirt (Beige)",
+  "[하츠투하츠 스텔라 착용, 4차 리오더] Rose Artwork Long Sleeve Knit (Grey)",
+  "Wool Half Trench Coat (Charcoal)",
+  "Pintuck Midi Skirt (Black)",
+  "Flower Shirring Skirt (Ash Pink)",
+  "[7차 리오더] Rose Beads Chain Belt (Silver Gold)",
+  "Velvet String Pullover (Grape)",
+  "Rose Frill Oversized-Fit Hooded Zip-Up (Blue)",
+  "Lace-Up Ribbon Knit (Beige)"
+ ],
+ "cards": [
+  {
+   "n": "Faux Fur Denim Pants (Blue)",
+   "p": 169200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[프리지아,스텔라 착용, 4차 리오더] Rose Frill Mini Skirt (Black)",
+   "p": 151200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 92,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Floral Jacquard Knit Pullover (Black)",
+   "p": 133200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Floral Jacquard Knit Pullover (Ivory)",
+   "p": 133200,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 7,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Teddy Fleece Half Zip-Up (Soft Blue)",
+   "p": 133200,
+   "d": 10,
+   "lk": null,
+   "rt": 4,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[11차 리오더] Pear Drop Necklace (Silver)",
+   "p": 43200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 363,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Fringe Knit Cardigan (Black)",
+   "p": 151200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Hairy V-Neck Cardigan (Dark Navy)",
+   "p": 187200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Jacquard Wrap Skirt (Beige)",
+   "p": 142200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[송하영 착용] SN Rose Velvet Eyelet Knit (Black)",
+   "p": 133200,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 28,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Mixed Boucle Collar Knit (Candy)",
+   "p": 115200,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 9,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[공효진,신시아 착용] Sinoon Smocking Flared Skirt (Navy)",
+   "p": 151200,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 33,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Teddy Fleece Half Zip-Up (Brown)",
+   "p": 133200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Fur Point Leather Padded Jacket (Brown)",
+   "p": 295200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Hairy V-Neck Cardigan (Cream)",
+   "p": 187200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Henley Neck Pocket T-Shirt (Melange Grey)",
+   "p": 70200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Rose Scalloped Hairpin Set (Red)",
+   "p": 40500,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Logo Collar Sweatshirt (Navy)",
+   "p": 97200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 12,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Faux Fur Denim Pants (Black)",
+   "p": 169200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Flower Beanie (Melange Grey)",
+   "p": 68400,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 63,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Chiffon Shirring Knit (Grey)",
+   "p": 160200,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[7차 리오더] Cloven Garlic Necklace (Silver Gold)",
+   "p": 47700,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 42,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[채원,원희,곽민경 착용] Flower Neck Ribbon T-Shirt (White)",
+   "p": 61200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Light Down Hoodie Jacket (Light Beige)",
+   "p": 259200,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 17,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Long Warm Daily Tights (Charcoal)",
+   "p": 34200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Flower Drawing Cardigan (Charcoal)",
+   "p": 124200,
+   "d": 10,
+   "lk": null,
+   "rt": 3,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[5차 리오더] Flower Beanie (Black Cream)",
+   "p": 68400,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 23,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Puffer Jacket (6 Colors)",
+   "p": 250200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 594,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "Maxi Fur Jacket (Brown)",
+   "p": 349200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Ribbon Tie T-Shirt (Ivory)",
+   "p": 70200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "SN Hairy Button Pullover (Beige)",
+   "p": 115200,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Low-Waist Pleated Mini Skirt (Beige)",
+   "p": 97200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 7,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[하츠투하츠 스텔라 착용, 4차 리오더] Rose Artwork Long Sleeve Knit (Grey)",
+   "p": 97200,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 44,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Wool Half Trench Coat (Charcoal)",
+   "p": 250200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Pintuck Midi Skirt (Black)",
+   "p": 133200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Flower Shirring Skirt (Ash Pink)",
+   "p": 160200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[7차 리오더] Rose Beads Chain Belt (Silver Gold)",
+   "p": 67500,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 48,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Velvet String Pullover (Grape)",
+   "p": 142200,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Rose Frill Oversized-Fit Hooded Zip-Up (Blue)",
+   "p": 133200,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 61,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Lace-Up Ribbon Knit (Beige)",
+   "p": 160200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 14,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Sinoon Logo Collar Knit (Grey)",
+   "p": 115200,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 9,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Sinoon Plain Knit Vest (Grey)",
+   "p": 79200,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 25,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Velvet Easy Pants (Melange Grey)",
+   "p": 88200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Ribbon Tie T-Shirt (Black)",
+   "p": 70200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Rose Frill Oversized-Fit Hooded Zip-Up (Black)",
+   "p": 133200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 11,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Bloom Brush Necklace (Silver Gold)",
+   "p": 43200,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 9,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Lace Midi Skirt (Black)",
+   "p": 115200,
+   "d": 10,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Flower Shirring Skirt (Light Beige)",
+   "p": 160200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Off Shoulder Frill Sweatshirt (Mint)",
+   "p": 79200,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 17,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Ruffle Cable Knit Pullover (Melange Grey)",
+   "p": 133200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 1995,
+ "observed_at": "2026-10-29"
+}

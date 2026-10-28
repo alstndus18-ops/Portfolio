@@ -1,0 +1,699 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/181",
+ "title": "마가린 핑거스(margarin fingers)",
+ "ko": "마가린 핑거스",
+ "en": "margarin fingers",
+ "sub": "흥미로운 디테일과 유니크함으로 사랑받는 여성복",
+ "est": 2010,
+ "heart": 41490,
+ "intro": "2010년 시작한 마가린핑거스는 디자이너 이주현의 브랜드로 독창적이고 유니크한 느낌을 가진 캐주얼 브랜드입니다. 웨어러블 한 아이템을 바탕으로 흥미로운 디테일과 위트 있는 실루엣으로 독특한 무드를 표현하고 있어요.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 16070,
+  "q1": 65790,
+  "med": 74020,
+  "q3": 118150,
+  "p90": 186150,
+  "max": 279650,
+  "mean": 96153
+ },
+ "disc": {
+  "n": 50,
+  "med": 33,
+  "max": 54
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 490,
+  "med": 2,
+  "max": 130,
+  "rated": 33
+ },
+ "rate": 4.93,
+ "tags": {
+  "쿠폰": 50,
+  "조건부 무료배송": 50,
+  "신상품": 12
+ },
+ "names": [
+  "[제현경님 착용][4차 리오더] CORSAGE MIX PULLOVER (CREAM)",
+  "[3차 리오더] CORSAGE MIX PULLOVER (LIGHT BLUE)",
+  "[리오더] PANEL FLARE LONG SKIRT (CHARCOAL)",
+  "[3차 리오더] ROSE SCARF (IVORY)",
+  "FLORAL POINT FLEECE JACKET (LIGHT BLUE)",
+  "[소연님 착용] [2차 리오더] DEEP V-NECK BUTTON PULLOVER (MINT)",
+  "[2차 리오더] V-NECK WRAP T-SHIRT (MELANGE)",
+  "[2차 리오더] DEEP V-NECK BUTTON PULLOVER (NAVY)",
+  "FUR EDGE REVERSIBLE MUSTANG (BROWN)",
+  "FLOWER FLEECE CARDIGAN (CREAM)",
+  "FLORAL POINT FLEECE JACKET (SMOKE PINK)",
+  "HIGH-NECK COTTON BOMBER JACKET (LIGHT BEIGE)",
+  "[리오더] BOAT NECK RUFFLE T-SHIRT (BROWN)",
+  "[연예인 착용][3차 리오더] CORSAGE POINTELLE PULLOVER (PURPLE)",
+  "[연예인 착용][8차 리오더] HAIRY HIGH NECK KNIT (LIGHT YELLOW)",
+  "[29CM 단독][3차 리오더] HAIRY WOOL JACKET (IVORY)",
+  "PANEL FLARE LONG SKIRT (IVORY)",
+  "ROSE JACQUARD KNIT (PINK)",
+  "[6차 리오더] HAIRY HIGH NECK KNIT (LIGHT BLUE)",
+  "[연예인 착용] [3차 리오더] CORSAGE POINTELLE PULLOVER (IVORY)",
+  "[2차 리오더] ROSE JACQUARD CARDIGAN (GREY)",
+  "ROSE LACE HOODED T-SHIRT (CREAM)",
+  "FLOWER BUTTON FLEECE PANTS (CREAM)",
+  "FLOWER FLEECE CARDIGAN (BROWN)",
+  "[리오더] FLORAL RAGLAN T-SHIRT (PURPLE)",
+  "CORSAGE POINTELLE PULLOVER (VIOLET)",
+  "[2차 리오더] ROSE CORSAGE CARDIGAN (LIGHT YELLOW)",
+  "[2차 리오더] HAIRY HIGH NECK KNIT (IVORY)",
+  "FLOWER BUTTON FLEECE PANTS (BROWN)",
+  "WIDE EYELET BELT (BUTTER)",
+  "FRILL OPEN COLLAR SHIRT (PINK)",
+  "UNICORN STITCH SLEEVELESS (MINT)",
+  "BASIC LOGO CARDIGAN (PINK)",
+  "CORSAGE BROOCH (GREY)",
+  "[소연님 착용] OVERLAP COLLAR HALF COAT (CREAM)",
+  "FLARE HALF COLLAR JACKET (PINK)",
+  "FAKE LEATHER HALF JACKET (BROWN)",
+  "PEARL POINT PULLOVER (GREY)",
+  "[1차 리오더] CORSAGE KNIT GLOVES (RED)",
+  "OFF-SHOULDER LAYERED T-SHIRT (LIGHT BLUE)"
+ ],
+ "cards": [
+  {
+   "n": "[제현경님 착용][4차 리오더] CORSAGE MIX PULLOVER (CREAM)",
+   "p": 73530,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 55,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[3차 리오더] CORSAGE MIX PULLOVER (LIGHT BLUE)",
+   "p": 73530,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 7,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[리오더] PANEL FLARE LONG SKIRT (CHARCOAL)",
+   "p": 100510,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[3차 리오더] ROSE SCARF (IVORY)",
+   "p": 19570,
+   "d": 33,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 17,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "FLORAL POINT FLEECE JACKET (LIGHT BLUE)",
+   "p": 175200,
+   "d": 20,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[소연님 착용] [2차 리오더] DEEP V-NECK BUTTON PULLOVER (MINT)",
+   "p": 66780,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2차 리오더] V-NECK WRAP T-SHIRT (MELANGE)",
+   "p": 66780,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2차 리오더] DEEP V-NECK BUTTON PULLOVER (NAVY)",
+   "p": 66780,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 8,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "FUR EDGE REVERSIBLE MUSTANG (BROWN)",
+   "p": 279650,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "FLOWER FLEECE CARDIGAN (CREAM)",
+   "p": 101150,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "FLORAL POINT FLEECE JACKET (SMOKE PINK)",
+   "p": 186150,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "HIGH-NECK COTTON BOMBER JACKET (LIGHT BEIGE)",
+   "p": 161210,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[리오더] BOAT NECK RUFFLE T-SHIRT (BROWN)",
+   "p": 66780,
+   "d": 33,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[연예인 착용][3차 리오더] CORSAGE POINTELLE PULLOVER (PURPLE)",
+   "p": 70290,
+   "d": 47,
+   "lk": null,
+   "rt": 5,
+   "rv": 32,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[연예인 착용][8차 리오더] HAIRY HIGH NECK KNIT (LIGHT YELLOW)",
+   "p": 53400,
+   "d": 40,
+   "lk": null,
+   "rt": 5,
+   "rv": 130,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[29CM 단독][3차 리오더] HAIRY WOOL JACKET (IVORY)",
+   "p": 123760,
+   "d": 50,
+   "lk": null,
+   "rt": 5,
+   "rv": 37,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "PANEL FLARE LONG SKIRT (IVORY)",
+   "p": 100510,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "ROSE JACQUARD KNIT (PINK)",
+   "p": 65790,
+   "d": 40,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[6차 리오더] HAIRY HIGH NECK KNIT (LIGHT BLUE)",
+   "p": 50190,
+   "d": 44,
+   "lk": null,
+   "rt": 5,
+   "rv": 44,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[연예인 착용] [3차 리오더] CORSAGE POINTELLE PULLOVER (IVORY)",
+   "p": 70290,
+   "d": 47,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 18,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2차 리오더] ROSE JACQUARD CARDIGAN (GREY)",
+   "p": 71890,
+   "d": 47,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 27,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "ROSE LACE HOODED T-SHIRT (CREAM)",
+   "p": 92650,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "FLOWER BUTTON FLEECE PANTS (CREAM)",
+   "p": 118150,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "FLOWER FLEECE CARDIGAN (BROWN)",
+   "p": 101150,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[리오더] FLORAL RAGLAN T-SHIRT (PURPLE)",
+   "p": 53290,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "CORSAGE POINTELLE PULLOVER (VIOLET)",
+   "p": 89040,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2차 리오더] ROSE CORSAGE CARDIGAN (LIGHT YELLOW)",
+   "p": 78200,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 16,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2차 리오더] HAIRY HIGH NECK KNIT (IVORY)",
+   "p": 53400,
+   "d": 40,
+   "lk": null,
+   "rt": 5,
+   "rv": 19,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "FLOWER BUTTON FLEECE PANTS (BROWN)",
+   "p": 118150,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "WIDE EYELET BELT (BUTTER)",
+   "p": 59750,
+   "d": 40,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "FRILL OPEN COLLAR SHIRT (PINK)",
+   "p": 100510,
+   "d": 33,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "UNICORN STITCH SLEEVELESS (MINT)",
+   "p": 109650,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "BASIC LOGO CARDIGAN (PINK)",
+   "p": 73530,
+   "d": 33,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "CORSAGE BROOCH (GREY)",
+   "p": 16070,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[소연님 착용] OVERLAP COLLAR HALF COAT (CREAM)",
+   "p": 237150,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "FLARE HALF COLLAR JACKET (PINK)",
+   "p": 167960,
+   "d": 33,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "FAKE LEATHER HALF JACKET (BROWN)",
+   "p": 220150,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "PEARL POINT PULLOVER (GREY)",
+   "p": 73280,
+   "d": 43,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[1차 리오더] CORSAGE KNIT GLOVES (RED)",
+   "p": 34790,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "OFF-SHOULDER LAYERED T-SHIRT (LIGHT BLUE)",
+   "p": 55530,
+   "d": 40,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[리오더] LACE JACQUARD SKIRT (OLIVE)",
+   "p": 83890,
+   "d": 40,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "RIVET WASHED FAKE LEATHER JACKET (BEIGE)",
+   "p": 136150,
+   "d": 54,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[5차 리오더] FLUFFY BUTTON BALACLAVA (BLACK)",
+   "p": 33200,
+   "d": 40,
+   "lk": null,
+   "rt": 5,
+   "rv": 34,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SHEER LAYERED ONE-PIECE (CREAM)",
+   "p": 126650,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "FRILL CHECK SHIRT (BLACK)",
+   "p": 74020,
+   "d": 47,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "KNIT TIE BUSTIER (IVORY)",
+   "p": 44880,
+   "d": 43,
+   "lk": null,
+   "rt": 4,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "TWO-WAY COLLAR FUR JACKET (LIGHT BLUE)",
+   "p": 220150,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "DOT LACE BUSTIER (CREAM)",
+   "p": 92650,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[리오더] V-NECK WRAP T-SHIRT (BROWN)",
+   "p": 66780,
+   "d": 33,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "BASIC TWO-WAY TANK TOP (AQUA BLUE)",
+   "p": 33150,
+   "d": 15,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 181,
+ "observed_at": "2026-10-29"
+}

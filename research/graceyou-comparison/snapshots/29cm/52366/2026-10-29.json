@@ -1,0 +1,701 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/52366",
+ "title": "앙개(ANGGAE)",
+ "ko": "앙개",
+ "en": "ANGGAE",
+ "sub": "Revelation through Concealment",
+ "est": 2024,
+ "heart": 9398,
+ "intro": "앙개는 컨템퍼러리 브랜드로 여성의 실루엣을 감각적이고 유연하게 표현해 본연의 아름다움을 자연스럽게 드러내는 브랜드입니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 13300,
+  "q1": 97300,
+  "med": 132300,
+  "q3": 230300,
+  "p90": 279300,
+  "max": 349300,
+  "mean": 158703
+ },
+ "disc": {
+  "n": 50,
+  "med": 30,
+  "max": 51
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 49,
+  "med": 1,
+  "max": 5,
+  "rated": 25
+ },
+ "rate": 4.65,
+ "tags": {
+  "쿠폰": 49,
+  "조건부 무료배송": 49,
+  "신상품": 8,
+  "단독": 5,
+  "품절": 1
+ },
+ "names": [
+  "Short Fur Jacket Brown (AG6Y3VB10D)",
+  "High Neck ALine Half Coat Ash (AG6X30A024)",
+  "Alpaca Blend Round Pullover Black (AG4951A065)",
+  "Thinsulate Jumper Light Grey (AG6939B062)",
+  "[셀럽PICK] Glossy Leather Collar Blouson Black(AG6939B015)",
+  "Duck Down Anggae Puffer Brown (AG6X38A02D)",
+  "[셀럽PICK] Knit Long Dress Ash(AG6X71A014)",
+  "LIGHT NYLON COAT(AG6939B075)",
+  "Big Boxer Bag Black (AG65D3B115)",
+  "Jersey Minidress Light Grey (AG6871A022)",
+  "Curved Barrel Pants Ash(AG6921A044)",
+  "[셀럽PICK] Snap Cardigan Ivory(AG6X5AA010)",
+  "VNeck Knit Light Grey (AG6851B012)",
+  "[영서 PICK] Half Pea Coat Black (AG6130B015)",
+  "Crafted Rib Hooded Pullover Navy (AG5351A02R)",
+  "Satin Shirt Ivory (AG6864A010)",
+  "Low Waist Safari Jacket (Suede) Brown (AG6939A02D)",
+  "Alpaca Blend Long Knit Skirt Black (AG4927S025)",
+  "Office Tote Brown (AG68D3A01D)",
+  "Balloon Padded Midi Skirt Black (AG5927A025)",
+  "[셀럽PICK] Suede High Neck Blouson Jacket Brown(AG6939B02D)",
+  "Tied Cocoon Sac Black(AG58D3A035)",
+  "Flower Hline Skirt Blue (AG6227B02P)",
+  "Jacquard Knot Tube Bag (L) Black (AG66D3B02R)",
+  "Draped Belt Blouse Ash (AG6964A024)",
+  "Pleats Cardigan Navy (AG6864B02R)",
+  "Draped Skirt Ash (AG6X27A014)",
+  "Gelato Wrinkle 2Way Long Shirts Red (AG4764A056)",
+  "Crafted Rib Halter Dress Navy (AG5371S01R)",
+  "Crafted Rib Crossed Top Navy (AG5351A01R)",
+  "Velvet Shoulder Bag Brown (AG49D3A01D)",
+  "Laundry Cotton Tuck Detail Pants Dark Grey (AG4821A014)",
+  "Wired Collar Shaket Brown (AG6939A03D)",
+  "Curved Cotton Pants Navy (AG6621B01R)",
+  "Fuax Fur Coat Brown (AG5X3VA03D)",
+  "Duck Down Anggae Puffer Ivory (AG6X38A020)",
+  "Satin Lace Scarf Ivory (AG6584B010)",
+  "TwoTone Backless Pullover Beige (AG4751A01A)",
+  "Velvet Satin Long Skirt Black(AG5727A045)",
+  "Muffler Knit Top Sky Blue (AG695UA01Q)"
+ ],
+ "cards": [
+  {
+   "n": "Short Fur Jacket Brown (AG6Y3VB10D)",
+   "p": 279300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "High Neck ALine Half Coat Ash (AG6X30A024)",
+   "p": 335300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Alpaca Blend Round Pullover Black (AG4951A065)",
+   "p": 87710,
+   "d": 51,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Thinsulate Jumper Light Grey (AG6939B062)",
+   "p": 230300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[셀럽PICK] Glossy Leather Collar Blouson Black(AG6939B015)",
+   "p": 251300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Duck Down Anggae Puffer Brown (AG6X38A02D)",
+   "p": 349300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[셀럽PICK] Knit Long Dress Ash(AG6X71A014)",
+   "p": 153300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "LIGHT NYLON COAT(AG6939B075)",
+   "p": 202300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Big Boxer Bag Black (AG65D3B115)",
+   "p": 111300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Jersey Minidress Light Grey (AG6871A022)",
+   "p": 118300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Curved Barrel Pants Ash(AG6921A044)",
+   "p": 132300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[셀럽PICK] Snap Cardigan Ivory(AG6X5AA010)",
+   "p": 167300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "VNeck Knit Light Grey (AG6851B012)",
+   "p": 118300,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[영서 PICK] Half Pea Coat Black (AG6130B015)",
+   "p": 279300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Crafted Rib Hooded Pullover Navy (AG5351A02R)",
+   "p": 107310,
+   "d": 51,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Satin Shirt Ivory (AG6864A010)",
+   "p": 111300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Low Waist Safari Jacket (Suede) Brown (AG6939A02D)",
+   "p": 279300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "Alpaca Blend Long Knit Skirt Black (AG4927S025)",
+   "p": 82810,
+   "d": 51,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Office Tote Brown (AG68D3A01D)",
+   "p": 125300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Balloon Padded Midi Skirt Black (AG5927A025)",
+   "p": 111440,
+   "d": 44,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[셀럽PICK] Suede High Neck Blouson Jacket Brown(AG6939B02D)",
+   "p": 265300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Tied Cocoon Sac Black(AG58D3A035)",
+   "p": 77910,
+   "d": 51,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Flower Hline Skirt Blue (AG6227B02P)",
+   "p": 139300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Jacquard Knot Tube Bag (L) Black (AG66D3B02R)",
+   "p": 118300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Draped Belt Blouse Ash (AG6964A024)",
+   "p": 139300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Pleats Cardigan Navy (AG6864B02R)",
+   "p": 97300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Draped Skirt Ash (AG6X27A014)",
+   "p": 153300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Gelato Wrinkle 2Way Long Shirts Red (AG4764A056)",
+   "p": 77910,
+   "d": 51,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Crafted Rib Halter Dress Navy (AG5371S01R)",
+   "p": 97510,
+   "d": 51,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "Crafted Rib Crossed Top Navy (AG5351A01R)",
+   "p": 87710,
+   "d": 51,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "Velvet Shoulder Bag Brown (AG49D3A01D)",
+   "p": 97510,
+   "d": 51,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Laundry Cotton Tuck Detail Pants Dark Grey (AG4821A014)",
+   "p": 92610,
+   "d": 51,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Wired Collar Shaket Brown (AG6939A03D)",
+   "p": 279300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Curved Cotton Pants Navy (AG6621B01R)",
+   "p": 132300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Fuax Fur Coat Brown (AG5X3VA03D)",
+   "p": 273840,
+   "d": 44,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "품절"
+   ]
+  },
+  {
+   "n": "Duck Down Anggae Puffer Ivory (AG6X38A020)",
+   "p": 349300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Satin Lace Scarf Ivory (AG6584B010)",
+   "p": 13300,
+   "d": 30,
+   "lk": null,
+   "rt": 3,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "TwoTone Backless Pullover Beige (AG4751A01A)",
+   "p": 73010,
+   "d": 51,
+   "lk": null,
+   "rt": 3.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Velvet Satin Long Skirt Black(AG5727A045)",
+   "p": 89040,
+   "d": 44,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Muffler Knit Top Sky Blue (AG695UA01Q)",
+   "p": 181300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Gardener Jacket Grey (AG6211A043)",
+   "p": 230300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Wool String Detail Pants Dark Grey (AG4821A024)",
+   "p": 82810,
+   "d": 51,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Lace Hooded Layering Dress White (AG5271A011)",
+   "p": 117110,
+   "d": 51,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "Shawl Collar Long Coat Black (AG5X30A015)",
+   "p": 279440,
+   "d": 44,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Off Shoulder Pullover Ivory (AG5951A040)",
+   "p": 89040,
+   "d": 44,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Half Neck Snap Pullover Ash (AG6X51A014)",
+   "p": 139300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Boxer Padded Bag Black (AG63D3A075)",
+   "p": 146300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Wool String Detail Pants Beige (AG4821A02A)",
+   "p": 82810,
+   "d": 51,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Unbalanced Satin Skirt Black (AG6327B025)",
+   "p": 118300,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Apron Wrap Dress Black (AG6271A015)",
+   "p": 181300,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 52366,
+ "observed_at": "2026-10-29"
+}

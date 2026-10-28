@@ -1,0 +1,740 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/112088",
+ "title": "닐바이피(NILBY P)",
+ "ko": "닐바이피",
+ "en": "NILBY P",
+ "sub": "'소소한 일상의 새로움'이라는 슬로건 아래 다양한 아이템을 전개합니다.",
+ "est": 2016,
+ "heart": 4233,
+ "intro": "닐바이피(NILBY P)는 매일 함께하고 싶은 고유의 심플한 디자인 감성을 전달하는 여성복 브랜드입니다. 모던한 감성과 컬러를 기반으로 담백하고 차별화된 실루엣을 지향하며, 편안함 속에 녹아있는 완성도 있는 룩을 선보입니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 55250,
+  "q1": 98770,
+  "med": 126250,
+  "q3": 214970,
+  "p90": 255100,
+  "max": 309100,
+  "mean": 157603
+ },
+ "disc": {
+  "n": 50,
+  "med": 17,
+  "max": 25
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 59,
+  "med": 0,
+  "max": 8,
+  "rated": 23
+ },
+ "rate": 4.76,
+ "tags": {
+  "쿠폰": 50,
+  "조건부 무료배송": 50,
+  "신상품": 14,
+  "가을 필수": 35,
+  "단독": 2
+ },
+ "names": [
+  "Relaxed round-neck wool-blend jacket M/navy [N6AJK02]",
+  "Cashmere high-neck belted handmade coat Charcoal [N6AHCT02]",
+  "Cashmere high-neck belted handmade coat Black [N6AHCT02]",
+  "Single raglan handmade coat Charcoal [N6AHCT04]",
+  "2-way funnel-neck wool pullover Plum burgundy [N6WKT04]",
+  "Leather zip-up blouson jacket Black [N6ALJK01]",
+  "Single raglan handmade coat Black [N6AHCT04]",
+  "Relaxed Round-Neck Wool-Blend Jacket S/beige [N6AJK02]",
+  "Hooded shearling suede mustang Brown [N6WLJK03]",
+  "2-way funnel-neck wool pullover Melange grey [N6WKT04]",
+  "New wide pant C/Brown [N6APT01]",
+  "2-way funnel-neck wool pullover Black [N6WKT04]",
+  "Herringbone high-neck wool coat Navy [N6WCT04]",
+  "Corduroy straight relaxed pant Ivory [N6APT04]",
+  "Fluid scarf blouse E/beige [N6ABL03]",
+  "Suit jacket Black [N6SJK01]",
+  "Herringbone high-neck wool coat Chestnut brown [N6WCT04]",
+  "Deep V-neck relaxed pullover Black [N6AKT02]",
+  "Single raglan handmade coat Oatmeal [N6AHCT04]",
+  "High-neck relaxed field half coat Mocha/BR [N6ALCT01]",
+  "Leather zip-up blouson jacket Mocha/BR [N6ALJK01]",
+  "Angora double-faced v-neck knit Milky camel [N6WKT03]",
+  "High-neck relaxed field half coat Charcoal [N6ACT02]",
+  "Tweed crop jacket Beige [N6SJK04]",
+  "Fluid scarf blouse C/brown [N6ABL03]",
+  "High-neck suede blouson jacket Mocha/BR [N6ALJK03]",
+  "Natural curved denim pant W/Navy [N6ADPT01]",
+  "Deep V-neck relaxed pullover Navy [N6AKT02]",
+  "Natural roll-neck wool pullover Cocoa brown [N6WKT01]",
+  "Semi curved corduroy pant Khaki [N6APT03]",
+  "Angora double-faced v-neck knit Black [N6WKT03]",
+  "High-neck suede blouson jacket Black [N6ALJK03]",
+  "Henley neck soft top 3colors [N6ATS02]",
+  "Round-neck pin-tuck lace blouse White/ST [N6ABL02]",
+  "Classic long wrap skirt Black [N6ASK01]",
+  "New wide pant Black [N6APT01]",
+  "Two-pocket semi-relaxed shirt Beige/ST [N6ABL05]",
+  "Relax-fit v-neck pullover L/grey [N6AKT01]",
+  "Oversized boyfriend check shirt G/check [N6ABL04]",
+  "Fluid scarf blouse Misty navy [N6ABL03]"
+ ],
+ "cards": [
+  {
+   "n": "Relaxed round-neck wool-blend jacket M/navy [N6AJK02]",
+   "p": 173470,
+   "d": 17,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 7,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Cashmere high-neck belted handmade coat Charcoal [N6AHCT02]",
+   "p": 238300,
+   "d": 25,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Cashmere high-neck belted handmade coat Black [N6AHCT02]",
+   "p": 238300,
+   "d": 25,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Single raglan handmade coat Charcoal [N6AHCT04]",
+   "p": 291100,
+   "d": 23,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "2-way funnel-neck wool pullover Plum burgundy [N6WKT04]",
+   "p": 126250,
+   "d": 25,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Leather zip-up blouson jacket Black [N6ALJK01]",
+   "p": 214970,
+   "d": 17,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Single raglan handmade coat Black [N6AHCT04]",
+   "p": 291100,
+   "d": 23,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Relaxed Round-Neck Wool-Blend Jacket S/beige [N6AJK02]",
+   "p": 173470,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Hooded shearling suede mustang Brown [N6WLJK03]",
+   "p": 309100,
+   "d": 23,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "2-way funnel-neck wool pullover Melange grey [N6WKT04]",
+   "p": 126250,
+   "d": 25,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "New wide pant C/Brown [N6APT01]",
+   "p": 90470,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "2-way funnel-neck wool pullover Black [N6WKT04]",
+   "p": 126250,
+   "d": 25,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Herringbone high-neck wool coat Navy [N6WCT04]",
+   "p": 255100,
+   "d": 25,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Corduroy straight relaxed pant Ivory [N6APT04]",
+   "p": 98770,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Fluid scarf blouse E/beige [N6ABL03]",
+   "p": 115370,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Suit jacket Black [N6SJK01]",
+   "p": 156870,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Herringbone high-neck wool coat Chestnut brown [N6WCT04]",
+   "p": 255100,
+   "d": 25,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Deep V-neck relaxed pullover Black [N6AKT02]",
+   "p": 84150,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Single raglan handmade coat Oatmeal [N6AHCT04]",
+   "p": 291100,
+   "d": 23,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "High-neck relaxed field half coat Mocha/BR [N6ALCT01]",
+   "p": 231570,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Leather zip-up blouson jacket Mocha/BR [N6ALJK01]",
+   "p": 214970,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Angora double-faced v-neck knit Milky camel [N6WKT03]",
+   "p": 149030,
+   "d": 21,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "High-neck relaxed field half coat Charcoal [N6ACT02]",
+   "p": 214970,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Tweed crop jacket Beige [N6SJK04]",
+   "p": 156870,
+   "d": 17,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 7,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Fluid scarf blouse C/brown [N6ABL03]",
+   "p": 115370,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "High-neck suede blouson jacket Mocha/BR [N6ALJK03]",
+   "p": 223270,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Natural curved denim pant W/Navy [N6ADPT01]",
+   "p": 98770,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Deep V-neck relaxed pullover Navy [N6AKT02]",
+   "p": 84150,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Natural roll-neck wool pullover Cocoa brown [N6WKT01]",
+   "p": 118780,
+   "d": 25,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Semi curved corduroy pant Khaki [N6APT03]",
+   "p": 98770,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Angora double-faced v-neck knit Black [N6WKT03]",
+   "p": 149030,
+   "d": 21,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "High-neck suede blouson jacket Black [N6ALJK03]",
+   "p": 223270,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Henley neck soft top 3colors [N6ATS02]",
+   "p": 55250,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Round-neck pin-tuck lace blouse White/ST [N6ABL02]",
+   "p": 123670,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Classic long wrap skirt Black [N6ASK01]",
+   "p": 90470,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "New wide pant Black [N6APT01]",
+   "p": 90470,
+   "d": 17,
+   "lk": null,
+   "rt": 2,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Two-pocket semi-relaxed shirt Beige/ST [N6ABL05]",
+   "p": 98770,
+   "d": 17,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Relax-fit v-neck pullover L/grey [N6AKT01]",
+   "p": 84150,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Oversized boyfriend check shirt G/check [N6ABL04]",
+   "p": 115370,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Fluid scarf blouse Misty navy [N6ABL03]",
+   "p": 115370,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Leather single jacket Mocha/BR [N6ALJK02]",
+   "p": 214970,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "The Basic shirt Black BL/ST [N6ABL01]",
+   "p": 98770,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Open-collar airy linen knit Navy [N6PSKT03]",
+   "p": 90470,
+   "d": 17,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[롱기장] Urban volume field coat Navy [N6SCT03]",
+   "p": 249000,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Relax-fit v-neck pullover Ivory [N6AKT01]",
+   "p": 84150,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "New wide pant W/Charcoal [N6APT01]",
+   "p": 90470,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Natural curved denim pant M/khaki [N6ADPT01]",
+   "p": 98770,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Relax-fit denim White [N6SDN05]",
+   "p": 90470,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 8,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Suit jacket Charcoal [N6SJK01]",
+   "p": 156870,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Washed denim work jacket W/black [N6ADJK01]",
+   "p": 198370,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 112088,
+ "observed_at": "2026-10-29"
+}

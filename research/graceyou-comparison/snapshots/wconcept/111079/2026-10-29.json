@@ -1,0 +1,502 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/111079",
+ "title": "르셉템버(LE17SEPTEMBRE) | W컨셉(W CONCEPT)",
+ "ko": "르셉템버",
+ "en": "LE17SEPTEMBRE",
+ "intro": "르셉템버는 미니멀한 실루엣, 차분한 톤, 절제된 우아함에 돋보이는 소재를 중점으로 실용적인 아이템들을 선보인다. 한 가지 주제나 영감에 얽매이지 않고 변함없이 이어져오는 베이직함의 가치를 중요하게 생각하는 브랜드이다.",
+ "n": 87,
+ "p": {
+  "min": 1195,
+  "q1": 189000,
+  "med": 259000,
+  "q3": 359000,
+  "p90": 689000,
+  "max": 859000,
+  "mean": 324123
+ },
+ "disc": {
+  "n": 0,
+  "med": null
+ },
+ "names": [
+  "PLUSH WOOL FAUX SHEARLING JACKET [IVORY]",
+  "SOFT WRAP TOP [GREY]",
+  "[W컨셉 단독] CLASSIC HANDMADE WOOL COAT [BLACK]",
+  "[W컨셉 단독]26 SHAWL COLLAR GOOSE DOWN JACKET [BLACK]",
+  "COWL NECK HANDMADE HALF COAT [CAMEL]",
+  "[W컨셉 단독]RIGID STRAIGHT DENIM PANTS [ECRU]11/23",
+  "REFINED CASHMERE WRAP TUBE TOP [GREY] 11/11",
+  "REVERSIBLE FAUX FUR JACKET [BEIGE]",
+  "COWL NECK HANDMADE HALF COAT [BLACK]",
+  "[W컨셉 단독]26 SHAWL COLLAR GOOSE DOWN JACKET [IVORY]",
+  "[W컨셉 단독]STAND NECK WOOL HALF COAT [CHARCOAL]",
+  "[W컨셉 단독]STAND NECK WOOL HALF COAT [LIGHT BEIGE]",
+  "[W컨셉 단독] PLUSH WOOL KNIT BACK-TIE TOP [BLACK]",
+  "[W컨셉 단독] PLUSH WOOL BUTTON CARDIGAN [BLACK] 11/09",
+  "[W컨셉 단독] PLUSH WOOL BUTTON CARDIGAN [CHARCOAL] 11/09",
+  "[W컨셉 단독] COTTON DRAPED FUNNEL NECK TRENCH [BLACK]",
+  "[W컨셉 단독]AUBE PLEATS EASY PANTS [NAVY]",
+  "[W컨셉 단독]AUBE PLEATS EASY PANTS [LIGHT GREY]",
+  "[W컨셉 단독]AUBE PLEATS EASY PANTS [BLACK]",
+  "[W컨셉 단독]AUBE PLEATS CARDIGAN [NAVY]",
+  "[W컨셉 단독]AUBE PLEATS CARDIGAN [LIGHT GREY]",
+  "[W컨셉 단독]AUBE PLEATS MOCKNECK LS TOP [NAVY]",
+  "[W컨셉 단독]AUBE PLEATS MOCKNECK LS TOP [LIGHT GREY]",
+  "[W컨셉 단독]AUBE PLEATS MOCKNECK LS TOP [BLACK]",
+  "[W컨셉 단독] UTILITY COTTON PANTS [NAVY]",
+  "[W컨셉 단독]RIGID STRAIGHT DENIM PANTS [NAVY]",
+  "SOFT ESSENTIAL T-SHIRT [BLACK]",
+  "LEATHER RIDING BOOTS [BLACK] 10/29",
+  "PURE CASHMERE MUFFLER [BLUE]",
+  "PURE CASHMERE MUFFLER [BLACK]",
+  "REFINED WOOL BLEND TROUSERS [BLACK]",
+  "REFINED WOOL BLEND TROUSERS [BROWN]",
+  "INES KNIT PANTS [BLACK]",
+  "INES KNIT PANTS [GREY]",
+  "WOOL BLEND PLEATS MIDI SKIRT [CHARCOAL]",
+  "CONTOUR KNIT SKIRT [BLACK]",
+  "CONTOUR KNIT SKIRT [GREY]",
+  "FLEECE HALF-ZIP TOP [GREY]",
+  "FLEECE HALF-ZIP TOP [BEIGE]",
+  "INES SHAWL COLLAR CARDIGAN [BEIGE]"
+ ],
+ "cards": [
+  {
+   "n": "PLUSH WOOL FAUX SHEARLING JACKET [IVORY]",
+   "p": 599000,
+   "d": null
+  },
+  {
+   "n": "SOFT WRAP TOP [GREY]",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독] CLASSIC HANDMADE WOOL COAT [BLACK]",
+   "p": 689000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]26 SHAWL COLLAR GOOSE DOWN JACKET [BLACK]",
+   "p": 539000,
+   "d": null
+  },
+  {
+   "n": "COWL NECK HANDMADE HALF COAT [CAMEL]",
+   "p": 639000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]RIGID STRAIGHT DENIM PANTS [ECRU]11/23",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "REFINED CASHMERE WRAP TUBE TOP [GREY] 11/11",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "REVERSIBLE FAUX FUR JACKET [BEIGE]",
+   "p": 799000,
+   "d": null
+  },
+  {
+   "n": "COWL NECK HANDMADE HALF COAT [BLACK]",
+   "p": 639000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]26 SHAWL COLLAR GOOSE DOWN JACKET [IVORY]",
+   "p": 539000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]STAND NECK WOOL HALF COAT [CHARCOAL]",
+   "p": 659000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]STAND NECK WOOL HALF COAT [LIGHT BEIGE]",
+   "p": 659000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독] PLUSH WOOL KNIT BACK-TIE TOP [BLACK]",
+   "p": 279000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독] PLUSH WOOL BUTTON CARDIGAN [BLACK] 11/09",
+   "p": 299000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독] PLUSH WOOL BUTTON CARDIGAN [CHARCOAL] 11/09",
+   "p": 299000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독] COTTON DRAPED FUNNEL NECK TRENCH [BLACK]",
+   "p": 499000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]AUBE PLEATS EASY PANTS [NAVY]",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]AUBE PLEATS EASY PANTS [LIGHT GREY]",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]AUBE PLEATS EASY PANTS [BLACK]",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]AUBE PLEATS CARDIGAN [NAVY]",
+   "p": 199000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]AUBE PLEATS CARDIGAN [LIGHT GREY]",
+   "p": 199000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]AUBE PLEATS MOCKNECK LS TOP [NAVY]",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]AUBE PLEATS MOCKNECK LS TOP [LIGHT GREY]",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]AUBE PLEATS MOCKNECK LS TOP [BLACK]",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독] UTILITY COTTON PANTS [NAVY]",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]RIGID STRAIGHT DENIM PANTS [NAVY]",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "SOFT ESSENTIAL T-SHIRT [BLACK]",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "LEATHER RIDING BOOTS [BLACK] 10/29",
+   "p": 498000,
+   "d": null
+  },
+  {
+   "n": "PURE CASHMERE MUFFLER [BLUE]",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "PURE CASHMERE MUFFLER [BLACK]",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "REFINED WOOL BLEND TROUSERS [BLACK]",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "REFINED WOOL BLEND TROUSERS [BROWN]",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "INES KNIT PANTS [BLACK]",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "INES KNIT PANTS [GREY]",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "WOOL BLEND PLEATS MIDI SKIRT [CHARCOAL]",
+   "p": 299000,
+   "d": null
+  },
+  {
+   "n": "CONTOUR KNIT SKIRT [BLACK]",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "CONTOUR KNIT SKIRT [GREY]",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "FLEECE HALF-ZIP TOP [GREY]",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "FLEECE HALF-ZIP TOP [BEIGE]",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "INES SHAWL COLLAR CARDIGAN [BEIGE]",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "INES SHAWL COLLAR CARDIGAN [GREY]",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "COWL NECK BLOUSE [BLACK]",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "SHEER LONG SLEEVE TOP [GREY]",
+   "p": 99000,
+   "d": null
+  },
+  {
+   "n": "SHEER LONG SLEEVE TOP [NAVY]",
+   "p": 99000,
+   "d": null
+  },
+  {
+   "n": "CASHMERE COLLARLESS JACKET [BLACK]",
+   "p": 399000,
+   "d": null
+  },
+  {
+   "n": "WOOL BLEND COLLARLESS JACKET [GREY]",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "REFINED CASHMERE WRAP TUBE TOP [NAVY]",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독] BALLOON STRAP BLOUSE [WHITE]",
+   "p": 199000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]ANNE KNIT CARDIGAN [CAMEL]",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]WRINKLE KNIT TOP [NAVY]",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "LONG SCOOP SLEEVELESS TOP [MINT]",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]WRINKLE MOCKNECK CARDIGAN [IVORY]",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "MORO CASHMERE KNIT LONG SKIRT [DARK GREY] 11/10",
+   "p": 279000,
+   "d": null
+  },
+  {
+   "n": "(59)",
+   "p": 1294,
+   "d": null
+  },
+  {
+   "n": "(2)",
+   "p": 1195,
+   "d": null
+  },
+  {
+   "n": "PURE CASHMERE KNIT MUFFLER [DARK GREY]",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "CLASSIC HANDMADE WOOL COAT [CAMEL]",
+   "p": 689000,
+   "d": null
+  },
+  {
+   "n": "PURE CASHMERE V-NECK KNIT PULLOVER [DARK GREY]",
+   "p": 359000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]MILLIE KNIT MOCKNECK TOP [BLACK]",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "CONTOUR CARDIGAN [BLACK]",
+   "p": 299000,
+   "d": null
+  },
+  {
+   "n": "ROSA CASHMERE KNIT CARDIGAN MUFFLER SET [WHITE]",
+   "p": 359000,
+   "d": null
+  },
+  {
+   "n": "MORO CASHMERE COLUMN KNIT DRESS [GREY]",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "SUEDE TOTE BAG [BLACK]",
+   "p": 299000,
+   "d": null
+  },
+  {
+   "n": "26 MAHOGANY HORIZONTAL FAUX FUR JACKET [MINT]",
+   "p": 859000,
+   "d": null
+  },
+  {
+   "n": "SOFT WRAP TOP [BEIGE]",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "CASHMERE BLEND WHOLEGARMENT V-NECK PULLOVER [CHARCOAL]",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "REVERSIBLE FAUX FUR JACKET [KHAKI]",
+   "p": 799000,
+   "d": null
+  },
+  {
+   "n": "WOOL BLEND FITTED TOP [CHARCOAL]",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "WOOL HANDMADE SCARF COAT [BEIGE]",
+   "p": 799000,
+   "d": null
+  },
+  {
+   "n": "WOOL HANDMADE SCARF COAT [NAVY]",
+   "p": 799000,
+   "d": null
+  },
+  {
+   "n": "26 MAHOGANY HORIZONTAL FAUX FUR JACKET [BLACK]",
+   "p": 859000,
+   "d": null
+  },
+  {
+   "n": "MORO CASHMERE BELL-SLEEVE KNIT CARDIGAN [NAVY]",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "PURE CASHMERE V-NECK KNIT PULLOVER [NAVY]",
+   "p": 359000,
+   "d": null
+  },
+  {
+   "n": "PURE CASHMERE KNIT MUFFLER [NAVY]",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "BUCKLE DETAILED SKIRT by HANDMADE [BLACK]",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]ANNE SLEEVELESS KNIT TOP[GREY]",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "MORO CASHMERE COLUMN KNIT DRESS [NAVY]",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]ANNE KNIT CARDIGAN [GREY]",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "(136)",
+   "p": 1243,
+   "d": null
+  },
+  {
+   "n": "[W컨셉 단독]MILLIE KNIT MOCKNECK TOP [IVORY]",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "MORO CASHMERE BELL-SLEEVE KNIT CARDIGAN [SAGE GREEN]",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "SQUARE NECK PEPLUM TOP [CHARCOAL]",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "PURE CASHMERE V-NECK KNIT PULLOVER [CAMEL]",
+   "p": 359000,
+   "d": null
+  },
+  {
+   "n": "TWO-TUCK WOOL TROUSERS [GREY]",
+   "p": 298000,
+   "d": null
+  },
+  {
+   "n": "FUNNEL NECK SUEDE BLOUSON [BLACK]",
+   "p": 790000,
+   "d": null
+  },
+  {
+   "n": "TESSA BELTED SKIRT by JAPANESE FABRIC [CHARCOAL]",
+   "p": 229000,
+   "d": null
+  },
+  {
+   "n": "ROUND TOE LOAFERS [BROWN]",
+   "p": 329000,
+   "d": null
+  }
+ ],
+ "id": 111079,
+ "observed_at": "2026-10-29"
+}

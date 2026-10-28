@@ -1,0 +1,699 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/43189",
+ "title": "라메레이(LAMEREI)",
+ "ko": "라메레이",
+ "en": "LAMEREI",
+ "sub": "라메레이는 화려하진 않지만 세련되고 모던한 룩을 지향합니다.",
+ "est": 2023,
+ "heart": 31647,
+ "intro": "라메레이는 클래식을 바탕으로 절제된 여성미의 모던한 룩을 지향합니다.<br/>\n수많은 옷들 속에서 가치 있는 옷을 만들고자 좋은 소재와 정성 들인 봉제를 기본으로<br/>\n절제된 페미닌룩과 캐주얼룩을 제안합니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 72720,
+  "q1": 104300,
+  "med": 129910,
+  "q3": 208600,
+  "p90": 348100,
+  "max": 443100,
+  "mean": 177962
+ },
+ "disc": {
+  "n": 50,
+  "med": 30,
+  "max": 30
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 2110,
+  "med": 5,
+  "max": 836,
+  "rated": 47
+ },
+ "rate": 4.88,
+ "tags": {
+  "쿠폰": 33,
+  "조건부 무료배송": 50,
+  "가을 필수": 18,
+  "신상품": 10
+ },
+ "names": [
+  "[영은 착용][5차 리오더]Contour Tie Dress[LMBFAUDR811]-Brown",
+  "[10차 리오더]Cashmere 10% High Neck Half Handmade Coat[LMBFWI23CT702]-Black",
+  "[영은 착용][22차 리오더]Tie See-through Blouse[LMBFCO25SH314]-2color",
+  "[5차 리오더]Contour Tie Dress[LMBFAUDR811]-Black",
+  "[영은 착용][10차 리오더][사이즈 추가]Sheer Layered Tie Dress[LMBFCO25DR803]-Black",
+  "[영은 착용][15차 리오더][벨트 Set][사이즈 추가]Classic Sleeveless Dress[LMBFCO25DR804]-Black",
+  "[영은 착용][4차 리오더]Silk Blend Tie Blouse[LMBFAUSH332]-Smoke Charcoal",
+  "[영은 착용]Cashmere 10% Handmade High Neck Short Jacket[LMBFWICT719]-Moss Beige",
+  "[영은 착용][6차 리오더]Drape Wrap Maxi Skirt[LMBFAUSK423]-Smoke Charcoal",
+  "[영은 착용][4차 리오더]Cashmere 10% High Neck Half Handmade Coat[LMBFWI23CT702]-Brown Melange",
+  "[영은 착용][2차 리오더]Silk Wool Brush Cardigan[LMBFWIKN2104]-Plum",
+  "[소연 착용][18차 리오더]Tie See-through Blouse[LMBFCO25SH314]-Light Beige",
+  "[2차 리오더]Nonfade Suede Midi Skirt[LMBFAUSK419]-Moss Brown",
+  "[영은,유영 착용][5차 리오더][기장선택]Slim Straight Denim[LMBFAUDN032]-Black",
+  "[영은 착용]Cashmere 10% Handmade Round Double Front Jacket[LMBFWICT717]-Black",
+  "[2차 리오더]Wholegarment Wool 100% V-Neck Knit Top[LMBFAUKN311]-Deep Gray",
+  "[소연 착용][8차 리오더]Holgament Baby Alpaca Cardigan[LMBFAU25KN289]-3color",
+  "Wool High-Neck Half Fur Coat[LMBFWICT720]-Beige",
+  "Silk Blend High Neck Drape Blouse[LMBFAUSH333]-Smoke Charcoal",
+  "Banding Maxi Knit Skirt[LMBFAUKN2103]-2color",
+  "[플비 착용][3차 리오더]Cashmere 10% Curve Detail Short Handmade Jacket[LMBFAU23CT701]-Camel Melange",
+  "[영은 착용][12차 리오더][기장선택]Dyeing Denim Pants[LMBFAU22DN112]-Cream",
+  "[18차 리오더]Solid Shirring Sleeveless SwimSuit[LMBDSW230]-2color",
+  "[영은 착용][4차 리오더]Maxi H-line Skirt[LMBFAU25SK405]-2color",
+  "Wholegarment Wool 100% V-Neck Knit Top[LMBFAUKN311]-Cream",
+  "[5차 리오더]High Neck Button Raccoon Cardigan[LMBFWI25KN298]-Mood cream",
+  "[3차 리오더][기장선택]Slim Straight Denim[LMBFAUDN029]-Medium blue",
+  "[소연 착용][10차 리오더]Sheer Layered H-line Skirt[LMBFAU25SK404]-3color",
+  "[2차 리오더]Raccoon Deep V-Neck Knit Top[LMBFWIKN2101]-Brown",
+  "[3차 리오더]Silk Blend Tie Blouse[LMBFAUSH332]-Turtle Dove",
+  "[영은 착용]Wool 100% Muffler[LMBFWIAC918]-2color",
+  "[29CM 단독]Alpaca Round Half Jacket[LMBFWI25JK107]-Black",
+  "[영은 착용]Unbalance Muffler Cardigan[LMBFAUKN310]-Ivory",
+  "[5차 리오더]High-Neck Goose Padding[LMBFWI24PD901]-Black",
+  "[2차 리오더][기장선택]Color Dying Pants[LMBFAUDN031]-Pale Taupe",
+  "[13차 리오더]Cash Wool Muffler[LMBFWI24KN262]-2color",
+  "Nonfade Suede High-Neck Half Jacket[LMBFAUJK115]-Black",
+  "[유영 착용]Wholegarment V-Neck Knit Top[LMBFAUKN2100]-Stone Taupe",
+  "Handmade Brushed Alpaca High-Neck Half Coat[LMBFWICT709]-Gray",
+  "[여울 착용][3차 리오더]Alpaca Belted Jacket[LMBFWI25JK104]-Gray"
+ ],
+ "cards": [
+  {
+   "n": "[영은 착용][5차 리오더]Contour Tie Dress[LMBFAUDR811]-Brown",
+   "p": 188300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 8,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[10차 리오더]Cashmere 10% High Neck Half Handmade Coat[LMBFWI23CT702]-Black",
+   "p": 348100,
+   "d": 13,
+   "lk": null,
+   "rt": 5,
+   "rv": 245,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[영은 착용][22차 리오더]Tie See-through Blouse[LMBFCO25SH314]-2color",
+   "p": 104300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 149,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[5차 리오더]Contour Tie Dress[LMBFAUDR811]-Black",
+   "p": 188300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[영은 착용][10차 리오더][사이즈 추가]Sheer Layered Tie Dress[LMBFCO25DR803]-Black",
+   "p": 181300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 66,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[영은 착용][15차 리오더][벨트 Set][사이즈 추가]Classic Sleeveless Dress[LMBFCO25DR804]-Black",
+   "p": 160300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 105,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[영은 착용][4차 리오더]Silk Blend Tie Blouse[LMBFAUSH332]-Smoke Charcoal",
+   "p": 111300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[영은 착용]Cashmere 10% Handmade High Neck Short Jacket[LMBFWICT719]-Moss Beige",
+   "p": 309150,
+   "d": 13,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[영은 착용][6차 리오더]Drape Wrap Maxi Skirt[LMBFAUSK423]-Smoke Charcoal",
+   "p": 125300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[영은 착용][4차 리오더]Cashmere 10% High Neck Half Handmade Coat[LMBFWI23CT702]-Brown Melange",
+   "p": 348100,
+   "d": 13,
+   "lk": null,
+   "rt": 5,
+   "rv": 8,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[영은 착용][2차 리오더]Silk Wool Brush Cardigan[LMBFWIKN2104]-Plum",
+   "p": 154550,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[소연 착용][18차 리오더]Tie See-through Blouse[LMBFCO25SH314]-Light Beige",
+   "p": 104300,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 91,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2차 리오더]Nonfade Suede Midi Skirt[LMBFAUSK419]-Moss Brown",
+   "p": 104300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[영은,유영 착용][5차 리오더][기장선택]Slim Straight Denim[LMBFAUDN032]-Black",
+   "p": 76300,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[영은 착용]Cashmere 10% Handmade Round Double Front Jacket[LMBFWICT717]-Black",
+   "p": 368050,
+   "d": 12,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[2차 리오더]Wholegarment Wool 100% V-Neck Knit Top[LMBFAUKN311]-Deep Gray",
+   "p": 90300,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[소연 착용][8차 리오더]Holgament Baby Alpaca Cardigan[LMBFAU25KN289]-3color",
+   "p": 104300,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 65,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Wool High-Neck Half Fur Coat[LMBFWICT720]-Beige",
+   "p": 311050,
+   "d": 13,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Silk Blend High Neck Drape Blouse[LMBFAUSH333]-Smoke Charcoal",
+   "p": 111300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Banding Maxi Knit Skirt[LMBFAUKN2103]-2color",
+   "p": 76300,
+   "d": 30,
+   "lk": null,
+   "rt": 4,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[플비 착용][3차 리오더]Cashmere 10% Curve Detail Short Handmade Jacket[LMBFAU23CT701]-Camel Melange",
+   "p": 220500,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 56,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[영은 착용][12차 리오더][기장선택]Dyeing Denim Pants[LMBFAU22DN112]-Cream",
+   "p": 76300,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 95,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[18차 리오더]Solid Shirring Sleeveless SwimSuit[LMBDSW230]-2color",
+   "p": 111300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 836,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[영은 착용][4차 리오더]Maxi H-line Skirt[LMBFAU25SK405]-2color",
+   "p": 104300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 31,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Wholegarment Wool 100% V-Neck Knit Top[LMBFAUKN311]-Cream",
+   "p": 90300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[5차 리오더]High Neck Button Raccoon Cardigan[LMBFWI25KN298]-Mood cream",
+   "p": 154550,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 12,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[3차 리오더][기장선택]Slim Straight Denim[LMBFAUDN029]-Medium blue",
+   "p": 76300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[소연 착용][10차 리오더]Sheer Layered H-line Skirt[LMBFAU25SK404]-3color",
+   "p": 118300,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 37,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[2차 리오더]Raccoon Deep V-Neck Knit Top[LMBFWIKN2101]-Brown",
+   "p": 146250,
+   "d": 18,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[3차 리오더]Silk Blend Tie Blouse[LMBFAUSH332]-Turtle Dove",
+   "p": 111300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[영은 착용]Wool 100% Muffler[LMBFWIAC918]-2color",
+   "p": 72720,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[29CM 단독]Alpaca Round Half Jacket[LMBFWI25JK107]-Black",
+   "p": 319000,
+   "d": 9,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[영은 착용]Unbalance Muffler Cardigan[LMBFAUKN310]-Ivory",
+   "p": 104300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[5차 리오더]High-Neck Goose Padding[LMBFWI24PD901]-Black",
+   "p": 414600,
+   "d": 11,
+   "lk": null,
+   "rt": 5,
+   "rv": 19,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2차 리오더][기장선택]Color Dying Pants[LMBFAUDN031]-Pale Taupe",
+   "p": 83300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[13차 리오더]Cash Wool Muffler[LMBFWI24KN262]-2color",
+   "p": 105400,
+   "d": 18,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 102,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Nonfade Suede High-Neck Half Jacket[LMBFAUJK115]-Black",
+   "p": 208600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[유영 착용]Wholegarment V-Neck Knit Top[LMBFAUKN2100]-Stone Taupe",
+   "p": 111300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Handmade Brushed Alpaca High-Neck Half Coat[LMBFWICT709]-Gray",
+   "p": 396550,
+   "d": 12,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[여울 착용][3차 리오더]Alpaca Belted Jacket[LMBFWI25JK104]-Gray",
+   "p": 301550,
+   "d": 14,
+   "lk": null,
+   "rt": 5,
+   "rv": 20,
+   "t": [
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[여울 착용][2차 리오더]Alpaca Round Half Jacket[LMBFWI25JK107]-2color",
+   "p": 301550,
+   "d": 14,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 40,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[유영 착용][3차 리오더]Nonfade Suede Maxi Skirt[LMBFAUSK422]-2color",
+   "p": 118300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Nonfade Suede High-Neck Half Jacket[LMBFAUJK115]-Moss Brown",
+   "p": 208600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[유영 착용]Leather Funnel Neck Jacket[LMBFAUJK122]-Black",
+   "p": 200900,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "Wholegarment Baby Alpaca V-Neck Knit Top[LMBFWIKN2109]-Navy",
+   "p": 129910,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[영은 착용]Nonfade Suede Round Jacket[LMBFAUJK117]-Black",
+   "p": 188300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[5차 리오더]Cashmere 10% High Neck Long Handmade Coat[LMBFWI23CT703]-Dove",
+   "p": 443100,
+   "d": 11,
+   "lk": null,
+   "rt": 5,
+   "rv": 42,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2차 리오더]Tie V-Neck Dress[LMBFSPDR808]-Black",
+   "p": 181300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 10,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Nonfade Suede Midi Skirt[LMBFAUSK419]-Black",
+   "p": 104300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[영은 착용][2차 리오더]Wool Maxi Bias Skirt[LMBFWISK424]-2color",
+   "p": 129910,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  }
+ ],
+ "id": 43189,
+ "observed_at": "2026-10-29"
+}

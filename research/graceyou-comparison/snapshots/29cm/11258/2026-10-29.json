@@ -1,0 +1,750 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/11258",
+ "title": "그로브(GROVE)",
+ "ko": "그로브",
+ "en": "GROVE",
+ "sub": "담백하고 클래식한 스타일의 컨템퍼러리 캐주얼",
+ "est": 2014,
+ "heart": 153311,
+ "intro": "그로브는 담백하고 클래식한 스타일의 컨템포러리 캐주얼을 베이스로, 1960년대 오리지널 빈티지를 재해석한 브랜드입니다. 시간이 갈수록 자연스러운 멋스러움을 더하는 그로브를 만나보세요.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 37160,
+  "q1": 83600,
+  "med": 108710,
+  "q3": 130040,
+  "p90": 138210,
+  "max": 262400,
+  "mean": 108808
+ },
+ "disc": {
+  "n": 50,
+  "med": 23,
+  "max": 70
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 393,
+  "med": 3,
+  "max": 184,
+  "rated": 37
+ },
+ "rate": 4.63,
+ "tags": {
+  "쿠폰": 49,
+  "조건부 무료배송": 49,
+  "가을 필수": 43,
+  "단독": 10,
+  "무료배송": 1,
+  "신상품": 8
+ },
+ "names": [
+  "SUSAN TRENCH SKIRT (BEIGE)",
+  "[수진 Pick] 26FW EDEN COMBI KNIT (PLUM)",
+  "[수진 Pick] 26FW MYLES V-NECK KNIT (MELANGE GRAY)",
+  "[29CM 단독] LEONIE LAYERED COLLAR KNIT (NAVY)",
+  "DEVORA LAYERED KNIT (BURGUNDY)",
+  "[수진 Pick] 26FW HALO SHORTS (KHAKI)",
+  "[차정원 착용] DEVIN HALF ZIP-UP KNIT (NAVY)",
+  "26FW EDEN COMBI KNIT (BLACK)",
+  "[수진 Pick] 26FW MYLES V-NECK KNIT (KHAKI)",
+  "[수진 Pick] CORE L/S T-SHIRT (WHITE)",
+  "[수진 Pick] ARDEN JACKET (CHARCOAL)",
+  "[수진 Pick] ARDEN CAPRI PANTS (CHARCOAL)",
+  "[수진 Pick] 26FW MYLES V-NECK KNIT (MINT)",
+  "[수진 Pick] 26FW HALO SHORTS (BROWN)",
+  "[29CM 단독] ARAN CARDIGAN (3COL)",
+  "26FW MYLES V-NECK KNIT (IVORY)",
+  "[수진 Pick] 26FW MYLES V-NECK KNIT (NAVY)",
+  "RIEL HALTER KNIT (BLACK)",
+  "VIAN STRIPE T-SHIRT (MELANGE GRAY)",
+  "ARDEN JACKET (BLACK)",
+  "[수진 Pick] LEONIE LAYERED COLLAR KNIT (BROWN)",
+  "[29CM 단독] LEONIE LAYERED COLLAR KNIT (CHARCOAL)",
+  "[29CM 단독] 26FW HALO JACKET (KHAKI)",
+  "DEVIN HALF ZIP-UP KNIT (GRAY)",
+  "MEREL CORDUROY PANTS (PLUM)",
+  "26PS LOUIS SKIRT (BLACK)",
+  "HARRIS LEATHER JUMPER (BLACK)",
+  "ESTELLE STRIPE COLLAR KNIT (KHAKI)",
+  "26FW EDEN COMBI KNIT (MELANGE GRAY)",
+  "MABEL SHORTS (CHARCOAL)",
+  "[수진 Pick] DEVORA LAYERED KNIT (MELANGE GRAY)",
+  "26FW ELI V-NECK DOUBLE CARDIGAN (CREAM)",
+  "[수진 Pick] CORE L/S T-SHIRT (CREAM)",
+  "26FW DAZE KNIT (MELANGE GRAY)",
+  "[수진 Pick] 26FW TESSA STRIPE COLLAR KNIT (BLACK)",
+  "[수진 Pick] 26FW EDEN COMBI KNIT (BLUE)",
+  "26FW DAZE KNIT (NAVY)",
+  "ARDEN CAPRI PANTS (BLACK)",
+  "VIAN STRIPE T-SHIRT (PLUM)",
+  "[수진 Pick] DEVORA LAYERED KNIT (BEIGE)"
+ ],
+ "cards": [
+  {
+   "n": "SUSAN TRENCH SKIRT (BEIGE)",
+   "p": 129560,
+   "d": 18,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[수진 Pick] 26FW EDEN COMBI KNIT (PLUM)",
+   "p": 83600,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 8,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[수진 Pick] 26FW MYLES V-NECK KNIT (MELANGE GRAY)",
+   "p": 99080,
+   "d": 23,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 19,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[29CM 단독] LEONIE LAYERED COLLAR KNIT (NAVY)",
+   "p": 130040,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 13,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "DEVORA LAYERED KNIT (BURGUNDY)",
+   "p": 130040,
+   "d": 23,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[수진 Pick] 26FW HALO SHORTS (KHAKI)",
+   "p": 71990,
+   "d": 23,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 13,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[차정원 착용] DEVIN HALF ZIP-UP KNIT (NAVY)",
+   "p": 137010,
+   "d": 23,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "26FW EDEN COMBI KNIT (BLACK)",
+   "p": 83600,
+   "d": 23,
+   "lk": null,
+   "rt": 4,
+   "rv": 9,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[수진 Pick] 26FW MYLES V-NECK KNIT (KHAKI)",
+   "p": 99080,
+   "d": 23,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 18,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[수진 Pick] CORE L/S T-SHIRT (WHITE)",
+   "p": 37160,
+   "d": 23,
+   "lk": null,
+   "rt": 4,
+   "rv": 9,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[수진 Pick] ARDEN JACKET (CHARCOAL)",
+   "p": 217420,
+   "d": 22,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[수진 Pick] ARDEN CAPRI PANTS (CHARCOAL)",
+   "p": 122300,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[수진 Pick] 26FW MYLES V-NECK KNIT (MINT)",
+   "p": 99080,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[수진 Pick] 26FW HALO SHORTS (BROWN)",
+   "p": 71990,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 10,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[29CM 단독] ARAN CARDIGAN (3COL)",
+   "p": 56700,
+   "d": 70,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 184,
+   "t": [
+    "무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "26FW MYLES V-NECK KNIT (IVORY)",
+   "p": 88070,
+   "d": 31,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[수진 Pick] 26FW MYLES V-NECK KNIT (NAVY)",
+   "p": 99080,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 12,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "RIEL HALTER KNIT (BLACK)",
+   "p": 71190,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 12,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "VIAN STRIPE T-SHIRT (MELANGE GRAY)",
+   "p": 68890,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "ARDEN JACKET (BLACK)",
+   "p": 192400,
+   "d": 31,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[수진 Pick] LEONIE LAYERED COLLAR KNIT (BROWN)",
+   "p": 130040,
+   "d": 23,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[29CM 단독] LEONIE LAYERED COLLAR KNIT (CHARCOAL)",
+   "p": 130040,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[29CM 단독] 26FW HALO JACKET (KHAKI)",
+   "p": 148200,
+   "d": 25,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "DEVIN HALF ZIP-UP KNIT (GRAY)",
+   "p": 137010,
+   "d": 23,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "MEREL CORDUROY PANTS (PLUM)",
+   "p": 136250,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "26PS LOUIS SKIRT (BLACK)",
+   "p": 71800,
+   "d": 44,
+   "lk": null,
+   "rt": 5,
+   "rv": 10,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "HARRIS LEATHER JUMPER (BLACK)",
+   "p": 262400,
+   "d": 20,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "ESTELLE STRIPE COLLAR KNIT (KHAKI)",
+   "p": 91340,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "26FW EDEN COMBI KNIT (MELANGE GRAY)",
+   "p": 83600,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "MABEL SHORTS (CHARCOAL)",
+   "p": 122300,
+   "d": 23,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[수진 Pick] DEVORA LAYERED KNIT (MELANGE GRAY)",
+   "p": 130040,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "26FW ELI V-NECK DOUBLE CARDIGAN (CREAM)",
+   "p": 122300,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[수진 Pick] CORE L/S T-SHIRT (CREAM)",
+   "p": 37160,
+   "d": 23,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "26FW DAZE KNIT (MELANGE GRAY)",
+   "p": 74310,
+   "d": 31,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[수진 Pick] 26FW TESSA STRIPE COLLAR KNIT (BLACK)",
+   "p": 91340,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[수진 Pick] 26FW EDEN COMBI KNIT (BLUE)",
+   "p": 83600,
+   "d": 23,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "26FW DAZE KNIT (NAVY)",
+   "p": 83600,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 8,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "ARDEN CAPRI PANTS (BLACK)",
+   "p": 108710,
+   "d": 31,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "VIAN STRIPE T-SHIRT (PLUM)",
+   "p": 68890,
+   "d": 23,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[수진 Pick] DEVORA LAYERED KNIT (BEIGE)",
+   "p": 130040,
+   "d": 23,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "VIAN STRIPE T-SHIRT (NAVY)",
+   "p": 68890,
+   "d": 23,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "26FW DAZE HALTER TOP (NAVY)",
+   "p": 56510,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "HAYDEN ONE-PIECE (IVORY)",
+   "p": 137780,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "DEVIN HALF ZIP-UP KNIT (PLUM)",
+   "p": 137010,
+   "d": 23,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "LENA KNIT CARDIGAN (MELANGE GRAY)",
+   "p": 138210,
+   "d": 27,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "26FW MYLES OVER-FIT V-NECK KNIT (PLUM)",
+   "p": 113280,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[29CM 단독] TILDA HALTER CARDIGAN (BLACK)",
+   "p": 122300,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[수진 Pick] 26FW TESSA STRIPE COLLAR KNIT (MELANGE GRAY)",
+   "p": 91340,
+   "d": 23,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "MAREN KNIT ZIP-UP (GREY)",
+   "p": 130040,
+   "d": 23,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "가을 필수"
+   ]
+  },
+  {
+   "n": "[수진 Pick] 26FW EVIE CHECK COLLAR KNIT (NAVY)",
+   "p": 113780,
+   "d": 23,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 11258,
+ "observed_at": "2026-10-29"
+}

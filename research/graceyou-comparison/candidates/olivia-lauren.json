@@ -1,0 +1,143 @@
+{
+ "slug": "olivia-lauren",
+ "ko": "올리비아로렌",
+ "en": "OLIVIA LAUREN",
+ "status": "후보",
+ "tier": "패션그룹 컨템포러리",
+ "tags": [
+  "페미닌",
+  "엘레강스"
+ ],
+ "found": [
+  "기사: 시어 소재·하객룩"
+ ],
+ "note": "가격 미수집",
+ "ids": {
+  "off": "https://sejungmall.com"
+ },
+ "price_source": "",
+ "intro": "",
+ "sub": "",
+ "est": null,
+ "heart": null,
+ "off": null,
+ "score": {},
+ "evidence": [
+  {
+   "idx": "226816",
+   "date": "2026-08-10",
+   "title": "올리비아로렌, 온라인 매출 174%↑…자사몰서 인기 상품 할인",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=226816&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "226143",
+   "date": "2026-07-01",
+   "title": "올리비아로렌, 국내 여성복 최초 'AI 화보 공모전' 개최",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=226143&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "225721",
+   "date": "2026-06-10",
+   "title": "올리비아로렌, '유이'와 함께 원피스 스타일링 제안",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=225721&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "225288",
+   "date": "2026-05-18",
+   "title": "올리비아로렌, 크리에이터 '단희'와 큐레이션 마케팅 본격화",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=225288&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "221692",
+   "date": "2025-11-24",
+   "title": "올리비아로렌, ‘더블 레이어 코트’ 출시",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=221692&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "225441",
+   "date": "2026-05-26",
+   "title": "올여름, 시원하고 우아한 여성복 '시어 소재' 주목",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=225441&cat=CAT11Z",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "210864",
+   "date": "2024-04-18",
+   "title": "여성복, 올 여름 승부처는 ‘데님’",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=210864&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "205031",
+   "date": "2023-04-10",
+   "title": "봄 시즌 여성복, ‘트위드가 다 했다’",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=205031&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "193202",
+   "date": "2021-10-13",
+   "title": "4050 패션 앱 ‘퀸잇’, 1년 만에 거래액 10배 증가",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=193202&cat=CAT127",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "191672",
+   "date": "2021-07-22",
+   "title": "카카오스타일, 4050 여성 패션 플랫폼 ‘포스티(Posty)’ 출시",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=191672&cat=CAT127",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "189488",
+   "date": "2021-04-09",
+   "title": "패션 시장 회복세 뚜렷…고가, 해외패션, 골프 쏠림",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=189488&cat=CAT11Z",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "176203",
+   "date": "2019-04-29",
+   "title": "여성복, 여름 트래블 라인 출시 붐",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=176203&cat=CAT900",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "92595",
+   "date": "2019-04-25",
+   "title": "여성복, 여름 트래블 라인 출시 붐",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=92595&cat=CAT900",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "기사 요약(약함)",
+ "role": "미평가(가격 미수집)",
+ "rank": 95,
+ "platform": {
+  "29cm": null,
+  "wconcept": null
+ }
+}

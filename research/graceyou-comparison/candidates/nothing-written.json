@@ -1,0 +1,363 @@
+{
+ "slug": "nothing-written",
+ "ko": "낫띵리튼",
+ "en": "Nothing written",
+ "status": "확정",
+ "tier": "디자이너·온라인 브랜드",
+ "tags": [
+  "미니멀",
+  "클래식",
+  "소재중시",
+  "시즌리스",
+  "모던"
+ ],
+ "found": [
+  "29CM DB 1차",
+  "기사 공동 언급"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 4279,
+  "wc": 103899,
+  "off": "https://nothing-written.com"
+ },
+ "price_source": "29CM",
+ "intro": "군더더기 없는 클래식 복식을 현대적 감각으로 재해석하는 낫띵리튼. 에센셜한 디자인, 좋은 원단과 봉제 기술로 견고하면서도 과정에 충실한 시즌리스 아이템을 선보입니다. 브랜드가 최고의 가치로 여기는 '부담 없이 입을 수 있는 편안함'을 만끽해보세요.",
+ "sub": "편안함을 지향하며 절제된 멋을 추구하는 브랜드",
+ "est": 2021,
+ "heart": 189805,
+ "off": {
+  "rows": 117,
+  "styles": 59,
+  "list": {
+   "n": 59,
+   "min": 32000,
+   "q1": 79000,
+   "med": 159000,
+   "q3": 179000,
+   "p90": 204200,
+   "max": 289000,
+   "mean": 141983
+  },
+  "sale": {
+   "n": 59,
+   "min": 32000,
+   "q1": 79000,
+   "med": 159000,
+   "q3": 179000,
+   "p90": 204200,
+   "max": 289000,
+   "mean": 141983
+  },
+  "disc_share": 0.0,
+  "disc_med": null,
+  "disc_max": null,
+  "source": "https://nothing-written.com/category/Knitwear/147, /category/Tops/79 (각 5쪽)",
+  "knit": {
+   "styles": 28,
+   "list": {
+    "n": 28,
+    "min": 79000,
+    "q1": 155000,
+    "med": 169000,
+    "q3": 179000,
+    "p90": 201000,
+    "max": 259000,
+    "mean": 168000
+   },
+   "sale": {
+    "n": 28,
+    "min": 79000,
+    "q1": 155000,
+    "med": 169000,
+    "q3": 179000,
+    "p90": 201000,
+    "max": 259000,
+    "mean": 168000
+   },
+   "disc_share": 0.0,
+   "disc_med": null
+  }
+ },
+ "score": {
+  "k": 1.0,
+  "list_q1": 169000,
+  "list_med": 189000,
+  "list_q3": 239000,
+  "s_price": 87,
+  "s_band": 45,
+  "s_mood": 33,
+  "score": 52,
+  "partial": 70
+ },
+ "evidence": [
+  {
+   "idx": "218445",
+   "date": "2025-06-29",
+   "title": "변화무쌍한 기후 대비 패션이 뜬다...웨더 프로텍션 아이템 급부상",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=218445&cat=CAT11Z",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "218110",
+   "date": "2025-06-16",
+   "title": "W컨셉, 장마 소식에 레인웨어 매출 30% 증가",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=218110&cat=CAT127",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "211180",
+   "date": "2024-05-07",
+   "title": "'W컨셉' 인기상품",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=211180&cat=CAT330",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "208151",
+   "date": "2023-10-19",
+   "title": "'29CM' 인기상품",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=208151&cat=CAT330",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "205950",
+   "date": "2023-05-24",
+   "title": "신세계 센텀, ‘뉴 컨템포러리’ 라인업 확정",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=205950&cat=CAT11B",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "202708",
+   "date": "2022-12-20",
+   "title": "29CM 11월 인기상품",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=202708&cat=CAT330",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "202526",
+   "date": "2022-12-13",
+   "title": "W컨셉 11월 인기상품",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=202526&cat=CAT330",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "201745",
+   "date": "2022-11-09",
+   "title": "29CM 10월 인기상품",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=201745&cat=CAT330",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "201568",
+   "date": "2022-11-01",
+   "title": "W컨셉 10월 인기상품",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=201568&cat=CAT330",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "189293",
+   "date": "2021-03-29",
+   "title": "29CM, '29에디션' 봄 시즌 공개... 최대 60%기획전 실시",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=189293&cat=CAT127",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "181717",
+   "date": "2020-03-23",
+   "title": "29CM, ‘29에디션’ 공개... 최대 48% 기획전도 실시",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=181717&cat=CAT127",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "179348",
+   "date": "2019-11-13",
+   "title": "29CM, ‘PT’ 브랜드 250개사 돌파",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=179348&cat=CAT127",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "176807",
+   "date": "2019-06-05",
+   "title": "29CM, ‘블랙 기획전’ 진행",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=176807&cat=CAT127",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": [
+   "2026-10-29"
+  ]
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "직접 경쟁(확정)",
+ "rank": 11,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/4279",
+   "title": "낫띵리튼(Nothing written)",
+   "ko": "낫띵리튼",
+   "en": "Nothing written",
+   "sub": "편안함을 지향하며 절제된 멋을 추구하는 브랜드",
+   "est": 2021,
+   "heart": 189805,
+   "intro": "군더더기 없는 클래식 복식을 현대적 감각으로 재해석하는 낫띵리튼. 에센셜한 디자인, 좋은 원단과 봉제 기술로 견고하면서도 과정에 충실한 시즌리스 아이템을 선보입니다. 브랜드가 최고의 가치로 여기는 '부담 없이 입을 수 있는 편안함'을 만끽해보세요.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 43000,
+    "q1": 169000,
+    "med": 189000,
+    "q3": 239000,
+    "p90": 389000,
+    "max": 459000,
+    "mean": 219380
+   },
+   "disc": {
+    "n": 0,
+    "med": null
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 5056,
+    "med": 6,
+    "max": 997,
+    "rated": 42
+   },
+   "rate": 4.63,
+   "tags": {
+    "조건부 무료배송": 50,
+    "신상품": 30,
+    "가을 필수": 48,
+    "단독": 2
+   },
+   "names": [
+    "[예약주문 11/25 순차배송] Miro v-neck pullover (Muted olive)",
+    "[예약주문 11/05 순차배송] Miro v-neck pullover (Camel orange)",
+    "[예약주문 11/24 순차배송] Misha faux fur jacket (Black)",
+    "Bunny Wool Pullover Knit (Pure Ivory)",
+    "[예약주문 11/03 순차배송] Plaza zip blouson (Dark gray)",
+    "Mona mini skirt (Midnight black)",
+    "Vinci wool skirt (Smoky taupe)",
+    "Poche velvet jacket (Deep black)",
+    "Erin wool v-neck pullover (Gray)",
+    "[예약주문 11/05 순차배송] Borough utility jumper (Ash beige)",
+    "Vinci wool skirt (Mineral beige)",
+    "Nils straight jeans (Washed blue)",
+    "Vinci wool skirt (Slate gray)",
+    "Kate v-neck pullover (Gray)",
+    "Pound alpaca sweater (Gray)",
+    "Vernis baguette bag (Black velvet)",
+    "Carna v-neck pullover (Clean white)",
+    "Shoulder leather bag (Caramel)",
+    "Hany cashmere knit (Black)",
+    "Kate v-neck pullover (Pure ivory)",
+    "[예약주문 11/11 순차배송] Runa v-neck pullover (Warm ivory)",
+    "[예약주문 11/24 순차배송] Misha faux fur coat (Brown)",
+    "Pound alpaca sweater (Pecan)",
+    "Kate bowling bag (Black)",
+    "Runa v-neck pullover (Charcoal)",
+    "Cocoon corduroy pants (Black)",
+    "Miro v-neck pullover (Charcoal)",
+    "Della tote bag (Black)",
+    "[예약주문 11/11 순차배송] Cocoon corduroy pants (Ivory)",
+    "Jain leather jacket (Black)",
+    "Miro v-neck pullover (Milk ivory)",
+    "Nep boat neck sweater (Charcoal)",
+    "Charlotte v-neck pullover (Charcoal)",
+    "Classic mini golf bag (Black)",
+    "Shoulder leather bag (Black)",
+    "[예약주문 11/09 순차배송] Field note jacket (Sage gray)",
+    "[예약주문 11/18 순차배송] Charlotte v-neck pullover (Mocha gray)",
+    "Fungus beanie (Cookie and cream)",
+    "Kate v-neck pullover (Black)",
+    "Nep boat neck sweater (Biscuit brown)"
+   ],
+   "id": 4279,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": {
+   "url": "https://display.wconcept.co.kr/rn/brand/103899",
+   "title": "낫띵리튼(NOTHING WRITTEN) | W컨셉(W CONCEPT)",
+   "ko": "낫띵리튼",
+   "en": "NOTHING WRITTEN",
+   "intro": "낫띵리튼은 베이직을 추구하는, 누구나 접할 수 있는 Comfortable Look을 기반으로 하는 브랜드다. 기본에 충실한 입체 패턴과 고급 원단에 집중하여 견고함을 바탕으로 옷을 만듦에 있어 과정에 충실한 시즌리스 제품들을 선보인다. 클래식을 추구하며 현대적인 감각으로 풀어낸 절제된 멋을 추구한다.",
+   "n": 86,
+   "p": {
+    "min": 1013,
+    "q1": 129000,
+    "med": 179000,
+    "q3": 255000,
+    "p90": 359000,
+    "max": 859000,
+    "mean": 193570
+   },
+   "disc": {
+    "n": 0,
+    "med": null
+   },
+   "names": [
+    "Misha faux fur coat (Brown)",
+    "Misha faux fur jacket (Black)",
+    "Classic mini golf bag (Black)",
+    "Metis Cotton Shirt (Blue Stripe)",
+    "Lambskin Bomber Jacket (Black)",
+    "Theo field jacket (Black, W)",
+    "Erin wool v-neck pullover (Gray)",
+    "90s t-shirt (White)",
+    "Pound alpaca sweater (Dove)",
+    "Ferro single trench (Cream, W)",
+    "Monday cotton shirt (Gray stripe, W)",
+    "Double pocket cotton shirt (Dark brown)",
+    "Jeff chino pants (Black)",
+    "Vintage button cardigan (White)",
+    "Esme rib-knitted cami (White)",
+    "Minty v-neck pullover (Soft blue)",
+    "Minty v-neck pullover (Green)",
+    "Vintage button cardigan (Black)",
+    "Lumie shirt (Charcoal)",
+    "Light balmacaan trench (Off white)",
+    "Frame cuff trousers (White)",
+    "Frame cuff trousers (Light beige)",
+    "Relaxed low-rise pants (Greige)",
+    "Frame cuff trousers (Black)",
+    "Loaf bread tote bag (Ivory)",
+    "Stitch leather belt (Black)",
+    "Loaf bread tote mini bag (Ivory)",
+    "Loaf bread tote mini bag (Dark brownie)",
+    "Relaxed low-rise pants (Black)",
+    "Esme rib-knitted cami (Black)",
+    "Palie raglan pullover (Black / Ivory)",
+    "Paper sleeveless top (Dark gray)",
+    "[단독]HT nylon shoulder bag (Salt)",
+    "Benico half neck knit (Ivory)",
+    "Extreme fine wool pullover (Neutral)",
+    "Marrie soft pocket cardigan (Cream)",
+    "Ralph hoodie zipup (Neutral)",
+    "Kiri brushed wool pullover (Royal ivory)",
+    "Shoulder leather bag (Caramel)",
+    "Caron stripe jumper (Dark navy)"
+   ],
+   "id": 103899,
+   "observed_at": "2026-10-29"
+  }
+ }
+}

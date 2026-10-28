@@ -1,0 +1,773 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/108879",
+ "title": "아뜰리에 드 루멘(Atelier de LUMEN) | W컨셉(W CONCEPT)",
+ "ko": "아뜰리에 드 루멘",
+ "en": "Atelier de LUMEN",
+ "intro": "루멘은 보편적이고 일상적인 것에서 진정한 아름다움을 발견합니다. 다양한 취향이 어우러진 디자인과 섬세한 디테일을 통해 평범한 하루에도 특별함을 더하는 제품을 제안합니다. 아뜰리에 드 루멘 솔비가 제안하는 W ONLY BAG W Issue 아뜰리에 드 루멘 가을빛을 머금은 루멘 아뜰리에 드 루멘 26AW 2차 컬렉션 단독 선발매, ~15% 아뜰리에 드 루멘 26AW 컬렉션 발매, 단독특가 아뜰리에 드 루멘 최예다운과 함께, 26FW 단독 발매 아뜰리에 드 루멘 여기에서만 만나는 W ONLY 아이템 ~30% SUMMER WEEK BEST BAG 폴뉴아부터 루멘까지, 인기 가방 주말 최대혜택 아뜰리에 드 루멘 서머위크 기념 전 상품 단독 혜택, 20% 쿠폰 Influencer's Pick : BAG 6월 인플루언서들이 선택한 가방, ~20% 아뜰리에 드 루멘 2nd SUMMER DROP 루멘의 두번째 썸머 컬렉션, 신상품 단독 특가 하트를 54.1만 개 받았어요 최근 조회수가 19.1만을 넘었어요 쿠폰 15% 2일 남음 최대 150,000원 할인(1,000원 이상 구매) 5장 베스트 아이템 Marron Bag_3colors 15% 185,300 1 Panier P",
+ "n": 141,
+ "p": {
+  "min": 1139,
+  "q1": 151300,
+  "med": 238000,
+  "q3": 298000,
+  "p90": 338300,
+  "max": 438000,
+  "mean": 215416
+ },
+ "disc": {
+  "n": 55,
+  "med": 15,
+  "max": 27
+ },
+ "names": [
+  "Marron Bag_3colors",
+  "Panier Petit Bag_6colors",
+  "[단독][솔비 PICK] MARRON DEMI BAG (NUBUCK BLACK)",
+  "[단독] PANIER PETIT BAG (ETOUPE BROWN)",
+  "LOG MIDDLE BAG (SOFT BLACK)",
+  "[단독] COLLEN BUCKET BAG (SOFT BLACK)",
+  "[단독][솔비 PICK] COLLEN BUCKET BAG (VINTAGE BROWN)",
+  "Panier Tote Bag_6colors",
+  "Base Flat Shoes_2colors",
+  "[단독] MARRON DEMI BAG (PORCELAIN WHITE)",
+  "KARRY SHOULDER BAG (NUBUCK BLACK)",
+  "KARRY SHOULDER BAG (NUBUCK BROWN)",
+  "VERE FLAP BAG (SUEDE BLACK)",
+  "VERE FLAP BAG (SUEDE CAMEL)",
+  "FADE CROSSBODY BAG (SOFT BLACK)",
+  "FADE CROSSBODY BAG (PORCELAIN WHITE)",
+  "DOUBLE STRAP BAG (SOFT BLACK)",
+  "DOUBLE STRAP BAG (VINTAGE BROWN)",
+  "AIR MINI POUCH (SOFT BLACK)",
+  "AIR MINI POUCH (VINTAGE BROWN)",
+  "FADE FOLDING WALLET (SOFT BLACK)",
+  "FADE FOLDING WALLET (PORCELAIN WHITE)",
+  "FADE FOLDING WALLET (CAMEL BROWN)",
+  "BUCKLE ENGINEER BOOTS (VINTAGE BROWN)",
+  "BUCKLE ENGINEER BOOTS (SOFT BLACK)",
+  "SOBRE WOVEN BELT (SOFT BLACK)",
+  "COMFORT LONG BOOTS (SOFT BLACK)",
+  "DOUBLE STRAP SHOULDER BAG (SOFT BLACK)",
+  "DOUBLE STRAP SHOULDER BAG (VINTAGE BROWN)",
+  "FADE BOSTON BAG (CAMEL BROWN)",
+  "LOG LARGE BAG (SOFT BLACK)",
+  "BLEP SHOULDER BAG_2colors",
+  "Twig Basket Shoulder Bag_4colors",
+  "TWIG PETIT BAG (SOFT BLACK)",
+  "TWIG BASKET GRAND BAG_2colors",
+  "Panier Flap Bag_3colors",
+  "KITTEN HEEL FLIP (MOCA BROWN)",
+  "Marron Bag_3colors",
+  "218,000",
+  "Panier Petit Bag_6colors"
+ ],
+ "cards": [
+  {
+   "n": "Marron Bag_3colors",
+   "p": 185300,
+   "d": 15
+  },
+  {
+   "n": "Panier Petit Bag_6colors",
+   "p": 185300,
+   "d": 15
+  },
+  {
+   "n": "[단독][솔비 PICK] MARRON DEMI BAG (NUBUCK BLACK)",
+   "p": 150280,
+   "d": 27
+  },
+  {
+   "n": "[단독] PANIER PETIT BAG (ETOUPE BROWN)",
+   "p": 157505,
+   "d": 27
+  },
+  {
+   "n": "LOG MIDDLE BAG (SOFT BLACK)",
+   "p": 295800,
+   "d": 15
+  },
+  {
+   "n": "[단독] COLLEN BUCKET BAG (SOFT BLACK)",
+   "p": 229755,
+   "d": 27
+  },
+  {
+   "n": "[단독][솔비 PICK] COLLEN BUCKET BAG (VINTAGE BROWN)",
+   "p": 229755,
+   "d": 27
+  },
+  {
+   "n": "Panier Tote Bag_6colors",
+   "p": 210800,
+   "d": 15
+  },
+  {
+   "n": "Base Flat Shoes_2colors",
+   "p": 210800,
+   "d": 15
+  },
+  {
+   "n": "[단독] MARRON DEMI BAG (PORCELAIN WHITE)",
+   "p": 150280,
+   "d": 27
+  },
+  {
+   "n": "KARRY SHOULDER BAG (NUBUCK BLACK)",
+   "p": 261800,
+   "d": 15
+  },
+  {
+   "n": "KARRY SHOULDER BAG (NUBUCK BROWN)",
+   "p": 261800,
+   "d": 15
+  },
+  {
+   "n": "VERE FLAP BAG (SUEDE BLACK)",
+   "p": 244800,
+   "d": 15
+  },
+  {
+   "n": "VERE FLAP BAG (SUEDE CAMEL)",
+   "p": 244800,
+   "d": 15
+  },
+  {
+   "n": "FADE CROSSBODY BAG (SOFT BLACK)",
+   "p": 202300,
+   "d": 15
+  },
+  {
+   "n": "FADE CROSSBODY BAG (PORCELAIN WHITE)",
+   "p": 202300,
+   "d": 15
+  },
+  {
+   "n": "DOUBLE STRAP BAG (SOFT BLACK)",
+   "p": 270300,
+   "d": 15
+  },
+  {
+   "n": "DOUBLE STRAP BAG (VINTAGE BROWN)",
+   "p": 270300,
+   "d": 15
+  },
+  {
+   "n": "AIR MINI POUCH (SOFT BLACK)",
+   "p": 57800,
+   "d": 15
+  },
+  {
+   "n": "AIR MINI POUCH (VINTAGE BROWN)",
+   "p": 57800,
+   "d": 15
+  },
+  {
+   "n": "FADE FOLDING WALLET (SOFT BLACK)",
+   "p": 66300,
+   "d": 15
+  },
+  {
+   "n": "FADE FOLDING WALLET (PORCELAIN WHITE)",
+   "p": 66300,
+   "d": 15
+  },
+  {
+   "n": "FADE FOLDING WALLET (CAMEL BROWN)",
+   "p": 66300,
+   "d": 15
+  },
+  {
+   "n": "BUCKLE ENGINEER BOOTS (VINTAGE BROWN)",
+   "p": 261800,
+   "d": 15
+  },
+  {
+   "n": "BUCKLE ENGINEER BOOTS (SOFT BLACK)",
+   "p": 261800,
+   "d": 15
+  },
+  {
+   "n": "SOBRE WOVEN BELT (SOFT BLACK)",
+   "p": 72250,
+   "d": 15
+  },
+  {
+   "n": "COMFORT LONG BOOTS (SOFT BLACK)",
+   "p": 261800,
+   "d": 15
+  },
+  {
+   "n": "DOUBLE STRAP SHOULDER BAG (SOFT BLACK)",
+   "p": 219300,
+   "d": 15
+  },
+  {
+   "n": "DOUBLE STRAP SHOULDER BAG (VINTAGE BROWN)",
+   "p": 219300,
+   "d": 15
+  },
+  {
+   "n": "FADE BOSTON BAG (CAMEL BROWN)",
+   "p": 287300,
+   "d": 15
+  },
+  {
+   "n": "LOG LARGE BAG (SOFT BLACK)",
+   "p": 329800,
+   "d": null
+  },
+  {
+   "n": "BLEP SHOULDER BAG_2colors",
+   "p": 287300,
+   "d": null
+  },
+  {
+   "n": "Twig Basket Shoulder Bag_4colors",
+   "p": 236300,
+   "d": null
+  },
+  {
+   "n": "TWIG PETIT BAG (SOFT BLACK)",
+   "p": 193800,
+   "d": null
+  },
+  {
+   "n": "TWIG BASKET GRAND BAG_2colors",
+   "p": 278800,
+   "d": null
+  },
+  {
+   "n": "Panier Flap Bag_3colors",
+   "p": 244800,
+   "d": null
+  },
+  {
+   "n": "KITTEN HEEL FLIP (MOCA BROWN)",
+   "p": 185300,
+   "d": null
+  },
+  {
+   "n": "Marron Bag_3colors",
+   "p": 218000,
+   "d": null
+  },
+  {
+   "n": "218,000",
+   "p": 185300,
+   "d": 15
+  },
+  {
+   "n": "Panier Petit Bag_6colors",
+   "p": 218000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] [단독][솔비 PICK] MARRON DEMI BAG (NUBUCK BLACK)",
+   "p": 208000,
+   "d": null
+  },
+  {
+   "n": "208,000",
+   "p": 150280,
+   "d": 27
+  },
+  {
+   "n": "(17)",
+   "p": 1731,
+   "d": null
+  },
+  {
+   "n": "[한정특가] [단독] PANIER PETIT BAG (ETOUPE BROWN)",
+   "p": 218000,
+   "d": null
+  },
+  {
+   "n": "218,000",
+   "p": 157505,
+   "d": 27
+  },
+  {
+   "n": "(4,335)",
+   "p": 1139,
+   "d": null
+  },
+  {
+   "n": "LOG MIDDLE BAG (SOFT BLACK)",
+   "p": 348000,
+   "d": null
+  },
+  {
+   "n": "348,000",
+   "p": 295800,
+   "d": 15
+  },
+  {
+   "n": "Panier Tote Bag_6colors",
+   "p": 248000,
+   "d": null
+  },
+  {
+   "n": "248,000",
+   "p": 210800,
+   "d": 15
+  },
+  {
+   "n": "DOUBLE STRAP SHOULDER BAG (SOFT BLACK)",
+   "p": 258000,
+   "d": null
+  },
+  {
+   "n": "258,000",
+   "p": 219300,
+   "d": 15
+  },
+  {
+   "n": "FADE BOSTON BAG (SOFT BLACK)",
+   "p": 338000,
+   "d": null
+  },
+  {
+   "n": "338,000",
+   "p": 287300,
+   "d": 15
+  },
+  {
+   "n": "[한정특가] [단독] COLLEN BUCKET BAG (SOFT BLACK)",
+   "p": 318000,
+   "d": null
+  },
+  {
+   "n": "318,000",
+   "p": 229755,
+   "d": 27
+  },
+  {
+   "n": "Base Flat Shoes_2colors",
+   "p": 248000,
+   "d": null
+  },
+  {
+   "n": "(30)",
+   "p": 6278,
+   "d": null
+  },
+  {
+   "n": "[한정특가] [단독][솔비 PICK] COLLEN BUCKET BAG (VINTAGE BROWN)",
+   "p": 318000,
+   "d": null
+  },
+  {
+   "n": "DOUBLE STRAP SHOULDER BAG (VINTAGE BROWN)",
+   "p": 258000,
+   "d": null
+  },
+  {
+   "n": "PILLOW HOBO BAG (SOFT BLACK)",
+   "p": 318000,
+   "d": null
+  },
+  {
+   "n": "318,000",
+   "p": 270300,
+   "d": 15
+  },
+  {
+   "n": "SOBRE LEATHER BELT (SOFT BLACK)",
+   "p": 65000,
+   "d": null
+  },
+  {
+   "n": "65,000",
+   "p": 55250,
+   "d": 15
+  },
+  {
+   "n": "(71)",
+   "p": 1616,
+   "d": null
+  },
+  {
+   "n": "[한정특가] [단독] MARRON DEMI BAG (PORCELAIN WHITE)",
+   "p": 208000,
+   "d": null
+  },
+  {
+   "n": "Arete Bag_3colors",
+   "p": 368000,
+   "d": null
+  },
+  {
+   "n": "368,000",
+   "p": 312800,
+   "d": 15
+  },
+  {
+   "n": "Fantine Bag_4colors",
+   "p": 178000,
+   "d": null
+  },
+  {
+   "n": "178,000",
+   "p": 151300,
+   "d": 15
+  },
+  {
+   "n": "MONIQUE SHOULDER BAG (CARMINE RED)",
+   "p": 248000,
+   "d": null
+  },
+  {
+   "n": "(29)",
+   "p": 2708,
+   "d": null
+  },
+  {
+   "n": "LOG LARGE BAG (SOFT BLACK)",
+   "p": 388000,
+   "d": null
+  },
+  {
+   "n": "388,000",
+   "p": 329800,
+   "d": 15
+  },
+  {
+   "n": "LOG LARGE BAG (VINTAGE BROWN)",
+   "p": 388000,
+   "d": null
+  },
+  {
+   "n": "Bon Ballon Bag_4colors",
+   "p": 278000,
+   "d": null
+  },
+  {
+   "n": "278,000",
+   "p": 236300,
+   "d": 15
+  },
+  {
+   "n": "Classic Leather Belt_25mm_2colors",
+   "p": 63000,
+   "d": null
+  },
+  {
+   "n": "63,000",
+   "p": 53550,
+   "d": 15
+  },
+  {
+   "n": "(234)",
+   "p": 3084,
+   "d": null
+  },
+  {
+   "n": "BATO TOTE BAG (SOFT BLACK)",
+   "p": 318000,
+   "d": null
+  },
+  {
+   "n": "(26)",
+   "p": 1165,
+   "d": null
+  },
+  {
+   "n": "ARETE DEMI BAG (NUBUCK FAWN)",
+   "p": 288000,
+   "d": null
+  },
+  {
+   "n": "288,000",
+   "p": 244800,
+   "d": 15
+  },
+  {
+   "n": "(25)",
+   "p": 1626,
+   "d": null
+  },
+  {
+   "n": "Panier Flap Bag_3colors",
+   "p": 288000,
+   "d": null
+  },
+  {
+   "n": "FADE BOSTON BAG (CAMEL BROWN)",
+   "p": 338000,
+   "d": null
+  },
+  {
+   "n": "Lune Forme Bag_3colors",
+   "p": 338000,
+   "d": null
+  },
+  {
+   "n": "SOBRE LEATHER BELT (ORGAN BROWN)",
+   "p": 65000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] [단독]Pave Tote Bag_2colors",
+   "p": 338000,
+   "d": null
+  },
+  {
+   "n": "338,000",
+   "p": 244205,
+   "d": 27
+  },
+  {
+   "n": "(216)",
+   "p": 8906,
+   "d": null
+  },
+  {
+   "n": "Panier Grand Bag_2colors",
+   "p": 308000,
+   "d": null
+  },
+  {
+   "n": "308,000",
+   "p": 261800,
+   "d": 15
+  },
+  {
+   "n": "SHIRRING BALLET FLAT (SOFT BLACK)",
+   "p": 218000,
+   "d": null
+  },
+  {
+   "n": "(10)",
+   "p": 1192,
+   "d": null
+  },
+  {
+   "n": "MOSSY HOBO BAG (SUEDE BROWN)",
+   "p": 238000,
+   "d": null
+  },
+  {
+   "n": "238,000",
+   "p": 202300,
+   "d": 15
+  },
+  {
+   "n": "PILLOW TOTE BAG (SOFT BLACK)",
+   "p": 218000,
+   "d": null
+  },
+  {
+   "n": "BRISE BAG (SOFT BLACK)",
+   "p": 378000,
+   "d": null
+  },
+  {
+   "n": "378,000",
+   "p": 321300,
+   "d": 15
+  },
+  {
+   "n": "(44)",
+   "p": 2156,
+   "d": null
+  },
+  {
+   "n": "DOUBLE STRAP BAG (SOFT BLACK)",
+   "p": 318000,
+   "d": null
+  },
+  {
+   "n": "FADE CROSSBODY BAG (SOFT BLACK)",
+   "p": 238000,
+   "d": null
+  },
+  {
+   "n": "MOSSY HOBO BAG (SUEDE SAND)",
+   "p": 238000,
+   "d": null
+  },
+  {
+   "n": "(27)",
+   "p": 3078,
+   "d": null
+  },
+  {
+   "n": "BRISE BAG (SUEDE GREY)",
+   "p": 378000,
+   "d": null
+  },
+  {
+   "n": "LUNE FORME TOTE BAG (SOFT BLACK)",
+   "p": 238000,
+   "d": null
+  },
+  {
+   "n": "(16)",
+   "p": 1173,
+   "d": null
+  },
+  {
+   "n": "NOTE BUCKLE BAG (VINTAGE BROWN)",
+   "p": 288000,
+   "d": null
+  },
+  {
+   "n": "ARETE DEMI BAG (SOFT BLACK)",
+   "p": 288000,
+   "d": null
+  },
+  {
+   "n": "(44)",
+   "p": 2494,
+   "d": null
+  },
+  {
+   "n": "[한정특가] [단독]Pave Petit Bag_3colors",
+   "p": 298000,
+   "d": null
+  },
+  {
+   "n": "298,000",
+   "p": 215305,
+   "d": 27
+  },
+  {
+   "n": "Classic Leather Belt_20mm_2colors",
+   "p": 63000,
+   "d": null
+  },
+  {
+   "n": "63,000",
+   "p": 52920,
+   "d": 16
+  },
+  {
+   "n": "(63)",
+   "p": 1784,
+   "d": null
+  },
+  {
+   "n": "FADE BOSTON BAG (PORCELAIN WHITE)",
+   "p": 338000,
+   "d": null
+  },
+  {
+   "n": "BLEP SHOULDER BAG_2colors",
+   "p": 338000,
+   "d": null
+  },
+  {
+   "n": "(34)",
+   "p": 2467,
+   "d": null
+  },
+  {
+   "n": "LOG MIDDLE BAG (PORCELAIN WHITE)",
+   "p": 348000,
+   "d": null
+  },
+  {
+   "n": "MONIQUE SHOULDER BAG (OAK BROWN)",
+   "p": 248000,
+   "d": null
+  },
+  {
+   "n": "COMFORT LOAFER (SOFT BLACK)",
+   "p": 238000,
+   "d": null
+  },
+  {
+   "n": "NOIR BUCKLE STRAP LEATHER BOOTS (ORGAN BROWN)",
+   "p": 388000,
+   "d": null
+  },
+  {
+   "n": "KARRY SHOULDER BAG (NUBUCK BROWN)",
+   "p": 308000,
+   "d": null
+  },
+  {
+   "n": "ARC CROSSBODY BAG (SOFT BLACK)",
+   "p": 358000,
+   "d": null
+  },
+  {
+   "n": "358,000",
+   "p": 304300,
+   "d": 15
+  },
+  {
+   "n": "BRISE GRAND BAG (SUEDE BROWN)",
+   "p": 438000,
+   "d": null
+  },
+  {
+   "n": "438,000",
+   "p": 372300,
+   "d": 15
+  },
+  {
+   "n": "BRISE GRAND BAG (SOFT BLACK)",
+   "p": 438000,
+   "d": null
+  },
+  {
+   "n": "Base Barrel Bag_2colors",
+   "p": 238000,
+   "d": null
+  },
+  {
+   "n": "(48)",
+   "p": 2142,
+   "d": null
+  },
+  {
+   "n": "SHIRRING BALLET FLAT (ORGAN BROWN)",
+   "p": 218000,
+   "d": null
+  },
+  {
+   "n": "Anneau Flap Bag_2colors",
+   "p": 338000,
+   "d": null
+  },
+  {
+   "n": "(19)",
+   "p": 2507,
+   "d": null
+  },
+  {
+   "n": "[LUMEN X IHNN] BOJAGI TOTE BAG (TAN BROWN)",
+   "p": 398000,
+   "d": null
+  },
+  {
+   "n": "398,000",
+   "p": 338300,
+   "d": 15
+  },
+  {
+   "n": "DOUBLE STRAP BAG (VINTAGE BROWN)",
+   "p": 318000,
+   "d": null
+  },
+  {
+   "n": "NOIR BUCKLE STRAP LEATHER BOOTS (SOFT BLACK)",
+   "p": 388000,
+   "d": null
+  },
+  {
+   "n": "Base Top Loafer_2colors",
+   "p": 288000,
+   "d": null
+  },
+  {
+   "n": "(11)",
+   "p": 1423,
+   "d": null
+  }
+ ],
+ "id": 108879,
+ "observed_at": "2026-10-29"
+}

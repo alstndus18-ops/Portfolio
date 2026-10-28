@@ -1,0 +1,147 @@
+{
+ "slug": "diagonal",
+ "ko": "다이애그널",
+ "en": "DIAGONAL",
+ "status": "후보",
+ "tier": "디자이너·온라인 브랜드",
+ "tags": [
+  "페미닌",
+  "미니멀",
+  "모던",
+  "데일리"
+ ],
+ "found": [
+  "29CM DB 1차",
+  "기사 공동 언급(29CM PT)"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 2135
+ },
+ "price_source": "29CM",
+ "intro": "2014년 설립된 간소하지만 감각적인 디자인을 제안하는 현대적인 여성복 브랜드. 단순한 선과 일상적인 형태 안에서 독특함을 찾고자 합니다.",
+ "sub": "간결하고 절제된 디자인으로 페미닌 캐주얼함을 추구하는 브랜드",
+ "est": 2014,
+ "heart": 45818,
+ "off": null,
+ "score": {
+  "k": 1.22,
+  "list_q1": 83000,
+  "list_med": 115646,
+  "list_q3": 136866,
+  "s_price": 33,
+  "s_band": 0,
+  "s_mood": 38,
+  "score": 29,
+  "partial": 20
+ },
+ "evidence": [
+  {
+   "idx": "179348",
+   "date": "2019-11-13",
+   "title": "29CM, ‘PT’ 브랜드 250개사 돌파",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=179348&cat=CAT127",
+   "where": "요약",
+   "anchor": "낫띵리튼",
+   "excerpt": " 이벤트 참여를 끌어냈다. 컨버스는 ‘잭퍼셀’ 제품의 캠페인을 진행해 PT 기간 동안 해당 아이템의 판매율이 전년 동기 대비 600% 상승하기도 했다.   국내 디자이너 브랜드와의 협업 PT도 활발하다. 이달 18일까지 열리는 ‘우먼 에센셜 컬렉션’에서는 ‘모이아’, ‘비아플레인’, ‘낫띵리튼’ 등 22개 브랜드가 29CM 단독 상품을 최대 40% 할인 판매한다. 14일부터는 ‘애프터프레이’, 하이드아웃’ ‘킨더살몬’, ‘다이애그널’ 등의 인기 브랜드의 아우터 "
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "참고(트렌드·무드 탐색)",
+ "rank": 51,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/2135",
+   "title": "다이애그널(DIAGONAL)",
+   "ko": "다이애그널",
+   "en": "DIAGONAL",
+   "sub": "간결하고 절제된 디자인으로 페미닌 캐주얼함을 추구하는 브랜드",
+   "est": 2014,
+   "heart": 45818,
+   "intro": "2014년 설립된 간소하지만 감각적인 디자인을 제안하는 현대적인 여성복 브랜드. 단순한 선과 일상적인 형태 안에서 독특함을 찾고자 합니다.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 34440,
+    "q1": 68060,
+    "med": 94830,
+    "q3": 112230,
+    "p90": 139500,
+    "max": 170100,
+    "mean": 92469
+   },
+   "disc": {
+    "n": 50,
+    "med": 18,
+    "max": 18
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 520,
+    "med": 5,
+    "max": 63,
+    "rated": 43
+   },
+   "rate": 4.76,
+   "tags": {
+    "쿠폰": 48,
+    "조건부 무료배송": 49,
+    "품절": 1
+   },
+   "names": [
+    "[7th] STITCHED TRAPEZE SKIRT (black)",
+    "[10th] V NECK CASHMERE KNIT (plum)",
+    "[3rd] ASMY SHIRRING TEE (charcoal)",
+    "V NECK BASIC KNIT (charcoal)",
+    "SLOGAN WAFFLE LONG SLEEVE TEE (charcoal)",
+    "[2nd] STRIPE OFF SHOULDER CARDIGAN (plum)",
+    "[2nd] BOUCLE KNIT JACKET (black)",
+    "[2nd] U NECK BASIC KNIT (ivory)",
+    "[2nd] U NECK BASIC KNIT (mocha)",
+    "[4th] LAYERED HENLEY TEE (mint)",
+    "[2nd] LACE KNOT BELT PANTS (black)",
+    "[2nd] LACE KNOT BELT PANTS (melange grey)",
+    "[2nd] TWO WAY LAYERED DRESS (black)",
+    "[3rd] LAYERED HENLEY TEE (black)",
+    "DIAGONAL BUTTON STRAP CARDIGAN (charcoal)",
+    "[2nd] DOUBLE LAYERED LACE SKIRT (black)",
+    "WARM JOGGER PANTS (dark grey)",
+    "[12th] LOOSE SHIRRING TOP (charcoal)",
+    "[8th] BRAID STRING TOP (melange grey)",
+    "[2nd] DOUBLE SLEEVE DAMAGE CARDIGAN (blue)",
+    "[14th] DOUBLE LAYERED LONG DRESS (melange grey)",
+    "[7th] LOW RISE MIDI SKIRT (grey)",
+    "[13th] DOUBLE LAYERED LONG DRESS (black)",
+    "[4th] LAYERED HENLEY TEE (mocha)",
+    "SLOGAN WAFFLE LONG SLEEVE TEE (beige)",
+    "STRIPE HOODIE LAYERED TEE (black)",
+    "BUSTIER RIBBED ZIP UP (black)",
+    "LACE POINT SEE THROUGH TOP (beige)",
+    "V NECK BASIC KNIT (red)",
+    "STRIPE OFF SHOULDER CARDIGAN (black)",
+    "STITCHED TRAPEZE SKIRT (white)",
+    "[2nd] HENLEY BUTTON CAMISOLE (4color)",
+    "STRIPE POCKET SHIRTS (ivory)",
+    "V NECK BASIC KNIT (yellow)",
+    "[4th] SNAP DOUBLE BELT (black)",
+    "LACE POINT SEE THROUGH TOP (black)",
+    "[4th] TWO WAY LONG DRESS (charcoal)",
+    "[5th] LOW RISE MIDI SKIRT (black)",
+    "STRIPE JERSEY ZIP HOODIE (blue grey)",
+    "FLORAL BLEED TEE (grey)"
+   ],
+   "id": 2135,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": null
+ }
+}

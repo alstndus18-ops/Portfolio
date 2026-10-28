@@ -1,0 +1,753 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/103323",
+ "title": "닐바이피(NILBY P) | W컨셉(W CONCEPT)",
+ "ko": "닐바이피",
+ "en": "NILBY P",
+ "intro": "닐바이피(NILBY P)는 매일 함께하고 싶은 고유의 심플한 디자인 감성을 전달하는 여성복 브랜드입니다. 모던한 감성과 컬러를 기반으로 담백하고 차별화된 실루엣을 지향하며, 편안함 속에 녹아있는 완성도 있는 룩을 선보입니다.",
+ "n": 137,
+ "p": {
+  "min": 1020,
+  "q1": 99000,
+  "med": 164430,
+  "q3": 251430,
+  "p90": 339000,
+  "max": 439000,
+  "mean": 169049
+ },
+ "disc": {
+  "n": 46,
+  "med": 13,
+  "max": 15
+ },
+ "names": [
+  "Leather zip-up blouson jacket Black [N6ALJK01]",
+  "Leather single jacket Mocha/BR [N6ALJK02]",
+  "Premium handmade coat Black [N6AHCT03]",
+  "Two-pocket semi-relaxed shirt Blue/ST [N6ABL05]",
+  "New wide pant W/Charcoal [N6APT01]",
+  "Leather zip-up blouson jacket Mocha/BR [N6ALJK01]",
+  "New wide pant C/Brown [N6APT01]",
+  "Oversized boyfriend check shirt Blue/CHK [N6ABL04]",
+  "Casual half handmade coat Navy [N6AHCT01]",
+  "Signature angora cardigan Moss charcoal [N6WKT02]",
+  "Premium handmade coat Butter beige [N6AHCT03]",
+  "Cashmere blend handmade belted jacket Black [N6AHJK01]",
+  "Premium handmade coat Sepia melange grey [N6AHCT03]",
+  "Premium handmade coat Ash blue [N6AHCT03]",
+  "Signature angora cardigan French blue [N6WKT02]",
+  "Cashmere blend handmade belted jacket Butter beige [N6AHJK01]",
+  "Signature angora cardigan Purple navy [N6WKT02]",
+  "Casual half handmade coat Oatmeal [N6AHCT01]",
+  "Signature angora cardigan Espresso brown [N6WKT02]",
+  "Handmade belted jacket Khaki grey [N6AHJK01]",
+  "Angora double-faced v-neck knit Snow ivory [N6WKT03]",
+  "Angora double-faced v-neck knit Milky camel [N6WKT03]",
+  "Angora double-faced v-neck knit Black [N6WKT03]",
+  "Relax-fit basic jacket Charcoal [N6SJK02]",
+  "Semi curved corduroy pant Khaki [N6APT03]",
+  "Relax-fit v-neck pullover Charcoal [N6AKT01]",
+  "Relaxed round-neck wool-blend jacket M/Navy [N6AJK02]",
+  "Cap sleeve slim t-shirt 3colors [N6MTS04]",
+  "Leather single half trench coat Black [N6ALCT02]",
+  "Fluid scarf blouse E/beige [N6ABL03]",
+  "Deep V-neck relaxed pullover Navy [N6AKT02]",
+  "Semi curved denim pant Black [N6PSDN02]",
+  "Summer volume wrap ops Navy [N6MOP01]",
+  "Two-way casual sleeveless top Grey [N6PSTS04]",
+  "Semi curved casual pant Navy [N6SPT03]",
+  "Linen-blend loose-fit knit cardigan Blue [N6PSKT01]",
+  "Relax-fit linen jacket Beige [N6PSJK01]",
+  "Denim half pant Grey [N6SDN06]",
+  "Linen work jacket Navy [N6PSJK02]",
+  "Pintuck lace-patch long blouse Peach [N6PSBL04]"
+ ],
+ "cards": [
+  {
+   "n": "Leather zip-up blouson jacket Black [N6ALJK01]",
+   "p": 225330,
+   "d": 13
+  },
+  {
+   "n": "Leather single jacket Mocha/BR [N6ALJK02]",
+   "p": 225330,
+   "d": 13
+  },
+  {
+   "n": "Premium handmade coat Black [N6AHCT03]",
+   "p": 339000,
+   "d": 10
+  },
+  {
+   "n": "Two-pocket semi-relaxed shirt Blue/ST [N6ABL05]",
+   "p": 103530,
+   "d": 13
+  },
+  {
+   "n": "New wide pant W/Charcoal [N6APT01]",
+   "p": 94830,
+   "d": 13
+  },
+  {
+   "n": "Leather zip-up blouson jacket Mocha/BR [N6ALJK01]",
+   "p": 225330,
+   "d": 13
+  },
+  {
+   "n": "New wide pant C/Brown [N6APT01]",
+   "p": 94830,
+   "d": 13
+  },
+  {
+   "n": "Oversized boyfriend check shirt Blue/CHK [N6ABL04]",
+   "p": 120930,
+   "d": 13
+  },
+  {
+   "n": "Casual half handmade coat Navy [N6AHCT01]",
+   "p": 299000,
+   "d": 11
+  },
+  {
+   "n": "Signature angora cardigan Moss charcoal [N6WKT02]",
+   "p": 172260,
+   "d": 13
+  },
+  {
+   "n": "Premium handmade coat Butter beige [N6AHCT03]",
+   "p": 339000,
+   "d": 10
+  },
+  {
+   "n": "Cashmere blend handmade belted jacket Black [N6AHJK01]",
+   "p": 259260,
+   "d": 13
+  },
+  {
+   "n": "Premium handmade coat Sepia melange grey [N6AHCT03]",
+   "p": 339000,
+   "d": 10
+  },
+  {
+   "n": "Premium handmade coat Ash blue [N6AHCT03]",
+   "p": 339000,
+   "d": 10
+  },
+  {
+   "n": "Signature angora cardigan French blue [N6WKT02]",
+   "p": 172260,
+   "d": 13
+  },
+  {
+   "n": "Cashmere blend handmade belted jacket Butter beige [N6AHJK01]",
+   "p": 259260,
+   "d": 13
+  },
+  {
+   "n": "Signature angora cardigan Purple navy [N6WKT02]",
+   "p": 172260,
+   "d": 13
+  },
+  {
+   "n": "Casual half handmade coat Oatmeal [N6AHCT01]",
+   "p": 299000,
+   "d": 11
+  },
+  {
+   "n": "Signature angora cardigan Espresso brown [N6WKT02]",
+   "p": 172260,
+   "d": 13
+  },
+  {
+   "n": "Handmade belted jacket Khaki grey [N6AHJK01]",
+   "p": 259260,
+   "d": 13
+  },
+  {
+   "n": "Angora double-faced v-neck knit Snow ivory [N6WKT03]",
+   "p": 164430,
+   "d": 13
+  },
+  {
+   "n": "Angora double-faced v-neck knit Milky camel [N6WKT03]",
+   "p": 164430,
+   "d": 13
+  },
+  {
+   "n": "Angora double-faced v-neck knit Black [N6WKT03]",
+   "p": 164430,
+   "d": 13
+  },
+  {
+   "n": "Relax-fit basic jacket Charcoal [N6SJK02]",
+   "p": 164430,
+   "d": 13
+  },
+  {
+   "n": "Semi curved corduroy pant Khaki [N6APT03]",
+   "p": 103530,
+   "d": 13
+  },
+  {
+   "n": "Relax-fit v-neck pullover Charcoal [N6AKT01]",
+   "p": 86130,
+   "d": 13
+  },
+  {
+   "n": "Relaxed round-neck wool-blend jacket M/Navy [N6AJK02]",
+   "p": 181830,
+   "d": null
+  },
+  {
+   "n": "Cap sleeve slim t-shirt 3colors [N6MTS04]",
+   "p": 37410,
+   "d": null
+  },
+  {
+   "n": "Leather single half trench coat Black [N6ALCT02]",
+   "p": 269000,
+   "d": null
+  },
+  {
+   "n": "Fluid scarf blouse E/beige [N6ABL03]",
+   "p": 120930,
+   "d": null
+  },
+  {
+   "n": "Deep V-neck relaxed pullover Navy [N6AKT02]",
+   "p": 86130,
+   "d": null
+  },
+  {
+   "n": "Semi curved denim pant Black [N6PSDN02]",
+   "p": 99960,
+   "d": null
+  },
+  {
+   "n": "Summer volume wrap ops Navy [N6MOP01]",
+   "p": 150360,
+   "d": null
+  },
+  {
+   "n": "Two-way casual sleeveless top Grey [N6PSTS04]",
+   "p": 33930,
+   "d": null
+  },
+  {
+   "n": "Semi curved casual pant Navy [N6SPT03]",
+   "p": 103530,
+   "d": null
+  },
+  {
+   "n": "Linen-blend loose-fit knit cardigan Blue [N6PSKT01]",
+   "p": 103530,
+   "d": null
+  },
+  {
+   "n": "Relax-fit linen jacket Beige [N6PSJK01]",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "Denim half pant Grey [N6SDN06]",
+   "p": 83160,
+   "d": null
+  },
+  {
+   "n": "Linen work jacket Navy [N6PSJK02]",
+   "p": 168000,
+   "d": null
+  },
+  {
+   "n": "Pintuck lace-patch long blouse Peach [N6PSBL04]",
+   "p": 116760,
+   "d": null
+  },
+  {
+   "n": "New wide pant Navy/ST [N6SPT01]",
+   "p": 94830,
+   "d": null
+  },
+  {
+   "n": "Reversible blouson jumper Beige/CHK [N6SJP01]",
+   "p": 207930,
+   "d": null
+  },
+  {
+   "n": "Leather zip-up blouson jacket Black [N6ALJK01]",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "259,000",
+   "p": 225330,
+   "d": 13
+  },
+  {
+   "n": "Premium handmade coat Black [N6AHCT03]",
+   "p": 379000,
+   "d": null
+  },
+  {
+   "n": "379,000",
+   "p": 339000,
+   "d": 10
+  },
+  {
+   "n": "Leather single jacket Mocha/BR [N6ALJK02]",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "(48)",
+   "p": 1899,
+   "d": null
+  },
+  {
+   "n": "Casual half handmade coat Navy [N6AHCT01]",
+   "p": 339000,
+   "d": null
+  },
+  {
+   "n": "339,000",
+   "p": 299000,
+   "d": 11
+  },
+  {
+   "n": "(68)",
+   "p": 2376,
+   "d": null
+  },
+  {
+   "n": "Casual half handmade coat Oatmeal [N6AHCT01]",
+   "p": 339000,
+   "d": null
+  },
+  {
+   "n": "Premium handmade coat Sepia melange grey [N6AHCT03]",
+   "p": 379000,
+   "d": null
+  },
+  {
+   "n": "Leather zip-up blouson jacket Mocha/BR [N6ALJK01]",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "Two-pocket semi-relaxed shirt Blue/ST [N6ABL05]",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "119,000",
+   "p": 103530,
+   "d": 13
+  },
+  {
+   "n": "New wide pant W/Charcoal [N6APT01]",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "109,000",
+   "p": 94830,
+   "d": 13
+  },
+  {
+   "n": "New wide pant C/Brown [N6APT01]",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "New wide pant Black [N6APT01]",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "(185)",
+   "p": 1442,
+   "d": null
+  },
+  {
+   "n": "25FN leather single jacket [CA]",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "Suit jacket Black [N6SJK01]",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "189,000",
+   "p": 164430,
+   "d": 13
+  },
+  {
+   "n": "(348)",
+   "p": 4803,
+   "d": null
+  },
+  {
+   "n": "Signature angora cardigan Purple navy [N6WKT02]",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 172260,
+   "d": 13
+  },
+  {
+   "n": "(234)",
+   "p": 5802,
+   "d": null
+  },
+  {
+   "n": "Tweed crop jacket Beige [N6SJK04]",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "High-neck relaxed field half coat Charcoal [N6ACT02]",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "Oversized boyfriend check shirt Blue/CHK [N6ABL04]",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "139,000",
+   "p": 120930,
+   "d": 13
+  },
+  {
+   "n": "Relax-fit v-neck pullover Charcoal [N6AKT01]",
+   "p": 99000,
+   "d": null
+  },
+  {
+   "n": "99,000",
+   "p": 86130,
+   "d": 13
+  },
+  {
+   "n": "(166)",
+   "p": 2599,
+   "d": null
+  },
+  {
+   "n": "Signature angora cardigan Espresso brown [N6WKT02]",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "(23)",
+   "p": 1811,
+   "d": null
+  },
+  {
+   "n": "Relaxed wool-blend raglan trench coat C/Brown [N6ACT03]",
+   "p": 279000,
+   "d": null
+  },
+  {
+   "n": "279,000",
+   "p": 242730,
+   "d": 13
+  },
+  {
+   "n": "Fluid scarf blouse E/beige [N6ABL03]",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "25FN relax-fit basic jacket [KA/HB]",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "(46)",
+   "p": 1997,
+   "d": null
+  },
+  {
+   "n": "Relax-fit basic jacket W/Charcoal [N6AJK01]",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "Suit jacket Charcoal [N6SJK01]",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "Fluid scarf blouse C/brown [N6ABL03]",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "New wide pant Black [N6SPT01]",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "(187)",
+   "p": 1494,
+   "d": null
+  },
+  {
+   "n": "Oversized boyfriend check shirt G/check [N6ABL04]",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "New wide pant Charcoal [N6SPT01]",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "Signature angora cardigan Moss charcoal [N6WKT02]",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "Semi-wide pant Black [N6SPT02]",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "Premium handmade coat Butter beige [N6AHCT03]",
+   "p": 379000,
+   "d": null
+  },
+  {
+   "n": "Premium handmade coat Ash blue [N6AHCT03]",
+   "p": 379000,
+   "d": null
+  },
+  {
+   "n": "(492)",
+   "p": 5063,
+   "d": null
+  },
+  {
+   "n": "Deep V-neck relaxed pullover Navy [N6AKT02]",
+   "p": 99000,
+   "d": null
+  },
+  {
+   "n": "Relax-fit basic jacket Charcoal [N6SJK02]",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "(207)",
+   "p": 5526,
+   "d": null
+  },
+  {
+   "n": "Deep V-neck relaxed pullover Charcoal [N6AKT02]",
+   "p": 99000,
+   "d": null
+  },
+  {
+   "n": "Relaxed round-neck wool-blend jacket M/Navy [N6AJK02]",
+   "p": 209000,
+   "d": null
+  },
+  {
+   "n": "209,000",
+   "p": 181830,
+   "d": 13
+  },
+  {
+   "n": "25WN fox down half coat [IV]",
+   "p": 439000,
+   "d": null
+  },
+  {
+   "n": "439,000",
+   "p": 399000,
+   "d": 9
+  },
+  {
+   "n": "(288)",
+   "p": 7245,
+   "d": null
+  },
+  {
+   "n": "High-neck suede blouson jacket Mocha/BR [N6ALJK03]",
+   "p": 269000,
+   "d": null
+  },
+  {
+   "n": "269,000",
+   "p": 234030,
+   "d": 13
+  },
+  {
+   "n": "Cashmere blend handmade belted jacket Black [N6AHJK01]",
+   "p": 298000,
+   "d": null
+  },
+  {
+   "n": "298,000",
+   "p": 259260,
+   "d": 13
+  },
+  {
+   "n": "25FN premium handmade coat [CR/HB]",
+   "p": 379000,
+   "d": null
+  },
+  {
+   "n": "(47)",
+   "p": 2755,
+   "d": null
+  },
+  {
+   "n": "Leather mini skirt Black [N4SSK01]",
+   "p": 99000,
+   "d": null
+  },
+  {
+   "n": "Natural curved denim pant M/khaki [N6ADPT01]",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "25FN new wide pants [3colors]",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "Angora double-faced v-neck knit Black [N6WKT03]",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "Semi curved corduroy pant Khaki [N6APT03]",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "25FN leather safari jacket [BK]",
+   "p": 289000,
+   "d": null
+  },
+  {
+   "n": "289,000",
+   "p": 251430,
+   "d": 13
+  },
+  {
+   "n": "(107)",
+   "p": 4361,
+   "d": null
+  },
+  {
+   "n": "Wool knit shawl muffler [5colors]",
+   "p": 89000,
+   "d": null
+  },
+  {
+   "n": "89,000",
+   "p": 77430,
+   "d": 13
+  },
+  {
+   "n": "High-neck suede blouson jacket Black [N6ALJK03]",
+   "p": 269000,
+   "d": null
+  },
+  {
+   "n": "Henley neck soft top 3colors [N6ATS02]",
+   "p": 65000,
+   "d": null
+  },
+  {
+   "n": "65,000",
+   "p": 56550,
+   "d": 13
+  },
+  {
+   "n": "24SN straight fit denim [M/BL]",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "Relaxed wool-blend raglan trench coat Charcoal [N6ACT03]",
+   "p": 279000,
+   "d": null
+  },
+  {
+   "n": "25FN wool trimming jacket [S/BE]",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "219,000",
+   "p": 190530,
+   "d": 13
+  },
+  {
+   "n": "Leather single jacket Black [N5ALJ01]",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "Angora double-faced v-neck knit Milky camel [N6WKT03]",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "Semi curved casual pant Beige [N6SPT03]",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "Natural curved denim pant W/Navy [N6ADPT01]",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "Relax-fit basic jacket Brown [N6AJK01]",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "189,000",
+   "p": 159000,
+   "d": 15
+  },
+  {
+   "n": "23SN crop jacket [3colors]",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "179,000",
+   "p": 155730,
+   "d": 13
+  },
+  {
+   "n": "(71)",
+   "p": 1020,
+   "d": null
+  },
+  {
+   "n": "Deep V-neck relaxed pullover Black [N6AKT02]",
+   "p": 99000,
+   "d": null
+  },
+  {
+   "n": "Relax-fit v-neck pullover Ivory [N6AKT01]",
+   "p": 99000,
+   "d": null
+  }
+ ],
+ "id": 103323,
+ "observed_at": "2026-10-29"
+}

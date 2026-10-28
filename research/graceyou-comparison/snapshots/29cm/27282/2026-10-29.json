@@ -1,0 +1,702 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/27282",
+ "title": "아틀리에 나인(ATELIER NAIN)",
+ "ko": "아틀리에 나인",
+ "en": "ATELIER NAIN",
+ "sub": "내 삶의 행복한 순간을 위해 나만의 스타일과 패션, 감성으로 아카이빙하는 브랜드입니다.",
+ "est": 2006,
+ "heart": 67350,
+ "intro": "아틀리에 나인(Atelier Nain)은 TAKE YOUR TIME을 모티브로 내 삶의 행복한 순간들을 위해 나만의 스타일, 패션, 아트, 감성들로 아카이빙 하는 브랜드입니다. 바쁜 일상 속에서 내가 좋아하는 감성을 아카이빙하고 잠깐 멈춰보는 순간의 여유를 선사합니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 27300,
+  "q1": 62300,
+  "med": 87600,
+  "q3": 188300,
+  "p90": 278600,
+  "max": 342300,
+  "mean": 129773
+ },
+ "disc": {
+  "n": 50,
+  "med": 31,
+  "max": 38
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 1681,
+  "med": 5,
+  "max": 715,
+  "rated": 41
+ },
+ "rate": 4.65,
+ "tags": {
+  "쿠폰": 50,
+  "조건부 무료배송": 50,
+  "신상품": 15
+ },
+ "names": [
+  "[정린 PICK] (T-7309)TUCK DETAIL DRAPE KNIT",
+  "[4차][정린 PICK] (T-7299)ASYMMETRY CUT-OUT SLIM KNIT",
+  "[한겨레 PICK] YAK BLENDED MUFFLER SET CARDIGAN S(CD-2235)",
+  "TOQUE WOOL HANDMADE HALF COAT(CT-1460)",
+  "DRAPE SCARF WOOL HANDMADE COAT (CT-1459)",
+  "[정린 PICK] CUTOUT OBLIQUE KNIT (T-7131)",
+  "[정린 PICK] TOQUE WOOL HANDMADE COAT S(CT-1440)",
+  "LOND2 WAIST TUCK BLOUSE (Z-BL-4287)",
+  "(T-7305)ARGYLE WOOL STITCH POINT V-NECK KNIT",
+  "(JP-619)LIGHTWEIGHT GLOSSY HOODY DUCK DOWN",
+  "[정린 PICK] (CT-1488)LOW BELTED HALF HANDMADE COAT S",
+  "[정린 PICK] (CD-2283)LAYERED RIBBED SHEER CARDIGAN &TOP KNIT SET S",
+  "(T-7230)WOOL BLENDED DEEP V-NECK KNIT",
+  "(T-7324)AN WOOL LOOSE FIT BUTTON COLLAR KNIT SET UP",
+  "(PT-5835)CURVED COTTON COLOR DENIM",
+  "PIN STRIPE WRAP SKIRT PANTS (PT-5743)",
+  "[한겨레 PICK] (JP-608)HIGH NECK GLOSSY DOWN JUMPER",
+  "[정린 PICK] (CT-1494)MUFFLER HANDMADE SHORT COAT S",
+  "ESSENTIAL WINTER TUCK PANTS(PT-5685)",
+  "(JP-623)LIGHTWEIGHT HOODY DUCK DOWN",
+  "(CT-1489)HIGH NECK BELTED HALF HANDMADE COAT S",
+  "[장다연 PICK] HALTER VEST LAYERD BOAT NECK KNIT (T-7189)",
+  "(CT-1490)DRAPE SCARF WOOL HALF HANDMADE COAT S",
+  "[한겨레 PICK] (CT-1495)HAIRY WOOL OVERSIZED TOGGLE HALF COAT",
+  "(T-7302)WOOL STRIPE V-NECK KNIT",
+  "HAIRY WOOL BELTED HALF COAT S (CT-1450)",
+  "(CD-2288)ALPACA REVERSIBLE COLOR POINT CARDIGAN",
+  "(T-7349)COLOR-BLOCK LAYERED COWLNECK KNIT",
+  "[장다연,슈멍 PICK] (JP-609)LEATHER HIGH NECK OVERSIZED JUMPER",
+  "(CD-2278)FRINGE TWEED KNIT CARDIGAN",
+  "[한겨레 PICK] COTTON&WOOL OVERFIT V-NECK KNIT (T-7192)",
+  "FLY SHIRRING TOP&CARDIGAN SET S (CD-2253)",
+  "MOCK NECK TIE BLOUSE (BL-4386)",
+  "(SH-3482)KNEE-HIGH SLOUCHY 4WAY BOOTS",
+  "PENNY UNBALANCED POINT KNIT (Z-T-7108)",
+  "MULTI USED STRING V-NECK SLIM CARDIGAN (CD-2272)",
+  "(T-7325)COLOR-BLOCK HALTER DEEP V-NECK KNIT",
+  "(T-7331)ONE SHOULDER LAYERED SHIRRING TEE",
+  "[슈멍 PICK] N HALTER SLEEVELESS LAYERED BLOUSE (BL-4404)",
+  "ASSYMETRIC TIED BLOUSE (BL-4390)"
+ ],
+ "cards": [
+  {
+   "n": "[정린 PICK] (T-7309)TUCK DETAIL DRAPE KNIT",
+   "p": 62300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 53,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[4차][정린 PICK] (T-7299)ASYMMETRY CUT-OUT SLIM KNIT",
+   "p": 62300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 56,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[한겨레 PICK] YAK BLENDED MUFFLER SET CARDIGAN S(CD-2235)",
+   "p": 114760,
+   "d": 32,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 30,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "TOQUE WOOL HANDMADE HALF COAT(CT-1460)",
+   "p": 251300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 7,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DRAPE SCARF WOOL HANDMADE COAT (CT-1459)",
+   "p": 342300,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 8,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[정린 PICK] CUTOUT OBLIQUE KNIT (T-7131)",
+   "p": 62300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 182,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[정린 PICK] TOQUE WOOL HANDMADE COAT S(CT-1440)",
+   "p": 278600,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 11,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "LOND2 WAIST TUCK BLOUSE (Z-BL-4287)",
+   "p": 36350,
+   "d": 38,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 715,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "(T-7305)ARGYLE WOOL STITCH POINT V-NECK KNIT",
+   "p": 87600,
+   "d": 32,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "(JP-619)LIGHTWEIGHT GLOSSY HOODY DUCK DOWN",
+   "p": 174050,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[정린 PICK] (CT-1488)LOW BELTED HALF HANDMADE COAT S",
+   "p": 293300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[정린 PICK] (CD-2283)LAYERED RIBBED SHEER CARDIGAN &TOP KNIT SET S",
+   "p": 94390,
+   "d": 32,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "(T-7230)WOOL BLENDED DEEP V-NECK KNIT",
+   "p": 74020,
+   "d": 32,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "(T-7324)AN WOOL LOOSE FIT BUTTON COLLAR KNIT SET UP",
+   "p": 76300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "(PT-5835)CURVED COTTON COLOR DENIM",
+   "p": 83300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "PIN STRIPE WRAP SKIRT PANTS (PT-5743)",
+   "p": 102400,
+   "d": 36,
+   "lk": null,
+   "rt": 5,
+   "rv": 50,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[한겨레 PICK] (JP-608)HIGH NECK GLOSSY DOWN JUMPER",
+   "p": 188300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[정린 PICK] (CT-1494)MUFFLER HANDMADE SHORT COAT S",
+   "p": 265300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "ESSENTIAL WINTER TUCK PANTS(PT-5685)",
+   "p": 59190,
+   "d": 33,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 98,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "(JP-623)LIGHTWEIGHT HOODY DUCK DOWN",
+   "p": 174050,
+   "d": 33,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "(CT-1489)HIGH NECK BELTED HALF HANDMADE COAT S",
+   "p": 278600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[장다연 PICK] HALTER VEST LAYERD BOAT NECK KNIT (T-7189)",
+   "p": 68600,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 75,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "(CT-1490)DRAPE SCARF WOOL HALF HANDMADE COAT S",
+   "p": 321300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[한겨레 PICK] (CT-1495)HAIRY WOOL OVERSIZED TOGGLE HALF COAT",
+   "p": 278600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "(T-7302)WOOL STRIPE V-NECK KNIT",
+   "p": 66550,
+   "d": 32,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "HAIRY WOOL BELTED HALF COAT S (CT-1450)",
+   "p": 251300,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 31,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "(CD-2288)ALPACA REVERSIBLE COLOR POINT CARDIGAN",
+   "p": 83300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "(T-7349)COLOR-BLOCK LAYERED COWLNECK KNIT",
+   "p": 76300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[장다연,슈멍 PICK] (JP-609)LEATHER HIGH NECK OVERSIZED JUMPER",
+   "p": 185540,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "(CD-2278)FRINGE TWEED KNIT CARDIGAN",
+   "p": 66550,
+   "d": 32,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[한겨레 PICK] COTTON&WOOL OVERFIT V-NECK KNIT (T-7192)",
+   "p": 59190,
+   "d": 33,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 42,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "FLY SHIRRING TOP&CARDIGAN SET S (CD-2253)",
+   "p": 86690,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 13,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "MOCK NECK TIE BLOUSE (BL-4386)",
+   "p": 61060,
+   "d": 38,
+   "lk": null,
+   "rt": 5,
+   "rv": 36,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "(SH-3482)KNEE-HIGH SLOUCHY 4WAY BOOTS",
+   "p": 153300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "PENNY UNBALANCED POINT KNIT (Z-T-7108)",
+   "p": 55450,
+   "d": 38,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 26,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "MULTI USED STRING V-NECK SLIM CARDIGAN (CD-2272)",
+   "p": 53650,
+   "d": 32,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 44,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "(T-7325)COLOR-BLOCK HALTER DEEP V-NECK KNIT",
+   "p": 67230,
+   "d": 31,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "(T-7331)ONE SHOULDER LAYERED SHIRRING TEE",
+   "p": 54200,
+   "d": 31,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[슈멍 PICK] N HALTER SLEEVELESS LAYERED BLOUSE (BL-4404)",
+   "p": 92830,
+   "d": 38,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 60,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "ASSYMETRIC TIED BLOUSE (BL-4390)",
+   "p": 74020,
+   "d": 32,
+   "lk": null,
+   "rt": 5,
+   "rv": 61,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SOFT SLIMFIT BOAT NECK TEE (T-7171)",
+   "p": 27300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 18,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "(PT-5816)EYELET BELTED STRIPE TWO TUCK PANTS S",
+   "p": 120290,
+   "d": 33,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "(JP-579)REFINED BELTED DOWN JUMPER S",
+   "p": 208600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "(JP-613)OVERFIT GLOSSY LEATHER HIGH NECK BLOUSON",
+   "p": 188300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "(CD-2281)ARGYLE WOOL STITCH POINT CARDIGAN",
+   "p": 101180,
+   "d": 32,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "(JP-581)MELIN DUCK DOWN LONG JUMPER",
+   "p": 211880,
+   "d": 36,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "(T-7320)CASHMERE BLEND SCARF V-NECK KNIT SET",
+   "p": 109080,
+   "d": 31,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[정린 PICK] (T-7296)BALLET RIBBED STRING KNIT",
+   "p": 55450,
+   "d": 38,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "(BL-4453)PARCO WASHING TEXTURE TIE BLOUSE",
+   "p": 87600,
+   "d": 32,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "(T-7274)LAYERED HALTER TOP",
+   "p": 62300,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 10,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 27282,
+ "observed_at": "2026-10-29"
+}

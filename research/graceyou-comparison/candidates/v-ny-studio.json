@@ -1,0 +1,237 @@
+{
+ "slug": "v-ny-studio",
+ "ko": "브이엔와이 스튜디오",
+ "en": "V'NY STUDIO",
+ "status": "후보",
+ "tier": "패션그룹 컨템포러리",
+ "tags": [
+  "모던",
+  "캐주얼",
+  "트렌디"
+ ],
+ "found": [
+  "기사: 하객룩 재킷 중심 브랜드"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 67003,
+  "wc": 112814,
+  "ms": "vnystudio"
+ },
+ "price_source": "29CM",
+ "intro": "\"타인을 의식하지 않는 뉴요커들의 자유로운 라이프스타일을 모던한 감성으로 녹여,<br/>\n정제된 캐주얼함과 트렌드가 공존하는 감각적인 믹스매치룩을 제안<br/>\n소비자의 감성을 자극해 옷 너머 그 이상의 것을 추구<br/>\n<br/>\n뉴욕의 라이프스타일에 유러피언 하이엔드 컨템포러리 소재를 결합하여<br/>\n브랜드의 가치 업그레이드 및 멀티 브랜드를 한 곳에서 만날 수 있도록 하여<br/>\n소비자에게 더 나은 라이프스타일을 제공\"",
+ "sub": "뉴욕의 라이프스타일과 유러피언 하이엔드 컨템포러리한 무드의 감성적인 브랜드입니다.",
+ "est": 2023,
+ "heart": 4033,
+ "off": null,
+ "score": {
+  "k": 1.59,
+  "list_q1": 105286,
+  "list_med": 188889,
+  "list_q3": 252381,
+  "s_price": 87,
+  "s_band": 58,
+  "s_mood": 11,
+  "score": 43,
+  "partial": 75
+ },
+ "evidence": [
+  {
+   "idx": "228081",
+   "date": "2026-10-07",
+   "title": "브이엔와이스튜디오, 스타필드 고양 신규매장 오픈",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=228081&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "225296",
+   "date": "2026-05-18",
+   "title": "원피스 대신 셋업…하객룩이 달라졌다",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=225296&cat=CAT11Z",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "225153",
+   "date": "2026-05-11",
+   "title": "브이엔와이스튜디오, '뉴 감성 아우터' 판매 호조",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=225153&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "223386",
+   "date": "2026-02-24",
+   "title": "동광인터내셔날, 주력상품·온라인 익스클루시브 상품 강화",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=223386&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": [
+   "2026-10-29"
+  ]
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "가격 근접·무드 다름",
+ "rank": 26,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/67003",
+   "title": "브이엔와이스튜디오(V'NY STUDIO)",
+   "ko": "브이엔와이스튜디오",
+   "en": "V'NY STUDIO",
+   "sub": "뉴욕의 라이프스타일과 유러피언 하이엔드 컨템포러리한 무드의 감성적인 브랜드입니다.",
+   "est": 2023,
+   "heart": 4033,
+   "intro": "\"타인을 의식하지 않는 뉴요커들의 자유로운 라이프스타일을 모던한 감성으로 녹여,<br/>\n정제된 캐주얼함과 트렌드가 공존하는 감각적인 믹스매치룩을 제안<br/>\n소비자의 감성을 자극해 옷 너머 그 이상의 것을 추구<br/>\n<br/>\n뉴욕의 라이프스타일에 유러피언 하이엔드 컨템포러리 소재를 결합하여<br/>\n브랜드의 가치 업그레이드 및 멀티 브랜드를 한 곳에서 만날 수 있도록 하여<br/>\n소비자에게 더 나은 라이프스타일을 제공\"",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 39530,
+    "q1": 66330,
+    "med": 119000,
+    "q3": 159000,
+    "p90": 214500,
+    "max": 429500,
+    "mean": 129634
+   },
+   "disc": {
+    "n": 44,
+    "med": 37,
+    "max": 62
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 27,
+    "med": 0,
+    "max": 10,
+    "rated": 8
+   },
+   "rate": 4.81,
+   "tags": {
+    "조건부 무료배송": 50,
+    "단독": 4,
+    "신상품": 5
+   },
+   "names": [
+    "하이넥 버튼 오픈 레이온 혼방 오버핏 블라우스_YC9LSEH",
+    "타이 장식 언발 버튼 라운드넥 가디건_YCAGDEA",
+    "셔링 디테일 레이어드 티셔츠_YC9LTEC",
+    "골지 셔링 탑 긴팔 티셔츠_YC9LTED",
+    "타이 넥 저지 블라우스_YC9LTEG",
+    "헨리넥 골지 니트 탑_YC3LK11",
+    "WOOL BLEND OVERSIZE COAT_YABHCN9",
+    "울 블렌드 싱글 롱 트위드 재킷_YCAJKEC",
+    "레이온 드레이프 벨티드 셔츠 블라우스_YC9LSEC",
+    "스냅 단추 패딩 조끼_YBAPA10",
+    "모크넥 타이 블라우스_YCALSEL",
+    "로고 자수 페이크 레더 셔츠_YCALEEA",
+    "[29CM 단독] 더블 브레스트 코트_YBAHC22",
+    "라운드 포버튼 싱글 자켓_YC3JK02",
+    "톰과제리 체인자수 스웻셔츠_YC3LTWD",
+    "Quilted half goose jacket_YAADON5",
+    "울 블렌드 쓰리버튼 싱글 슬림 자켓_YCAJKEF",
+    "인조 가죽 미디 스커트_YB9SR13",
+    "핸드메이드 롱 코트_YBCHC40",
+    "Ribbon decoration single two button set single lay_YA3JKN8",
+    "구겐하임 덤블 패딩 점퍼_YABDO80",
+    "코듀로이 칼라 피코트_YBBHCN3",
+    "시스루 롱 슬리브 니트_YB9LK10",
+    "캐시미어 울 블렌드 브이넥 니트_YZBLKN2",
+    "더플 퍼 페이크 무스탕_YBBDB31",
+    "Half Turtle Neck T-Shirt_YAALTN4",
+    "드레이프 단추 블라우스_YB9LS19",
+    "뷔스티에 레이어드 카라 골지 니트_YC9GDED",
+    "배색 카라 워크 자켓_YC3JP70",
+    "톰과제리 미스치버스 후드 집업_YC3LTWU",
+    "BELTED MAC COAT_YACHCN6",
+    "Double button long coat_YABHCN5",
+    "드레이프 모크넥 블라우스_YC9LSEF",
+    "스쿱넥 슬림 자켓_YC5JK09",
+    "드레이핑 언발 반팔 블라우스_YC5SSEG",
+    "[29CM 단독] 오버핏 발마칸 롱 코트_YBBHC32",
+    "앞 슬릿 H라인 미디 스커트_YC9SREK",
+    "투턱 와이드 블랙 데님 팬츠_YC9DPEC",
+    "리본 배색 반더블 자켓_YC3JK05",
+    "셔츠 레이어드 긴팔 가디건_YBAGD64"
+   ],
+   "id": 67003,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": {
+   "url": "https://display.wconcept.co.kr/rn/brand/112814",
+   "title": "브이엔와이 스튜디오(V’ NY STUDIO) | W컨셉(W CONCEPT)",
+   "ko": "브이엔와이 스튜디오",
+   "en": "V’ NY STUDIO",
+   "intro": "뉴요커들의 자유로운 Life style을 모던한 감성으로 녹여, 정제된 캐주얼 함과 트렌드가 공존하는 감각적인 믹스매치룩을 제안합니다. 브이엔와이 스튜디오 X 퀸지 퀸지 PICK V'NY STUDIO x 윤경 윤경'S PICK 퀸지 PICK! 어텀 데일리룩 령은 PICk! 가을 출근룩 브이엔와이 스튜디오 X 령은 브이엔와이 스튜디오 with 령은, 퀸지, 양양 V'NY STUDIO 양양이 입어봤어요! 브이엔와이 스튜디오 V'NY STUDIO X 퀸지 퀸지 PICK으로 만나요 ! V’ NY STUDIO X 령은 차분한 여름의 온도, 령은의 3가지 코디 V'NY STUDIO 인플루언서 예지몽이 입어봤어요 V’ NY STUDIO 퀸지 PICK 여름 데일리룩 W컨셉 단독 퀸지픽 신상 특가 하트를 5.6만 개 받았어요 최근 조회수가 3.9만을 넘었어요 베스트 아이템 셔링 디테일 레이어드 티셔츠_YC9LTEC 45% 43,300 1 [퀸지,윤경PICK]타이 장식 언발 버튼 라운드넥 가디건_YCAGDEA 43% 55,984 2 [퀸지PICK]타이 넥 저지 블라우스_YC9LTEG 34% 51,547 3 [퀸지PICK]울 블렌드 쓰리버튼 싱글 슬림 자켓_YCAJKEF 34%",
+   "n": 156,
+   "p": {
+    "min": 1222,
+    "q1": 69000,
+    "med": 103618,
+    "q3": 139000,
+    "p90": 259000,
+    "max": 719000,
+    "mean": 139142
+   },
+   "disc": {
+    "n": 83,
+    "med": 44,
+    "max": 67
+   },
+   "names": [
+    "셔링 디테일 레이어드 티셔츠_YC9LTEC",
+    "[퀸지,윤경PICK]타이 장식 언발 버튼 라운드넥 가디건_YCAGDEA",
+    "[퀸지PICK]타이 넥 저지 블라우스_YC9LTEG",
+    "[퀸지PICK]울 블렌드 쓰리버튼 싱글 슬림 자켓_YCAJKEF",
+    "[퀸지PICK]캐시미어 숄카라 핸드메이드 코트_YCBHCEC",
+    "울 블렌드 싱글 롱 트위드 재킷_YCAJKEC",
+    "골지 셔링 탑 긴팔 티셔츠_YC9LTED",
+    "테일러드 싱글 브레스티드 스웨이드 재킷_YCALEED",
+    "[퀸지PICK]울 블렌드 플레어핏 스커트_YCASREF",
+    "[퀸지PICK]캐시미어 블렌드 하이넥 머플러 핸드메이드 롱코트_YCBHCEG",
+    "[퀸지PICK]드레이프 랩 스커트_YCASREG",
+    "[퀸지PICK]모크넥 타이 블라우스_YCALSEL",
+    "[퀸지PICK]랩 플리츠 스커트 레이어링 팬츠_YCALPED",
+    "투 버튼 테일러드 자켓_YC9JKEA",
+    "배색 카라 워크 자켓_YC3JP70",
+    "더블 브레스트 코트_YBAHC22",
+    "밸티드 스탠카라 스웨이드 자켓_YCALEEF",
+    "오버핏 데님 셔츠 자켓_YC3DJ02",
+    "스냅 단추 패딩 조끼_YBAPA10",
+    "페이크 레더 라이크 오버핏 블루종 자켓_YCALEEC",
+    "싱글 투버튼 재킷_YC3JK50",
+    "스쿱넥 슬림 자켓_YC5JK09",
+    "[세트] 라운드 포버튼 싱글 자켓 + 투턱 슬랙스 슬랙스_YC3JK02,YC3LP02",
+    "시어링 리버시블 무스탕_YCCMUEA",
+    "캐시미어 블렌드 테일러드 더블 롱 코트_YCBHCEF",
+    "캐시미어 블렌드 하이넥 핸드메이드 하프코트_YCBHCEB",
+    "캐시미어 블렌드 투 버튼 자켓_YCAJKEG",
+    "캐시미어 블렌드 오버핏 핸드메이드 하프코트_YCBHCEA",
+    "오버핏 하이넥 퍼 자켓_YCCDBEB",
+    "체크 핀턱 개더 언밸런스 랩 스커트_YCASREK",
+    "레이어드 믹스 컬러 울 니트_YC9LKEG",
+    "배색 브이넥 니트 풀오버_YC9LKEF",
+    "레이온 스판 체크 스트랩 셔츠_YCALSEK",
+    "뷔스티에 레이어드 카라 골지 니트_YC9GDED",
+    "빈티지 워싱 코듀로이 팬츠_YCBLPEJ",
+    "라운드 넥 케이블 니트 가디건_YCAGDEK",
+    "코튼 블렌드 벨티드 트렌치 롱 다운_YCCDOEC",
+    "덕다운 벨티드 하프 트렌치 다운_YCCDOEB",
+    "배색 턱 와이드 팬츠_YC5LP14",
+    "[령은PICK] 스티치 포인트 세미 와이드 팬츠_YC9DPEA"
+   ],
+   "id": 112814,
+   "observed_at": "2026-10-29"
+  }
+ }
+}

@@ -1,0 +1,888 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/109224",
+ "title": "라메레이(Lamerei) | W컨셉(W CONCEPT)",
+ "ko": "라메레이",
+ "en": "Lamerei",
+ "intro": "라메레이는 클래식을 바탕으로 절제된 여성미의 모던한 룩을 지향합니다. 옷은 아무 말을 하지 않고도 나를 표현하는 첫 번째 도구입니다. 라메레이 옷을 입고 어느 자리에서든 자신감이 넘치고 빛나시길 바랍니다. 라메레이만의 감성을 담아, 수많은 옷들 속에서 가치 있는 옷을 만들고자 좋은 소재와 정성들인 봉제를 기본으로 절제된 페미닌룩과 캐주얼룩을 제안합니다.",
+ "n": 164,
+ "p": {
+  "min": 1086,
+  "q1": 110664,
+  "med": 149000,
+  "q3": 269000,
+  "p90": 337100,
+  "max": 498200,
+  "mean": 179385
+ },
+ "disc": {
+  "n": 70,
+  "med": 19,
+  "max": 30
+ },
+ "names": [
+  "[벨트 Set][사이즈 추가]Classic Sleeveless Dress[LMBFCO25DR804]-Black",
+  "Tie See-through Blouse[LMBFCO25SH314]-2color",
+  "Contour Tie Dress[LMBFAUDR811]-Brown",
+  "[사이즈 추가]Sheer Layered Tie Dress[LMBFCO25DR803]-Black",
+  "Contour Tie Dress[LMBFAUDR811]-Black",
+  "Tie See-through Blouse[LMBFCO25SH314]-Light Beige",
+  "Holgament Baby Alpaca Cardigan[LMBFAU25KN289]-3color",
+  "Sheer Layered H-line Skirt[LMBFAU25SK404]-3color",
+  "Cashmere 10% High Neck Half Handmade Coat[LMBFWI23CT702]-Black",
+  "[단독] Cashmere 10% High Neck Half Handmade Coat[LMBFWI23CT702]-Dove",
+  "[단독] Silk Wool Brushed V-Neck Knit Top[LMBFWIKN2105]-Gray",
+  "[단독] Slant Pocket H-Line Maxi Skirt[LMBFWISK425]-Deep Charcoal",
+  "Cashmere 10% High Neck Half Handmade Coat[LMBFWI23CT702]-Brown Melange",
+  "Cashmere 10% High Neck Long Handmade Coat[LMBFWI23CT703]-Black",
+  "Wholegarment Cash Wool Round Knit Top[LMBFWIKN2110]-Cobalt Blue",
+  "Cashmere 10% Handmade High-Neck Stand Jacket[LMBFWICT715]-Brown Melange",
+  "Silk Wool Brush Cardigan[LMBFWIKN2104]-Plum",
+  "Handmade Brushed Alpaca High-Neck Half Coat[LMBFWICT709]-Brown",
+  "Raccoon Deep V-Neck Knit Top[LMBFWIKN2101]-Brown",
+  "Cashmere 10% Handmade Round Double Front Jacket[LMBFWICT717]-Black",
+  "Cashmere 10% Handmade High Neck Short Jacket[LMBFWICT719]-Charcoal",
+  "Cashmere 10% Handmade High Neck Short Jacket[LMBFWICT719]-Moss Beige",
+  "Cashmere 10% Handmade High-Neck Stand Jacket[LMBFWICT715]-Deep Charcoal",
+  "Cashmere 10% Handmade Round Double Front Jacket[LMBFWICT717]-Dove",
+  "Alpaca Front Panel Half Coat[LMBFWICT718]-Dove Gray",
+  "Alpaca Front Panel Half Coat[LMBFWICT718]-Onyx Charcoal",
+  "Alpaca Panel High-Neck Half Coat[LMBFWICT716]-Brown Melange",
+  "Alpaca Panel High-Neck Half Coat[LMBFWICT716]-Onyx Charcoal",
+  "Cashmere 10% Handmade High-Neck Stand Long Coat[LMBFWICT713]-Deep Charcoal",
+  "Handmade Brushed Alpaca High-Neck Half Coat[LMBFWICT709]-Charcoal",
+  "Handmade Brushed Alpaca High-Neck Half Coat[LMBFWICT709]-Cream",
+  "Handmade Brushed Alpaca High-Neck Half Coat[LMBFWICT709]-Gray",
+  "Wool High-Neck Half Fur Coat[LMBFWICT720]-Beige",
+  "Silk Wool Brush Cardigan[LMBFWIKN2104]-Gray",
+  "Silk Wool Brush Cardigan[LMBFWIKN2104]-Ivory",
+  "Silk Wool Brush Cardigan[LMBFWIKN2104]-Olive",
+  "Nonfade Suede Round Jacket[LMBFAUJK117]-Moss Brown",
+  "Maxi H-line Skirt[LMBFAU25SK405]-2color",
+  "Silk Blend Tie Blouse[LMBFAUSH332]-Smoke Charcoal",
+  "Unbalance Drape Knit Top[LMBFAUKN307]-3color"
+ ],
+ "cards": [
+  {
+   "n": "[벨트 Set][사이즈 추가]Classic Sleeveless Dress[LMBFCO25DR804]-Black",
+   "p": 189268,
+   "d": 17
+  },
+  {
+   "n": "Tie See-through Blouse[LMBFCO25SH314]-2color",
+   "p": 123148,
+   "d": 17
+  },
+  {
+   "n": "Contour Tie Dress[LMBFAUDR811]-Brown",
+   "p": 222328,
+   "d": 17
+  },
+  {
+   "n": "[사이즈 추가]Sheer Layered Tie Dress[LMBFCO25DR803]-Black",
+   "p": 214063,
+   "d": 17
+  },
+  {
+   "n": "Contour Tie Dress[LMBFAUDR811]-Black",
+   "p": 222328,
+   "d": 17
+  },
+  {
+   "n": "Tie See-through Blouse[LMBFCO25SH314]-Light Beige",
+   "p": 123148,
+   "d": 17
+  },
+  {
+   "n": "Holgament Baby Alpaca Cardigan[LMBFAU25KN289]-3color",
+   "p": 123148,
+   "d": 17
+  },
+  {
+   "n": "Sheer Layered H-line Skirt[LMBFAU25SK404]-3color",
+   "p": 139678,
+   "d": 17
+  },
+  {
+   "n": "Cashmere 10% High Neck Half Handmade Coat[LMBFWI23CT702]-Black",
+   "p": 318200,
+   "d": 20
+  },
+  {
+   "n": "[단독] Cashmere 10% High Neck Half Handmade Coat[LMBFWI23CT702]-Dove",
+   "p": 318200,
+   "d": 20
+  },
+  {
+   "n": "[단독] Silk Wool Brushed V-Neck Knit Top[LMBFWIKN2105]-Gray",
+   "p": 140157,
+   "d": 21
+  },
+  {
+   "n": "[단독] Slant Pocket H-Line Maxi Skirt[LMBFWISK425]-Deep Charcoal",
+   "p": 124497,
+   "d": 21
+  },
+  {
+   "n": "Cashmere 10% High Neck Half Handmade Coat[LMBFWI23CT702]-Brown Melange",
+   "p": 318200,
+   "d": 20
+  },
+  {
+   "n": "Cashmere 10% High Neck Long Handmade Coat[LMBFWI23CT703]-Black",
+   "p": 408200,
+   "d": 18
+  },
+  {
+   "n": "Wholegarment Cash Wool Round Knit Top[LMBFWIKN2110]-Cobalt Blue",
+   "p": 124497,
+   "d": 21
+  },
+  {
+   "n": "Cashmere 10% Handmade High-Neck Stand Jacket[LMBFWICT715]-Brown Melange",
+   "p": 337100,
+   "d": 19
+  },
+  {
+   "n": "Silk Wool Brush Cardigan[LMBFWIKN2104]-Plum",
+   "p": 147987,
+   "d": 21
+  },
+  {
+   "n": "Handmade Brushed Alpaca High-Neck Half Coat[LMBFWICT709]-Brown",
+   "p": 364100,
+   "d": 18
+  },
+  {
+   "n": "Raccoon Deep V-Neck Knit Top[LMBFWIKN2101]-Brown",
+   "p": 140157,
+   "d": 21
+  },
+  {
+   "n": "Cashmere 10% Handmade Round Double Front Jacket[LMBFWICT717]-Black",
+   "p": 337100,
+   "d": 19
+  },
+  {
+   "n": "Cashmere 10% Handmade High Neck Short Jacket[LMBFWICT719]-Charcoal",
+   "p": 281300,
+   "d": 21
+  },
+  {
+   "n": "Cashmere 10% Handmade High Neck Short Jacket[LMBFWICT719]-Moss Beige",
+   "p": 281300,
+   "d": 21
+  },
+  {
+   "n": "Cashmere 10% Handmade High-Neck Stand Jacket[LMBFWICT715]-Deep Charcoal",
+   "p": 337100,
+   "d": 19
+  },
+  {
+   "n": "Cashmere 10% Handmade Round Double Front Jacket[LMBFWICT717]-Dove",
+   "p": 337100,
+   "d": 19
+  },
+  {
+   "n": "Alpaca Front Panel Half Coat[LMBFWICT718]-Dove Gray",
+   "p": 382100,
+   "d": 18
+  },
+  {
+   "n": "Alpaca Front Panel Half Coat[LMBFWICT718]-Onyx Charcoal",
+   "p": 382100,
+   "d": 18
+  },
+  {
+   "n": "Alpaca Panel High-Neck Half Coat[LMBFWICT716]-Brown Melange",
+   "p": 382100,
+   "d": 18
+  },
+  {
+   "n": "Alpaca Panel High-Neck Half Coat[LMBFWICT716]-Onyx Charcoal",
+   "p": 382100,
+   "d": 18
+  },
+  {
+   "n": "Cashmere 10% Handmade High-Neck Stand Long Coat[LMBFWICT713]-Deep Charcoal",
+   "p": 498200,
+   "d": 16
+  },
+  {
+   "n": "Handmade Brushed Alpaca High-Neck Half Coat[LMBFWICT709]-Charcoal",
+   "p": 364100,
+   "d": 18
+  },
+  {
+   "n": "Handmade Brushed Alpaca High-Neck Half Coat[LMBFWICT709]-Cream",
+   "p": 364100,
+   "d": 18
+  },
+  {
+   "n": "Handmade Brushed Alpaca High-Neck Half Coat[LMBFWICT709]-Gray",
+   "p": 364100,
+   "d": 18
+  },
+  {
+   "n": "Wool High-Neck Half Fur Coat[LMBFWICT720]-Beige",
+   "p": 283100,
+   "d": 21
+  },
+  {
+   "n": "Silk Wool Brush Cardigan[LMBFWIKN2104]-Gray",
+   "p": 147987,
+   "d": 21
+  },
+  {
+   "n": "Silk Wool Brush Cardigan[LMBFWIKN2104]-Ivory",
+   "p": 147987,
+   "d": 21
+  },
+  {
+   "n": "Silk Wool Brush Cardigan[LMBFWIKN2104]-Olive",
+   "p": 147987,
+   "d": 21
+  },
+  {
+   "n": "Nonfade Suede Round Jacket[LMBFAUJK117]-Moss Brown",
+   "p": 222328,
+   "d": null
+  },
+  {
+   "n": "Maxi H-line Skirt[LMBFAU25SK405]-2color",
+   "p": 123148,
+   "d": null
+  },
+  {
+   "n": "Silk Blend Tie Blouse[LMBFAUSH332]-Smoke Charcoal",
+   "p": 131413,
+   "d": null
+  },
+  {
+   "n": "Unbalance Drape Knit Top[LMBFAUKN307]-3color",
+   "p": 86982,
+   "d": null
+  },
+  {
+   "n": "Nonfade Suede Maxi Skirt[LMBFAUSK422]-2color",
+   "p": 139678,
+   "d": null
+  },
+  {
+   "n": "Raccoon Deep V-Neck Knit Top[LMBFAUKN2106]-Stone Taupe",
+   "p": 123148,
+   "d": null
+  },
+  {
+   "n": "Raccoon Round Knit Sleeveless Top[LMBFAUKN2107]-Stone Taupe",
+   "p": 65293,
+   "d": null
+  },
+  {
+   "n": "Nonfade Suede Round Jacket[LMBFAUJK117]-Black",
+   "p": 222328,
+   "d": null
+  },
+  {
+   "n": "Unbalance Muffler Cardigan[LMBFAUKN310]-Gray",
+   "p": 118902,
+   "d": null
+  },
+  {
+   "n": "Leather Funnel Neck Jacket[LMBFAUJK122]-Black",
+   "p": 237205,
+   "d": null
+  },
+  {
+   "n": "Nonfade Funnel Neck Suede Jacket[LMBFAUJK114]-Moss Brown",
+   "p": 263653,
+   "d": null
+  },
+  {
+   "n": "Leather Funnel Neck Jacket[LMBFAUJK122]-Chocolate brown",
+   "p": 237205,
+   "d": null
+  },
+  {
+   "n": "[머플러 Set]Baby Alpaca Round Cardigan[LMBFAUKN308]-Olive",
+   "p": 142842,
+   "d": null
+  },
+  {
+   "n": "Drape Wrap Maxi Skirt[LMBFAUSK423]-Charcoal Melange",
+   "p": 147943,
+   "d": null
+  },
+  {
+   "n": "Color Shirring Swim Set[LMBESW261-1]-3color",
+   "p": 139678,
+   "d": null
+  },
+  {
+   "n": "Sun Crop Strap Cover-Up[LMBFSW273]-White",
+   "p": 48763,
+   "d": null
+  },
+  {
+   "n": "Tie See-through Blouse[LMBFCO25SH314]-2color",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "149,000",
+   "p": 123148,
+   "d": 17
+  },
+  {
+   "n": "[벨트 Set][사이즈 추가]Classic Sleeveless Dress[LMBFCO25DR804]-Black",
+   "p": 229000,
+   "d": null
+  },
+  {
+   "n": "229,000",
+   "p": 189268,
+   "d": 17
+  },
+  {
+   "n": "Contour Tie Dress[LMBFAUDR811]-Brown",
+   "p": 269000,
+   "d": null
+  },
+  {
+   "n": "269,000",
+   "p": 222328,
+   "d": 17
+  },
+  {
+   "n": "(4)",
+   "p": 2083,
+   "d": null
+  },
+  {
+   "n": "[사이즈 추가]Sheer Layered Tie Dress[LMBFCO25DR803]-Black",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "259,000",
+   "p": 214063,
+   "d": 17
+  },
+  {
+   "n": "(57)",
+   "p": 8757,
+   "d": null
+  },
+  {
+   "n": "[한정특가] [단독] Cashmere 10% High Neck Half Handmade Coat[LMBFWI23CT702]-Dove",
+   "p": 398000,
+   "d": null
+  },
+  {
+   "n": "398,000",
+   "p": 318200,
+   "d": 20
+  },
+  {
+   "n": "(50)",
+   "p": 5276,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Cashmere 10% High Neck Half Handmade Coat[LMBFWI23CT702]-Black",
+   "p": 398000,
+   "d": null
+  },
+  {
+   "n": "Holgament Baby Alpaca Cardigan[LMBFAU25KN289]-3color",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "(93)",
+   "p": 2414,
+   "d": null
+  },
+  {
+   "n": "Tie See-through Blouse[LMBFCO25SH314]-Light Beige",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "(74)",
+   "p": 7173,
+   "d": null
+  },
+  {
+   "n": "Sheer Layered H-line Skirt[LMBFAU25SK404]-3color",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "169,000",
+   "p": 139678,
+   "d": 17
+  },
+  {
+   "n": "(34)",
+   "p": 3055,
+   "d": null
+  },
+  {
+   "n": "Contour Tie Dress[LMBFAUDR811]-Black",
+   "p": 269000,
+   "d": null
+  },
+  {
+   "n": "Silk Blend Tie Blouse[LMBFAUSH332]-Smoke Charcoal",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "159,000",
+   "p": 131413,
+   "d": 17
+  },
+  {
+   "n": "Drape Wrap Maxi Skirt[LMBFAUSK423]-Smoke Charcoal",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "179,000",
+   "p": 142842,
+   "d": 20
+  },
+  {
+   "n": "Cashmere 10% Curve Detail Short Handmade Jacket[LMBFAU23CT701]-Camel Melange",
+   "p": 315000,
+   "d": null
+  },
+  {
+   "n": "315,000",
+   "p": 260347,
+   "d": 17
+  },
+  {
+   "n": "(146)",
+   "p": 4075,
+   "d": null
+  },
+  {
+   "n": "[기장선택]Slim Straight Denim[LMBFAUDN032]-Black",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "109,000",
+   "p": 86982,
+   "d": 20
+  },
+  {
+   "n": "Solid Shirring Sleeveless SwimSuit[LMBDSW230]-2color",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "Nonfade Suede High-Neck Half Jacket[LMBFAUJK115]-Black",
+   "p": 298000,
+   "d": null
+  },
+  {
+   "n": "298,000",
+   "p": 246297,
+   "d": 17
+  },
+  {
+   "n": "[기장선택]Dyeing Denim Pants[LMBFAU22DN112]-Cream",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "109,000",
+   "p": 90088,
+   "d": 17
+  },
+  {
+   "n": "(210)",
+   "p": 3541,
+   "d": null
+  },
+  {
+   "n": "Classic Single Long Trench Coat[LMBFAUJK116]-Pale Taupe",
+   "p": 309000,
+   "d": null
+  },
+  {
+   "n": "309,000",
+   "p": 255388,
+   "d": 17
+  },
+  {
+   "n": "[기장선택]Slim Straight Denim[LMBFAUDN029]-Medium blue",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "String Flare Swimsuit[LMBFSW267]-Chocolate Brown",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "(8)",
+   "p": 1097,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Cashmere 10% Handmade High Neck Short Jacket[LMBFWICT719]-Moss Beige",
+   "p": 357000,
+   "d": null
+  },
+  {
+   "n": "357,000",
+   "p": 281300,
+   "d": 21
+  },
+  {
+   "n": "[한정특가] Cashmere 10% High Neck Half Handmade Coat[LMBFWI23CT702]-Brown Melange",
+   "p": 398000,
+   "d": null
+  },
+  {
+   "n": "(65)",
+   "p": 5155,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Silk Wool Brush Cardigan[LMBFWIKN2104]-Plum",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "189,000",
+   "p": 147987,
+   "d": 21
+  },
+  {
+   "n": "Nonfade Suede Maxi Skirt[LMBFAUSK422]-2color",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "Silk Blend Tie Blouse[LMBFAUSH332]-Turtle Dove",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "159,000",
+   "p": 126882,
+   "d": 20
+  },
+  {
+   "n": "Stripe sleeveless Swimsuit[LMBESW241]-2color",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "(109)",
+   "p": 7899,
+   "d": null
+  },
+  {
+   "n": "Unbalance Muffler Cardigan[LMBFAUKN310]-Ivory",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "Solid Shirring Sleeveless SwimSuit[LMBDSW230]-Black",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "(163)",
+   "p": 8343,
+   "d": null
+  },
+  {
+   "n": "[벨트 Set]Classic Mini Dress[LMBFSPDR807]-Black",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 158100,
+   "d": 20
+  },
+  {
+   "n": "[한정특가] Cashmere 10% Handmade Round Double Front Jacket[LMBFWICT717]-Black",
+   "p": 419000,
+   "d": null
+  },
+  {
+   "n": "419,000",
+   "p": 337100,
+   "d": 19
+  },
+  {
+   "n": "[한정특가] Cash Wool Muffler[LMBFWI24KN262]-2color",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "129,000",
+   "p": 101007,
+   "d": 21
+  },
+  {
+   "n": "(254)",
+   "p": 4426,
+   "d": null
+  },
+  {
+   "n": "Nonfade Suede Midi Skirt[LMBFAUSK419]-Black",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Wool 100% Muffler[LMBFWIAC918]-2color",
+   "p": 89000,
+   "d": null
+  },
+  {
+   "n": "89,000",
+   "p": 69687,
+   "d": 21
+  },
+  {
+   "n": "Maxi H-line Skirt[LMBFAU25SK405]-2color",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "Nonfade Suede Round Jacket[LMBFAUJK117]-Moss Brown",
+   "p": 269000,
+   "d": null
+  },
+  {
+   "n": "[기장선택]Color Dying Pants[LMBFAUDN031]-Pale Taupe",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "119,000",
+   "p": 98353,
+   "d": 17
+  },
+  {
+   "n": "Wholegarment Wool 100% V-Neck Knit Top[LMBFAUKN311]-Deep Gray",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "129,000",
+   "p": 102942,
+   "d": 20
+  },
+  {
+   "n": "Boat Neck Crop Top Swimsuit[LMBDSW235]-2color",
+   "p": 59000,
+   "d": null
+  },
+  {
+   "n": "59,000",
+   "p": 48763,
+   "d": 17
+  },
+  {
+   "n": "(278)",
+   "p": 4919,
+   "d": null
+  },
+  {
+   "n": "High Neck Long Trench Coat[LMBFAUJK112]-Beige",
+   "p": 329000,
+   "d": null
+  },
+  {
+   "n": "329,000",
+   "p": 272550,
+   "d": 17
+  },
+  {
+   "n": "Natural Curved Cotton Pants[LMBFSPPT505]-2color",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "159,000",
+   "p": 110664,
+   "d": 30
+  },
+  {
+   "n": "Nonfade Funnel Neck Suede Jacket[LMBFAUJK114]-Moss Brown",
+   "p": 319000,
+   "d": null
+  },
+  {
+   "n": "319,000",
+   "p": 263653,
+   "d": 17
+  },
+  {
+   "n": "Cashmere 10% Curve Detail Short Handmade Jacket[LMBFAU23CT701]-Charcoal",
+   "p": 315000,
+   "d": null
+  },
+  {
+   "n": "(51)",
+   "p": 2677,
+   "d": null
+  },
+  {
+   "n": "High Neck Half Trench Coat[LMBFAUJK113]-Beige",
+   "p": 287000,
+   "d": null
+  },
+  {
+   "n": "287,000",
+   "p": 237205,
+   "d": 17
+  },
+  {
+   "n": "[한정특가] Wholegarment Baby Alpaca V-Neck Knit Top[LMBFWIKN2109]-Navy",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "159,000",
+   "p": 124497,
+   "d": 21
+  },
+  {
+   "n": "Wholegarment V-Neck Knit Top[LMBFAUKN2100]-Stone Taupe",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "Nonfade Suede High-Neck Half Jacket[LMBFAUJK115]-Moss Brown",
+   "p": 298000,
+   "d": null
+  },
+  {
+   "n": "See-Through Cardigan[LMBDSW239]-4color",
+   "p": 65000,
+   "d": null
+  },
+  {
+   "n": "65,000",
+   "p": 53722,
+   "d": 17
+  },
+  {
+   "n": "(155)",
+   "p": 3434,
+   "d": null
+  },
+  {
+   "n": "Shirring Colorblock SwimSuit[LMBBSW102]-4color",
+   "p": 175000,
+   "d": null
+  },
+  {
+   "n": "175,000",
+   "p": 139650,
+   "d": 20
+  },
+  {
+   "n": "(471)",
+   "p": 7365,
+   "d": null
+  },
+  {
+   "n": "Leather Funnel Neck Jacket[LMBFAUJK122]-Black",
+   "p": 287000,
+   "d": null
+  },
+  {
+   "n": "[기장선택]Curved Dying Denim[LMBFAUDN034]-Black",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "Essential Bias Maxi Skirt[LMBFAUSK421]-Deep Charcoal",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "[머플러 Set]Baby Alpaca Round Cardigan[LMBFAUKN308]-Cream",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] [단독] Slant Pocket H-Line Maxi Skirt[LMBFWISK425]-Deep Charcoal",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Silk Wool Brushed V-Neck Knit Top[LMBFWIKN2105]-Ivory",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "179,000",
+   "p": 140157,
+   "d": 21
+  },
+  {
+   "n": "[기장선택]Color Dying Pants[LMBFAUDN031]-Navy",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "119,000",
+   "p": 94962,
+   "d": 20
+  },
+  {
+   "n": "Tencel Round T-Shirt[LMBFSPTT615]-6color",
+   "p": 59000,
+   "d": null
+  },
+  {
+   "n": "59,000",
+   "p": 41064,
+   "d": 30
+  },
+  {
+   "n": "[한정특가] Raccoon Deep V-Neck Knit Top[LMBFWIKN2101]-Brown",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "Raccoon Round Knit Sleeveless Top[LMBFAUKN2107]-Cream Melange",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "79,000",
+   "p": 65293,
+   "d": 17
+  },
+  {
+   "n": "Tie V-Neck Dress[LMBFSPDR808]-Black",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "(11)",
+   "p": 1086,
+   "d": null
+  },
+  {
+   "n": "Banding Maxi Knit Skirt[LMBFAUKN2103]-2color",
+   "p": 109000,
+   "d": null
+  }
+ ],
+ "id": 109224,
+ "observed_at": "2026-10-29"
+}

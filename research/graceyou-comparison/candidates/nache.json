@@ -1,0 +1,134 @@
+{
+ "slug": "nache",
+ "ko": "나체",
+ "en": "NACHE",
+ "status": "후보",
+ "tier": "디자이너·온라인 브랜드",
+ "tags": [
+  "아방가르드",
+  "유니크",
+  "캐주얼"
+ ],
+ "found": [
+  "29CM DB 1차"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 20092
+ },
+ "price_source": "29CM",
+ "intro": "나체는 캐주얼 아방가르드를 바탕으로 유연하고 자연스러운 미를 풀어내며, 독특한 디테일과 구조적인 실루엣으로 움직임의 결을 담아냅니다.",
+ "sub": "나체(NACHE)는 다양한 테마 안에서 지극히 유연하고 자연스러운 미를 추구하는 브랜드입니다.",
+ "est": null,
+ "heart": 14658,
+ "off": null,
+ "score": {
+  "k": 1.43,
+  "list_q1": 133200,
+  "list_med": 188000,
+  "list_q3": 267429,
+  "s_price": 86,
+  "s_band": 83,
+  "s_mood": 0,
+  "score": 42,
+  "partial": 85
+ },
+ "evidence": [],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "가격 근접·무드 다름",
+ "rank": 30,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/20092",
+   "title": "나체(NACHE)",
+   "ko": "나체",
+   "en": "NACHE",
+   "sub": "나체(NACHE)는 다양한 테마 안에서 지극히 유연하고 자연스러운 미를 추구하는 브랜드입니다.",
+   "heart": 14658,
+   "intro": "나체는 캐주얼 아방가르드를 바탕으로 유연하고 자연스러운 미를 풀어내며, 독특한 디테일과 구조적인 실루엣으로 움직임의 결을 담아냅니다.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 55800,
+    "q1": 93240,
+    "med": 131600,
+    "q3": 187200,
+    "p90": 278600,
+    "max": 313200,
+    "mean": 146620
+   },
+   "disc": {
+    "n": 50,
+    "med": 30,
+    "max": 42
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 77,
+    "med": 0,
+    "max": 20,
+    "rated": 13
+   },
+   "rate": 4.67,
+   "tags": {
+    "쿠폰": 36,
+    "조건부 무료배송": 50,
+    "신상품": 14
+   },
+   "names": [
+    "REVERSIBLE HOODIE FAUX FUR JACKET NYLON BLACK",
+    "JERSEY CAPE DRESS BLACK",
+    "DETACHABLE LAYERED SKIRT PANTS ASH BEIGE",
+    "PINTUCK WIDE PANTS (UNISEX) BLACK",
+    "LEGWARMER COTTON PANTS BLACK",
+    "OVERSIZED LEATHER RIDER JACKET BLACK",
+    "DOUBLE ARM LONG SLEEVE DUSTY WHITE",
+    "TIED SHIRT PANTS BLACK",
+    "LAYERED WOOL WIDE SHORTS BLACK",
+    "DOUBLE CUFFS SHIRTS MISTY GRAY",
+    "HAIRY WIDE PANTS MELANGE GRAY",
+    "REVERSIBLE HOODIE FAUX FUR JACKET NYLON CREAM",
+    "REVERSIBLE HOODIE FAUX FUR JACKET LEATHER BROWN",
+    "TWISTED CUT-OUT LONG SLEEVE BLACK",
+    "MIXED LAYERED TIE JOGGER PANTS (UNISEX) BLACK",
+    "FLOW SLIM FIT LONG SLEEVE IVORY",
+    "HAIRY WOOL DOUBLE JACKET GREEN",
+    "HAIRY WIDE PANTS BLACK",
+    "REVERSIBLE FAUX FUR LEATHER COAT STONE GRAY",
+    "ZODIAC LONG SLEEVE WHITE",
+    "REVERSIBLE FAUX FUR LEATHER COAT BLACK",
+    "DETACHABLE HOODIE ZIP-UP MELANGE CHARCOAL",
+    "TWISTED CUT-OUT LONG SLEEVE MELANGE BEIGE",
+    "REVERSIBLE HOODIE FAUX FUR JACKET LEATHER GRAY",
+    "PINCHED HOODIE SLEEVELESS IVORY STRIPE",
+    "FUR TRIM SLIM HOODIE ZIP-UP BLACK",
+    "RAWCUT CURVED PANTS (UNISEX) BLACK",
+    "COSMIC SWIM SUIT BLACK",
+    "PUFF BAGGY PANTS MELANGE GRAY",
+    "RAWCUT CURVED PANTS (UNISEX) ASH BEIGE",
+    "RIBBED LAYERED SWEAT PANTS MELANGE GRAY",
+    "SHIRT CARDIGAN EFFECT LONG SLEEVE IVORY",
+    "2-WAY SHAWL KNIT BROWN",
+    "FUR TRIM SLIM HOODIE ZIP-UP MELANGE GRAY",
+    "LAYERED HENLEY NECK LONG SLEEVE CHARCOAL",
+    "RIBBED LAYERED SWEAT PANTS BLACK",
+    "LEATHER TIE HOBO BAG BLACK",
+    "VINTAGE PINTUCK CAP BLACK",
+    "2-WAY SHAWL KNIT MELANGE GRAY",
+    "VINTAGE PINTUCK CAP VINTAGE BEIGE"
+   ],
+   "id": 20092,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": null
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "slug": "luvistrue",
+ "ko": "러브이즈트루",
+ "en": "LUVISTRUE",
+ "status": "후보",
+ "tier": "컨템포러리 브랜드",
+ "tags": [
+  "미니멀",
+  "캐주얼",
+  "트렌디"
+ ],
+ "found": [
+  "29CM 후보(1차 보류분)"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 3531
+ },
+ "price_source": "29CM",
+ "intro": "러브이즈트루는 심플, 미니멀, 색감 있는 것들에서 영감을 받으며 시즌마다 재미있는 요소를 더한 위트 있는 컨템포러리웨어를 제안합니다. 사랑, 우정, 일 그리고 패션에 대해 자기만의 스타일을 가지고 있는 사람들과 함께 오늘도 사랑을 노래합니다.",
+ "sub": "시즌마다 재미있는 요소를 더한 위트 있는 컨템포러리웨어",
+ "est": 2015,
+ "heart": 80565,
+ "off": null,
+ "score": {
+  "k": 1.11,
+  "list_q1": 54000,
+  "list_med": 110000,
+  "list_q3": 149000,
+  "s_price": 28,
+  "s_band": 5,
+  "s_mood": 0,
+  "score": 9,
+  "partial": 19
+ },
+ "evidence": [
+  {
+   "idx": "206419",
+   "date": "2023-06-25",
+   "title": "걸크러쉬 여성복 ‘러브이즈트루’ 성장 드라이브",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=206419&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "참고(트렌드·무드 탐색)",
+ "rank": 70,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/3531",
+   "title": "러브이즈트루(LUVISTRUE)",
+   "ko": "러브이즈트루",
+   "en": "LUVISTRUE",
+   "sub": "시즌마다 재미있는 요소를 더한 위트 있는 컨템포러리웨어",
+   "est": 2015,
+   "heart": 80565,
+   "intro": "러브이즈트루는 심플, 미니멀, 색감 있는 것들에서 영감을 받으며 시즌마다 재미있는 요소를 더한 위트 있는 컨템포러리웨어를 제안합니다. 사랑, 우정, 일 그리고 패션에 대해 자기만의 스타일을 가지고 있는 사람들과 함께 오늘도 사랑을 노래합니다.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 21790,
+    "q1": 48600,
+    "med": 99000,
+    "q3": 134100,
+    "p90": 176400,
+    "max": 315000,
+    "mean": 104046
+   },
+   "disc": {
+    "n": 50,
+    "med": 10,
+    "max": 60
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 731,
+    "med": 0,
+    "max": 595,
+    "rated": 15
+   },
+   "rate": 4.53,
+   "tags": {
+    "조건부 무료배송": 50,
+    "쿠폰": 4,
+    "신상품": 1
+   },
+   "names": [
+    "RL HORSE 910 KNIT ZIP UP(GRAY)",
+    "RL BALLOON SHIRRING TOP(BEIGE)",
+    "RL SQUARE NECK KNIT(GRAY)",
+    "RL HORSE 910 KNIT ZIP UP(IVORY)",
+    "RL ROSE CROSS NECKLACE(PURPLE)",
+    "LVTR HOOD ZIPUP(WHITE)",
+    "GT FLEECE JACKET(NAVY)",
+    "RL LAYERED ANGEL TRAINING PANTS(BLACK)",
+    "RL LAYERED ANGEL TRAINING ZIP UP(BLACK)",
+    "RL HORSE 910 KNIT ZIP UP(BLACK)",
+    "RL CROWN HOOD ZIP UP(BLACK)",
+    "RL CROSS COLORSTONE HOOD ZIP UP(WHITE)",
+    "RL WING LONG SLEEVE(BEIGE)",
+    "GT FLEECE JACKET(CHARCOAL)",
+    "EL UNICORN HOOD ZIP UP(BLACK)",
+    "RL LAYERED LACE TEE(WHITE)",
+    "EL UNICORN HOOD ZIP UP(PINK)",
+    "GT FUR UNBALANCE HOOD ZIP UP(GRAY)",
+    "EL UNICORN TRAINING PANTS(BLACK)",
+    "RL ROSE CROSS NECKLACE(WHITE)",
+    "RL CROSS COLORSTONE TRAINING PANTS(WHITE)",
+    "RL LACE LOW RISE PANTS(DENIM)",
+    "[아이브 이서, 에스파 카리나 착용]OT PUNK KNIT(BLACK)",
+    "RL EYELET STRING BEANIE(BLACK)",
+    "SY LETTERING TOTE BAG(MINT)",
+    "[에스파 윈터 착용]BASIC COLOR SCHEME PANTS(CAMO)",
+    "EL LAYERED NECKLACE(SILVER)",
+    "RL EYELET ONE SHOULDER SWEATSHIRT(GRAY)",
+    "RL ROSE CROSS NECKLACE(BLACK)",
+    "RL WING LONG SLEEVE(WHITE)",
+    "RL DISTORTED LETTERING TEE(WHITE)",
+    "EL UNICORN TRAINING PANTS(PINK)",
+    "RL BALLOON SHIRRING TOP(BLACK)",
+    "RL FUR TRIM PATCH BOMBER JACKET(BLACK)",
+    "EV REVERSIBLE FUR HOOD(GRAY)",
+    "RL CROSS COLORSTONE HOOD ZIP UP(PINK)",
+    "RL SHIRRING SLEEVE(WHITE)",
+    "IN CROP KNIT CARDIGAN(BLUE)",
+    "EL PIRATE HOOD ZIP UP(GRAY)",
+    "RL SHIELD NECKLACE(SILVER)"
+   ],
+   "id": 3531,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": null
+ }
+}

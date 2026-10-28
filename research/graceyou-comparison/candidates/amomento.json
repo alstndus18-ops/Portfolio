@@ -1,0 +1,150 @@
+{
+ "slug": "amomento",
+ "ko": "아모멘토",
+ "en": "AMOMENTO",
+ "status": "후보",
+ "tier": "디자이너 컨템포러리",
+ "tags": [
+  "클래식",
+  "미니멀",
+  "시즌리스",
+  "모던"
+ ],
+ "found": [
+  "DB 디자이너 여성복"
+ ],
+ "note": "",
+ "ids": {
+  "wc": 103954
+ },
+ "price_source": "W컨셉",
+ "intro": "아모멘토는 유행을 따르지않는 클래식함을 기반으로 시간이 지나도 변하지 않는 가치와 절제된 아름다움을 추구한다. 하트를 7.6만 개 받았어요 베스트 아이템 SCOOP NECK KNIT TOP (2COLORS) 149,000 1 HOURGLASS MINI DRESS_WHITE 289,000 2 COTTON SHIRTS DRESS_WHITE 249,000 3 COTTON VOLUME SHIRRING DRESS_CHARCOAL 269,000 4 SHEER LACE LONG SKIRT_WHITE 159,000 5 NYLON SHIRRING SHORTS_DARK BROWN 159,000 6 NYLON SHIRRING SHORTS_PURPLE 159,000 7 SHEER HALF ZIP-UP TOP_BLACK 179,000 8 SHEER HALF ZIP-UP TOP_BROWN 179,000 9 신규 아이템 NYLON VOLUME MINI DRESS_PURPLE 229,000 NYLON VOLUME MINI DRESS_BROWN 229,000 NYLON VOLUME MINI DRESS_BLACK 229,000 HOURGLASS MINI DRESS_WHITE 289,000 ",
+ "sub": "",
+ "est": null,
+ "heart": null,
+ "off": null,
+ "score": {
+  "k": 1.0,
+  "list_q1": 138600,
+  "list_med": 189000,
+  "list_q3": 239000,
+  "s_price": 87,
+  "s_band": 70,
+  "s_mood": 22,
+  "score": 51,
+  "partial": 80
+ },
+ "evidence": [
+  {
+   "idx": "227566",
+   "date": "2026-09-10",
+   "title": "아모멘토, 더현대 서울 입점 일주일 만에 1억 8천만 원 매출",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=227566&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "226869",
+   "date": "2026-08-12",
+   "title": "아모멘토, 신규 출점 없이 상반기 매출 29% 상승",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=226869&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "211665",
+   "date": "2024-06-09",
+   "title": "신흥 남성복 풀 확장… 세대교체 가속",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=211665&cat=CAT113",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "202768",
+   "date": "2022-12-22",
+   "title": "신진 디자이너 브랜드, 제도권 패션 한 축 부상",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=202768&cat=CAT11Z",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [],
+  "wconcept": [
+   "2026-10-29"
+  ]
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "가격 근접·무드 다름",
+ "rank": 18,
+ "platform": {
+  "29cm": null,
+  "wconcept": {
+   "url": "https://display.wconcept.co.kr/rn/brand/103954",
+   "title": "아모멘토(AMOMENTO) | W컨셉(W CONCEPT)",
+   "ko": "아모멘토",
+   "en": "AMOMENTO",
+   "intro": "아모멘토는 유행을 따르지않는 클래식함을 기반으로 시간이 지나도 변하지 않는 가치와 절제된 아름다움을 추구한다. 하트를 7.6만 개 받았어요 베스트 아이템 SCOOP NECK KNIT TOP (2COLORS) 149,000 1 HOURGLASS MINI DRESS_WHITE 289,000 2 COTTON SHIRTS DRESS_WHITE 249,000 3 COTTON VOLUME SHIRRING DRESS_CHARCOAL 269,000 4 SHEER LACE LONG SKIRT_WHITE 159,000 5 NYLON SHIRRING SHORTS_DARK BROWN 159,000 6 NYLON SHIRRING SHORTS_PURPLE 159,000 7 SHEER HALF ZIP-UP TOP_BLACK 179,000 8 SHEER HALF ZIP-UP TOP_BROWN 179,000 9 신규 아이템 NYLON VOLUME MINI DRESS_PURPLE 229,000 NYLON VOLUME MINI DRESS_BROWN 229,000 NYLON VOLUME MINI DRESS_BLACK 229,000 HOURGLASS MINI DRESS_WHITE 289,000 ",
+   "n": 74,
+   "p": {
+    "min": 69000,
+    "q1": 138600,
+    "med": 189000,
+    "q3": 239000,
+    "p90": 289000,
+    "max": 589000,
+    "mean": 199416
+   },
+   "disc": {
+    "n": 12,
+    "med": 30,
+    "max": 50
+   },
+   "names": [
+    "SCOOP NECK KNIT TOP (2COLORS)",
+    "HOURGLASS MINI DRESS_WHITE",
+    "COTTON SHIRTS DRESS_WHITE",
+    "COTTON VOLUME SHIRRING DRESS_CHARCOAL",
+    "SHEER LACE LONG SKIRT_WHITE",
+    "NYLON SHIRRING SHORTS_DARK BROWN",
+    "NYLON SHIRRING SHORTS_PURPLE",
+    "SHEER HALF ZIP-UP TOP_BLACK",
+    "SHEER HALF ZIP-UP TOP_BROWN",
+    "NYLON VOLUME MINI DRESS_PURPLE",
+    "NYLON VOLUME MINI DRESS_BROWN",
+    "NYLON VOLUME MINI DRESS_BLACK",
+    "INDIGO DENIM_LIGHT GREY",
+    "TAPERED FIT DENIM_WHITE",
+    "TAPERED FIT DENIM_BLACK",
+    "BASIC T-SHIRTS_WHITE",
+    "BASIC T-SHIRTS_GREY",
+    "BASIC T-SHIRTS_BLACK",
+    "SHEER HALF ZIP-UP TOP_WHITE",
+    "STRIPE OVERSIZED SHIRTS",
+    "OVERSIZED SHIRTS_LIGHT BLUE",
+    "OVERSIZED SHIRTS_LILAC",
+    "SHEER CROPPED KNIT_PINK",
+    "CROPPED ZIP-UP JUMPER_WHITE",
+    "SHEER TOTE BAG_BEIGE",
+    "KNOTTED COLLAR TOP_BLACK",
+    "KNOTTED COLLAR TOP_IVORY",
+    "NEW GRANDMA CARDIGAN(3COLORS)",
+    "RECYCLED COTTON DENIM (2 COLORS)",
+    "SHEER TOTE BAG_CHARCOAL",
+    "BOAT NECK TWO WAY JACKET_BLACK",
+    "VOLUME MINI DRESS_BLACK",
+    "SHEER MAXI LONG SKIRT_BLACK",
+    "COTTON VOLUME SHIRRING SHORTS_WHITE",
+    "179,000",
+    "COTTON VOLUME SHIRRING SHORTS_CHARCOAL",
+    "STRIPE BANDING PANTS_BROWN",
+    "198,000",
+    "SHEER BRA TOP_BROWN",
+    "159,000"
+   ],
+   "id": 103954,
+   "observed_at": "2026-10-29"
+  }
+ }
+}

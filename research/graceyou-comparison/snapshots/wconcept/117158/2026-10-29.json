@@ -1,0 +1,618 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/117158",
+ "title": "하나드(Hanad) | W컨셉(W CONCEPT)",
+ "ko": "하나드",
+ "en": "Hanad",
+ "intro": "Hanad는 '하나'의 개념에서 출발한 여성복 브랜드입니다. 동시대 여성들의 라이프스타일에서 영감을 받아, 절제된 실루엣과 균형 잡힌 디테일로 하나로 충분한 오래도록 가치 있는 스타일을 제안합니다.",
+ "n": 110,
+ "p": {
+  "min": 1215,
+  "q1": 82000,
+  "med": 138591,
+  "q3": 173043,
+  "p90": 221000,
+  "max": 380000,
+  "mean": 138104
+ },
+ "disc": {
+  "n": 56,
+  "med": 21,
+  "max": 24
+ },
+ "names": [
+  "Fringe Cardigan",
+  "Out Pocket Pants_BEIGE",
+  "Hanad Layer Bag",
+  "Two-Pintuck Slacks_ST",
+  "Room Wavy Cardigan_BLACK",
+  "Deep V Wool Knit_BLACK",
+  "Two Way Work Jacket_IVORY",
+  "Gabardine Pintuck Slacks_DARK BROWN",
+  "Work Cargo Pants_YELLOW",
+  "Two Way Trench Coat",
+  "Two-Pintuck Slacks_BLACK",
+  "Two-Pintuck Slacks_BROWN",
+  "Button Wool Knit_BLACK",
+  "Button Wool Knit_MINT",
+  "Room Sleeveless_IVORY",
+  "Room Wavy Cardigan_BROWN",
+  "Black Half Trench",
+  "Room Sleeveless_BROWN",
+  "Floral Cardigan_BLACK",
+  "Work Cargo Pants_IVORY",
+  "Out Pocket Pants_BLACK",
+  "Out Pocket Pants_IVORY",
+  "Gabardine Pintuck Slacks_BLACK",
+  "Half Placket Tee_IVORY",
+  "[한정특가] Out Pocket Pants_BEIGE",
+  "170,000",
+  "[한정특가] Two Way Work Jacket_IVORY",
+  "221,000",
+  "[한정특가] Room Wavy Cardigan_BLACK",
+  "66,000",
+  "Hanad Layer Bag",
+  "248,000",
+  "[한정특가] Fringe Cardigan",
+  "202,000",
+  "[한정특가] Deep V Wool Knit_BLACK",
+  "159,000",
+  "[한정특가] Gabardine Pintuck Slacks_DARK BROWN",
+  "189,000",
+  "[한정특가] Work Cargo Pants_YELLOW",
+  "161,000"
+ ],
+ "cards": [
+  {
+   "n": "Fringe Cardigan",
+   "p": 152712,
+   "d": 24
+  },
+  {
+   "n": "Out Pocket Pants_BEIGE",
+   "p": 133110,
+   "d": 21
+  },
+  {
+   "n": "Hanad Layer Bag",
+   "p": 215760,
+   "d": 13
+  },
+  {
+   "n": "Two-Pintuck Slacks_ST",
+   "p": 162081,
+   "d": 21
+  },
+  {
+   "n": "Room Wavy Cardigan_BLACK",
+   "p": 49896,
+   "d": 24
+  },
+  {
+   "n": "Deep V Wool Knit_BLACK",
+   "p": 124497,
+   "d": 21
+  },
+  {
+   "n": "Two Way Work Jacket_IVORY",
+   "p": 173043,
+   "d": 21
+  },
+  {
+   "n": "Gabardine Pintuck Slacks_DARK BROWN",
+   "p": 147987,
+   "d": 21
+  },
+  {
+   "n": "Work Cargo Pants_YELLOW",
+   "p": 126063,
+   "d": 21
+  },
+  {
+   "n": "Two Way Trench Coat",
+   "p": 302000,
+   "d": 20
+  },
+  {
+   "n": "Two-Pintuck Slacks_BLACK",
+   "p": 148770,
+   "d": 21
+  },
+  {
+   "n": "Two-Pintuck Slacks_BROWN",
+   "p": 148770,
+   "d": 21
+  },
+  {
+   "n": "Button Wool Knit_BLACK",
+   "p": 132327,
+   "d": 21
+  },
+  {
+   "n": "Button Wool Knit_MINT",
+   "p": 127764,
+   "d": 24
+  },
+  {
+   "n": "Room Sleeveless_IVORY",
+   "p": 23490,
+   "d": 21
+  },
+  {
+   "n": "Room Wavy Cardigan_BROWN",
+   "p": 49896,
+   "d": 24
+  },
+  {
+   "n": "Black Half Trench",
+   "p": 241947,
+   "d": 21
+  },
+  {
+   "n": "Room Sleeveless_BROWN",
+   "p": 22680,
+   "d": 24
+  },
+  {
+   "n": "Floral Cardigan_BLACK",
+   "p": 184200,
+   "d": 22
+  },
+  {
+   "n": "Work Cargo Pants_IVORY",
+   "p": 126063,
+   "d": 21
+  },
+  {
+   "n": "Out Pocket Pants_BLACK",
+   "p": 133110,
+   "d": 21
+  },
+  {
+   "n": "Out Pocket Pants_IVORY",
+   "p": 133110,
+   "d": 21
+  },
+  {
+   "n": "Gabardine Pintuck Slacks_BLACK",
+   "p": 142884,
+   "d": 24
+  },
+  {
+   "n": "Half Placket Tee_IVORY",
+   "p": 68880,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Out Pocket Pants_BEIGE",
+   "p": 170000,
+   "d": null
+  },
+  {
+   "n": "170,000",
+   "p": 133110,
+   "d": 21
+  },
+  {
+   "n": "[한정특가] Two Way Work Jacket_IVORY",
+   "p": 221000,
+   "d": null
+  },
+  {
+   "n": "221,000",
+   "p": 173043,
+   "d": 21
+  },
+  {
+   "n": "[한정특가] Room Wavy Cardigan_BLACK",
+   "p": 66000,
+   "d": null
+  },
+  {
+   "n": "66,000",
+   "p": 49896,
+   "d": 24
+  },
+  {
+   "n": "Hanad Layer Bag",
+   "p": 248000,
+   "d": null
+  },
+  {
+   "n": "248,000",
+   "p": 215760,
+   "d": 13
+  },
+  {
+   "n": "[한정특가] Fringe Cardigan",
+   "p": 202000,
+   "d": null
+  },
+  {
+   "n": "202,000",
+   "p": 152712,
+   "d": 24
+  },
+  {
+   "n": "[한정특가] Deep V Wool Knit_BLACK",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "159,000",
+   "p": 124497,
+   "d": 21
+  },
+  {
+   "n": "[한정특가] Gabardine Pintuck Slacks_DARK BROWN",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "189,000",
+   "p": 147987,
+   "d": 21
+  },
+  {
+   "n": "[한정특가] Work Cargo Pants_YELLOW",
+   "p": 161000,
+   "d": null
+  },
+  {
+   "n": "161,000",
+   "p": 126063,
+   "d": 21
+  },
+  {
+   "n": "[한정특가] Two-Pintuck Slacks_ST",
+   "p": 207000,
+   "d": null
+  },
+  {
+   "n": "207,000",
+   "p": 162081,
+   "d": 21
+  },
+  {
+   "n": "[한정특가] Room Wavy Cardigan_BROWN",
+   "p": 66000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Out Pocket Pants_BLACK",
+   "p": 170000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Two Way Trench Coat",
+   "p": 380000,
+   "d": null
+  },
+  {
+   "n": "380,000",
+   "p": 302000,
+   "d": 20
+  },
+  {
+   "n": "[한정특가] Floral Cardigan_BLACK",
+   "p": 238000,
+   "d": null
+  },
+  {
+   "n": "238,000",
+   "p": 184200,
+   "d": 22
+  },
+  {
+   "n": "[한정특가] Collar Knit Zip-Up_BLACK",
+   "p": 208000,
+   "d": null
+  },
+  {
+   "n": "208,000",
+   "p": 162864,
+   "d": 21
+  },
+  {
+   "n": "[한정특가] Two-Pintuck Slacks_BROWN",
+   "p": 190000,
+   "d": null
+  },
+  {
+   "n": "190,000",
+   "p": 148770,
+   "d": 21
+  },
+  {
+   "n": "[한정특가] Gabardine Pintuck Slacks_BLACK",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "189,000",
+   "p": 142884,
+   "d": 24
+  },
+  {
+   "n": "[한정특가] String Anorak Jumper_BLACK",
+   "p": 177000,
+   "d": null
+  },
+  {
+   "n": "177,000",
+   "p": 138591,
+   "d": 21
+  },
+  {
+   "n": "[한정특가] Out Pocket Pants_IVORY",
+   "p": 170000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Deep V Wool Knit_GRAY",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Cocoon Skirt_IVORY",
+   "p": 133000,
+   "d": null
+  },
+  {
+   "n": "133,000",
+   "p": 100548,
+   "d": 24
+  },
+  {
+   "n": "[한정특가] Room Sleeveless_BROWN",
+   "p": 30000,
+   "d": null
+  },
+  {
+   "n": "30,000",
+   "p": 22680,
+   "d": 24
+  },
+  {
+   "n": "[한정특가] Standard Denim",
+   "p": 133000,
+   "d": null
+  },
+  {
+   "n": "133,000",
+   "p": 104139,
+   "d": 21
+  },
+  {
+   "n": "[한정특가] A Woman Sweatshirt",
+   "p": 110000,
+   "d": null
+  },
+  {
+   "n": "110,000",
+   "p": 86130,
+   "d": 21
+  },
+  {
+   "n": "[한정특가] A Woman Tee_MELANGE",
+   "p": 59000,
+   "d": null
+  },
+  {
+   "n": "59,000",
+   "p": 46197,
+   "d": 21
+  },
+  {
+   "n": "[한정특가] A Woman Tee_BLACK",
+   "p": 59000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] A Woman Tee_BLUE",
+   "p": 59000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] A Woman Tee_IVORY",
+   "p": 59000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Collar Knit Zip-Up_IVORY",
+   "p": 208000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] String Anorak Jumper_LIGHT GRAY",
+   "p": 177000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] String Anorak Jumper_BLUE",
+   "p": 177000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Black Half Trench",
+   "p": 309000,
+   "d": null
+  },
+  {
+   "n": "309,000",
+   "p": 241947,
+   "d": 21
+  },
+  {
+   "n": "[한정특가] Two-Pintuck Slacks_BLACK",
+   "p": 190000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Cocoon Skirt_BLACK",
+   "p": 133000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Leather Sleeveless",
+   "p": 115000,
+   "d": null
+  },
+  {
+   "n": "115,000",
+   "p": 90045,
+   "d": 21
+  },
+  {
+   "n": "[한정특가] Cotton Over Shirt_PINK",
+   "p": 144000,
+   "d": null
+  },
+  {
+   "n": "144,000",
+   "p": 112752,
+   "d": 21
+  },
+  {
+   "n": "[한정특가] Cotton Over Shirt_YELLOW",
+   "p": 144000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Button Wool Knit_MINT",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "169,000",
+   "p": 127764,
+   "d": 24
+  },
+  {
+   "n": "[한정특가] Button Wool Knit_BLACK",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "169,000",
+   "p": 132327,
+   "d": 21
+  },
+  {
+   "n": "[한정특가] Room Sleeveless_IVORY",
+   "p": 30000,
+   "d": null
+  },
+  {
+   "n": "30,000",
+   "p": 23490,
+   "d": 21
+  },
+  {
+   "n": "[한정특가] Work Cargo Pants_NAVY",
+   "p": 161000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Work Cargo Pants_IVORY",
+   "p": 161000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Two Way Work Jacket_NAVY",
+   "p": 221000,
+   "d": null
+  },
+  {
+   "n": "[한정특가] Floral Cardigan_IVORY",
+   "p": 238000,
+   "d": null
+  },
+  {
+   "n": "238,000",
+   "p": 186354,
+   "d": 21
+  },
+  {
+   "n": "(9)",
+   "p": 1215,
+   "d": null
+  },
+  {
+   "n": "Room Wavy Cardigan_IVORY",
+   "p": 66000,
+   "d": null
+  },
+  {
+   "n": "66,000",
+   "p": 57420,
+   "d": 13
+  },
+  {
+   "n": "Stripe Denim_BLUE",
+   "p": 136000,
+   "d": null
+  },
+  {
+   "n": "136,000",
+   "p": 118320,
+   "d": 13
+  },
+  {
+   "n": "Stripe Denim_IVORY",
+   "p": 136000,
+   "d": null
+  },
+  {
+   "n": "Half Placket Tee_CHARCOAL",
+   "p": 82000,
+   "d": null
+  },
+  {
+   "n": "82,000",
+   "p": 71340,
+   "d": 13
+  },
+  {
+   "n": "Half Placket Tee_CREAM",
+   "p": 82000,
+   "d": null
+  },
+  {
+   "n": "Half Placket Tee_BLACK",
+   "p": 82000,
+   "d": null
+  },
+  {
+   "n": "Half Placket Tee_IVORY",
+   "p": 82000,
+   "d": null
+  },
+  {
+   "n": "82,000",
+   "p": 68880,
+   "d": 16
+  },
+  {
+   "n": "Pocket Cutting Denim",
+   "p": 152000,
+   "d": null
+  },
+  {
+   "n": "152,000",
+   "p": 132240,
+   "d": 13
+  },
+  {
+   "n": "Room Sleeveless_BLACK",
+   "p": 30000,
+   "d": null
+  },
+  {
+   "n": "30,000",
+   "p": 26100,
+   "d": 13
+  }
+ ],
+ "id": 117158,
+ "observed_at": "2026-10-29"
+}

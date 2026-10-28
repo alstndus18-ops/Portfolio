@@ -1,0 +1,79 @@
+{
+ "slug": "ilail",
+ "ko": "일라일",
+ "en": "ILAIL",
+ "status": "후보",
+ "tier": "패션그룹 컨템포러리",
+ "tags": [
+  "소재중시",
+  "데일리"
+ ],
+ "found": [
+  "기사: 니트 패션 '일라일' 매출 신장"
+ ],
+ "note": "가격 미수집",
+ "ids": {
+  "off": "https://shinsegaev.com"
+ },
+ "price_source": "",
+ "intro": "",
+ "sub": "",
+ "est": null,
+ "heart": null,
+ "off": null,
+ "score": {},
+ "evidence": [
+  {
+   "idx": "214276",
+   "date": "2024-11-24",
+   "title": "니트 패션 ‘일라일’ 11월 매출 48% 신장",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=214276&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "228560",
+   "date": "2026-10-27",
+   "title": "덥지도 춥지도 않은 계절을 위한 아우터, '케이프' 뜬다",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=228560&cat=CAT11Z",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "227074",
+   "date": "2026-08-21",
+   "title": "신세계인터내셔날, 올 가을 아우터는 '가죽 재킷'",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=227074&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "221410",
+   "date": "2025-11-11",
+   "title": "신세계인터내셔날, 여성복 매출 증가",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=221410&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "213614",
+   "date": "2024-10-16",
+   "title": "신세계인터내셔날, 150년 역사 호주 ‘미쉘울(Michell Wool)’과 파트너십",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=213614&cat=CAT140",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "기사 요약(약함)",
+ "role": "미평가(가격 미수집)",
+ "rank": 96,
+ "platform": {
+  "29cm": null,
+  "wconcept": null
+ }
+}

@@ -1,0 +1,714 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/24741",
+ "title": "럭키슈에뜨(LUCKY CHOUETTE)",
+ "ko": "럭키슈에뜨",
+ "en": "LUCKY CHOUETTE",
+ "sub": "클래식한 감성에 하이브리드&스마트 캐주얼 스트리트적 요소와 그래픽, 장난스럽고 유머러스한 아트워크를 더해 다양한 스타일을 제안하는 캐릭터 브랜드",
+ "est": 2008,
+ "heart": 12981,
+ "intro": "CLASSIC한 감성을 바탕으로 글로벌하고 스마트한 YOUNG SHOPPER를 위한 HYBRID & SMART CASUAL을 제안합니다.<br/>\n\n스트리트적인 요소와 그래픽, 장난스럽고 유머러스한 ART WORK를 통해 다양한 문화와 스타일을 표현합니다. <br/>",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 10350,
+  "q1": 112770,
+  "med": 129550,
+  "q3": 175120,
+  "p90": 270270,
+  "max": 298810,
+  "mean": 146379
+ },
+ "disc": {
+  "n": 50,
+  "med": 35,
+  "max": 60
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 1349,
+  "med": 3,
+  "max": 494,
+  "rated": 42
+ },
+ "rate": 4.95,
+ "tags": {
+  "쿠폰": 50,
+  "조건부 무료배송": 50,
+  "신상품": 11,
+  "단독": 15
+ },
+ "names": [
+  "[민민데 PICK] [슈에띠즈] 미디 기장 덕 다운 점퍼 (다크 네이비) LAUCX26300NYD",
+  "[리오더] Chouetties by LUCKY CHOUETTE Nordic Pattern High Neck Cardigan (dark navy) LAWCX26300NYD",
+  "[해삐 PICK] [슈에띠즈] 플라워 패턴 져지 롱 팬츠 (다크 그레이) (38사이즈 11.13 출고 예정) LAPNX26210GYD",
+  "[지구,민민데 PICK] [슈에띠즈] 워싱 와이드 코듀로이 팬츠 (퍼플) LAPDX26340PPX",
+  "[슈에띠즈] 크롭 기장 덕 다운 점퍼 (블랙) LAUCX26310BKX",
+  "Chouetties by LUCKY CHOUETTE Fake Fur Reversible Hood Jumper (dark grey) LAOAX25330GYD",
+  "[2차 리오더] Chouetties by LUCKY CHOUETTE_ Frill Fake Leather Jumper (black) LAUAX26300BKX",
+  "[채모니 PICK] [슈에띠즈] 아가일 배색 하이넥 니트 풀오버 (다크 네이비) LAWAX26340NYD",
+  "[29CM 단독][10차리오더] Chouetties by LUCKY CHOUETTE_Low-Rise Leopard Denim Pants(dark grey) LAPDX26330GYD",
+  "Chouetties by LUCKY CHOUETTE Hem Frill Padding Jumper (dark grey) LAUCX25300GYD",
+  "[슈에띠즈] 미디 기장 덕 다운 점퍼 (브라운) LAUCX26300BRX",
+  "[해삐 PICK] [슈에띠즈] 레이어드 배색 니트 풀오버 (다크 그레이) LAWAX26220GYD",
+  "[채모니 PICK] [슈에띠즈] 프릴 포인트 벨벳 롱 팬츠 (브라운) LAPNX26350BRX",
+  "Chouetties by LUCKY CHOUETTE Hem Frill Padding Jumper (black) LAUCX25300BKX",
+  "[해삐,민민데 PICK] [슈에띠즈] 페이크 레더 미니 스커트 (와인) LAKAX26210WIX",
+  "[민민데 PICK][슈에띠즈] 플리스 롱 팬츠 (라이트 그레이) LAPNX26340GYL",
+  "[슈에띠즈] 프릴 포인트 벨벳 롱 팬츠 (다크 그레이) LAPNX26350GYD",
+  "Chouetties by LUCKY CHOUETTE Fake Mustang (beige) LAOAX25300BEX",
+  "[은현 PICK] [슈에띠즈] 하이넥 니트 가디건 (투웨이 착용) (라이트 옐로우) LAWCX26220YEL",
+  "[채모니 PICK] [슈에띠즈] 워싱 와이드 코듀로이 팬츠 (민트) LAPDX26340MIX",
+  "[은현 PICK] [슈에띠즈] 부츠컷 데님 팬츠 (블루) LAPDX26200BUX",
+  "[해삐 PICK] [슈에띠즈] 라운드넥 테리 긴팔 티셔츠 (민트) LATAX26200MIX",
+  "Chouetties by LUCKY CHOUETTE Ribbon Point Velvet Hood Jumper (dark grey) LAUAX26350GYD",
+  "[지구 PICK] [슈에띠즈] 노르딕 패턴 하이넥 니트 가디건 (그레이) LAWCX26300GYX",
+  "[민민데 PICK][슈에띠즈] 네프사 야옹이 니트 비니 (다크 그레이) 7ARAX26320GYD",
+  "[해삐/지구 PICK] [슈에띠즈] 체크 슬림 핏 셔츠 블라우스 (블랙) LASAX26200BKX",
+  "[슈에띠즈] 더블 버튼 하프 코트 (다크 네이비) LACAX26310NYD",
+  "[민민데 PICK][슈에띠즈] 하이넥 페이크 퍼 자켓 LAOAX26310BKX",
+  "[지구,은현 PICK] [슈에띠즈] 하이넥 니트 가디건 (투웨이 착용) (블랙) LAWCX26220BKX",
+  "[민민데 PICK][슈에띠즈] 케이블 루즈핏 니트 풀오버 (다크 그레이) LAWAX26330GYD",
+  "[슈에띠즈] 백 버튼 슬릿 니트 풀오버 (다크 그레이) LAWAX26210GYD",
+  "[슈에띠즈] 백 버튼 슬릿 니트 풀오버 (블루) LAWAX26210BUX",
+  "[채모니 PICK] [슈에띠즈] 리본 포인트 벨벳 후드 점퍼 (브라운) LAUAX26350BRX",
+  "[채모니,민민데 PICK] [슈에띠즈] 덧장 디테일 카프리 팬츠 (다크 그레이) LAPNX26360GYD",
+  "[채모니 PICK] [슈에띠즈] 페이크 퍼 자켓 (아이보리) LAOAX26300IVX",
+  "[지인 착용] Chouetties by LUCKY CHOUETTE Nordic Pattern Knit Pullover (ivory) LAWAX25300IVX",
+  "[CASPER X CHOUETTIES] Casper Graphic Loose Fit Short Sleeve T-Shirt (white) LATAX26900WHX",
+  "[29CM 단독][10차리오더] Chouetties by LUCKY CHOUETTE_Low-Rise Leopard Denim Pants (beige)_LAPDX26330BEX",
+  "[슈에띠즈] 네프사 브이넥 니트 풀오버 (다크 그레이) LAWAX26320GYD",
+  "[지구 PICK] [슈에띠즈] 부츠컷 데님 팬츠 (다크 그레이) LAPDX26200GYD"
+ ],
+ "cards": [
+  {
+   "n": "[민민데 PICK] [슈에띠즈] 미디 기장 덕 다운 점퍼 (다크 네이비) LAUCX26300NYD",
+   "p": 240980,
+   "d": 47,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[리오더] Chouetties by LUCKY CHOUETTE Nordic Pattern High Neck Cardigan (dark navy) LAWCX26300NYD",
+   "p": 182660,
+   "d": 32,
+   "lk": null,
+   "rt": 5,
+   "rv": 121,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[해삐 PICK] [슈에띠즈] 플라워 패턴 져지 롱 팬츠 (다크 그레이) (38사이즈 11.13 출고 예정) LAPNX26210GYD",
+   "p": 77470,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 16,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[지구,민민데 PICK] [슈에띠즈] 워싱 와이드 코듀로이 팬츠 (퍼플) LAPDX26340PPX",
+   "p": 112770,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[슈에띠즈] 크롭 기장 덕 다운 점퍼 (블랙) LAUCX26310BKX",
+   "p": 279280,
+   "d": 35,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 52,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "Chouetties by LUCKY CHOUETTE Fake Fur Reversible Hood Jumper (dark grey) LAOAX25330GYD",
+   "p": 171180,
+   "d": 60,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[2차 리오더] Chouetties by LUCKY CHOUETTE_ Frill Fake Leather Jumper (black) LAUAX26300BKX",
+   "p": 270930,
+   "d": 32,
+   "lk": null,
+   "rt": 5,
+   "rv": 30,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[채모니 PICK] [슈에띠즈] 아가일 배색 하이넥 니트 풀오버 (다크 네이비) LAWAX26340NYD",
+   "p": 162100,
+   "d": 35,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[29CM 단독][10차리오더] Chouetties by LUCKY CHOUETTE_Low-Rise Leopard Denim Pants(dark grey) LAPDX26330GYD",
+   "p": 106980,
+   "d": 40,
+   "lk": null,
+   "rt": 5,
+   "rv": 159,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Chouetties by LUCKY CHOUETTE Hem Frill Padding Jumper (dark grey) LAUCX25300GYD",
+   "p": 159210,
+   "d": 60,
+   "lk": null,
+   "rt": 5,
+   "rv": 9,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[슈에띠즈] 미디 기장 덕 다운 점퍼 (브라운) LAUCX26300BRX",
+   "p": 240980,
+   "d": 47,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[해삐 PICK] [슈에띠즈] 레이어드 배색 니트 풀오버 (다크 그레이) LAWAX26220GYD",
+   "p": 116530,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[채모니 PICK] [슈에띠즈] 프릴 포인트 벨벳 롱 팬츠 (브라운) LAPNX26350BRX",
+   "p": 116530,
+   "d": 35,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Chouetties by LUCKY CHOUETTE Hem Frill Padding Jumper (black) LAUCX25300BKX",
+   "p": 159210,
+   "d": 60,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 8,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[해삐,민민데 PICK] [슈에띠즈] 페이크 레더 미니 스커트 (와인) LAKAX26210WIX",
+   "p": 125370,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[민민데 PICK][슈에띠즈] 플리스 롱 팬츠 (라이트 그레이) LAPNX26340GYL",
+   "p": 112770,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[슈에띠즈] 프릴 포인트 벨벳 롱 팬츠 (다크 그레이) LAPNX26350GYD",
+   "p": 116530,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 22,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "Chouetties by LUCKY CHOUETTE Fake Mustang (beige) LAOAX25300BEX",
+   "p": 199110,
+   "d": 60,
+   "lk": null,
+   "rt": 4,
+   "rv": 6,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[은현 PICK] [슈에띠즈] 하이넥 니트 가디건 (투웨이 착용) (라이트 옐로우) LAWCX26220YEL",
+   "p": 129550,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 7,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[채모니 PICK] [슈에띠즈] 워싱 와이드 코듀로이 팬츠 (민트) LAPDX26340MIX",
+   "p": 116530,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[은현 PICK] [슈에띠즈] 부츠컷 데님 팬츠 (블루) LAPDX26200BUX",
+   "p": 116530,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[해삐 PICK] [슈에띠즈] 라운드넥 테리 긴팔 티셔츠 (민트) LATAX26200MIX",
+   "p": 64450,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Chouetties by LUCKY CHOUETTE Ribbon Point Velvet Hood Jumper (dark grey) LAUAX26350GYD",
+   "p": 142570,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 19,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[지구 PICK] [슈에띠즈] 노르딕 패턴 하이넥 니트 가디건 (그레이) LAWCX26300GYX",
+   "p": 175120,
+   "d": 35,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[민민데 PICK][슈에띠즈] 네프사 야옹이 니트 비니 (다크 그레이) 7ARAX26320GYD",
+   "p": 68670,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[해삐/지구 PICK] [슈에띠즈] 체크 슬림 핏 셔츠 블라우스 (블랙) LASAX26200BKX",
+   "p": 110020,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[슈에띠즈] 더블 버튼 하프 코트 (다크 네이비) LACAX26310NYD",
+   "p": 298810,
+   "d": 35,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[민민데 PICK][슈에띠즈] 하이넥 페이크 퍼 자켓 LAOAX26310BKX",
+   "p": 270270,
+   "d": 37,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[지구,은현 PICK] [슈에띠즈] 하이넥 니트 가디건 (투웨이 착용) (블랙) LAWCX26220BKX",
+   "p": 129550,
+   "d": 35,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[민민데 PICK][슈에띠즈] 케이블 루즈핏 니트 풀오버 (다크 그레이) LAWAX26330GYD",
+   "p": 125370,
+   "d": 37,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[슈에띠즈] 백 버튼 슬릿 니트 풀오버 (다크 그레이) LAWAX26210GYD",
+   "p": 123040,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[슈에띠즈] 백 버튼 슬릿 니트 풀오버 (블루) LAWAX26210BUX",
+   "p": 123040,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[채모니 PICK] [슈에띠즈] 리본 포인트 벨벳 후드 점퍼 (브라운) LAUAX26350BRX",
+   "p": 142570,
+   "d": 35,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[채모니,민민데 PICK] [슈에띠즈] 덧장 디테일 카프리 팬츠 (다크 그레이) LAPNX26360GYD",
+   "p": 163170,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[채모니 PICK] [슈에띠즈] 페이크 퍼 자켓 (아이보리) LAOAX26300IVX",
+   "p": 259750,
+   "d": 35,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[지인 착용] Chouetties by LUCKY CHOUETTE Nordic Pattern Knit Pullover (ivory) LAWAX25300IVX",
+   "p": 79410,
+   "d": 60,
+   "lk": null,
+   "rt": 5,
+   "rv": 8,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[CASPER X CHOUETTIES] Casper Graphic Loose Fit Short Sleeve T-Shirt (white) LATAX26900WHX",
+   "p": 67230,
+   "d": 32,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 60,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[29CM 단독][10차리오더] Chouetties by LUCKY CHOUETTE_Low-Rise Leopard Denim Pants (beige)_LAPDX26330BEX",
+   "p": 121550,
+   "d": 32,
+   "lk": null,
+   "rt": 5,
+   "rv": 244,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[슈에띠즈] 네프사 브이넥 니트 풀오버 (다크 그레이) LAWAX26320GYD",
+   "p": 129550,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[지구 PICK] [슈에띠즈] 부츠컷 데님 팬츠 (다크 그레이) LAPDX26200GYD",
+   "p": 116530,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "Chouetties by LUCKY CHOUETTE Henley Neck Ribbed Long Sleeve T-shirt (black) LATAX26330BKX",
+   "p": 60440,
+   "d": 32,
+   "lk": null,
+   "rt": 5,
+   "rv": 7,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[리오더] Chouetties by LUCKY CHOUETTE_Sheer Slim Fit Long Sleeve T-shirts (melange grey)_LATAX26395GYM",
+   "p": 40070,
+   "d": 32,
+   "lk": null,
+   "rt": 5,
+   "rv": 31,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[해삐/지구 PICK] [슈에띠즈] 체크 티어드 스커트 (블랙) LAKAX26200BKX",
+   "p": 129550,
+   "d": 35,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[민민데 PICK] [슈에띠즈] 솔리드 배색 노르딕 집업 점퍼 (멀티 컬러) LAOAX26320XXX",
+   "p": 238770,
+   "d": 37,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "[슈에띠즈] 오버핏 벨티드 트렌치코트 (카키) LACAX26200KHX",
+   "p": 279280,
+   "d": 35,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[지구 PICK] [슈에띠즈] 하프기장 페이크 레더 자켓 (블랙) LAJAX26200BKX",
+   "p": 259750,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[지구,민민데 PICK][슈에띠즈] 플리스 귀도리 패딩 볼캡 (그레이) 7ARAX26330GYX",
+   "p": 62370,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Chouetties by LUCKY CHOUETTE Hem Frill Padding Jumper (multi color) LAUCX25300XXX",
+   "p": 159210,
+   "d": 60,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "단독"
+   ]
+  },
+  {
+   "n": "[리오더] Chouetties by LUCKY CHOUETTE Graphic Half Sleeve T-shirt (dark grey) LATAX26300GYD",
+   "p": 55300,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 494,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[슈에띠즈] 아가일 패턴 삭스 (그레이) 7ALAX26310GYX",
+   "p": 10350,
+   "d": 35,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  }
+ ],
+ "id": 24741,
+ "observed_at": "2026-10-29"
+}

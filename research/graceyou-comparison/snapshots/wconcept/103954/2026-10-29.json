@@ -1,0 +1,438 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/103954",
+ "title": "아모멘토(AMOMENTO) | W컨셉(W CONCEPT)",
+ "ko": "아모멘토",
+ "en": "AMOMENTO",
+ "intro": "아모멘토는 유행을 따르지않는 클래식함을 기반으로 시간이 지나도 변하지 않는 가치와 절제된 아름다움을 추구한다. 하트를 7.6만 개 받았어요 베스트 아이템 SCOOP NECK KNIT TOP (2COLORS) 149,000 1 HOURGLASS MINI DRESS_WHITE 289,000 2 COTTON SHIRTS DRESS_WHITE 249,000 3 COTTON VOLUME SHIRRING DRESS_CHARCOAL 269,000 4 SHEER LACE LONG SKIRT_WHITE 159,000 5 NYLON SHIRRING SHORTS_DARK BROWN 159,000 6 NYLON SHIRRING SHORTS_PURPLE 159,000 7 SHEER HALF ZIP-UP TOP_BLACK 179,000 8 SHEER HALF ZIP-UP TOP_BROWN 179,000 9 신규 아이템 NYLON VOLUME MINI DRESS_PURPLE 229,000 NYLON VOLUME MINI DRESS_BROWN 229,000 NYLON VOLUME MINI DRESS_BLACK 229,000 HOURGLASS MINI DRESS_WHITE 289,000 ",
+ "n": 74,
+ "p": {
+  "min": 69000,
+  "q1": 138600,
+  "med": 189000,
+  "q3": 239000,
+  "p90": 289000,
+  "max": 589000,
+  "mean": 199416
+ },
+ "disc": {
+  "n": 12,
+  "med": 30,
+  "max": 50
+ },
+ "names": [
+  "SCOOP NECK KNIT TOP (2COLORS)",
+  "HOURGLASS MINI DRESS_WHITE",
+  "COTTON SHIRTS DRESS_WHITE",
+  "COTTON VOLUME SHIRRING DRESS_CHARCOAL",
+  "SHEER LACE LONG SKIRT_WHITE",
+  "NYLON SHIRRING SHORTS_DARK BROWN",
+  "NYLON SHIRRING SHORTS_PURPLE",
+  "SHEER HALF ZIP-UP TOP_BLACK",
+  "SHEER HALF ZIP-UP TOP_BROWN",
+  "NYLON VOLUME MINI DRESS_PURPLE",
+  "NYLON VOLUME MINI DRESS_BROWN",
+  "NYLON VOLUME MINI DRESS_BLACK",
+  "INDIGO DENIM_LIGHT GREY",
+  "TAPERED FIT DENIM_WHITE",
+  "TAPERED FIT DENIM_BLACK",
+  "BASIC T-SHIRTS_WHITE",
+  "BASIC T-SHIRTS_GREY",
+  "BASIC T-SHIRTS_BLACK",
+  "SHEER HALF ZIP-UP TOP_WHITE",
+  "STRIPE OVERSIZED SHIRTS",
+  "OVERSIZED SHIRTS_LIGHT BLUE",
+  "OVERSIZED SHIRTS_LILAC",
+  "SHEER CROPPED KNIT_PINK",
+  "CROPPED ZIP-UP JUMPER_WHITE",
+  "SHEER TOTE BAG_BEIGE",
+  "KNOTTED COLLAR TOP_BLACK",
+  "KNOTTED COLLAR TOP_IVORY",
+  "NEW GRANDMA CARDIGAN(3COLORS)",
+  "RECYCLED COTTON DENIM (2 COLORS)",
+  "SHEER TOTE BAG_CHARCOAL",
+  "BOAT NECK TWO WAY JACKET_BLACK",
+  "VOLUME MINI DRESS_BLACK",
+  "SHEER MAXI LONG SKIRT_BLACK",
+  "COTTON VOLUME SHIRRING SHORTS_WHITE",
+  "179,000",
+  "COTTON VOLUME SHIRRING SHORTS_CHARCOAL",
+  "STRIPE BANDING PANTS_BROWN",
+  "198,000",
+  "SHEER BRA TOP_BROWN",
+  "159,000"
+ ],
+ "cards": [
+  {
+   "n": "SCOOP NECK KNIT TOP (2COLORS)",
+   "p": 149000,
+   "d": null
+  },
+  {
+   "n": "HOURGLASS MINI DRESS_WHITE",
+   "p": 289000,
+   "d": null
+  },
+  {
+   "n": "COTTON SHIRTS DRESS_WHITE",
+   "p": 249000,
+   "d": null
+  },
+  {
+   "n": "COTTON VOLUME SHIRRING DRESS_CHARCOAL",
+   "p": 269000,
+   "d": null
+  },
+  {
+   "n": "SHEER LACE LONG SKIRT_WHITE",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "NYLON SHIRRING SHORTS_DARK BROWN",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "NYLON SHIRRING SHORTS_PURPLE",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "SHEER HALF ZIP-UP TOP_BLACK",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "SHEER HALF ZIP-UP TOP_BROWN",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "NYLON VOLUME MINI DRESS_PURPLE",
+   "p": 229000,
+   "d": null
+  },
+  {
+   "n": "NYLON VOLUME MINI DRESS_BROWN",
+   "p": 229000,
+   "d": null
+  },
+  {
+   "n": "NYLON VOLUME MINI DRESS_BLACK",
+   "p": 229000,
+   "d": null
+  },
+  {
+   "n": "INDIGO DENIM_LIGHT GREY",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "TAPERED FIT DENIM_WHITE",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "TAPERED FIT DENIM_BLACK",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "BASIC T-SHIRTS_WHITE",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "BASIC T-SHIRTS_GREY",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "BASIC T-SHIRTS_BLACK",
+   "p": 79000,
+   "d": null
+  },
+  {
+   "n": "SHEER HALF ZIP-UP TOP_WHITE",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "STRIPE OVERSIZED SHIRTS",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "OVERSIZED SHIRTS_LIGHT BLUE",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "OVERSIZED SHIRTS_LILAC",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "SHEER CROPPED KNIT_PINK",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "CROPPED ZIP-UP JUMPER_WHITE",
+   "p": 279000,
+   "d": null
+  },
+  {
+   "n": "SHEER TOTE BAG_BEIGE",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "KNOTTED COLLAR TOP_BLACK",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "KNOTTED COLLAR TOP_IVORY",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "NEW GRANDMA CARDIGAN(3COLORS)",
+   "p": 124500,
+   "d": null
+  },
+  {
+   "n": "RECYCLED COTTON DENIM (2 COLORS)",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "SHEER TOTE BAG_CHARCOAL",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "BOAT NECK TWO WAY JACKET_BLACK",
+   "p": 398000,
+   "d": null
+  },
+  {
+   "n": "VOLUME MINI DRESS_BLACK",
+   "p": 209000,
+   "d": null
+  },
+  {
+   "n": "SHEER MAXI LONG SKIRT_BLACK",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "COTTON VOLUME SHIRRING SHORTS_WHITE",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "179,000",
+   "p": 125300,
+   "d": 30
+  },
+  {
+   "n": "COTTON VOLUME SHIRRING SHORTS_CHARCOAL",
+   "p": 179000,
+   "d": null
+  },
+  {
+   "n": "STRIPE BANDING PANTS_BROWN",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 138600,
+   "d": 30
+  },
+  {
+   "n": "SHEER BRA TOP_BROWN",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "159,000",
+   "p": 111300,
+   "d": 30
+  },
+  {
+   "n": "NYLON VOLUME SHIRRING TOP_PURPLE",
+   "p": 159000,
+   "d": null
+  },
+  {
+   "n": "HALF SLEEVE SHIRTS_WHITE",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "WHOLEGARMENT CAP SLEEVE KNIT TOP_GREY",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "189,000",
+   "p": 132300,
+   "d": 30
+  },
+  {
+   "n": "[한정특가] SHEER SCOOP NECK TWO WAY VEST_BLACK",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "189,000",
+   "p": 170100,
+   "d": 10
+  },
+  {
+   "n": "NECK SHIRRING VOLUME JUMPER_DARK BROWN",
+   "p": 289000,
+   "d": null
+  },
+  {
+   "n": "289,000",
+   "p": 202300,
+   "d": 30
+  },
+  {
+   "n": "WHOLEGARMENT CAP SLEEVE CARDIGAN_RED",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "WHOLEGARMENT CAP SLEEVE CARDIGAN_BLACK",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "BERMUDA PANTS_BLACK",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "STRIPE MAXI LONG SKIRT_BLACK",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "219,000",
+   "p": 197100,
+   "d": 10
+  },
+  {
+   "n": "HOURGLASS MINI DRESS_BLACK",
+   "p": 289000,
+   "d": null
+  },
+  {
+   "n": "HOURGLASS LONG DRESS_BLACK",
+   "p": 359000,
+   "d": null
+  },
+  {
+   "n": "SHEER CROPPED KNIT_WHITE",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "SHEER CROPPED KNIT_BLACK",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "129,000",
+   "p": 90300,
+   "d": 30
+  },
+  {
+   "n": "CROPPED ZIP-UP JUMPER_BLACK",
+   "p": 279000,
+   "d": null
+  },
+  {
+   "n": "MIX BOUCLE CROP KNIT(2COLORS)",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "259,000",
+   "p": 129500,
+   "d": 50
+  },
+  {
+   "n": "FULL NEEDLE CROP BLOUSON(3COLORS)",
+   "p": 279000,
+   "d": null
+  },
+  {
+   "n": "SHEER ROUND NECK PADDED TOP(2COLORS)",
+   "p": 259000,
+   "d": null
+  },
+  {
+   "n": "VELVET DRAWSTRING MAXI SKIRT(2COLORS)",
+   "p": 219000,
+   "d": null
+  },
+  {
+   "n": "219,000",
+   "p": 109500,
+   "d": 50
+  },
+  {
+   "n": "FRILL PADDED PANTS(2COLORS)",
+   "p": 309000,
+   "d": null
+  },
+  {
+   "n": "TURTLE T-SHIRTS(4 COLORS)",
+   "p": 69000,
+   "d": null
+  },
+  {
+   "n": "SHEER PADDED JACKET(BLACK)",
+   "p": 389000,
+   "d": null
+  },
+  {
+   "n": "HAIRY OVERSIZED JACKET(2COLORS)",
+   "p": 589000,
+   "d": null
+  },
+  {
+   "n": "NEW GRANDMA CARDIGAN(3COLORS)",
+   "p": 249000,
+   "d": null
+  },
+  {
+   "n": "249,000",
+   "p": 124500,
+   "d": 50
+  },
+  {
+   "n": "SHEER COTTON DRAWSTRING TOP (2COLORS)",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "189,000",
+   "p": 94500,
+   "d": 50
+  },
+  {
+   "n": "SHEER SHIRRING HOODED BLOUSE (2 COLORS)",
+   "p": 219000,
+   "d": null
+  }
+ ],
+ "id": 103954,
+ "observed_at": "2026-10-29"
+}

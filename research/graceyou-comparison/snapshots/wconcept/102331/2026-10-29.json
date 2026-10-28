@@ -1,0 +1,563 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/102331",
+ "title": "렉토(RECTO) | W컨셉(W CONCEPT)",
+ "ko": "렉토",
+ "en": "RECTO",
+ "intro": "렉토는 아름다움에 대한 탐구로부터 시작되어 고유한 미적감각을 공유하는 패션 브랜드입니다. 정교한 완성도로 지속 가능한 패션을 만들어 내는 것에 집중하며, 동시대를 탐구하고 반영한 뉴 클래식을 선보입니다. RECTO 26FW 2nd DROP 오늘 출발 & 적립금 혜택 ICON FOR FALL 지금 입고 싶은, 이번 시즌 필요한 것. RECTO SEASON OFF UPTO 60% OFF & 오늘 출발 빠른 배송으로 만나보는 인기 브랜드 흐꺙/홈오브하이/렉토/숄/던스트 등 퀵 배송 특가 렉토 WEARING THE PAUSE 하트를 24.9만 개 받았어요 최근 조회수가 3.2만을 넘었어요 베스트 아이템 SUEDE HARRINGTON JUMPER (SCARLET RED) 1,350,000 1 CURVED NECK FLUID LONG JACKET (BLACK) 575,000 2 LAYERED SHAWL KNIT TOP (MELANGE GREY) 435,000 3 FOLDED COLLAR POINT SHIRT (STONE GREY) 365,000 4 HIGH WAIST DRAPED SKIRT (DARK CHOCOLATE) 335,000 5 WOOL TRIANGLE SCA",
+ "n": 99,
+ "p": {
+  "min": 69000,
+  "q1": 325000,
+  "med": 365000,
+  "q3": 535000,
+  "p90": 835000,
+  "max": 1350000,
+  "mean": 435475
+ },
+ "disc": {
+  "n": 7,
+  "med": 40,
+  "max": 40
+ },
+ "names": [
+  "SUEDE HARRINGTON JUMPER (SCARLET RED)",
+  "CURVED NECK FLUID LONG JACKET (BLACK)",
+  "LAYERED SHAWL KNIT TOP (MELANGE GREY)",
+  "FOLDED COLLAR POINT SHIRT (STONE GREY)",
+  "HIGH WAIST DRAPED SKIRT (DARK CHOCOLATE)",
+  "WOOL TRIANGLE SCARF (RED)",
+  "HANDMADE HOOD BELTED COAT (DARK CHOCOLATE)",
+  "SHIRT CUFFS DETAIL KNIT TOP (LIGHT TAUPE)",
+  "POINT COLLAR FLUID SHIRT (IVORY)",
+  "OPERA COLLAR LAMA WOOL COAT (OCHRE)",
+  "OPERA COLLAR LAMA WOOL COAT (BLACK)",
+  "HANDMADE WOOL BELTED JUMPER (DARK NAVY)",
+  "HANDMADE ROBE COAT (CHARCOAL GREY)",
+  "STRAIGHT CORDUROY PANTS (ROYAL BLUE)",
+  "STRAIGHT CORDUROY PANTS (BROWN)",
+  "DOUBLE SHOULDER POLO KNIT TOP (CHARCOAL GREY)",
+  "DOUBLE FACE CONTRAST KNIT TOP (TAUPE BROWN)",
+  "DOUBLE FACE CONTRAST KNIT TOP (CHARCOAL GREY)",
+  "RAGLAN SLEEVE TRENCH JACKET (BLACK)",
+  "RAGLAN SLEEVE TRENCH JACKET (BEIGE)",
+  "OVERSIZED DADDY JACKET (DARK GREY)",
+  "DRAPE DETAIL SUIT JACKET (LIGHT BEIGE)",
+  "DRAPE DETAIL SUIT JACKET (IVORY)",
+  "PEPLUM KNIT CARDIGAN (VINTAGE BROWN)",
+  "PEPLUM KNIT CARDIGAN (STONE GREY)",
+  "SINGULAR TOTE MINI (ROYAL BLUE)",
+  "SINGULAR TOTE MINI (VINTAGE RED)",
+  "WOOL TRIANGLE SCARF (ROYAL BLUE)",
+  "LAYERED SHAWL KNIT TOP (CREAM)",
+  "SHIRT CUFFS DETAIL KNIT TOP (INDIGO NAVY)",
+  "DOLMAN SLEEVES KNIT POLO TOP (KHAKI BROWN)",
+  "RC SIGNATURE CURVED NECK DRESS (BLACK)",
+  "[10% 적립] OPERA COLLAR LAMA WOOL COAT (OCHRE)",
+  "[10% 적립] CURVED NECK FLUID LONG JACKET (BLACK)",
+  "[10% 적립] SUEDE HARRINGTON JUMPER (SCARLET RED)",
+  "[10% 적립] OPERA COLLAR LAMA WOOL COAT (BLACK)",
+  "[10% 적립] HANDMADE HOOD BELTED COAT (DARK CHOCOLATE)",
+  "[10% 적립] WOOL TRIANGLE SCARF (RED)",
+  "[10% 적립] HIGH WAIST DRAPED SKIRT (DARK CHOCOLATE)",
+  "[10% 적립] POINT COLLAR FLUID SHIRT (IVORY)"
+ ],
+ "cards": [
+  {
+   "n": "SUEDE HARRINGTON JUMPER (SCARLET RED)",
+   "p": 1350000,
+   "d": null
+  },
+  {
+   "n": "CURVED NECK FLUID LONG JACKET (BLACK)",
+   "p": 575000,
+   "d": null
+  },
+  {
+   "n": "LAYERED SHAWL KNIT TOP (MELANGE GREY)",
+   "p": 435000,
+   "d": null
+  },
+  {
+   "n": "FOLDED COLLAR POINT SHIRT (STONE GREY)",
+   "p": 365000,
+   "d": null
+  },
+  {
+   "n": "HIGH WAIST DRAPED SKIRT (DARK CHOCOLATE)",
+   "p": 335000,
+   "d": null
+  },
+  {
+   "n": "WOOL TRIANGLE SCARF (RED)",
+   "p": 135000,
+   "d": null
+  },
+  {
+   "n": "HANDMADE HOOD BELTED COAT (DARK CHOCOLATE)",
+   "p": 795000,
+   "d": null
+  },
+  {
+   "n": "SHIRT CUFFS DETAIL KNIT TOP (LIGHT TAUPE)",
+   "p": 335000,
+   "d": null
+  },
+  {
+   "n": "POINT COLLAR FLUID SHIRT (IVORY)",
+   "p": 335000,
+   "d": null
+  },
+  {
+   "n": "OPERA COLLAR LAMA WOOL COAT (OCHRE)",
+   "p": 835000,
+   "d": null
+  },
+  {
+   "n": "OPERA COLLAR LAMA WOOL COAT (BLACK)",
+   "p": 835000,
+   "d": null
+  },
+  {
+   "n": "HANDMADE WOOL BELTED JUMPER (DARK NAVY)",
+   "p": 675000,
+   "d": null
+  },
+  {
+   "n": "HANDMADE ROBE COAT (CHARCOAL GREY)",
+   "p": 1050000,
+   "d": null
+  },
+  {
+   "n": "STRAIGHT CORDUROY PANTS (ROYAL BLUE)",
+   "p": 335000,
+   "d": null
+  },
+  {
+   "n": "STRAIGHT CORDUROY PANTS (BROWN)",
+   "p": 335000,
+   "d": null
+  },
+  {
+   "n": "DOUBLE SHOULDER POLO KNIT TOP (CHARCOAL GREY)",
+   "p": 355000,
+   "d": null
+  },
+  {
+   "n": "DOUBLE FACE CONTRAST KNIT TOP (TAUPE BROWN)",
+   "p": 435000,
+   "d": null
+  },
+  {
+   "n": "DOUBLE FACE CONTRAST KNIT TOP (CHARCOAL GREY)",
+   "p": 435000,
+   "d": null
+  },
+  {
+   "n": "RAGLAN SLEEVE TRENCH JACKET (BLACK)",
+   "p": 695000,
+   "d": null
+  },
+  {
+   "n": "RAGLAN SLEEVE TRENCH JACKET (BEIGE)",
+   "p": 695000,
+   "d": null
+  },
+  {
+   "n": "OVERSIZED DADDY JACKET (DARK GREY)",
+   "p": 895000,
+   "d": null
+  },
+  {
+   "n": "DRAPE DETAIL SUIT JACKET (LIGHT BEIGE)",
+   "p": 535000,
+   "d": null
+  },
+  {
+   "n": "DRAPE DETAIL SUIT JACKET (IVORY)",
+   "p": 535000,
+   "d": null
+  },
+  {
+   "n": "PEPLUM KNIT CARDIGAN (VINTAGE BROWN)",
+   "p": 365000,
+   "d": null
+  },
+  {
+   "n": "PEPLUM KNIT CARDIGAN (STONE GREY)",
+   "p": 365000,
+   "d": null
+  },
+  {
+   "n": "SINGULAR TOTE MINI (ROYAL BLUE)",
+   "p": 325000,
+   "d": null
+  },
+  {
+   "n": "SINGULAR TOTE MINI (VINTAGE RED)",
+   "p": 325000,
+   "d": null
+  },
+  {
+   "n": "WOOL TRIANGLE SCARF (ROYAL BLUE)",
+   "p": 135000,
+   "d": null
+  },
+  {
+   "n": "LAYERED SHAWL KNIT TOP (CREAM)",
+   "p": 435000,
+   "d": null
+  },
+  {
+   "n": "SHIRT CUFFS DETAIL KNIT TOP (INDIGO NAVY)",
+   "p": 335000,
+   "d": null
+  },
+  {
+   "n": "DOLMAN SLEEVES KNIT POLO TOP (KHAKI BROWN)",
+   "p": 358000,
+   "d": null
+  },
+  {
+   "n": "RC SIGNATURE CURVED NECK DRESS (BLACK)",
+   "p": 368000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] OPERA COLLAR LAMA WOOL COAT (OCHRE)",
+   "p": 835000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] CURVED NECK FLUID LONG JACKET (BLACK)",
+   "p": 575000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] SUEDE HARRINGTON JUMPER (SCARLET RED)",
+   "p": 1350000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] OPERA COLLAR LAMA WOOL COAT (BLACK)",
+   "p": 835000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] HANDMADE HOOD BELTED COAT (DARK CHOCOLATE)",
+   "p": 795000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] WOOL TRIANGLE SCARF (RED)",
+   "p": 135000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] HIGH WAIST DRAPED SKIRT (DARK CHOCOLATE)",
+   "p": 335000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] POINT COLLAR FLUID SHIRT (IVORY)",
+   "p": 335000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] WOOL TRIANGLE SCARF (ROYAL BLUE)",
+   "p": 135000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] HIGH WAIST DRAPED SKIRT (BEAN IVORY)",
+   "p": 335000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] POINT COLLAR FLUID SHIRT (MARRON)",
+   "p": 335000,
+   "d": null
+  },
+  {
+   "n": "[공식] POINT COLLAR FLUID SHIRT (TURQUOISE BLUE)",
+   "p": 335000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] RAGLAN SLEEVE TRENCH JACKET (BLACK)",
+   "p": 695000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] LAYERED SHAWL KNIT TOP (MELANGE GREY)",
+   "p": 435000,
+   "d": null
+  },
+  {
+   "n": "[시즌오프] TAILORED SUIT JACKET (MIDNIGHT GREY)",
+   "p": 695000,
+   "d": null
+  },
+  {
+   "n": "695,000",
+   "p": 417000,
+   "d": 40
+  },
+  {
+   "n": "[10% 적립] FOLDED COLLAR POINT SHIRT (STONE GREY)",
+   "p": 365000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] SHIRT CUFFS DETAIL KNIT TOP (LIGHT TAUPE)",
+   "p": 335000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] STRAIGHT CORDUROY PANTS (ROYAL BLUE)",
+   "p": 335000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] RC EMBROIDERY SHEER KNIT TOP (BLACK)",
+   "p": 265000,
+   "d": null
+  },
+  {
+   "n": "265,000",
+   "p": 159000,
+   "d": 40
+  },
+  {
+   "n": "[10% 적립] LIGHTWEIGHT TUCK PANTS (CHARCOAL GREY)",
+   "p": 345000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] OFF SHOULDER RIBBED KNIT TOP (BLACK)",
+   "p": 295000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] MILLE-FEUILLE DRESS (BLACK)",
+   "p": 435000,
+   "d": null
+  },
+  {
+   "n": "435,000",
+   "p": 261000,
+   "d": 40
+  },
+  {
+   "n": "[10% 적립] RAGLAN SLEEVE TRENCH JACKET (BEIGE)",
+   "p": 695000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] SINGULAR TOTE MINI (ROYAL BLUE)",
+   "p": 325000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] LIGHTWEIGHT TUCK PANTS (SAND BEIGE)",
+   "p": 345000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] WIDE FIT STRAIGHT PANTS (BLACK)",
+   "p": 375000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] LAYERED SHAWL KNIT TOP (CREAM)",
+   "p": 435000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] DRAPE DETAIL SUIT JACKET (IVORY)",
+   "p": 535000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] PETIT WOOL KNIT MUFFLER (IVORY)",
+   "p": 135000,
+   "d": null
+  },
+  {
+   "n": "135,000",
+   "p": 81000,
+   "d": 40
+  },
+  {
+   "n": "[10% 적립] KNIT BERET (DARK NAVY)",
+   "p": 115000,
+   "d": null
+  },
+  {
+   "n": "115,000",
+   "p": 69000,
+   "d": 40
+  },
+  {
+   "n": "[10% 적립] OPEN BACK DRAPED SHIRT (BEAN IVORY)",
+   "p": 295000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] WAVE JACQUARD DRESS (BLACK)",
+   "p": 465000,
+   "d": null
+  },
+  {
+   "n": "465,000",
+   "p": 279000,
+   "d": 40
+  },
+  {
+   "n": "[10% 적립] HANDMADE ROBE COAT (CHARCOAL GREY)",
+   "p": 1050000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] RC EMBROIDERY SHEER KNIT TOP (CREAM)",
+   "p": 265000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] WIDE FIT SUIT PANTS (SEPIA)",
+   "p": 415000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] FOLDED DETAIL NYLON MINI DRESS (BLACK)",
+   "p": 318000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] DOUBLE FACE CONTRAST KNIT TOP (CHARCOAL GREY)",
+   "p": 435000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] DOUBLE FACE CONTRAST KNIT TOP (TAUPE BROWN)",
+   "p": 435000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] PEPLUM KNIT CARDIGAN (STONE GREY)",
+   "p": 365000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] SHIRT CUFFS DETAIL KNIT TOP (INDIGO NAVY)",
+   "p": 335000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] HAIRY BALACLAVA KNIT TOP (CREAM)",
+   "p": 395000,
+   "d": null
+  },
+  {
+   "n": "395,000",
+   "p": 237000,
+   "d": 40
+  },
+  {
+   "n": "[10% 적립] OVERSIZED DADDY JACKET (DARK GREY)",
+   "p": 895000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] HANDMADE WOOL BELTED JUMPER (DARK NAVY)",
+   "p": 675000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] TWIST DETAIL DRESS (BLACK)",
+   "p": 535000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] DRAPE DETAIL SUIT JACKET (LIGHT BEIGE)",
+   "p": 535000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] PEPLUM KNIT CARDIGAN (VINTAGE BROWN)",
+   "p": 365000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] VOLUME SLEEVE OXFORD SHIRT (VINTAGE BROWN)",
+   "p": 365000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] VOLUME SLEEVE OXFORD SHIRT (OFF WHITE)",
+   "p": 365000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] DOUBLE SHOULDER POLO KNIT TOP (CHARCOAL GREY)",
+   "p": 355000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] STRAIGHT CORDUROY PANTS (BROWN)",
+   "p": 335000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] REGULAR FIT DENIM PANTS (INDIGO NAVY)",
+   "p": 335000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] DETACHABLE SCARF COTTON SHIRT (OFF WHITE)",
+   "p": 335000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] SINGULAR TOTE MINI (VINTAGE RED)",
+   "p": 325000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] OPEN BACK SILK BLEND SCARF TOP (CREAM)",
+   "p": 275000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] HAIRY BALACLAVA KNIT TOP (BLACK)",
+   "p": 395000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] RC EMBROIDERY SHEER KNIT TOP (SCALET RED)",
+   "p": 265000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] PLEATS PETIT SCARF (PINK)",
+   "p": 135000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] CASHMERE BLEND FITTED T-SHIRT (MELANGE GREY)",
+   "p": 135000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] LONG LENGTH SLIM FIT TOP (OFF WHITE)",
+   "p": 105000,
+   "d": null
+  },
+  {
+   "n": "[10% 적립] BANDING WIDE CULOTTE PANTS (BLACK)",
+   "p": 295000,
+   "d": null
+  }
+ ],
+ "id": 102331,
+ "observed_at": "2026-10-29"
+}

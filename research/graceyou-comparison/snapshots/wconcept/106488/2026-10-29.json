@@ -1,0 +1,833 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/106488",
+ "title": "러브듀이(LVDWY) | W컨셉(W CONCEPT)",
+ "ko": "러브듀이",
+ "en": "LVDWY",
+ "intro": "당신의 하루가 더욱 충만하도록 LVDWY는 구두라는 일상의 도구를 짓습니다. 이슬이 맺힌 새벽녘의 싱그러움(dewy)처럼, 생동하는 시작을 보듬는 마음(love)을 담았습니다. 편안하게 발을 감싸는 안락함과 시선이 멈추는 디자인으로 마냥 걷고 싶은 나날을 선물합니다. 모든걸음의 출발선에서 매일 나아가는 당신의 첫번째 동행이 되겠습니다.",
+ "n": 153,
+ "p": {
+  "min": 1046,
+  "q1": 142120,
+  "med": 163400,
+  "q3": 205000,
+  "p90": 245000,
+  "max": 395000,
+  "mean": 164311
+ },
+ "disc": {
+  "n": 67,
+  "med": 27,
+  "max": 35
+ },
+ "names": [
+  "[단독]PIPI ballet pumps (3colors, 4cm)_ 피피 발레펌프스",
+  "[단독]MAVE loafer (3cm)_메이브로퍼",
+  "[단독]Standard ankle boots_3colors",
+  "[단독]Bow kitten heel (3cm, 2color)",
+  "[단독]ATELIER flat (3cm, 5colors)_아뜰리에 플랫",
+  "[단독]CITY wedge slingback (5cm, 2colors) / 시티웨지슬링백",
+  "[단독]23 V heel (5cm, 2colors)",
+  "[단독]2 STRAP maryjane (5cm, 4colors) _ 투스트랩메리제인",
+  "[단독]All new ribbon(suede ver. 2cm, 3colors)",
+  "[단독]MOMO knot flat (2cm, 4colors) / 모모 노트플랫",
+  "[단독]FLEUVE slingback (3cm) / 플레브슬링백",
+  "[단독]V CUT wedge slingback (5cm)_ 브이컷웨지슬링백",
+  "[단독]NOIR wedge mule (5cm) _ 누아르 웨지뮬",
+  "[단독]MAGOT maryjane (2cm, 2colors) / 마고메리제인",
+  "[단독]MAREN pumps (5cm, 3colors) / 마렌 펌프스",
+  "[단독]MORPH pumps (5cm, 2colors) / 모프펌프스",
+  "[단독]MACARON ribbon flat(6colors, 2cm)",
+  "[단독]SIGNATURE ribbon slingback (3cm, 7colors)_시그니쳐리본슬링백",
+  "[단독] Signature ribbon flat (6colors, 3cm)",
+  "[단독]Tulip slingback(10color)",
+  "[단독]Braid slingback(3color)",
+  "[단독]DEMOORE slingback (5cm, 3colors)_드무어슬링백",
+  "[단독]PLIE ribbon flat (1cm, 4colors)_플리에 리본플랫",
+  "[단독]PLIE loafer (1cm, 2color)_플리에 로퍼",
+  "[단독][일부사이즈당일출고] WELT pumps (5&7cm, 4color)_웰트펌프스",
+  "[단독]BALLET STRAP flat (1cm, 6colors)_발렛스트랩플랫",
+  "[단독]Fondement loafer (2.5cm, 6colors)_폰드먼트로퍼",
+  "[단독]LINE WEDGE slingback (4cm, 4colors)_라인웨지슬링백",
+  "[단독] DEMOORE slingback(sapngle 5cm) _ 드무어슬링백(스팽글)",
+  "[단독]CITY sandal (mesh ver. 6cm, 3color)_시티샌들 메쉬",
+  "[단독]CITY sandal (solid ver. 6cm, 4color)_시티샌들 솔리드",
+  "[단독]X strap slingback(7cm, 3colors)",
+  "[단독]BALLET STRAP flat _ 스터드 (1cm, 2colors) _ 발렛스트랩플랫(스터드)",
+  "[단독]SILHOUETTE mary jane (1cm, 3colors)_실루엣메리제인",
+  "[단독]SILHOUETTE round toe flat (1cm, 5colors)_실루엣플랫",
+  "[단독]LINEA flip flops (1cm, 4colors)_리네아플립플랍 쪼리",
+  "[단독]20-2WAY SANDAL (3cm, 10color) _ 20투웨이샌들",
+  "[단독]PIPI ballet pumps (3colors, 4cm)_ 피피 발레펌프스",
+  "195,000",
+  "(30)"
+ ],
+ "cards": [
+  {
+   "n": "[단독]PIPI ballet pumps (3colors, 4cm)_ 피피 발레펌프스",
+   "p": 136992,
+   "d": 29
+  },
+  {
+   "n": "[단독]MAVE loafer (3cm)_메이브로퍼",
+   "p": 163476,
+   "d": 31
+  },
+  {
+   "n": "[단독]Standard ankle boots_3colors",
+   "p": 158270,
+   "d": 35
+  },
+  {
+   "n": "[단독]Bow kitten heel (3cm, 2color)",
+   "p": 144400,
+   "d": 24
+  },
+  {
+   "n": "[단독]ATELIER flat (3cm, 5colors)_아뜰리에 플랫",
+   "p": 143640,
+   "d": 31
+  },
+  {
+   "n": "[단독]CITY wedge slingback (5cm, 2colors) / 시티웨지슬링백",
+   "p": 149112,
+   "d": 31
+  },
+  {
+   "n": "[단독]23 V heel (5cm, 2colors)",
+   "p": 144400,
+   "d": 24
+  },
+  {
+   "n": "[단독]2 STRAP maryjane (5cm, 4colors) _ 투스트랩메리제인",
+   "p": 135660,
+   "d": 35
+  },
+  {
+   "n": "[단독]All new ribbon(suede ver. 2cm, 3colors)",
+   "p": 129960,
+   "d": 31
+  },
+  {
+   "n": "[단독]MOMO knot flat (2cm, 4colors) / 모모 노트플랫",
+   "p": 135432,
+   "d": 31
+  },
+  {
+   "n": "[단독]FLEUVE slingback (3cm) / 플레브슬링백",
+   "p": 148010,
+   "d": 27
+  },
+  {
+   "n": "[단독]V CUT wedge slingback (5cm)_ 브이컷웨지슬링백",
+   "p": 155230,
+   "d": 27
+  },
+  {
+   "n": "[단독]NOIR wedge mule (5cm) _ 누아르 웨지뮬",
+   "p": 151620,
+   "d": 27
+  },
+  {
+   "n": "[단독]MAGOT maryjane (2cm, 2colors) / 마고메리제인",
+   "p": 150176,
+   "d": 27
+  },
+  {
+   "n": "[단독]MAREN pumps (5cm, 3colors) / 마렌 펌프스",
+   "p": 151620,
+   "d": 27
+  },
+  {
+   "n": "[단독]MORPH pumps (5cm, 2colors) / 모프펌프스",
+   "p": 151620,
+   "d": 27
+  },
+  {
+   "n": "[단독]MACARON ribbon flat(6colors, 2cm)",
+   "p": 140790,
+   "d": 27
+  },
+  {
+   "n": "[단독]SIGNATURE ribbon slingback (3cm, 7colors)_시그니쳐리본슬링백",
+   "p": 125400,
+   "d": 24
+  },
+  {
+   "n": "[단독] Signature ribbon flat (6colors, 3cm)",
+   "p": 112860,
+   "d": 31
+  },
+  {
+   "n": "[단독]Tulip slingback(10color)",
+   "p": 144400,
+   "d": 24
+  },
+  {
+   "n": "[단독]Braid slingback(3color)",
+   "p": 144400,
+   "d": 24
+  },
+  {
+   "n": "[단독]DEMOORE slingback (5cm, 3colors)_드무어슬링백",
+   "p": 150480,
+   "d": 24
+  },
+  {
+   "n": "[단독]PLIE ribbon flat (1cm, 4colors)_플리에 리본플랫",
+   "p": 157396,
+   "d": 27
+  },
+  {
+   "n": "[단독]PLIE loafer (1cm, 2color)_플리에 로퍼",
+   "p": 169670,
+   "d": 27
+  },
+  {
+   "n": "[단독][일부사이즈당일출고] WELT pumps (5&7cm, 4color)_웰트펌프스",
+   "p": 142120,
+   "d": 35
+  },
+  {
+   "n": "[단독]BALLET STRAP flat (1cm, 6colors)_발렛스트랩플랫",
+   "p": 157396,
+   "d": 27
+  },
+  {
+   "n": "[단독]Fondement loafer (2.5cm, 6colors)_폰드먼트로퍼",
+   "p": 184832,
+   "d": 27
+  },
+  {
+   "n": "[단독]LINE WEDGE slingback (4cm, 4colors)_라인웨지슬링백",
+   "p": 163400,
+   "d": 24
+  },
+  {
+   "n": "[단독] DEMOORE slingback(sapngle 5cm) _ 드무어슬링백(스팽글)",
+   "p": 178600,
+   "d": 24
+  },
+  {
+   "n": "[단독]CITY sandal (mesh ver. 6cm, 3color)_시티샌들 메쉬",
+   "p": 155800,
+   "d": null
+  },
+  {
+   "n": "[단독]CITY sandal (solid ver. 6cm, 4color)_시티샌들 솔리드",
+   "p": 155800,
+   "d": null
+  },
+  {
+   "n": "[단독]X strap slingback(7cm, 3colors)",
+   "p": 144400,
+   "d": null
+  },
+  {
+   "n": "[단독]BALLET STRAP flat _ 스터드 (1cm, 2colors) _ 발렛스트랩플랫(스터드)",
+   "p": 177080,
+   "d": null
+  },
+  {
+   "n": "[단독]SILHOUETTE mary jane (1cm, 3colors)_실루엣메리제인",
+   "p": 163400,
+   "d": null
+  },
+  {
+   "n": "[단독]SILHOUETTE round toe flat (1cm, 5colors)_실루엣플랫",
+   "p": 159600,
+   "d": null
+  },
+  {
+   "n": "[단독]LINEA flip flops (1cm, 4colors)_리네아플립플랍 쪼리",
+   "p": 57152,
+   "d": null
+  },
+  {
+   "n": "[단독]20-2WAY SANDAL (3cm, 10color) _ 20투웨이샌들",
+   "p": 125400,
+   "d": null
+  },
+  {
+   "n": "[단독]PIPI ballet pumps (3colors, 4cm)_ 피피 발레펌프스",
+   "p": 195000,
+   "d": null
+  },
+  {
+   "n": "195,000",
+   "p": 136992,
+   "d": 29
+  },
+  {
+   "n": "(30)",
+   "p": 3085,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]MAVE loafer (3cm)_메이브로퍼",
+   "p": 239000,
+   "d": null
+  },
+  {
+   "n": "239,000",
+   "p": 163476,
+   "d": 31
+  },
+  {
+   "n": "(7)",
+   "p": 1046,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]Standard ankle boots_3colors",
+   "p": 245000,
+   "d": null
+  },
+  {
+   "n": "245,000",
+   "p": 158270,
+   "d": 35
+  },
+  {
+   "n": "(103)",
+   "p": 2182,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]Bow kitten heel (3cm, 2color)",
+   "p": 190000,
+   "d": null
+  },
+  {
+   "n": "190,000",
+   "p": 144400,
+   "d": 24
+  },
+  {
+   "n": "(28)",
+   "p": 2392,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]ATELIER flat (3cm, 5colors)_아뜰리에 플랫",
+   "p": 210000,
+   "d": null
+  },
+  {
+   "n": "210,000",
+   "p": 143640,
+   "d": 31
+  },
+  {
+   "n": "[20%쿠폰] [단독]23 V heel (5cm, 2colors)",
+   "p": 190000,
+   "d": null
+  },
+  {
+   "n": "(25)",
+   "p": 3226,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]CITY wedge slingback (5cm, 2colors) / 시티웨지슬링백",
+   "p": 218000,
+   "d": null
+  },
+  {
+   "n": "218,000",
+   "p": 149112,
+   "d": 31
+  },
+  {
+   "n": "[20%쿠폰] [단독][일부사이즈당일출고] WELT pumps (5&7cm, 4color)_웰트펌프스",
+   "p": 220000,
+   "d": null
+  },
+  {
+   "n": "220,000",
+   "p": 142120,
+   "d": 35
+  },
+  {
+   "n": "[20%쿠폰] [단독]Essential loafer(solid ver 1cm, 4colors)",
+   "p": 195000,
+   "d": null
+  },
+  {
+   "n": "195,000",
+   "p": 133380,
+   "d": 31
+  },
+  {
+   "n": "[20%쿠폰] [단독]All new ribbon(suede ver. 2cm, 3colors)",
+   "p": 190000,
+   "d": null
+  },
+  {
+   "n": "190,000",
+   "p": 129960,
+   "d": 31
+  },
+  {
+   "n": "[20%쿠폰] [단독] Signature ribbon flat (6colors, 3cm)",
+   "p": 165000,
+   "d": null
+  },
+  {
+   "n": "165,000",
+   "p": 112860,
+   "d": 31
+  },
+  {
+   "n": "(156)",
+   "p": 8997,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독] OBLIQUE strap slingback (5cm, 3colors)_오블리크 스트랩슬링백",
+   "p": 210000,
+   "d": null
+  },
+  {
+   "n": "210,000",
+   "p": 159600,
+   "d": 24
+  },
+  {
+   "n": "[20%쿠폰] [단독]Renewal back zip up ankle / vintage black (5cm, 7cm)",
+   "p": 245000,
+   "d": null
+  },
+  {
+   "n": "245,000",
+   "p": 186200,
+   "d": 24
+  },
+  {
+   "n": "[20%쿠폰] [단독]2 STRAP maryjane (5cm, 4colors) _ 투스트랩메리제인",
+   "p": 210000,
+   "d": null
+  },
+  {
+   "n": "210,000",
+   "p": 135660,
+   "d": 35
+  },
+  {
+   "n": "(167)",
+   "p": 5586,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]Pointed toe elodie (3colors, 2cm)",
+   "p": 200000,
+   "d": null
+  },
+  {
+   "n": "200,000",
+   "p": 152000,
+   "d": 24
+  },
+  {
+   "n": "(25)",
+   "p": 2563,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]All new ribbon(gold toe ver 2cm, 2colors)",
+   "p": 190000,
+   "d": null
+  },
+  {
+   "n": "190,000",
+   "p": 137180,
+   "d": 27
+  },
+  {
+   "n": "(37)",
+   "p": 3275,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]Saddle long boots / black(basic)",
+   "p": 395000,
+   "d": null
+  },
+  {
+   "n": "395,000",
+   "p": 300200,
+   "d": 24
+  },
+  {
+   "n": "[20%쿠폰] [단독]SIGNATURE ribbon slingback (3cm, 7colors)_시그니쳐리본슬링백",
+   "p": 165000,
+   "d": null
+  },
+  {
+   "n": "165,000",
+   "p": 125400,
+   "d": 24
+  },
+  {
+   "n": "(85)",
+   "p": 5028,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독] ALL NEW ribbon(black toe ver 2cm, 3colors)",
+   "p": 190000,
+   "d": null
+  },
+  {
+   "n": "(14)",
+   "p": 1494,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]Macaron mary jane (2cm, 2colors)",
+   "p": 195000,
+   "d": null
+  },
+  {
+   "n": "195,000",
+   "p": 140790,
+   "d": 27
+  },
+  {
+   "n": "[20%쿠폰] [단독]MAREN pumps (5cm, 3colors) / 마렌 펌프스",
+   "p": 210000,
+   "d": null
+  },
+  {
+   "n": "210,000",
+   "p": 151620,
+   "d": 27
+  },
+  {
+   "n": "[20%쿠폰] [단독]V CUT wedge slingback (5cm)_ 브이컷웨지슬링백",
+   "p": 215000,
+   "d": null
+  },
+  {
+   "n": "215,000",
+   "p": 155230,
+   "d": 27
+  },
+  {
+   "n": "[20%쿠폰] [단독]Hermoso T strap / Black suede (5cm)",
+   "p": 190000,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]Stitch penny loafer (7color)",
+   "p": 205000,
+   "d": null
+  },
+  {
+   "n": "205,000",
+   "p": 155800,
+   "d": 24
+  },
+  {
+   "n": "(99)",
+   "p": 1805,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]MOMO knot flat (2cm, 4colors) / 모모 노트플랫",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 135432,
+   "d": 31
+  },
+  {
+   "n": "[20%쿠폰] [단독]Belt ankle boots(2colors, 7cm)",
+   "p": 260000,
+   "d": null
+  },
+  {
+   "n": "260,000",
+   "p": 197600,
+   "d": 24
+  },
+  {
+   "n": "[20%쿠폰] [단독]CITY mary jane (Spangle ver 3cm, 2color)_시티메리제인 스팽글",
+   "p": 235000,
+   "d": null
+  },
+  {
+   "n": "235,000",
+   "p": 178600,
+   "d": 24
+  },
+  {
+   "n": "(8)",
+   "p": 2322,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]CITY pumps(2colors, 5cm)",
+   "p": 205000,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]DEMOORE stiletto(5colors, 5cm)",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 150480,
+   "d": 24
+  },
+  {
+   "n": "[20%쿠폰] [단독]Welt midi boots (3colors, 3cm)",
+   "p": 320000,
+   "d": null
+  },
+  {
+   "n": "320,000",
+   "p": 218880,
+   "d": 31
+  },
+  {
+   "n": "[20%쿠폰] [단독]BALLET STRAP flat (1cm, 6colors)_발렛스트랩플랫",
+   "p": 218000,
+   "d": null
+  },
+  {
+   "n": "218,000",
+   "p": 157396,
+   "d": 27
+  },
+  {
+   "n": "[20%쿠폰] [단독]Saddle long boots / brown",
+   "p": 395000,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]Renewal back zip up ankle / cream beige(7cm)",
+   "p": 245000,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]LINEE sandal (6cm, 4colors) _ 리네샌들미드힐",
+   "p": 215000,
+   "d": null
+  },
+  {
+   "n": "215,000",
+   "p": 163400,
+   "d": 24
+  },
+  {
+   "n": "[20%쿠폰] [단독]Alice mary jane (6color)",
+   "p": 165000,
+   "d": null
+  },
+  {
+   "n": "(137)",
+   "p": 2231,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]CITY mule(3colors, 5cm)",
+   "p": 205000,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]FLEUVE slingback (3cm) / 플레브슬링백",
+   "p": 205000,
+   "d": null
+  },
+  {
+   "n": "205,000",
+   "p": 148010,
+   "d": 27
+  },
+  {
+   "n": "[20%쿠폰] [단독]Dorothy span ankle / black (5cm)",
+   "p": 245000,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]CITY CUT kitten heel - maryjane(3cm,1color)_시티컷키튼힐 메리제인",
+   "p": 205000,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]CITY maryjane (3cm, 4colors)",
+   "p": 205000,
+   "d": null
+  },
+  {
+   "n": "(15)",
+   "p": 1624,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]Shirring ballet (4colors, 2cm)",
+   "p": 200000,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]Welt chelsea (2color)",
+   "p": 275000,
+   "d": null
+  },
+  {
+   "n": "275,000",
+   "p": 209000,
+   "d": 24
+  },
+  {
+   "n": "[20%쿠폰] [단독]Nuer slingback / beige(4cm)",
+   "p": 195000,
+   "d": null
+  },
+  {
+   "n": "195,000",
+   "p": 148200,
+   "d": 24
+  },
+  {
+   "n": "[20%쿠폰] [단독]Line ribbon pumps(5cm, 3colors)",
+   "p": 200000,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]Saddle midi boots (3colors, 3cm)",
+   "p": 330000,
+   "d": null
+  },
+  {
+   "n": "330,000",
+   "p": 250800,
+   "d": 24
+  },
+  {
+   "n": "[20%쿠폰] [단독]CITY CUT kitten heel(3cm, 3colors)_시티컷키튼힐",
+   "p": 205000,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]23 V heel (5cm, 4colors)",
+   "p": 190000,
+   "d": null
+  },
+  {
+   "n": "(17)",
+   "p": 1143,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]Saddle long boots / black nubuck",
+   "p": 395000,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]MONE lace up (6color)",
+   "p": 210000,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]RING midi boots (1color, 2cm)",
+   "p": 338000,
+   "d": null
+  },
+  {
+   "n": "338,000",
+   "p": 256880,
+   "d": 24
+  },
+  {
+   "n": "[20%쿠폰] [단독]Emma loafer / vintage black(2cm)",
+   "p": 225000,
+   "d": null
+  },
+  {
+   "n": "225,000",
+   "p": 171000,
+   "d": 24
+  },
+  {
+   "n": "[20%쿠폰] [단독]Dorothy flat(2cm,5colors)",
+   "p": 195000,
+   "d": null
+  },
+  {
+   "n": "(69)",
+   "p": 1075,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]V STRAP pumps (5cm, 1color)_브이스트랩 펌프스",
+   "p": 218000,
+   "d": null
+  },
+  {
+   "n": "218,000",
+   "p": 165680,
+   "d": 24
+  },
+  {
+   "n": "[20%쿠폰] [단독]Essential long boots / black (3cm)",
+   "p": 340000,
+   "d": null
+  },
+  {
+   "n": "340,000",
+   "p": 258400,
+   "d": 24
+  },
+  {
+   "n": "[20%쿠폰] [단독]Round dorothy flat (2cm, 2colors)",
+   "p": 195000,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]Tulip slingback(10color)",
+   "p": 190000,
+   "d": null
+  },
+  {
+   "n": "(130)",
+   "p": 3188,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]ELODIE mary jane (mini-me ver, 2colors)",
+   "p": 73000,
+   "d": null
+  },
+  {
+   "n": "73,000",
+   "p": 55480,
+   "d": 24
+  },
+  {
+   "n": "[20%쿠폰] [단독]OBLIQUE strap slingback (2cm, 2colors) _ 오블리크 스트랩슬링백",
+   "p": 210000,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]SILHOUETTE round toe flat (1cm, 5colors)_실루엣플랫",
+   "p": 210000,
+   "d": null
+  },
+  {
+   "n": "[20%쿠폰] [단독]MAGOT maryjane (2cm, 2colors) / 마고메리제인",
+   "p": 208000,
+   "d": null
+  },
+  {
+   "n": "208,000",
+   "p": 150176,
+   "d": 27
+  }
+ ],
+ "id": 106488,
+ "observed_at": "2026-10-29"
+}

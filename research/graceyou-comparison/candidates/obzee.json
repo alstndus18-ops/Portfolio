@@ -1,0 +1,55 @@
+{
+ "slug": "obzee",
+ "ko": "오브제",
+ "en": "OBZEE",
+ "status": "후보",
+ "tier": "패션그룹 프리미엄",
+ "tags": [
+  "모던",
+  "엘레강스"
+ ],
+ "found": [
+  "기사: 한섬 25FW 캠페인"
+ ],
+ "note": "가격 미수집",
+ "ids": {
+  "off": "https://thehandsome.com"
+ },
+ "price_source": "",
+ "intro": "",
+ "sub": "",
+ "est": null,
+ "heart": null,
+ "off": null,
+ "score": {},
+ "evidence": [
+  {
+   "idx": "220921",
+   "date": "2025-10-22",
+   "title": "한섬 '오브제', 25FW 캠페인 공개",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=220921&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "227744",
+   "date": "2026-09-18",
+   "title": "르하스, 인터뷰부터 아트 협업까지 활동 영역 확대",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=227744&cat=CAT110",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "기사 요약(약함)",
+ "role": "미평가(가격 미수집)",
+ "rank": 94,
+ "platform": {
+  "29cm": null,
+  "wconcept": null
+ }
+}

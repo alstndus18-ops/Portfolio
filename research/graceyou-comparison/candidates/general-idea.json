@@ -1,0 +1,162 @@
+{
+ "slug": "general-idea",
+ "ko": "제너럴아이디어",
+ "en": "GENERAL IDEA",
+ "status": "후보",
+ "tier": "컨템포러리 브랜드",
+ "tags": [
+  "모던",
+  "캐주얼",
+  "스트리트",
+  "유니섹스"
+ ],
+ "found": [
+  "29CM DB 1차"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 4699
+ },
+ "price_source": "29CM",
+ "intro": "GENERALIDEA(제너럴아이디어)는 'GENERAL IDEA'의 감성을 공유하는 대중성을 갖춘 라인입니다. \n고유의 정체성으로 제너럴아이디어만의 아이덴티티를 추구하며 독자적인 스타일을 제안합니다. \n클래식한 분위기에 스트리트와 하이엔드무드를 반영한 모던 캐주얼브랜드입니다.",
+ "sub": "트렌드와 유니크한 스타일이 공존하는 유니섹스 브랜드",
+ "est": 2003,
+ "heart": 123692,
+ "off": null,
+ "score": {
+  "k": 1.64,
+  "list_q1": 59361,
+  "list_med": 81475,
+  "list_q3": 100328,
+  "s_price": 0,
+  "s_band": 0,
+  "s_mood": 10,
+  "score": 5,
+  "partial": 0
+ },
+ "evidence": [
+  {
+   "idx": "227332",
+   "date": "2026-09-01",
+   "title": "최범석 대표, 두 번째 브랜드 '르시스' 런칭",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=227332&cat=CAT114",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "225095",
+   "date": "2026-05-07",
+   "title": "온라인 캐주얼, 지속 성장은 '여성패션'",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=225095&cat=CAT11Z",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "220465",
+   "date": "2025-09-28",
+   "title": "오래 가는 기업의 ‘생존 공식’…시대와 교감하며 변신하라",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=220465&cat=CAT11Z",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "가격 앵커(저가)",
+ "rank": 74,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/4699",
+   "title": "제너럴아이디어(GENERAL IDEA)",
+   "ko": "제너럴아이디어",
+   "en": "GENERAL IDEA",
+   "sub": "트렌드와 유니크한 스타일이 공존하는 유니섹스 브랜드",
+   "est": 2003,
+   "heart": 123692,
+   "intro": "GENERALIDEA(제너럴아이디어)는 'GENERAL IDEA'의 감성을 공유하는 대중성을 갖춘 라인입니다. \n고유의 정체성으로 제너럴아이디어만의 아이덴티티를 추구하며 독자적인 스타일을 제안합니다. \n클래식한 분위기에 스트리트와 하이엔드무드를 반영한 모던 캐주얼브랜드입니다.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 25550,
+    "q1": 36210,
+    "med": 49700,
+    "q3": 61200,
+    "p90": 112230,
+    "max": 138550,
+    "mean": 56137
+   },
+   "disc": {
+    "n": 50,
+    "med": 39,
+    "max": 64
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 5693,
+    "med": 30,
+    "max": 913,
+    "rated": 43
+   },
+   "rate": 4.85,
+   "tags": {
+    "쿠폰": 50,
+    "조건부 무료배송": 50,
+    "단독": 2,
+    "신상품": 4
+   },
+   "names": [
+    "WOMAN 레이어드 브이넥 니트 풀오버 [MELANGE GREY] / GF7LKP512",
+    "[예약발송] WOMAN 부클 하이넥 니트 플리스 아노락 [GREY] / GF3LKP513",
+    "[예약발송] WOMAN 딥 브이넥 루즈핏 니트 풀오버 [BURGUNDY] / GF3LKP506",
+    "WOMAN GNRL 에센셜 가디건 [6COL] / WBD3L04503",
+    "WOMAN 레이어드 브이넥 니트 풀오버 [OATMEAL] / GF7LKP512",
+    "[아르노] WOMAN 리버시블 무스탕 더플 코트 [DARK BROWN] / GF8LCT522",
+    "[예약발송] WOMAN 딥 브이넥 루즈핏 니트 풀오버 [BLACK] / GF3LKP506",
+    "WOMAN 에센셜 크루넥 가디건 [8COL] / WBD3L04501",
+    "[아르노] WOMAN 리버시블 무스탕 더플 코트 [BLACK] / GF8LCT522",
+    "WOMAN 링클프리 리벳 셔츠 [BLACK] / GF7LSH507",
+    "WOMAN 링클프리 리벳 셔츠 [WHITE] / GF7LSH507",
+    "[29CM 단독] (루피타PICK) WOMAN 토글 싱글 트렌치 코트 [BEIGE] / GF7LCT501",
+    "WOMAN 코튼 레이어드 브이넥 니트 풀오버 [WHITE] / GF1LKP506",
+    "WOMAN 릴렉스드 카라 레이어드 풀오버 [BLACK] / GF7LKP502",
+    "[루피타PICK] WOMAN 코튼 레이어드 브이넥 니트 풀오버 [LIGHT GREY] / GF1LKP506",
+    "WOMAN 울 노르딕 더플 가디건 [GREY] / GF8LKC550",
+    "[이환 PICK] [예약발송] WOMAN 마일드 아가일 크루넥 가디건 [DARK BROWN] / GF3LKC514",
+    "WOMAN 부클 하이넥 니트 플리스 아노락 [OATMEAL] / GF3LKP513",
+    "[29CM 단독] WOMAN 에센셜 크루넥 가디건 [MUD] / WBD3L04501",
+    "[29CM 단독] WOMAN 플라워 패턴 플리스 점퍼 [BROWN] / WBE4L07523",
+    "[예약발송] WOMAN GNRL 에센셜 가디건 [BLACK] / GF7LKC503",
+    "[여울 PICK] WOMAN 루즈핏 래글런 핀턱 블라우스 [IVORY] / GF2LBL514",
+    "WOMAN 부츠컷 워싱 데님 팬츠 [BLACK] / GF7LPT501",
+    "UNISEX 폴딩밴드 배색 핑거홀 집업 플리스 [CHARCOAL] / GF3UJK007",
+    "WOMAN 릴렉스드 에센셜 크루넥 풀오버 [ASH PINK] / GF7LKP510",
+    "WOMAN 에어리 라운드넥 핀턱 티셔츠 [LAVENDER] / GF7LTS505",
+    "[임정화 PICK] WOMAN 토글 싱글 트렌치 코트 [BLACK] / GF7LCT501",
+    "WOMAN 코듀로이 하이넥 플리스 반집업 [PINK] / GF3LSS510",
+    "WOMAN 코지 와플 헨리넥 맨투맨 [NAVY] / GF3LSS507",
+    "WOMAN 라이트 벨로아 집업 세트 [MELANGE GREY] / WBD1L51542SET",
+    "[아르노] WOMAN 리버시블 무스탕 더플 코트 [IVORY] / GF8LCT522",
+    "[예약발송] WOMAN GNRL 에센셜 가디건 [GREY] / GF7LKC503",
+    "WOMAN 울 블랜드 코위찬 니트 점퍼 [NAVY] / WBE4L07535",
+    "WOMAN GNRL 에센셜 가디건 [CHARCOAL] / GF7LKC503",
+    "WOMAN 스켈럽 스카시 니트 베스트 [DARK NAVY] / GF2LKV528",
+    "[예약발송] WOMAN 레이스 트리밍 슬리브리스 가디건 세트 [CHARCOAL] / GF3LKC504",
+    "[예약발송/아르노] WOMAN 리버시블 무스탕 하프 코트 [BEIGE] / GF4LCT507",
+    "WOMAN 미니멀 H라인 롱스커트 [BLACK] / GF7LSK505",
+    "WOMAN 에어리 라운드넥 핀턱 티셔츠 [WHITE] / GF7LTS505",
+    "WOMAN 홀가먼트 울 모크넥 풀오버 [MELANGEGREY]/WBE4L05543"
+   ],
+   "id": 4699,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": null
+ }
+}

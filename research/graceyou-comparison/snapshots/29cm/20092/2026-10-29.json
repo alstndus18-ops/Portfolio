@@ -1,0 +1,686 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/20092",
+ "title": "나체(NACHE)",
+ "ko": "나체",
+ "en": "NACHE",
+ "sub": "나체(NACHE)는 다양한 테마 안에서 지극히 유연하고 자연스러운 미를 추구하는 브랜드입니다.",
+ "heart": 14658,
+ "intro": "나체는 캐주얼 아방가르드를 바탕으로 유연하고 자연스러운 미를 풀어내며, 독특한 디테일과 구조적인 실루엣으로 움직임의 결을 담아냅니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 55800,
+  "q1": 93240,
+  "med": 131600,
+  "q3": 187200,
+  "p90": 278600,
+  "max": 313200,
+  "mean": 146620
+ },
+ "disc": {
+  "n": 50,
+  "med": 30,
+  "max": 42
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 77,
+  "med": 0,
+  "max": 20,
+  "rated": 13
+ },
+ "rate": 4.67,
+ "tags": {
+  "쿠폰": 36,
+  "조건부 무료배송": 50,
+  "신상품": 14
+ },
+ "names": [
+  "REVERSIBLE HOODIE FAUX FUR JACKET NYLON BLACK",
+  "JERSEY CAPE DRESS BLACK",
+  "DETACHABLE LAYERED SKIRT PANTS ASH BEIGE",
+  "PINTUCK WIDE PANTS (UNISEX) BLACK",
+  "LEGWARMER COTTON PANTS BLACK",
+  "OVERSIZED LEATHER RIDER JACKET BLACK",
+  "DOUBLE ARM LONG SLEEVE DUSTY WHITE",
+  "TIED SHIRT PANTS BLACK",
+  "LAYERED WOOL WIDE SHORTS BLACK",
+  "DOUBLE CUFFS SHIRTS MISTY GRAY",
+  "HAIRY WIDE PANTS MELANGE GRAY",
+  "REVERSIBLE HOODIE FAUX FUR JACKET NYLON CREAM",
+  "REVERSIBLE HOODIE FAUX FUR JACKET LEATHER BROWN",
+  "TWISTED CUT-OUT LONG SLEEVE BLACK",
+  "MIXED LAYERED TIE JOGGER PANTS (UNISEX) BLACK",
+  "FLOW SLIM FIT LONG SLEEVE IVORY",
+  "HAIRY WOOL DOUBLE JACKET GREEN",
+  "HAIRY WIDE PANTS BLACK",
+  "REVERSIBLE FAUX FUR LEATHER COAT STONE GRAY",
+  "ZODIAC LONG SLEEVE WHITE",
+  "REVERSIBLE FAUX FUR LEATHER COAT BLACK",
+  "DETACHABLE HOODIE ZIP-UP MELANGE CHARCOAL",
+  "TWISTED CUT-OUT LONG SLEEVE MELANGE BEIGE",
+  "REVERSIBLE HOODIE FAUX FUR JACKET LEATHER GRAY",
+  "PINCHED HOODIE SLEEVELESS IVORY STRIPE",
+  "FUR TRIM SLIM HOODIE ZIP-UP BLACK",
+  "RAWCUT CURVED PANTS (UNISEX) BLACK",
+  "COSMIC SWIM SUIT BLACK",
+  "PUFF BAGGY PANTS MELANGE GRAY",
+  "RAWCUT CURVED PANTS (UNISEX) ASH BEIGE",
+  "RIBBED LAYERED SWEAT PANTS MELANGE GRAY",
+  "SHIRT CARDIGAN EFFECT LONG SLEEVE IVORY",
+  "2-WAY SHAWL KNIT BROWN",
+  "FUR TRIM SLIM HOODIE ZIP-UP MELANGE GRAY",
+  "LAYERED HENLEY NECK LONG SLEEVE CHARCOAL",
+  "RIBBED LAYERED SWEAT PANTS BLACK",
+  "LEATHER TIE HOBO BAG BLACK",
+  "VINTAGE PINTUCK CAP BLACK",
+  "2-WAY SHAWL KNIT MELANGE GRAY",
+  "VINTAGE PINTUCK CAP VINTAGE BEIGE"
+ ],
+ "cards": [
+  {
+   "n": "REVERSIBLE HOODIE FAUX FUR JACKET NYLON BLACK",
+   "p": 206640,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "JERSEY CAPE DRESS BLACK",
+   "p": 131600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DETACHABLE LAYERED SKIRT PANTS ASH BEIGE",
+   "p": 124600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "PINTUCK WIDE PANTS (UNISEX) BLACK",
+   "p": 180600,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 8,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "LEGWARMER COTTON PANTS BLACK",
+   "p": 138600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "OVERSIZED LEATHER RIDER JACKET BLACK",
+   "p": 215600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DOUBLE ARM LONG SLEEVE DUSTY WHITE",
+   "p": 82600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "TIED SHIRT PANTS BLACK",
+   "p": 159600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "LAYERED WOOL WIDE SHORTS BLACK",
+   "p": 131600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DOUBLE CUFFS SHIRTS MISTY GRAY",
+   "p": 131600,
+   "d": 30,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "HAIRY WIDE PANTS MELANGE GRAY",
+   "p": 142200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "REVERSIBLE HOODIE FAUX FUR JACKET NYLON CREAM",
+   "p": 206640,
+   "d": 37,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "REVERSIBLE HOODIE FAUX FUR JACKET LEATHER BROWN",
+   "p": 313200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "TWISTED CUT-OUT LONG SLEEVE BLACK",
+   "p": 79200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "MIXED LAYERED TIE JOGGER PANTS (UNISEX) BLACK",
+   "p": 138600,
+   "d": 30,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "FLOW SLIM FIT LONG SLEEVE IVORY",
+   "p": 68600,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 20,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "HAIRY WOOL DOUBLE JACKET GREEN",
+   "p": 250600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "HAIRY WIDE PANTS BLACK",
+   "p": 142200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "REVERSIBLE FAUX FUR LEATHER COAT STONE GRAY",
+   "p": 278600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "ZODIAC LONG SLEEVE WHITE",
+   "p": 61600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "REVERSIBLE FAUX FUR LEATHER COAT BLACK",
+   "p": 278600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DETACHABLE HOODIE ZIP-UP MELANGE CHARCOAL",
+   "p": 117600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "TWISTED CUT-OUT LONG SLEEVE MELANGE BEIGE",
+   "p": 79200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "REVERSIBLE HOODIE FAUX FUR JACKET LEATHER GRAY",
+   "p": 313200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "PINCHED HOODIE SLEEVELESS IVORY STRIPE",
+   "p": 68600,
+   "d": 30,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 13,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "FUR TRIM SLIM HOODIE ZIP-UP BLACK",
+   "p": 187200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "RAWCUT CURVED PANTS (UNISEX) BLACK",
+   "p": 99540,
+   "d": 37,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 14,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "COSMIC SWIM SUIT BLACK",
+   "p": 62720,
+   "d": 42,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 7,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "PUFF BAGGY PANTS MELANGE GRAY",
+   "p": 124200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "RAWCUT CURVED PANTS (UNISEX) ASH BEIGE",
+   "p": 110600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "RIBBED LAYERED SWEAT PANTS MELANGE GRAY",
+   "p": 124200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "SHIRT CARDIGAN EFFECT LONG SLEEVE IVORY",
+   "p": 70200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "2-WAY SHAWL KNIT BROWN",
+   "p": 93240,
+   "d": 37,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "FUR TRIM SLIM HOODIE ZIP-UP MELANGE GRAY",
+   "p": 187200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "LAYERED HENLEY NECK LONG SLEEVE CHARCOAL",
+   "p": 82600,
+   "d": 30,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "RIBBED LAYERED SWEAT PANTS BLACK",
+   "p": 124200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "LEATHER TIE HOBO BAG BLACK",
+   "p": 180600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "VINTAGE PINTUCK CAP BLACK",
+   "p": 55800,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "2-WAY SHAWL KNIT MELANGE GRAY",
+   "p": 93240,
+   "d": 37,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "VINTAGE PINTUCK CAP VINTAGE BEIGE",
+   "p": 55800,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "RIBBED LAYER PUFFER BLACK",
+   "p": 250600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DOUBLE ARM LONG SLEEVE GRAY",
+   "p": 82600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "TWISTED KNIT SWEATER BLACK",
+   "p": 145600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "TWISTED KNIT SWEATER DUSTY BLUE",
+   "p": 145600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "STRAP STILETTO FLAT SHOES BLACK",
+   "p": 215600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "FOLDED MINI DRESS IVORY",
+   "p": 117600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "WRAP BERMUDA PANTS CHARCOAL",
+   "p": 131600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "LAYERED BUTTON MIDI SKIRT BLACK",
+   "p": 124600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DETACHABLE BELT FAUX FUR BOOTS BROWN",
+   "p": 306600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DETACHABLE HOODIE ZIP-UP BLACK",
+   "p": 117600,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 20092,
+ "observed_at": "2026-10-29"
+}

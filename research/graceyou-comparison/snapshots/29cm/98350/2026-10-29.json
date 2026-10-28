@@ -1,0 +1,638 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/98350",
+ "title": "디스이즈파인(THIS IS FINE)",
+ "ko": "디스이즈파인",
+ "en": "THIS IS FINE",
+ "sub": "THIS IS FINE ⎻ Contemporary Fine Casual",
+ "est": 2025,
+ "heart": 5544,
+ "intro": "THIS IS FINE ⎻ Contemporary Fine Casual",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 37240,
+  "q1": 60040,
+  "med": 75650,
+  "q3": 123250,
+  "p90": 165750,
+  "max": 267750,
+  "mean": 93885
+ },
+ "disc": {
+  "n": 50,
+  "med": 15,
+  "max": 24
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 169,
+  "med": 0,
+  "max": 70,
+  "rated": 20
+ },
+ "rate": 4.97,
+ "tags": {
+  "무료배송": 49,
+  "품절": 1,
+  "신상품": 1
+ },
+ "names": [
+  "Slim V-neck Knit Stripe Tee - Brown+Sky",
+  "Slim V-neck Ribbed Tee - Beige",
+  "Slim V-neck Ribbed Tee - Ivory",
+  "Slim V-neck Ribbed Tee - Charcoal",
+  "[박현지] Slim V-neck Stripe Tee - Sky",
+  "[박현지] Slim V-neck Stripe Tee - Black",
+  "Look So Fine Graphic LS Tee - White",
+  "[박현지] Slim V-neck Stripe Tee - Mint",
+  "Quarter-Zip Balloon Pullover Fleece - Gray",
+  "Slim V-neck Knit Stripe Tee - Gray+Yellow",
+  "Slim Laced Camisole - White",
+  "Slim Laced Camisole - Charcoal",
+  "Quarter-Zip Balloon Pullover Fleece - Beige",
+  "Recruit Graphic LS Tee - Charcoal",
+  "Track Jacket - Offwhite",
+  "Standard Sweatpants - Melange Gray",
+  "Low Rise Flare Jean - Vintage Blue",
+  "Recruit Graphic LS Tee - White",
+  "Pajama Overshirt - Blue",
+  "M65 Field Jacket - Black",
+  "Jacquard Blanket",
+  "Signature Ball Cap - Black",
+  "Pajama Shorts - Blue",
+  "[박현지] Slim V-neck Stripe Tee - White",
+  "Quarter-Zip Balloon Pullover Fleece - Black",
+  "Wizard Graphic LS Tee - White",
+  "Engineered Jean - Light Blue",
+  "Slim Henley Neck Waffle Tee - Ivory",
+  "Look So Fine Graphic LS Tee - Blue",
+  "Track Jacket - Black",
+  "Wide Pleated Trousers - Black Stripe",
+  "Quarter-Zip Balloon Pullover Shirt - Red Check",
+  "Patchwork Shirt - Pink",
+  "Relaxed Signature Jean - Suede Black",
+  "THIS IS FINE Applique Hoodie - Black",
+  "[고준희] Pajama Shirt - Navy",
+  "Signature Ball Cap - Gray",
+  "Signature Ball Cap - Cream",
+  "Relaxed Signature Hoodie - Sportif Gray",
+  "Slim Henley Neck Waffle Tee - Gray"
+ ],
+ "cards": [
+  {
+   "n": "Slim V-neck Knit Stripe Tee - Brown+Sky",
+   "p": 60040,
+   "d": 24,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Slim V-neck Ribbed Tee - Beige",
+   "p": 44840,
+   "d": 24,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Slim V-neck Ribbed Tee - Ivory",
+   "p": 44840,
+   "d": 24,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Slim V-neck Ribbed Tee - Charcoal",
+   "p": 44840,
+   "d": 24,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[박현지] Slim V-neck Stripe Tee - Sky",
+   "p": 67150,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 70,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[박현지] Slim V-neck Stripe Tee - Black",
+   "p": 60040,
+   "d": 24,
+   "lk": null,
+   "rt": 5,
+   "rv": 24,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Look So Fine Graphic LS Tee - White",
+   "p": 60040,
+   "d": 24,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[박현지] Slim V-neck Stripe Tee - Mint",
+   "p": 67150,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 6,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Quarter-Zip Balloon Pullover Fleece - Gray",
+   "p": 106250,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Slim V-neck Knit Stripe Tee - Gray+Yellow",
+   "p": 60040,
+   "d": 24,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Slim Laced Camisole - White",
+   "p": 37240,
+   "d": 24,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Slim Laced Camisole - Charcoal",
+   "p": 37240,
+   "d": 24,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Quarter-Zip Balloon Pullover Fleece - Beige",
+   "p": 106250,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Recruit Graphic LS Tee - Charcoal",
+   "p": 60040,
+   "d": 24,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Track Jacket - Offwhite",
+   "p": 165750,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Standard Sweatpants - Melange Gray",
+   "p": 84150,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Low Rise Flare Jean - Vintage Blue",
+   "p": 153000,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Recruit Graphic LS Tee - White",
+   "p": 60040,
+   "d": 24,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Pajama Overshirt - Blue",
+   "p": 148200,
+   "d": 24,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "M65 Field Jacket - Black",
+   "p": 267750,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "품절"
+   ]
+  },
+  {
+   "n": "Jacquard Blanket",
+   "p": 75650,
+   "d": 15,
+   "lk": null,
+   "rt": 4,
+   "rv": 2,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Signature Ball Cap - Black",
+   "p": 50150,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Pajama Shorts - Blue",
+   "p": 131750,
+   "d": 15,
+   "lk": null,
+   "rt": 4,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[박현지] Slim V-neck Stripe Tee - White",
+   "p": 67150,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 9,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Quarter-Zip Balloon Pullover Fleece - Black",
+   "p": 106250,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Wizard Graphic LS Tee - White",
+   "p": 67150,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Engineered Jean - Light Blue",
+   "p": 153000,
+   "d": 15,
+   "lk": null,
+   "rt": 3,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Slim Henley Neck Waffle Tee - Ivory",
+   "p": 67640,
+   "d": 24,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Look So Fine Graphic LS Tee - Blue",
+   "p": 67150,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Track Jacket - Black",
+   "p": 165750,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Wide Pleated Trousers - Black Stripe",
+   "p": 123250,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Quarter-Zip Balloon Pullover Shirt - Red Check",
+   "p": 106250,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Patchwork Shirt - Pink",
+   "p": 106250,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Relaxed Signature Jean - Suede Black",
+   "p": 170000,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "THIS IS FINE Applique Hoodie - Black",
+   "p": 114750,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "[고준희] Pajama Shirt - Navy",
+   "p": 182750,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Signature Ball Cap - Gray",
+   "p": 50150,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Signature Ball Cap - Cream",
+   "p": 50150,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Relaxed Signature Hoodie - Sportif Gray",
+   "p": 123250,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 38,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Slim Henley Neck Waffle Tee - Gray",
+   "p": 75650,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "THIS IS FINE Knitted Beanie - Black",
+   "p": 58650,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 5,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Wide Pajama Trousers - Blue",
+   "p": 187000,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Relaxed Signature Hoodie - Oat",
+   "p": 123250,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Signature Ball Cap - Navy",
+   "p": 50150,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Wizard Graphic LS Tee - Brown",
+   "p": 67150,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "THIS IS FINE Knitted Gloves - Black",
+   "p": 58650,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Double Layer Sweatpants - Black",
+   "p": 123250,
+   "d": 15,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Baby Cropped Tee - White",
+   "p": 50150,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Standard Zip Hoodie - Sportif Gray",
+   "p": 93500,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Standard Zip Hoodie - Melange Gray",
+   "p": 93500,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  }
+ ],
+ "id": 98350,
+ "observed_at": "2026-10-29"
+}

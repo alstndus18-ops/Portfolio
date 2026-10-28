@@ -1,0 +1,111 @@
+{
+ "slug": "zishen",
+ "ko": "지센",
+ "en": "ZISHEN",
+ "status": "후보",
+ "tier": "패션그룹 컨템포러리",
+ "tags": [
+  "소재중시",
+  "모던"
+ ],
+ "found": [
+  "기사: 소재 중심 여성복, 니트·캐시미어"
+ ],
+ "note": "가격 미수집",
+ "ids": {
+  "off": "https://wivismall.com"
+ },
+ "price_source": "",
+ "intro": "",
+ "sub": "",
+ "est": null,
+ "heart": null,
+ "off": null,
+ "score": {},
+ "evidence": [
+  {
+   "idx": "228145",
+   "date": "2026-10-12",
+   "title": "지센, 배윤경 온라인 익스클루시브 컬렉션 오픈…니트 강화",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=228145&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "228130",
+   "date": "2026-10-11",
+   "title": "지센, 채널별 차별화…'소재 중심' 경쟁력 강화",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=228130&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "227237",
+   "date": "2026-08-27",
+   "title": "지센, 2026 FW 컬렉션 공개…'프리미엄 상품' 강화",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=227237&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "223236",
+   "date": "2026-02-12",
+   "title": "지센, 26 봄 컬렉션 공개",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=223236&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "227928",
+   "date": "2026-09-29",
+   "title": "올 추동 시즌 주력은 '캐시미어'",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=227928&cat=CAT11Z",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "212834",
+   "date": "2024-08-28",
+   "title": "위비스, 여성 영컨템포러리 ‘뷰어(Vyur)’ 통합 브랜딩",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=212834&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "193202",
+   "date": "2021-10-13",
+   "title": "4050 패션 앱 ‘퀸잇’, 1년 만에 거래액 10배 증가",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=193202&cat=CAT127",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "176203",
+   "date": "2019-04-29",
+   "title": "여성복, 여름 트래블 라인 출시 붐",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=176203&cat=CAT900",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "92595",
+   "date": "2019-04-25",
+   "title": "여성복, 여름 트래블 라인 출시 붐",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=92595&cat=CAT900",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "기사 요약(약함)",
+ "role": "미평가(가격 미수집)",
+ "rank": 97,
+ "platform": {
+  "29cm": null,
+  "wconcept": null
+ }
+}

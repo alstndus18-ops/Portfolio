@@ -1,0 +1,160 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/101383",
+ "title": "비아플레인(VIA PLAIN) | W컨셉(W CONCEPT)",
+ "ko": "비아플레인",
+ "en": "VIA PLAIN",
+ "intro": "빈티지에서 영감을 받은 plain한 디자인을 통해(via) wearable한 라인을 선보이는 Viaplain의 고퀄리티 소재 및 봉제를 중시하고, 다양한 디테일 및 여성스러운 실루엣을 더하여 데일리 아이템을  추구한다. SUMMER LAST CHANCE 올 여름 마지막 할인 혜택 VIA PLAIN 썸머 클리어런스 VIA PLAIN 5% 썸머 혜택 PRO STAFF: VIA PLAIN 비아플레인 쇼룸 방문기 하트를 2.5만 개 받았어요 베스트 아이템 Via Clover linen skirt_Dark Gray 20% 262,400 1 Via Kurly denim pants_Denim blue 178,000 2 Via Sunflower T-shirt_Ivory 68,000 3 Via Luigi string baggy pants_Navy 198,000 4 Via Ravi embroidery shirt blouse_Ivory 328,000 5 Via Henleyneck boxi T-shirt_Ivory 158,000 6 Via Pello wide denim pants_Denim blue 158,000 7 Via Bonnie pocket pants_Light pink ",
+ "n": 22,
+ "p": {
+  "min": 68000,
+  "q1": 126400,
+  "med": 174400,
+  "q3": 262400,
+  "p90": 328000,
+  "max": 358000,
+  "mean": 193655
+ },
+ "disc": {
+  "n": 10,
+  "med": 20,
+  "max": 30
+ },
+ "names": [
+  "Via Clover linen skirt_Dark Gray",
+  "Via Kurly denim pants_Denim blue",
+  "Via Sunflower T-shirt_Ivory",
+  "Via Luigi string baggy pants_Navy",
+  "Via Ravi embroidery shirt blouse_Ivory",
+  "Via Henleyneck boxi T-shirt_Ivory",
+  "Via Pello wide denim pants_Denim blue",
+  "Via Bonnie pocket pants_Light pink",
+  "Via Cordelia apron long onepiece_Ivory",
+  "Via Limmo check blouse_Beige check",
+  "Via Good night cotton top_Green",
+  "Via Clover linen skirt_Dark Gray",
+  "328,000",
+  "Via Bonnie pocket pants_Light pink",
+  "158,000",
+  "Via Cordelia apron long onepiece_Ivory",
+  "358,000",
+  "Via Limmo check blouse_Beige check",
+  "218,000",
+  "Via Good night cotton top_Green",
+  "118,000",
+  "Via Embroidery midi skirt_Ivory"
+ ],
+ "cards": [
+  {
+   "n": "Via Clover linen skirt_Dark Gray",
+   "p": 262400,
+   "d": 20
+  },
+  {
+   "n": "Via Kurly denim pants_Denim blue",
+   "p": 178000,
+   "d": null
+  },
+  {
+   "n": "Via Sunflower T-shirt_Ivory",
+   "p": 68000,
+   "d": null
+  },
+  {
+   "n": "Via Luigi string baggy pants_Navy",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "Via Ravi embroidery shirt blouse_Ivory",
+   "p": 328000,
+   "d": null
+  },
+  {
+   "n": "Via Henleyneck boxi T-shirt_Ivory",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "Via Pello wide denim pants_Denim blue",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "Via Bonnie pocket pants_Light pink",
+   "p": 126400,
+   "d": 20
+  },
+  {
+   "n": "Via Cordelia apron long onepiece_Ivory",
+   "p": 286400,
+   "d": 20
+  },
+  {
+   "n": "Via Limmo check blouse_Beige check",
+   "p": 174400,
+   "d": 20
+  },
+  {
+   "n": "Via Good night cotton top_Green",
+   "p": 82600,
+   "d": 30
+  },
+  {
+   "n": "Via Clover linen skirt_Dark Gray",
+   "p": 328000,
+   "d": null
+  },
+  {
+   "n": "328,000",
+   "p": 262400,
+   "d": 20
+  },
+  {
+   "n": "Via Bonnie pocket pants_Light pink",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "158,000",
+   "p": 126400,
+   "d": 20
+  },
+  {
+   "n": "Via Cordelia apron long onepiece_Ivory",
+   "p": 358000,
+   "d": null
+  },
+  {
+   "n": "358,000",
+   "p": 286400,
+   "d": 20
+  },
+  {
+   "n": "Via Limmo check blouse_Beige check",
+   "p": 218000,
+   "d": null
+  },
+  {
+   "n": "218,000",
+   "p": 174400,
+   "d": 20
+  },
+  {
+   "n": "Via Good night cotton top_Green",
+   "p": 118000,
+   "d": null
+  },
+  {
+   "n": "118,000",
+   "p": 82600,
+   "d": 30
+  },
+  {
+   "n": "Via Embroidery midi skirt_Ivory",
+   "p": 128000,
+   "d": null
+  }
+ ],
+ "id": 101383,
+ "observed_at": "2026-10-29"
+}

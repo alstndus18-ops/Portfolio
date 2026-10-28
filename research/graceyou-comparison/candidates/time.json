@@ -1,0 +1,88 @@
+{
+ "slug": "time",
+ "ko": "타임",
+ "en": "TIME",
+ "status": "후보",
+ "tier": "패션그룹 프리미엄",
+ "tags": [
+  "클래식",
+  "모던",
+  "엘레강스"
+ ],
+ "found": [
+  "기사: 한섬 대표 여성복, 시그니처 라인"
+ ],
+ "note": "가격 미수집(백화점 프리미엄 가격대 추정)",
+ "ids": {
+  "off": "https://thehandsome.com"
+ },
+ "price_source": "",
+ "intro": "",
+ "sub": "",
+ "est": null,
+ "heart": null,
+ "off": null,
+ "score": {},
+ "evidence": [
+  {
+   "idx": "228118",
+   "date": "2026-10-08",
+   "title": "한섬 '타임', 브랜드 철학 담은 '시그니처 라인' 공개",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=228118&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "223339",
+   "date": "2026-02-23",
+   "title": "신세계인터내셔날 델라라나, '레이어' 강조한 26 SS 공개",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=223339&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "218657",
+   "date": "2025-07-08",
+   "title": "현대百, 새로운 소비 트렌드 '시즌리스 상품'",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=218657&cat=CAT121",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "214283",
+   "date": "2024-11-25",
+   "title": "올 겨울엔 코트 좀 팔아 볼까",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=214283&cat=CAT11Z",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "207510",
+   "date": "2023-09-04",
+   "title": "S&A, 컴젠·존스·톨비스트 제자리 찾기",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=207510&cat=CAT11Z",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "191672",
+   "date": "2021-07-22",
+   "title": "카카오스타일, 4050 여성 패션 플랫폼 ‘포스티(Posty)’ 출시",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=191672&cat=CAT127",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "기사 요약(약함)",
+ "role": "미평가(가격 미수집)",
+ "rank": 101,
+ "platform": {
+  "29cm": null,
+  "wconcept": null
+ }
+}

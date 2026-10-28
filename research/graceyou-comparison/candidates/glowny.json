@@ -1,0 +1,136 @@
+{
+ "slug": "glowny",
+ "ko": "글로니",
+ "en": "GLOWNY",
+ "status": "후보",
+ "tier": "디자이너·온라인 브랜드",
+ "tags": [
+  "캐주얼",
+  "데일리",
+  "트렌디"
+ ],
+ "found": [
+  "29CM 후보(1차 보류분)"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 16723
+ },
+ "price_source": "29CM",
+ "intro": "글로니는 개성, 아름다움, 빛을 중시하는 브랜드입니다. 모든 제품은 섬세함과 사랑이란 모토 아래 제작됩니다. 개개인의 빛에서 영감을 얻어 디자인되는 모든 제품은 각기 다른 개성과 아름다움을 발합니다.",
+ "sub": "You Glow Differently, Glowny",
+ "est": 2020,
+ "heart": 111017,
+ "off": null,
+ "score": {
+  "k": 1.16,
+  "list_q1": 72000,
+  "list_med": 133209,
+  "list_q3": 158000,
+  "s_price": 49,
+  "s_band": 10,
+  "s_mood": 11,
+  "score": 22,
+  "partial": 33
+ },
+ "evidence": [],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "참고(트렌드·무드 탐색)",
+ "rank": 58,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/16723",
+   "title": "글로니(GLOWNY)",
+   "ko": "글로니",
+   "en": "GLOWNY",
+   "sub": "You Glow Differently, Glowny",
+   "est": 2020,
+   "heart": 111017,
+   "intro": "글로니는 개성, 아름다움, 빛을 중시하는 브랜드입니다. 모든 제품은 섬세함과 사랑이란 모토 아래 제작됩니다. 개개인의 빛에서 영감을 얻어 디자인되는 모든 제품은 각기 다른 개성과 아름다움을 발합니다.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 30960,
+    "q1": 61920,
+    "med": 114560,
+    "q3": 135880,
+    "p90": 168000,
+    "max": 208400,
+    "mean": 106215
+   },
+   "disc": {
+    "n": 50,
+    "med": 14,
+    "max": 30
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 3776,
+    "med": 21,
+    "max": 581,
+    "rated": 47
+   },
+   "rate": 4.98,
+   "tags": {
+    "무료배송": 50,
+    "신상품": 22,
+    "단독": 6,
+    "쿠폰": 3
+   },
+   "names": [
+    "G FLEECE ZIP UP (CHARCOAL)",
+    "G CLASSIC LONG SLEEVE_3 Colors",
+    "[닝닝 착용] 3/4 BUTTON FLY TEE_3 Colors",
+    "G FLEECE PANTS (CHARCOAL)",
+    "G COMFORT HOODIE_3 Colors",
+    "G ELIO AIRY PADDING JACKET (BLACK)",
+    "[6차] THE MALISSA JEANS (WASHED BLUE)",
+    "G FLEECE ZIP UP (BLACK)",
+    "[카리나 착용] [3차] G LEATHER SHOULDER BAG (BLACK)",
+    "[29CM 단독] THE RODEO JEANS (CHARCOAL BLUE)",
+    "G FLEECE PANTS (BLACK)",
+    "[4차] G COMFORT STRING PANTS (BLACK)",
+    "[4차] G COMFORT HOODIE (NAVY)",
+    "G ELIO AIRY PADDING JACKET (BROWN)",
+    "[2차] G STANDARD ZIP-UP HOODIE (NAVY)",
+    "SHEARLING LEATHER JACKET (BROWN)",
+    "[조이 착용] THE RODEO JEANS (WASHED BLUE)",
+    "G CHARM V-NECK LONG SLEEVE (MELANGE GRAY)",
+    "[2차] G CONTRAST SWEATPANTS 2.0 (NAVY)",
+    "G STRIPE HENLEY LOOSE FIT KNIT (NAVY)",
+    "[3차] THE RODEO JEANS (MID BLUE)",
+    "G FLEECE ZIP UP (BROWN)",
+    "G CLASSIC CAMISOLE_3 Colors",
+    "G CHARM V-NECK LONG SLEEVE (MOCHA)",
+    "G CHARM V-NECK LONG SLEEVE (WHITE)",
+    "G BABY TEE_3 Colors",
+    "G LOOSE DEEP V-NECK KNIT (GRAY)",
+    "G LOOSE DEEP V-NECK KNIT (BLACK)",
+    "3/4 SOFT WAVE TEE (GRAY STRIPE)",
+    "G LOOSE DEEP V-NECK KNIT (OATMEAL)",
+    "SHEARLING LEATHER JACKET (BLACK)",
+    "[4차] G COMFORT HOODIE (CHOCO)",
+    "G STANDARD ZIP-UP HOODIE (MELANGE GRAY)",
+    "ANGEL PUPPY V NECK 3/4 SLEEVE (NAVY)",
+    "[3차] THE MALISSA JEANS (MID BLUE)",
+    "G PLAIN HENLEY LONG SLEEVE (WHITE)",
+    "G WRINKLE LEATHER SHOULDER BAG (BLACK)",
+    "[8차] 3/4 BUTTON FLY TEE (NAVY)",
+    "3/4 SOFT WAVE TEE (WHITE)",
+    "[4차] THE RODEO JEANS (BLACK)"
+   ],
+   "id": 16723,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": null
+ }
+}

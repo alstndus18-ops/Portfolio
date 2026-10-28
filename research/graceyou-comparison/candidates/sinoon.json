@@ -1,0 +1,147 @@
+{
+ "slug": "sinoon",
+ "ko": "시눈",
+ "en": "SINOON",
+ "status": "후보",
+ "tier": "디자이너·온라인 브랜드",
+ "tags": [
+  "로맨틱",
+  "페미닌",
+  "캐주얼",
+  "유니크"
+ ],
+ "found": [
+  "29CM DB 1차"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 1995
+ },
+ "price_source": "29CM",
+ "intro": "시눈은 꿈꿔왔던 자연스러운 무드를 만들어 나갑니다. 매 시즌 주변의 일상이나 다양한 회화 작업, 영상과 오브제 등에 영감을 받아 서울의 무드로 재해석합니다.",
+ "sub": "드로잉이나 설치 작업 등을 기반으로 자연스러운 로망의 무드를 보여줍니다",
+ "est": 2021,
+ "heart": 143187,
+ "off": null,
+ "score": {
+  "k": 1.11,
+  "list_q1": 88000,
+  "list_med": 148000,
+  "list_q3": 178000,
+  "s_price": 60,
+  "s_band": 21,
+  "s_mood": 22,
+  "score": 33,
+  "partial": 45
+ },
+ "evidence": [
+  {
+   "idx": "220617",
+   "date": "2025-10-02",
+   "title": "시눈, 25 Autumn 무신사 에디션 런칭",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=220617&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "참고(트렌드·무드 탐색)",
+ "rank": 44,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/1995",
+   "title": "시눈(SINOON)",
+   "ko": "시눈",
+   "en": "SINOON",
+   "sub": "드로잉이나 설치 작업 등을 기반으로 자연스러운 로망의 무드를 보여줍니다",
+   "est": 2021,
+   "heart": 143187,
+   "intro": "시눈은 꿈꿔왔던 자연스러운 무드를 만들어 나갑니다. 매 시즌 주변의 일상이나 다양한 회화 작업, 영상과 오브제 등에 영감을 받아 서울의 무드로 재해석합니다.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 34200,
+    "q1": 79200,
+    "med": 133200,
+    "q3": 160200,
+    "p90": 250200,
+    "max": 349200,
+    "mean": 130050
+   },
+   "disc": {
+    "n": 50,
+    "med": 10,
+    "max": 10
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 1570,
+    "med": 4,
+    "max": 594,
+    "rated": 40
+   },
+   "rate": 4.88,
+   "tags": {
+    "쿠폰": 50,
+    "조건부 무료배송": 50,
+    "신상품": 16,
+    "가을 필수": 5,
+    "단독": 1
+   },
+   "names": [
+    "Faux Fur Denim Pants (Blue)",
+    "[프리지아,스텔라 착용, 4차 리오더] Rose Frill Mini Skirt (Black)",
+    "Floral Jacquard Knit Pullover (Black)",
+    "Floral Jacquard Knit Pullover (Ivory)",
+    "Teddy Fleece Half Zip-Up (Soft Blue)",
+    "[11차 리오더] Pear Drop Necklace (Silver)",
+    "Fringe Knit Cardigan (Black)",
+    "Hairy V-Neck Cardigan (Dark Navy)",
+    "Jacquard Wrap Skirt (Beige)",
+    "[송하영 착용] SN Rose Velvet Eyelet Knit (Black)",
+    "Mixed Boucle Collar Knit (Candy)",
+    "[공효진,신시아 착용] Sinoon Smocking Flared Skirt (Navy)",
+    "Teddy Fleece Half Zip-Up (Brown)",
+    "Fur Point Leather Padded Jacket (Brown)",
+    "Hairy V-Neck Cardigan (Cream)",
+    "Henley Neck Pocket T-Shirt (Melange Grey)",
+    "Rose Scalloped Hairpin Set (Red)",
+    "Logo Collar Sweatshirt (Navy)",
+    "Faux Fur Denim Pants (Black)",
+    "Flower Beanie (Melange Grey)",
+    "Chiffon Shirring Knit (Grey)",
+    "[7차 리오더] Cloven Garlic Necklace (Silver Gold)",
+    "[채원,원희,곽민경 착용] Flower Neck Ribbon T-Shirt (White)",
+    "Light Down Hoodie Jacket (Light Beige)",
+    "Long Warm Daily Tights (Charcoal)",
+    "Flower Drawing Cardigan (Charcoal)",
+    "[5차 리오더] Flower Beanie (Black Cream)",
+    "Puffer Jacket (6 Colors)",
+    "Maxi Fur Jacket (Brown)",
+    "Ribbon Tie T-Shirt (Ivory)",
+    "SN Hairy Button Pullover (Beige)",
+    "Low-Waist Pleated Mini Skirt (Beige)",
+    "[하츠투하츠 스텔라 착용, 4차 리오더] Rose Artwork Long Sleeve Knit (Grey)",
+    "Wool Half Trench Coat (Charcoal)",
+    "Pintuck Midi Skirt (Black)",
+    "Flower Shirring Skirt (Ash Pink)",
+    "[7차 리오더] Rose Beads Chain Belt (Silver Gold)",
+    "Velvet String Pullover (Grape)",
+    "Rose Frill Oversized-Fit Hooded Zip-Up (Blue)",
+    "Lace-Up Ribbon Knit (Beige)"
+   ],
+   "id": 1995,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": null
+ }
+}

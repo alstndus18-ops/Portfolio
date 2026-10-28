@@ -1,0 +1,688 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/110848",
+ "title": "므아므(MMAM) | W컨셉(W CONCEPT)",
+ "ko": "므아므",
+ "en": "MMAM",
+ "intro": "시간이 지나도 변함없는, 오래도록 가치 있는 클래식한 실루엣에 낙서 드로잉을 가미한 웨어러블 아트 웨어를 제안합니다. 그래피티 \"Graffiti\"의 형태가 아닌 무의식 적으로 끄적이는 낙서 즉\"doodle\" 드로잉으로 모던 클래식을 바탕으로 미니멀리즘에 가까운 실루엣을 추구하며 두들 드로잉의 표현에서는 맥시멀리즘이 믹스 매치되어 함께 공존합니다. 인간이 태어나 첫 시각적 언어로 표현하는 낙서(doodle)드로잉과 의도한 종이접기가 아닌 무의식적으로 종이를 접고 가위로 오려내는 등의 무의식적인 행동에 영감을 받아 표현됩니다. 어린아이로의 유희를 갈망하는 인간의 본능을 재해석해 동시대적 감성을 표현하며 옷을 캔버스로 다양한 표현들을 편안하게 입을 수 있는 아트 웨어로 전개합니다.",
+ "n": 124,
+ "p": {
+  "min": 67860,
+  "q1": 300000,
+  "med": 539000,
+  "q3": 849000,
+  "p90": 1280000,
+  "max": 1890000,
+  "mean": 615661
+ },
+ "disc": {
+  "n": 69,
+  "med": 7,
+  "max": 71
+ },
+ "names": [
+  "Back slit vest",
+  "Origami crop vest",
+  "[ESSENTIAL] Maxi pin tuck shirt dress",
+  "[ESSENTIAL] Wool check half coat",
+  "Stripe pocket pin tuck over-fit shirt",
+  "Stripe pocket pin tuck over-fit shirt",
+  "[ESSENTIAL] 2Way hooded zip-up",
+  "[ESSENTIAL] 2Way hooded zip-up",
+  "Signature trench short jumpsuit",
+  "Logo basic slim t-shirt",
+  "Balloon pintuck skirt",
+  "Side strap button vest",
+  "Pants detail string dress",
+  "Patchwork sleeveless top",
+  "Pants detail top dress",
+  "Diagonal reverse fly detail dress",
+  "Tuck mini skirt",
+  "Logo see-through short",
+  "Side strap button vest",
+  "Logo sleeveless layered dress",
+  "Unbalance tuck vest",
+  "Pants layered skirt top",
+  "Black pants detail dress",
+  "Off-sleeve tied shirt",
+  "[ESSENTIAL] Unbalance band pin tuck slacks",
+  "[ESSENTIAL] Side strap button vest",
+  "[ESSENTIAL] Maxi pin tuck shirt dress",
+  "128,000",
+  "[ESSENTIAL] Pocket basic pin tuck over-fit shirt",
+  "78,000",
+  "[ESSENTIAL] 2Way hooded zip-up",
+  "243,000",
+  "Back slit vest",
+  "887,000",
+  "Origami crop vest",
+  "478,000",
+  "[ESSENTIAL] Wool check half coat",
+  "188,000",
+  "243,000",
+  "[ESSENTIAL] Side pleated stripe shirt dress"
+ ],
+ "cards": [
+  {
+   "n": "Back slit vest",
+   "p": 536550,
+   "d": 39
+  },
+  {
+   "n": "Origami crop vest",
+   "p": 342400,
+   "d": 28
+  },
+  {
+   "n": "[ESSENTIAL] Maxi pin tuck shirt dress",
+   "p": 111360,
+   "d": 13
+  },
+  {
+   "n": "[ESSENTIAL] Wool check half coat",
+   "p": 112856,
+   "d": 39
+  },
+  {
+   "n": "Stripe pocket pin tuck over-fit shirt",
+   "p": 77430,
+   "d": 13
+  },
+  {
+   "n": "Stripe pocket pin tuck over-fit shirt",
+   "p": 74760,
+   "d": 16
+  },
+  {
+   "n": "[ESSENTIAL] 2Way hooded zip-up",
+   "p": 68544,
+   "d": 71
+  },
+  {
+   "n": "[ESSENTIAL] 2Way hooded zip-up",
+   "p": 68626,
+   "d": 71
+  },
+  {
+   "n": "Signature trench short jumpsuit",
+   "p": 1212000,
+   "d": 3
+  },
+  {
+   "n": "Logo basic slim t-shirt",
+   "p": 120060,
+   "d": 13
+  },
+  {
+   "n": "Balloon pintuck skirt",
+   "p": 488000,
+   "d": 7
+  },
+  {
+   "n": "Side strap button vest",
+   "p": 680000,
+   "d": 5
+  },
+  {
+   "n": "Pants detail string dress",
+   "p": 584000,
+   "d": 6
+  },
+  {
+   "n": "Patchwork sleeveless top",
+   "p": 488000,
+   "d": 7
+  },
+  {
+   "n": "Pants detail top dress",
+   "p": 780000,
+   "d": 4
+  },
+  {
+   "n": "Diagonal reverse fly detail dress",
+   "p": 694000,
+   "d": 5
+  },
+  {
+   "n": "Tuck mini skirt",
+   "p": 435000,
+   "d": 8
+  },
+  {
+   "n": "Logo see-through short",
+   "p": 245340,
+   "d": 13
+  },
+  {
+   "n": "Side strap button vest",
+   "p": 215760,
+   "d": 13
+  },
+  {
+   "n": "Logo sleeveless layered dress",
+   "p": 216630,
+   "d": 13
+  },
+  {
+   "n": "Unbalance tuck vest",
+   "p": 1256000,
+   "d": 3
+  },
+  {
+   "n": "Pants layered skirt top",
+   "p": 610000,
+   "d": 6
+  },
+  {
+   "n": "Black pants detail dress",
+   "p": 558000,
+   "d": 6
+  },
+  {
+   "n": "Off-sleeve tied shirt",
+   "p": 910000,
+   "d": 4
+  },
+  {
+   "n": "[ESSENTIAL] Unbalance band pin tuck slacks",
+   "p": 145638,
+   "d": null
+  },
+  {
+   "n": "[ESSENTIAL] Side strap button vest",
+   "p": 129456,
+   "d": null
+  },
+  {
+   "n": "[ESSENTIAL] Maxi pin tuck shirt dress",
+   "p": 128000,
+   "d": null
+  },
+  {
+   "n": "128,000",
+   "p": 111360,
+   "d": 13
+  },
+  {
+   "n": "[ESSENTIAL] Pocket basic pin tuck over-fit shirt",
+   "p": 78000,
+   "d": null
+  },
+  {
+   "n": "78,000",
+   "p": 67860,
+   "d": 13
+  },
+  {
+   "n": "[ESSENTIAL] 2Way hooded zip-up",
+   "p": 243000,
+   "d": null
+  },
+  {
+   "n": "243,000",
+   "p": 68626,
+   "d": 71
+  },
+  {
+   "n": "Back slit vest",
+   "p": 887000,
+   "d": null
+  },
+  {
+   "n": "887,000",
+   "p": 536550,
+   "d": 39
+  },
+  {
+   "n": "Origami crop vest",
+   "p": 478000,
+   "d": null
+  },
+  {
+   "n": "478,000",
+   "p": 342400,
+   "d": 28
+  },
+  {
+   "n": "[ESSENTIAL] Wool check half coat",
+   "p": 188000,
+   "d": null
+  },
+  {
+   "n": "188,000",
+   "p": 112856,
+   "d": 39
+  },
+  {
+   "n": "243,000",
+   "p": 68544,
+   "d": 71
+  },
+  {
+   "n": "[ESSENTIAL] Side pleated stripe shirt dress",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 137808,
+   "d": 30
+  },
+  {
+   "n": "Classic tailored jacket",
+   "p": 890000,
+   "d": null
+  },
+  {
+   "n": "890,000",
+   "p": 850000,
+   "d": 4
+  },
+  {
+   "n": "Cropped jacket wrap skirt",
+   "p": 328000,
+   "d": null
+  },
+  {
+   "n": "328,000",
+   "p": 288000,
+   "d": 12
+  },
+  {
+   "n": "Wool classic cropped blazer",
+   "p": 398000,
+   "d": null
+  },
+  {
+   "n": "398,000",
+   "p": 358000,
+   "d": 10
+  },
+  {
+   "n": "Wool patchwork skirt",
+   "p": 769000,
+   "d": null
+  },
+  {
+   "n": "769,000",
+   "p": 729000,
+   "d": 5
+  },
+  {
+   "n": "Wool classic over-fit blazer",
+   "p": 498000,
+   "d": null
+  },
+  {
+   "n": "498,000",
+   "p": 458000,
+   "d": 8
+  },
+  {
+   "n": "Tweed minimal long coat",
+   "p": 598000,
+   "d": null
+  },
+  {
+   "n": "598,000",
+   "p": 558000,
+   "d": 6
+  },
+  {
+   "n": "Wool double tweed jacket",
+   "p": 340000,
+   "d": null
+  },
+  {
+   "n": "340,000",
+   "p": 300000,
+   "d": 11
+  },
+  {
+   "n": "Signature logo half zip-up",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 172260,
+   "d": 13
+  },
+  {
+   "n": "Off-sleeve tied shirt dress",
+   "p": 1280000,
+   "d": null
+  },
+  {
+   "n": "1,280,000",
+   "p": 1240000,
+   "d": 3
+  },
+  {
+   "n": "Side zipper slit short",
+   "p": 489000,
+   "d": null
+  },
+  {
+   "n": "489,000",
+   "p": 449000,
+   "d": 8
+  },
+  {
+   "n": "Layered doodle long vest",
+   "p": 729000,
+   "d": null
+  },
+  {
+   "n": "729,000",
+   "p": 689000,
+   "d": 5
+  },
+  {
+   "n": "Wool minimal long coat",
+   "p": 1080000,
+   "d": null
+  },
+  {
+   "n": "1,080,000",
+   "p": 1040000,
+   "d": 3
+  },
+  {
+   "n": "Signature doodle lining reversible jacket",
+   "p": 1296000,
+   "d": null
+  },
+  {
+   "n": "1,296,000",
+   "p": 1256000,
+   "d": 3
+  },
+  {
+   "n": "Wool minimal jacket",
+   "p": 864000,
+   "d": null
+  },
+  {
+   "n": "864,000",
+   "p": 824000,
+   "d": 4
+  },
+  {
+   "n": "Cable destroyed knit tassel vest",
+   "p": 1890000,
+   "d": null
+  },
+  {
+   "n": "1,890,000",
+   "p": 1850000,
+   "d": 2
+  },
+  {
+   "n": "Cable destroyed knit cape",
+   "p": 1590000,
+   "d": null
+  },
+  {
+   "n": "1,590,000",
+   "p": 1550000,
+   "d": 2
+  },
+  {
+   "n": "Signature pants detail wool coat",
+   "p": 1490000,
+   "d": null
+  },
+  {
+   "n": "1,490,000",
+   "p": 1450000,
+   "d": 2
+  },
+  {
+   "n": "Wool patchwork dress",
+   "p": 698000,
+   "d": null
+  },
+  {
+   "n": "698,000",
+   "p": 658000,
+   "d": 5
+  },
+  {
+   "n": "Wool double tweed jacket",
+   "p": 398000,
+   "d": null
+  },
+  {
+   "n": "Signature wool sleeveless half trench coat",
+   "p": 936000,
+   "d": null
+  },
+  {
+   "n": "936,000",
+   "p": 896000,
+   "d": 4
+  },
+  {
+   "n": "Wool unbalance tuck jacket",
+   "p": 1380000,
+   "d": null
+  },
+  {
+   "n": "1,380,000",
+   "p": 1340000,
+   "d": 2
+  },
+  {
+   "n": "Unbalance tied skirt",
+   "p": 567000,
+   "d": null
+  },
+  {
+   "n": "567,000",
+   "p": 527000,
+   "d": 7
+  },
+  {
+   "n": "Wool patchwork sleeveless top",
+   "p": 398000,
+   "d": null
+  },
+  {
+   "n": "Wool unbalanced pleated skirt",
+   "p": 689000,
+   "d": null
+  },
+  {
+   "n": "689,000",
+   "p": 649000,
+   "d": 5
+  },
+  {
+   "n": "Wool short skirt pants",
+   "p": 398000,
+   "d": null
+  },
+  {
+   "n": "Sleeveless crop coat",
+   "p": 486000,
+   "d": null
+  },
+  {
+   "n": "486,000",
+   "p": 446000,
+   "d": 8
+  },
+  {
+   "n": "Classic tailored coat",
+   "p": 1380000,
+   "d": null
+  },
+  {
+   "n": "Cape trench coat",
+   "p": 849000,
+   "d": null
+  },
+  {
+   "n": "849,000",
+   "p": 809000,
+   "d": 4
+  },
+  {
+   "n": "Wide pin tuck slacks",
+   "p": 579000,
+   "d": null
+  },
+  {
+   "n": "579,000",
+   "p": 539000,
+   "d": 6
+  },
+  {
+   "n": "Reverse side strap vest",
+   "p": 778000,
+   "d": null
+  },
+  {
+   "n": "778,000",
+   "p": 738000,
+   "d": 5
+  },
+  {
+   "n": "Diagonal draped wrap slacks",
+   "p": 498000,
+   "d": null
+  },
+  {
+   "n": "Origami pleated layered jacket",
+   "p": 1468000,
+   "d": null
+  },
+  {
+   "n": "1,468,000",
+   "p": 1428000,
+   "d": 2
+  },
+  {
+   "n": "Logo sleeveless",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "129,000",
+   "p": 112230,
+   "d": 13
+  },
+  {
+   "n": "Doodle balloon mini dress",
+   "p": 930000,
+   "d": null
+  },
+  {
+   "n": "930,000",
+   "p": 890000,
+   "d": 4
+  },
+  {
+   "n": "Origami trench coat",
+   "p": 729000,
+   "d": null
+  },
+  {
+   "n": "Wide pleated pants",
+   "p": 820000,
+   "d": null
+  },
+  {
+   "n": "820,000",
+   "p": 780000,
+   "d": 4
+  },
+  {
+   "n": "Unbalanced drape shirt",
+   "p": 284000,
+   "d": null
+  },
+  {
+   "n": "284,000",
+   "p": 247080,
+   "d": 13
+  },
+  {
+   "n": "Signature pin-tuck slacks",
+   "p": 388000,
+   "d": null
+  },
+  {
+   "n": "388,000",
+   "p": 348000,
+   "d": 10
+  },
+  {
+   "n": "Layered cover-up skirt",
+   "p": 320000,
+   "d": null
+  },
+  {
+   "n": "320,000",
+   "p": 280000,
+   "d": 12
+  },
+  {
+   "n": "Layered pin tuck slacks",
+   "p": 340000,
+   "d": null
+  },
+  {
+   "n": "Classic over-fit blazer",
+   "p": 380000,
+   "d": null
+  },
+  {
+   "n": "380,000",
+   "p": 340000,
+   "d": 10
+  },
+  {
+   "n": "Classic reversible jacket",
+   "p": 590000,
+   "d": null
+  },
+  {
+   "n": "590,000",
+   "p": 550000,
+   "d": 6
+  },
+  {
+   "n": "Half trench coat",
+   "p": 598000,
+   "d": null
+  },
+  {
+   "n": "Wide pin tuck pants",
+   "p": 398000,
+   "d": null
+  },
+  {
+   "n": "Balmacaan layered jacket",
+   "p": 798000,
+   "d": null
+  },
+  {
+   "n": "798,000",
+   "p": 758000,
+   "d": 5
+  },
+  {
+   "n": "Cape double trench coat",
+   "p": 1123000,
+   "d": null
+  },
+  {
+   "n": "1,123,000",
+   "p": 1083000,
+   "d": 3
+  }
+ ],
+ "id": 110848,
+ "observed_at": "2026-10-29"
+}

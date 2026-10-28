@@ -1,0 +1,933 @@
+{
+ "url": "https://display.wconcept.co.kr/rn/brand/113272",
+ "title": "로트르드민(L’autre de min) | W컨셉(W CONCEPT)",
+ "ko": "로트르드민",
+ "en": "L’autre de min",
+ "intro": "페미닌하고 고급스러운 무드로 절제된 세련됨을 추구하는 여성 컨템포러리 브랜드 입니다. 차별화된 소재와 완성도있는 안정된 실루엣의 옷을 추구합니다. 로트르드민 26 가을 2차 컬렉션 로트르드민 26 가을 컬렉션 L'autre de min 26 SUMMER PT.3 L'autre de min 26 SUMMER PT.2 L'autre de min 26 Summer Collection L'autre de min 26 SPRING 2ND DROP L'autre de min 26 SPRING 1ST DROP L'autre de min 25 WINTER COLLECTION L'autre de min 25 FALL COLLECTION PT.3 로트르드민 25 여름 컬렉션 2차 단독 선오픈 하트를 23.2만 개 받았어요 최근 조회수가 23.4만을 넘었어요 베스트 아이템 [컬러추가] Layered sheer shirt knit 33% 92,220 1 [컬러추가] Satin Lace Cami Top 20% 46,110 2 [컬러추가] Lautre Lace Satin flare skirt 20% 94,830 3 Halter Layered Shirt Top 31% 74,820 4 ",
+ "n": 173,
+ "p": {
+  "min": 1031,
+  "q1": 69000,
+  "med": 94830,
+  "q3": 129000,
+  "p90": 158000,
+  "max": 315950,
+  "mean": 96527
+ },
+ "disc": {
+  "n": 80,
+  "med": 31,
+  "max": 50
+ },
+ "names": [
+  "[컬러추가] Layered sheer shirt knit",
+  "[컬러추가] Satin Lace Cami Top",
+  "[컬러추가] Lautre Lace Satin flare skirt",
+  "Halter Layered Shirt Top",
+  "[단독] Halter layered Set up",
+  "Lace knit Ivory cardigan",
+  "Feminine Layered Top",
+  "Pencil long Skirt",
+  "Layered shirts knit",
+  "Lautre Off Shirts_gray,Blue",
+  "Pleated scarf Black Top",
+  "Volume Pleated Skirt",
+  "Metal lace Black Knit cardigan",
+  "Metal lace Gray Knit cardigan",
+  "Lace knit Black cardigan",
+  "Leather Brown pencil skirt",
+  "Cashmere V pullover",
+  "Wrap skirt Black Pants",
+  "Mellow Frill Cardigan",
+  "U neck knit",
+  "Diana Black skirt",
+  "Moca Suede Jacket",
+  "Maren Tweed Jacket",
+  "Sienne Shiring Tied Blouse",
+  "Classic shirring Shirt White Dress",
+  "Classic shirring Shirt Dress",
+  "Tatan Check Pencil Brown Skirt",
+  "Sienna Shearling Ivory Mustang Jacket",
+  "Sienna Shearling Black Mustang Jacket",
+  "Lautre Le Mustang Jacket",
+  "Wool tencel T shirts",
+  "Merino wool turtleneck knitwear",
+  "Lautre Ivory Collar Fur Jacket",
+  "Lautre Halter Buckle knit",
+  "Sophia Blouse knit cardigan",
+  "Fleur knit skirt",
+  "Linen Flared shorts",
+  "Tilda tied Ivory Blouse",
+  "Pleated Pants",
+  "Halter Sheer Pink Blouse"
+ ],
+ "cards": [
+  {
+   "n": "[컬러추가] Layered sheer shirt knit",
+   "p": 92220,
+   "d": 33
+  },
+  {
+   "n": "[컬러추가] Satin Lace Cami Top",
+   "p": 46110,
+   "d": 20
+  },
+  {
+   "n": "[컬러추가] Lautre Lace Satin flare skirt",
+   "p": 94830,
+   "d": 20
+  },
+  {
+   "n": "Halter Layered Shirt Top",
+   "p": 74820,
+   "d": 31
+  },
+  {
+   "n": "[단독] Halter layered Set up",
+   "p": 85260,
+   "d": 28
+  },
+  {
+   "n": "Lace knit Ivory cardigan",
+   "p": 94830,
+   "d": 31
+  },
+  {
+   "n": "Feminine Layered Top",
+   "p": 93090,
+   "d": 21
+  },
+  {
+   "n": "Pencil long Skirt",
+   "p": 74820,
+   "d": 23
+  },
+  {
+   "n": "Layered shirts knit",
+   "p": 120930,
+   "d": 28
+  },
+  {
+   "n": "Lautre Off Shirts_gray,Blue",
+   "p": 77430,
+   "d": 28
+  },
+  {
+   "n": "Pleated scarf Black Top",
+   "p": 74820,
+   "d": 31
+  },
+  {
+   "n": "Volume Pleated Skirt",
+   "p": 68730,
+   "d": 36
+  },
+  {
+   "n": "Metal lace Black Knit cardigan",
+   "p": 77430,
+   "d": 34
+  },
+  {
+   "n": "Metal lace Gray Knit cardigan",
+   "p": 77430,
+   "d": 34
+  },
+  {
+   "n": "Lace knit Black cardigan",
+   "p": 94830,
+   "d": 31
+  },
+  {
+   "n": "Leather Brown pencil skirt",
+   "p": 77430,
+   "d": 20
+  },
+  {
+   "n": "Cashmere V pullover",
+   "p": 62640,
+   "d": 42
+  },
+  {
+   "n": "Wrap skirt Black Pants",
+   "p": 85260,
+   "d": 33
+  },
+  {
+   "n": "Mellow Frill Cardigan",
+   "p": 74760,
+   "d": 31
+  },
+  {
+   "n": "U neck knit",
+   "p": 61320,
+   "d": 37
+  },
+  {
+   "n": "Diana Black skirt",
+   "p": 102660,
+   "d": 30
+  },
+  {
+   "n": "Moca Suede Jacket",
+   "p": 147030,
+   "d": 32
+  },
+  {
+   "n": "Maren Tweed Jacket",
+   "p": 144420,
+   "d": 27
+  },
+  {
+   "n": "Sienne Shiring Tied Blouse",
+   "p": 73080,
+   "d": 32
+  },
+  {
+   "n": "Classic shirring Shirt White Dress",
+   "p": 129630,
+   "d": 31
+  },
+  {
+   "n": "Classic shirring Shirt Dress",
+   "p": 129630,
+   "d": 31
+  },
+  {
+   "n": "Tatan Check Pencil Brown Skirt",
+   "p": 77430,
+   "d": 28
+  },
+  {
+   "n": "Sienna Shearling Ivory Mustang Jacket",
+   "p": 245731,
+   "d": 34
+  },
+  {
+   "n": "Sienna Shearling Black Mustang Jacket",
+   "p": 245731,
+   "d": 34
+  },
+  {
+   "n": "Lautre Le Mustang Jacket",
+   "p": 315950,
+   "d": 27
+  },
+  {
+   "n": "Wool tencel T shirts",
+   "p": 36540,
+   "d": 37
+  },
+  {
+   "n": "Merino wool turtleneck knitwear",
+   "p": 41760,
+   "d": 28
+  },
+  {
+   "n": "Lautre Ivory Collar Fur Jacket",
+   "p": 181830,
+   "d": 38
+  },
+  {
+   "n": "Lautre Halter Buckle knit",
+   "p": 77430,
+   "d": 20
+  },
+  {
+   "n": "Sophia Blouse knit cardigan",
+   "p": 94830,
+   "d": 31
+  },
+  {
+   "n": "Fleur knit skirt",
+   "p": 85260,
+   "d": null
+  },
+  {
+   "n": "Linen Flared shorts",
+   "p": 69687,
+   "d": null
+  },
+  {
+   "n": "Tilda tied Ivory Blouse",
+   "p": 85347,
+   "d": null
+  },
+  {
+   "n": "Pleated Pants",
+   "p": 56624,
+   "d": null
+  },
+  {
+   "n": "Halter Sheer Pink Blouse",
+   "p": 56376,
+   "d": null
+  },
+  {
+   "n": "Mue lace White Blouse",
+   "p": 95526,
+   "d": null
+  },
+  {
+   "n": "Lautre Basic Shorts",
+   "p": 79800,
+   "d": null
+  },
+  {
+   "n": "Satin midi lace Sage green skirt",
+   "p": 66360,
+   "d": null
+  },
+  {
+   "n": "Satin midi lace lavender skirt",
+   "p": 68730,
+   "d": null
+  },
+  {
+   "n": "[컬러추가] Layered sheer shirt knit",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "139,000",
+   "p": 92220,
+   "d": 33
+  },
+  {
+   "n": "[컬러추가] Satin Lace Cami Top",
+   "p": 58000,
+   "d": null
+  },
+  {
+   "n": "58,000",
+   "p": 46110,
+   "d": 20
+  },
+  {
+   "n": "(240)",
+   "p": 5426,
+   "d": null
+  },
+  {
+   "n": "[컬러추가] Lautre Lace Satin flare skirt",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "119,000",
+   "p": 94830,
+   "d": 20
+  },
+  {
+   "n": "(134)",
+   "p": 4267,
+   "d": null
+  },
+  {
+   "n": "[단독] Halter layered Set up",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "119,000",
+   "p": 85260,
+   "d": 28
+  },
+  {
+   "n": "Halter Layered Shirt Top",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "109,000",
+   "p": 74820,
+   "d": 31
+  },
+  {
+   "n": "(111)",
+   "p": 7187,
+   "d": null
+  },
+  {
+   "n": "Lace knit Ivory cardigan",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "139,000",
+   "p": 94830,
+   "d": 31
+  },
+  {
+   "n": "Feminine Layered Top",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "119,000",
+   "p": 93090,
+   "d": 21
+  },
+  {
+   "n": "(24)",
+   "p": 2130,
+   "d": null
+  },
+  {
+   "n": "Pencil long Skirt",
+   "p": 98000,
+   "d": null
+  },
+  {
+   "n": "98,000",
+   "p": 74820,
+   "d": 23
+  },
+  {
+   "n": "(89)",
+   "p": 1534,
+   "d": null
+  },
+  {
+   "n": "Layered shirts knit",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "169,000",
+   "p": 120930,
+   "d": 28
+  },
+  {
+   "n": "(81)",
+   "p": 4336,
+   "d": null
+  },
+  {
+   "n": "Moca Suede Jacket",
+   "p": 218000,
+   "d": null
+  },
+  {
+   "n": "218,000",
+   "p": 147030,
+   "d": 32
+  },
+  {
+   "n": "Lace knit Black cardigan",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "NEW Jadin Sheer Pink Shirts",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "139,000",
+   "p": 100920,
+   "d": 27
+  },
+  {
+   "n": "(90)",
+   "p": 3961,
+   "d": null
+  },
+  {
+   "n": "[컬러추가] Lautre Off shirts",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "(174)",
+   "p": 5403,
+   "d": null
+  },
+  {
+   "n": "[컬러추가] Silhouette shirts",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "158,000",
+   "p": 114840,
+   "d": 27
+  },
+  {
+   "n": "(24)",
+   "p": 1906,
+   "d": null
+  },
+  {
+   "n": "Bijou Mohair Butter Cardigan",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "129,000",
+   "p": 77430,
+   "d": 39
+  },
+  {
+   "n": "Metal lace Black Knit cardigan",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "119,000",
+   "p": 77430,
+   "d": 34
+  },
+  {
+   "n": "NOE Cream Blouse",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "139,000",
+   "p": 109620,
+   "d": 21
+  },
+  {
+   "n": "(46)",
+   "p": 2086,
+   "d": null
+  },
+  {
+   "n": "Daze belted leather Black jacket",
+   "p": 278000,
+   "d": null
+  },
+  {
+   "n": "278,000",
+   "p": 181830,
+   "d": 34
+  },
+  {
+   "n": "Lautre Elene Black Flared Skirt",
+   "p": 138000,
+   "d": null
+  },
+  {
+   "n": "138,000",
+   "p": 94830,
+   "d": 31
+  },
+  {
+   "n": "Lautre Halter Buckle knit",
+   "p": 98000,
+   "d": null
+  },
+  {
+   "n": "98,000",
+   "p": 77430,
+   "d": 20
+  },
+  {
+   "n": "(78)",
+   "p": 4205,
+   "d": null
+  },
+  {
+   "n": "Volume Pleated Skirt",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "109,000",
+   "p": 68730,
+   "d": 36
+  },
+  {
+   "n": "Cashmere V pullover",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "109,000",
+   "p": 62640,
+   "d": 42
+  },
+  {
+   "n": "Lautre Amanda Off shirts",
+   "p": 168000,
+   "d": null
+  },
+  {
+   "n": "168,000",
+   "p": 116760,
+   "d": 30
+  },
+  {
+   "n": "(101)",
+   "p": 5677,
+   "d": null
+  },
+  {
+   "n": "Lautre Ivory Collar Fur Jacket",
+   "p": 298000,
+   "d": null
+  },
+  {
+   "n": "298,000",
+   "p": 181830,
+   "d": 38
+  },
+  {
+   "n": "(31)",
+   "p": 1677,
+   "d": null
+  },
+  {
+   "n": "Jadin Suede Leather Bag",
+   "p": 218000,
+   "d": null
+  },
+  {
+   "n": "218,000",
+   "p": 138330,
+   "d": 36
+  },
+  {
+   "n": "Emu boat knit",
+   "p": 69000,
+   "d": null
+  },
+  {
+   "n": "69,000",
+   "p": 50460,
+   "d": 26
+  },
+  {
+   "n": "(68)",
+   "p": 1371,
+   "d": null
+  },
+  {
+   "n": "Lautre Elene Beige Flared Skirt",
+   "p": 138000,
+   "d": null
+  },
+  {
+   "n": "(42)",
+   "p": 1066,
+   "d": null
+  },
+  {
+   "n": "Classic shirring Shirt Dress",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "189,000",
+   "p": 129630,
+   "d": 31
+  },
+  {
+   "n": "Classic shirring Shirt White Dress",
+   "p": 189000,
+   "d": null
+  },
+  {
+   "n": "Sophia Blouse knit cardigan",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "Jade Metal Knit Jacket",
+   "p": 158000,
+   "d": null
+  },
+  {
+   "n": "158,000",
+   "p": 77430,
+   "d": 50
+  },
+  {
+   "n": "(47)",
+   "p": 1411,
+   "d": null
+  },
+  {
+   "n": "NEW Jadin Sheer Blue Shirts",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "(28)",
+   "p": 2011,
+   "d": null
+  },
+  {
+   "n": "Maren Tweed Jacket",
+   "p": 198000,
+   "d": null
+  },
+  {
+   "n": "198,000",
+   "p": 144420,
+   "d": 27
+  },
+  {
+   "n": "Velvet lace skirt",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "119,000",
+   "p": 94952,
+   "d": 20
+  },
+  {
+   "n": "Velvet Ribbon Dress",
+   "p": 169000,
+   "d": null
+  },
+  {
+   "n": "169,000",
+   "p": 112230,
+   "d": 33
+  },
+  {
+   "n": "Sienne Shiring Tied Blouse",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "109,000",
+   "p": 73080,
+   "d": 32
+  },
+  {
+   "n": "Velvet Square midi Black Dress",
+   "p": 188000,
+   "d": null
+  },
+  {
+   "n": "188,000",
+   "p": 112230,
+   "d": 40
+  },
+  {
+   "n": "Lautre Off Shirts_gray,Blue",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "109,000",
+   "p": 77430,
+   "d": 28
+  },
+  {
+   "n": "Leather Brown pencil skirt",
+   "p": 98000,
+   "d": null
+  },
+  {
+   "n": "NEW Jadin Sheer Ivory Shirts",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "(39)",
+   "p": 1393,
+   "d": null
+  },
+  {
+   "n": "New Jadin Brown Shirts",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "139,000",
+   "p": 100050,
+   "d": 28
+  },
+  {
+   "n": "Lautre Lace Gray Satin flare skirt",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "129,000",
+   "p": 112230,
+   "d": 13
+  },
+  {
+   "n": "Lautre Strap Black Satin flare skirt",
+   "p": 108000,
+   "d": null
+  },
+  {
+   "n": "108,000",
+   "p": 74760,
+   "d": 30
+  },
+  {
+   "n": "Straight white denim",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "139,000",
+   "p": 89040,
+   "d": 35
+  },
+  {
+   "n": "Metal lace Gray Knit cardigan",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "Pleated scarf Black Top",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "Lautre Satin flare skirt brown",
+   "p": 98000,
+   "d": null
+  },
+  {
+   "n": "Strap Sage Green Satin flare skirt",
+   "p": 108000,
+   "d": null
+  },
+  {
+   "n": "108,000",
+   "p": 72036,
+   "d": 33
+  },
+  {
+   "n": "(28)",
+   "p": 1318,
+   "d": null
+  },
+  {
+   "n": "Lautre Strap Mocha beige Satin flare skirt",
+   "p": 108000,
+   "d": null
+  },
+  {
+   "n": "Tilda tied Ivory Blouse",
+   "p": 139000,
+   "d": null
+  },
+  {
+   "n": "139,000",
+   "p": 85347,
+   "d": 38
+  },
+  {
+   "n": "(29)",
+   "p": 1187,
+   "d": null
+  },
+  {
+   "n": "Flared V Neck Knit Cardigan",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "129,000",
+   "p": 74760,
+   "d": 42
+  },
+  {
+   "n": "Wrap skirt Black Pants",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "129,000",
+   "p": 85260,
+   "d": 33
+  },
+  {
+   "n": "Fleur knit skirt",
+   "p": 119000,
+   "d": null
+  },
+  {
+   "n": "(48)",
+   "p": 1678,
+   "d": null
+  },
+  {
+   "n": "Mellow Frill Cardigan",
+   "p": 109000,
+   "d": null
+  },
+  {
+   "n": "109,000",
+   "p": 74760,
+   "d": 31
+  },
+  {
+   "n": "Velvet Lace Cami Top",
+   "p": 58000,
+   "d": null
+  },
+  {
+   "n": "58,000",
+   "p": 44683,
+   "d": 22
+  },
+  {
+   "n": "Flared V Neck Knit Gray Cardigan",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "Cowl buckle Ivory knit",
+   "p": 98000,
+   "d": null
+  },
+  {
+   "n": "(27)",
+   "p": 1031,
+   "d": null
+  },
+  {
+   "n": "Halter Frill Sleeveless Brown dot Top",
+   "p": 68000,
+   "d": null
+  },
+  {
+   "n": "68,000",
+   "p": 40716,
+   "d": 40
+  },
+  {
+   "n": "(5)",
+   "p": 1053,
+   "d": null
+  },
+  {
+   "n": "Layered sheer shirt summer knit",
+   "p": 129000,
+   "d": null
+  },
+  {
+   "n": "129,000",
+   "p": 82404,
+   "d": 36
+  },
+  {
+   "n": "(82)",
+   "p": 2819,
+   "d": null
+  },
+  {
+   "n": "Lautre Anna Black Flare skirt",
+   "p": 138000,
+   "d": null
+  },
+  {
+   "n": "138,000",
+   "p": 85260,
+   "d": 38
+  }
+ ],
+ "id": 113272,
+ "observed_at": "2026-10-29"
+}

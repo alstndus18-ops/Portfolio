@@ -1,0 +1,93 @@
+{
+ "slug": "b570184",
+ "ko": "쁘렝땅",
+ "en": "",
+ "status": "후보",
+ "tier": "패션그룹 프리미엄",
+ "tags": [
+  "엘레강스",
+  "소재중시"
+ ],
+ "found": [
+  "기사: 일상의 우아함·캐시미어 코트 소재 고급화"
+ ],
+ "note": "가격 미수집·DB에 없음",
+ "ids": {},
+ "price_source": "",
+ "intro": "",
+ "sub": "",
+ "est": null,
+ "heart": null,
+ "off": null,
+ "score": {},
+ "evidence": [
+  {
+   "idx": "228398",
+   "date": "2026-10-21",
+   "title": "쁘렝땅, 소재 고급화·실루엣 다변화로 추동 공략",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=228398&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "224810",
+   "date": "2026-04-22",
+   "title": "쁘렝땅, 온라인 마케팅 강화…4050 확장",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=224810&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "219525",
+   "date": "2025-08-22",
+   "title": "쁘렝땅, 2025 가을 시즌 캠페인 공개",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=219525&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "215833",
+   "date": "2025-02-28",
+   "title": "일상의 우아함을 담아낸 ‘쁘렝땅’의 봄",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=215833&cat=CAT112",
+   "where": "제목",
+   "anchor": ""
+  },
+  {
+   "idx": "227263",
+   "date": "2026-08-28",
+   "title": "뮤제, 투자 유치로 성장 가속…글로벌 브랜드 도약",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=227263&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "211512",
+   "date": "2024-05-29",
+   "title": "신세계百, 타임스퀘어점 여성 패션 전문관 리뉴얼",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=211512&cat=CAT121",
+   "where": "요약",
+   "anchor": ""
+  },
+  {
+   "idx": "205031",
+   "date": "2023-04-10",
+   "title": "봄 시즌 여성복, ‘트위드가 다 했다’",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=205031&cat=CAT112",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "기사 요약(약함)",
+ "role": "미평가(가격 미수집)",
+ "rank": 88,
+ "platform": {
+  "29cm": null,
+  "wconcept": null
+ }
+}

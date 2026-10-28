@@ -1,0 +1,688 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/17942",
+ "title": "2000아카이브스(2000Archives)",
+ "ko": "2000아카이브스",
+ "en": "2000Archives",
+ "sub": "2000Archives 는 2000년대 빈티지 브랜드 아카이빙을 기반으로한 여성복 브랜드입니다.",
+ "est": 2021,
+ "heart": 10872,
+ "intro": "2000Archives 는 2000년대 빈티지 브랜드 아카이빙을 기반으로한 여성복 브랜드입니다. 빈티지의 재해석과, 독특한 자체 프린트가 돋보이는 디자인을 시즌 리스로 전개하고 있습니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 30680,
+  "q1": 51120,
+  "med": 87020,
+  "q3": 134230,
+  "p90": 163300,
+  "max": 254970,
+  "mean": 94639
+ },
+ "disc": {
+  "n": 50,
+  "med": 33,
+  "max": 36
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 91,
+  "med": 0,
+  "max": 34,
+  "rated": 24
+ },
+ "rate": 4.8,
+ "tags": {
+  "쿠폰": 50,
+  "조건부 무료배송": 50,
+  "신상품": 1
+ },
+ "names": [
+  "MOCK NECK SLEEVELESS (4 COLORS)",
+  "SNYDER WIDE DENIM (BLUE)",
+  "DEEP SCOOP BACK T (4 COLORS)",
+  "DEVON BOOTCUT JEAN (ASH BLUE)",
+  "EIRA LAYERED T (KHAKI)",
+  "DEVON WIDE JEAN (ASH BLUE)",
+  "SNYDER BOOTCUT DENIM (STONE GREY)",
+  "CONTOUR SHIRT (3 COLORS)",
+  "CONTOUR JEANS (DEEP BLUE)",
+  "SNYDER BOOTCUT DENIM (LIGHT BLUE)",
+  "EIRA LAYERED T (GREY)",
+  "SLEEK T (4 COLORS)",
+  "VALENTINA DRAPED SKIRT (GREY)",
+  "DRAPED HENLEY TOP (BLACK)",
+  "VELA OFF-SHOULDER TOP (BLACK)",
+  "SNYDER WIDE DENIM (STONE GREY)",
+  "VALENTINA DRAPED SKIRT (BLACK)",
+  "VELYN CORSET TOP (BLACK)",
+  "RO DRAPED HOODIE (WHITE)",
+  "KAEL DRAPED JACKET (KHAKI BROWN)",
+  "AXEL EYELET CARDIGAN (BLACK)",
+  "CONTOUR SCOOP NECK T (3 COLORS)",
+  "REYA LACE TOP (5 COLORS)",
+  "AFTERGLOW BEANIE (IVORY)",
+  "LIN UNBALANCED TOP (BLACK)",
+  "AXEL EYELET CARDIGAN (CHARCOAL)",
+  "SNYDER DISTRESSED DENIM (BLUE)",
+  "LACE LAYERED TOP (BLACK)",
+  "CONTOUR CROSS BACK TANK (SKIN)",
+  "EVA CORSET TOP (MOCHA)",
+  "SQ NECK CONTOUR T (BLACK)",
+  "SQ NECK CONTOUR T (SKIN)",
+  "NOX GRAPHIC JOGGER (CHARCOAL)",
+  "ROSIE POINTELLE HOODIE ZIP UP (WHITE)",
+  "CONTOUR SCOOP CAMI (BLACK)",
+  "EFFY BOOTS (MELANGE GREY)",
+  "SNYDER WIDE DENIM (INDIGO)",
+  "LYRA HALTER CAMI (BLACK)",
+  "ASHY JEANS (BLUE)",
+  "IVY JEANS (BLUE)"
+ ],
+ "cards": [
+  {
+   "n": "MOCK NECK SLEEVELESS (4 COLORS)",
+   "p": 39760,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SNYDER WIDE DENIM (BLUE)",
+   "p": 155140,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 34,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DEEP SCOOP BACK T (4 COLORS)",
+   "p": 48280,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DEVON BOOTCUT JEAN (ASH BLUE)",
+   "p": 163300,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "EIRA LAYERED T (KHAKI)",
+   "p": 69580,
+   "d": 29,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DEVON WIDE JEAN (ASH BLUE)",
+   "p": 163300,
+   "d": 29,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SNYDER BOOTCUT DENIM (STONE GREY)",
+   "p": 163300,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "CONTOUR SHIRT (3 COLORS)",
+   "p": 90880,
+   "d": 29,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "CONTOUR JEANS (DEEP BLUE)",
+   "p": 134230,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SNYDER BOOTCUT DENIM (LIGHT BLUE)",
+   "p": 163300,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "EIRA LAYERED T (GREY)",
+   "p": 69580,
+   "d": 29,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SLEEK T (4 COLORS)",
+   "p": 51120,
+   "d": 29,
+   "lk": null,
+   "rt": 3.5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "VALENTINA DRAPED SKIRT (GREY)",
+   "p": 90880,
+   "d": 29,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "DRAPED HENLEY TOP (BLACK)",
+   "p": 69020,
+   "d": 36,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 14,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "VELA OFF-SHOULDER TOP (BLACK)",
+   "p": 76680,
+   "d": 29,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SNYDER WIDE DENIM (STONE GREY)",
+   "p": 155140,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 4,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "VALENTINA DRAPED SKIRT (BLACK)",
+   "p": 90880,
+   "d": 29,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "VELYN CORSET TOP (BLACK)",
+   "p": 87020,
+   "d": 33,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "RO DRAPED HOODIE (WHITE)",
+   "p": 62630,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "KAEL DRAPED JACKET (KHAKI BROWN)",
+   "p": 139310,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "AXEL EYELET CARDIGAN (BLACK)",
+   "p": 81800,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "CONTOUR SCOOP NECK T (3 COLORS)",
+   "p": 48280,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "REYA LACE TOP (5 COLORS)",
+   "p": 84490,
+   "d": 29,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "AFTERGLOW BEANIE (IVORY)",
+   "p": 55380,
+   "d": 29,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "LIN UNBALANCED TOP (BLACK)",
+   "p": 56240,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "AXEL EYELET CARDIGAN (CHARCOAL)",
+   "p": 81800,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SNYDER DISTRESSED DENIM (BLUE)",
+   "p": 161210,
+   "d": 33,
+   "lk": null,
+   "rt": 4,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "LACE LAYERED TOP (BLACK)",
+   "p": 84490,
+   "d": 29,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "CONTOUR CROSS BACK TANK (SKIN)",
+   "p": 31950,
+   "d": 36,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "EVA CORSET TOP (MOCHA)",
+   "p": 88190,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SQ NECK CONTOUR T (BLACK)",
+   "p": 43460,
+   "d": 36,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SQ NECK CONTOUR T (SKIN)",
+   "p": 43460,
+   "d": 36,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "NOX GRAPHIC JOGGER (CHARCOAL)",
+   "p": 107360,
+   "d": 36,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "ROSIE POINTELLE HOODIE ZIP UP (WHITE)",
+   "p": 124610,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "CONTOUR SCOOP CAMI (BLACK)",
+   "p": 30680,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "EFFY BOOTS (MELANGE GREY)",
+   "p": 254970,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SNYDER WIDE DENIM (INDIGO)",
+   "p": 134230,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "LYRA HALTER CAMI (BLACK)",
+   "p": 41820,
+   "d": 33,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "ASHY JEANS (BLUE)",
+   "p": 155140,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "IVY JEANS (BLUE)",
+   "p": 127170,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "KAEL DRAPED JACKET (BLACK)",
+   "p": 139310,
+   "d": 36,
+   "lk": null,
+   "rt": 3.5,
+   "rv": 2,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "INES JEANS (BLUE)",
+   "p": 120780,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "INES JEANS (GREY)",
+   "p": 120780,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "MINA LACE TOP (BEIGE)",
+   "p": 90880,
+   "d": 29,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SQ NECK CONTOUR T (CHARCOAL)",
+   "p": 43460,
+   "d": 36,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "XEN TOP (ASH)",
+   "p": 39130,
+   "d": 33,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "NOXY LAYERED SKIRT (MELANGE GREY)",
+   "p": 49850,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "EVA CORSET TOP (BLACK)",
+   "p": 88190,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "NOXY LAYERED SKIRT (BLACK)",
+   "p": 49850,
+   "d": 36,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "SIREN LACE BRA (WHITE)",
+   "p": 69660,
+   "d": 36,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "쿠폰",
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 17942,
+ "observed_at": "2026-10-29"
+}

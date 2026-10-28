@@ -1,0 +1,137 @@
+{
+ "slug": "open-yy",
+ "ko": "오픈와이와이",
+ "en": "OPEN YY",
+ "status": "후보",
+ "tier": "디자이너·온라인 브랜드",
+ "tags": [
+  "모던",
+  "유니크",
+  "미니멀",
+  "디자이너레이블"
+ ],
+ "found": [
+  "29CM DB 1차"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 16390
+ },
+ "price_source": "29CM",
+ "intro": "크리에이티브 디렉터 지영과 보영, 두 자매의 이름 ‘영’에서 착안한 YY,\n공유하는 문자 '영'은 동음이의어로, 같은 소리를 공유하면서 두 가지 다른 의미를 가집니다.\n첫 번째 영은 '밝음’, 다른 하나는 '꽃봉오리'를 뜻합니다.\nOPEN YY는 비슷하면서도 다른 각각의 다양성과 각 개성이 가지고 있는 아름다움을 표현합니다.",
+ "sub": "TheOpen Product의 새로운 레이블, ‘OPEN YY’",
+ "est": 2020,
+ "heart": 76382,
+ "off": null,
+ "score": {
+  "k": 1.11,
+  "list_q1": 131111,
+  "list_med": 216222,
+  "list_q3": 343333,
+  "s_price": 98,
+  "s_band": 80,
+  "s_mood": 10,
+  "score": 51,
+  "partial": 91
+ },
+ "evidence": [],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "가격 근접·무드 다름",
+ "rank": 15,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/16390",
+   "title": "오픈와이와이(OPEN YY)",
+   "ko": "오픈와이와이",
+   "en": "OPEN YY",
+   "sub": "TheOpen Product의 새로운 레이블, ‘OPEN YY’",
+   "est": 2020,
+   "heart": 76382,
+   "intro": "크리에이티브 디렉터 지영과 보영, 두 자매의 이름 ‘영’에서 착안한 YY,\n공유하는 문자 '영'은 동음이의어로, 같은 소리를 공유하면서 두 가지 다른 의미를 가집니다.\n첫 번째 영은 '밝음’, 다른 하나는 '꽃봉오리'를 뜻합니다.\nOPEN YY는 비슷하면서도 다른 각각의 다양성과 각 개성이 가지고 있는 아름다움을 표현합니다.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 50490,
+    "q1": 118000,
+    "med": 194600,
+    "q3": 309000,
+    "p90": 469000,
+    "max": 698000,
+    "mean": 224730
+   },
+   "disc": {
+    "n": 30,
+    "med": 10,
+    "max": 50
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 484,
+    "med": 3,
+    "max": 135,
+    "rated": 40
+   },
+   "rate": 4.8,
+   "tags": {
+    "조건부 무료배송": 10,
+    "무료배송": 38,
+    "품절": 2,
+    "쿠폰": 1
+   },
+   "names": [
+    "THIGH HIGH BALLET BOOTS, BLACK",
+    "YY WOOL HEART BONE BALL CAP (BLACK)",
+    "BELTED CARGO FIELD JACKET (KHAKI)",
+    "FRINGED ZIP SHAWL (BLACK)",
+    "PET CLUB ROCKER LONG SLEEVE (CHARCOAL)",
+    "DRAPED COTTON SKIRT (GRAY)",
+    "BALLET SLOUCHY SHORT BOOTS, CHARCOAL",
+    "PET CLUB ROCKER LONG SLEEVE (BLUE)",
+    "YY CHECKERED HEART BONE BALL CAP (MUSTARD)",
+    "FLEECE APPLIQUE ZIPUP JACKET (BLACK)",
+    "RAW CUT RUFFLE DRESS TOP (CHARCOAL)",
+    "YY WOOL HEART BONE BALL CAP (RED)",
+    "WAIWAI TRUCKER CAP (BLACK)",
+    "WIRE KNIT BEANIE (BLACK)",
+    "BUTTON UP BLOUSON CARDIGAN (CHARCOAL)",
+    "SLOUCHY V-NECK SWEATSHIRT (GRAY)",
+    "OIL SKIN MINI TOTE w. FURRY STRAP (BLACK)",
+    "FAIR ISLE ZIP UP SWEATER (BLACK)",
+    "CROSS BUCKLE BALLET FLATS, CHARCOAL",
+    "YY PHONETIC TRUCKER CAP (BLACK)",
+    "APPLIQUE KNIT ZIPUP JACKET (KHAKI)",
+    "TRIPLE KNOT CREW NECK TOP (BLACK)",
+    "FLUID CARGO BOMBER (BLACK)",
+    "STITCH ZIP UP KNIT HOODIE (IVORY)",
+    "STITCH ZIP UP KNIT HOODIE (BLUE)",
+    "HOUNDS TOOTH STAR COWICHAN (GRAY)",
+    "I LOVE YY FIT HOODIE (CHARCOAL)",
+    "DRAPED COTTON SKIRT (LIGHT YELLOW)",
+    "OXFORD FLATS, BLACK",
+    "FLUID CARGO BOMBER (KHAKI)",
+    "TAILORED BOOTCUT PANTS (CHARCOAL)",
+    "OVERSIZED FAUX FUR HOOD PARKA (BEIGE)",
+    "I LOVE YY FIT HOODIE (MELANGE)",
+    "CROSS BAND BALLET FLATS, GUNMETAL",
+    "STITCH ZIP UP KNIT HOODIE (BROWN)",
+    "FLAPPER PLEATS DRESS (BLACK)",
+    "WOOL CRISS CROSS WRAP KNIT (GRAY)",
+    "BALLET SLOUCHY BOOTS, MULTI",
+    "BALLET SLOUCHY SHORT BOOTS, BURGUNDY",
+    "RAW CUT RUFFLE DRESS TOP (GRAY)"
+   ],
+   "id": 16390,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": null
+ }
+}

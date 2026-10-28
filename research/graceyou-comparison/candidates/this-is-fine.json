@@ -1,0 +1,213 @@
+{
+ "slug": "this-is-fine",
+ "ko": "디스이즈파인",
+ "en": "THIS IS FINE",
+ "status": "후보",
+ "tier": "디자이너·온라인 브랜드",
+ "tags": [
+  "캐주얼",
+  "베이직",
+  "트렌디"
+ ],
+ "found": [
+  "기사: 쿠메와 함께 W Stage 최종 10개 브랜드"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 98350,
+  "wc": 117670
+ },
+ "price_source": "29CM",
+ "intro": "THIS IS FINE ⎻ Contemporary Fine Casual",
+ "sub": "THIS IS FINE ⎻ Contemporary Fine Casual",
+ "est": 2025,
+ "heart": 5544,
+ "off": null,
+ "score": {
+  "k": 1.18,
+  "list_q1": 70635,
+  "list_med": 89000,
+  "list_q3": 145000,
+  "s_price": 5,
+  "s_band": 4,
+  "s_mood": 0,
+  "score": 2,
+  "partial": 4
+ },
+ "evidence": [
+  {
+   "idx": "227320",
+   "date": "2026-09-01",
+   "title": "W컨셉, ‘W Stage’ 최종 10개 브랜드 선정",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=227320&cat=CAT127",
+   "where": "요약",
+   "anchor": "쿠메",
+   "excerpt": "두 달간 대면 심사, 정밀 인터뷰, 현장 실사 등을 진행했으며, 국내 탑 스타일리스트, 매거진 편집장 등으로 구성된 내외부 전문가가 상품성, 콘셉트, 성장성, 운영 역량 등을 종합적으로 평가해 파이널리스트 10개 브랜드를 선정했다.   최종 파이널리스트에는 ▲하우투러브미 ▲레터프롬문 ▲쿠메 ▲던 팩토리 ▲씨엘로 ▲디스이즈파인 ▲무아르보 ▲러브듀이 ▲드메리엘 ▲에포이즈 등 뛰어난 역량을 갖춘 신진 디자이너 브랜드가 이름을 올렸다.   파이널리스트에 오른 브랜드에는"
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": [
+   "2026-10-29"
+  ]
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "가격 앵커(저가)",
+ "rank": 75,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/98350",
+   "title": "디스이즈파인(THIS IS FINE)",
+   "ko": "디스이즈파인",
+   "en": "THIS IS FINE",
+   "sub": "THIS IS FINE ⎻ Contemporary Fine Casual",
+   "est": 2025,
+   "heart": 5544,
+   "intro": "THIS IS FINE ⎻ Contemporary Fine Casual",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 37240,
+    "q1": 60040,
+    "med": 75650,
+    "q3": 123250,
+    "p90": 165750,
+    "max": 267750,
+    "mean": 93885
+   },
+   "disc": {
+    "n": 50,
+    "med": 15,
+    "max": 24
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 169,
+    "med": 0,
+    "max": 70,
+    "rated": 20
+   },
+   "rate": 4.97,
+   "tags": {
+    "무료배송": 49,
+    "품절": 1,
+    "신상품": 1
+   },
+   "names": [
+    "Slim V-neck Knit Stripe Tee - Brown+Sky",
+    "Slim V-neck Ribbed Tee - Beige",
+    "Slim V-neck Ribbed Tee - Ivory",
+    "Slim V-neck Ribbed Tee - Charcoal",
+    "[박현지] Slim V-neck Stripe Tee - Sky",
+    "[박현지] Slim V-neck Stripe Tee - Black",
+    "Look So Fine Graphic LS Tee - White",
+    "[박현지] Slim V-neck Stripe Tee - Mint",
+    "Quarter-Zip Balloon Pullover Fleece - Gray",
+    "Slim V-neck Knit Stripe Tee - Gray+Yellow",
+    "Slim Laced Camisole - White",
+    "Slim Laced Camisole - Charcoal",
+    "Quarter-Zip Balloon Pullover Fleece - Beige",
+    "Recruit Graphic LS Tee - Charcoal",
+    "Track Jacket - Offwhite",
+    "Standard Sweatpants - Melange Gray",
+    "Low Rise Flare Jean - Vintage Blue",
+    "Recruit Graphic LS Tee - White",
+    "Pajama Overshirt - Blue",
+    "M65 Field Jacket - Black",
+    "Jacquard Blanket",
+    "Signature Ball Cap - Black",
+    "Pajama Shorts - Blue",
+    "[박현지] Slim V-neck Stripe Tee - White",
+    "Quarter-Zip Balloon Pullover Fleece - Black",
+    "Wizard Graphic LS Tee - White",
+    "Engineered Jean - Light Blue",
+    "Slim Henley Neck Waffle Tee - Ivory",
+    "Look So Fine Graphic LS Tee - Blue",
+    "Track Jacket - Black",
+    "Wide Pleated Trousers - Black Stripe",
+    "Quarter-Zip Balloon Pullover Shirt - Red Check",
+    "Patchwork Shirt - Pink",
+    "Relaxed Signature Jean - Suede Black",
+    "THIS IS FINE Applique Hoodie - Black",
+    "[고준희] Pajama Shirt - Navy",
+    "Signature Ball Cap - Gray",
+    "Signature Ball Cap - Cream",
+    "Relaxed Signature Hoodie - Sportif Gray",
+    "Slim Henley Neck Waffle Tee - Gray"
+   ],
+   "id": 98350,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": {
+   "url": "https://display.wconcept.co.kr/rn/brand/117670",
+   "title": "디스이즈파인(THIS IS FINE) | W컨셉(W CONCEPT)",
+   "ko": "디스이즈파인",
+   "en": "THIS IS FINE",
+   "intro": "Contemporary Fine Casual for the Fine Ones 이 세상에 편안하기만 한 옷은 많습니다. ’THIS IS FINE’은 편안함 위에 당신의 빛나는 태도를 더합니다. 선별된 소재, 동시대적 디자인, 그리고 섬세한 바느질. 깊이 있는 안목을 가진 당신의 삶에 자연스럽게 스며듭니다. 일상에서도 fine jewelry의 아름다움과 fine dining의 섬세함을 담는 것. 그것이 우리가 추구하는 fine casual입니다.",
+   "n": 124,
+   "p": {
+    "min": 1051,
+    "q1": 60040,
+    "med": 79000,
+    "q3": 136800,
+    "p90": 195000,
+    "max": 310000,
+    "mean": 99691
+   },
+   "disc": {
+    "n": 47,
+    "med": 39,
+    "max": 46
+   },
+   "names": [
+    "Slim V-neck Knit Stripe Tee Brown+Sky",
+    "Look So Fine Graphic LS Tee White",
+    "Quarter-Zip Balloon Pullover Fleece Gray",
+    "[박현지] Slim V-neck Ribbed Tee Charcoal",
+    "[박현지] Slim V-Neck Stripe Tee Black",
+    "Slim V-neck Knit Stripe Tee Gray+Yellow",
+    "[박현지] Slim V-neck Ribbed Tee Beige",
+    "Quarter-Zip Balloon Pullover Fleece Black",
+    "[박현지] Slim V-neck Ribbed Tee Ivory",
+    "Wide Pleated Trousers Black Stripe",
+    "Henley Neck Waffle Tee Sand",
+    "Henley Neck Waffle Tee Ultramarine",
+    "Hybrid Shorts Black",
+    "Hybrid Shorts Charcoal",
+    "Hybrid Shorts Melange Gray",
+    "Hybrid Trousers Black",
+    "Hybrid Trousers Charcoal",
+    "Hybrid Trousers Melange Gray",
+    "Hybrid Blazer Black",
+    "Hybrid Blazer Charcoal",
+    "Henley Neck Waffle LS Tee Black",
+    "Henley Neck Waffle LS Tee Sand",
+    "Henley Neck Waffle LS Tee Gray",
+    "Layered LS Tee",
+    "THIS IS FINE Applique Hoodie Black",
+    "THIS IS FINE Applique Hoodie Cream",
+    "Quarter-Zip Balloon Pullover Fleece Beige",
+    "Wizard Graphic LS Tee White",
+    "Relaxed Signature Jean Suede Black",
+    "[박현지] Slim V-neck Stripe Tee White",
+    "Knitted Beanie Black",
+    "Knitted Gloves Black",
+    "Track Jacket Black",
+    "Can Sleep All Day Tee",
+    "Cropped Signature Tee White",
+    "Slim Laced Camisole Charcoal",
+    "Engineered Jean Light Blue",
+    "Slim Laurels Tee Sportif Gray",
+    "Signature Ball Cap Black",
+    "Quarter-Zip Balloon Pullover Fleece Gray"
+   ],
+   "id": 117670,
+   "observed_at": "2026-10-29"
+  }
+ }
+}

@@ -1,0 +1,215 @@
+{
+ "slug": "raive",
+ "ko": "레이브",
+ "en": "RAIVE",
+ "status": "후보",
+ "tier": "디자이너·온라인 브랜드",
+ "tags": [
+  "트렌디",
+  "모던",
+  "유니크",
+  "캐주얼"
+ ],
+ "found": [
+  "기사: 쿠메와 함께 W컨셉 파리 팝업 참여"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 2657,
+  "wc": 103714,
+  "ms": "raive"
+ },
+ "price_source": "29CM",
+ "intro": "레이브는 음악, 영화, 예술 등 다양한 문화에서 영감을 받아 경계 없고 자유분방한 스타일을 제안하는 패션 레이블입니다.",
+ "sub": "화려하면서도 자유로운 스타일링의 컨템포러리룩",
+ "est": 2017,
+ "heart": 125722,
+ "off": null,
+ "score": {
+  "k": 1.0,
+  "list_q1": 128000,
+  "list_med": 148000,
+  "list_q3": 202300,
+  "s_price": 60,
+  "s_band": 46,
+  "s_mood": 10,
+  "score": 32,
+  "partial": 54
+ },
+ "evidence": [
+  {
+   "idx": "228379",
+   "date": "2026-10-21",
+   "title": "W컨셉, 파리 팝업 효과…글로벌몰 방문자 95% 증가",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=228379&cat=CAT127",
+   "where": "요약",
+   "anchor": "쿠메",
+   "excerpt": " 대비 103% 증가했다.   같은 기간 글로벌몰 방문자 수와 신규 가입자 수도 전년 동기 대비 각각 95%, 76% 늘었다. 파리 팝업 이후 글로벌몰 신규 고객 주문 비중은 기존 29%에서 48%로 19%포인트(p) 상승했다.   참여 브랜드의 판매 성과도 나타났다. 팝업에서 선보인 쿠메·오소이·레이브 3개 브랜드의 합산 거래액은 팝업 직후 글로벌몰 전체 거래액의 25%를 차지했다.   W컨셉 관계자는 \"뉴욕에 이어 파리에서도 팝업을 운영하며 현지 고객과의 접"
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": [
+   "2026-10-29"
+  ]
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "참고(트렌드·무드 탐색)",
+ "rank": 48,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/2657",
+   "title": "레이브(RAIVE)",
+   "ko": "레이브",
+   "en": "RAIVE",
+   "sub": "화려하면서도 자유로운 스타일링의 컨템포러리룩",
+   "est": 2017,
+   "heart": 125722,
+   "intro": "레이브는 음악, 영화, 예술 등 다양한 문화에서 영감을 받아 경계 없고 자유분방한 스타일을 제안하는 패션 레이블입니다.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 28000,
+    "q1": 128000,
+    "med": 148000,
+    "q3": 202300,
+    "p90": 304300,
+    "max": 328000,
+    "mean": 169238
+   },
+   "disc": {
+    "n": 11,
+    "med": 15,
+    "max": 50
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 2360,
+    "med": 6,
+    "max": 635,
+    "rated": 40
+   },
+   "rate": 4.97,
+   "tags": {
+    "조건부 무료배송": 50,
+    "가을 필수": 34,
+    "신상품": 17
+   },
+   "names": [
+    "High-neck Leather Blouson Jacket VL5AJ093_2color",
+    "(컬러추가) Low-Belted Half Coat VW5WH041_3color",
+    "High Neck Boucle Half Coat VW6WHA43_2color",
+    "High Neck Short Coat VW3WJ032_2color",
+    "Shirring Jersey Skirt VW6AS960_2color",
+    "Hair Fur Half Jacket VF6WJB25_2color",
+    "(컬러추가) Hairy Wool Jacket VW4WJ035_3color",
+    "V-neck Collared Button Knit VK6AP977_3color",
+    "Oversized Double-Layer Leather Jacket VL6AJ909_2color",
+    "Nia Shoulder UB6AB138_3color",
+    "Dot Slit Detail Skirt VW6AS981_2color",
+    "Muir Shoulder UB6AB135_2color",
+    "Cashmere Wool V neck Knit VK6AP971_6color",
+    "Velvet Halter Layered T-Shirt VW6WEA66_2color",
+    "Contrast Detail Zip-up Knit VK6WDA76_2color",
+    "Ruffle Detail Top VW6AE960_2color",
+    "Suede Buckle Mini Skirt Pants VW6AL995_2color",
+    "Reversible Suede Half Mustang VM6WMB10_2color",
+    "Coloring Layered T-shirts VW6AE963_4color",
+    "Soft Touch Semi-Boot Cut Pants VW6WLA84_3color",
+    "Layered Open-Toe Knee Socks VX5AK624_4color",
+    "Belted H-line Long Skirt VW6AS984_2color",
+    "Striped Hairy Knit VK6WPA75_2color",
+    "Hadi Shoulder UB6AB141_3color",
+    "Raccoon Blended Deep V-neck Knit VK6WPA71_2color",
+    "Raglan Graphic T-Shirts VW6AE964_2color",
+    "Hairy Collarless Jacket VW6WJA01_2color",
+    "Suede Midi Skirt VW6AS980_2color",
+    "Toggle Detail Oversized Coat VW6WHA46_3color",
+    "Stella Clog Mule WA6AE022_2color",
+    "Buckle Detail High neck Jacket VW4WJ033_2color",
+    "Trimmed Hook Midi Tweed Jacket VW5AJ230_2color",
+    "Claire Mid Boots WA6AD024_3color",
+    "Striped Collar Knit VK5WP293_2color",
+    "Leo Shoulder UF5SB088_3color",
+    "Suede Blouson Jacket VL6AJ906_2color",
+    "High-neck Belted Half Coat VW6WHA42_2color",
+    "Boucle Duffel Half Coat Jacket in Black VW5WJ241-10",
+    "Cloude Stud Flats in Black WA6AB020-10",
+    "Corduroy Layered Skirt Pants VW6WLA85_2color"
+   ],
+   "id": 2657,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": {
+   "url": "https://display.wconcept.co.kr/rn/brand/103714",
+   "title": "레이브(RAIVE) | W컨셉(W CONCEPT)",
+   "ko": "레이브",
+   "en": "RAIVE",
+   "intro": "레이브는 음악과 영화, 서브컬처에서 영감을 받아 새로운 취향과 태도를 제안하는 패션 레이블입니다. 서로 다른 스타일과 무드를 믹스하고, 익숙한 옷에 새로운 시선을 더해 각자의 개성을 표현합니다. RAIVE 26WINTER 레이브 X 주미니 주미니가 고른 아우터 RAIVE 26FW RTW, THE COMMON ROOM RAIVE 26FW BAGS&SHOES RAIVE : 베스트 티셔츠 여름 베스트, 그래픽 티셔츠를 ~50%로 만나요. RAIVE 26HS Glitched Dream RAIVE X HELLO KITTY 단독 10%+쿠폰 혜택으로 만나요! RAIVE 25 SHOES&BAG COLLECTION ‘Bohemian sensation’ RAIVE 25SUMMER 3RD ’NEW SPLASH 2nd' MD's REAL REVIEW vol.40 W컨셉 엠디들의 백&슈즈 구경하기 하트를 38.4만 개 받았어요 최근 조회수가 10만을 넘었어요 베스트 아이템 Oversized Double-Layer Leather Jacket VL6AJ909_2color 15% 253,300 1 Faux Leather Blouson Jacket VL2AM080_2color 20% 1",
+   "n": 141,
+   "p": {
+    "min": 1039,
+    "q1": 98000,
+    "med": 148000,
+    "q3": 248000,
+    "p90": 298000,
+    "max": 394200,
+    "mean": 168588
+   },
+   "disc": {
+    "n": 58,
+    "med": 15,
+    "max": 30
+   },
+   "names": [
+    "Oversized Double-Layer Leather Jacket VL6AJ909_2color",
+    "Faux Leather Blouson Jacket VL2AM080_2color",
+    "Belted Half Trench Jacket VW6AR902_2color",
+    "High-neck Leather Blouson Jacket VL5AJ093_2color",
+    "Raive Applique Hood Zip-up VW6AM950_2color",
+    "[주미니PICK]Cashmere Wool V neck Knit VK6AP971_6color",
+    "[주미니PICK]Buckle Detail High neck Jacket VW4WJ033_2color",
+    "Star Raive Long Sleeve T-shirts VW5AE138_2color",
+    "Love Bites Graphic Sweatshirt VW4AE107_2color",
+    "[주미니PICK]Shetland Wool Cable Knit VK6WPA79_2color",
+    "[주미니PICK]Hairy Wool Blended Half Coat VW6WHA48_2color",
+    "[주미니PICK]Toggle Detail Oversized Coat VW6WHA46_3color",
+    "[주미니PICK]One-shoulder Unbalanced Knit Top VK6AP987_2color",
+    "[주미니PICK]Belted H-line Long Skirt VW6AS984_2color",
+    "[주미니PICK]Tin Washing Semi Bootcut Denim VJ6AL935_2color",
+    "[주미니PICK]Jett Tote UB6AA142_2color",
+    "[주미니PICK]Velvetlike Denim Pants in Black VJ4WL384-10",
+    "Hairy Wool Jacket VW4WJ035_3color",
+    "Boucle Duffel Half Coat Jacket in Black VW5WJ241-10",
+    "High-neck Shearling Mustang VM5WM014_2color",
+    "(컬러 추가) Low-Belted Half Coat VW5WH041_3color",
+    "Stripe Fleece Hoodie Zip-up VW6WMA51_2color",
+    "Stripe Fleece Zip-up in Grey VW6WMA52-12",
+    "Belt Pointed Over-fit Long Coat in Grey VW6WHA45-12",
+    "Hazel Ankle Fur Boots WA6AD028_2color",
+    "Molly Fur Mid Boots WA6AD025_2color",
+    "(WINTER ver.) Oversized Check Shirts in D/Navy VW6WBA10-24",
+    "Hood Toggle-Detail Fur Jacket VF6WJB20_2color",
+    "Hair Fur Half Jacket VF6WJB25_2color",
+    "Fluffy Half Fur Jacket VF6WJB21_2color",
+    "Maxi Fur Coat in L/Beige VF6WJB24-90",
+    "Reversible Faux Fur Jacket in Black VF6WJB23-10",
+    "Mix Fur Short Jacket in L/Beige VF6WJB22-90",
+    "Reversible Suede Half Mustang VM6WMB10_2color",
+    "Leather Fur Mustang in Brown VW6WMB11-93",
+    "High-neck Over-fit Duck Down Puffer VD6WMB32_3color",
+    "Lightweight Hooded Down Jumper VD6WMA31_2color",
+    "High-neck Toggle Detail Down Jumper VD6WMB34_2color",
+    "Fur-collar Down Jumper VD6WMB36_2color",
+    "Detachable Faux Fur Duck Down Jumper in Black VD6WMB35-10"
+   ],
+   "id": 103714,
+   "observed_at": "2026-10-29"
+  }
+ }
+}

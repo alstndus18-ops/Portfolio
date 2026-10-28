@@ -1,0 +1,640 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/1939",
+ "title": "쿠메(KUME)",
+ "ko": "쿠메",
+ "en": "KUME",
+ "sub": "믹스 앤 매치 컨템포러리 페미닌 캐주얼을 제안합니다.",
+ "heart": 7996,
+ "intro": "KUMÉ (쿠메) 는 ‘꿈을 입는다’ 라는 의미를 갖고 시작하였습니다.\n\n어떤 장소, 어떤 상황에서도 KUMÉ로 자신만의 취향과 특별함을 표현하고, 각자가 바라는 감성과 삶의 모습을 보여줄 수 있으면 좋겠습니다.\n\n아름다운 핏, 좋은 소재, 편안한 움직임들이 모여 KUMÉ가 되고, KUMÉ를 입는 모든 이들에게 ‘꿈’ 을 줄 수 있는 브랜드를 만들고자 합니다.",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 56550,
+  "q1": 157500,
+  "med": 170100,
+  "q3": 206100,
+  "p90": 373500,
+  "max": 674100,
+  "mean": 205687
+ },
+ "disc": {
+  "n": 50,
+  "med": 10,
+  "max": 22
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 57,
+  "med": 0,
+  "max": 24,
+  "rated": 13
+ },
+ "rate": 4.84,
+ "tags": {
+  "조건부 무료배송": 48,
+  "신상품": 4,
+  "품절": 2
+ },
+ "names": [
+  "Frill Chiffon Midi Skirt, Peach",
+  "Back Slit Capri Pants, Black",
+  "Raccoon Blend Muffler Knit Sweater, Mocha",
+  "Mohair Sheer Argyle Knit, Khaki",
+  "Triple-Stitch Tweed Round Neck Jacket, Black",
+  "Wool Blend Buttoned Hem Hoodie, Charcoal",
+  "Mohair Sheer Mermaid Maxi Skirt, Khaki",
+  "Wool Blend Buttoned Hem Knit Jogger Pants, Charcoal",
+  "Mohair Sheer Mermaid Maxi Skirt, Charcoal",
+  "Double-Pleated Tailored Wide Pants, Beige",
+  "[2차리오더] Halter Layering Tencel Sweater, White",
+  "Pure Wool Double-Breasted Half Coat, Brown",
+  "Relaxed Barrel-Leg Denim Pants, Ivory",
+  "Henley Neck Side Slit Top, White",
+  "Basic Wool Blend Layering Top, Gray",
+  "[1차리오더] Back Banding Rayon Pants, Light Yellow",
+  "Mohair Sheer Mermaid Maxi Skirt, Ivory",
+  "Pure Wool Double-Breasted Half Coat, Charcoal",
+  "Raccoon Blend Muffler Knit Sweater, Light Gray",
+  "[4차리오더] Linen Pleated Long Skirt, Ivory",
+  "[Men] Wrinkle Free Over-Fit Shirt, Sky Blue",
+  "Mohair Sheer Argyle Knit, Ivory",
+  "Halter Layered Ribbed knit Cardigan, Ivory",
+  "Wool Relaxed V-Neck Sweater, Navy",
+  "Faux Leather Highneck Blouson, Brown",
+  "[2차리오더] Halter Layering Tencel Sweater, Black",
+  "Halter Layered Ribbed knit Cardigan, Black",
+  "[1차 리오더] Wool Blend Side Button Skirt, Navy Stripe",
+  "[송지효,문가영,웬디 착용] KUME Destroyed Straight Denim Pants, Blue",
+  "Mohair Sheer Argyle Knit, Charcoal",
+  "Men Washed Corduroy Wide Pants, Light Blue",
+  "Raccoon Blend Muffler Knit Sweater, Ivory",
+  "Basic Wool Blend Layering Top, White",
+  "Halter Layered Ribbed knit Cardigan, Blue",
+  "Linen Boat-Neck Pintucked Dress, Navy",
+  "Alpaca Boucle Midi Jacket, Ivory",
+  "Frill Chiffon Midi Skirt, Ivory",
+  "Fatigue Corduroy Bootcut Pants, Brown",
+  "Alpaca Wool Belted Long Coat, Oatmeal",
+  "Crochet Short Sleeved Sweater, Ivory"
+ ],
+ "cards": [
+  {
+   "n": "Frill Chiffon Midi Skirt, Peach",
+   "p": 190500,
+   "d": 22,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Back Slit Capri Pants, Black",
+   "p": 128640,
+   "d": 19,
+   "lk": null,
+   "rt": 5,
+   "rv": 24,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Raccoon Blend Muffler Knit Sweater, Mocha",
+   "p": 193500,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Mohair Sheer Argyle Knit, Khaki",
+   "p": 148050,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Triple-Stitch Tweed Round Neck Jacket, Black",
+   "p": 286200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Wool Blend Buttoned Hem Hoodie, Charcoal",
+   "p": 179100,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Mohair Sheer Mermaid Maxi Skirt, Khaki",
+   "p": 166500,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Wool Blend Buttoned Hem Knit Jogger Pants, Charcoal",
+   "p": 170100,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Mohair Sheer Mermaid Maxi Skirt, Charcoal",
+   "p": 166500,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Double-Pleated Tailored Wide Pants, Beige",
+   "p": 178200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2차리오더] Halter Layering Tencel Sweater, White",
+   "p": 147940,
+   "d": 17,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Pure Wool Double-Breasted Half Coat, Brown",
+   "p": 373500,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Relaxed Barrel-Leg Denim Pants, Ivory",
+   "p": 170100,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Henley Neck Side Slit Top, White",
+   "p": 68730,
+   "d": 13,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Basic Wool Blend Layering Top, Gray",
+   "p": 58500,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[1차리오더] Back Banding Rayon Pants, Light Yellow",
+   "p": 175500,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "품절"
+   ]
+  },
+  {
+   "n": "Mohair Sheer Mermaid Maxi Skirt, Ivory",
+   "p": 166500,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Pure Wool Double-Breasted Half Coat, Charcoal",
+   "p": 373500,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Raccoon Blend Muffler Knit Sweater, Light Gray",
+   "p": 181890,
+   "d": 15,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[4차리오더] Linen Pleated Long Skirt, Ivory",
+   "p": 185960,
+   "d": 17,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 11,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[Men] Wrinkle Free Over-Fit Shirt, Sky Blue",
+   "p": 157500,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "품절"
+   ]
+  },
+  {
+   "n": "Mohair Sheer Argyle Knit, Ivory",
+   "p": 157500,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Halter Layered Ribbed knit Cardigan, Ivory",
+   "p": 166500,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Wool Relaxed V-Neck Sweater, Navy",
+   "p": 170100,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Faux Leather Highneck Blouson, Brown",
+   "p": 260100,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[2차리오더] Halter Layering Tencel Sweater, Black",
+   "p": 161100,
+   "d": 10,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 7,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Halter Layered Ribbed knit Cardigan, Black",
+   "p": 166500,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[1차 리오더] Wool Blend Side Button Skirt, Navy Stripe",
+   "p": 206100,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "[송지효,문가영,웬디 착용] KUME Destroyed Straight Denim Pants, Blue",
+   "p": 193500,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Mohair Sheer Argyle Knit, Charcoal",
+   "p": 157500,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Men Washed Corduroy Wide Pants, Light Blue",
+   "p": 170100,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Raccoon Blend Muffler Knit Sweater, Ivory",
+   "p": 193500,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Basic Wool Blend Layering Top, White",
+   "p": 56550,
+   "d": 13,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Halter Layered Ribbed knit Cardigan, Blue",
+   "p": 166500,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Linen Boat-Neck Pintucked Dress, Navy",
+   "p": 195850,
+   "d": 20,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Alpaca Boucle Midi Jacket, Ivory",
+   "p": 413100,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Frill Chiffon Midi Skirt, Ivory",
+   "p": 220500,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Fatigue Corduroy Bootcut Pants, Brown",
+   "p": 166500,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Alpaca Wool Belted Long Coat, Oatmeal",
+   "p": 562500,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Crochet Short Sleeved Sweater, Ivory",
+   "p": 170100,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Handmade Cashmere Blend Muffler Coat, Camel",
+   "p": 674100,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Alpaca Boucle Midi Jacket, Melange Gray",
+   "p": 413100,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "KUME Amu Shoulder Bag, Black",
+   "p": 323100,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Crinkled Satin Layered Midi Skirt, Gray",
+   "p": 134100,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Layering Turtleneck Top, Mint",
+   "p": 71100,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Layering Turtleneck Top, Melange Beige",
+   "p": 71100,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Cotton Checked Shirt with Embroidered Pocket, Blue",
+   "p": 151200,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Crinkled Tencel Wrap Skirt, Black",
+   "p": 222320,
+   "d": 17,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Crochet Short Sleeved Sweater, Light Blue",
+   "p": 170100,
+   "d": 10,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "조건부 무료배송"
+   ]
+  },
+  {
+   "n": "Vegan Leather Pleated Cargo Skirt, Black",
+   "p": 233100,
+   "d": 10,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "조건부 무료배송"
+   ]
+  }
+ ],
+ "id": 1939,
+ "observed_at": "2026-10-29"
+}

@@ -1,0 +1,144 @@
+{
+ "slug": "2000archives",
+ "ko": "2000아카이브스",
+ "en": "2000Archives",
+ "status": "후보",
+ "tier": "디자이너·온라인 브랜드",
+ "tags": [
+  "빈티지",
+  "트렌디",
+  "유니크"
+ ],
+ "found": [
+  "29CM DB 1차"
+ ],
+ "note": "",
+ "ids": {
+  "c29": 17942
+ },
+ "price_source": "29CM",
+ "intro": "2000Archives 는 2000년대 빈티지 브랜드 아카이빙을 기반으로한 여성복 브랜드입니다. 빈티지의 재해석과, 독특한 자체 프린트가 돋보이는 디자인을 시즌 리스로 전개하고 있습니다.",
+ "sub": "2000Archives 는 2000년대 빈티지 브랜드 아카이빙을 기반으로한 여성복 브랜드입니다.",
+ "est": 2021,
+ "heart": 10872,
+ "off": null,
+ "score": {
+  "k": 1.49,
+  "list_q1": 76299,
+  "list_med": 129881,
+  "list_q3": 200343,
+  "s_price": 46,
+  "s_band": 28,
+  "s_mood": 0,
+  "score": 19,
+  "partial": 39
+ },
+ "evidence": [
+  {
+   "idx": "214121",
+   "date": "2024-11-14",
+   "title": "중국 침체 장기화...일본으로 눈 돌리는 디자이너들",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=214121&cat=CAT11Z",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": []
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "참고(트렌드·무드 탐색)",
+ "rank": 62,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/17942",
+   "title": "2000아카이브스(2000Archives)",
+   "ko": "2000아카이브스",
+   "en": "2000Archives",
+   "sub": "2000Archives 는 2000년대 빈티지 브랜드 아카이빙을 기반으로한 여성복 브랜드입니다.",
+   "est": 2021,
+   "heart": 10872,
+   "intro": "2000Archives 는 2000년대 빈티지 브랜드 아카이빙을 기반으로한 여성복 브랜드입니다. 빈티지의 재해석과, 독특한 자체 프린트가 돋보이는 디자인을 시즌 리스로 전개하고 있습니다.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 30680,
+    "q1": 51120,
+    "med": 87020,
+    "q3": 134230,
+    "p90": 163300,
+    "max": 254970,
+    "mean": 94639
+   },
+   "disc": {
+    "n": 50,
+    "med": 33,
+    "max": 36
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 91,
+    "med": 0,
+    "max": 34,
+    "rated": 24
+   },
+   "rate": 4.8,
+   "tags": {
+    "쿠폰": 50,
+    "조건부 무료배송": 50,
+    "신상품": 1
+   },
+   "names": [
+    "MOCK NECK SLEEVELESS (4 COLORS)",
+    "SNYDER WIDE DENIM (BLUE)",
+    "DEEP SCOOP BACK T (4 COLORS)",
+    "DEVON BOOTCUT JEAN (ASH BLUE)",
+    "EIRA LAYERED T (KHAKI)",
+    "DEVON WIDE JEAN (ASH BLUE)",
+    "SNYDER BOOTCUT DENIM (STONE GREY)",
+    "CONTOUR SHIRT (3 COLORS)",
+    "CONTOUR JEANS (DEEP BLUE)",
+    "SNYDER BOOTCUT DENIM (LIGHT BLUE)",
+    "EIRA LAYERED T (GREY)",
+    "SLEEK T (4 COLORS)",
+    "VALENTINA DRAPED SKIRT (GREY)",
+    "DRAPED HENLEY TOP (BLACK)",
+    "VELA OFF-SHOULDER TOP (BLACK)",
+    "SNYDER WIDE DENIM (STONE GREY)",
+    "VALENTINA DRAPED SKIRT (BLACK)",
+    "VELYN CORSET TOP (BLACK)",
+    "RO DRAPED HOODIE (WHITE)",
+    "KAEL DRAPED JACKET (KHAKI BROWN)",
+    "AXEL EYELET CARDIGAN (BLACK)",
+    "CONTOUR SCOOP NECK T (3 COLORS)",
+    "REYA LACE TOP (5 COLORS)",
+    "AFTERGLOW BEANIE (IVORY)",
+    "LIN UNBALANCED TOP (BLACK)",
+    "AXEL EYELET CARDIGAN (CHARCOAL)",
+    "SNYDER DISTRESSED DENIM (BLUE)",
+    "LACE LAYERED TOP (BLACK)",
+    "CONTOUR CROSS BACK TANK (SKIN)",
+    "EVA CORSET TOP (MOCHA)",
+    "SQ NECK CONTOUR T (BLACK)",
+    "SQ NECK CONTOUR T (SKIN)",
+    "NOX GRAPHIC JOGGER (CHARCOAL)",
+    "ROSIE POINTELLE HOODIE ZIP UP (WHITE)",
+    "CONTOUR SCOOP CAMI (BLACK)",
+    "EFFY BOOTS (MELANGE GREY)",
+    "SNYDER WIDE DENIM (INDIGO)",
+    "LYRA HALTER CAMI (BLACK)",
+    "ASHY JEANS (BLUE)",
+    "IVY JEANS (BLUE)"
+   ],
+   "id": 17942,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": null
+ }
+}

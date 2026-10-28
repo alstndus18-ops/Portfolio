@@ -1,0 +1,212 @@
+{
+ "slug": "atelier-de-lumen",
+ "ko": "아뜰리에 드 루멘",
+ "en": "ATELIER DE LUMEN",
+ "status": "후보",
+ "tier": "디자이너·온라인 브랜드",
+ "tags": [
+  "미니멀",
+  "데일리"
+ ],
+ "found": [
+  "기사: 낫띵리튼과 함께 W컨셉 상위 브랜드"
+ ],
+ "note": "가방 브랜드(의류 아님)",
+ "ids": {
+  "c29": 91005,
+  "wc": 108879
+ },
+ "price_source": "29CM",
+ "intro": "Atelier de LUMEN<br/>\n루멘은 보편적이고 일상적인 것에서 진정한 아름다움을 발견합니다.<br/>\n다양한 취향이 어우러진 디자인과 섬세한 디테일을 통해 평범한 하루에도 특별함을 더하는 제품을 제안합니다.",
+ "sub": "루멘은 평범한 일상 속 본연의 아름다움을 지닌 이들의 매일을 반짝이게 비추는 잔잔한 빛이 됩니다.",
+ "est": 2021,
+ "heart": 24689,
+ "off": null,
+ "score": {
+  "k": 1.41,
+  "list_q1": 218000,
+  "list_med": 258000,
+  "list_q3": 318000,
+  "s_price": 79,
+  "s_band": 37,
+  "s_mood": 12,
+  "score": 37,
+  "partial": 62
+ },
+ "evidence": [
+  {
+   "idx": "208850",
+   "date": "2023-12-04",
+   "title": "W컨셉, '2023 연말결산 어워즈' 진행",
+   "url": "https://www.apparelnews.co.kr/news/news_view/?idx=208850&cat=CAT127",
+   "where": "요약",
+   "anchor": ""
+  }
+ ],
+ "snap_days": {
+  "29cm": [
+   "2026-10-29"
+  ],
+  "wconcept": [
+   "2026-10-29"
+  ]
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "비의류·참고",
+ "rank": 39,
+ "platform": {
+  "29cm": {
+   "url": "https://www.29cm.co.kr/store/brand/91005",
+   "title": "아뜰리에 드 루멘(ATELIER DE LUMEN)",
+   "ko": "아뜰리에 드 루멘",
+   "en": "ATELIER DE LUMEN",
+   "sub": "루멘은 평범한 일상 속 본연의 아름다움을 지닌 이들의 매일을 반짝이게 비추는 잔잔한 빛이 됩니다.",
+   "est": 2021,
+   "heart": 24689,
+   "intro": "Atelier de LUMEN<br/>\n루멘은 보편적이고 일상적인 것에서 진정한 아름다움을 발견합니다.<br/>\n다양한 취향이 어우러진 디자인과 섬세한 디테일을 통해 평범한 하루에도 특별함을 더하는 제품을 제안합니다.",
+   "promo": [],
+   "n": 50,
+   "p": {
+    "min": 46150,
+    "q1": 154780,
+    "med": 183180,
+    "q3": 225780,
+    "p90": 247080,
+    "max": 310980,
+    "mean": 191865
+   },
+   "disc": {
+    "n": 50,
+    "med": 29,
+    "max": 33
+   },
+   "likes": {
+    "med": null
+   },
+   "rev": {
+    "total": 1516,
+    "med": 18,
+    "max": 294,
+    "rated": 45
+   },
+   "rate": 4.96,
+   "tags": {
+    "쿠폰": 50,
+    "무료배송": 50,
+    "단독": 6,
+    "신상품": 5
+   },
+   "names": [
+    "LOG MIDDLE BAG (SOFT BLACK)",
+    "ANNEAU FLAP BAG (SOFT BLACK)",
+    "MARRON BAG (ORGAN BROWN)",
+    "[29CM 단독] LOG MIDDLE BAG (VINTAGE BROWN)",
+    "SHIRRING BALLET FLAT (SOFT BLACK)",
+    "PANIER PETIT BAG (TAN BROWN)",
+    "[단독] BAIA BAG (SOFT BLACK)",
+    "FADE BOSTON BAG (SOFT BLACK)",
+    "LUNE FORME TOTE BAG (SOFT BLACK)",
+    "PILLOW HOBO BAG (SOFT BLACK)",
+    "DOUBLE STRAP SHOULDER BAG (SOFT BLACK)",
+    "PILLOW HOBO BAG (ORGAN BROWN)",
+    "PANIER PETIT BAG (ORGAN BROWN)",
+    "LOG LARGE BAG (SOFT BLACK)",
+    "MOSSY HOBO BAG (LEATHER BLACK)",
+    "PANIER PETIT BAG (SOFT BLACK)",
+    "NADEL BAG (SUEDE BROWN)",
+    "BASE TOP LOAFER (SUEDE SAND)",
+    "MARRON BAG (SOFT BLACK)",
+    "LUNE FORME BAG (SOFT BLACK)",
+    "DOUBLE STRAP SHOULDER BAG (VINTAGE BROWN)",
+    "BASE FLAT SHOES (SOFT BLACK)",
+    "MONIQUE SHOULDER BAG (CARMINE RED)",
+    "ARETE BAG (SOFT BLACK)",
+    "PANIER PETIT BAG (PATTERN BLACK)",
+    "MOSSY HOBO BAG (SUEDE BROWN)",
+    "[단독] CUBE HOBO BAG (SUEDE BROWN)",
+    "PILLOW TOTE BAG (SOFT BLACK)",
+    "SOBRE LEATHER BELT (SOFT BLACK)",
+    "ANNEAU FLAP BAG (HAY YELLOW)",
+    "DOUBLE STRAP BAG (SOFT BLACK)",
+    "[단독] BAIA BAG (TAWNY BROWN)",
+    "FANTINE BAG (SOFT BLACK)",
+    "PANIER FLAP BAG (ORGAN BROWN)",
+    "[단독] PANIER PETIT BAG_Suede 2colors",
+    "LOG LARGE BAG (VINTAGE BROWN)",
+    "PANIER FLAP BAG (SOFT BLACK)",
+    "[LUMEN x YEODONG YUN] NECKLACE 1",
+    "PANIER TOTE BAG (PATTERN BLACK)",
+    "MOON BAG (SUEDE CAMEL)"
+   ],
+   "id": 91005,
+   "observed_at": "2026-10-29"
+  },
+  "wconcept": {
+   "url": "https://display.wconcept.co.kr/rn/brand/108879",
+   "title": "아뜰리에 드 루멘(Atelier de LUMEN) | W컨셉(W CONCEPT)",
+   "ko": "아뜰리에 드 루멘",
+   "en": "Atelier de LUMEN",
+   "intro": "루멘은 보편적이고 일상적인 것에서 진정한 아름다움을 발견합니다. 다양한 취향이 어우러진 디자인과 섬세한 디테일을 통해 평범한 하루에도 특별함을 더하는 제품을 제안합니다. 아뜰리에 드 루멘 솔비가 제안하는 W ONLY BAG W Issue 아뜰리에 드 루멘 가을빛을 머금은 루멘 아뜰리에 드 루멘 26AW 2차 컬렉션 단독 선발매, ~15% 아뜰리에 드 루멘 26AW 컬렉션 발매, 단독특가 아뜰리에 드 루멘 최예다운과 함께, 26FW 단독 발매 아뜰리에 드 루멘 여기에서만 만나는 W ONLY 아이템 ~30% SUMMER WEEK BEST BAG 폴뉴아부터 루멘까지, 인기 가방 주말 최대혜택 아뜰리에 드 루멘 서머위크 기념 전 상품 단독 혜택, 20% 쿠폰 Influencer's Pick : BAG 6월 인플루언서들이 선택한 가방, ~20% 아뜰리에 드 루멘 2nd SUMMER DROP 루멘의 두번째 썸머 컬렉션, 신상품 단독 특가 하트를 54.1만 개 받았어요 최근 조회수가 19.1만을 넘었어요 쿠폰 15% 2일 남음 최대 150,000원 할인(1,000원 이상 구매) 5장 베스트 아이템 Marron Bag_3colors 15% 185,300 1 Panier P",
+   "n": 141,
+   "p": {
+    "min": 1139,
+    "q1": 151300,
+    "med": 238000,
+    "q3": 298000,
+    "p90": 338300,
+    "max": 438000,
+    "mean": 215416
+   },
+   "disc": {
+    "n": 55,
+    "med": 15,
+    "max": 27
+   },
+   "names": [
+    "Marron Bag_3colors",
+    "Panier Petit Bag_6colors",
+    "[단독][솔비 PICK] MARRON DEMI BAG (NUBUCK BLACK)",
+    "[단독] PANIER PETIT BAG (ETOUPE BROWN)",
+    "LOG MIDDLE BAG (SOFT BLACK)",
+    "[단독] COLLEN BUCKET BAG (SOFT BLACK)",
+    "[단독][솔비 PICK] COLLEN BUCKET BAG (VINTAGE BROWN)",
+    "Panier Tote Bag_6colors",
+    "Base Flat Shoes_2colors",
+    "[단독] MARRON DEMI BAG (PORCELAIN WHITE)",
+    "KARRY SHOULDER BAG (NUBUCK BLACK)",
+    "KARRY SHOULDER BAG (NUBUCK BROWN)",
+    "VERE FLAP BAG (SUEDE BLACK)",
+    "VERE FLAP BAG (SUEDE CAMEL)",
+    "FADE CROSSBODY BAG (SOFT BLACK)",
+    "FADE CROSSBODY BAG (PORCELAIN WHITE)",
+    "DOUBLE STRAP BAG (SOFT BLACK)",
+    "DOUBLE STRAP BAG (VINTAGE BROWN)",
+    "AIR MINI POUCH (SOFT BLACK)",
+    "AIR MINI POUCH (VINTAGE BROWN)",
+    "FADE FOLDING WALLET (SOFT BLACK)",
+    "FADE FOLDING WALLET (PORCELAIN WHITE)",
+    "FADE FOLDING WALLET (CAMEL BROWN)",
+    "BUCKLE ENGINEER BOOTS (VINTAGE BROWN)",
+    "BUCKLE ENGINEER BOOTS (SOFT BLACK)",
+    "SOBRE WOVEN BELT (SOFT BLACK)",
+    "COMFORT LONG BOOTS (SOFT BLACK)",
+    "DOUBLE STRAP SHOULDER BAG (SOFT BLACK)",
+    "DOUBLE STRAP SHOULDER BAG (VINTAGE BROWN)",
+    "FADE BOSTON BAG (CAMEL BROWN)",
+    "LOG LARGE BAG (SOFT BLACK)",
+    "BLEP SHOULDER BAG_2colors",
+    "Twig Basket Shoulder Bag_4colors",
+    "TWIG PETIT BAG (SOFT BLACK)",
+    "TWIG BASKET GRAND BAG_2colors",
+    "Panier Flap Bag_3colors",
+    "KITTEN HEEL FLIP (MOCA BROWN)",
+    "Marron Bag_3colors",
+    "218,000",
+    "Panier Petit Bag_6colors"
+   ],
+   "id": 108879,
+   "observed_at": "2026-10-29"
+  }
+ }
+}

@@ -1,0 +1,637 @@
+{
+ "url": "https://www.29cm.co.kr/store/brand/74137",
+ "title": "필로트(pelote)",
+ "ko": "필로트",
+ "en": "pelote",
+ "sub": "로트의 미학은 시간의 흐름에도 한결같이 빛나는 디자인 가치가 있는 '뉴 클래식'에 대한 정교한 탐구에서 시작합니다.",
+ "heart": 268,
+ "intro": "필로트의 미학은 시간의 흐름에도 한결같이 빛나는 디자인 가치가 있는 ‘뉴 클래식’에 대한 정교한 탐구에서 시작합니다. <br/>\n필로트의 컬렉션은 독자적인 시각으로 클래식을 재해석하여 정교한 테일러링과 섬세하지만 절제된 디테일,<br/>\n 그리고 고급스러운 소재로 시간의 흐름에도 지속될 수 있는 공감과 가치를 추구합니다. <br/>\n확고한 취향과 변하지 않는 가치에 대한 기준을 가진 동시대를 살아가는 여성을 위한 브랜드입니다.<br/>",
+ "promo": [],
+ "n": 50,
+ "p": {
+  "min": 39000,
+  "q1": 149000,
+  "med": 169000,
+  "q3": 199000,
+  "p90": 350000,
+  "max": 489000,
+  "mean": 194100
+ },
+ "disc": {
+  "n": 3,
+  "med": 30,
+  "max": 30
+ },
+ "likes": {
+  "med": null
+ },
+ "rev": {
+  "total": 12,
+  "med": 0,
+  "max": 3,
+  "rated": 8
+ },
+ "rate": 4.92,
+ "tags": {
+  "무료배송": 49,
+  "신상품": 1,
+  "품절": 1
+ },
+ "names": [
+  "Suede Leather Vest (2color)",
+  "Premium Wool 100 V-Neck Knit (4color)",
+  "Fine wool crop cardigan (Light Blue)",
+  "Wool Round Neck Cardigan (3color)",
+  "Fine wool crop cardigan (Light Pink)",
+  "Fine wool crop cardigan (Orange)",
+  "Wool Cashmere Half-Sleeve Knit Top (3color)",
+  "Wool Double Pleated Wide Pants (2color)",
+  "Pure wool ribbed leggings (Grey)",
+  "Premium Wool 100 Distressed Cardigan (2color)",
+  "Fine wool crop cardigan (3color)",
+  "Breco Tweed Short Pants (2color)",
+  "Suede Leather Wrap Skirt (2color)",
+  "Argyle Wool Knit Cardigan (2color)",
+  "CAMPORE TWEED JACKET (Dark navy)",
+  "2-Way Wool Balloon Cardigan (2color)",
+  "Layered Ribbed Sleeveless Top (2color)",
+  "Hemp Flower Short-Sleeve Cardigan (2color)",
+  "Air Midi Skirt (3color)",
+  "Hemp Flower Crop Vest (2color)",
+  "Merino Deep V Neck Knit (3color)",
+  "Button Duck Down Padding (3color)",
+  "V-neck Knit Vest (Brown)",
+  "Breco Tweed Skirt (Cream)",
+  "Square neck knit top (Black)",
+  "Deep U-neck jersey top (Black)",
+  "Ribbon tied cardigan (Ivory)",
+  "Leather Double Button Crop Jacket (Black)",
+  "Hooded Mesh Overlay Dress Set (Black)",
+  "3-Way Tie Shirt Cardigan (Ivory)",
+  "Hemp Flower Headscarf (2color)",
+  "Air Collar Short Sleeve T-Shirt (Black)",
+  "Air Stripe Collar Short Sleeve T-Shirt (2color)",
+  "Air Stripe Collar Long Sleeve T-Shirt (2color)",
+  "Deep Slit Wool Skirt (2color)",
+  "Back Snap Apron Dress (Black)",
+  "String Overfit Cotton Shirt (2color)",
+  "Collar Stripe Knit Sweatshirt (3color)",
+  "Wholegarment Round Knit Top (3color)",
+  "Merino Stripe Top (Black Beige)"
+ ],
+ "cards": [
+  {
+   "n": "Suede Leather Vest (2color)",
+   "p": 149000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Premium Wool 100 V-Neck Knit (4color)",
+   "p": 149000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Fine wool crop cardigan (Light Blue)",
+   "p": 139000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 3,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Wool Round Neck Cardigan (3color)",
+   "p": 169000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Fine wool crop cardigan (Light Pink)",
+   "p": 139000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 2,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Fine wool crop cardigan (Orange)",
+   "p": 139000,
+   "d": null,
+   "lk": null,
+   "rt": 4.5,
+   "rv": 2,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Wool Cashmere Half-Sleeve Knit Top (3color)",
+   "p": 149000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Wool Double Pleated Wide Pants (2color)",
+   "p": 170000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Pure wool ribbed leggings (Grey)",
+   "p": 139000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Premium Wool 100 Distressed Cardigan (2color)",
+   "p": 149000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송",
+    "신상품"
+   ]
+  },
+  {
+   "n": "Fine wool crop cardigan (3color)",
+   "p": 139000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Breco Tweed Short Pants (2color)",
+   "p": 139300,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Suede Leather Wrap Skirt (2color)",
+   "p": 219000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Argyle Wool Knit Cardigan (2color)",
+   "p": 299000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "CAMPORE TWEED JACKET (Dark navy)",
+   "p": 483000,
+   "d": 30,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "2-Way Wool Balloon Cardigan (2color)",
+   "p": 159000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Layered Ribbed Sleeveless Top (2color)",
+   "p": 149000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Hemp Flower Short-Sleeve Cardigan (2color)",
+   "p": 199000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Air Midi Skirt (3color)",
+   "p": 169000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Hemp Flower Crop Vest (2color)",
+   "p": 149000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Merino Deep V Neck Knit (3color)",
+   "p": 179900,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Button Duck Down Padding (3color)",
+   "p": 489000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "V-neck Knit Vest (Brown)",
+   "p": 139000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Breco Tweed Skirt (Cream)",
+   "p": 203000,
+   "d": 30,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Square neck knit top (Black)",
+   "p": 149000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Deep U-neck jersey top (Black)",
+   "p": 77000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Ribbon tied cardigan (Ivory)",
+   "p": 149000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Leather Double Button Crop Jacket (Black)",
+   "p": 230000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Hooded Mesh Overlay Dress Set (Black)",
+   "p": 349000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "3-Way Tie Shirt Cardigan (Ivory)",
+   "p": 169000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Hemp Flower Headscarf (2color)",
+   "p": 39000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Air Collar Short Sleeve T-Shirt (Black)",
+   "p": 169000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Air Stripe Collar Short Sleeve T-Shirt (2color)",
+   "p": 169000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Air Stripe Collar Long Sleeve T-Shirt (2color)",
+   "p": 179000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Deep Slit Wool Skirt (2color)",
+   "p": 189000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Back Snap Apron Dress (Black)",
+   "p": 299000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "String Overfit Cotton Shirt (2color)",
+   "p": 179000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Collar Stripe Knit Sweatshirt (3color)",
+   "p": 189900,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Wholegarment Round Knit Top (3color)",
+   "p": 159000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "품절"
+   ]
+  },
+  {
+   "n": "Merino Stripe Top (Black Beige)",
+   "p": 79900,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Wide Collar Crop Jacket (2color)",
+   "p": 390000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Boucle Stripe Round Cardigan (Navy)",
+   "p": 199000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Frill Slim Ribbing Cardigan (2color)",
+   "p": 149000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "String Virgin Wool Slacks (2color)",
+   "p": 179000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Takisada Shearing Jacket (2color)",
+   "p": 390000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Wool Hoody Bolero (3color)",
+   "p": 350000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Hooded Knit Vest (2color)",
+   "p": 219000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Spangle Wool Knit Skirt (2color)",
+   "p": 190000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Burton Round Crop Cardigan (3color)",
+   "p": 139000,
+   "d": null,
+   "lk": null,
+   "rt": 0,
+   "rv": 0,
+   "t": [
+    "무료배송"
+   ]
+  },
+  {
+   "n": "Fine wool V-neck top (3color)",
+   "p": 119000,
+   "d": null,
+   "lk": null,
+   "rt": 5,
+   "rv": 1,
+   "t": [
+    "무료배송"
+   ]
+  }
+ ],
+ "id": 74137,
+ "observed_at": "2026-10-29"
+}

@@ -1,0 +1,116 @@
+{
+ "slug": "yuns",
+ "ko": "윤세",
+ "en": "YUNSÉ",
+ "status": "후보",
+ "tier": "디자이너 컨템포러리",
+ "tags": [
+  "모던",
+  "유니크",
+  "캐주얼"
+ ],
+ "found": [
+  "DB 디자이너 여성복"
+ ],
+ "note": "",
+ "ids": {
+  "wc": 107655
+ },
+ "price_source": "W컨셉",
+ "intro": "YUNSE(윤세)는 영국을 베이스로하는 컨템포러리 여성복 브랜드이다. 서로 다른 물질 혹은 추상적인 개념들이 조화되거나 충돌할 때 가장 아름다울 수 있다는 컨셉으로 매시즌 YUNSE(윤세)만의 색깔을 표현하기위해 깊이 탐구한다. 나이 혹은 국적에 제한되지 않고, 여성들이 '나'를 표현할 때 스스럼없이 선택할 수 있는 디자인을 제시하고 있다.",
+ "sub": "",
+ "est": null,
+ "heart": null,
+ "off": null,
+ "score": {
+  "k": 1.0,
+  "list_q1": 58000,
+  "list_med": 85000,
+  "list_q3": 120060,
+  "s_price": 0,
+  "s_band": 0,
+  "s_mood": 11,
+  "score": 6,
+  "partial": 0
+ },
+ "evidence": [],
+ "snap_days": {
+  "29cm": [],
+  "wconcept": [
+   "2026-10-29"
+  ]
+ },
+ "reviewed": "auto",
+ "tags_src": "플랫폼 브랜드 소개문",
+ "role": "가격 앵커(저가)",
+ "rank": 72,
+ "platform": {
+  "29cm": null,
+  "wconcept": {
+   "url": "https://display.wconcept.co.kr/rn/brand/107655",
+   "title": "윤세(YUNSE) | W컨셉(W CONCEPT)",
+   "ko": "윤세",
+   "en": "YUNSE",
+   "intro": "YUNSE(윤세)는 영국을 베이스로하는 컨템포러리 여성복 브랜드이다. 서로 다른 물질 혹은 추상적인 개념들이 조화되거나 충돌할 때 가장 아름다울 수 있다는 컨셉으로 매시즌 YUNSE(윤세)만의 색깔을 표현하기위해 깊이 탐구한다. 나이 혹은 국적에 제한되지 않고, 여성들이 '나'를 표현할 때 스스럼없이 선택할 수 있는 디자인을 제시하고 있다.",
+   "n": 99,
+   "p": {
+    "min": 16530,
+    "q1": 58000,
+    "med": 85000,
+    "q3": 120060,
+    "p90": 143000,
+    "max": 238000,
+    "mean": 92316
+   },
+   "disc": {
+    "n": 30,
+    "med": 13,
+    "max": 30
+   },
+   "names": [
+    "Hatch Stripe T-Shirt (Grey)",
+    "Sheer Two-Way Pants (Gray)",
+    "Hatch Embroidery Beanie (Navy)",
+    "Layer Cardigan (Charcoal)",
+    "Olive Slim Cardigan (White)",
+    "2 Way String Sleeveless Dress (Black)",
+    "BB Shoulder Bag (Navy)",
+    "Wave Print Top (Red)",
+    "Paisley Top",
+    "[2차 리오더] Layered Skirt (Black)",
+    "138,000",
+    "Hatch Cotton Cap (Black)",
+    "56,000",
+    "[1차 리오더] Hatch Ego Eco Bag (Silver Flower)",
+    "45,000",
+    "[단독]Pantalica Long Jersey dress (Blue)",
+    "153,000",
+    "Printed Halter Bikini Set (Black Floral)",
+    "135,000",
+    "[1차 리오더] Printed Halter Bikini Set (Yellow Floral)",
+    "[1차 리오더] Studded Halter Sleeveless Top (Black)",
+    "85,000",
+    "Ruffled Midi Skirt (Charcoal)",
+    "89,000",
+    "Ruffled Midi Skirt (Mint)",
+    "Hatch Ego Eco Bag (Mint)",
+    "19,000",
+    "Posh Weapon Eco Bag (Black)",
+    "35,000",
+    "Sheer Pleated Cardigan (Salmon)",
+    "118,000",
+    "Sheer Pleated Cardigan (Brown)",
+    "Halter Neck Knit Vest (Beige)",
+    "Halter Neck Knit Vest (Black)",
+    "Halter Neck Knit Vest (White)",
+    "Backless Ribbon Top (Gray)",
+    "Basic Eyelet Sleeveless Top (Black)",
+    "38,000",
+    "Basic Eyelet Sleeveless Top (Mint)",
+    "38,000"
+   ],
+   "id": 107655,
+   "observed_at": "2026-10-29"
+  }
+ }
+}
