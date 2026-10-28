@@ -205,3 +205,20 @@ npx skills add wshobson/agents@data-storytelling -g -y
 - `npx skills add mattpocock/skills --skill to-questionnaire --agent claude-code -g -y`
 
 **설치를 나중에 하는 이유:** 전역 설치는 모든 세션에 스킬 설명이 올라와서 목록이 길어지고 판단이 흐려질 수 있다. 필요할 때 설치하면 된다.
+## 설치 예정 조합 (미설치, 2026-10-28)
+
+결정: 지금 쓸 만한 조합으로 기록만 한다. 설치 시점은 사용자가 정하고, 설치 전에 각 스킬의 SKILL.md를 직접 확인한다.
+
+| 순서 | 스킬 | 역할 | 확인할 것 |
+| --- | --- | --- | --- |
+| 1 | agent-browser (vercel-labs/agent-browser, 1.2M 설치) | 수집 (이미 쓰는 도구) | 설치 확인만 하면 됨 |
+| 2 | competitor-profiling (coreyhaines31/marketingskills, 95.9K 설치, 저장소 56.9K★) | 경쟁사 프로필 작성 | 우리 DB 항목(브랜드·채널·근거)과 맞는 출력 형식인지 |
+| 3 | firecrawl-competitive-intel (firecrawl/firecrawl-workflows, 31.4K 설치, 209★) | 경쟁사 변화 모니터링 | 무료 사용량 한도, 필요한 API 키, Snyk 경고(WARN) 내용 |
+
+- 3번은 무료 한도를 확인한 뒤에만 설치한다. 외부 API 키가 필요하면 키는 사용자가 직접 넣는다.
+- 설치 명령(실행 안 함): `npx skills add coreyhaines31/marketingskills --skill competitor-profiling --agent claude-code -g -y`, `npx skills add firecrawl/firecrawl-workflows --skill firecrawl-competitive-intel --agent claude-code -g -y`
+
+**검토 후 제외한 후보**
+- browser-act (108.3K): 인증 절차를 돕는 기능이 있어 차단을 우회하지 않는다는 규칙과 맞지 않음.
+- 101-skills web-search (112.4K): 실행하려면 belt 클라우드 로그인이 필요함. 저장소 별 16개, 등록 2026-08-31.
+- mbfinotti revops·sales·partnerships 묶음: 저장소 별 1개, 등록 2026-09. 설치 전에 코드를 직접 읽어야 함.
