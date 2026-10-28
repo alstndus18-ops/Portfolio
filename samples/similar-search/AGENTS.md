@@ -9,9 +9,9 @@
 
 색상별 사진을 새로 찾거나 보완할 때는 먼저 `data/color-photo-rules.json`을 읽는다.
 
-- 몰마다 색 정보가 있는 곳이 다르다. 몰별 `where`(어디에 있는지)·`evidence`(쓰는 근거 순서)를 먼저 보고, 새 상품 구조를 만나면 `where`와 `learning_log`에 날짜와 함께 한 줄 추가한다.
-- 그 색 단독 사진이 없으면 `fallback_policy` 순서로 내려간다. 여러 벌이 겹친 사진이라도 쓸 수 있으면 쓰되 어느 단계였는지(evidence)를 남기고, 그 색인지 확인 못 한 대표 사진은 확인 안 됨으로 표시한다.
-- 옷 사진의 모습으로 색 이름을 지어내지 않는다. 색 이름은 구매 옵션의 이름만 쓴다.
-- 규칙을 고친 뒤에는 `python tools/color_photos.py --sample 5`로 결과를 보고, 전체를 돌린 뒤 표본 30장을 눈으로 확인해 틀린 수를 `learning_log`에 적는다.
-- 옵션 색마다 근거 단계(`ev`: label → lineup → representative)가 `data.js`에 적히고 카드·상세에 표시된다. 단계별 개수와 규칙 불일치는 `node tools/evidence_report.mjs`로 본다(Python 불필요).
-- 순서: Python 환경에서 `python tools/color_photos.py --sample 5`(몰마다 5개, 파일 안 바뀜) → 결과가 맞으면 `python tools/color_photos.py`(OCR 모델 필요, 처음엔 오래 걸림) → `node tools/evidence_report.mjs`로 `문제 없음` 확인 → 화면에서 표본 확인. `ev` 기록 코드는 2026-10-28에 추가했고 Python으로는 아직 돌려 보지 않았다.
+- 목표: 옷을 골라 색을 바꿀 때마다 그 색 옷이 보이는 사진이 나온다. 사람이 입은 사진인지 옷만 놓인 사진인지는 가리지 않고, 여러 벌이 함께 있어도 된다. 어느 것도 못 찾았을 때만 대표 사진을 쓴다.
+- 전제: 상품 사진에 보이는 옷 색은 모두 그 옷의 옵션 색 안에 있다. 옵션 색 이름은 구매 옵션의 이름만 쓰고, 사진 모습으로 색 이름을 지어내지 않는다.
+- 몰마다 색 정보가 있는 곳이 다르다. 몰별 `where`·`evidence`를 먼저 보고, 새 상품 구조를 만나면 `where`와 `learning_log`에 날짜와 함께 한 줄 추가한다.
+- 순서는 `fallback_policy`: label(글자로 찾은 색 사진) → match(사진 속 옷 색이 그 색) → lineup(여러 색이 함께 보임) → representative. 옵션 색마다 `ev`가 `data.js`에 적히고 화면은 lineup·representative만 작게 표시한다.
+- 실행(Python 3.12 + easyocr + transformers가 있는 PC): `python tools/color_photos.py --match --mall <몰> `로 한 몰씩(몰당 5~15분, CPU 기준) → `node tools/evidence_report.mjs`로 `문제 없음` 확인 → 화면에서 색을 바꿔 가며 표본 30장을 눈으로 확인해 틀린 수를 `learning_log`에 적는다. 글자(OCR)로 label을 새로 찾을 때는 `python tools/color_photos.py --sample 5` 후 `python tools/color_photos.py`.
+- 스스로 학습: `--match`는 컷별 분할 결과를 `cache/seg_colors.json`(저장소에 안 올림)에 쌓아 같은 사진을 다시 분할하지 않고, 몰별로 색 사진이 나온 위치를 `data/color-photo-learned.json`에 쌓아 다음 실행에서 그 위치의 사진부터 보고 옵션 색을 다 찾으면 멈춘다. 학습 파일은 지우지 말고 같이 커밋한다.
