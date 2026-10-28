@@ -1,0 +1,899 @@
+{
+  "brand": "시엔느",
+  "domain": "sienneboutique.com",
+  "base_url": "https://sienneboutique.com/",
+  "list_urls": [
+    "https://sienneboutique.com/product/list.html?cate_no=44",
+    "https://sienneboutique.com/product/list.html?cate_no=78"
+  ],
+  "categories": [
+    {
+      "cate_no": 44,
+      "name": "Top"
+    },
+    {
+      "cate_no": 78,
+      "name": "Knit"
+    }
+  ],
+  "observed_at_kst": "2026-10-29 00:29:06 KST",
+  "status": "읽음",
+  "reason": null,
+  "detail_pages_opened": 0,
+  "listing_rows": 100,
+  "product_units": 49,
+  "median_krw": 135000,
+  "q1_krw": 86500,
+  "q3_krw": 158000,
+  "intro_texts": [
+    "세련된 빈티지 시크 스타일을 전개하는 서울 기반의 디자이너 브랜드",
+    "세련된 빈티지 시크 스타일을 전개하는 서울 기반의 디자이너 브랜드",
+    "Shop @media only screen and (device-width: 780px), only screen and (max-width: 780px), screen and (max-device-width: 780px) { .category-sub-mobile .cate-box h3 { font-size: 18px !important; } } New",
+    "Shop Back @media only screen and (device-width: 780px), only screen and (max-width: 780px), screen and (max-device-width: 780px) { .category-sub-mobile .cate-box h3 { font-size: 18px !important; } } New",
+    "세련된 빈티지 시크 스타일을 전개하는 서울 기반의 디자이너 브랜드"
+  ],
+  "name_keyword_freq": [
+    [
+      "shirt",
+      13
+    ],
+    [
+      "knit",
+      10
+    ],
+    [
+      "wool",
+      9
+    ],
+    [
+      "top",
+      7
+    ],
+    [
+      "blouse",
+      6
+    ],
+    [
+      "cardigan",
+      6
+    ],
+    [
+      "alpaca",
+      4
+    ],
+    [
+      "stripe",
+      4
+    ],
+    [
+      "belle",
+      3
+    ],
+    [
+      "check",
+      3
+    ],
+    [
+      "lace",
+      3
+    ],
+    [
+      "fleece",
+      2
+    ],
+    [
+      "frill",
+      2
+    ],
+    [
+      "organza",
+      2
+    ],
+    [
+      "rosha",
+      2
+    ]
+  ],
+  "items": [
+    {
+      "name": "Walter Fleece Hoodie (Yellow Melange)",
+      "price": 135000,
+      "sale": null,
+      "representative_krw": 135000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4533&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Walter Fleece Hoodie (Charcoal)",
+      "price": 135000,
+      "sale": null,
+      "representative_krw": 135000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4532&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Vincent Fleece Anorak (Black)",
+      "price": 165000,
+      "sale": null,
+      "representative_krw": 165000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4531&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Vincent Fleece Anorak (Charcoal)",
+      "price": 165000,
+      "sale": null,
+      "representative_krw": 165000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4530&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Uncle Check Shirt (Navy)",
+      "price": 138000,
+      "sale": null,
+      "representative_krw": 138000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=3648&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Bon French Lace Top (Black)",
+      "price": 89000,
+      "sale": null,
+      "representative_krw": 89000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=3296&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Bon French Lace Top (Cream)",
+      "price": 89000,
+      "sale": null,
+      "representative_krw": 89000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=3297&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "August Stripe Shirt (Cream)",
+      "price": 148000,
+      "sale": null,
+      "representative_krw": 148000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4473&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "August Stripe Shirt (Blue)",
+      "price": 148000,
+      "sale": null,
+      "representative_krw": 148000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4472&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Essential Long Sleeves (Brown)",
+      "price": 65000,
+      "sale": null,
+      "representative_krw": 65000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4493&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Essential Long Sleeves (Violet)",
+      "price": 65000,
+      "sale": null,
+      "representative_krw": 65000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4494&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Tonka Check Top (Gray)",
+      "price": 75000,
+      "sale": null,
+      "representative_krw": 75000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4471&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Tonka Check Top (Brown)",
+      "price": 75000,
+      "sale": null,
+      "representative_krw": 75000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4470&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Choeun Shirt (White)",
+      "price": 178000,
+      "sale": null,
+      "representative_krw": 178000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4452&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Colin Shirt (Brown)",
+      "price": 138000,
+      "sale": null,
+      "representative_krw": 138000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4436&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Colin Shirt (Teal Green)",
+      "price": 138000,
+      "sale": null,
+      "representative_krw": 138000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4435&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Sabon Blouse (Khaki)",
+      "price": 135000,
+      "sale": null,
+      "representative_krw": 135000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4432&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Sabon Blouse (Cream)",
+      "price": 135000,
+      "sale": null,
+      "representative_krw": 135000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4431&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Belle Frill Blouse (Black)",
+      "price": 138000,
+      "sale": null,
+      "representative_krw": 138000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4434&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Belle Frill Blouse (Cream)",
+      "price": 138000,
+      "sale": null,
+      "representative_krw": 138000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4433&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Ange Pleats Top (Gray)",
+      "price": 95000,
+      "sale": null,
+      "representative_krw": 95000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4430&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Ange Pleats Top (Cream)",
+      "price": 95000,
+      "sale": null,
+      "representative_krw": 95000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4429&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Sally Stripe Top (Brown)",
+      "price": 83000,
+      "sale": null,
+      "representative_krw": 83000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4427&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Sally Stripe Top (Red)",
+      "price": 83000,
+      "sale": null,
+      "representative_krw": 83000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4428&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Sunday T-shirt (Red)",
+      "price": 75000,
+      "sale": null,
+      "representative_krw": 75000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4426&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Sunday T-shirt (Purple)",
+      "price": 75000,
+      "sale": null,
+      "representative_krw": 75000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4425&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Sienne Lace Sweatshirts (Navy)",
+      "price": 88000,
+      "sale": null,
+      "representative_krw": 88000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4450&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Sienne Lace Sweatshirts (Melange Gray)",
+      "price": 88000,
+      "sale": null,
+      "representative_krw": 88000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4449&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Sienne Patch Sweatshirts (Melange Gray)",
+      "price": 97000,
+      "sale": null,
+      "representative_krw": 97000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4456&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Sienne Patch Sweatshirts (Navy)",
+      "price": 97000,
+      "sale": null,
+      "representative_krw": 97000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4451&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Marche T-shirt (Red)",
+      "price": 52000,
+      "sale": null,
+      "representative_krw": 52000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4361&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Gatto Nero T-shirt (White)",
+      "price": 65000,
+      "sale": null,
+      "representative_krw": 65000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4351&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Gatto Nero T-shirt (Teal Green)",
+      "price": 65000,
+      "sale": null,
+      "representative_krw": 65000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4350&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Benet Pajamas (White)",
+      "price": 98000,
+      "sale": null,
+      "representative_krw": 98000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4349&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Sisi Lace Blouse (Brown)",
+      "price": 115000,
+      "sale": null,
+      "representative_krw": 115000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4331&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Sisi Lace Blouse (Blue)",
+      "price": 115000,
+      "sale": null,
+      "representative_krw": 115000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4330&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Piccolo Check Shirt (Navy)",
+      "price": 128000,
+      "sale": null,
+      "representative_krw": 128000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4333&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Piccolo Check Shirt (Blue)",
+      "price": 128000,
+      "sale": null,
+      "representative_krw": 128000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4332&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Lopez Blouse (Rose Pink)",
+      "price": 118000,
+      "sale": null,
+      "representative_krw": 118000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4303&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Lopez Blouse (Cream)",
+      "price": 118000,
+      "sale": null,
+      "representative_krw": 118000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4304&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Poe Frill Blouse (Red)",
+      "price": 115000,
+      "sale": null,
+      "representative_krw": 115000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4306&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Poe Frill Blouse (Light Blue)",
+      "price": 115000,
+      "sale": null,
+      "representative_krw": 115000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4305&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Belle Linen Shirt (Red)",
+      "price": 135000,
+      "sale": null,
+      "representative_krw": 135000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4307&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Belle Linen Shirt (Cream)",
+      "price": 135000,
+      "sale": null,
+      "representative_krw": 135000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4308&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Siena Polo Top (Flower Pink)",
+      "price": 89000,
+      "sale": null,
+      "representative_krw": 89000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4296&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Siena Polo Top (Lily White)",
+      "price": 89000,
+      "sale": null,
+      "representative_krw": 89000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4297&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Love Cat Graphic Top (White)",
+      "price": 65000,
+      "sale": null,
+      "representative_krw": 65000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4311&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Paloma Pique T-shirt (Beige)",
+      "price": 85000,
+      "sale": null,
+      "representative_krw": 85000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4299&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Paloma Pique T-shirt (Blue)",
+      "price": 85000,
+      "sale": null,
+      "representative_krw": 85000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4298&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Eze V neck T-shirt (Burnt Orange)",
+      "price": 45000,
+      "sale": null,
+      "representative_krw": 45000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4302&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Eze V neck T-shirt (Black)",
+      "price": 45000,
+      "sale": null,
+      "representative_krw": 45000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4301&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Eze V neck T-shirt (White)",
+      "price": 45000,
+      "sale": null,
+      "representative_krw": 45000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4300&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Phoebe Tank Top (Monet Blue)",
+      "price": 39000,
+      "sale": null,
+      "representative_krw": 39000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4295&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Phoebe Tank Top (Mint)",
+      "price": 39000,
+      "sale": null,
+      "representative_krw": 39000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4294&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Phoebe Tank Top (Melange Gray)",
+      "price": 39000,
+      "sale": null,
+      "representative_krw": 39000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4293&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Phoebe Tank Top (Red)",
+      "price": 39000,
+      "sale": null,
+      "representative_krw": 39000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4291&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Phoebe Tank Top (Rose Pink)",
+      "price": 39000,
+      "sale": null,
+      "representative_krw": 39000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4292&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Etoile T-shirt (White)",
+      "price": 45000,
+      "sale": null,
+      "representative_krw": 45000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4248&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Pia T-shirt (White)",
+      "price": 45000,
+      "sale": null,
+      "representative_krw": 45000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4249&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Conte Blouse (White)",
+      "price": 138000,
+      "sale": null,
+      "representative_krw": 138000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4232&cate_no=44&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Camus Alpaca Cardigan (Burgundy)",
+      "price": 198000,
+      "sale": null,
+      "representative_krw": 198000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4529&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Camus Alpaca Cardigan (Beige)",
+      "price": 198000,
+      "sale": null,
+      "representative_krw": 198000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4528&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Belle Stripe Knit (Charcoal)",
+      "price": 168000,
+      "sale": null,
+      "representative_krw": 168000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4523&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Belle Stripe Knit (Green)",
+      "price": 168000,
+      "sale": null,
+      "representative_krw": 168000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4522&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Uncle Wool Knit (Beige)",
+      "price": 185000,
+      "sale": null,
+      "representative_krw": 185000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4525&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Uncle Wool Knit (Lavender)",
+      "price": 185000,
+      "sale": null,
+      "representative_krw": 185000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4524&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Josee Knit (Gray)",
+      "price": 153000,
+      "sale": null,
+      "representative_krw": 153000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4521&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Josee Knit (Lime)",
+      "price": 153000,
+      "sale": null,
+      "representative_krw": 153000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4520&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Fog Stripe Knit (Navy)",
+      "price": 138000,
+      "sale": null,
+      "representative_krw": 138000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4519&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Fog Stripe Knit (Brown)",
+      "price": 138000,
+      "sale": null,
+      "representative_krw": 138000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4518&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Fog Stripe Knit (Cream)",
+      "price": 138000,
+      "sale": null,
+      "representative_krw": 138000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4517&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Wool Wholegarment Knit (Green)",
+      "price": 135000,
+      "sale": null,
+      "representative_krw": 135000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4527&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Wool Wholegarment Knit (Pink)",
+      "price": 135000,
+      "sale": null,
+      "representative_krw": 135000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4526&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Wool Wholegarment Knit (Ivory)",
+      "price": 135000,
+      "sale": null,
+      "representative_krw": 135000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=3835&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Wool Wholegarment Knit (Mahogany)",
+      "price": 135000,
+      "sale": null,
+      "representative_krw": 135000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=3620&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Wool Wholegarment Knit (Olive)",
+      "price": 135000,
+      "sale": null,
+      "representative_krw": 135000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=3619&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Wool Wholegarment Knit (Melange Gray)",
+      "price": 135000,
+      "sale": null,
+      "representative_krw": 135000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=3618&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Wool Wholegarment Knit (Black)",
+      "price": 135000,
+      "sale": null,
+      "representative_krw": 135000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=3617&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Old Father Sweater (Snow Mint)",
+      "price": 149000,
+      "sale": null,
+      "representative_krw": 149000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4507&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Old Father Sweater (Cream)",
+      "price": 149000,
+      "sale": null,
+      "representative_krw": 149000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4503&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Old Father Sweater (Gray)",
+      "price": 149000,
+      "sale": null,
+      "representative_krw": 149000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4504&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Old Father Sweater (Navy)",
+      "price": 149000,
+      "sale": null,
+      "representative_krw": 149000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4505&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Odette Alpaca Cardigan (Misty Yellow)",
+      "price": 178000,
+      "sale": null,
+      "representative_krw": 178000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4489&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Odette Alpaca Cardigan (Pale Pink)",
+      "price": 178000,
+      "sale": null,
+      "representative_krw": 178000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4488&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Rosha organza Alpaca Cardigan (Red)",
+      "price": 158000,
+      "sale": null,
+      "representative_krw": 158000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4492&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Rosha Organza Alpaca Cardigan (Violet)",
+      "price": 158000,
+      "sale": null,
+      "representative_krw": 158000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4486&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Rosha Organza Alpaca Cardigan (Blue)",
+      "price": 158000,
+      "sale": null,
+      "representative_krw": 158000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4487&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Cambon Wool Cardigan (Winter Green)",
+      "price": 153000,
+      "sale": null,
+      "representative_krw": 153000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4485&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Cambon Wool Cardigan (Blue)",
+      "price": 153000,
+      "sale": null,
+      "representative_krw": 153000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4484&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Atelier Wool Knit (Vintage Yellow)",
+      "price": 168000,
+      "sale": null,
+      "representative_krw": 168000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4482&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Atelier Wool Knit (Royal Navy)",
+      "price": 168000,
+      "sale": null,
+      "representative_krw": 168000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4483&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Manon Wool Knit (Orange)",
+      "price": 158000,
+      "sale": null,
+      "representative_krw": 158000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4477&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Manon Wool Knit (Vintage Blue)",
+      "price": 158000,
+      "sale": null,
+      "representative_krw": 158000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4476&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Dilan Wool Knit (Oatmeal)",
+      "price": 158000,
+      "sale": null,
+      "representative_krw": 158000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4479&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Dilan Wool Knit (Mint)",
+      "price": 158000,
+      "sale": null,
+      "representative_krw": 158000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4478&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Robert Merino Wool Knit (Oatmeal)",
+      "price": 165000,
+      "sale": null,
+      "representative_krw": 165000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4475&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Robert Merino Wool Knit (Blue)",
+      "price": 165000,
+      "sale": null,
+      "representative_krw": 165000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4474&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Bless Wool Knit (Melange Gray)",
+      "price": 175000,
+      "sale": null,
+      "representative_krw": 175000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4481&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Bless Wool Knit (Black)",
+      "price": 175000,
+      "sale": null,
+      "representative_krw": 175000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4480&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Helene Wool Cardigan (Purple)",
+      "price": 158000,
+      "sale": null,
+      "representative_krw": 158000,
+      "url": "https://sienneboutique.com/product/detail.html?product_no=4444&cate_no=78&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    }
+  ]
+}

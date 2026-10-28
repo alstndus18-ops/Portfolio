@@ -1,0 +1,293 @@
+{
+  "brand": "쿠메",
+  "domain": "kume-studio.co.kr",
+  "base_url": "https://kume-studio.co.kr/",
+  "list_urls": [
+    "https://kume-studio.co.kr/product/list.html?cate_no=479"
+  ],
+  "categories": [
+    {
+      "cate_no": 479,
+      "name": "TOP"
+    }
+  ],
+  "observed_at_kst": "2026-10-29 00:29:06 KST",
+  "status": "읽음",
+  "reason": null,
+  "detail_pages_opened": 0,
+  "listing_rows": 25,
+  "product_units": 25,
+  "median_krw": 159600,
+  "q1_krw": 140600,
+  "q3_krw": 192850,
+  "intro_texts": [
+    "쿠메는 현대적 여성을 위한 특별하고 감각적인 여성복을 만드는 브랜드 입니다.",
+    "쿠메는 현대적 여성을 위한 특별하고 감각적인 여성복을 만드는 브랜드 입니다",
+    "쿠메는 현대적 여성을 위한 특별하고 감각적인 여성복을 만드는 브랜드 입니다.",
+    "쿠메는 현대적 여성을 위한 특별하고 감각적인 여성복을 만드는 브랜드 입니다"
+  ],
+  "name_keyword_freq": [
+    [
+      "men",
+      22
+    ],
+    [
+      "shirt",
+      10
+    ],
+    [
+      "blend",
+      8
+    ],
+    [
+      "cardigan",
+      6
+    ],
+    [
+      "knit",
+      6
+    ],
+    [
+      "waffle",
+      6
+    ],
+    [
+      "wool",
+      6
+    ],
+    [
+      "gray",
+      5
+    ],
+    [
+      "melange",
+      5
+    ],
+    [
+      "pocket",
+      5
+    ],
+    [
+      "knitted",
+      4
+    ],
+    [
+      "slub",
+      4
+    ],
+    [
+      "block",
+      3
+    ],
+    [
+      "cashmere",
+      3
+    ],
+    [
+      "charcoal",
+      3
+    ]
+  ],
+  "items": [
+    {
+      "name": "Men Alpaca Blend Collared Cardigan, Charcoal",
+      "price": 208000,
+      "sale": 197600,
+      "representative_krw": 197600,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3538&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men Alpaca Blend Collared Cardigan, Olive",
+      "price": 208000,
+      "sale": 197600,
+      "representative_krw": 197600,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3537&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men Wool Blend Waffle Henley Sweater, Gray",
+      "price": 168000,
+      "sale": 159600,
+      "representative_krw": 159600,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3536&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men Wool Blend Waffle Henley Sweater, Khaki",
+      "price": 168000,
+      "sale": 159600,
+      "representative_krw": 159600,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3535&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men Wool Blend Waffle Henley Sweater, Black",
+      "price": 168000,
+      "sale": 159600,
+      "representative_krw": 159600,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3534&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "UNISEX Cashmere Blend Color-Block Layered Knit, Deep Khaki",
+      "price": 198000,
+      "sale": 188100,
+      "representative_krw": 188100,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3486&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "UNISEX Cashmere Blend Color-Block Layered Knit, Deep Brown",
+      "price": 198000,
+      "sale": 188100,
+      "representative_krw": 188100,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3485&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "UNISEX Cashmere Blend Color-Block Layered Knit, Melange Gray",
+      "price": 198000,
+      "sale": 188100,
+      "representative_krw": 188100,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3484&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men Pure Wool Turtleneck Knit, Black",
+      "price": 148000,
+      "sale": 140600,
+      "representative_krw": 140600,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3483&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men Pure Wool Turtleneck Knit, Light Blue",
+      "price": 148000,
+      "sale": 140600,
+      "representative_krw": 140600,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3482&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men Pure Wool Turtleneck Knit, Charcoal",
+      "price": 148000,
+      "sale": 140600,
+      "representative_krw": 140600,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3481&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men Utility Slant Pocket Shirt Jacket, Brown",
+      "price": 189000,
+      "sale": 179550,
+      "representative_krw": 179550,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3448&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men Cotton Checked Shirt with Embroidered Pocket, Blue",
+      "price": 168000,
+      "sale": 159600,
+      "representative_krw": 159600,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3447&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men Cotton Checked Shirt with Embroidered Pocket, Red",
+      "price": 168000,
+      "sale": 159600,
+      "representative_krw": 159600,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3446&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men&#039;s Essential Striped T-Shirt, Navy",
+      "price": 79000,
+      "sale": 67150,
+      "representative_krw": 67150,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3179&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men&#039;s Essential Striped T-Shirt, Gray",
+      "price": 79000,
+      "sale": 67150,
+      "representative_krw": 67150,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3178&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men&#039;s Slub Melange Knitted Cardigan, Gray",
+      "price": 245000,
+      "sale": 208250,
+      "representative_krw": 208250,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3134&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men&#039;s Slub Melange Knitted Cardigan, Olive",
+      "price": 245000,
+      "sale": 208250,
+      "representative_krw": 208250,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3133&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men&#039;s Slub Melange Knitted Cardigan, Orange",
+      "price": 245000,
+      "sale": 208250,
+      "representative_krw": 208250,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3132&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men&#039;s Slub Melange Knitted Cardigan, Beige",
+      "price": 245000,
+      "sale": 208250,
+      "representative_krw": 208250,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3131&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men&#039;s Front Pocket Checkered Shirt, Dark Gray",
+      "price": 195000,
+      "sale": 165750,
+      "representative_krw": 165750,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3124&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men&#039;s Front Pocket Checkered Shirt, Ivory",
+      "price": 195000,
+      "sale": 165750,
+      "representative_krw": 165750,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3123&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men&#039;s Waffle Jersey Long Sleeves T-shirt, Navy",
+      "price": 89000,
+      "sale": 75650,
+      "representative_krw": 75650,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3119&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men&#039;s Waffle Jersey Long Sleeves T-shirt, Charcoal",
+      "price": 89000,
+      "sale": 75650,
+      "representative_krw": 75650,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3118&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Men&#039;s Waffle Jersey Long Sleeves T-shirt, Ivory",
+      "price": 89000,
+      "sale": 75650,
+      "representative_krw": 75650,
+      "url": "https://kume-studio.co.kr/product/detail.html?product_no=3094&cate_no=479&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    }
+  ]
+}

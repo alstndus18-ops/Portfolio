@@ -1,0 +1,896 @@
+{
+  "brand": "낫띵리튼",
+  "domain": "nothing-written.com",
+  "base_url": "https://nothing-written.com/",
+  "list_urls": [
+    "https://nothing-written.com/product/list.html?cate_no=79",
+    "https://nothing-written.com/product/list.html?cate_no=147"
+  ],
+  "categories": [
+    {
+      "cate_no": 79,
+      "name": "Tops"
+    },
+    {
+      "cate_no": 147,
+      "name": "Knitwear"
+    }
+  ],
+  "observed_at_kst": "2026-10-29 00:29:06 KST",
+  "status": "읽음",
+  "reason": null,
+  "detail_pages_opened": 0,
+  "listing_rows": 100,
+  "product_units": 80,
+  "median_krw": 155000,
+  "q1_krw": 46000,
+  "q3_krw": 179000,
+  "intro_texts": [
+    "NOTHING WRITTEN",
+    "NOTHING WRITTEN"
+  ],
+  "name_keyword_freq": [
+    [
+      "shirt",
+      34
+    ],
+    [
+      "neck",
+      20
+    ],
+    [
+      "pullover",
+      15
+    ],
+    [
+      "knit",
+      14
+    ],
+    [
+      "button",
+      9
+    ],
+    [
+      "top",
+      8
+    ],
+    [
+      "collar",
+      6
+    ],
+    [
+      "sleeveless",
+      6
+    ],
+    [
+      "stripe",
+      6
+    ],
+    [
+      "miro",
+      5
+    ],
+    [
+      "cardigan",
+      4
+    ],
+    [
+      "cotton",
+      4
+    ],
+    [
+      "vintage",
+      4
+    ],
+    [
+      "arietta",
+      3
+    ],
+    [
+      "carrel",
+      3
+    ]
+  ],
+  "items": [
+    {
+      "name": "Arietta button shirt (White)",
+      "price": 169000,
+      "sale": null,
+      "representative_krw": 169000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5582&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Arietta button shirt (Camel beige)",
+      "price": 169000,
+      "sale": null,
+      "representative_krw": 169000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5592&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Arietta button shirt (Black)",
+      "price": 169000,
+      "sale": null,
+      "representative_krw": 169000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5571&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "3RD / Arietta hidden button shirt (Black check)",
+      "price": 169000,
+      "sale": null,
+      "representative_krw": 169000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5606&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "3RD / Leta classic shirt (Muted beige)",
+      "price": 179000,
+      "sale": null,
+      "representative_krw": 179000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5588&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Mona sleeveless blouse (Light vanilla)",
+      "price": 179000,
+      "sale": null,
+      "representative_krw": 179000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5064&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Porte stripe crop t-shirt (Oatmeal)",
+      "price": 59000,
+      "sale": null,
+      "representative_krw": 59000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5097&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "4TH / Coast linen long t-shirt (Sky blue)",
+      "price": 79000,
+      "sale": null,
+      "representative_krw": 79000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5105&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Jelly rib tank top (Ivory)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5072&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Sunwashed t-shirt (Natural cream)",
+      "price": 59000,
+      "sale": null,
+      "representative_krw": 59000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5163&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Sunwashed t-shirt (Washed blue)",
+      "price": 59000,
+      "sale": null,
+      "representative_krw": 59000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5165&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Lace trim cami top (White)",
+      "price": 59000,
+      "sale": null,
+      "representative_krw": 59000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5068&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Daisy t-shirt (True white)",
+      "price": 46000,
+      "sale": null,
+      "representative_krw": 46000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5098&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Daisy t-shirt (Melange gray)",
+      "price": 46000,
+      "sale": null,
+      "representative_krw": 46000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5099&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Jelly rib tank top (Gray)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5071&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "3RD / Daisy t-shirt (Brown)",
+      "price": 46000,
+      "sale": null,
+      "representative_krw": 46000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5102&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Daisy t-shirt (Navy)",
+      "price": 46000,
+      "sale": null,
+      "representative_krw": 46000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5101&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Lace trim cami top (Black)",
+      "price": 59000,
+      "sale": null,
+      "representative_krw": 59000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5067&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Jelly rib tank top (Black)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5070&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "3RD / Belle tank top (Black)",
+      "price": 45000,
+      "sale": null,
+      "representative_krw": 45000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5156&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Daisy t-shirt (Black)",
+      "price": 46000,
+      "sale": null,
+      "representative_krw": 46000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5100&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Lumie shirt (Charcoal)",
+      "price": 259000,
+      "sale": null,
+      "representative_krw": 259000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=4811&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Monday cotton shirt (Gray stripe, W)",
+      "price": 189000,
+      "sale": null,
+      "representative_krw": 189000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=4809&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Poplin stripe shirt (Black stripe, W)",
+      "price": 189000,
+      "sale": null,
+      "representative_krw": 189000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=4804&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Poplin stripe shirt (Gray, W)",
+      "price": 189000,
+      "sale": null,
+      "representative_krw": 189000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=4860&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "4TH / Vintage button cardigan (White)",
+      "price": 79000,
+      "sale": null,
+      "representative_krw": 79000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=4791&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "5TH / Vintage button cardigan (Black)",
+      "price": 79000,
+      "sale": null,
+      "representative_krw": 79000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=4792&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "6TH / Stripe cotton t-shirt (Stripe, W)",
+      "price": 55000,
+      "sale": null,
+      "representative_krw": 55000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=4798&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "4TH / Soft cotton tank (White)",
+      "price": 32000,
+      "sale": null,
+      "representative_krw": 32000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=4800&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "4TH / Soft cotton tank (Gray)",
+      "price": 32000,
+      "sale": null,
+      "representative_krw": 32000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=4799&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "9TH / Vintage button t-shirt (White)",
+      "price": 75000,
+      "sale": null,
+      "representative_krw": 75000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=3836&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "10TH / Vintage button t-shirt (Black)",
+      "price": 75000,
+      "sale": null,
+      "representative_krw": 75000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=3837&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "5TH / Tina henry neck sleeveless (White)",
+      "price": 59000,
+      "sale": null,
+      "representative_krw": 59000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=4284&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "7TH / Tina henry neck sleeveless (Washed black)",
+      "price": 59000,
+      "sale": null,
+      "representative_krw": 59000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=4285&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "3RD / Easy v-neck sleeveless top (White)",
+      "price": 45000,
+      "sale": null,
+      "representative_krw": 45000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=4288&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Easy v-neck sleeveless top (Black)",
+      "price": 45000,
+      "sale": null,
+      "representative_krw": 45000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=4289&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "19TH / Sunné shirt (White)",
+      "price": 155000,
+      "sale": null,
+      "representative_krw": 155000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=1628&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "10TH / Sunne shirt (Ocean)",
+      "price": 155000,
+      "sale": null,
+      "representative_krw": 155000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=1629&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Timon striped cotton shirt (Butter)",
+      "price": 198000,
+      "sale": null,
+      "representative_krw": 198000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=3183&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "19TH / 90s t-shirt (White)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=1664&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / 90s t-shirt (Ivory)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=3910&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "4TH / 90s t-shirt (Beige)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=3907&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "3RD / 90s t-shirt (Vanilla butter)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=3186&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "7TH / 90s t-shirt (Brown)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=3911&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / 90s t-shirt (Bubble gum)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=3912&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "13TH / 90s t-shirt (Red)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=2655&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "10TH / 90s t-shirt (Stripe blue)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=2981&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "3RD / 90s t-shirt (Ocean)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=3913&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "8TH / 90s t-shirt (Smurf)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=1663&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "15TH / 90s t-shirt (Gray)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=1662&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "8TH / 90s t-shirt (Navy)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=2980&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "11TH / 90s t-shirt (Black)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=2654&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "3PACK / 90S T-SHIRTS",
+      "price": 100000,
+      "sale": null,
+      "representative_krw": 100000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=3249&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Port standard fit shirt (Taffy)",
+      "price": 179000,
+      "sale": null,
+      "representative_krw": 179000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=3824&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Port standard fit shirt (Light blue)",
+      "price": 189000,
+      "sale": null,
+      "representative_krw": 189000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=3823&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "3RD / 90s v-neck t-shirt (White)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=4320&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "5TH / 90s v-neck t-shirt (Gray)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=4321&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "90s v-neck t-shirt (Navy)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=4318&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "3RD/ 90s v-neck t-shirt (Black)",
+      "price": 43000,
+      "sale": null,
+      "representative_krw": 43000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=4319&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "5TH / Castel hoodie anorak (Blue stripe)",
+      "price": 239000,
+      "sale": null,
+      "representative_krw": 239000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=2214&cate_no=79&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "3RD / Miro v-neck pullover (Milk ivory)",
+      "price": 239000,
+      "sale": null,
+      "representative_krw": 239000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5596&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "7TH / Miro v-neck pullover (Camel orange)",
+      "price": 239000,
+      "sale": null,
+      "representative_krw": 239000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5580&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Miro v-neck pullover (Chestnut brown)",
+      "price": 239000,
+      "sale": null,
+      "representative_krw": 239000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5595&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "4RD / Miro v-neck pullover (Muted olive)",
+      "price": 239000,
+      "sale": null,
+      "representative_krw": 239000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5635&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Miro v-neck pullover (Charcoal)",
+      "price": 239000,
+      "sale": null,
+      "representative_krw": 239000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5593&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Nep boat neck sweater (Charcoal)",
+      "price": 169000,
+      "sale": null,
+      "representative_krw": 169000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5617&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Nep boat neck sweater (Biscuit brown)",
+      "price": 169000,
+      "sale": null,
+      "representative_krw": 169000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5599&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Fine stripe loose knit (Gray)",
+      "price": 149000,
+      "sale": null,
+      "representative_krw": 149000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5622&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Fine stripe loose knit (Deep charcoal)",
+      "price": 149000,
+      "sale": null,
+      "representative_krw": 149000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5621&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "7TH / Runa v-neck pullover (Charcoal)",
+      "price": 178000,
+      "sale": null,
+      "representative_krw": 178000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5646&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Runa v-neck pullover (Walnut taupe)",
+      "price": 178000,
+      "sale": null,
+      "representative_krw": 178000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5640&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "4TH / Runa v-neck pullover (Warm ivory)",
+      "price": 178000,
+      "sale": null,
+      "representative_krw": 178000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5637&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Lou knit pants (Milk ivory)",
+      "price": 219000,
+      "sale": null,
+      "representative_krw": 219000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5615&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Lou knit pants (Black)",
+      "price": 219000,
+      "sale": null,
+      "representative_krw": 219000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5616&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Soft collar half zip-up (Black)",
+      "price": 289000,
+      "sale": null,
+      "representative_krw": 289000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5641&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Soft collar half zip-up (Pure ivory)",
+      "price": 289000,
+      "sale": null,
+      "representative_krw": 289000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5644&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Vera collar knit (Milk ivory)",
+      "price": 189000,
+      "sale": null,
+      "representative_krw": 189000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5584&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "3RD / Vera collar knit (Camel)",
+      "price": 189000,
+      "sale": null,
+      "representative_krw": 189000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5647&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Vera collar knit (Black)",
+      "price": 189000,
+      "sale": null,
+      "representative_krw": 189000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5642&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "3RD / Kate v-neck pullover (Pure Ivory)",
+      "price": 155000,
+      "sale": null,
+      "representative_krw": 155000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5589&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "3RD / Kate v-neck pullover (Gray)",
+      "price": 155000,
+      "sale": null,
+      "representative_krw": 155000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5590&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "4TH / Kate v-neck pullover (Black)",
+      "price": 155000,
+      "sale": null,
+      "representative_krw": 155000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5587&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Charlotte v-neck pullover (Mocha gray)",
+      "price": 179000,
+      "sale": null,
+      "representative_krw": 179000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5620&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Short wool sleeve knit (Light gray)",
+      "price": 155000,
+      "sale": null,
+      "representative_krw": 155000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5581&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Short wool sleeve knit (Pencil gray)",
+      "price": 155000,
+      "sale": null,
+      "representative_krw": 155000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5585&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "7TH / Cosi one button cardigan (set) (Slate gray)",
+      "price": 259000,
+      "sale": null,
+      "representative_krw": 259000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5077&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "4TH / Cosi one button cardigan (set) (Pearl white)",
+      "price": 259000,
+      "sale": null,
+      "representative_krw": 259000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5076&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "3RD / Cosi sleeveless knit top (set) (Pearl white)",
+      "price": 129000,
+      "sale": null,
+      "representative_krw": 129000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5149&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "8TH / Mone raglan knit (Ivory black)",
+      "price": 155000,
+      "sale": null,
+      "representative_krw": 155000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5091&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "4TH / Veil stripe pullover (Cream oat)",
+      "price": 169000,
+      "sale": null,
+      "representative_krw": 169000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5083&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Veil stripe pullover (Warm taupe)",
+      "price": 169000,
+      "sale": null,
+      "representative_krw": 169000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5082&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Lino easy pants (Melange gray)",
+      "price": 179000,
+      "sale": null,
+      "representative_krw": 179000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5116&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Loret polo knit top (Off white)",
+      "price": 179000,
+      "sale": null,
+      "representative_krw": 179000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5092&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Lillia paper cami top (Natural)",
+      "price": 129000,
+      "sale": null,
+      "representative_krw": 129000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5074&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "Lillia paper cami top (Charcoal)",
+      "price": 129000,
+      "sale": null,
+      "representative_krw": 129000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5073&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "5TH / Carrel collar knit (Ash gray)",
+      "price": 189000,
+      "sale": null,
+      "representative_krw": 189000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5089&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "4TH / Light mesh pullover knit (White)",
+      "price": 169000,
+      "sale": null,
+      "representative_krw": 169000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5152&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "2ND / Light mesh pullover knit (Brick)",
+      "price": 169000,
+      "sale": null,
+      "representative_krw": 169000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=5087&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "9TH / Carrel collar knit (White)",
+      "price": 155000,
+      "sale": null,
+      "representative_krw": 155000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=3895&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "4TH / Carrel collar knit (Black)",
+      "price": 155000,
+      "sale": null,
+      "representative_krw": 155000,
+      "url": "https://nothing-written.com/product/detail.html?product_no=3896&cate_no=147&display_group=1",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    }
+  ]
+}

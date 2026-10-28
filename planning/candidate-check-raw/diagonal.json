@@ -1,0 +1,899 @@
+{
+  "brand": "다이애그널",
+  "domain": "www.diagonal.co.kr",
+  "base_url": "https://www.diagonal.co.kr/",
+  "list_urls": [
+    "https://www.diagonal.co.kr/product/list.html?cate_no=44",
+    "https://www.diagonal.co.kr/product/list.html?cate_no=84"
+  ],
+  "categories": [
+    {
+      "cate_no": 44,
+      "name": "TOP"
+    },
+    {
+      "cate_no": 84,
+      "name": "KNITWEAR"
+    }
+  ],
+  "observed_at_kst": "2026-10-29 00:29:06 KST",
+  "status": "읽음",
+  "reason": null,
+  "detail_pages_opened": 0,
+  "listing_rows": 100,
+  "product_units": 66,
+  "median_krw": 94000,
+  "q1_krw": 62750,
+  "q3_krw": 127000,
+  "intro_texts": [
+    "다이애그널, 간결하지만 센슈얼한 디자인을 제안하는 여성복 브랜드 다이애그널 공식 웹사이트 입니다.",
+    "다이애그널, 간결하지만 센슈얼한 디자인을 제안하는 여성복 브랜드 다이애그널 공식 웹사이트 입니다.",
+    "DIAGONAL은 디자이너브랜드 입니다",
+    "SHOP NEW ARRIVAL RE-BORN COLLABORATION OUTER TOP KNITWEAR BOTTOM DRESSES SWIMWEAR BAG ACCESSORIES PRIVATE",
+    "COMPANY : (주)에이치웍스 컴퍼니 CEO: 곽혜선 TEL: 02-2269-1219 ADDRESS : 서울특별시 용산구 한남대로42길 33, 2층(OFFICE) BUSINESS LICENSE : 161-88-02067 ONLINE BUSINESS LICENSE : 2021-서울용산-0206 COPYRIGHT (C) 주식회사 에이치웍스 컴퍼니 AGREEMENT GUIDE PRIVACY"
+  ],
+  "name_keyword_freq": [
+    [
+      "knit",
+      21
+    ],
+    [
+      "tee",
+      15
+    ],
+    [
+      "top",
+      13
+    ],
+    [
+      "cardigan",
+      8
+    ],
+    [
+      "off",
+      7
+    ],
+    [
+      "shoulder",
+      7
+    ],
+    [
+      "button",
+      6
+    ],
+    [
+      "neck",
+      6
+    ],
+    [
+      "string",
+      6
+    ],
+    [
+      "shirts",
+      5
+    ],
+    [
+      "basic",
+      4
+    ],
+    [
+      "diagonal",
+      4
+    ],
+    [
+      "hoodie",
+      4
+    ],
+    [
+      "sleeve",
+      4
+    ],
+    [
+      "sleeveless",
+      4
+    ]
+  ],
+  "items": [
+    {
+      "name": "[RE-BORN] VOLUME SLEEVE EYELET TEE",
+      "price": 42000,
+      "sale": 37800,
+      "representative_krw": 37800,
+      "url": "https://www.diagonal.co.kr/product/re-born-volume-sleeve-eyelet-tee/7434/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "STRIPE POCKET SHIRTS",
+      "price": 124000,
+      "sale": 124000,
+      "representative_krw": 124000,
+      "url": "https://www.diagonal.co.kr/product/stripe-pocket-shirts/7350/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "SLOGAN WAFFLE LONG SLEEVE TEE",
+      "price": 94000,
+      "sale": 94000,
+      "representative_krw": 94000,
+      "url": "https://www.diagonal.co.kr/product/slogan-waffle-long-sleeve-tee/7349/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "SLOGAN WAFFLE LONG SLEEVE TEE",
+      "price": 94000,
+      "sale": 94000,
+      "representative_krw": 94000,
+      "url": "https://www.diagonal.co.kr/product/slogan-waffle-long-sleeve-tee/7348/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "LACE POINT SEE THROUGH TOP",
+      "price": 46000,
+      "sale": 46000,
+      "representative_krw": 46000,
+      "url": "https://www.diagonal.co.kr/product/lace-point-see-through-top/7347/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "LACE POINT SEE THROUGH TOP",
+      "price": 46000,
+      "sale": 46000,
+      "representative_krw": 46000,
+      "url": "https://www.diagonal.co.kr/product/lace-point-see-through-top/7346/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "DIAGONAL BUTTON STRAP CARDIGAN",
+      "price": 83000,
+      "sale": 83000,
+      "representative_krw": 83000,
+      "url": "https://www.diagonal.co.kr/product/diagonal-button-strap-cardigan/7345/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "STRIPE JERSEY ZIP HOODIE",
+      "price": 154000,
+      "sale": 154000,
+      "representative_krw": 154000,
+      "url": "https://www.diagonal.co.kr/product/stripe-jersey-zip-hoodie/7344/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "STRIPE JERSEY ZIP HOODIE",
+      "price": 154000,
+      "sale": 154000,
+      "representative_krw": 154000,
+      "url": "https://www.diagonal.co.kr/product/stripe-jersey-zip-hoodie/7343/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "FLORAL BLEED TEE",
+      "price": 58000,
+      "sale": 58000,
+      "representative_krw": 58000,
+      "url": "https://www.diagonal.co.kr/product/floral-bleed-tee/7342/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "FLORAL BLEED TEE",
+      "price": 58000,
+      "sale": 58000,
+      "representative_krw": 58000,
+      "url": "https://www.diagonal.co.kr/product/floral-bleed-tee/7341/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "LAYERED HENLEY TEE",
+      "price": 63000,
+      "sale": 63000,
+      "representative_krw": 63000,
+      "url": "https://www.diagonal.co.kr/product/layered-henley-tee/7340/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "LAYERED HENLEY TEE",
+      "price": 63000,
+      "sale": 63000,
+      "representative_krw": 63000,
+      "url": "https://www.diagonal.co.kr/product/layered-henley-tee/7339/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "LAYERED HENLEY TEE",
+      "price": 63000,
+      "sale": 63000,
+      "representative_krw": 63000,
+      "url": "https://www.diagonal.co.kr/product/layered-henley-tee/7338/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "ASMY SHIRRING TEE",
+      "price": 62000,
+      "sale": 62000,
+      "representative_krw": 62000,
+      "url": "https://www.diagonal.co.kr/product/asmy-shirring-tee/7337/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "STUDDED SLEEVELESS TOP",
+      "price": 68000,
+      "sale": 68000,
+      "representative_krw": 68000,
+      "url": "https://www.diagonal.co.kr/product/studded-sleeveless-top/6825/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "STUDDED SLEEVELESS TOP",
+      "price": 68000,
+      "sale": 68000,
+      "representative_krw": 68000,
+      "url": "https://www.diagonal.co.kr/product/studded-sleeveless-top/6826/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "HENLEY BUTTON CAMISOLE",
+      "price": 42000,
+      "sale": 42000,
+      "representative_krw": 42000,
+      "url": "https://www.diagonal.co.kr/product/henley-button-camisole/6827/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "HENLEY BUTTON CAMISOLE",
+      "price": 42000,
+      "sale": 42000,
+      "representative_krw": 42000,
+      "url": "https://www.diagonal.co.kr/product/henley-button-camisole/6829/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "HENLEY BUTTON CAMISOLE",
+      "price": 42000,
+      "sale": 42000,
+      "representative_krw": 42000,
+      "url": "https://www.diagonal.co.kr/product/henley-button-camisole/6830/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "THE SALTY OKINAWA TANK",
+      "price": 49000,
+      "sale": 49000,
+      "representative_krw": 49000,
+      "url": "https://www.diagonal.co.kr/product/the-salty-okinawa-tank/6831/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "DAMAGED WASH TEE",
+      "price": 56000,
+      "sale": 56000,
+      "representative_krw": 56000,
+      "url": "https://www.diagonal.co.kr/product/damaged-wash-tee/6832/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "SUMMER MELODY TEE",
+      "price": 54000,
+      "sale": 54000,
+      "representative_krw": 54000,
+      "url": "https://www.diagonal.co.kr/product/summer-melody-tee/6834/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "BACK CUT OUT TEE",
+      "price": 46000,
+      "sale": 46000,
+      "representative_krw": 46000,
+      "url": "https://www.diagonal.co.kr/product/back-cut-out-tee/6835/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "BACK CUT OUT TEE",
+      "price": 46000,
+      "sale": 46000,
+      "representative_krw": 46000,
+      "url": "https://www.diagonal.co.kr/product/back-cut-out-tee/6836/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "VINTAGE SURFER TEE",
+      "price": 59000,
+      "sale": 59000,
+      "representative_krw": 59000,
+      "url": "https://www.diagonal.co.kr/product/vintage-surfer-tee/6837/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "VINTAGE SURFER TEE",
+      "price": 59000,
+      "sale": 59000,
+      "representative_krw": 59000,
+      "url": "https://www.diagonal.co.kr/product/vintage-surfer-tee/6838/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "STRING OFF SHOULDER TOP",
+      "price": 76000,
+      "sale": 76000,
+      "representative_krw": 76000,
+      "url": "https://www.diagonal.co.kr/product/string-off-shoulder-top/6839/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "HOLE HALTER NECK TOP",
+      "price": 56000,
+      "sale": 56000,
+      "representative_krw": 56000,
+      "url": "https://www.diagonal.co.kr/product/hole-halter-neck-top/6841/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "HOLE HALTER NECK TOP",
+      "price": 56000,
+      "sale": 56000,
+      "representative_krw": 56000,
+      "url": "https://www.diagonal.co.kr/product/hole-halter-neck-top/6842/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "VINTAGE CAMPUS TEE",
+      "price": 69000,
+      "sale": 69000,
+      "representative_krw": 69000,
+      "url": "https://www.diagonal.co.kr/product/vintage-campus-tee/6753/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "VINTAGE CAMPUS TEE",
+      "price": 69000,
+      "sale": 69000,
+      "representative_krw": 69000,
+      "url": "https://www.diagonal.co.kr/product/vintage-campus-tee/6752/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "DOUBLE SLEEVE DAMAGE CARDIGAN",
+      "price": 84000,
+      "sale": 84000,
+      "representative_krw": 84000,
+      "url": "https://www.diagonal.co.kr/product/double-sleeve-damage-cardigan/6750/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "WOOL BASIC TEE",
+      "price": 46000,
+      "sale": 46000,
+      "representative_krw": 46000,
+      "url": "https://www.diagonal.co.kr/product/wool-basic-tee/6745/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "LIGHT CHECK SHIRTS",
+      "price": 119000,
+      "sale": 119000,
+      "representative_krw": 119000,
+      "url": "https://www.diagonal.co.kr/product/light-check-shirts/6736/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "LIGHT CHECK SHIRTS",
+      "price": 119000,
+      "sale": 119000,
+      "representative_krw": 119000,
+      "url": "https://www.diagonal.co.kr/product/light-check-shirts/6735/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "STRIPE HOODIE LAYERED TEE",
+      "price": 68000,
+      "sale": 68000,
+      "representative_krw": 68000,
+      "url": "https://www.diagonal.co.kr/product/stripe-hoodie-layered-tee/6342/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "STRIPE HOODIE LAYERED TEE",
+      "price": 68000,
+      "sale": 68000,
+      "representative_krw": 68000,
+      "url": "https://www.diagonal.co.kr/product/stripe-hoodie-layered-tee/6341/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "DIAGONAL BUTTON SLIT TOP",
+      "price": 72000,
+      "sale": 72000,
+      "representative_krw": 72000,
+      "url": "https://www.diagonal.co.kr/product/diagonal-button-slit-top/6338/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "LOOSE SHIRRING TOP",
+      "price": 54000,
+      "sale": 54000,
+      "representative_krw": 54000,
+      "url": "https://www.diagonal.co.kr/product/loose-shirring-top/6223/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "BRAID STRING TOP",
+      "price": 94000,
+      "sale": 94000,
+      "representative_krw": 94000,
+      "url": "https://www.diagonal.co.kr/product/braid-string-top/6220/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "BRAID STRING TOP",
+      "price": 94000,
+      "sale": 94000,
+      "representative_krw": 94000,
+      "url": "https://www.diagonal.co.kr/product/braid-string-top/6219/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "STRING SLEEVELESS BLOUSE",
+      "price": 89000,
+      "sale": 89000,
+      "representative_krw": 89000,
+      "url": "https://www.diagonal.co.kr/product/string-sleeveless-blouse/5536/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "STRING WRAP TOP",
+      "price": 76000,
+      "sale": 76000,
+      "representative_krw": 76000,
+      "url": "https://www.diagonal.co.kr/product/string-wrap-top/5410/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "WRINKLY SEE THROUGH SHIRTS",
+      "price": 124000,
+      "sale": 124000,
+      "representative_krw": 124000,
+      "url": "https://www.diagonal.co.kr/product/wrinkly-see-through-shirts/5399/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "RUFFLE OFF SHOULDER BLOUSE",
+      "price": 164000,
+      "sale": 164000,
+      "representative_krw": 164000,
+      "url": "https://www.diagonal.co.kr/product/ruffle-off-shoulder-blouse/5397/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "RUFFLE OFF SHOULDER BLOUSE",
+      "price": 164000,
+      "sale": 164000,
+      "representative_krw": 164000,
+      "url": "https://www.diagonal.co.kr/product/ruffle-off-shoulder-blouse/5396/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "SOFT BASIC TEE",
+      "price": 42000,
+      "sale": 42000,
+      "representative_krw": 42000,
+      "url": "https://www.diagonal.co.kr/product/soft-basic-tee/5298/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "CURVED STRING SHIRTS",
+      "price": 139000,
+      "sale": 139000,
+      "representative_krw": 139000,
+      "url": "https://www.diagonal.co.kr/product/curved-string-shirts/5293/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "CURVED STRING SHIRTS",
+      "price": 139000,
+      "sale": 139000,
+      "representative_krw": 139000,
+      "url": "https://www.diagonal.co.kr/product/curved-string-shirts/5292/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "CROPPED HOODIE ZIP UP",
+      "price": 139000,
+      "sale": 139000,
+      "representative_krw": 139000,
+      "url": "https://www.diagonal.co.kr/product/cropped-hoodie-zip-up/5121/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "HALTER NECK TUBE TOP",
+      "price": 92000,
+      "sale": 92000,
+      "representative_krw": 92000,
+      "url": "https://www.diagonal.co.kr/product/halter-neck-tube-top/5119/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "HALTER NECK TUBE TOP",
+      "price": 92000,
+      "sale": 92000,
+      "representative_krw": 92000,
+      "url": "https://www.diagonal.co.kr/product/halter-neck-tube-top/5118/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "DIAGONAL LOGO HALF ZIP UP",
+      "price": 114000,
+      "sale": 114000,
+      "representative_krw": 114000,
+      "url": "https://www.diagonal.co.kr/product/diagonal-logo-half-zip-up/5117/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "DIAGONAL LOGO HALF ZIP UP",
+      "price": 114000,
+      "sale": 114000,
+      "representative_krw": 114000,
+      "url": "https://www.diagonal.co.kr/product/diagonal-logo-half-zip-up/5116/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "GRAPHIC ROUND FRONT TEE",
+      "price": 69000,
+      "sale": 69000,
+      "representative_krw": 69000,
+      "url": "https://www.diagonal.co.kr/product/graphic-round-front-tee/5112/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "STRING SHIRRING SHIRTS",
+      "price": 146000,
+      "sale": 146000,
+      "representative_krw": 146000,
+      "url": "https://www.diagonal.co.kr/product/string-shirring-shirts/5079/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "UNBALANCE SLEEVELESS TOP",
+      "price": 42000,
+      "sale": 42000,
+      "representative_krw": 42000,
+      "url": "https://www.diagonal.co.kr/product/unbalance-sleeveless-top/4536/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "UNBALANCE SLEEVELESS TOP",
+      "price": 42000,
+      "sale": 42000,
+      "representative_krw": 42000,
+      "url": "https://www.diagonal.co.kr/product/unbalance-sleeveless-top/4535/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "PRINTING TERRY TEE",
+      "price": 42000,
+      "sale": 42000,
+      "representative_krw": 42000,
+      "url": "https://www.diagonal.co.kr/product/printing-terry-tee/4524/category/44/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "V NECK CASHMERE KNIT",
+      "price": 124000,
+      "sale": 124000,
+      "representative_krw": 124000,
+      "url": "https://www.diagonal.co.kr/product/v-neck-cashmere-knit/7336/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "V NECK BASIC KNIT",
+      "price": 119000,
+      "sale": 119000,
+      "representative_krw": 119000,
+      "url": "https://www.diagonal.co.kr/product/v-neck-basic-knit/7335/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "V NECK BASIC KNIT",
+      "price": 119000,
+      "sale": 119000,
+      "representative_krw": 119000,
+      "url": "https://www.diagonal.co.kr/product/v-neck-basic-knit/7334/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "V NECK BASIC KNIT",
+      "price": 119000,
+      "sale": 119000,
+      "representative_krw": 119000,
+      "url": "https://www.diagonal.co.kr/product/v-neck-basic-knit/7333/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "U NECK BASIC KNIT",
+      "price": 119000,
+      "sale": 119000,
+      "representative_krw": 119000,
+      "url": "https://www.diagonal.co.kr/product/u-neck-basic-knit/7332/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "U NECK BASIC KNIT",
+      "price": 119000,
+      "sale": 119000,
+      "representative_krw": 119000,
+      "url": "https://www.diagonal.co.kr/product/u-neck-basic-knit/7331/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "STRIPE OFF SHOULDER CARDIGAN",
+      "price": 119000,
+      "sale": 119000,
+      "representative_krw": 119000,
+      "url": "https://www.diagonal.co.kr/product/stripe-off-shoulder-cardigan/7330/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "STRIPE OFF SHOULDER CARDIGAN",
+      "price": 119000,
+      "sale": 119000,
+      "representative_krw": 119000,
+      "url": "https://www.diagonal.co.kr/product/stripe-off-shoulder-cardigan/7329/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "[11/9 순차출고] BOUCLE KNIT JACKET",
+      "price": 149000,
+      "sale": 149000,
+      "representative_krw": 149000,
+      "url": "https://www.diagonal.co.kr/product/119-순차출고-boucle-knit-jacket/7328/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "LOOSE TEXTURE KNIT",
+      "price": 139000,
+      "sale": 139000,
+      "representative_krw": 139000,
+      "url": "https://www.diagonal.co.kr/product/loose-texture-knit/6743/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "SOFT OFF SHOULDER CARDIGAN",
+      "price": 114000,
+      "sale": 114000,
+      "representative_krw": 114000,
+      "url": "https://www.diagonal.co.kr/product/soft-off-shoulder-cardigan/6742/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "TWIN LAYER KNIT TOP",
+      "price": 136000,
+      "sale": 136000,
+      "representative_krw": 136000,
+      "url": "https://www.diagonal.co.kr/product/twin-layer-knit-top/6739/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "TWIN LAYER KNIT TOP",
+      "price": 136000,
+      "sale": 136000,
+      "representative_krw": 136000,
+      "url": "https://www.diagonal.co.kr/product/twin-layer-knit-top/6738/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "BOLERO LAYERED KNIT CARDIGAN",
+      "price": 169000,
+      "sale": 169000,
+      "representative_krw": 169000,
+      "url": "https://www.diagonal.co.kr/product/bolero-layered-knit-cardigan/6337/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "BOLERO LAYERED KNIT CARDIGAN",
+      "price": 169000,
+      "sale": 169000,
+      "representative_krw": 169000,
+      "url": "https://www.diagonal.co.kr/product/bolero-layered-knit-cardigan/6336/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "TWO WAY OFF SHOULDER KNIT",
+      "price": 92000,
+      "sale": 92000,
+      "representative_krw": 92000,
+      "url": "https://www.diagonal.co.kr/product/two-way-off-shoulder-knit/6335/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "TWO WAY OFF SHOULDER KNIT",
+      "price": 92000,
+      "sale": 92000,
+      "representative_krw": 92000,
+      "url": "https://www.diagonal.co.kr/product/two-way-off-shoulder-knit/6334/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "HEART ARGYLE JACQUARD HOOD ZIP UP",
+      "price": 169000,
+      "sale": 169000,
+      "representative_krw": 169000,
+      "url": "https://www.diagonal.co.kr/product/heart-argyle-jacquard-hood-zip-up/6333/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "STITCH KNIT CARDIGAN",
+      "price": 176000,
+      "sale": 176000,
+      "representative_krw": 176000,
+      "url": "https://www.diagonal.co.kr/product/stitch-knit-cardigan/6286/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "STITCH KNIT CARDIGAN",
+      "price": 176000,
+      "sale": 176000,
+      "representative_krw": 176000,
+      "url": "https://www.diagonal.co.kr/product/stitch-knit-cardigan/6285/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "V NECK BUTTON CARDIGAN",
+      "price": 139000,
+      "sale": 139000,
+      "representative_krw": 139000,
+      "url": "https://www.diagonal.co.kr/product/v-neck-button-cardigan/6282/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "V NECK BUTTON CARDIGAN",
+      "price": 139000,
+      "sale": 139000,
+      "representative_krw": 139000,
+      "url": "https://www.diagonal.co.kr/product/v-neck-button-cardigan/6281/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "ONE OFF SHOULDER SPRAY KNIT",
+      "price": 149000,
+      "sale": 149000,
+      "representative_krw": 149000,
+      "url": "https://www.diagonal.co.kr/product/one-off-shoulder-spray-knit/6280/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "ONE OFF SHOULDER SPRAY KNIT",
+      "price": 149000,
+      "sale": 149000,
+      "representative_krw": 149000,
+      "url": "https://www.diagonal.co.kr/product/one-off-shoulder-spray-knit/6279/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "POINTELLE OVER KNIT",
+      "price": 164000,
+      "sale": 164000,
+      "representative_krw": 164000,
+      "url": "https://www.diagonal.co.kr/product/pointelle-over-knit/6278/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "DIAGONAL BUTTON KNIT",
+      "price": 119000,
+      "sale": 119000,
+      "representative_krw": 119000,
+      "url": "https://www.diagonal.co.kr/product/diagonal-button-knit/6276/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "HALTER HOODIE KNIT VEST",
+      "price": 142000,
+      "sale": 142000,
+      "representative_krw": 142000,
+      "url": "https://www.diagonal.co.kr/product/halter-hoodie-knit-vest/6204/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "SLIM RIBBED SNAP KNIT",
+      "price": 139000,
+      "sale": 139000,
+      "representative_krw": 139000,
+      "url": "https://www.diagonal.co.kr/product/slim-ribbed-snap-knit/6202/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "BACK SLIT TUBE TOP",
+      "price": 94000,
+      "sale": 94000,
+      "representative_krw": 94000,
+      "url": "https://www.diagonal.co.kr/product/back-slit-tube-top/5546/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "BACK STRAP CROCHET KNIT TOP",
+      "price": 114000,
+      "sale": 114000,
+      "representative_krw": 114000,
+      "url": "https://www.diagonal.co.kr/product/back-strap-crochet-knit-top/5545/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "SCALLOP HALF SLEEVE KNIT",
+      "price": 84000,
+      "sale": 84000,
+      "representative_krw": 84000,
+      "url": "https://www.diagonal.co.kr/product/scallop-half-sleeve-knit/5537/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "FLOWER BUTTON KNIT VEST",
+      "price": 124000,
+      "sale": 124000,
+      "representative_krw": 124000,
+      "url": "https://www.diagonal.co.kr/product/flower-button-knit-vest/5408/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "TAPE KNIT SLEEVELESS",
+      "price": 78000,
+      "sale": 78000,
+      "representative_krw": 78000,
+      "url": "https://www.diagonal.co.kr/product/tape-knit-sleeveless/5407/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "DAMAGE CROP CARDIGAN",
+      "price": 119000,
+      "sale": 119000,
+      "representative_krw": 119000,
+      "url": "https://www.diagonal.co.kr/product/damage-crop-cardigan/5406/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "DAMAGE CROP CARDIGAN",
+      "price": 119000,
+      "sale": 119000,
+      "representative_krw": 119000,
+      "url": "https://www.diagonal.co.kr/product/damage-crop-cardigan/5405/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "OFF SHOULDER DAMAGE KNIT",
+      "price": 118000,
+      "sale": 118000,
+      "representative_krw": 118000,
+      "url": "https://www.diagonal.co.kr/product/off-shoulder-damage-knit/5404/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "OFF SHOULDER DAMAGE KNIT",
+      "price": 118000,
+      "sale": 118000,
+      "representative_krw": 118000,
+      "url": "https://www.diagonal.co.kr/product/off-shoulder-damage-knit/5403/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "RIBBED SEE THROUGH KNIT",
+      "price": 89000,
+      "sale": 89000,
+      "representative_krw": 89000,
+      "url": "https://www.diagonal.co.kr/product/ribbed-see-through-knit/5402/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "NETTING MIXED KNIT",
+      "price": 104000,
+      "sale": 104000,
+      "representative_krw": 104000,
+      "url": "https://www.diagonal.co.kr/product/netting-mixed-knit/5314/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    },
+    {
+      "name": "NETTING MIXED KNIT",
+      "price": 104000,
+      "sale": 104000,
+      "representative_krw": 104000,
+      "url": "https://www.diagonal.co.kr/product/netting-mixed-knit/5313/category/84/display/1/",
+      "observed_at_kst": "2026-10-29 00:29:06 KST"
+    }
+  ]
+}
