@@ -222,3 +222,40 @@ npx skills add wshobson/agents@data-storytelling -g -y
 - browser-act (108.3K): 인증 절차를 돕는 기능이 있어 차단을 우회하지 않는다는 규칙과 맞지 않음.
 - 101-skills web-search (112.4K): 실행하려면 belt 클라우드 로그인이 필요함. 저장소 별 16개, 등록 2026-08-31.
 - mbfinotti revops·sales·partnerships 묶음: 저장소 별 1개, 등록 2026-09. 설치 전에 코드를 직접 읽어야 함.
+
+## 운영 지표용 스킬 검색 (미설치, 2026-10-28, 회사PC)
+
+목적: [운영·기획 지표 설계](operating-metrics.md)(경쟁사 비교, 가격·프로모션 기록, 대시보드)에 쓸 스킬. 검색어 60개로 고유 스킬 약 500개를 찾고, 51개는 skills.sh 페이지(요약·설치 수·보안 점검 Gen·Socket·Snyk)를 agent-browser로 직접 확인했다. 대부분 해외 SaaS·아마존 기준이라 틀만 가져다 쓴다. 회사PC에는 `find-skills`를 `npx skills add vercel-labs/skills --skill find-skills -g`로 설치했다(`~/.agents/skills`, Claude Code·Cursor·Codex 공용). 위 표에 이미 있는 것(kpi-dashboard-design·data-visualization·data-storytelling·interface-design·competitor-profiling·firecrawl-competitive-intel·research)은 다시 적지 않는다.
+
+**바로 맞는 후보**
+
+| 스킬 | 저장소 | 설치 수 | 쓰는 곳 | 보안 점검 |
+| --- | --- | --- | --- | --- |
+| competitive-intel-watch | deanpeters/product-manager-skills (7.7K★) | 1.1K | 지난 상태와 비교해 바뀐 것만 근거와 함께 보고. 기획서 §8 "바뀐 것만 기록"과 같은 방식 | Snyk 경고 |
+| pricing-packaging-tracker | 같은 저장소 | 856 | 경쟁사 가격을 화면 캡처가 아니라 날짜별 비교 가능한 기록으로 | Snyk 경고 |
+| competitive-platform-analysis | affaan-m/ecc (291K★) | 3.9K | 비교군을 누구로 삼을지 먼저 정하는 방법(§10-6 미정 문제) | Snyk 경고 |
+| competitive-report-structure | 같은 저장소 | 3.9K | 누구와·어떻게 경쟁하고 빈자리는 어디인지 보고서 구조 | 전부 통과 |
+| consulting-analysis | bytedance/deer-flow (84.5K★) | 3.1K | 시장·소비자·브랜드 전략 컨설팅식 보고서 | 전부 통과 |
+| build-dashboard | anthropics/knowledge-work-plugins (33.3K★) | 9.2K | 파일 하나짜리 HTML 대시보드(지금 화면 방식과 같음) | 전부 통과 |
+| statistical-analysis | 같은 저장소 | 4.6K | 중앙값·튀는 값·추세, 통계로 단정할 때 주의할 점 | 전부 통과 |
+| discount-marketing-strategy | kostja94/marketing-skills (1.1K★) | 810 | 할인 구조, 블랙프라이데이 등 행사 설계 | 전부 통과 |
+| smart-ocr | claude-office-skills/skills (541★) | 8.6K | PaddleOCR로 이미지 글자 읽기. 배너·소재표 OCR에서 easyocr 대안으로 시험 | 전부 통과 |
+| korean-holiday-calendar | nomadamas/k-skill (8.2K★) | 4.7K | 한국 공휴일, 행사 캘린더 기준. 실행 시 외부 npm 패키지에서 지침을 받는 구조(위 kosis 메모와 같음) | Snyk 경고 |
+
+**일부만 쓸 만함**
+- marketingskills(coreyhaines31): pricing-strategy(61K, SaaS 가격·앵커링·끝자리 가격), marketing-plan(69K, 12개월 계획), social-content(67K, SNS 콘텐츠).
+- phuryn/pm-skills: competitor-analysis(직접 경쟁사 5곳), swot-analysis.
+- affaan-m/ecc: market-research(결정에 쓰이는 시장 조사).
+- nexscope-ai/ecommerce-skills: ecommerce-competitor-analysis(아마존·쇼피파이 기준).
+- wondelai/skills: hundred-million-offers(우리 브랜드 오퍼 설계 틀).
+- mindrally/skills: scrapy-web-scraping(수집 대상을 크게 늘릴 때).
+- nomadamas/k-skill: naver-shopping-search·naver-blog-research(네이버 쇼핑 시세·블로그 반응, Socket 경고, 키 필요 여부 미확인).
+- pbakaus/impeccable(366K): 대시보드 화면 품질.
+
+**제외**
+- 유료 키: apify 계열(Apify 토큰, Gen 경고·불합격), firecrawl 계열 나머지(크레딧).
+- 겹침: playwright-cli·browser-use(agent-browser와 같은 일).
+- 신뢰도 낮음: topic-monitor(3곳 모두 경고), crawl4ai-skill(17★), silicon-paddle-ocr(1★).
+- 판매 데이터 필요: inventory-demand-planning(기획서 §10-20 판매량 제외와 맞지 않음).
+
+검색 원본(전체 목록 `_all.txt`, 페이지 확인 `_review_1~4.txt`)은 회사PC `C:\Work\agent-out\cursor\skills-search\`에 있고 저장소에는 넣지 않았다.
