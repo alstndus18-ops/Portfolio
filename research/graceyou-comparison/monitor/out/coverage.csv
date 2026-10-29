@@ -1,0 +1,112 @@
+﻿brand,list,expected_count,fetched_count,status,reason,url
+그레이스유,View All,557,557,complete,,https://graceu.co.kr/category/view-all/194/
+그레이스유,Outwears,100,100,complete,,https://graceu.co.kr/category/outwears/195/
+그레이스유,Dresses,103,103,complete,,https://graceu.co.kr/category/dresses/196/
+그레이스유,Tops,123,123,complete,,https://graceu.co.kr/category/tops/197/
+그레이스유,Skirts,68,68,complete,,https://graceu.co.kr/category/skirts/198/
+그레이스유,Pants,65,65,complete,,https://graceu.co.kr/category/pants/199/
+그레이스유,Homewears,14,14,complete,,https://graceu.co.kr/category/homewears/200/
+그레이스유,NEW ARRIVAL,185,185,complete,,https://graceu.co.kr/category/new-arrival/697/
+그레이스유,PRE-ORDER,99,99,complete,,https://graceu.co.kr/category/pre-order/710/
+그레이스유,HAZLE DOWN 33% OFF,2,2,complete,,https://graceu.co.kr/category/hazle-down-33-off/716/
+그레이스유,CEREMONY,49,49,complete,,https://graceu.co.kr/category/ceremony/530/
+그레이스유,THE DAYANA,3,3,complete,,https://graceu.co.kr/category/the-dayana/630/
+그레이스유,HAUTE COUTURE,6,6,complete,,https://graceu.co.kr/category/haute-couture/552/
+그레이스유,WHITE LABEL,7,7,complete,,https://graceu.co.kr/category/white-label/589/
+쿠메,WOMEN ALL,,255,complete,,https://kume-studio.co.kr/product/list.html?cate_no=453
+쿠메,OUTER,,22,complete,,https://kume-studio.co.kr/product/list.html?cate_no=454
+쿠메,TOP,,123,complete,,https://kume-studio.co.kr/product/list.html?cate_no=458
+쿠메,TOP>SWEATER,,54,complete,,https://kume-studio.co.kr/product/list.html?cate_no=459
+쿠메,TOP>BLOUSE & SHIRT,,33,complete,,https://kume-studio.co.kr/product/list.html?cate_no=460
+쿠메,TOP>T-SHIRT & MTM,,42,complete,,https://kume-studio.co.kr/product/list.html?cate_no=461
+쿠메,BOTTOM,,74,complete,,https://kume-studio.co.kr/product/list.html?cate_no=462
+쿠메,BOTTOM>SKIRT,,40,complete,,https://kume-studio.co.kr/product/list.html?cate_no=463
+쿠메,BOTTOM>DENIM,,9,complete,,https://kume-studio.co.kr/product/list.html?cate_no=464
+쿠메,BOTTOM>PANTS,,35,complete,,https://kume-studio.co.kr/product/list.html?cate_no=465
+쿠메,BOTTOM>SHORTS,,4,complete,,https://kume-studio.co.kr/product/list.html?cate_no=466
+쿠메,DRESS,,17,complete,,https://kume-studio.co.kr/product/list.html?cate_no=467
+쿠메,ACC,,19,complete,,https://kume-studio.co.kr/product/list.html?cate_no=468
+쿠메,WOMEN BEST,,19,complete,,https://kume-studio.co.kr/product/list.html?cate_no=572
+쿠메,26FW WOMEN,,87,complete,,https://kume-studio.co.kr/product/list.html?cate_no=609
+낫띵리튼,Outwears,,56,complete,,https://nothing-written.com/category/Outwears/78/
+낫띵리튼,Leather,,15,complete,,https://nothing-written.com/category/Leather/318/
+낫띵리튼,Coat,,19,complete,,https://nothing-written.com/category/Coat/258/
+낫띵리튼,Jacket,,9,complete,,https://nothing-written.com/category/Jacket/253/
+낫띵리튼,Jumper,,13,complete,,https://nothing-written.com/category/Jumper/265/
+낫띵리튼,Vest,,0,complete,,https://nothing-written.com/category/Vest/257/
+낫띵리튼,Tops,,96,complete,,https://nothing-written.com/category/Tops/79/
+낫띵리튼,Shirt,,25,complete,,https://nothing-written.com/category/Shirt-/145/
+낫띵리튼,Tee,,49,complete,,https://nothing-written.com/category/Tee/146/
+낫띵리튼,Sleeveless,,21,complete,,https://nothing-written.com/category/Sleeveless/181/
+낫띵리튼,Knitwear,,145,complete,,https://nothing-written.com/category/Knitwear/147/
+낫띵리튼,Bottoms,,74,complete,,https://nothing-written.com/category/Bottoms/81/
+낫띵리튼,Skirt,,17,complete,,https://nothing-written.com/category/Skirt/155/
+낫띵리튼,Denim,,2,complete,,https://nothing-written.com/category/Denim/156/
+낫띵리튼,Pants,,57,complete,,https://nothing-written.com/category/Pants/276/
+낫띵리튼,Dress,,1,complete,,https://nothing-written.com/category/Dress/277/
+낫띵리튼,Essentials,,62,complete,,https://nothing-written.com/category/Essentials/110/
+낫띵리튼,Restock,,6,complete,,https://nothing-written.com/category/Restock/84/
+낫띵리튼,26-Summer,,58,complete,,https://nothing-written.com/category/26-Summer./315/
+낫띵리튼,Outlet,,189,complete,,https://nothing-written.com/category/Outlet/154/
+낫띵리튼,20-off,,64,complete,,https://nothing-written.com/category/20-off/250/
+낫띵리튼,30-off,,64,complete,,https://nothing-written.com/category/30-off/251/
+낫띵리튼,40-off,,53,complete,,https://nothing-written.com/category/40-off/252/
+낫띵리튼,50-off,,8,complete,,https://nothing-written.com/category/50-off/281/
+제이제이지고트,JJ JIGOTT 브랜드관 ALL,485,460,partial,count_mismatch (그룹몰 스크롤 목록이 표시 total보다 적음),https://pc.babathe.com/bnd/jjjigott/goods
+오르,CLO/OUT/COAT,,14,complete,,https://orr.store/collections/clothing-outer-all%EC%82%AC%EB%B3%B8-2
+오르,CLO/OUT/JACKET,,19,complete,,https://orr.store/collections/clothing-outer-jacket
+오르,CLO/OUT/PADDING,,5,complete,,https://orr.store/collections/clothing-outer-all%EC%82%AC%EB%B3%B8-3
+오르,CLOT/ALL,,186,complete,,https://orr.store/collections/clothing-all
+오르,CLOT/BTM/ALL,,17,complete,,https://orr.store/collections/clothing-bottom
+오르,CLOT/BTM/DENIM,,16,complete,,https://orr.store/collections/clot-btm-denim
+오르,CLOT/BTM/PANTS,,17,complete,,https://orr.store/collections/clothing-bottom-pants
+오르,CLOT/BTM/SHORTS,,1,complete,,https://orr.store/collections/clothing-bottom-shorts
+오르,CLOT/DENIM/ALL,,17,complete,,https://orr.store/collections/clot-denim-all-1
+오르,CLOT/DENIM/JACKET,,1,complete,,https://orr.store/collections/clot-denim-jacket
+오르,CLOT/DENIM/SKIRT&DRESS,,0,complete,,https://orr.store/collections/clot-denim-skirt-dress
+오르,CLOT/KNIT/ALL,,49,complete,,https://orr.store/collections/clothing-knit
+오르,CLOT/KNIT/CARDIGAN,,11,complete,,https://orr.store/collections/clothing-knit-all%EC%82%AC%EB%B3%B8-1
+오르,CLOT/KNIT/PANTS,,2,complete,,https://orr.store/collections/clothing-knit-all%EC%82%AC%EB%B3%B8-4
+오르,CLOT/KNIT/PULLOVER,,34,complete,,https://orr.store/collections/clothing-knit-pullover
+오르,CLOT/KNIT/SKIRT&DRESS,,2,complete,,https://orr.store/collections/clothing-knit-all%EC%82%AC%EB%B3%B8-2
+오르,CLOT/KNIT/SLEEVELESS,,0,complete,,https://orr.store/collections/clothing-knit-all%EC%82%AC%EB%B3%B8-5
+오르,CLOT/KNIT/VEST,,2,complete,,https://orr.store/collections/clot-knit-vest-1
+오르,CLOT/OUT/ALL,,42,complete,,https://orr.store/collections/clothing-outer-all
+오르,CLOT/OUT/JUMPER,,13,complete,,https://orr.store/collections/clothing-outer-jumper
+오르,CLOT/OUT/LEATHER,,8,complete,,https://orr.store/collections/clo-out-leather
+오르,CLOT/SKIRT & DRESS,,18,complete,,https://orr.store/collections/clothing-skirt-dress
+오르,CLOT/SKIRT&DRESS/DRESS,,1,complete,,https://orr.store/collections/clot-skirt-dress-dress-2
+오르,CLOT/SKIRT&DRESS/SKIRT,,17,complete,,https://orr.store/collections/clot-skirt-dress-skirt
+오르,CLOT/SWIM,,1,complete,,https://orr.store/collections/clot-swim
+오르,CLOT/TOP/ALL,,43,complete,,https://orr.store/collections/clothing-top
+오르,CLOT/TOP/BLOUSE,,7,complete,,https://orr.store/collections/clothing-top-all%EC%82%AC%EB%B3%B8-3
+오르,CLOT/TOP/SHIRTS,,12,complete,,https://orr.store/collections/clothing-top-all%EC%82%AC%EB%B3%B8-2
+오르,CLOT/TOP/SLEEVELESS,,0,complete,,https://orr.store/collections/clothing-top-all%EC%82%AC%EB%B3%B8-1
+오르,CLOT/TOP/T-SHIRTS,,18,complete,,https://orr.store/collections/clothing-top-all%EC%82%AC%EB%B3%B8
+오르,CLOT/TOP/VEST,,0,complete,,https://orr.store/collections/clot-top-vest
+오르,SALE/1차 SALE / ACC,,34,complete,,https://orr.store/collections/sale-1%EC%B0%A8-sale-acc
+오르,SALE/1차 SALE / BAG,,14,complete,,https://orr.store/collections/sale-1%EC%B0%A8-sale-bag
+오르,SALE/1차 SALE / BTM,,78,complete,,https://orr.store/collections/sale-1%EC%B0%A8-sale-btm
+오르,SALE/1차 SALE / DENIM,,28,complete,,https://orr.store/collections/sale-1%EC%B0%A8-sale-denim
+오르,SALE/1차 SALE / KNIT,,128,complete,,https://orr.store/collections/sale-1%EC%B0%A8-sale-knit
+오르,SALE/1차 SALE / OUTER,,58,complete,,https://orr.store/collections/sale-1st-sale-outer
+오르,SALE/1차 SALE / SET,,98,complete,,https://orr.store/collections/sale-1%EC%B0%A8-sale-set
+오르,SALE/1차 SALE / SHOES,,20,complete,,https://orr.store/collections/sale-1%EC%B0%A8-sale-shoes
+오르,SALE/1차 SALE / SKIRT & ONE PIECE,,96,complete,,https://orr.store/collections/sale-1%EC%B0%A8-skirt_one-piece
+오르,SALE/1차 SALE / TOP,,83,complete,,https://orr.store/collections/sale-1%EC%B0%A8-sale-top
+오르,SALE/2차 SALE / BTM,,64,complete,,https://orr.store/collections/sale-2%EC%B0%A8-sale-outer-%EB%B3%B5%EC%82%AC%EB%B3%B8
+오르,SALE/2차 SALE / DENIM,,3,complete,,https://orr.store/collections/sale-2%EC%B0%A8-sale-btm-%EB%B3%B5%EC%82%AC%EB%B3%B8
+오르,SALE/2차 SALE / KNIT,,12,complete,,https://orr.store/collections/sale-2%EC%B0%A8-sale-skirt-one-piece-%EB%B3%B5%EC%82%AC%EB%B3%B8
+오르,SALE/2차 SALE / OUTER,,27,complete,,https://orr.store/collections/sale-2%EC%B0%A8-sale-top-%EB%B3%B5%EC%82%AC%EB%B3%B8
+오르,SALE/2차 SALE / SET,,59,complete,,https://orr.store/collections/sale-2%EC%B0%A8-sale-set
+오르,SALE/2차 SALE / SHOES&ACC,,5,complete,,https://orr.store/collections/sale-2%EC%B0%A8-sale-knit-%EB%B3%B5%EC%82%AC%EB%B3%B8
+오르,SALE/2차 SALE / SKIRT & ONE PIECE,,52,complete,,https://orr.store/collections/sale-2%EC%B0%A8-sale-denim-%EB%B3%B5%EC%82%AC%EB%B3%B8
+오르,SALE/2차 SALE / TOP,,61,complete,,https://orr.store/collections/sale-2%EC%B0%A8-sale-%EB%B3%B5%EC%82%AC%EB%B3%B8
+오르,TIME SALE / BAG,,11,complete,,https://orr.store/collections/time-sale-bag
+오르,TIME SALE / BTM,,39,complete,,https://orr.store/collections/time-sale-top-%EB%B3%B5%EC%82%AC%EB%B3%B8-%EB%B3%B5%EC%82%AC%EB%B3%B8
+오르,TIME SALE / KNIT,,16,complete,,https://orr.store/collections/time-sale-knit
+오르,TIME SALE / OUTER,,29,complete,,https://orr.store/collections/time-sale-outer
+오르,TIME SALE / SET,,8,complete,,https://orr.store/collections/time-sale-set
+오르,TIME SALE / SKIRT & ONE PIECE,,55,complete,,https://orr.store/collections/time-sale-skirt_one-piece
+오르,TIME SALE / SWIM,,9,complete,,https://orr.store/collections/time-sale-bag-%EB%B3%B5%EC%82%AC%EB%B3%B8
+오르,TIME SALE / TOP,,54,complete,,https://orr.store/collections/time-sale-top
