@@ -3,9 +3,11 @@
   python tools/diff_snapshots.py official kume 2026-10-29 2026-11-02
   python tools/diff_snapshots.py 29cm 1939 --series          # 날짜별 지표 표(5일치 추이 등)
   python tools/diff_snapshots.py official --all --series     # 공식몰 4곳 지표 표
-종류: official = snapshots/official/<브랜드>/<날짜>.json , 29cm = snapshots/29cm/<브랜드ID>/<날짜>.json
+종류: official = snapshots/official/<브랜드>/<날짜>.json , 29cm = snapshots/29cm/<브랜드ID>/<날짜>.json ,
+  tops = snapshots/tops/<브랜드>/<날짜>.json (상의 상세 수집; 품절 = 모든 옵션 품절 표시), wconcept = snapshots/wconcept/<ID>/<날짜>.json
 """
 import json
+import re
 import statistics
 import sys
 from pathlib import Path
@@ -16,6 +18,11 @@ ROOT = Path(__file__).resolve().parent.parent / "snapshots"
 def load(kind, key, day):
     d = json.loads((ROOT / kind / key / f"{day}.json").read_text(encoding="utf-8"))
     items = {}
+    if kind == "tops":
+        for r in d["rows"]:
+            if not r.get("error"):
+                items[r["id"]] = {"name": r["name"], "list": r["list"], "sale": r["sale"], "soldout": bool(r.get("combos")) and all(c["soldout"] for c in r["combos"]), "pos": None}
+        return d, items
     if kind == "official":
         for p in d["products"]:
             items[p["id"]] = {"name": p["name"], "list": p["list"], "sale": p["sale"], "soldout": p["soldout"], "pos": p.get("pos")}
@@ -27,7 +34,7 @@ def load(kind, key, day):
 
 
 def days(kind, key):
-    return sorted(p.stem for p in (ROOT / kind / key).glob("*.json"))
+    return sorted(p.stem for p in (ROOT / kind / key).glob("*.json") if re.fullmatch(r"\d{4}-\d{2}-\d{2}", p.stem))
 
 
 def metrics(items):
@@ -67,7 +74,7 @@ def diff(kind, key, a, b):
 
 def series(kind, key):
     ds = days(kind, key)
-    print(f"## {kind}/{key} 지표 추이")
+    print(f"## {kind}/{key} 지표 추이" + (" (등록 행 기준. 상품 단위 지표는 onepager/history/상의-지표-이력.csv)" if kind == "tops" else ""))
     print("| 날짜 | 상품수 | 정가중앙 | 판매가중앙 | 할인비율 | 품절 |")
     print("|---|---|---|---|---|---|")
     for d in ds:

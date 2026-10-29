@@ -1,0 +1,6229 @@
+{
+ "brand": "jj",
+ "observed_at": "2026-10-29",
+ "source": "https://pc.babathe.com/bnd/jjjigott/goods (분류: 상세 화면의 위치 표시 상의)",
+ "note": "바바더닷컴 JJ지고트 브랜드관. 색상은 상품 번호가 따로이고 같은 모델 묶음은 siblings 로 확인 / 위치 표시를 못 읽은 16개 중 이름이 상의인 1개를 덧붙임",
+ "n": 136,
+ "rows": [
+  {
+   "id": "GD26956809",
+   "name": "레이스 트리밍 브이넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26956809",
+   "list": 169000,
+   "sale": 152100,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26956809",
+    "GD26958420"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26813251",
+   "name": "타이넥 셔링 슬림핏 티셔츠",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26813251",
+   "list": 109000,
+   "sale": 58860,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "티셔츠",
+    "긴팔티셔츠"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26809850",
+    "GD26813251",
+    "GD26815757"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26782642",
+   "name": "후드 버튼 루즈핏 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26782642",
+   "list": 109000,
+   "sale": 58860,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26781926",
+    "GD26782642"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26787833",
+   "name": "울 배색 라운드넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26787833",
+   "list": 159000,
+   "sale": 143100,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26787833",
+    "GD26781389"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26783179",
+   "name": "페이크 퍼 백 타이 크롭 베스트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26783179",
+   "list": 169000,
+   "sale": 152100,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "베스트"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26781031",
+    "GD26783179"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26754897",
+   "name": "모던 뷔스티에 배색 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26754897",
+   "list": 199000,
+   "sale": 179100,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26754897",
+    "GD26755613"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26705493",
+   "name": "배색 레이어 칼라 셔츠 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26705493",
+   "list": 199000,
+   "sale": 107460,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26705493"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26649645",
+   "name": "하프 버튼 반하이넥 슬림핏 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26649645",
+   "list": 79000,
+   "sale": 42660,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26648571",
+    "GD26649645",
+    "GD26653225"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26567126",
+   "name": "진주 장식 라운드넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26567126",
+   "list": 199000,
+   "sale": 111040,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26567126",
+    "GD26567305"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26334784",
+   "name": "울 케이블 집업 칼라 니트 베스트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26334784",
+   "list": 159000,
+   "sale": 128790,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "베스트"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26348567",
+    "GD26334784"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26317421",
+   "name": "배색 스카프 백 버튼 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26317421",
+   "list": 159000,
+   "sale": 128790,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26317421",
+    "GD26344092",
+    "GD26344271"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26319211",
+   "name": "백 타이 하프넥 라인 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26319211",
+   "list": 169000,
+   "sale": 152100,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26319211"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26785148",
+   "name": "울 캐시미어 블렌드 후드 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26785148",
+   "list": 219000,
+   "sale": 197100,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26785148",
+    "GD26788012"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26783895",
+   "name": "레오파드 퍼 카라 버튼 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26783895",
+   "list": 239000,
+   "sale": 215100,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26783895"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26784253",
+   "name": "프릴 반하이넥 도트 티셔츠",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26784253",
+   "list": 109000,
+   "sale": 98100,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "티셔츠",
+    "긴팔티셔츠"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26785327",
+    "GD26785864",
+    "GD26784253"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26787117",
+   "name": "배색 타이 반하이넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26787117",
+   "list": 149000,
+   "sale": 134100,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26787117",
+    "GD26783000"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26647318",
+   "name": "타이 뷔스티에 레이어드 크롭 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26647318",
+   "list": 299000,
+   "sale": 161460,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26647318",
+    "GD26648929"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26568379",
+   "name": "아가일 칼라 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26568379",
+   "list": 159000,
+   "sale": 85860,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26567484",
+    "GD26568379"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26337111",
+   "name": "언밸런스 드레이프 카울넥 티셔츠",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26337111",
+   "list": 119000,
+   "sale": 96390,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "티셔츠",
+    "라운드"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26329056",
+    "GD26336395",
+    "GD26337111"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26331920",
+   "name": "체크 스웨이드 포켓 크롭 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26331920",
+   "list": 189000,
+   "sale": 153090,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26331920"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26162228",
+   "name": "헤어리 오프 숄더 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26162228",
+   "list": 189000,
+   "sale": 105460,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26150951",
+    "GD26162228"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26173684",
+   "name": "헤어리 부클 페플럼 티셔츠",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26173684",
+   "list": 179000,
+   "sale": 99880,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "티셔츠",
+    "라운드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26159543",
+    "GD26173684"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26166524",
+   "name": "벨벳 타이 장식 페플럼 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26166524",
+   "list": 189000,
+   "sale": 105460,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26166524"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26169030",
+   "name": "스트라이프 백 벨티드 베스트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26169030",
+   "list": 169000,
+   "sale": 86190,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "베스트"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26169030"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26171536",
+   "name": "베이직 타이넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26171536",
+   "list": 199000,
+   "sale": 107460,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26152025",
+    "GD26171536"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26165629",
+   "name": "헤어리 울 홀터넥 니트 베스트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26165629",
+   "list": 109000,
+   "sale": 88290,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "베스트"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26165629",
+    "GD26169567"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26180307",
+   "name": "울 백 버튼 하이넥 니트 베스트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26180307",
+   "list": 169000,
+   "sale": 136890,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "베스트"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26177085",
+    "GD26180307"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26171178",
+   "name": "배색 레터링 라운드넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26171178",
+   "list": 139000,
+   "sale": 112590,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26158827",
+    "GD26171178"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26153994",
+   "name": "울 레이어 브이넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26153994",
+   "list": 139000,
+   "sale": 112590,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "브이넥"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26153994",
+    "GD26167240",
+    "GD26176369"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26170462",
+   "name": "셔츠 배색 오프 숄더 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26170462",
+   "list": 169000,
+   "sale": 136890,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26159185",
+    "GD26170462"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26177801",
+   "name": "스판 언밸런스 턱 보트넥 티셔츠",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26177801",
+   "list": 89000,
+   "sale": 72090,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "티셔츠",
+    "라운드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26158469",
+    "GD26165092",
+    "GD26165808",
+    "GD26177801"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26181202",
+   "name": "트위드 시폰 배색 포켓 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26181202",
+   "list": 289000,
+   "sale": 234090,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26163481",
+    "GD26181202"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD26152562",
+   "name": "배색 타이 펄 장식 셔츠 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26152562",
+   "list": 239000,
+   "sale": 193590,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD26152562",
+    "GD26175116"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25784001",
+   "name": "헤어리 오프 숄더 크롭 티셔츠",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25784001",
+   "list": 149000,
+   "sale": 80460,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "티셔츠",
+    "긴팔티셔츠"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25784001",
+    "GD25777915"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25971235",
+   "name": "배색 리본 장식 라운드넥 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25971235",
+   "list": 199000,
+   "sale": 107460,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25983228",
+    "GD25971235"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25996116",
+   "name": "슬릿 버튼 장식 하프넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25996116",
+   "list": 169000,
+   "sale": 91260,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25978216",
+    "GD25996116"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25975352",
+   "name": "슬림핏 울 카울넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25975352",
+   "list": 129000,
+   "sale": 69660,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25975352",
+    "GD25986092",
+    "GD25994863"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25984839",
+   "name": "골지 스트라이프 하이넥 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25984839",
+   "list": 109000,
+   "sale": 88290,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25982870",
+    "GD25984839"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25988061",
+   "name": "슬림핏 골지 하이넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25988061",
+   "list": 99000,
+   "sale": 80190,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25980006",
+    "GD25980901",
+    "GD25988061"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25976784",
+   "name": "배색 자수 터틀넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25976784",
+   "list": 119000,
+   "sale": 96390,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25976784"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25972130",
+   "name": "골지 시스루 하이넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25972130",
+   "list": 119000,
+   "sale": 96390,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25979111",
+    "GD25985555",
+    "GD25972130"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25991641",
+   "name": "스웨이드 플랩 장식 셔츠 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25991641",
+   "list": 219000,
+   "sale": 177390,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25991641",
+    "GD25971593"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25990030",
+   "name": "셔츠 배색 스트라이프 티셔츠",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25990030",
+   "list": 159000,
+   "sale": 114480,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "티셔츠",
+    "카라"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25987882",
+    "GD25990030"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25871711",
+   "name": "퍼 스트링 후드 크롭 베스트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25871711",
+   "list": 209000,
+   "sale": 116620,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "베스트"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25871711",
+    "GD25860434"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25869563",
+   "name": "울 캡 슬리브 터틀넥 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25869563",
+   "list": 149000,
+   "sale": 80460,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25869563",
+    "GD25853632"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25858644",
+   "name": "울 드롭 숄더 브이넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25858644",
+   "list": 199000,
+   "sale": 107460,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25872427",
+    "GD25858644",
+    "GD25864909"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25865267",
+   "name": "울 언밸런스 랩 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25865267",
+   "list": 179000,
+   "sale": 96660,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25848441",
+    "GD25865267"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25862403",
+   "name": "울 버튼 장식 라운드넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25862403",
+   "list": 209000,
+   "sale": 106590,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25856496",
+    "GD25859539",
+    "GD25862403"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25873143",
+   "name": "스판 사이드 셔링 카울넥 티셔츠",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25873143",
+   "list": 79000,
+   "sale": 42660,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "티셔츠",
+    "긴팔티셔츠"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25873143",
+    "GD25855601",
+    "GD25857212"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25872785",
+   "name": "스판 사이드 턱 카울넥 티셔츠",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25872785",
+   "list": 99000,
+   "sale": 53460,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "티셔츠",
+    "긴팔티셔츠"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25870816",
+    "GD25872785"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25776304",
+   "name": "라운드넥 니트 +뷔스티에 세트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25776304",
+   "list": 109000,
+   "sale": 58860,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25789550",
+    "GD25776304"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25759299",
+   "name": "슬림핏 울 하프넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25759299",
+   "list": 89000,
+   "sale": 48060,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25767533",
+    "GD25759299",
+    "GD25759478"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25772903",
+   "name": "골지 롤업 하프넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25772903",
+   "list": 109000,
+   "sale": 88290,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25762521",
+    "GD25769144",
+    "GD25772903"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25792235",
+   "name": "골지 글리터 프릴넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25792235",
+   "list": 109000,
+   "sale": 88290,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25764669",
+    "GD25792235",
+    "GD25777557"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25763058",
+   "name": "울 카울 하이넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25763058",
+   "list": 159000,
+   "sale": 128790,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25763058",
+    "GD25787402"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25763595",
+   "name": "롱 커프스 백 리본 하이넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25763595",
+   "list": 189000,
+   "sale": 153090,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25763595",
+    "GD25789729"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25782390",
+   "name": "울 모던 스퀘어넥 크롭 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25782390",
+   "list": 239000,
+   "sale": 215100,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": true
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25782390"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": true
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25770218",
+   "name": "울 돌먼 모크넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25770218",
+   "list": 159000,
+   "sale": 77270,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25779526",
+    "GD25768428",
+    "GD25770218",
+    "GD25785612"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25761268",
+   "name": "코튼 집업 칼라 스웨트셔츠",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25761268",
+   "list": 139000,
+   "sale": 100080,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "티셔츠",
+    "스웨트셔츠"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25775767",
+    "GD25761268"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25764311",
+   "name": "모던 언밸런스 카울넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25764311",
+   "list": 159000,
+   "sale": 114480,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25764311",
+    "GD25778810"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25769323",
+   "name": "레이어 백 리본 하이넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25769323",
+   "list": 169000,
+   "sale": 121680,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25769323",
+    "GD25786507"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25122954",
+   "name": "벨벳 백 버튼 하이넥 티셔츠",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25122954",
+   "list": 159000,
+   "sale": 88720,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "티셔츠",
+    "긴팔티셔츠"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25121701",
+    "GD25122954"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25123849",
+   "name": "백 타이 하이넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25123849",
+   "list": 159000,
+   "sale": 85860,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25122417",
+    "GD25123849"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24502719",
+   "name": "자수 레이스 브이넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24502719",
+   "list": 199000,
+   "sale": 101490,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24502719",
+    "GD24507194"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25048132",
+   "name": "셔츠 배색 브이넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25048132",
+   "list": 209000,
+   "sale": 112860,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25054755",
+    "GD25048132",
+    "GD25037392"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25032022",
+   "name": "시어 엠보 프릴넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25032022",
+   "list": 199000,
+   "sale": 107460,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25032022",
+    "GD25034528"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25050817",
+   "name": "시스루 플라워 자수 하프넥 티셔츠",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25050817",
+   "list": 119000,
+   "sale": 96390,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "티셔츠",
+    "긴팔티셔츠"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25050817",
+    "GD25033633"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25033096",
+   "name": "슬림핏 울 시스루 하이넥 티셔츠",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25033096",
+   "list": 79000,
+   "sale": 63990,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "티셔츠",
+    "긴팔티셔츠"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25044373",
+    "GD25033096",
+    "GD25035244"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25052965",
+   "name": "시폰 레이어 프릴넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25052965",
+   "list": 169000,
+   "sale": 136890,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25052965",
+    "GD25053323",
+    "GD25028979"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25049564",
+   "name": "드레이프 배색 타이넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25049564",
+   "list": 189000,
+   "sale": 136080,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": true
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25038645",
+    "GD25049564"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": true
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD25038466",
+   "name": "배색 로고 자수 셔츠 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25038466",
+   "list": 179000,
+   "sale": 128880,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD25038466",
+    "GD25039540"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24610119",
+   "name": "링클 스모킹 뷔스티에 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24610119",
+   "list": 99000,
+   "sale": 50490,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24609940",
+    "GD24610119"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24787508",
+   "name": "체크 블라우스 +레이어드 세트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24787508",
+   "list": 229000,
+   "sale": 164880,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24787508"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24767281",
+   "name": "백 버튼 7부 라운드넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24767281",
+   "list": 129000,
+   "sale": 92880,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24767281",
+    "GD24767997"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24728080",
+   "name": "울 자수 버튼 브이넥 니트 베스트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24728080",
+   "list": 139000,
+   "sale": 100080,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "베스트"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24705884",
+    "GD24728080"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24722889",
+   "name": "배색 타이넥 브이넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24722889",
+   "list": 169000,
+   "sale": 121680,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": true
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24722889"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": true
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24721099",
+   "name": "오버핏 코튼 백 래글런 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24721099",
+   "list": 179000,
+   "sale": 128880,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24716266",
+    "GD24721099"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24389412",
+   "name": "라운드넥 풀오버 니트 +숄 세트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24389412",
+   "list": 149000,
+   "sale": 107280,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24382252",
+    "GD24389412"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24891686",
+   "name": "리본 하프넥 블라우스 +이너 세트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24891686",
+   "list": 209000,
+   "sale": 169290,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24917104",
+    "GD24888643",
+    "GD24891686"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24892760",
+   "name": "시스루 링클 하이넥 티셔츠",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24892760",
+   "list": 89000,
+   "sale": 64080,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "티셔츠",
+    "긴팔티셔츠"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24901889",
+    "GD24892760"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24913703",
+   "name": "실키 래글런 카울넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24913703",
+   "list": 159000,
+   "sale": 114480,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24909586",
+    "GD24913703"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24907796",
+   "name": "시스루 배색 스퀘어넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24907796",
+   "list": 199000,
+   "sale": 85960,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24907796",
+    "GD24895266"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24908870",
+   "name": "하프 슬리브 스카프넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24908870",
+   "list": 209000,
+   "sale": 90280,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24908870",
+    "GD24886853",
+    "GD24919073"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24908691",
+   "name": "배색 레이어 시스루 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24908691",
+   "list": 219000,
+   "sale": 157680,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24908691",
+    "GD24916030"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24893118",
+   "name": "시스루 핀턱 러플 칼라 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24893118",
+   "list": 199000,
+   "sale": 143280,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24915314",
+    "GD24893118"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24768534",
+   "name": "라운드 요크 돌먼 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24768534",
+   "list": 159000,
+   "sale": 114480,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24768534",
+    "GD24784823",
+    "GD24785360"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24609582",
+   "name": "시어 셔츠 배색 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24609582",
+   "list": 239000,
+   "sale": 121890,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24609582"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24608329",
+   "name": "링클 블라우스 +뷔스티에 세트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24608329",
+   "list": 119000,
+   "sale": 60690,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24608329"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24729333",
+   "name": "펄 리본 장식 라운드넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24729333",
+   "list": 99000,
+   "sale": 53460,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24726648",
+    "GD24728438",
+    "GD24729333"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24720025",
+   "name": "배색 레이어 브이넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24720025",
+   "list": 99000,
+   "sale": 50490,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24720025",
+    "GD24727722"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24724858",
+   "name": "링클 언밸런스 타이넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24724858",
+   "list": 159000,
+   "sale": 81090,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24723784",
+    "GD24724858"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24657554",
+   "name": "코튼 언밸런스 칼라 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24657554",
+   "list": 199000,
+   "sale": 81190,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24657554"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24608508",
+   "name": "언밸런스 오프 숄더 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24608508",
+   "list": 199000,
+   "sale": 81190,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24608150",
+    "GD24608508"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24609761",
+   "name": "배색 리본 칼라 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24609761",
+   "list": 169000,
+   "sale": 68950,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24609761"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24610656",
+   "name": "링클 랩 카울넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24610656",
+   "list": 199000,
+   "sale": 81190,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24605823",
+    "GD24610656"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24607434",
+   "name": "언밸런스 타이 칼라 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24607434",
+   "list": 199000,
+   "sale": 81190,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24606718",
+    "GD24607434"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24140781",
+   "name": "모던 셔츠 배색 뷔스티에 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24140781",
+   "list": 229000,
+   "sale": 98920,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24140781"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24481776",
+   "name": "셔츠 블라우스 +뷔스티에 세트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24481776",
+   "list": 249000,
+   "sale": 107560,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24464771",
+    "GD24481776"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24470678",
+   "name": "디테쳐블 칼라 자수 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24470678",
+   "list": 129000,
+   "sale": 92880,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24470678",
+    "GD24471036"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24484819",
+   "name": "셔츠 배색 골지 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24484819",
+   "list": 149000,
+   "sale": 107280,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24484819",
+    "GD24480165"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24477659",
+   "name": "디테쳐블 칼라 배색 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24477659",
+   "list": 159000,
+   "sale": 114480,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24469246",
+    "GD24477659"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24471215",
+   "name": "볼륨 슬리브 라운드넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24471215",
+   "list": 139000,
+   "sale": 100080,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24471215"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24464950",
+   "name": "타이넥 블라우스 +이너 세트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24464950",
+   "list": 229000,
+   "sale": 164880,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24464950",
+    "GD24481597"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24485177",
+   "name": "셔츠 배색 실키 크롭 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24485177",
+   "list": 199000,
+   "sale": 143280,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24485177"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24141318",
+   "name": "포켓 스트링 하이넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24141318",
+   "list": 189000,
+   "sale": 136080,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24141318",
+    "GD24145793"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24501466",
+   "name": "시스루 배색 스퀘어넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24501466",
+   "list": 149000,
+   "sale": 75990,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24501466",
+    "GD24503435"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24506120",
+   "name": "언밸런스 스퀘어넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24506120",
+   "list": 179000,
+   "sale": 91290,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24506120",
+    "GD24506836"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24505225",
+   "name": "셔츠 레이어 배색 카울넥 티셔츠",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24505225",
+   "list": 199000,
+   "sale": 81190,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "티셔츠",
+    "긴팔티셔츠"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24505225",
+    "GD24504330"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24472826",
+   "name": "코튼 타이 체크 셔츠 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24472826",
+   "list": 229000,
+   "sale": 164880,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24471931",
+    "GD24472826"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24467635",
+   "name": "오버핏 코튼 포켓 셔츠 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24467635",
+   "list": 169000,
+   "sale": 121680,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24467635",
+    "GD24479449"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24215245",
+   "name": "셔츠 배색 뷔스티에 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24215245",
+   "list": 209000,
+   "sale": 106590,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24215245"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24171390",
+   "name": "골지 글리터 버튼 브이넥 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24171390",
+   "list": 109000,
+   "sale": 58860,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24171390",
+    "GD24171748",
+    "GD24171927"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24143466",
+   "name": "시폰 레이어 크롭 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24143466",
+   "list": 229000,
+   "sale": 98920,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24142571",
+    "GD24143466"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD24147404",
+   "name": "자수 플랩 포켓 셔츠 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24147404",
+   "list": 229000,
+   "sale": 98920,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD24135053",
+    "GD24147404"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD23197630",
+   "name": "골지 버튼 장식 칼라 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD23197630",
+   "list": 149000,
+   "sale": 60790,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD23197630",
+    "GD23168453"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD22820835",
+   "name": "루즈핏 세일러 칼라 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD22820835",
+   "list": 159000,
+   "sale": 127200,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD22820835",
+    "GD22823341"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD21956623",
+   "name": "시스루 라운드넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD21956623",
+   "list": 119000,
+   "sale": 107100,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD21956623",
+    "GD21956802"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD21953580",
+   "name": "타이 도트 튤 블라우스 +이너 세트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD21953580",
+   "list": 229000,
+   "sale": 144270,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD21953580",
+    "GD21966289"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD21303094",
+   "name": "스판 자수 셔츠 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD21303094",
+   "list": 159000,
+   "sale": 85860,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD21291996",
+    "GD21292712",
+    "GD21303094",
+    "GD21305242",
+    "GD21308464"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD21097781",
+   "name": "셔츠 배색 라운드넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD21097781",
+   "list": 179000,
+   "sale": 67660,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": true
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD21097781"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": true
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD20410958",
+   "name": "벨티드 버튼 라운드넥 롱 베스트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD20410958",
+   "list": 219000,
+   "sale": 137970,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "베스트"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD20410958",
+    "GD20414359"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD20417760",
+   "name": "셔츠 배색 스트라이프 티셔츠",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD20417760",
+   "list": 159000,
+   "sale": 100170,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "티셔츠",
+    "긴팔티셔츠"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD20406304",
+    "GD20417760"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD20401471",
+   "name": "뷔스티에 배색 타이 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD20401471",
+   "list": 199000,
+   "sale": 125370,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD20401471",
+    "GD20393774",
+    "GD20398428"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD20240013",
+   "name": "셔츠 배색 브이넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD20240013",
+   "list": 149000,
+   "sale": 93870,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD20233927",
+    "GD20240013"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD20225872",
+   "name": "버튼 크롭 뷔스티에 베스트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD20225872",
+   "list": 119000,
+   "sale": 74970,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "베스트"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD20225872"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD20236075",
+   "name": "슬리브리스 티셔츠 +티셔츠 세트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD20236075",
+   "list": 119000,
+   "sale": 74970,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "티셔츠",
+    "긴팔티셔츠"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD20236075",
+    "GD20236791"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD20089653",
+   "name": "오버핏 코튼 체크 셔츠 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD20089653",
+   "list": 169000,
+   "sale": 106470,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD20098961",
+    "GD20089653"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD19874316",
+   "name": "배색 컷아웃 숄더 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD19874316",
+   "list": 119000,
+   "sale": 74970,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD19874316"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD19878254",
+   "name": "울 골지 버튼 칼라 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD19878254",
+   "list": 129000,
+   "sale": 81270,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD19871094",
+    "GD19878254",
+    "GD19880760"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD19680996",
+   "name": "트위스트 라운드넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD19680996",
+   "list": 169000,
+   "sale": 106470,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD19676521",
+    "GD19680996"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD19679385",
+   "name": "시스루 드레이프 카울넥 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD19679385",
+   "list": 159000,
+   "sale": 100170,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD19675626",
+    "GD19679385"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD19666139",
+   "name": "린넨 풀오버 니트 +뷔스티에 세트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD19666139",
+   "list": 199000,
+   "sale": 125370,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD19675805",
+    "GD19666139"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD19689588",
+   "name": "배색 칼라 포켓 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD19689588",
+   "list": 129000,
+   "sale": 81270,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "니트웨어",
+    "풀오버"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD19678132",
+    "GD19689588"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD19681175",
+   "name": "스트라이프 프릴넥 크롭 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD19681175",
+   "list": 159000,
+   "sale": 100170,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD19681175",
+    "GD19667929"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD19668824",
+   "name": "타이 배색 칼라 셔츠 블라우스",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD19668824",
+   "list": 159000,
+   "sale": 100170,
+   "cat_path": [
+    "HOME",
+    "패션",
+    "상의",
+    "블라우스/셔츠",
+    "기본/솔리드"
+   ],
+   "sizes": [
+    {
+     "name": "55",
+     "soldout": false
+    },
+    {
+     "name": "66",
+     "soldout": false
+    },
+    {
+     "name": "77",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD19667571",
+    "GD19668824"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "55",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "66",
+     "soldout": false
+    },
+    {
+     "color": null,
+     "size": "77",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  },
+  {
+   "id": "GD27083541",
+   "name": "웨이스트 타이 라운드넥 풀오버 니트",
+   "url": "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD27083541",
+   "list": 159000,
+   "sale": 159000,
+   "cat_path": [
+    "HOME"
+   ],
+   "cat_by": "이름",
+   "sizes": [
+    {
+     "name": "FF",
+     "soldout": false
+    }
+   ],
+   "colors": [],
+   "siblings": [
+    "GD27083541",
+    "GD27092849",
+    "GD27093386"
+   ],
+   "groups": [
+    "사이즈"
+   ],
+   "product_soldout": false,
+   "combos": [
+    {
+     "color": null,
+     "size": "FF",
+     "soldout": false
+    }
+   ],
+   "has_options": true
+  }
+ ]
+}

@@ -26,57 +26,24 @@
  "est": 1997,
  "heart": 866,
  "off": {
-  "rows": 101,
-  "styles": 101,
+  "styles": 119,
+  "rows": 119,
   "list": {
-   "n": 101,
-   "min": 57000,
    "q1": 138000,
    "med": 178000,
-   "q3": 238000,
-   "p90": 298000,
-   "max": 558000,
-   "mean": 196495
+   "q3": 238000
   },
   "sale": {
-   "n": 101,
-   "min": 39000,
-   "q1": 67200,
+   "q1": 67100,
    "med": 84200,
-   "q3": 118200,
-   "p90": 139000,
-   "max": 279000,
-   "mean": 95554
+   "q3": 105450
   },
-  "disc_share": 0.88,
-  "disc_med": 50,
-  "disc_max": 72,
-  "source": "https://www.idfmall.co.kr/product/list.html?cate_no=159 (브랜드 SHESMISS만)",
-  "knit": {
-   "styles": 67,
-   "list": {
-    "n": 67,
-    "min": 57000,
-    "q1": 138000,
-    "med": 178000,
-    "q3": 258000,
-    "p90": 318000,
-    "max": 558000,
-    "mean": 204716
-   },
-   "sale": {
-    "n": 67,
-    "min": 50200,
-    "q1": 75700,
-    "med": 89000,
-    "q3": 127850,
-    "p90": 159000,
-    "max": 279000,
-    "mean": 103973
-   },
-   "disc_share": 0.85,
-   "disc_med": 50
-  }
+  "disc_share": 0.866,
+  "disc_med": 0.53,
+  "source": "https://www.idfmall.co.kr/product/list.html?cate_no=159 (SHESMISS만)",
+  "observed_at": "2026-10-29",
+  "judge_sale": "한 단계 아래",
+  "judge_list": "비슷함"
  },
  "score": {
   "k": 3.45,

@@ -160,3 +160,9 @@ const meta=async b=>{const h=await (await fetch('/brand/'+encodeURIComponent(b)+
 - 10-29 · Claude · W컨셉 — 브랜드관 `/rn/brand/<id>`가 agent-browser에서는 소개문과 상품 카드(이름·할인율·판매가)까지 그려진다(내장 브라우저에서는 상품이 안 보였음). 이름은 제목 `한글명(영문명) | W컨셉`으로 읽는다(메뉴의 '브랜드관' 글자를 기준으로 하면 틀림).
 - 10-29 · Claude · 낫띵리튼 — `/product/list.html?cate_no=N&page=P`는 쪽이 안 넘어가고 같은 11개만 반복 → `/category/<이름>/<번호>/?page=P` 형태를 쓰고 새 상품이 없으면 멈춘다. 바바더닷컴은 스크롤로 이어 붙고, 카드 컨테이너를 찾을 때 "브랜드 상품이 둘 이상 들어 있는 단계"의 바로 아래에서 멈춰야 한다(안 그러면 전체 목록 글을 모든 카드에 붙인다).
 - 10-29 · Claude · agent-browser(Windows) — 파이썬 `subprocess.run(shell=True)`로 부르면 시간 초과 뒤에도 파이프가 안 닫혀 영원히 멈춘다 → `Popen`+`taskkill /T`(`graceyou-comparison/tools/ab_util.py`). 새 세션의 첫 `open`이 오래 걸리거나 멈출 수 있어 따뜻한 세션을 재사용하고, 한 세션에서 동시에 두 작업을 돌리지 않는다. Git Bash에는 `pkill`이 없다(PowerShell `Stop-Process`).
+- 10-29 · Claude · 카페24 목록 쪽수 — 상품 목록을 쪽수 한도(12쪽·5쪽 등)에서 멈추면 일부만 읽힌다(IDF몰 탑은 14쪽·279개인데 12쪽에서 멈춰 쉬즈미스가 101개로 나옴, 실제 119개) → "새 상품이 없는 쪽"에서 멈춘다. 낫띵리튼은 `/product/list.html?page=`가 쪽을 안 넘기므로 `/category/<이름>/<번호>/?page=N`을 쓴다.
+- 10-29 · Claude · 쿠메 — 남성 TOP(`cate_no=479`)과 여성 TOP(`458`)이 따로이고 상품명이 "Men …"이면 남성 목록이다. 상세 `og:title`이 가게 제목(KUMÉ | Wear Your Dream)이라 상품 이름은 `<title>`에서 읽는다.
+- 10-29 · Claude · IDF몰 가격 — 상세 메타(`product:price`)에는 판매가만 있어 정가·할인이 사라진다. 목록의 `ec-data-custom`(취소선 정가)과 `ec-data-price`(판매가)를 쓴다.
+- 10-29 · Claude · 옵션 — 카페24 `option_stock_data`가 "옵션이 없는 상품"에서는 상품 단위 재고 객체 하나뿐이다(수량 0이면 품절). 색상·사이즈를 따로 고르는 독립 선택형(쿠메)은 옵션 레코드마다 제목이 하나라, 색상/사이즈 구분을 제목 기준으로 하고 조합은 곱해서 센다(similar-search의 parse_options는 위치 기준이라 사이즈가 색상으로 분류됨).
+- 10-29 · Claude · 바바더닷컴 — 상세 HTML(일반 요청)에 위치 표시(HOME > 패션 > 상의 > …)가 주석 안에 들어 있어 분류는 일반 요청으로, 옵션·품절은 스크립트가 그리는 화면(agent-browser)에서 읽는다(품절 옵션은 `class="soldout"`+`disabled`). 최근 등록 상품 일부는 위치 표시가 `HOME`뿐이라 이름으로 분류했다.
+- 10-29 · Claude · 기사 발췌 — 어패럴뉴스 본문·요약에는 기자·담당자 이메일/전화가 섞여 있다 → 저장 전에 지운다(`graceyou-comparison/tools/news_search.py`·`news_context.py`가 `[연락처 생략]`으로 바꿈). 처음 올린 커밋(55fa8eb)에는 지우기 전 원자료가 들어 있어 이력에는 남아 있다.

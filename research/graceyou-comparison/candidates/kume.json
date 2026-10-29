@@ -26,57 +26,24 @@
  "est": null,
  "heart": 7996,
  "off": {
-  "rows": 129,
   "styles": 58,
+  "rows": 123,
   "list": {
-   "n": 58,
-   "min": 49000,
    "q1": 111500,
    "med": 166500,
-   "q3": 189000,
-   "p90": 216200,
-   "max": 285000,
-   "mean": 154983
+   "q3": 189000
   },
   "sale": {
-   "n": 58,
-   "min": 46550,
    "q1": 89200,
    "med": 134750,
-   "q3": 175200,
-   "p90": 191900,
-   "max": 228000,
-   "mean": 134685
+   "q3": 175200
   },
   "disc_share": 1.0,
-  "disc_med": 15,
-  "disc_max": 20,
-  "source": "https://kume-studio.co.kr/product/list.html?cate_no=459/460/461 (SWEATER·BLOUSE&SHIRT·T-SHIRT&MTM)",
-  "knit": {
-   "styles": 23,
-   "list": {
-    "n": 23,
-    "min": 125000,
-    "q1": 170000,
-    "med": 185000,
-    "q3": 202000,
-    "p90": 231000,
-    "max": 285000,
-    "mean": 188696
-   },
-   "sale": {
-    "n": 23,
-    "min": 100000,
-    "q1": 142075,
-    "med": 170050,
-    "q3": 190000,
-    "p90": 219450,
-    "max": 228000,
-    "mean": 166854
-   },
-   "disc_share": 1.0,
-   "disc_med": 15
-  }
+  "disc_med": 0.15,
+  "source": "https://kume-studio.co.kr/product/list.html?cate_no=458",
+  "observed_at": "2026-10-29",
+  "judge_sale": "비슷함",
+  "judge_list": "비슷함"
  },
  "score": {
   "k": 1.11,

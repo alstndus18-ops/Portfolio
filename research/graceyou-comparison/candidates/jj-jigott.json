@@ -26,30 +26,24 @@
  "est": 2010,
  "heart": 578,
  "off": {
-  "rows": 150,
-  "styles": 150,
+  "styles": 136,
+  "rows": 136,
   "list": {
-   "min": 79000,
-   "q1": 129000,
+   "q1": 136500,
    "med": 164000,
-   "q3": 199000,
-   "p90": 219000,
-   "max": 299000,
-   "mean": 166000
+   "q3": 199000
   },
   "sale": {
-   "min": 42660,
    "q1": 81270,
-   "med": 107100,
-   "q3": 128880,
-   "p90": 165292,
-   "max": 269100,
-   "mean": 112317
+   "med": 100830,
+   "q3": 128790
   },
-  "disc_share": 0.89,
-  "disc_med": 37,
-  "disc_max": 62,
-  "source": "https://pc.babathe.com/bnd/jjjigott/goods (전체 484 중 이름 키워드로 가른 상의 150)"
+  "disc_share": 0.993,
+  "disc_med": 0.37,
+  "source": "https://pc.babathe.com/bnd/jjjigott/goods (분류: 상세 화면 위치 표시 '상의')",
+  "observed_at": "2026-10-29",
+  "judge_sale": "한 단계 아래",
+  "judge_list": "비슷함"
  },
  "score": {
   "k": 1.67,

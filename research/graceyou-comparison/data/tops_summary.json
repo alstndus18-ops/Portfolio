@@ -1,0 +1,126 @@
+{
+ "observed_at": "2026-10-29",
+ "basis": "상품 단위(색 합침), 대표가=판매가 우선(색상별 가격이 다르면 최소~최대의 가운데), 통계=선형 보간 중앙값·Q1~Q3. 아틀리에 나인은 제외 사유 참고용(메이크샵 목록 한 줄=한 상품, 상세 옵션은 읽지 않음)",
+ "brands": {
+  "그레이스유": {
+   "styles": 55,
+   "rows": 123,
+   "list": {
+    "q1": 101500,
+    "med": 153000,
+    "q3": 218000
+   },
+   "sale": {
+    "q1": 101500,
+    "med": 153000,
+    "q3": 218000
+   },
+   "disc_share": 0.0,
+   "disc_med": 0,
+   "source": "https://graceu.co.kr/product/list.html?cate_no=197",
+   "observed_at": "2026-10-29",
+   "judge_sale": "기준",
+   "judge_list": "기준"
+  },
+  "쿠메": {
+   "styles": 58,
+   "rows": 123,
+   "list": {
+    "q1": 111500,
+    "med": 166500,
+    "q3": 189000
+   },
+   "sale": {
+    "q1": 89200,
+    "med": 134750,
+    "q3": 175200
+   },
+   "disc_share": 1.0,
+   "disc_med": 0.15,
+   "source": "https://kume-studio.co.kr/product/list.html?cate_no=458",
+   "observed_at": "2026-10-29",
+   "judge_sale": "비슷함",
+   "judge_list": "비슷함"
+  },
+  "낫띵리튼": {
+   "styles": 122,
+   "rows": 250,
+   "list": {
+    "q1": 91250,
+    "med": 165000,
+    "q3": 187750
+   },
+   "sale": {
+    "q1": 91250,
+    "med": 165000,
+    "q3": 187750
+   },
+   "disc_share": 0.0,
+   "disc_med": 0,
+   "source": "https://nothing-written.com/category/Tops/79/ 외 Knitwear 147, 현재 시즌 294·295·303·304",
+   "observed_at": "2026-10-29",
+   "judge_sale": "비슷함",
+   "judge_list": "비슷함"
+  },
+  "쉬즈미스": {
+   "styles": 119,
+   "rows": 119,
+   "list": {
+    "q1": 138000,
+    "med": 178000,
+    "q3": 238000
+   },
+   "sale": {
+    "q1": 67100,
+    "med": 84200,
+    "q3": 105450
+   },
+   "disc_share": 0.866,
+   "disc_med": 0.53,
+   "source": "https://www.idfmall.co.kr/product/list.html?cate_no=159 (SHESMISS만)",
+   "observed_at": "2026-10-29",
+   "judge_sale": "한 단계 아래",
+   "judge_list": "비슷함"
+  },
+  "제이제이지고트": {
+   "styles": 136,
+   "rows": 136,
+   "list": {
+    "q1": 136500,
+    "med": 164000,
+    "q3": 199000
+   },
+   "sale": {
+    "q1": 81270,
+    "med": 100830,
+    "q3": 128790
+   },
+   "disc_share": 0.993,
+   "disc_med": 0.37,
+   "source": "https://pc.babathe.com/bnd/jjjigott/goods (분류: 상세 화면 위치 표시 '상의')",
+   "observed_at": "2026-10-29",
+   "judge_sale": "한 단계 아래",
+   "judge_list": "비슷함"
+  },
+  "아틀리에 나인": {
+   "styles": 351,
+   "rows": 380,
+   "list": {
+    "q1": 69000,
+    "med": 89000,
+    "q3": 119000
+   },
+   "sale": {
+    "q1": 59000,
+    "med": 79000,
+    "q3": 98000
+   },
+   "disc_share": 0.387,
+   "disc_med": 0.3,
+   "source": "https://nain.co.kr/shop/shopbrand.html?xcode=173/175/223",
+   "observed_at": "2026-10-29",
+   "judge_sale": "한 단계 아래",
+   "judge_list": "한 단계 아래"
+  }
+ }
+}

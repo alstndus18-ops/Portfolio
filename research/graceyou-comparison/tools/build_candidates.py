@@ -6,6 +6,7 @@
 """
 import csv
 import glob
+import hashlib
 import json
 import math
 import re
@@ -22,7 +23,7 @@ meta = json.loads((D / "brand_meta.json").read_text(encoding="utf-8"))
 GU = meta["graceu"]
 GP = GU["price_uniq_all"]
 GT = set(GU["tags"])
-off = json.loads((D / "official_tops.json").read_text(encoding="utf-8"))["brands"]
+off = json.loads((D / "tops_summary.json").read_text(encoding="utf-8"))["brands"]  # tools/build_onepager.py 가 만든 상의 요약
 
 
 def latest(kind, key):
@@ -39,7 +40,7 @@ def slugify(b):
     s = re.sub(r"[^a-z0-9]+", "-", en).strip("-")
     if not s:
         ids = b.get("ids", {})
-        s = "b" + str(ids.get("c29") or ids.get("wc") or abs(hash(b["ko"])) % 10**6)
+        s = "b" + str(ids.get("c29") or ids.get("wc") or hashlib.md5(b["ko"].encode("utf-8")).hexdigest()[:6])  # 실행마다 같은 이름이 되도록 고정 해시
     return s
 
 
@@ -241,11 +242,10 @@ def md(r):
               f"- 그레이스유 공식몰 정가 중앙 {won(GP['med'])} (Q1~Q3 {won(GP['q1'])}~{won(GP['q3'])}) 대비 {sc['list_med'] / GP['med']:.2f}배", ""]
     o = r["off"]
     if o:
-        L += ["## 공식몰 상의 가격 분포 (공식몰 목록 전체, 스타일 단위)", "",
-              f"- 상의 {o['styles']}개 · 정가 Q1·중앙·Q3 {won(o['list']['q1'])} · {won(o['list']['med'])} · {won(o['list']['q3'])} · 판매가 중앙 {won(o['sale']['med'])}",
-              f"- 할인 중 {round(o['disc_share'] * 100)}% · 중앙 할인율 {o.get('disc_med') or '-'}%", f"- 출처: {o['source']}"]
-        if o.get("knit"):
-            L.append(f"- 니트류 {o['knit']['styles']}개 · 정가 중앙 {won(o['knit']['list']['med'])}")
+        L += ["## 공식몰 상의 가격 분포 (공식몰 '상의' 분류 전체, 상품 단위·색 합침)", "",
+              f"- 상의 {o['styles']}개 · 판매가 Q1·중앙·Q3 {won(o['sale']['q1'])} · {won(o['sale']['med'])} · {won(o['sale']['q3'])} · 정가 중앙 {won(o['list']['med'])}",
+              f"- 표시 할인: 상품의 {round(o['disc_share'] * 100)}% · 중앙 {round((o.get('disc_med') or 0) * 100)}% · 그레이스유 대비 판정: 판매가 {o.get('judge_sale', '-')} / 정가 {o.get('judge_list', '-')}",
+              f"- 출처: {o['source']} ({o['observed_at']}) · 상품별 값은 `onepager/상의-상품목록.csv`"]
         L.append("")
     if r["evidence"]:
         L += ["## 찾게 된 근거 — 어패럴뉴스 기사 (이름이 나온 기사를 자동으로 찾은 것이라 동명 단어가 섞일 수 있음)", ""]
@@ -297,7 +297,7 @@ if bw:
            f"- 할인 중인 상품 {bw['disc']['n']}개 · 중앙 할인율 {bw['disc']['med']}% · 최대 {bw['disc']['max']}%", ""]
 GL += ["## 공식몰 가격 (samples/graceyou-overview/data/products.json, 색 옵션을 합친 상품 기준)", "",
        f"- 전체 {GP['n']}개: 정가 Q1·중앙·Q3 {won(GP['q1'])} · {won(GP['med'])} · {won(GP['q3'])} (P90 {won(GP['p90'])}, 최고 {won(GP['max'])} — 고가 이상치가 있어 평균은 쓰지 않음)",
-       f"- 상의(이름 키워드) {GU['price_uniq_top']['n']}개: 정가 Q1·중앙·Q3 {won(GU['price_uniq_top']['q1'])} · {won(GU['price_uniq_top']['med'])} · {won(GU['price_uniq_top']['q3'])}",
+       f"- 상의(사이트 상의 분류, 색 합침) {GU['price_uniq_top']['n']}개: 판매가 Q1·중앙·Q3 {won(GU['price_uniq_top']['q1'])} · {won(GU['price_uniq_top']['med'])} · {won(GU['price_uniq_top']['q3'])} (프로젝트 기준선)",
        "- 공식몰은 거의 할인하지 않는다(할인 상품 2개). W컨셉에서는 약 절반의 상품에 중앙 13% 할인이 붙는다.", "",
        "## 비교할 때", "", "- 점수의 가격 기준은 공식몰 전체 정가 중앙(213,000원)이다. 플랫폼 화면가(할인 반영)는 정가로 환산해 비교한다.",
        "- 같은 플랫폼끼리 비교하려면 W컨셉 브랜드관 값(위)과 각 후보의 W컨셉 값을 쓴다.", ""]
@@ -360,7 +360,7 @@ try:
 
     wg = wb.create_sheet("그레이스유 기준")
     wg.append(["항목", "값"])
-    for k, v in [("무드태그(추정)", " ".join(GT)), ("기준 근거", GU["basis"]), ("공식몰 가격(색 합친 263개) Q1·중앙·Q3", f"{GP['q1']:,} · {GP['med']:,} · {GP['q3']:,}"), ("공식몰 상의(74개) 정가 Q1·중앙·Q3", "114,250 · 158,000 · 226,750"),
+    for k, v in [("무드태그(추정)", " ".join(GT)), ("기준 근거", GU["basis"]), ("공식몰 가격(색 합친 263개) Q1·중앙·Q3", f"{GP['q1']:,} · {GP['med']:,} · {GP['q3']:,}"), ("공식몰 상의(55개, 색 합침) 판매가 Q1·중앙·Q3", "101,500 · 153,000 · 218,000"),
                  ("W컨셉 브랜드관(첫 화면)", json.dumps(gu_wc, ensure_ascii=False) if gu_wc else "미수집"), ("기준 소개글(다른 에이전트 판정 문서)", "Elegant, timeless, 우아한, 타임리스, lifestyle, 데일리룩 — planning/mood-judgment-v2.md")]:
         wg.append([k, v])
     wg.column_dimensions["A"].width = 38

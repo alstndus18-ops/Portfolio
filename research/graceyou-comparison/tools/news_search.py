@@ -15,6 +15,7 @@ from pathlib import Path
 
 OUT = Path(__file__).resolve().parent.parent / "data" / "raw" / "news"
 UA = {"User-Agent": "Mozilla/5.0"}
+CONTACT = re.compile(r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+|\b0\d{1,2}-\d{3,4}-\d{4}\b|\b01\d-?\d{3,4}-?\d{4}\b")  # 기사 하단의 기자·담당자 연락처는 저장하지 않는다
 BASE = "https://www.apparelnews.co.kr"
 
 
@@ -23,7 +24,7 @@ def get(url):
 
 
 def clean(s):
-    return html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", s))).strip()
+    return CONTACT.sub("[연락처 생략]", html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", s))).strip())
 
 
 def parse(page):

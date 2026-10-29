@@ -27,57 +27,24 @@
  "est": 2021,
  "heart": 189805,
  "off": {
-  "rows": 117,
-  "styles": 59,
+  "styles": 122,
+  "rows": 250,
   "list": {
-   "n": 59,
-   "min": 32000,
-   "q1": 79000,
-   "med": 159000,
-   "q3": 179000,
-   "p90": 204200,
-   "max": 289000,
-   "mean": 141983
+   "q1": 91250,
+   "med": 165000,
+   "q3": 187750
   },
   "sale": {
-   "n": 59,
-   "min": 32000,
-   "q1": 79000,
-   "med": 159000,
-   "q3": 179000,
-   "p90": 204200,
-   "max": 289000,
-   "mean": 141983
+   "q1": 91250,
+   "med": 165000,
+   "q3": 187750
   },
   "disc_share": 0.0,
-  "disc_med": null,
-  "disc_max": null,
-  "source": "https://nothing-written.com/category/Knitwear/147, /category/Tops/79 (각 5쪽)",
-  "knit": {
-   "styles": 28,
-   "list": {
-    "n": 28,
-    "min": 79000,
-    "q1": 155000,
-    "med": 169000,
-    "q3": 179000,
-    "p90": 201000,
-    "max": 259000,
-    "mean": 168000
-   },
-   "sale": {
-    "n": 28,
-    "min": 79000,
-    "q1": 155000,
-    "med": 169000,
-    "q3": 179000,
-    "p90": 201000,
-    "max": 259000,
-    "mean": 168000
-   },
-   "disc_share": 0.0,
-   "disc_med": null
-  }
+  "disc_med": 0,
+  "source": "https://nothing-written.com/category/Tops/79/ 외 Knitwear 147, 현재 시즌 294·295·303·304",
+  "observed_at": "2026-10-29",
+  "judge_sale": "비슷함",
+  "judge_list": "비슷함"
  },
  "score": {
   "k": 1.0,

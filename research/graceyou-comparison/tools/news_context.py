@@ -13,6 +13,7 @@ from datetime import date
 from pathlib import Path
 
 N = Path(__file__).resolve().parent.parent / "data" / "raw" / "news"
+CONTACT = re.compile(r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+|\b0\d{1,2}-\d{3,4}-\d{4}\b|\b01\d-?\d{3,4}-?\d{4}\b")  # 기사 하단의 기자·담당자 연락처는 저장하지 않는다
 
 
 def body(url):
@@ -34,7 +35,7 @@ if __name__ == "__main__":
             except Exception as e:  # noqa: BLE001
                 res.append({"idx": a["idx"], "title": a["title"], "error": str(e)})
                 continue
-            ctx = [t[max(0, m.start() - 160): m.end() + 160] for m in re.finditer(re.escape(name), t)][:3]
+            ctx = [CONTACT.sub("[연락처 생략]", t[max(0, m.start() - 160): m.end() + 160]) for m in re.finditer(re.escape(name), t)][:3]
             res.append({"idx": a["idx"], "url": a["url"], "title": a["title"], "meta": a["meta"], "context": ctx})
             time.sleep(1.5)
         out[name] = res
