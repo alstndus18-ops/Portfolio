@@ -16,12 +16,68 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from collect import http, now  # noqa: E402
-from details import BRANDS, HERE, latest_run, main_fiber, parse_materials  # noqa: E402
+from collect import ROOT, http, now  # noqa: E402
 
+BRANDS = ['graceu', 'kume', 'nw', 'jj', 'orr']
+HERE = Path(__file__).resolve().parent
 STORE = HERE / 'materials.json'
+FIBER = (r'램스울|lambswool|울|wool|캐시미어|cashmere|재생면|면|모(?=\s*[:：]?\s*\d)|코튼|cotton|폴리에스터|폴리에스테르|폴리우레탄|폴리아미드|폴리|polyester|나일론|nylon|레이온|rayon|비스코스|viscose|아크릴|acrylic|'
+         r'모달|modal|린넨|리넨|linen|마\b|실크|silk|견|스판덱스|스판|spandex|span(?![a-z])|elastane|페이퍼|paper|폴리우레탄|polyurethane|알파카|alpaca|모헤어|mohair|앙고라|angora|'
+         r'텐셀|tencel|리오셀|lyocell|아세테이트|acetate|큐프라|cupro|bemberg|벰베르크|소가죽|양가죽|가죽|leather|lambskin|램스킨|sheepskin|쉽스킨|cowhide|천연모피|모피|lamb ?skin|합성피혁|인조가죽|솜털|깃털|down|feather|메리노|merino|야크|yak|폴리아미드|polyamide|pbt|기타섬유|기타|polyurethan|poly(?![a-z])|ramie|라미|hemp|헴프|metallic|메탈릭|메탈사|lurex|루렉스')
+MAT_RE = re.compile(rf'((?:\[?\s*(?:겉감|안감|충전재|배색|내피|본판|몸판|부속|트리밍|outshell|shell|lining|filling|trim|contrast|main|body)\s*\d*\s*\]?\s*[:：]?\s*)?)'
+                    rf'((?:(?:{FIBER})[\w ()]{{0,12}}?\s*[:：]?\s*\d{{1,3}}(?:\.\d)?\s*%(?!\s*off)[\s,/]*)+)', re.I)
+FIBER_KO = {'wool': '울', 'lambswool': '램스울', 'cashmere': '캐시미어', 'cotton': '면', '코튼': '면', 'polyester': '폴리에스터', '폴리에스테르': '폴리에스터',
+            '폴리': '폴리에스터', 'nylon': '나일론', 'polyamide': '나일론', '폴리아미드': '나일론', 'rayon': '레이온', 'viscose': '레이온', '비스코스': '레이온',
+            'acrylic': '아크릴', 'modal': '모달', 'linen': '린넨', '리넨': '린넨', '마': '린넨', 'silk': '실크', '견': '실크', 'spandex': '폴리우레탄',
+            'span': '폴리우레탄', '스판': '폴리우레탄', '스판덱스': '폴리우레탄', 'elastane': '폴리우레탄', 'polyurethane': '폴리우레탄', 'alpaca': '알파카',
+            'mohair': '모헤어', 'angora': '앙고라', 'tencel': '텐셀', 'lyocell': '텐셀', '리오셀': '텐셀', 'acetate': '아세테이트', 'cupro': '큐프라', 'bemberg': '큐프라', '벰베르크': '큐프라',
+            'leather': '가죽', 'lambskin': '가죽', '램스킨': '가죽', 'sheepskin': '가죽', '쉽스킨': '가죽', 'cowhide': '가죽', '소가죽': '가죽',
+            '양가죽': '가죽', '천연모피': '모피', 'lamb skin': '가죽', '인조가죽': '합성피혁', 'poly': '폴리에스터', 'polyurethan': '폴리우레탄', 'down': '솜털', 'feather': '깃털', 'merino': '울', '메리노': '울', 'yak': '야크', '모': '울', 'paper': '페이퍼'}
 JJ_NOTI = 'https://pc.babathe.com/goods/includeGoodsDtlNotifyList?goodsId={}&stId=1&svcGbCd=10'
 GU_INFO = re.compile(r'E18489E185A1E186BCE18491E185AEE186B7')  # '상품' 자모 = 상품정보제공고시 이미지
+
+
+def latest_run(brand):
+    files = sorted((ROOT / 'snapshots' / 'monitor' / brand).glob('*/*.json'))
+    runs = [json.loads(f.read_text(encoding='utf-8')) for f in reversed(files[-6:])]
+    for want in ('complete', 'partial'):
+        for r in runs:
+            if r.get('status') == want and r.get('schema_version', 1) >= 2:
+                return r
+    raise SystemExit(f'{brand}: 사용할 목록 실행이 없음')
+
+
+def parse_materials(text):
+    groups = []
+    for m in MAT_RE.finditer(text):
+        comp = re.sub(r'[\[\]:：\d\s]', '', m.group(1)).lower() or None
+        raw = ' '.join((m.group(1) + m.group(2)).split()).strip(' ,/')
+        parts = [(f.group(1).lower(), float(f.group(2))) for f in
+                 re.finditer(r'({})[\w ()]{{0,12}}?\s*[:：]?\s*(\d{{1,3}}(?:\.\d)?)\s*%(?!\s*off)'.format(FIBER), m.group(2), re.I)]
+        gap = text[groups[-1]['end']:m.start()] if groups else '\n'
+        # 같은 줄에서 수식어(ANTI-PILLING 등) 하나로 끊긴 혼용률은 앞 덩어리에 잇는다
+        if (groups and comp is None and re.fullmatch(r'[ \t,/]*[A-Za-z가-힣\-]{0,15}[ \t]*', gap)
+                and not re.search(r'lining|ri[bp]|shell|안감|배색|겉감|충전', gap, re.I)):
+            g = groups[-1]
+            g.update(raw=f"{g['raw']} {' '.join(gap.split())} {raw}".replace('  ', ' '), parts=g['parts'] + parts, end=m.end())
+            continue
+        groups.append({'comp': comp, 'raw': raw, 'parts': parts, 'end': m.end()})
+    out, seen = [], set()
+    for g in groups:
+        key = (g['comp'], tuple(g['parts']))
+        if key in seen:
+            continue
+        seen.add(key)
+        out += [{'component': g['comp'], 'fiber': f, 'percent': pct, 'raw': g['raw']} for f, pct in g['parts']]
+    return out
+
+
+def main_fiber(rec):
+    mats = [m for m in rec.get('materials') or [] if m['component'] in (None, '겉감', 'outshell', 'shell', 'main', '본판', '몸판')]
+    if not mats:
+        return None
+    f = max(mats, key=lambda m: m['percent'])['fiber'].lower()
+    return FIBER_KO.get(f, f)
 
 
 def model_key(brand, p):

@@ -1,6 +1,7 @@
 """5개 브랜드 일일 관찰 수집 (기획서 §14). 실행마다 새 JSON을 남기고 기존 파일은 덮어쓰지 않는다.
   python monitor/collect.py                 # graceu kume nw jj orr 전부
   python monitor/collect.py kume orr        # 일부만
+  python monitor/collect.py --promos        # 메인 화면 행사만 다시 읽기 (상품 목록 재수집 없음)
 결과: snapshots/monitor/<brand>/<YYYY-MM-DD>/<run_id>.json  (products · coverage · placements · promotions)
 공개 목록만 읽는다. 로그인·장바구니·주문, robots.txt가 막는 정렬/필터/검색 경로는 쓰지 않는다. 요청 사이 0.4~1초 쉰다.
 판매가는 누구나 보는 화면가(public_sale)만 sale_price에 넣고, 쿠폰 등 조건부 가격은 price_observations에만 둔다.
@@ -27,8 +28,6 @@ npm = Path(os.environ.get('APPDATA', '')) / 'npm'
 if npm.is_dir() and str(npm) not in os.environ.get('PATH', ''):
     os.environ['PATH'] = str(npm) + os.pathsep + os.environ['PATH']
 from ab_util import ab  # noqa: E402
-from snap_official import BB_SCROLL, BB_READ  # noqa: E402  (바바더닷컴 브랜드관 스크롤·카드 읽기)
-
 KST = ZoneInfo('Asia/Seoul')
 UA = {'User-Agent': 'Mozilla/5.0'}
 CACHE = Path(__file__).resolve().parent / 'cache'
@@ -44,6 +43,32 @@ def now():
 def http(url):
     time.sleep(0.4)
     return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30).read().decode('utf-8', 'ignore')
+
+
+PERIOD = re.compile(r'(?<!유효기간 )(20\d\d[./-]\d{1,2}[./-]\d{1,2})\s*[~\-–]\s*(20\d\d[./-]\d{1,2}[./-]\d{1,2})')
+SHORT_PERIOD = re.compile(r'(?<![\d.])(\d{1,2})[./](\d{1,2})\s*(?:\([^)]{1,3}\))?\s*[~\-–]\s*(\d{1,2})[./](\d{1,2})(?![\d.%])')
+
+
+def add_periods(promos):
+    """행사 문구나 행사 페이지 글자에 적힌 기간만 붙인다. 연도 없는 MM.DD - MM.DD는 관찰한 해로 본다. 없으면 None."""
+    seen = {}
+    for x in promos:
+        raw, u = x.get('raw') or '', x.get('url') or ''
+        m, s = PERIOD.search(raw), SHORT_PERIOD.search(raw)
+        if m or s:
+            y = (x.get('observed_at') or now())[:4]
+            x['period'] = f'{m[1]} ~ {m[2]}' if m else f'{y}.{int(s[1]):02d}.{int(s[2]):02d} ~ {y}.{int(s[3]):02d}.{int(s[4]):02d}'
+            continue
+        if not u.startswith('http') or x['source'] in ('home_text', 'banner_alt', 'popup'):
+            continue
+        if u not in seen:
+            try:
+                t = ' '.join(H.unescape(re.sub(r'<[^>]+>', ' ', re.sub(r'(?s)<(script|style)[^>]*>.*?</\1>', ' ', http(u)))).split())
+                m = PERIOD.search(t)
+                seen[u] = f'{m[1]} ~ {m[2]}' if m else None
+            except Exception:  # noqa: BLE001
+                seen[u] = None
+        x['period'] = seen[u]
 
 
 def money(text):
@@ -177,6 +202,8 @@ def home_promotions(br, url):
     """메인 화면의 공개 행사 문구(글자·배너 대체텍스트·행사 링크)를 원문으로 모은다. 혜택 해석은 하지 않는다."""
     js = r'''JSON.stringify({url:location.href,lines:document.body.innerText.split('\n').map(s=>s.trim()).filter(Boolean),
 alts:[...document.querySelectorAll('img[alt]')].map(i=>i.alt.trim()).filter(Boolean),
+pops:(()=>{const q='[class*="popup" i],[id*="popup" i],[class*="modal" i],[id*="modal" i]';
+return [...document.querySelectorAll(q)].filter(e=>!e.parentElement?.closest(q)).map(e=>e.textContent.replace(/\s+/g,' ').trim()).filter(Boolean)})(),
 links:[...document.querySelectorAll('a[href]')].map(a=>({t:(a.innerText||a.querySelector('img')?.alt||'').trim().replace(/\s+/g,' '),u:a.href}))})'''
     try:
         d = br.page(url, js, check_url=False)
@@ -188,6 +215,12 @@ links:[...document.querySelectorAll('a[href]')].map(a=>({t:(a.innerText||a.query
             if len(t) <= 80 and PROMO_RE.search(t) and not PRICE_ONLY.fullmatch(t) and t not in seen:
                 seen.add(t)
                 out.append({'source': kind, 'raw': t, 'url': d['url'], 'observed_at': now()})
+    # 팝업은 닫혀 있거나 숨겨져도 문구가 남아 있어 글자 전체를 본다 (끝난 행사도 기록)
+    for t in d.get('pops', []):
+        t = re.sub(r'\s*(오늘|하루|일주일)\s*(동안|하루)?\s*(보지\s*않기|열지\s*않음)|\s*닫기|\s*CLOSE', '', t, flags=re.I).strip()
+        if len(t) <= 200 and PROMO_RE.search(t) and t not in seen:
+            seen.add(t)
+            out.append({'source': 'popup', 'raw': t, 'url': d['url'], 'observed_at': now()})
     for l in d['links']:
         if l['t'] and len(l['t']) <= 80 and PROMO_RE.search(l['t']) and not PRICE_ONLY.fullmatch(l['t']) and l['t'] not in seen:
             seen.add(l['t'])
@@ -491,20 +524,35 @@ def jj_category(crumb, name):
     return None, 'official_breadcrumb_non_clothing'
 
 
+def jj_list():
+    """브랜드관 스크롤이 부르는 목록 요청을 한 번에 받는다 (스크롤은 페이지 경계에서 상품이 빠짐)."""
+    page = http(JJ_GOODS)
+    hidden = {k: v for k, v in re.findall(r'<input[^>]*type="hidden"[^>]*id="([^"]+)"[^>]*value="([^"]*)"', page)}
+    total = (re.search(r'total\s*:\s*([\d,]+)', page) or [None, None])[1]
+    data = {'brandNo': hidden.get('brandNo', ''), 'gubun': hidden.get('gubun', 'display'), 'tmplType': hidden.get('tmplType', ''),
+            'bndThumbYn': hidden.get('bndThumbYn', ''), 'searchDisplay': 2000, 'pageNumber': 1}
+    req = urllib.request.Request(BB + '/search/getGoodsListAjax', data=urllib.parse.urlencode(data).encode(),
+                                 headers={**UA, 'X-Requested-With': 'XMLHttpRequest', 'Referer': JJ_GOODS})
+    frag = urllib.request.urlopen(req, timeout=60).read().decode('utf-8', 'ignore')
+    rows = {}
+    for blk in re.split(r'<li class="[^"]*">', frag)[1:]:
+        m = re.search(r'goodsId=(GD\d+)', blk)
+        if not m or m.group(1) in rows:  # 같은 카드가 응답에 두 번 들어 있다
+            continue
+        blk = re.sub(r'(?s)<button\b.*?</button>|</?strong>', '', blk)
+        L = [H.unescape(x).strip() for x in re.sub(r'<[^>]+>', '\n', blk).split('\n')]
+        rows[m.group(1)] = [x for x in L if x and x != 'JJ JIGOTT']
+    return [{'id': k, 'L': v} for k, v in rows.items()], total
+
+
 def collect_jj(run):
-    br = Browser('fcp-mon-jj')
-    br.open(JJ_GOODS, timeout=60)
-    time.sleep(3)
-    br.eval(BB_SCROLL, timeout=200)
-    rows = br.eval(BB_READ)
-    total = br.eval(r"JSON.stringify((document.body.innerText.match(/total\s*:\s*([\d,]+)/)||[])[1]||null)")
+    rows, total = jj_list()
     ts = now()
-    cov = {'name': 'JJ JIGOTT 브랜드관 ALL', 'url': JJ_GOODS, 'expected_count': money(total) if total else None, 'fetched_count': len(rows),
-           'status': 'complete', 'end_reached': True, 'product_ids': [r['id'] for r in rows]}
-    if cov['expected_count'] is not None and len(rows) != cov['expected_count']:
-        cov.update(status='partial', reason='count_mismatch (그룹몰 스크롤 목록이 표시 total보다 적음)')
+    # 화면 'total'은 목록에 나오지 않는 상품까지 센 값이라 기대 수로 쓰지 않는다 (요청 크기·분류·정렬을 바꿔도 목록은 같은 수)
+    cov = {'name': 'JJ JIGOTT 브랜드관 ALL', 'url': JJ_GOODS, 'expected_count': None, 'site_total_text': money(total) if total else None,
+           'fetched_count': len(rows), 'status': 'complete', 'end_reached': True, 'product_ids': [r['id'] for r in rows]}
     run['coverage'].append(cov)
-    print(f"  ALL: {len(rows)}/{cov['expected_count']} {cov['status']}", flush=True)
+    print(f"  ALL: {len(rows)} (화면 total {cov['site_total_text']}) {cov['status']}", flush=True)
     CACHE.mkdir(exist_ok=True)
     cache_path = CACHE / 'jj_breadcrumbs.json'
     crumbs = json.loads(cache_path.read_text(encoding='utf-8')) if cache_path.exists() else {}
@@ -565,6 +613,7 @@ def collect_jj(run):
             p['field_status']['sale_price'] = 'failed'
         products.append(p)
     run['products'] = products
+    br = Browser('fcp-mon-jj')
     try:
         b = br.page(JJ_BEST, JJ_BEST_JS, check_url=False)
         for i, gid in enumerate(b['ids'][:20], 1):
@@ -719,6 +768,7 @@ def run_brand(brand):
     print(brand, flush=True)
     try:
         BRANDS[brand]['fn'](run)
+        add_periods(run['promotions'])
     except Exception as e:  # noqa: BLE001
         run['failed_urls'].append({'url': None, 'error': repr(e)})
         run['status'] = 'failed'
@@ -730,7 +780,7 @@ def run_brand(brand):
     run.update(finished_at=now(), fetched_count=len(prods), clothing_count=len(clothing),
                category_counts={c: sum(1 for p in clothing if p['category'] == c) for c in CATEGORIES},
                sale_price_missing=[p['product_id'] for p in clothing if not p['sale_price']],
-               limitations=['목록 기준. 상세(소재·옵션)는 monitor/details.py 표본만', '모델 묶음은 오르(품번)만 확인, 나머지는 색상별 페이지 기준',
+               limitations=['목록 기준. 소재는 monitor/materials.py', '모델 묶음은 오르(품번)만 확인, 나머지는 색상별 페이지 기준',
                             'BEST/NEW는 노출 위치이며 판매 순위가 아님', '미분류·비의류는 의류 통계에서 제외'])
     out.write_text(json.dumps(run, ensure_ascii=False, indent=1), encoding='utf-8')
     print(f"  -> {run['status']} 전체 {len(prods)} 의류 {len(clothing)} {run['category_counts']} 판매가 없음 {len(run['sale_price_missing'])}", flush=True)
@@ -738,6 +788,27 @@ def run_brand(brand):
     return out
 
 
+HOME = {'graceu': 'https://graceu.co.kr/', 'kume': KUME + '/', 'nw': NW + '/', 'jj': BB + '/bnd/jjjigott', 'orr': ORR + '/'}
+
+
+def refresh_promotions(brand):
+    """최신 complete 실행의 메인 화면 행사만 다시 읽어 새 실행 파일로 남긴다 (상품 목록은 다시 모으지 않음)."""
+    files = sorted((ROOT / 'snapshots' / 'monitor' / brand).glob('*/*.json'))
+    run = next(r for r in (json.loads(f.read_text(encoding='utf-8')) for f in reversed(files)) if r.get('status') == 'complete')
+    br = Browser(f'fcp-mon-{brand}')
+    home, run['promotion_status'] = home_promotions(br, HOME[brand])
+    br.close()
+    run['promotions'] = home + [x for x in run['promotions'] if x['source'] not in ('home', 'home_text', 'banner_alt', 'home_link', 'popup')]
+    add_periods(run['promotions'])
+    run['derived_from'], run['promotions_refreshed_at'] = run['run_id'], now()
+    run['run_id'] = datetime.now(KST).strftime('%Y%m%dT%H%M%S%f+0900')
+    out = ROOT / 'snapshots' / 'monitor' / brand / now()[:10] / (run['run_id'] + '.json')
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(run, ensure_ascii=False, indent=1), encoding='utf-8')
+    print(brand, out.name, [(x['source'], x['raw'][:40], x.get('period')) for x in home if x['source'] == 'popup' or x.get('period')], flush=True)
+
+
 if __name__ == '__main__':
-    for b in (sys.argv[1:] or list(BRANDS)):
-        run_brand(b)
+    args = [a for a in sys.argv[1:] if not a.startswith('--')]
+    for b in (args or list(BRANDS)):
+        refresh_promotions(b) if '--promos' in sys.argv else run_brand(b)
