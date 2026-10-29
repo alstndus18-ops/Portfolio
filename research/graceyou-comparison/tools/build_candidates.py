@@ -130,6 +130,8 @@ def role(b, sc):
         return "직접 경쟁(확정)"
     if st == "제외-가격대":
         return "저가 참고(상의 후보에서 제외)"
+    if st == "추천":
+        return "경쟁사 추천(우아함 대체재)"
     if "의류 아님" in b.get("note", "") or "가방 브랜드" in b.get("note", "") or "가방·신발 위주" in b.get("note", ""):
         return "비의류·참고"
     if not sc:
