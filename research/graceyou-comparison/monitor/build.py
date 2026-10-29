@@ -23,6 +23,36 @@ MON = ROOT / 'snapshots' / 'monitor'
 EVENT_BADGE = re.compile(r'쿠폰|SEASON OFF|특가|아울렛|SALE', re.I)
 ALL = '전체'
 
+# 행사 문구 분류: 문구에 적힌 말만 근거로 삼는 키워드 규칙이다(효과·의도는 해석하지 않는다).
+# 메시지 유형은 planning/deep-research-report-2b.md '메시지 다중라벨 코딩' 중 문구에서 읽히는 4개만 쓴다.
+PLAIN_DISCOUNT = '프로모션 표시 없이 할인'
+PRICE_WORDS = re.compile(r'\d+\s*%|할인|쿠폰|\bSALE\b|\bOFF\b|특가|아울렛|\bOUTLET\b|UP TO', re.I)
+BENEFIT_WORDS = re.compile(r'무료\s*배송|적립|사은품|포인트|리뷰|증정', re.I)
+MSG_CODES = (
+    ('가격·혜택', re.compile(PRICE_WORDS.pattern + '|' + BENEFIT_WORDS.pattern, re.I)),
+    ('신상·시간성', re.compile(r'신상|\bNEW\b|컬렉션|\bCOLLECTION\b|\bDROP\b|시즌(?!\s*오프)|\bSEASON\b(?!\s*OFF)|재입고|\d{2}\s*(?:FW|SS)\b', re.I)),
+    ('희소·독점', re.compile(r'한정|단독|예약|콜라보|\bLIMITED\b|\bEXCLUSIVE\b', re.I)),
+    ('서비스', re.compile(r'출고|배송비|교환|반품|환불|당일')),
+)
+
+
+def message_info(text):
+    """행사 문구 하나 → (판촉 형태, 메시지 유형 목록). 형태는 가격형(할인·쿠폰)/비가격형(사은품·적립·무료배송)/혼합/분류 불가."""
+    if text == PLAIN_DISCOUNT:
+        return '-', []
+    t = re.sub(r'쿠폰\s*(?:을\s*)?증정', '쿠폰', text or '')  # '쿠폰 증정'은 사은품이 아니라 쿠폰이다
+    price, benefit = bool(PRICE_WORDS.search(t)), bool(BENEFIT_WORDS.search(t))
+    kind = '혼합' if price and benefit else '가격형' if price else '비가격형' if benefit else '분류 불가'
+    return kind, [name for name, rx in MSG_CODES if rx.search(t)]
+
+
+def message_rows(events):
+    rows = []
+    for e in events:
+        kind, codes = message_info(e['event'])
+        rows.append({'brand': e['brand'], 'event': e['event'], 'promo_kind': kind, 'message_codes': ' | '.join(codes)})
+    return rows
+
 
 def event_rows(brand, run):
     """행사 하나당 한 줄: 적용 의류 모델 수와 그 상품들의 화면 할인율 범위."""
@@ -231,6 +261,7 @@ def main():
     write_csv('placements.csv', places)
     write_csv('promotions.csv', promos)
     write_csv('events.csv', events)
+    write_csv('promo_messages.csv', message_rows(events))
     write_csv('coverage.csv', covs)
     write_csv('changes.csv', chg, ['brand', 'product_id', 'name', 'category', 'change', 'before', 'after', 'between', 'url'])
     page(status, cats, events)
@@ -287,6 +318,11 @@ table.promo td.bcell{padding-top:12px}
 table.promo .sub{display:inline;font-size:14px;margin:0 0 0 6px}
 table.promo .pill{font-size:15px;padding:2px 9px}
 table.promo .mono{font-size:16px}
+.tag{display:inline-block;font-size:14px;font-weight:650;color:var(--blue-t);background:var(--blue);border-radius:7px;padding:2px 8px;margin:1px 4px 1px 0;white-space:nowrap}
+.tag.kind{color:var(--yel-t);background:var(--yel)}
+.note{font-size:15px;line-height:1.6;color:var(--mute);margin:14px 0 0;padding-left:18px}
+.note li{margin:2px 0}
+.msg-head{margin:36px 0 14px}
 .dist{margin-top:44px;padding-top:36px;border-top:2px solid var(--line)}
 .dhead{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:12px}
 h3{font-size:23px;font-weight:750;letter-spacing:-0.02em;margin:0}
@@ -599,6 +635,28 @@ def dist(rows):
             + sample('bars', '4. 가격대별 상품 비중 · 히스토그램', f'막대 하나 = {man(bin_width)}원 구간 · 높이 = 브랜드 내 비중 · 모든 브랜드 같은 눈금. 마우스를 올리면 개수와 비중을 확인할 수 있습니다. {man(plot_hi)} 이상은 별도 집계.', bars) + '</div>')
 
 
+def message_summary(events):
+    """브랜드별 행사 문구 분류 요약. 분모는 행사 문구 수이며 상품 수·노출 크기는 반영하지 않는다."""
+    codes = [c for c, _ in MSG_CODES]
+    head = ''.join(f'<th class="n{" gl" if i == 0 else ""}">{esc(h)}</th>' for i, h in enumerate(['가격형', '비가격형', '분류 불가'] + codes))
+    body = ''
+    for b in dict.fromkeys(e['brand'] for e in events):
+        infos = [message_info(e['event']) for e in events if e['brand'] == b and e['event'] != PLAIN_DISCOUNT]
+        n = len(infos) or 1
+
+        def cell(c, gl=False):
+            return f'<td class="n{" gl" if gl else ""}">{c}{sub(f"{round(c / n * 100)}%")}</td>'
+        cells = ''.join(cell(sum(k == label for k, _ in infos), i == 0) for i, label in enumerate(['가격형', '비가격형', '분류 불가']))
+        cells += ''.join(cell(sum(code in cs for _, cs in infos)) for code in codes)
+        body += f'<tr class="{"ref" if b == REF else ""}">{brand_cell(b)}<td class="n">{len(infos)}</td>{cells}</tr>'
+    return ('<h3 class="msg-head">행사 문구 유형</h3><div class="wrap"><table><thead><tr><th>브랜드</th><th class="n">행사 문구 수</th>'
+            f'{head}</tr></thead><tbody>{body}</tbody></table></div>'
+            '<ul class="note"><li>행사 문구 수 기준입니다. 상품 수와 화면에서 차지하는 크기는 반영하지 않습니다. 한 문구가 여러 유형에 속할 수 있어 합이 100%를 넘을 수 있습니다.</li>'
+            '<li>읽은 곳은 행사 메뉴·메인 문구·팝업·배너 링크뿐입니다. 배송·적립·사은품 같은 비가격형 문구는 수집 대상이 아니어서, 0건은 "없음"이 아니라 "확인 안 됨"입니다.</li>'
+            '<li>분류는 문구에 적힌 말만 보는 키워드 규칙입니다(<code>build.py</code>의 <code>MSG_CODES</code>). 효과나 의도는 판단하지 않습니다. "SEASON OFF"는 시즌 단어가 있어도 신상·시간성으로 세지 않았습니다.</li>'
+            '<li>"프로모션 표시 없이 할인" 줄은 문구가 아니라 상품에 표시된 할인이라 이 요약에서 뺐습니다.</li></ul>')
+
+
 def page(status, cats, events):
     s = [f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
          f'<title>그레이스유 비교</title><link rel="stylesheet" href="{FONT}"><style>{CSS}</style></head><body><main>',
@@ -637,7 +695,7 @@ def page(status, cats, events):
     s.append('</section>')
 
     s.append('<section><h2>프로모션</h2><div class="wrap"><table class="promo"><thead><tr><th>브랜드</th><th>프로모션</th>'
-             '<th class="n">적용 제품 수</th><th class="n">할인율</th><th>기간</th></tr></thead>')
+             '<th>구분</th><th>메시지 유형</th><th class="n">적용 제품 수</th><th class="n">할인율</th><th>기간</th></tr></thead>')
     for b in dict.fromkeys(e['brand'] for e in events):
         rows = [e for e in events if e['brand'] == b]
         s.append(f'<tbody class="bg{" ref" if b == REF else ""}">')
@@ -646,9 +704,14 @@ def page(status, cats, events):
             n = '<span class="dash">-</span>' if e['models'] is None else f"{e['models']}{sub(f'{e['models'] / e['total'] * 100:.1f}%')}"
             rate = f'<span class="pill">{esc(e["discount"])}</span>' if e['discount'] and e['discount'] != '할인 표시 없음' else f'<span class="dash">{esc(e["discount"]) or "-"}</span>'
             per = f'<span class="mono">{esc(e["period"])}</span>' if e['period'] != '-' else '<span class="dash">-</span>'
-            s.append(f'<tr>{head}<td>{esc(e["event"])}</td><td class="n">{n}</td><td class="n">{rate}</td><td>{per}</td></tr>')
+            kind, codes = message_info(e['event'])
+            kind_cell = f'<span class="tag kind">{esc(kind)}</span>' if kind != '-' else '<span class="dash">-</span>'
+            code_cell = ''.join(f'<span class="tag">{esc(c)}</span>' for c in codes) or '<span class="dash">-</span>'
+            s.append(f'<tr>{head}<td>{esc(e["event"])}</td><td>{kind_cell}</td><td>{code_cell}</td><td class="n">{n}</td><td class="n">{rate}</td><td>{per}</td></tr>')
         s.append('</tbody>')
-    s.append(f'</table></div></section></main><script>{JS}</script></body></html>')
+    s.append('</table></div>')
+    s.append(message_summary(events))
+    s.append('</section></main><script>' + JS + '</script></body></html>')
     # 화면에서는 분류 이름을 짧게 보인다 (CSV·데이터 값은 그대로)
     (OUT / 'index.html').write_text('\n'.join(s).replace('상의(니트 제외)', '상의'), encoding='utf-8')
 
