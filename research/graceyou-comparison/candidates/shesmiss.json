@@ -2,7 +2,7 @@
  "slug": "shesmiss",
  "ko": "쉬즈미스",
  "en": "SHESMISS",
- "status": "확정",
+ "status": "후보",
  "tier": "패션그룹 컨템포러리(29CM 입점)",
  "tags": [
   "모던",
@@ -15,7 +15,7 @@
   "29CM DB 1차",
   "패션그룹 컨템포러리"
  ],
- "note": "",
+ "note": "10-29 처음 확정 4곳에 들었으나 기획서 §10-23에서 핵심 비교군에서 제외(오르로 교체). 상의 한 장 표(onepager)에는 그대로 남아 있다.",
  "ids": {
   "c29": 112920,
   "off": "https://www.idfmall.co.kr"
@@ -130,7 +130,7 @@
  },
  "reviewed": "auto",
  "tags_src": "플랫폼 브랜드 소개문",
- "role": "직접 경쟁(확정)",
+ "role": "가격·무드 모두 근접",
  "rank": 4,
  "platform": {
   "29cm": {
