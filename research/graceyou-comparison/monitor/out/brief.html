@@ -1,143 +1,182 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>그레이스유 비교 노트</title>
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>GRACE U 가격 분석</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Serif+KR:wght@400;500;600&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap">
 <style>
-/* 레이아웃: 왼쪽 좁은 칸에 절 제목, 오른쪽에 내용. 메모처럼 위에서 아래로 읽는다 */
-:root{--bg:#F6F6F4;--paper:#FFFFFF;--ink:#1C1F2B;--muted:#5E6271;--line:#E2E1DD;--accent:#7A2C4A;--accent-soft:#F4E7EC;--reg:#A4A8B4;--fix:#2F4A6B;--fix-soft:#E6ECF3;
---warn:#8A5A12;--warn-soft:#F6EEDD;
---display:"Gowun Batang","Noto Serif KR","Apple SD Gothic Neo",serif;--body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14151B;--paper:#1C1E26;--ink:#ECEBE7;--muted:#A3A6B3;--line:#2E313C;--accent:#E092B0;--accent-soft:#3A2330;--reg:#6C7182;--fix:#9DB7D8;--fix-soft:#243041;--warn:#E3B66A;--warn-soft:#3A2E1A;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#14151B;--paper:#1C1E26;--ink:#ECEBE7;--muted:#A3A6B3;--line:#2E313C;--accent:#E092B0;--accent-soft:#3A2330;--reg:#6C7182;--fix:#9DB7D8;--fix-soft:#243041;--warn:#E3B66A;--warn-soft:#3A2E1A;color-scheme:dark}
+/* 한 열 편집 레이아웃: 큰 세리프 표제 아래 차트가 숨 쉬듯 이어진다. 밝은 단일 테마(그레이스유 공식몰의 흰 바탕·세리프 톤) */
+:root{color-scheme:light;--bg:#FBFAF8;--paper:#FFFFFF;--ink:#2B2725;--muted:#8A827D;--line:#ECE7E3;--accent:#7A4E5C;--accent-soft:#F4ECEE;--iqr:#E9E2DE;--reg:#B9AFA9;
+--serif-en:"Cormorant Garamond","Noto Serif KR",Georgia,serif;--serif:"Noto Serif KR","Cormorant Garamond",serif;--sans:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+--ease:cubic-bezier(.16,1,.3,1)}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:400 15px/1.65 var(--body);-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:anywhere}
-.wrap{max-width:1080px;margin:0 auto;padding-block:48px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:44px}
-.mast{display:grid;gap:10px;max-width:760px}
-.eyebrow{margin:0;font-size:12px;letter-spacing:.12em;color:var(--accent);font-weight:600}
-h1{margin:0;font:700 clamp(30px,4.6vw,44px)/1.2 var(--display);letter-spacing:-.01em;text-wrap:balance}
-.lede{margin:0;font-size:16px;color:var(--muted);max-width:64ch}
-.stamp{margin:4px 0 0;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
-.sec{display:grid;grid-template-columns:168px minmax(0,1fr);gap:28px;padding-top:28px;border-top:1px solid var(--line)}
-.sec>div{min-width:0;display:grid;gap:14px;align-content:start}
-h2{margin:0;font:700 19px/1.35 var(--display);text-wrap:balance}
-h3{margin:0;font-weight:600}
-.sub{font-size:14px;color:var(--muted);font-weight:600;margin-top:6px}
-.keys{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
-.key{display:grid;gap:4px;align-content:start}
-.kv{font:700 34px/1.1 var(--display);color:var(--accent);font-variant-numeric:tabular-nums}
-.kl{font-size:13px;font-weight:600}
-.key p{margin:4px 0 0;font-size:14px;color:var(--muted)}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 14px/1.6 var(--sans);word-break:keep-all;overflow-wrap:anywhere;-webkit-font-smoothing:antialiased}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:1;opacity:.035;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;background:radial-gradient(60vw 50vw at 88% -5%,rgba(122,78,92,.08),transparent 70%)}
+html,body{overflow-x:hidden}
+.wrap{position:relative;z-index:2;max-width:1120px;margin:0 auto;padding-block:72px 96px;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px));display:grid;gap:88px}
+.mast{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:24px 48px;padding-bottom:28px;border-bottom:1px solid var(--ink)}
+h1{margin:0;font:500 clamp(64px,11vw,148px)/.86 var(--serif-en);letter-spacing:-.035em}
+h1 span{display:inline-block;background:linear-gradient(100deg,var(--ink) 40%,var(--accent) 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.stats{display:flex;gap:36px;padding-bottom:10px}
+.stat{display:grid;gap:2px;cursor:default;outline:none}
+.stat b{font:500 40px/1 var(--serif-en);font-variant-numeric:lining-nums tabular-nums;letter-spacing:-.01em}
+.stat span{font-size:12px;color:var(--muted);letter-spacing:.04em}
+.stat[data-tip]{border-bottom:1px dotted var(--reg)}
+.date{grid-column:1/-1;margin:0;font:italic 400 16px/1 var(--serif-en);color:var(--muted);letter-spacing:.08em}
+.sec{display:grid;gap:22px;min-width:0}
+h2{margin:0;font:500 22px/1.3 var(--serif);letter-spacing:-.01em;display:flex;align-items:baseline;gap:12px}
+h2 small{font:italic 400 15px var(--serif-en);color:var(--muted);letter-spacing:.04em}
+.key{display:flex;flex-wrap:wrap;gap:18px;align-items:center;font-size:12px;color:var(--muted)}
+.key span{display:inline-flex;align-items:center;gap:7px}
+.key .unit{margin-left:auto;font:italic 13px var(--serif-en);letter-spacing:.06em}
+.key i{display:inline-block}
+.k-sale{width:10px;height:10px;border-radius:50%;background:var(--ink)}
+.k-reg{width:10px;height:10px;border-radius:50%;border:1.5px solid var(--reg);background:var(--paper)}
+.k-iqr{width:22px;height:8px;border-radius:4px;background:var(--iqr)}
+.ramp{gap:0!important}.ramp i{width:22px;height:10px}.ramp em{font-style:normal;margin:0 8px}
+/* 가격 포지션 */
+.prices{position:relative;display:grid;gap:4px;padding-top:30px}
+.axis{position:absolute;inset:0 0 0 9.5em;margin-right:5.5em;pointer-events:none}
+.tick{position:absolute;top:0;bottom:0;border-left:1px solid var(--line)}
+.tick i{position:absolute;top:4px;left:0;transform:translateX(-50%);white-space:nowrap;overflow-wrap:normal;font:italic 13px var(--serif-en);color:var(--muted);background:var(--bg);padding:0 4px}
+.pr{position:relative;display:grid;grid-template-columns:9.5em minmax(0,1fr) 5.5em;align-items:center;height:42px;border-radius:6px;outline:none;transition:background .25s var(--ease)}
+.pr:hover,.pr:focus-visible{background:rgba(122,78,92,.05)}
+.pn{font-size:14px;padding-left:10px}
+.pr.me .pn{font-weight:600;color:var(--accent)}
+.lane{position:relative;height:100%}
+.iqr{position:absolute;top:50%;height:10px;margin-top:-5px;border-radius:5px;background:var(--iqr)}
+.gap{position:absolute;top:50%;height:2px;margin-top:-1px;background:var(--reg)}
+.mk{position:absolute;top:50%;width:13px;height:13px;border-radius:50%;transform:translate(-50%,-50%)}
+.mk.sale{background:var(--ink);box-shadow:0 0 0 3px var(--bg)}
+.pr.me .mk.sale{background:var(--accent);width:15px;height:15px}
+.mk.reg{background:var(--paper);border:1.5px solid var(--reg)}
+.pv{text-align:right;padding-right:10px;font:500 20px/1 var(--serif-en);font-variant-numeric:lining-nums tabular-nums}
+.pv small{display:block;margin-top:3px;font:500 11px/1 var(--sans);color:var(--muted)}
+.pr.me .pv{color:var(--accent)}
+/* 히트맵 표 */
 .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
-.t{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums;background:var(--paper)}
-.t th,.t td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
-.t thead th{font-size:12px;font-weight:600;color:var(--muted);background:var(--bg);border-bottom:1px solid var(--ink);white-space:nowrap}
-.t tbody th{font-weight:600;white-space:nowrap}
-.t .n{text-align:right;white-space:nowrap}
-.t tr.ref th,.t tr.ref td{background:var(--accent-soft)}
-.t tr.ref th{color:var(--accent)}
-.t .site{color:var(--muted);font-size:13px;white-space:nowrap}
-.t .what{color:var(--muted);font-size:13px;min-width:16em}
-.t .dim{color:var(--muted);opacity:.7}
-.cats td small{display:block;font-size:11px;color:var(--muted)}
-.tag{display:inline-block;font-size:12px;font-weight:600;padding:1px 8px;border-radius:999px;white-space:nowrap}
-.t-ref{background:var(--accent);color:var(--paper)}
-.t-fix{background:var(--fix-soft);color:var(--fix)}
-.t-rec{background:var(--warn-soft);color:var(--warn)}
-.p-flat{background:var(--accent-soft);color:var(--accent)}
-.p-soft{background:var(--fix-soft);color:var(--fix)}
-.p-part{background:var(--bg);color:var(--ink);border:1px solid var(--line)}
-.p-deep{background:var(--warn-soft);color:var(--warn)}
-.fine{margin:0;font-size:13px;color:var(--muted);max-width:72ch}
-.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
-.legend span{display:inline-flex;align-items:center;gap:6px}
-.legend .dot{position:static;transform:none}
-.dbs{display:grid;gap:2px;background:var(--paper);padding:30px 14px 12px;border:1px solid var(--line)}
-.db{display:grid;grid-template-columns:7.5em minmax(0,1fr) 10.5em;align-items:center;gap:14px;min-height:34px}
-.db.ref .dn{color:var(--accent);font-weight:700}
-.dn{font-size:14px;font-weight:600;white-space:nowrap}
-.dv{font-size:13px;color:var(--muted);text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
-.dv b{color:var(--ink);font-weight:600}
-.db.ref .dv b{color:var(--accent)}
-.track{position:relative;height:34px;background:linear-gradient(var(--line),var(--line)) center/100% 1px no-repeat}
-.tick{position:absolute;top:-22px;bottom:-400px;width:0;border-left:1px dashed var(--line);pointer-events:none}
-.tick i{position:absolute;top:0;left:0;transform:translateX(-50%);font-style:normal;font-size:11px;color:var(--muted);white-space:nowrap;background:var(--paper);padding:0 3px}
-.dbs{overflow:hidden}
-.bar{position:absolute;top:50%;height:4px;margin-top:-2px;background:var(--reg);opacity:.55;border-radius:2px}
-.dot{position:absolute;top:50%;width:13px;height:13px;border-radius:50%;transform:translate(-50%,-50%);display:inline-block}
-.dot.sale{background:var(--ink)}
-.db.ref .dot.sale{background:var(--accent)}
-.dot.reg{background:var(--paper);border:2px solid var(--reg)}
-.legend .dot.sale{background:var(--ink)}
-.obss{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
-.obs{background:var(--paper);border:1px solid var(--line);border-top:3px solid var(--accent);padding:18px 18px 16px;display:grid;gap:12px;align-content:start;min-width:0}
-.obs h3{font:700 17px/1.4 var(--display);text-wrap:balance}
-.obs dl{margin:0;display:grid;gap:4px}
-.obs dt{font-size:11px;letter-spacing:.06em;color:var(--accent);font-weight:600;margin-top:8px}
-.obs dt:first-child{margin-top:0}
-.obs dd{margin:0;font-size:14px}
-.chg,.ex{margin:0;padding:0;list-style:none;display:grid;gap:8px}
-.chg li{padding:10px 14px;background:var(--paper);border:1px solid var(--line);font-size:14px}
-.chg li b{margin-right:8px}
-.chg .note{display:block;margin-top:4px;font-size:13px;color:var(--muted)}
-.chg .quiet{background:transparent;border-style:dashed;color:var(--muted)}
-.ex li{font-size:13px;color:var(--muted)}
-.ex .n{font-variant-numeric:tabular-nums;color:var(--ink);margin-left:6px;white-space:nowrap}
-.foot{display:grid;gap:8px;padding-top:24px;border-top:1px solid var(--ink)}
-.foot h2{font-size:15px}
-.foot ul{margin:0;padding-left:18px;font-size:13px;color:var(--muted);display:grid;gap:2px}
-@media (max-width:860px){.sec{grid-template-columns:1fr;gap:14px}.keys,.obss{grid-template-columns:1fr}}
-@media (max-width:520px){.db{grid-template-columns:5.2em minmax(0,1fr);row-gap:0}.dv{grid-column:2;text-align:left;margin-top:-6px}.kv{font-size:30px}.wrap{padding-block:28px 48px}}
+.hm{width:100%;border-collapse:separate;border-spacing:3px;font-variant-numeric:lining-nums tabular-nums}
+.hm th{font-weight:400;font-size:12px;color:var(--muted);text-align:center;padding:4px 6px;white-space:nowrap}
+.hm tbody th{text-align:left;font-size:14px;color:var(--ink);padding-right:14px}
+.hm tr.me th{color:var(--accent);font-weight:600}
+.hm td{height:46px;min-width:72px;text-align:center;font:500 17px/1 var(--serif-en);border-radius:4px;cursor:default;outline:none;transition:transform .2s var(--ease),box-shadow .2s var(--ease)}
+.hm td:hover,.hm td:focus-visible{transform:translateY(-2px) scale(1.04);box-shadow:0 8px 20px -10px rgba(60,40,40,.35);position:relative;z-index:1}
+.hm tr.me td{box-shadow:inset 0 0 0 1.5px var(--accent)}
+.hm td.thin{opacity:.55}
+.hm td.nil{background:transparent;color:var(--reg)}
+.mixt td{font-size:15px;min-width:44px;height:40px}
+.mixt td.tot{background:transparent;color:var(--muted);font:400 13px var(--sans)}
+/* 2열 묶음 */
+.pair{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:56px;align-items:start}
+.sc{width:100%;height:auto;overflow:visible}
+.sc .gr line{stroke:var(--line)}
+.sc .gr text,.sc .ax{fill:var(--muted);font:italic 12px var(--serif-en)}
+.sc .ax{font:400 11px var(--sans)}
+.pt{cursor:default;outline:none}
+.pt circle{fill:var(--ink);stroke:var(--bg);stroke-width:3;transition:r .25s var(--ease)}
+.pt.me circle{fill:var(--accent)}
+.pt text{fill:var(--ink);font:400 12px var(--sans)}
+.pt.me text{fill:var(--accent);font-weight:600}
+.pt:hover circle,.pt:focus-visible circle{r:9}
+/* 공식몰 관찰 */
+.obs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line)}
+.ob{padding:26px 26px 6px 0;display:grid;gap:6px;align-content:start}
+.ob+.ob{padding-left:26px;border-left:1px solid var(--line)}
+.ob b{font:500 52px/1 var(--serif-en);color:var(--accent);font-variant-numeric:lining-nums;letter-spacing:-.02em}
+.ob h3{margin:6px 0 0;font:500 15px/1.4 var(--serif)}
+.ob p{margin:0;font-size:13px;color:var(--muted);max-width:34ch}
+.ob .do{color:var(--ink);margin-top:6px}
+.ob .do::before{content:"→ ";color:var(--accent)}
+/* 변화 기록 */
+.log{margin:0;padding:0;list-style:none;border-top:1px solid var(--line)}
+.log li{display:grid;grid-template-columns:7em 6em 3em 6em minmax(0,1fr);gap:10px;align-items:baseline;padding:12px 6px;border-bottom:1px solid var(--line);outline:none;transition:background .2s var(--ease)}
+.log li:hover,.log li:focus-visible{background:rgba(122,78,92,.05)}
+.lb{font-weight:500}
+.lk{color:var(--muted);font-size:13px}
+.lc{font:500 20px/1 var(--serif-en);text-align:right;font-variant-numeric:lining-nums tabular-nums}
+.lr{font-size:12px;color:var(--accent);font-variant-numeric:tabular-nums}
+.ln{font-size:12px;color:var(--muted)}
+/* 배송·반품: 작게 */
+.small h2{font-size:17px}
+.st{width:100%;border-collapse:collapse;font-size:12px;font-variant-numeric:tabular-nums}
+.st th,.st td{padding:7px 6px;border-bottom:1px solid var(--line);text-align:left;font-weight:400;white-space:nowrap}
+.st thead th{color:var(--muted);font-size:11px}
+.st tbody th{color:var(--ink)}
+.st tr{outline:none}.st tr:hover td,.st tr:hover th,.st tr:focus-visible td{background:rgba(122,78,92,.05)}
+.st tr.me th{color:var(--accent);font-weight:600}
+/* 툴팁 */
+.tipbox{position:fixed;z-index:20;max-width:320px;padding:12px 14px;background:rgba(43,39,37,.94);color:#F7F3F0;border-radius:8px;font-size:12px;line-height:1.55;pointer-events:none;box-shadow:0 14px 34px -14px rgba(43,39,37,.6);transform:translateY(4px);opacity:0;transition:opacity .15s var(--ease),transform .15s var(--ease)}
+.tipbox.on{opacity:1;transform:none}
+.tipbox b{display:block;font:500 13px var(--serif);margin-bottom:3px;color:#fff}
+[data-tip]{cursor:default}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+/* 등장 */
+@media (prefers-reduced-motion:no-preference){
+ .pr .iqr,.pr .gap{transform-origin:left;animation:grow .9s var(--ease) backwards;animation-delay:calc(var(--i)*60ms)}
+ @keyframes grow{from{transform:scaleX(.6);opacity:.5}}
+}
+@media (max-width:900px){.pair{grid-template-columns:1fr;gap:88px}.obs{grid-template-columns:1fr}.ob+.ob{padding-left:0;border-left:0;border-top:1px solid var(--line)}.ob{padding-right:0}}
+@media (max-width:640px){.wrap{padding-block:44px 64px;gap:64px}.mast{grid-template-columns:1fr}.stats{gap:24px}.stat b{font-size:30px}
+ .pr{grid-template-columns:5.6em minmax(0,1fr) 4em}.axis{left:5.6em;margin-right:4em}.pn{font-size:12px;padding-left:4px;line-height:1.25}
+ .log li{grid-template-columns:6em minmax(0,1fr) 2.5em;row-gap:2px}.lr{grid-column:2}.ln{grid-column:2/-1}}
 </style>
-</head><body><main class="wrap">
+</head><body><div class="tipbox" id="tip" role="tooltip" hidden></div>
+<main class="wrap">
 <header class="mast">
-  <p class="eyebrow">MD 참고 자료 · 공개 화면 기준</p>
-  <h1>그레이스유와 비교 브랜드 6곳</h1>
-  <p class="lede">그레이스유 공식몰과 비교 브랜드 6곳의 공식몰에서 여성 의류 1,767개 모델을 같은 기준으로 읽었다. 가격·할인·행사·배송 조건을 한 장에 놓고, 매일 바뀌는 것을 계속 쌓는다.</p>
-  <p class="stamp">수집 2026-10-29 ~ 2026-10-30 · 매일 20:00 자동 갱신 중 · 라메레이·보연은 10-30부터</p>
+  <h1><span>GRACE U</span></h1>
+  <div class="stats"><div class="stat"><b>1,767</b><span>모델</span></div><div class="stat" tabindex=0 data-tip="찜 21,262 · 여성 브랜드 5,871개 중|쿠메 387위|낫띵리튼 22위|제이제이지고트 288위|라메레이 61위|보연 1,293위|오르 미입점|2026-10-27"><b>69</b><span>W컨셉 찜 순위</span></div><div class="stat" tabindex=0 data-tip="그레이스유 할인 표시 0%|쿠메 할인 표시 100%|낫띵리튼 할인 표시 26%|제이제이지고트 할인 표시 90%|오르 할인 표시 0%|라메레이 할인 표시 100%|보연 할인 표시 98%"><b>2/7</b><span>정가 판매</span></div></div>
+  <p class="date">26 . 10 . 30</p>
 </header>
 
-<section class="sec"><h2>한눈에</h2><div class="keys"><div class="key"><div class="kv">2곳</div><div class="kl">할인 없이 파는 브랜드</div><p>그레이스유·오르만 정가 그대로 판다. 나머지 5곳은 의류의 26~100%에 할인이 붙어 있다. 정가로는 비슷해도 고객이 보는 가격은 꽤 다르다.</p></div><div class="key"><div class="kv">10만 원</div><div class="kl">그레이스유 무료배송 기준</div><p>비교한 곳 중 가장 높다. 라메레이·보연은 금액과 상관없이 무료, 낫띵리튼·제이제이지고트는 5만 원 이상 무료. 다만 그레이스유 의류는 판매가 중앙이 21.9만 원이고 10만 원 미만은 7%뿐이라, 한 벌만 사도 대부분 기준을 넘는다.</p></div><div class="key"><div class="kv">69위</div><div class="kl">W컨셉 여성 브랜드 찜 순위</div><p>5,871개 브랜드 중 상위 1%대(찜 21,262). 비교군에서는 낫띵리튼 22위, 라메레이 61위, 제이제이지고트 288위, 쿠메 387위, 보연 1,293위. 오르는 W컨셉에 입점하지 않았다.</p></div></div></section>
+<section class="sec" id="price">
+  <h2>가격 포지션</h2>
+  <div class="prices"><div class="axis"><span class="tick" style="left:0.00%"><i>0</i></span><span class="tick" style="left:25.00%"><i>10</i></span><span class="tick" style="left:50.00%"><i>20</i></span><span class="tick" style="left:75.00%"><i>30</i></span><span class="tick" style="left:100.00%"><i>40</i></span></div><div class="pr me" style="--i:0" tabindex="0" data-tip="그레이스유|판매가 중앙 218,500원|정가 = 판매가|가운데 50% 149,250원 ~ 298,000원|할인 표시 0%|모델 214개"><span class="pn">그레이스유</span><span class="lane"><span class="iqr" style="left:37.31%;width:37.19%"></span><span class="mk sale" style="left:54.62%"></span></span><span class="pv">21.9<small></small></span></div><div class="pr" style="--i:1" tabindex="0" data-tip="오르|판매가 중앙 228,000원|정가 = 판매가|가운데 50% 178,000원 ~ 373,000원|할인 표시 0%|모델 102개"><span class="pn">오르</span><span class="lane"><span class="iqr" style="left:44.50%;width:48.75%"></span><span class="mk sale" style="left:57.00%"></span></span><span class="pv">22.8<small></small></span></div><div class="pr" style="--i:2" tabindex="0" data-tip="쿠메|판매가 중앙 175,200원|정가 중앙 195,000원|가운데 50% 134,300원 ~ 207,200원|할인 표시 100% · 폭 15%|모델 117개"><span class="pn">쿠메</span><span class="lane"><span class="iqr" style="left:33.58%;width:18.23%"></span><span class="gap" style="left:43.80%;width:4.95%"></span><span class="mk reg" style="left:48.75%"></span><span class="mk sale" style="left:43.80%"></span></span><span class="pv">17.5<small>−10%</small></span></div><div class="pr" style="--i:3" tabindex="0" data-tip="낫띵리튼|판매가 중앙 169,000원|정가 중앙 178,000원|가운데 50% 107,400원 ~ 219,000원|할인 표시 26% · 폭 30%|모델 419개"><span class="pn">낫띵리튼</span><span class="lane"><span class="iqr" style="left:26.85%;width:27.90%"></span><span class="gap" style="left:42.25%;width:2.25%"></span><span class="mk reg" style="left:44.50%"></span><span class="mk sale" style="left:42.25%"></span></span><span class="pv">16.9<small>−5%</small></span></div><div class="pr" style="--i:4" tabindex="0" data-tip="보연|판매가 중앙 164,900원|정가 중앙 216,000원|가운데 50% 99,900원 ~ 217,050원|할인 표시 98% · 폭 20%|모델 287개"><span class="pn">보연</span><span class="lane"><span class="iqr" style="left:24.98%;width:29.29%"></span><span class="gap" style="left:41.23%;width:12.77%"></span><span class="mk reg" style="left:54.00%"></span><span class="mk sale" style="left:41.23%"></span></span><span class="pv">16.5<small>−24%</small></span></div><div class="pr" style="--i:5" tabindex="0" data-tip="제이제이지고트|판매가 중앙 155,400원|정가 중앙 219,000원|가운데 50% 118,300원 ~ 224,100원|할인 표시 90% · 폭 30%|모델 449개"><span class="pn">제이제이지고트</span><span class="lane"><span class="iqr" style="left:29.58%;width:26.45%"></span><span class="gap" style="left:38.85%;width:15.90%"></span><span class="mk reg" style="left:54.75%"></span><span class="mk sale" style="left:38.85%"></span></span><span class="pv">15.5<small>−29%</small></span></div><div class="pr" style="--i:6" tabindex="0" data-tip="라메레이|판매가 중앙 89,400원|정가 중앙 159,000원|가운데 50% 49,000원 ~ 143,100원|할인 표시 100% · 폭 40%|모델 179개"><span class="pn">라메레이</span><span class="lane"><span class="iqr" style="left:12.25%;width:23.52%"></span><span class="gap" style="left:22.35%;width:17.40%"></span><span class="mk reg" style="left:39.75%"></span><span class="mk sale" style="left:22.35%"></span></span><span class="pv">8.9<small>−44%</small></span></div></div>
+  <div class="key"><span><i class="k-sale"></i>판매가 중앙</span><span><i class="k-reg"></i>정가 중앙</span><span><i class="k-iqr"></i>가운데 50%</span><span class="unit">만 원</span></div>
+</section>
 
-<section class="sec"><h2>누구와 비교했나</h2><div>
-  <div class="scroll"><table class="t"><thead><tr><th scope="col">브랜드</th><th scope="col">구분</th><th scope="col">비교 이유</th><th scope="col" class="n">의류 모델</th><th scope="col">판매처</th></tr></thead><tbody><tr class="ref"><th scope="row">그레이스유</th><td><span class="tag t-ref">기준</span></td><td>우리 브랜드</td><td class="n">214</td><td class="site">graceu.co.kr</td></tr><tr class=""><th scope="row">쿠메</th><td><span class="tag t-fix">확정</span></td><td>페미닌 일상복·니트</td><td class="n">117</td><td class="site">kume-studio.co.kr</td></tr><tr class=""><th scope="row">낫띵리튼</th><td><span class="tag t-fix">확정</span></td><td>클래식 일상복, 비슷한 예산</td><td class="n">419</td><td class="site">nothing-written.com</td></tr><tr class=""><th scope="row">제이제이지고트</th><td><span class="tag t-fix">확정</span></td><td>여성스러운 원피스·블라우스, 할인 운영</td><td class="n">449</td><td class="site">바바더닷컴 JJ지고트관</td></tr><tr class=""><th scope="row">오르</th><td><span class="tag t-fix">확정</span></td><td>테일러링·소재, 드레시한 상의</td><td class="n">102</td><td class="site">orr.store</td></tr><tr class=""><th scope="row">라메레이</th><td><span class="tag t-rec">추천</span></td><td>절제된 여성미·소재, W컨셉 기사에 함께 언급</td><td class="n">179</td><td class="site">lamerei.com</td></tr><tr class=""><th scope="row">보연</th><td><span class="tag t-rec">추천</span></td><td>엘레강스·클래식, 퀸잇 기사에 함께 언급</td><td class="n">287</td><td class="site">voyonn.com</td></tr></tbody></table></div>
-  <p class="fine">확정 = 비교 기준으로 정한 곳, 추천 = "그레이스유 대신 살 만한가" 기준으로 고른 후보(아직 확정 전). 추천 후보 베스띠벨리는 공식숍이 네이버 브랜드스토어라 자동 수집할 수 없어 뺐다.</p>
-</div></section>
+<section class="sec" id="category">
+  <h2>카테고리별 판매가</h2>
+  <div class="scroll"><table class="hm"><thead><tr><th></th><th scope="col">상의</th><th scope="col">니트·가디건</th><th scope="col">원피스</th><th scope="col">아우터</th><th scope="col">스커트</th><th scope="col">팬츠</th></tr></thead><tbody><tr class="me"><th scope="row">그레이스유</th><td class="" style="background:#F3F1EE;color:var(--ink)" tabindex="0" data-tip="그레이스유 · 상의|판매가 중앙 158,000원|가운데 50% 115,000원 ~ 188,000원|모델 33개 · 할인 표시 0%">15.8</td><td class="" style="background:#F3F1EE;color:var(--ink)" tabindex="0" data-tip="그레이스유 · 니트·가디건|판매가 중앙 168,000원|가운데 50% 126,000원 ~ 253,000원|모델 15개 · 할인 표시 0%">16.8</td><td class="" style="background:#F3F1EE;color:var(--ink)" tabindex="0" data-tip="그레이스유 · 원피스|판매가 중앙 274,500원|가운데 50% 236,250원 ~ 337,250원|모델 56개 · 할인 표시 0%">27.4</td><td class="" style="background:#F3F1EE;color:var(--ink)" tabindex="0" data-tip="그레이스유 · 아우터|판매가 중앙 276,000원|가운데 50% 209,250원 ~ 847,250원|모델 52개 · 할인 표시 0%">27.6</td><td class="" style="background:#F3F1EE;color:var(--ink)" tabindex="0" data-tip="그레이스유 · 스커트|판매가 중앙 198,000원|가운데 50% 153,500원 ~ 236,000원|모델 35개 · 할인 표시 0%">19.8</td><td class="" style="background:#F3F1EE;color:var(--ink)" tabindex="0" data-tip="그레이스유 · 팬츠|판매가 중앙 148,000원|가운데 50% 115,000원 ~ 182,500원|모델 23개 · 할인 표시 0%">14.8</td></tr><tr class=""><th scope="row">쿠메</th><td class="" style="background:#7d94ac;color:#FFFFFF" tabindex="0" data-tip="쿠메 · 상의|판매가 중앙 100,000원|정가 중앙 125,000원|가운데 50% 75,350원 ~ 141,825원|모델 31개 · 할인 표시 100%|그레이스유 대비 -37%">10</td><td class="" style="background:#f1ede9;color:var(--ink)" tabindex="0" data-tip="쿠메 · 니트·가디건|판매가 중앙 171,000원|정가 중앙 189,000원|가운데 50% 137,038원 ~ 188,812원|모델 18개 · 할인 표시 100%|그레이스유 대비 +2%">17.1</td><td class="" style="background:#c7ced5;color:var(--ink)" tabindex="0" data-tip="쿠메 · 원피스|판매가 중앙 231,200원|정가 중앙 289,000원|가운데 50% 207,725원 ~ 255,200원|모델 11개 · 할인 표시 100%|그레이스유 대비 -16%">23.1</td><td class="" style="background:#d9bca9;color:var(--ink)" tabindex="0" data-tip="쿠메 · 아우터|판매가 중앙 353,650원|정가 중앙 378,000원|가운데 50% 302,100원 ~ 472,625원|모델 14개 · 할인 표시 100%|그레이스유 대비 +28%">35.4</td><td class="" style="background:#dadde0;color:var(--ink)" tabindex="0" data-tip="쿠메 · 스커트|판매가 중앙 179,550원|정가 중앙 215,000원|가운데 50% 151,925원 ~ 203,150원|모델 23개 · 할인 표시 100%|그레이스유 대비 -9%">18</td><td class="" style="background:#e2cfc1;color:var(--ink)" tabindex="0" data-tip="쿠메 · 팬츠|판매가 중앙 173,875원|정가 중앙 195,000원|가운데 50% 154,525원 ~ 186,150원|모델 20개 · 할인 표시 100%|그레이스유 대비 +17%">17.4</td></tr><tr class=""><th scope="row">낫띵리튼</th><td class="" style="background:#5c7a99;color:#FFFFFF" tabindex="0" data-tip="낫띵리튼 · 상의|판매가 중앙 59,000원|가운데 50% 43,000원 ~ 150,000원|모델 91개 · 할인 표시 11%|그레이스유 대비 -63%">5.9</td><td class="" style="background:#eeedeb;color:var(--ink)" tabindex="0" data-tip="낫띵리튼 · 니트·가디건|판매가 중앙 165,000원|정가 중앙 169,000원|가운데 50% 129,000원 ~ 179,000원|모델 142개 · 할인 표시 23%|그레이스유 대비 -2%">16.5</td><td class="thin" style="background:#92a5b7;color:var(--ink)" tabindex="0" data-tip="낫띵리튼 · 원피스|판매가 중앙 188,250원|정가 중앙 222,000원|가운데 50% 157,500원 ~ 219,000원|모델 2개 · 할인 표시 50%|그레이스유 대비 -31%">18.8</td><td class="" style="background:#cb9f83;color:var(--ink)" tabindex="0" data-tip="낫띵리튼 · 아우터|판매가 중앙 405,100원|정가 중앙 429,000원|가운데 50% 273,975원 ~ 551,500원|모델 78개 · 할인 표시 31%|그레이스유 대비 +47%">40.5</td><td class="" style="background:#bdc6cf;color:var(--ink)" tabindex="0" data-tip="낫띵리튼 · 스커트|판매가 중앙 160,300원|정가 중앙 198,000원|가운데 50% 132,300원 ~ 219,000원|모델 33개 · 할인 표시 48%|그레이스유 대비 -19%">16</td><td class="" style="background:#e5d5c9;color:var(--ink)" tabindex="0" data-tip="낫띵리튼 · 팬츠|판매가 중앙 169,000원|정가 중앙 179,000원|가운데 50% 119,200원 ~ 189,000원|모델 73개 · 할인 표시 34%|그레이스유 대비 +14%">16.9</td></tr><tr class=""><th scope="row">제이제이지고트</th><td class="" style="background:#a9b6c4;color:var(--ink)" tabindex="0" data-tip="제이제이지고트 · 상의|판매가 중앙 118,300원|정가 중앙 174,000원|가운데 50% 95,520원 ~ 152,100원|모델 72개 · 할인 표시 94%|그레이스유 대비 -25%">11.8</td><td class="" style="background:#899db2;color:var(--ink)" tabindex="0" data-tip="제이제이지고트 · 니트·가디건|판매가 중앙 111,200원|정가 중앙 159,000원|가운데 50% 89,325원 ~ 140,250원|모델 92개 · 할인 표시 92%|그레이스유 대비 -34%">11.1</td><td class="" style="background:#dcdfe1;color:var(--ink)" tabindex="0" data-tip="제이제이지고트 · 원피스|판매가 중앙 251,400원|정가 중앙 359,000원|가운데 50% 172,320원 ~ 296,100원|모델 61개 · 할인 표시 95%|그레이스유 대비 -8%">25.1</td><td class="" style="background:#dadde0;color:var(--ink)" tabindex="0" data-tip="제이제이지고트 · 아우터|판매가 중앙 250,150원|정가 중앙 349,000원|가운데 50% 202,890원 ~ 314,100원|모델 110개 · 할인 표시 88%|그레이스유 대비 -9%">25</td><td class="" style="background:#9cadbd;color:var(--ink)" tabindex="0" data-tip="제이제이지고트 · 스커트|판매가 중앙 141,200원|정가 중앙 199,000원|가운데 50% 119,100원 ~ 178,125원|모델 58개 · 할인 표시 84%|그레이스유 대비 -29%">14.1</td><td class="" style="background:#e7e7e7;color:var(--ink)" tabindex="0" data-tip="제이제이지고트 · 팬츠|판매가 중앙 141,200원|정가 중앙 199,000원|가운데 50% 121,800원 ~ 171,375원|모델 56개 · 할인 표시 86%|그레이스유 대비 -5%">14.1</td></tr><tr class=""><th scope="row">오르</th><td class="" style="background:#ede4dd;color:var(--ink)" tabindex="0" data-tip="오르 · 상의|판매가 중앙 168,000원|가운데 50% 100,500원 ~ 218,000원|모델 22개 · 할인 표시 0%|그레이스유 대비 +6%">16.8</td><td class="" style="background:#c69676;color:var(--ink)" tabindex="0" data-tip="오르 · 니트·가디건|판매가 중앙 258,000원|가운데 50% 233,000원 ~ 328,000원|모델 16개 · 할인 표시 0%|그레이스유 대비 +54%">25.8</td><td class="thin" style="background:#e5d5c9;color:var(--ink)" tabindex="0" data-tip="오르 · 원피스|판매가 중앙 313,000원|가운데 50% 298,000원 ~ 328,000원|모델 2개 · 할인 표시 0%|그레이스유 대비 +14%">31.3</td><td class="" style="background:#b5744a;color:#FFFFFF" tabindex="0" data-tip="오르 · 아우터|판매가 중앙 498,000원|가운데 50% 435,500원 ~ 923,000원|모델 28개 · 할인 표시 0%|그레이스유 대비 +80%">49.8</td><td class="" style="background:#f3f1ee;color:var(--ink)" tabindex="0" data-tip="오르 · 스커트|판매가 중앙 198,000원|가운데 50% 178,000원 ~ 258,000원|모델 11개 · 할인 표시 0%|그레이스유 대비 +0%">19.8</td><td class="" style="background:#e0cabb;color:var(--ink)" tabindex="0" data-tip="오르 · 팬츠|판매가 중앙 178,000원|가운데 50% 168,000원 ~ 198,000원|모델 23개 · 할인 표시 0%|그레이스유 대비 +20%">17.8</td></tr><tr class=""><th scope="row">라메레이</th><td class="" style="background:#5c7a99;color:#FFFFFF" tabindex="0" data-tip="라메레이 · 상의|판매가 중앙 78,075원|정가 중앙 139,000원|가운데 50% 37,312원 ~ 107,400원|모델 20개 · 할인 표시 100%|그레이스유 대비 -51%">7.8</td><td class="" style="background:#5c7a99;color:#FFFFFF" tabindex="0" data-tip="라메레이 · 니트·가디건|판매가 중앙 79,000원|정가 중앙 139,000원|가운데 50% 49,000원 ~ 120,690원|모델 45개 · 할인 표시 100%|그레이스유 대비 -53%">7.9</td><td class="" style="background:#5c7a99;color:#FFFFFF" tabindex="0" data-tip="라메레이 · 원피스|판매가 중앙 106,425원|정가 중앙 219,000원|가운데 50% 92,025원 ~ 177,390원|모델 12개 · 할인 표시 100%|그레이스유 대비 -61%">10.6</td><td class="" style="background:#b1bdc9;color:var(--ink)" tabindex="0" data-tip="라메레이 · 아우터|판매가 중앙 213,850원|정가 중앙 332,000원|가운데 50% 137,400원 ~ 340,650원|모델 39개 · 할인 표시 100%|그레이스유 대비 -23%">21.4</td><td class="" style="background:#5c7a99;color:#FFFFFF" tabindex="0" data-tip="라메레이 · 스커트|판매가 중앙 89,400원|정가 중앙 159,000원|가운데 50% 61,600원 ~ 120,690원|모델 29개 · 할인 표시 100%|그레이스유 대비 -55%">8.9</td><td class="" style="background:#5c7a99;color:#FFFFFF" tabindex="0" data-tip="라메레이 · 팬츠|판매가 중앙 49,000원|정가 중앙 109,000원|가운데 50% 46,750원 ~ 83,250원|모델 34개 · 할인 표시 100%|그레이스유 대비 -67%">4.9</td></tr><tr class=""><th scope="row">보연</th><td class="" style="background:#d3d8dc;color:var(--ink)" tabindex="0" data-tip="보연 · 상의|판매가 중앙 139,725원|정가 중앙 188,000원|가운데 50% 71,338원 ~ 176,288원|모델 178개 · 할인 표시 99%|그레이스유 대비 -12%">14</td><td class="nil">-</td><td class="" style="background:#5c7a99;color:#FFFFFF" tabindex="0" data-tip="보연 · 원피스|판매가 중앙 152,450원|정가 중앙 345,000원|가운데 50% 115,425원 ~ 240,050원|모델 36개 · 할인 표시 97%|그레이스유 대비 -44%">15.2</td><td class="" style="background:#e0cbbd;color:var(--ink)" tabindex="0" data-tip="보연 · 아우터|판매가 중앙 329,325원|정가 중앙 466,500원|가운데 50% 211,750원 ~ 438,750원|모델 66개 · 할인 표시 100%|그레이스유 대비 +19%">32.9</td><td class="" style="background:#c59575;color:var(--ink)" tabindex="0" data-tip="보연 · 스커트|판매가 중앙 305,250원|정가 중앙 324,500원|가운데 50% 228,000원 ~ 346,500원|모델 6개 · 할인 표시 67%|그레이스유 대비 +54%">30.5</td><td class="thin" style="background:#a0afbf;color:var(--ink)" tabindex="0" data-tip="보연 · 팬츠|판매가 중앙 107,000원|정가 중앙 214,000원|가운데 50% 107,000원 ~ 107,000원|모델 1개 · 할인 표시 100%|그레이스유 대비 -28%">10.7</td></tr></tbody></table></div>
+  <div class="key"><span class="ramp"><em>저가</em><i style="background:#5c7a99"></i><i style="background:#9dadbd"></i><i style="background:#cfd5da"></i><i style="background:#f3f1ee"></i><i style="background:#e4d3c7"></i><i style="background:#d0a990"></i><i style="background:#b5744a"></i><em>고가</em></span><span class="unit">만 원 · 그레이스유 대비</span></div>
+</section>
 
-<section class="sec"><h2>가격</h2><div>
-  <h3 class="sub">의류 전체 · 정가 중앙과 판매가 중앙</h3>
-  <div class="legend"><span><i class="dot reg"></i>정가 중앙</span><span><i class="dot sale"></i>판매가 중앙(누구나 보는 가격)</span></div>
-  <div class="dbs"><div class="db ref"><span class="dn">그레이스유</span><span class="track"><span class="tick" style="left:0.00%"><i>5만</i></span><span class="tick" style="left:25.00%"><i>10만</i></span><span class="tick" style="left:50.00%"><i>15만</i></span><span class="tick" style="left:75.00%"><i>20만</i></span><span class="tick" style="left:100.00%"><i>25만</i></span><span class="dot sale" style="left:84.25%" title="판매가 중앙 218,500원"></span></span><span class="dv"><b>21.9만</b> 정가 그대로</span></div><div class="db"><span class="dn">오르</span><span class="track"><span class="dot sale" style="left:89.00%" title="판매가 중앙 228,000원"></span></span><span class="dv"><b>22.8만</b> 정가 그대로</span></div><div class="db"><span class="dn">쿠메</span><span class="track"><span class="bar" style="left:62.60%;width:9.90%"></span><span class="dot reg" style="left:72.50%" title="정가 중앙 195,000원"></span><span class="dot sale" style="left:62.60%" title="판매가 중앙 175,200원"></span></span><span class="dv">19.5만 → <b>17.5만</b></span></div><div class="db"><span class="dn">낫띵리튼</span><span class="track"><span class="bar" style="left:59.50%;width:4.50%"></span><span class="dot reg" style="left:64.00%" title="정가 중앙 178,000원"></span><span class="dot sale" style="left:59.50%" title="판매가 중앙 169,000원"></span></span><span class="dv">17.8만 → <b>16.9만</b></span></div><div class="db"><span class="dn">보연</span><span class="track"><span class="bar" style="left:57.45%;width:25.55%"></span><span class="dot reg" style="left:83.00%" title="정가 중앙 216,000원"></span><span class="dot sale" style="left:57.45%" title="판매가 중앙 164,900원"></span></span><span class="dv">21.6만 → <b>16.5만</b></span></div><div class="db"><span class="dn">제이제이지고트</span><span class="track"><span class="bar" style="left:52.70%;width:31.80%"></span><span class="dot reg" style="left:84.50%" title="정가 중앙 219,000원"></span><span class="dot sale" style="left:52.70%" title="판매가 중앙 155,400원"></span></span><span class="dv">21.9만 → <b>15.5만</b></span></div><div class="db"><span class="dn">라메레이</span><span class="track"><span class="bar" style="left:19.70%;width:34.80%"></span><span class="dot reg" style="left:54.50%" title="정가 중앙 159,000원"></span><span class="dot sale" style="left:19.70%" title="판매가 중앙 89,400원"></span></span><span class="dv">15.9만 → <b>8.9만</b></span></div></div>
-  <p class="fine">정가 중앙은 16만~23만 원 안에 모여 있다. 차이는 할인에서 난다. 판매가는 로그인·쿠폰 없이 화면에 보이는 가격이며 쿠폰가는 넣지 않았다.</p>
-  <h3 class="sub">카테고리별 판매가 중앙</h3>
-  <div class="scroll"><table class="t cats"><thead><tr><th scope="col">브랜드</th><th scope="col" class="n">상의(니트 제외)</th><th scope="col" class="n">니트·가디건</th><th scope="col" class="n">원피스</th><th scope="col" class="n">아우터</th><th scope="col" class="n">스커트</th><th scope="col" class="n">팬츠</th></tr></thead><tbody><tr class="ref"><th scope="row">그레이스유</th><td class="n">15.8만<small>33개</small></td><td class="n">16.8만<small>15개</small></td><td class="n">27.4만<small>56개</small></td><td class="n">27.6만<small>52개</small></td><td class="n">19.8만<small>35개</small></td><td class="n">14.8만<small>23개</small></td></tr><tr class=""><th scope="row">쿠메</th><td class="n">10만<small>31개</small></td><td class="n">17.1만<small>18개</small></td><td class="n">23.1만<small>11개</small></td><td class="n">35.4만<small>14개</small></td><td class="n">18만<small>23개</small></td><td class="n">17.4만<small>20개</small></td></tr><tr class=""><th scope="row">낫띵리튼</th><td class="n">5.9만<small>91개</small></td><td class="n">16.5만<small>142개</small></td><td class="n dim">18.8만<small>2개 · 적음</small></td><td class="n">40.5만<small>78개</small></td><td class="n">16만<small>33개</small></td><td class="n">16.9만<small>73개</small></td></tr><tr class=""><th scope="row">제이제이지고트</th><td class="n">11.8만<small>72개</small></td><td class="n">11.1만<small>92개</small></td><td class="n">25.1만<small>61개</small></td><td class="n">25만<small>110개</small></td><td class="n">14.1만<small>58개</small></td><td class="n">14.1만<small>56개</small></td></tr><tr class=""><th scope="row">오르</th><td class="n">16.8만<small>22개</small></td><td class="n">25.8만<small>16개</small></td><td class="n dim">31.3만<small>2개 · 적음</small></td><td class="n">49.8만<small>28개</small></td><td class="n">19.8만<small>11개</small></td><td class="n">17.8만<small>23개</small></td></tr><tr class=""><th scope="row">라메레이</th><td class="n">7.8만<small>20개</small></td><td class="n">7.9만<small>45개</small></td><td class="n">10.6만<small>12개</small></td><td class="n">21.4만<small>39개</small></td><td class="n">8.9만<small>29개</small></td><td class="n">4.9만<small>34개</small></td></tr><tr class=""><th scope="row">보연</th><td class="n">14만<small>178개</small></td><td class="n dim">없음</td><td class="n">15.2만<small>36개</small></td><td class="n">32.9만<small>66개</small></td><td class="n">30.5만<small>6개</small></td><td class="n dim">10.7만<small>1개 · 적음</small></td></tr></tbody></table></div>
-  <p class="fine">작은 숫자는 모델 수. 색상만 다른 상품은 한 모델로 센다. 5개 미만은 흐리게 표시했다(비교하기엔 표본이 적다).</p>
-</div></section>
+<div class="pair">
+<section class="sec" id="discount">
+  <h2>할인 운영</h2>
+  <svg viewBox="0 0 640 300" class="sc" role="img" aria-label="브랜드별 할인 표시 비율과 할인 폭"><g class="gr"><line x1="44.0" x2="44.0" y1="14" y2="266"/><text x="44.0" y="284" text-anchor="middle">0%</text><line x1="188.5" x2="188.5" y1="14" y2="266"/><text x="188.5" y="284" text-anchor="middle">25%</text><line x1="333.0" x2="333.0" y1="14" y2="266"/><text x="333.0" y="284" text-anchor="middle">50%</text><line x1="477.5" x2="477.5" y1="14" y2="266"/><text x="477.5" y="284" text-anchor="middle">75%</text><line x1="622.0" x2="622.0" y1="14" y2="266"/><text x="622.0" y="284" text-anchor="middle">100%</text><line x1="44" x2="622" y1="266.0" y2="266.0"/><text x="36" y="270.0" text-anchor="end">0%</text><line x1="44" x2="622" y1="215.6" y2="215.6"/><text x="36" y="219.6" text-anchor="end">10%</text><line x1="44" x2="622" y1="165.2" y2="165.2"/><text x="36" y="169.2" text-anchor="end">20%</text><line x1="44" x2="622" y1="114.8" y2="114.8"/><text x="36" y="118.8" text-anchor="end">30%</text><line x1="44" x2="622" y1="64.4" y2="64.4"/><text x="36" y="68.4" text-anchor="end">40%</text><line x1="44" x2="622" y1="14.0" y2="14.0"/><text x="36" y="18.0" text-anchor="end">50%</text></g><text class="ax" x="622" y="296" text-anchor="end">할인 표시 비율</text><text class="ax" x="8" y="12" text-anchor="start">할인 폭</text><g class="pt me" tabindex="0" data-tip="그레이스유 — 할인 표시 0% · 폭 0%|오르 — 할인 표시 0% · 폭 0%"><circle cx="44.0" cy="266.0" r="7"/><text x="54.0" y="258.0" text-anchor="start">그레이스유·오르</text></g><g class="pt" tabindex="0" data-tip="쿠메 — 할인 표시 100% · 폭 15%"><circle cx="622.0" cy="190.4" r="6"/><text x="612.0" y="194.4" text-anchor="end">쿠메</text></g><g class="pt" tabindex="0" data-tip="낫띵리튼 — 할인 표시 26% · 폭 30% · Outlet 20-off 20% / Outlet 30-off 30% / Outlet 40-off 40% / Outlet 50-off 50%"><circle cx="194.3" cy="114.8" r="6"/><text x="204.3" y="118.8" text-anchor="start">낫띵리튼</text></g><g class="pt" tabindex="0" data-tip="제이제이지고트 — 할인 표시 90% · 폭 30% · 10% 쿠폰 30~58% / 15% 쿠폰 30~52% / 신상 특가 30~58% / 바바데이 15% 쿠폰 40~52% / 바바데이 10% 쿠폰 20~58% / SEASON OFF 20~52% / 윈터 아울렛 오픈 30~50%"><circle cx="564.2" cy="114.8" r="6"/><text x="554.2" y="118.8" text-anchor="end">제이제이지고트</text></g><g class="pt" tabindex="0" data-tip="라메레이 — 할인 표시 100% · 폭 40% · SEASON OFF 35~87% / REFURB &amp; SAMPLE 50% / 균일가 53~87% / 카카오 채널 추가 시 5,000원 쿠폰"><circle cx="622.0" cy="64.4" r="6"/><text x="612.0" y="68.4" text-anchor="end">라메레이</text></g><g class="pt" tabindex="0" data-tip="보연 — 할인 표시 98% · 폭 20% · OUTLET 15~70%"><circle cx="610.4" cy="165.2" r="6"/><text x="600.4" y="159.2" text-anchor="end">보연</text></g></svg>
+</section>
 
-<section class="sec"><h2>할인·행사 운영</h2><div>
-  <div class="scroll"><table class="t"><thead><tr><th scope="col">브랜드</th><th scope="col">운영 방식</th><th scope="col" class="n">할인 표시 비율</th><th scope="col" class="n">할인 폭(중앙)</th><th scope="col">이번에 본 행사</th></tr></thead><tbody><tr class="ref"><th scope="row">그레이스유</th><td><span class="tag p-flat">정가 유지</span></td><td class="n">0%</td><td class="n">-</td><td class="what">10-29 &#x27;HAZLE DOWN 33% OFF&#x27;(다운 1개 모델) 진행 → 10-30 종료. W컨셉 브랜드관에서는 첫 화면 160개 중 83개가 할인(중앙 13%, 10-29)</td></tr><tr class=""><th scope="row">오르</th><td><span class="tag p-flat">정가 유지</span></td><td class="n">0%</td><td class="n">-</td><td class="what">10-29 1차·2차·TIME SALE 컬렉션 진행 → 10-30 종료</td></tr><tr class=""><th scope="row">낫띵리튼</th><td><span class="tag p-part">일부 할인(아울렛·행사)</span></td><td class="n">26%</td><td class="n">30%</td><td class="what">Outlet 20-off 20% · Outlet 30-off 30% · Outlet 40-off 40% · Outlet 50-off 50%</td></tr><tr class=""><th scope="row">제이제이지고트</th><td><span class="tag p-deep">상시 큰 폭 할인</span></td><td class="n">90%</td><td class="n">30%</td><td class="what">10% 쿠폰 30~58% · 15% 쿠폰 30~52% · 신상 특가 30~58% · 바바데이 15% 쿠폰 40~52% 외 3개 · 행사 문구 없이 할인 표시 10~58%</td></tr><tr class=""><th scope="row">보연</th><td><span class="tag p-soft">상시 소폭 할인</span></td><td class="n">98%</td><td class="n">20%</td><td class="what">OUTLET 15~70% · 행사 문구 없이 할인 표시 5~50%</td></tr><tr class=""><th scope="row">쿠메</th><td><span class="tag p-soft">상시 소폭 할인</span></td><td class="n">100%</td><td class="n">15%</td><td class="what">행사 문구 없이 할인 표시 5~20%</td></tr><tr class=""><th scope="row">라메레이</th><td><span class="tag p-deep">상시 큰 폭 할인</span></td><td class="n">100%</td><td class="n">40%</td><td class="what">SEASON OFF 35~87% · REFURB &amp; SAMPLE 50% · 균일가 53~87% · 카카오 채널 추가 시 5,000원 쿠폰 · 행사 문구 없이 할인 표시 10~40%</td></tr></tbody></table></div>
-  <p class="fine">운영 방식은 공개 화면 숫자로 나눈 것이다(할인 표시 0% = 정가 유지, 85% 이상이면 상시, 할인 폭 20% 이하면 소폭). 행사 문구는 모두 가격 할인형이었다. 적립·사은품 같은 혜택은 아직 수집하지 않아 "없음"이 아니라 "확인 전"이다.</p>
-</div></section>
+<section class="sec" id="mix">
+  <h2>카테고리 구성</h2>
+  <div class="scroll"><table class="hm mixt"><thead><tr><th></th><th scope="col">상의</th><th scope="col">니트·가디건</th><th scope="col">원피스</th><th scope="col">아우터</th><th scope="col">스커트</th><th scope="col">팬츠</th><th>모델</th></tr></thead><tbody><tr class="me"><th scope="row">그레이스유</th><td style="background:#ccbabd;color:var(--ink)" tabindex="0" data-tip="그레이스유 · 상의|33개 · 15%">15</td><td style="background:#e3d8d9;color:var(--ink)" tabindex="0" data-tip="그레이스유 · 니트·가디건|15개 · 7%">7</td><td style="background:#ae939a;color:var(--ink)" tabindex="0" data-tip="그레이스유 · 원피스|56개 · 26%">26</td><td style="background:#b399a0;color:var(--ink)" tabindex="0" data-tip="그레이스유 · 아우터|52개 · 24%">24</td><td style="background:#c9b6ba;color:var(--ink)" tabindex="0" data-tip="그레이스유 · 스커트|35개 · 16%">16</td><td style="background:#d8cbcd;color:var(--ink)" tabindex="0" data-tip="그레이스유 · 팬츠|23개 · 11%">11</td><td class="tot">214</td></tr><tr class=""><th scope="row">쿠메</th><td style="background:#ad9199;color:var(--ink)" tabindex="0" data-tip="쿠메 · 상의|31개 · 26%">26</td><td style="background:#ccbabd;color:var(--ink)" tabindex="0" data-tip="쿠메 · 니트·가디건|18개 · 15%">15</td><td style="background:#dcd0d1;color:var(--ink)" tabindex="0" data-tip="쿠메 · 원피스|11개 · 9%">9</td><td style="background:#d5c6c9;color:var(--ink)" tabindex="0" data-tip="쿠메 · 아우터|14개 · 12%">12</td><td style="background:#c0aaaf;color:var(--ink)" tabindex="0" data-tip="쿠메 · 스커트|23개 · 20%">20</td><td style="background:#c7b4b8;color:var(--ink)" tabindex="0" data-tip="쿠메 · 팬츠|20개 · 17%">17</td><td class="tot">117</td></tr><tr class=""><th scope="row">낫띵리튼</th><td style="background:#baa3a9;color:var(--ink)" tabindex="0" data-tip="낫띵리튼 · 상의|91개 · 22%">22</td><td style="background:#997681;color:#FFFFFF" tabindex="0" data-tip="낫띵리튼 · 니트·가디건|142개 · 34%">34</td><td style="background:#f5f0ee;color:var(--ink)" tabindex="0" data-tip="낫띵리튼 · 원피스|2개 · 0%">0</td><td style="background:#c3aeb3;color:var(--ink)" tabindex="0" data-tip="낫띵리튼 · 아우터|78개 · 19%">19</td><td style="background:#e0d5d6;color:var(--ink)" tabindex="0" data-tip="낫띵리튼 · 스커트|33개 · 8%">8</td><td style="background:#c6b3b7;color:var(--ink)" tabindex="0" data-tip="낫띵리튼 · 팬츠|73개 · 17%">17</td><td class="tot">419</td></tr><tr class=""><th scope="row">제이제이지고트</th><td style="background:#cab8bb;color:var(--ink)" tabindex="0" data-tip="제이제이지고트 · 상의|72개 · 16%">16</td><td style="background:#bea7ad;color:var(--ink)" tabindex="0" data-tip="제이제이지고트 · 니트·가디건|92개 · 20%">20</td><td style="background:#d1c0c3;color:var(--ink)" tabindex="0" data-tip="제이제이지고트 · 원피스|61개 · 14%">14</td><td style="background:#b2999f;color:var(--ink)" tabindex="0" data-tip="제이제이지고트 · 아우터|110개 · 24%">24</td><td style="background:#d2c3c6;color:var(--ink)" tabindex="0" data-tip="제이제이지고트 · 스커트|58개 · 13%">13</td><td style="background:#d4c5c7;color:var(--ink)" tabindex="0" data-tip="제이제이지고트 · 팬츠|56개 · 12%">12</td><td class="tot">449</td></tr><tr class=""><th scope="row">오르</th><td style="background:#bba3a9;color:var(--ink)" tabindex="0" data-tip="오르 · 상의|22개 · 22%">22</td><td style="background:#cbb9bc;color:var(--ink)" tabindex="0" data-tip="오르 · 니트·가디건|16개 · 16%">16</td><td style="background:#f1ebea;color:var(--ink)" tabindex="0" data-tip="오르 · 원피스|2개 · 2%">2</td><td style="background:#aa8e96;color:var(--ink)" tabindex="0" data-tip="오르 · 아우터|28개 · 27%">27</td><td style="background:#d8cbcd;color:var(--ink)" tabindex="0" data-tip="오르 · 스커트|11개 · 11%">11</td><td style="background:#b8a0a6;color:var(--ink)" tabindex="0" data-tip="오르 · 팬츠|23개 · 23%">23</td><td class="tot">102</td></tr><tr class=""><th scope="row">라메레이</th><td style="background:#d7c9cb;color:var(--ink)" tabindex="0" data-tip="라메레이 · 상의|20개 · 11%">11</td><td style="background:#b1969d;color:var(--ink)" tabindex="0" data-tip="라메레이 · 니트·가디건|45개 · 25%">25</td><td style="background:#e4dada;color:var(--ink)" tabindex="0" data-tip="라메레이 · 원피스|12개 · 7%">7</td><td style="background:#baa3a8;color:var(--ink)" tabindex="0" data-tip="라메레이 · 아우터|39개 · 22%">22</td><td style="background:#c9b7bb;color:var(--ink)" tabindex="0" data-tip="라메레이 · 스커트|29개 · 16%">16</td><td style="background:#c2adb2;color:var(--ink)" tabindex="0" data-tip="라메레이 · 팬츠|34개 · 19%">19</td><td class="tot">179</td></tr><tr class=""><th scope="row">보연</th><td style="background:#7a4e5c;color:#FFFFFF" tabindex="0" data-tip="보연 · 상의|178개 · 62%">62</td><td style="background:#f6f2f0;color:var(--ink)" tabindex="0" data-tip="보연 · 니트·가디건|0개 · 0%">0</td><td style="background:#d3c4c7;color:var(--ink)" tabindex="0" data-tip="보연 · 원피스|36개 · 13%">13</td><td style="background:#b79ea4;color:var(--ink)" tabindex="0" data-tip="보연 · 아우터|66개 · 23%">23</td><td style="background:#f0eae9;color:var(--ink)" tabindex="0" data-tip="보연 · 스커트|6개 · 2%">2</td><td style="background:#f5f1ef;color:var(--ink)" tabindex="0" data-tip="보연 · 팬츠|1개 · 0%">0</td><td class="tot">287</td></tr></tbody></table></div>
+  <div class="key"><span class="unit">%</span></div>
+</section>
+</div>
 
-<section class="sec"><h2>배송·반품</h2><div>
-  <div class="scroll"><table class="t"><thead><tr><th scope="col">브랜드</th><th scope="col" class="n">배송비</th><th scope="col">무료배송</th><th scope="col">단순 변심 교환·반품</th></tr></thead><tbody><tr class="ref"><th scope="row">그레이스유</th><td class="n">3,500원</td><td class="">10만 원 이상 무료</td><td class="what">단순 변심: 수령 후 7일 이내 접수, 교환·반품비 고객 부담 · 하자·오배송: 수령 후 3개월 이내(알게 된 날부터 30일 이내) 무료</td></tr><tr class=""><th scope="row">쿠메</th><td class="n dim">확인 안 됨</td><td class="dim">확인 안 됨</td><td class="what">수령 후 7일 이내 접수 · 단순 변심: 왕복 배송비 고객 부담</td></tr><tr class=""><th scope="row">낫띵리튼</th><td class="n">3,000원</td><td class="">5만 원 이상 무료</td><td class="what">수령 후 48시간 이내 접수, 7일 이내 반입 · 단순 변심·교환: 고객 부담(반품 구매액 5만원 미만 6,000원 / 이상 3,000원, 교환 6,000원)</td></tr><tr class=""><th scope="row">제이제이지고트</th><td class="n dim">확인 안 됨</td><td class="">5만 원 이상 무료</td><td class="what">배송완료일로부터 7일 이내 사이트에서 접수 · 교환은 같은 제품 사이즈만</td></tr><tr class=""><th scope="row">오르</th><td class="n dim">확인 안 됨</td><td class="dim">확인 안 됨</td><td class="what">교환·반품 접수 후 반품 도착 기준 평일 3~5일 처리 · 시착 등으로 가치 훼손 시 불가</td></tr><tr class=""><th scope="row">라메레이</th><td class="n">무료</td><td class="">금액 상관없이 무료</td><td class="what">수령 후 7일 이내 접수 · 교환·반품 왕복 배송비 7,000원</td></tr><tr class=""><th scope="row">보연</th><td class="n">무료</td><td class="">금액 상관없이 무료</td><td class="what">공급받은 날부터 7일 이내 교환·반품 · 변심 비용은 안내 페이지에서 확인 안 됨</td></tr></tbody></table></div>
-  <p class="fine">각 공식몰 상품 상세·이용 안내에 공개된 문구를 줄여 적었다(10-29~30 확인). 화면에서 찾지 못한 값은 "확인 안 됨"으로 둔다.</p>
-</div></section>
+<section class="sec" id="graceu">
+  <h2>GRACE U 공식몰</h2>
+  <div class="obs"><article class="ob" style="--i:0"><b>35%</b><h3>품절 노출</h3><p>의류 450개 중 158개 품절 표시 상태로 목록 노출</p><p class="do">재입고 예정·단종 구분, 재입고 알림</p></article><article class="ob" style="--i:1"><b>24/30</b><h3>소재 텍스트 누락</h3><p>최근 등록 30개 모델 중 24개는 혼용률이 이미지에만 · 이전 상품은 184개 중 178개 텍스트</p><p class="do">상세 상단에 혼용률·실측 텍스트</p></article><article class="ob" style="--i:2"><b>46 · 68</b><h3>CEREMONY · PRE-ORDER</h3><p>비교 6개 브랜드에 없는 행사복·예약 판매 운영</p><p class="do">행사복 매출 비중 확인 후 비교군 확장</p></article></div>
+</section>
 
-<section class="sec"><h2>우리 공식몰에서 보인 것</h2><div class="obss"><article class="obs"><h3>품절 표시가 목록의 35%</h3><dl><dt>본 것</dt><dd>여성 의류 상품 페이지 450개 중 158개에 품절 표시가 붙은 채 목록에 남아 있다.</dd><dt>왜 볼 만한가</dt><dd>고객이 목록을 넘길 때 살 수 없는 상품을 자주 만나면 &quot;살 게 없다&quot;는 인상을 줄 수 있다. 잘 팔려서 품절된 것인지, 시즌이 끝난 상품인지는 화면만으로는 알 수 없다.</dd><dt>해 볼 수 있는 것</dt><dd>재입고 예정과 단종을 나눠 표시하고, 재입고 예정 상품에는 알림 신청을 받는다. 단종 상품은 목록 뒤로 보낸다.</dd><dt>회사에서 확인할 것</dt><dd>품절 상품별 재생산 계획, 재입고 알림을 받았을 때의 수요</dd></dl></article><article class="obs"><h3>최근 상품일수록 소재가 이미지 안에만</h3><dl><dt>본 것</dt><dd>가장 최근에 등록된 30개 모델 중 24개는 혼용률이 글자로 없고 상세 이미지 안에만 있다. 그 이전 상품은 184개 중 178개가 글자로 적혀 있다.</dd><dt>왜 볼 만한가</dt><dd>21만 원대 옷에서 소재는 가격의 이유가 된다. 글자로 없으면 검색·필터·플랫폼 상품정보에 잘 잡히지 않고, 고객은 이미지 끝까지 내려야 찾는다.</dd><dt>해 볼 수 있는 것</dt><dd>상세 상단에 혼용률·실측·세탁 방법을 글자로 3줄 요약한다. 이미지는 그대로 둔다.</dd><dt>회사에서 확인할 것</dt><dd>소재·사이즈 관련 문의 비율, 반품 사유 중 소재·사이즈 비중</dd></dl></article><article class="obs"><h3>비교군에 없는 행사복·예약 운영</h3><dl><dt>본 것</dt><dd>의류 중 CEREMONY 메뉴 상품이 46개, PRE-ORDER(예약 주문) 상품이 68개 있다. 공식몰 메타 키워드에도 셀프웨딩·하객룩이 있다. 비교한 6곳은 일상복 중심이다.</dd><dt>왜 볼 만한가</dt><dd>이 수요가 매출의 큰 축이라면 일상복 브랜드만으로는 비교 기준이 부족하다. 예약 주문은 재고 부담을 줄이는 운영일 수 있다.</dd><dt>해 볼 수 있는 것</dt><dd>행사복 매출 비중을 먼저 확인하고, 크면 웨딩·하객복 브랜드를 비교군에 한 겹 더한다.</dd><dt>회사에서 확인할 것</dt><dd>CEREMONY·예약 상품의 매출 비중과 시즌(봄·가을 웨딩)</dd></dl></article></div></section>
+<div class="pair">
+<section class="sec" id="change">
+  <h2>변화 <small>26.10.29 → 26.10.30</small></h2>
+  <ul class="log"><li tabindex="0" data-tip="[WHITE LABEL] Hazel Fox Goose Down Padding (Beige)  558,780원 → 834,000원|[WHITE LABEL] Hazel Fox Goose Down Padding (Black)  558,780원 → 834,000원"><span class="lb">그레이스유</span><span class="lk">판매가 인상</span><span class="lc">2</span><span class="lr">+49%</span><span class="ln">HAZLE DOWN 33% OFF 종료</span></li><li tabindex="0" data-tip="트위드 미니 원피스 +재킷 세트  377,100원 → 293,300원|셔츠 칼라 아가일 니트 가디건  135,200원 → 118,300원|자개 버튼 하이넥 니트 가디건  103,200원 → 90,300원|라운드넥 퍼프 소매 벨티드 원피스  239,400원 → 167,580원|배색 스티치 브이넥 가디건  175,200원 → 153,300원|슬림핏 보트넥 머메이드 원피스  239,400원 → 167,580원"><span class="lb">제이제이지고트</span><span class="lk">판매가 인하</span><span class="lc">17</span><span class="lr">-30~-12%</span><span class="ln"></span></li><li tabindex="0" data-tip="목록 미노출"><span class="lb">제이제이지고트</span><span class="lk">목록 미노출</span><span class="lc">5</span><span class="lr"></span><span class="ln"></span></li><li tabindex="0" data-tip="최초 발견"><span class="lb">제이제이지고트</span><span class="lk">최초 발견</span><span class="lc">3</span><span class="lr"></span><span class="ln"></span></li><li tabindex="0" data-tip="1차·2차·TIME SALE 종료"><span class="lb">오르</span><span class="lk">목록 미노출</span><span class="lc">754</span><span class="lr"></span><span class="ln">1차·2차·TIME SALE 종료</span></li><li tabindex="0" data-tip="품절 표시 변화"><span class="lb">오르</span><span class="lk">품절 표시 변화</span><span class="lc">1</span><span class="lr"></span><span class="ln"></span></li></ul>
+</section>
 
-<section class="sec"><h2>매일 쌓이는 것</h2><div>
-  <h3 class="sub">바뀐 것 (2026-10-29 → 2026-10-30, 상품 페이지 수)</h3>
-  <ul class="chg"><li><b>그레이스유</b> 판매가 변화 2개<span class="note">10-29 메뉴에 있던 &#x27;HAZLE DOWN 33% OFF&#x27;가 10-30에 사라지고 해당 다운이 정가로 돌아갔다.</span></li><li><b>제이제이지고트</b> 판매가 변화 17개 · 목록 미노출 5개 · 최초 발견 3개</li><li><b>오르</b> 목록 미노출 754개 · 품절 표시 변화 1개<span class="note">10-29에 열려 있던 1차·2차·TIME SALE 컬렉션 26개가 10-30에 비워졌다(사이트에 &quot;상품이 없습니다&quot;). 삭제가 아니라 세일 종료로 보인다.</span></li><li class="quiet">쿠메·낫띵리튼: 바뀐 것 없음</li><li class="quiet">라메레이·보연: 10-30 첫 수집이라 비교는 다음 날부터</li></ul>
-  <ul class="ex"><li>제이제이지고트 · 라운드넥 퍼프 소매 벨티드 원피스 <span class="n">239,400원 → 167,580원</span></li><li>그레이스유 · [WHITE LABEL] Hazel Fox Goose Down Padding (Beige) <span class="n">558,780원 → 834,000원</span></li></ul>
-  <p class="fine">목록에서 사라진 상품은 삭제나 판매 종료로 단정하지 않는다. 2~3주 쌓이면 할인이 시작·종료되는 주기, 신상 등록 리듬, BEST 진입·이탈, 품절 → 재입고를 브랜드별로 볼 수 있다.</p>
-</div></section>
-
-<footer class="foot">
-  <h2>이 자료의 범위</h2>
-  <ul>
-    <li>각 브랜드 공식몰의 공개 화면만 읽었다. 판매량·재고·매출은 알 수 없고 추정하지 않았다.</li>
-    <li>소재는 상품 페이지에 글자로 적힌 것만 썼고, 사진으로 짐작하지 않았다.</li>
-    <li>숫자는 수집 시점의 화면 기준이며 사이트 사정에 따라 바뀐다. 원자료와 계산 방법은 함께 보관하고 있다.</li>
-  </ul>
-</footer>
-</main></body></html>
+<section class="sec small" id="ship">
+  <h2>배송 · 반품</h2>
+  <table class="st"><thead><tr><th></th><th>배송비</th><th>무료 기준</th><th>반품</th></tr></thead><tbody><tr class="me" tabindex="0" data-tip="배송비 3,500원 · 실결제 100,000원 이상 무료 · 배송 평균 1~7일(주말·공휴일 제외)|단순 변심: 수령 후 7일 이내 접수, 교환·반품비 고객 부담 · 하자·오배송: 수령 후 3개월 이내(알게 된 날부터 30일 이내) 무료"><th scope="row">그레이스유</th><td>3,500원</td><td>10만 원 이상</td><td>7일</td></tr><tr class="" tabindex="0" data-tip="주문 5만원 미만 배송비 4,000원 · 결제 후 영업일 1~3일 출고|수령 후 7일 이내 접수 · 단순 변심: 왕복 배송비 고객 부담 · 불량·오배송: 당사 부담"><th scope="row">쿠메</th><td>4,000원</td><td>5만 원 이상</td><td>7일</td></tr><tr class="" tabindex="0" data-tip="배송비 3,000원 · 5만원 이상(주문 1건당) 무료 · 제주·도서산간 +3,000원 · 출고 2~3일(주말·공휴일 제외)|수령 후 48시간 이내 접수, 7일 이내 반입 · 단순 변심·교환: 고객 부담(반품 구매액 5만원 미만 6,000원 / 이상 3,000원, 교환 6,000원) · 불량·오배송: 브랜드 부담"><th scope="row">낫띵리튼</th><td>3,000원</td><td>5만 원 이상</td><td>7일</td></tr><tr class="" tabindex="0" data-tip="5만원 이상 무료 · 미만 배송비 금액은 공개 안내 없음 · CJ대한통운|배송완료일로부터 7일 이내 사이트에서 접수 · 교환은 같은 제품 사이즈만 · &#x27;무료반품 불가&#x27; 안내가 있어 단순 변심은 고객 부담으로 분류"><th scope="row">제이제이지고트</th><td>-</td><td>5만 원 이상</td><td>7일</td></tr><tr class="" tabindex="0" data-tip="결제 후 평일 2~5일 출고 · 배송비 금액은 공개 안내 없음|수령 후 7일 이내 채팅 접수 · 같은 상품 사이즈 교환만 · 세일·이벤트 상품 일부 반품 불가"><th scope="row">오르</th><td>-</td><td>-</td><td>7일</td></tr><tr class="" tabindex="0" data-tip="무료배송(금액 조건 없음) · 결제 후 평일 1~3일 출고 · 제주·도서산간 추가|수령 후 7일 이내 접수 · 교환·반품 왕복 배송비 7,000원"><th scope="row">라메레이</th><td>무료</td><td>-</td><td>7일</td></tr><tr class="" tabindex="0" data-tip="주문 금액에 상관없이 무료 · 배송 3~7일 · 산간·도서 추가 가능|공급받은 날부터 7일 이내 · 단순 변심 반송비 고객 부담"><th scope="row">보연</th><td>무료</td><td>-</td><td>7일</td></tr></tbody></table>
+</section>
+</div>
+</main>
+<script>
+(()=>{const box=document.getElementById('tip');let cur=null;
+function show(el,x,y){const p=el.dataset.tip.split('|');box.innerHTML='<b>'+p[0].replace(/</g,'&lt;')+'</b>'+p.slice(1).map(s=>s.replace(/</g,'&lt;')).join('<br>');box.hidden=false;place(x,y);requestAnimationFrame(()=>box.classList.add('on'))}
+function place(x,y){const w=box.offsetWidth,h=box.offsetHeight;let l=x+16,t=y+18;if(l+w>innerWidth-8)l=x-w-16;if(t+h>innerHeight-8)t=y-h-14;box.style.left=Math.max(8,l)+'px';box.style.top=Math.max(8,t)+'px'}
+function hide(){box.classList.remove('on');box.hidden=true;cur=null}
+document.addEventListener('pointerover',e=>{const el=e.target.closest('[data-tip]');if(el&&el!==cur){cur=el;show(el,e.clientX,e.clientY)}else if(!el&&cur)hide()});
+document.addEventListener('pointermove',e=>{if(cur)place(e.clientX,e.clientY)});
+document.addEventListener('focusin',e=>{const el=e.target.closest('[data-tip]');if(el){cur=el;const r=el.getBoundingClientRect();show(el,r.left+r.width/2,r.bottom)}});
+document.addEventListener('focusout',hide);addEventListener('scroll',()=>{if(cur&&!cur.matches(':focus'))hide()},{passive:true});})();
+</script></body></html>

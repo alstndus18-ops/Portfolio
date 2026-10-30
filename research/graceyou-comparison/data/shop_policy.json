@@ -13,14 +13,16 @@
    "return_days": 7
   },
   "kume": {
-   "ship": "결제 후 영업일 1~3일 이내 출고 · 배송비·무료배송 기준은 공개 화면에서 확인 안 됨",
+   "ship": "주문 5만원 미만 배송비 4,000원 · 결제 후 영업일 1~3일 출고",
    "ret": "수령 후 7일 이내 접수 · 단순 변심: 왕복 배송비 고객 부담 · 불량·오배송: 당사 부담",
    "urls": [
-    "https://kume-studio.co.kr/product/detail.html?product_no=3533"
+    "https://kume-studio.co.kr/product/detail.html?product_no=3533",
+    "https://kume-studio.co.kr/shopinfo/guide.html"
    ],
-   "fee": null,
-   "free_min": null,
-   "return_days": 7
+   "fee": 4000,
+   "free_min": 50000,
+   "return_days": 7,
+   "observed_at": "2026-10-30"
   },
   "nw": {
    "ship": "배송비 3,000원 · 5만원 이상(주문 1건당) 무료 · 제주·도서산간 +3,000원 · 출고 2~3일(주말·공휴일 제외)",
@@ -44,7 +46,7 @@
    "return_days": 7
   },
   "jj": {
-   "ship": "5만원 이상 구매 시 무료(도서산간 추가 배송비) · CJ대한통운",
+   "ship": "5만원 이상 무료 · 미만 배송비 금액은 공개 안내 없음 · CJ대한통운",
    "ret": "배송완료일로부터 7일 이내 사이트에서 접수 · 교환은 같은 제품 사이즈만 · '무료반품 불가' 안내가 있어 단순 변심은 고객 부담으로 분류",
    "urls": [
     "https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD27091059"
@@ -54,15 +56,16 @@
    "return_days": 7
   },
   "orr": {
-   "ship": "배송비·무료배송 기준은 공개 화면(배송 안내 정책 페이지)에서 확인 안 됨",
-   "ret": "교환·반품 접수 후 반품 도착 기준 평일 3~5일 처리 · 시착 등으로 가치 훼손 시 불가 · 접수 기간·변심 비용은 공개 화면에서 확인 안 됨",
+   "ship": "결제 후 평일 2~5일 출고 · 배송비 금액은 공개 안내 없음",
+   "ret": "수령 후 7일 이내 채팅 접수 · 같은 상품 사이즈 교환만 · 세일·이벤트 상품 일부 반품 불가",
    "urls": [
     "https://orr.store/policies/shipping-policy",
-    "https://orr.store/policies/refund-policy"
+    "https://orr.store/policies/refund-policy",
+    "https://orr.store/pages/faqs"
    ],
    "fee": null,
    "free_min": null,
-   "return_days": null,
+   "return_days": 7,
    "observed_at": "2026-10-30"
   },
   "lamerei": {
@@ -78,7 +81,7 @@
   },
   "voyonn": {
    "ship": "주문 금액에 상관없이 무료 · 배송 3~7일 · 산간·도서 추가 가능",
-   "ret": "공급받은 날부터 7일 이내 교환·반품 · 변심 비용은 안내 페이지에서 확인 안 됨",
+   "ret": "공급받은 날부터 7일 이내 · 단순 변심 반송비 고객 부담",
    "urls": [
     "https://voyonn.com/shopinfo/guide.html"
    ],
