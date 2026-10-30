@@ -1,5 +1,5 @@
-"""5개 브랜드 일일 관찰 수집 (기획서 §14). 실행마다 새 JSON을 남기고 기존 파일은 덮어쓰지 않는다.
-  python monitor/collect.py                 # graceu kume nw jj orr 전부
+"""7개 브랜드 일일 관찰 수집 (기획서 §14). 실행마다 새 JSON을 남기고 기존 파일은 덮어쓰지 않는다.
+  python monitor/collect.py                 # graceu kume nw jj orr lamerei voyonn 전부
   python monitor/collect.py kume orr        # 일부만
   python monitor/collect.py --promos        # 메인 화면 행사만 다시 읽기 (상품 목록 재수집 없음)
 결과: snapshots/monitor/<brand>/<YYYY-MM-DD>/<run_id>.json  (products · coverage · placements · promotions)
@@ -123,13 +123,13 @@ NON_CLOTHING = re.compile(r'\bbag\b|가방|\b백\b|shoe|슈즈|heel|힐\b|loafer
 NAME_RULES = [
     ('세트', re.compile(r'세트|셋업|\bset\b|set-?up', re.I)),
     ('원피스', re.compile(r'원피스|one[- ]?piece|dress|드레스|점프수트|jumpsuit', re.I)),
-    ('스커트', re.compile(r'스커트|skirt', re.I)),
-    ('팬츠', re.compile(r'팬츠|pants|trousers|트라우저|슬랙스|slacks|jeans|shorts|\bshort\s*(?:\(|$)|쇼츠|반바지|바지|bootcut|부츠컷|leggings|레깅스', re.I)),
+    ('스커트', re.compile(r'스커트|skirt|\bsk\b', re.I)),  # sk·pt·jk: 라메레이 균일가 상품명 약어
+    ('팬츠', re.compile(r'팬츠|pants|trousers|트라우저|슬랙스|slacks|jeans|shorts|\bshort\s*(?:\(|$)|쇼츠|반바지|바지|bootcut|부츠컷|leggings|레깅스|\bpt\b', re.I)),
     ('아우터', re.compile(r'코트|\bcoat\b|자켓|재킷|jacket|점퍼|jumper|패딩|padding|puffer|구스다운|덕다운|블루종|blouson|트렌치|trench|parka|파카|무스탕|mustang|'
-                       r'블레이저|blazer|anorak|아노락', re.I)),
+                       r'블레이저|blazer|anorak|아노락|아우터|\bjk\b', re.I)),
     ('니트·가디건', re.compile(r'니트|knit|가디건|카디건|cardigan|sweater|스웨터|풀오버|pullover|slipover|슬립오버', re.I)),
     ('아우터', re.compile(r'\bvest\b|조끼|베스트(?!셀러)', re.I)),  # 니트 조끼는 위에서 니트로 간다
-    ('상의(니트 제외)', re.compile(r'sweatshirt|맨투맨|mtm|hood|후드|t-?shirt|티셔츠|\btee\b|shirt|셔츠|blouse|블라우스|sleeveless|슬리브리스|tank|\btop\b|탑\b|polo', re.I)),
+    ('상의(니트 제외)', re.compile(r'sweatshirt|맨투맨|mtm|hood|후드|t-?shirt|티셔츠|\btee\b|shirt|셔츠|blouse|블라우스|sleeveless|슬리브리스|tank|\btop\b|탑\b|polo|폴라티', re.I)),
     ('팬츠', re.compile(r'데님|denim', re.I)),  # 형태어 없이 '데님'만 있으면 청바지
 ]
 SHAPES = ('원피스', '팬츠', '스커트', '세트')
@@ -749,12 +749,125 @@ def orr_product(it, source, ts):
     return p
 
 
+# ---------- 라메레이·보연 (카페24, 일반 요청) ----------
+# 목록 가격 칸은 몰마다 다르다(라메레이: 판매가·최적할인가·쿠폰적용가, 보연: 판매가·할인판매가). 그래서 정가·판매가는
+# 상세 페이지의 product_price / product_sale_price(누구나 보는 할인판매가)에서 읽고, 목록의 쿠폰·최적할인가는 조건부로만 남긴다.
+# 메뉴 값: 공통 분류 / 'TOP'(이름으로 니트 구분) / None(이름으로 판단) / 'ACC'·'SWIM'(의류 통계 제외)
+C24 = {
+    'lamerei': {'site': 'https://lamerei.com', 'lists': {118: ('OUTER', '아우터'), 119: ('TOP', 'TOP'), 125: ('KNIT', '니트·가디건'), 120: ('PANTS', '팬츠'),
+                124: ('SKIRT&DRESS', None), 258: ('ACC', 'ACC'), 382: ('SWIMWEAR', 'SWIM'), 387: ('26FW', None),
+                # 하위 할인 메뉴는 비면 404를 낸다(10-30 70~80%). 상위 SEASON OFF가 전부 담으므로 상위만 읽는다
+                377: ('SEASON OFF', None),
+                381: ('REFURB & SAMPLE', None), 390: ('SPECIAL PRICE', None), 396: ('균일가', None)},
+                'promo': re.compile(r'OFF|SPECIAL|균일가|REFURB')},
+    'voyonn': {'site': 'https://voyonn.com', 'lists': {47: ('TOTAL', None), 25: ('OUTER', '아우터'), 79: ('JUMPER', '아우터'), 24: ('SHIRTS', 'TOP'),
+               64: ('BLOUSE', 'TOP'), 51: ('T-SHIRT', 'TOP'), 27: ('BOTTOM', None), 28: ('DRESS', '원피스'), 77: ('ACC', 'ACC'), 31: ('OUTLET', None)},
+               'promo': re.compile(r'OUTLET')},
+}
+
+
+def c24_cards(h):
+    out = []
+    for no, blk in re.findall(r'<li id="anchorBoxId_(\d+)"(.*?)(?=<li id="anchorBoxId_|</ul>\s*</div>\s*</div>|$)', h, re.S):
+        alt = re.search(r'<img[^>]*alt="([^"]+)"[^>]*class="big"', blk)
+        nm = re.search(r'class="\s*name"[^>]*>(.*?)</a>', blk, re.S)
+        name = H.unescape(alt.group(1)) if alt else re.sub(r'^\s*상품명\s*:\s*', '', H.unescape(re.sub(r'<[^>]+>', ' ', nm.group(1))) if nm else '')
+        img = re.search(r'<img[^>]*src="([^"]*/web/product/[^"]+)"', blk)
+        labels = [' '.join(H.unescape(re.sub(r'<[^>]+>', ' ', x)).split()) for x in re.findall(r'<li class=" xans-record-">(.*?)</li>', blk, re.S)]
+        out.append({'id': no, 'name': ' '.join(name.split()), 'image': ('https:' + img.group(1)) if img and img.group(1).startswith('//') else (img.group(1) if img else None),
+                    'labels': [x for x in labels if money(x)], 'soldout': bool(re.search(r'class="soldout"', blk)) if 'class="soldout' in blk else None})
+    return out
+
+
+def c24_prices(site, pid):
+    h = http(f'{site}/product/detail.html?product_no={pid}')
+    reg, sale = (re.search(rf"\b{k}\s*=\s*'?(\d+)", h) for k in ('product_price', 'product_sale_price'))
+    reg = int(reg.group(1)) if reg else None
+    return reg, int(sale.group(1)) if sale else reg  # 할인이 없으면 product_sale_price가 없고 판매가 = product_price
+
+
+def collect_c24(brand, run):
+    cfg = C24[brand]
+    site, lists = cfg['site'], cfg['lists']
+    products, members = {}, {}
+    for cate, (label, _) in lists.items():
+        url = f'{site}/product/list.html?cate_no={cate}'
+        cov = {'name': label, 'url': url, 'status': 'complete', 'expected_count': None}
+        ids = []
+        try:
+            for pg in range(1, 40):
+                ts = now()
+                h = http(url + (f'&page={pg}' if pg > 1 else ''))
+                cards = [c for c in c24_cards(h) if c['id'] not in ids]
+                if not cards:
+                    break
+                for c in cards:
+                    ids.append(c['id'])
+                    members.setdefault(c['id'], []).append(cate)
+                    if c['id'] not in products:
+                        cond = [price_obs(money(x), 'conditional', x, url, ts, label=x.split(':')[0].strip(), conditions='목록 표시(쿠폰·최적할인 적용 조건)')
+                                for x in c['labels'] if re.search(r'쿠폰|최적', x)]
+                        products[c['id']] = {'card': c, 'ts': ts, 'cond': cond}
+                if not re.search(rf'page={pg + 1}\b', h):
+                    break
+        except Exception as e:  # noqa: BLE001
+            cov.update(status='failed', reason=str(e))
+            run['failed_urls'].append({'url': url, 'error': str(e)})
+        cov.update(fetched_count=len(ids), end_reached=cov['status'] == 'complete', product_ids=ids)
+        run['coverage'].append(cov)
+        print(f'  {label}: {len(ids)} {cov["status"]}', flush=True)
+
+    def detail(pid):
+        try:
+            return pid, now(), c24_prices(site, pid), None
+        except Exception as e:  # noqa: BLE001
+            return pid, now(), (None, None), str(e)
+    det = {'name': '상세 가격(product_price·product_sale_price)', 'url': f'{site}/product/detail.html', 'status': 'complete', 'expected_count': len(products)}
+    out, failed = [], []
+    with ThreadPoolExecutor(3) as ex:
+        for pid, ts, (reg, sale), err in ex.map(detail, list(products)):
+            x = products[pid]
+            src = f'{site}/product/detail.html?product_no={pid}'
+            if err:
+                failed.append(pid)
+                run['failed_urls'].append({'url': src, 'error': err})
+            prices = [price_obs(sale, 'public_sale', f'product_sale_price {sale}', src, ts, 'detail_sale')] if sale else []
+            prices += [price_obs(reg, 'regular', f'product_price {reg}', src, ts, 'detail_price')] if reg else []
+            c = x['card']
+            p = product(brand, pid, c['name'], src, ts, prices + x['cond'], c['image'],
+                        {True: 'sold_out', False: 'no_soldout_mark', None: 'unknown'}[c['soldout']], '목록 품절 표시' if c['soldout'] else None)
+            p['category_raw'] = [lists[k][0] for k in members[pid]]
+            menu = [lists[k][1] for k in members[pid] if lists[k][1]]
+            if {'ACC', 'SWIM'} & set(menu):
+                finalize_category(p, [], generic_ok=False)
+                p['category_basis'] = 'official_menu_' + ('acc' if 'ACC' in menu else 'swim')
+            else:
+                sub = [m for m in menu if m != 'TOP']
+                finalize_category(p, sub or [top_split(p['name']) for m in menu if m == 'TOP'])
+            out.append(p)
+    det.update(fetched_count=len(products) - len(failed), status='partial' if failed else 'complete', failed_ids=failed)
+    run['coverage'].append(det)
+    print(f'  상세 가격: {det["fetched_count"]}/{len(products)} {det["status"]}', flush=True)
+    run['products'] = out
+    run['placement_status'] = {'BEST': {'status': 'not_provided', 'evidence': '메뉴·메인에 BEST 영역 없음'},
+                               'NEW': {'status': 'not_provided', 'evidence': '메뉴·메인에 NEW 영역 없음 (시즌·NEWS는 NEW로 대체하지 않음)'}}
+    br = Browser(f'fcp-mon-{brand}')
+    promos, st = home_promotions(br, site + '/')
+    br.close()
+    for c in run['coverage']:
+        if cfg['promo'].search(c['name']) and c.get('fetched_count'):
+            promos.append({'source': 'promo_menu', 'raw': c['name'], 'url': c['url'], 'product_count': c['fetched_count'], 'observed_at': now()})
+    run['promotions'], run['promotion_status'] = promos, st
+
+
 BRANDS = {
     'graceu': {'name': '그레이스유', 'channel': 'graceu.co.kr', 'fn': collect_graceu},
     'kume': {'name': '쿠메', 'channel': 'kume-studio.co.kr', 'fn': collect_kume},
     'nw': {'name': '낫띵리튼', 'channel': 'nothing-written.com', 'fn': collect_nw},
     'jj': {'name': '제이제이지고트', 'channel': 'pc.babathe.com/bnd/jjjigott', 'fn': collect_jj},
     'orr': {'name': '오르', 'channel': 'orr.store', 'fn': collect_orr},
+    'lamerei': {'name': '라메레이', 'channel': 'lamerei.com', 'fn': lambda run: collect_c24('lamerei', run)},
+    'voyonn': {'name': '보연', 'channel': 'voyonn.com', 'fn': lambda run: collect_c24('voyonn', run)},
 }
 
 
@@ -789,7 +902,8 @@ def run_brand(brand):
     return out
 
 
-HOME = {'graceu': 'https://graceu.co.kr/', 'kume': KUME + '/', 'nw': NW + '/', 'jj': BB + '/bnd/jjjigott', 'orr': ORR + '/'}
+HOME = {'graceu': 'https://graceu.co.kr/', 'kume': KUME + '/', 'nw': NW + '/', 'jj': BB + '/bnd/jjjigott', 'orr': ORR + '/',
+        **{b: C24[b]['site'] + '/' for b in C24}}
 
 
 def refresh_promotions(brand):

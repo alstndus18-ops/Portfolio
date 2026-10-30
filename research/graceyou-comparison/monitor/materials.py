@@ -18,7 +18,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from collect import ROOT, http, now  # noqa: E402
 
-BRANDS = ['graceu', 'kume', 'nw', 'jj', 'orr']
+BRANDS = ['graceu', 'kume', 'nw', 'jj', 'orr', 'lamerei', 'voyonn']
 HERE = Path(__file__).resolve().parent
 STORE = HERE / 'materials.json'
 FIBER = (r'램스울|lambswool|울|wool|캐시미어|cashmere|재생면|면|모(?=\s*[:：]?\s*\d)|코튼|cotton|폴리에스터|폴리에스테르|폴리우레탄|폴리아미드|폴리|polyester|나일론|nylon|레이온|rayon|비스코스|viscose|아크릴|acrylic|'
@@ -87,6 +87,8 @@ def model_key(brand, p):
     n = re.sub(r'\s*\([^()]*\)\s*$', '', n)  # (Black), (Black, W)
     if brand == 'kume':
         n = re.sub(r',\s*[^,]+$', '', n)  # ", Ivory"
+    if brand == 'lamerei':
+        n = re.sub(r'\]\s*-\s*[^\]]+$', ']', n)  # "[LMBFWITT634]-Brown" 품번 뒤 색상
     return ' '.join(n.lower().split())
 
 
@@ -132,6 +134,11 @@ def read_model(brand, p, reads):
             items = json.loads(http(JJ_NOTI.format(gid)))['goodsNotifyList'] or []
             rec['source'] = 'jj_notify_제품소재'
             rec['raw_text'] = page_text(next((i['itemVal'] or '' for i in items if i.get('itemNm') == '제품소재'), ''))[:4000]
+        elif brand == 'lamerei':  # '혼용률 (%)' 아래 줄마다 'Wool 70'처럼 % 없이 적혀 있다 → 그 칸만 잘라 숫자에 %를 붙인다
+            h = get(p['url'])
+            m = re.search(r'혼용률\s*\(%\)(.*?)(?:세탁방법|유의사항|$)', page_text(h), re.S)
+            rec['source'] = 'detail_text_혼용률표'
+            rec['raw_text'] = re.sub(r'(\d+(?:\.\d+)?)\s*(?=\n|$)', r'\1%', '\n'.join(' '.join(x.split()) for x in m.group(1).splitlines() if x.strip())) if m else ''
         else:
             h = get(p['url'])
             rec['source'] = 'detail_text'
