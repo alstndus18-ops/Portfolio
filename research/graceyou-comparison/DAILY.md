@@ -1,5 +1,7 @@
 # 매일 추적하기 (며칠치 변화 보기)
 
+> **2026-10-30부터 실제로 매일 도는 것은 `monitor\run_daily.cmd`다**(기획서 §14 방식, 그레이스유·쿠메·낫띵리튼·제이제이지고트·오르, `collect.py` → `materials.py` → `build.py`). 작업 스케줄러 "GraceU monitor daily"에 매일 20:00으로 등록했고 로그는 `monitor\logs\<날짜>.log`(커밋 안 함). 이 PC가 켜져 있어야 한다. 아래는 쉬즈미스 포함 옛 4곳의 상의 상세 트랙(`tools\run_daily.cmd`) 안내로, 예약하지 않았다.
+
 그레이스유와 확정 4곳(쿠메·낫띵리튼·쉬즈미스·제이제이지고트)을 **같은 시각에 매일 한 번** 읽어 날짜별 스냅샷으로 쌓고, 날짜 사이 변화를 비교한다. 5일 정도 쌓으면 신상 주기·할인 시작/종료·진열 순서·가격 변경이 보인다. 기준선은 2026-10-29에 이미 저장했다.
 
 ## 한 번에 돌리기
@@ -43,4 +45,11 @@ python tools/diff_snapshots.py wconcept 108809 --series
 
 ## 매일 자동으로 돌리고 싶을 때
 
-이 PC가 켜져 있어야 한다. 작업 스케줄러에 `tools\run_daily.cmd`를 매일 같은 시각으로 등록하거나, Claude에게 예약 작업으로 만들어 달라고 요청한다(요청 전에는 만들지 않는다).
+`monitor\run_daily.cmd`는 이미 등록돼 있다(맨 위 참고). 확인·삭제:
+
+```bash
+schtasks /Query /TN "GraceU monitor daily" /FO LIST /V
+schtasks /Delete /TN "GraceU monitor daily" /F
+```
+
+옛 트랙 `tools\run_daily.cmd`는 등록하지 않았다.

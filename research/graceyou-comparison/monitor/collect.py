@@ -241,8 +241,9 @@ badges:[...e.querySelectorAll('.icon img')].map(i=>({alt:i.alt,src:i.src})),
 }))})'''
 FIRST_PAGE = re.compile(r'[?&]page=1(?!\d)')
 GU_MENU = {'Outwears': '아우터', 'Dresses': '원피스', 'Skirts': '스커트', 'Pants': '팬츠', 'Homewears': '홈웨어', 'Tops': 'TOPS'}
-GU_LISTS = ['View All', 'Outwears', 'Dresses', 'Tops', 'Skirts', 'Pants', 'Homewears', 'NEW ARRIVAL', 'PRE-ORDER', 'HAZLE DOWN 33% OFF',
+GU_LISTS = ['View All', 'Outwears', 'Dresses', 'Tops', 'Skirts', 'Pants', 'Homewears', 'NEW ARRIVAL', 'PRE-ORDER',
             'CEREMONY', 'THE DAYANA', 'HAUTE COUTURE', 'WHITE LABEL']
+GU_EVENT_MENU = re.compile(r'OFF|SALE', re.I)  # 'HAZLE DOWN 33% OFF'처럼 생기고 사라지는 행사 메뉴는 그날 메뉴에서 찾는다
 
 
 def gu_card(card, ts, source):
@@ -302,9 +303,9 @@ def collect_graceu(run):
     menus = {m['name']: m['url'] for m in first['menus']}
     run['menus'] = menus
     products, cats = {}, {}
-    for name in GU_LISTS:
+    for name in GU_LISTS + [m for m in menus if GU_EVENT_MENU.search(m) and m not in GU_LISTS]:
         if name not in menus:
-            run['coverage'].append({'name': name, 'status': 'failed', 'reason': 'menu_missing'})
+            run['coverage'].append({'name': name, 'url': None, 'status': 'failed', 'reason': 'menu_missing'})
             continue
         cov = {'name': name, 'url': menus[name], 'status': 'complete', 'end_reached': False}
 
