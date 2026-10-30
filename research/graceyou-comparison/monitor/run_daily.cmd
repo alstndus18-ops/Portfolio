@@ -12,4 +12,5 @@ echo ===== start %DATE% %TIME% >> %LOG%
 %PY% -u monitor\collect.py >> %LOG% 2>&1
 %PY% -u monitor\materials.py >> %LOG% 2>&1
 %PY% -u monitor\build.py >> %LOG% 2>&1
+%PY% -u monitor\brief.py >> %LOG% 2>&1
 echo ===== end %DATE% %TIME% exit=%ERRORLEVEL% >> %LOG%
