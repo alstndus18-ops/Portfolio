@@ -13,7 +13,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from build import model_units, runs_by_date  # noqa: E402  먼저: collect가 tools/를 경로 앞에 넣어 같은 이름의 tools/build.py가 잡힌다
+from build import model_key, model_units, runs_by_date  # noqa: E402  먼저: collect가 tools/를 경로 앞에 넣어 같은 이름의 tools/build.py가 잡힌다
 from collect import BRANDS, ROOT  # noqa: E402
 
 OUT = Path(__file__).resolve().parent / 'out'
@@ -162,7 +162,7 @@ def page(f, standalone):
                 mt = tip(f'{name[b]} · {label}', f'최저 {won(x[0])} · 최고 {won(x[4])}', f'가운데 50% {won(x[1])} ~ {won(x[3])}', f'중앙값 {won(x[2])}', f'상품 {len(units[b])}개')
                 rows_db += (f'<div class="pr{" me" if b == REF else ""}" style="--i:{i}" tabindex="0" data-tip="{mt}"><span class="pn">{esc(name[b])}</span>'
                             f'<div class="plot">{gl}{bar(x, "", True)}</div><span class="pv">{man(x[2])}</span></div>')
-            price_modes += (f'<div class="prices" data-mode="{mode}" data-scale="{scale}"{"" if (mode == "sale" and scale == "full") else " hidden"}>{HEAD}{rows_db}</div>')
+            price_modes += (f'<div class="prices" data-mode="{mode}" data-scale="{scale}"{"" if (mode == "sale" and scale == "zoom") else " hidden"}>{HEAD}{rows_db}</div>')
         order = [REF] + sorted([b for b in ORDER if b != REF], key=lambda b: -S['sale'][b][2])
         rows_db = ''
         for i, b in enumerate(order):
@@ -296,31 +296,67 @@ def page(f, standalone):
         mrows += f'<div class="mr{" me" if b == REF else ""}"><span class="mn">{esc(name[b])}</span>{cells}</div>'
     mhead = ''.join(f'<span>{esc(CAT_SHORT[c])}</span>' for c in CATS)
 
-    # ---------- 변화 ----------
-    cnt = {}
-    for c in f['changes']:
-        b = next(k for k, v in name.items() if v == c['brand'])
-        kind = re.sub(r'\(.*', '', c['change']).strip()
-        cnt.setdefault(b, {}).setdefault(kind, []).append(c)
-    log = ''
+    # ---------- 변화: 브랜드 × 날짜 달력 (상품 단위, 연속한 두 날짜 비교) ----------
+    def model_prices(b, run):
+        d = {}
+        for p in run['products']:
+            if p['in_clothing_scope'] and p['sale_price']:
+                k = model_key(b, p)
+                if k not in d or p['sale_price'] < d[k][0]:
+                    d[k] = (p['sale_price'], p['name'])
+        return d
+    reps = {b: runs_by_date(b) for b in ORDER}
+    all_days = sorted({d for b in ORDER for d in reps[b]})
+    cols = all_days[1:][-10:]
+    KINDS = (('down', '↓', '가격 인하', 'k-dn'), ('up', '↑', '가격 인상', 'k-up'), ('new', '+', '신규 등록', 'k-nw'), ('gone', '−', '목록에서 빠짐', 'k-gn'))
+    clhead = ''.join(f'<span>{d[5:].replace("-", ".")}</span>' for d in cols)
+    clrows = ''
     for b in ORDER:
-        if b not in cnt:
-            continue
-        kinds = {k: v for k, v in cnt[b].items() if not (k == '표시 할인율 변화' and '판매가 변화' in cnt[b])}
-        for k, cs in sorted(kinds.items(), key=lambda kv: -len(kv[1])):
-            ids = {c['product_id'] for c in cs}
-            detail = [f'{c["name"]}  {won(float(c["before"]))} → {won(float(c["after"]))}' for c in cs if c['before'] and c['after'] and k == '판매가 변화'][:6]
-            if k == '판매가 변화':
-                ch = [(float(c['after']) - float(c['before'])) / float(c['before']) * 100 for c in cs if c['before'] and c['after']]
-                k = f'판매가 {"인하" if max(ch) < 0 else "인상" if min(ch) > 0 else "변경"}'
-                rng = f'{min(ch):+.0f}%' if len(set(round(x) for x in ch)) == 1 else f'{min(ch):+.0f}% ~ {max(ch):+.0f}%'
-            else:
-                rng = ''
-            note = CHANGE_NOTES.get((b, f['date'])) if k.startswith(('판매가', '목록')) else None
-            log += (f'<li tabindex="0" data-tip="{tip(*detail) if detail else tip(note or k)}"><span class="lb">{esc(name[b])}</span><span class="lk">{esc(k)}</span>'
-                    f'<span class="lc">{len(ids)}</span><span class="lr">{esc(rng)}</span><span class="ln">{esc(note or "")}</span></li>')
-            if note:
-                CHANGE_NOTES.pop((b, f['date']))
+        cells = ''
+        for d in cols:
+            prev_day = all_days[all_days.index(d) - 1]
+            if d not in reps[b]:
+                cells += '<div class="cell dim">-</div>'
+                continue
+            if prev_day not in reps[b]:
+                cells += '<div class="cell dim">첫 수집</div>'
+                continue
+            r0, r1 = reps[b][prev_day], reps[b][d]
+            if r0['status'] != 'complete' or r1['status'] != 'complete':
+                cells += '<div class="cell dim">수집 불완전</div>'
+                continue
+            m0, m1 = model_prices(b, r0), model_prices(b, r1)
+            ev = {k: [] for k, *_ in KINDS}
+            for k, (pr, nm) in m1.items():
+                if k not in m0:
+                    ev['new'].append((nm, None, pr))
+                elif pr < m0[k][0]:
+                    ev['down'].append((nm, m0[k][0], pr))
+                elif pr > m0[k][0]:
+                    ev['up'].append((nm, m0[k][0], pr))
+            for k, (pr, nm) in m0.items():
+                if k not in m1:
+                    ev['gone'].append((nm, pr, None))
+            note = CHANGE_NOTES.get((b, d))
+            lines = [f'{name[b]} · {d[5:].replace("-", ".")}', note or '']
+            chips = ''
+            for key, sym, lab, cls in KINDS:
+                n = len(ev[key])
+                if not n:
+                    continue
+                chips += f'<span class="chg {cls}"><i>{sym}</i>{n:,}</span>'
+                lines.append(f'{lab} {n:,}개')
+                for nm, p0, p1 in ev[key][:3]:
+                    lines.append(f'  {nm[:28]}  ' + (f'{won(p0)} → {won(p1)}' if p0 and p1 else won(p0 or p1)))
+            if not chips:
+                chips, lines = '<span class="chg none">·</span>', lines + ['바뀐 것 없음']
+            cells += f'<div class="cell" tabindex="0" data-tip="{tip(*lines)}">{chips}</div>'
+        clrows += f'<div class="clr{" me" if b == REF else ""}"><span class="cln">{esc(name[b])}</span>{cells}</div>'
+    clkey = ''.join(f'<span class="{cls}"><i>{sym}</i>{lab}</span>' for _, sym, lab, cls in KINDS)
+
+    # 변화 시안 A~G를 모두 보여 주고 고른다(changes_lab.py). 순환 import라 여기서 불러온다
+    import changes_lab as L
+    change_vars = ''.join(f'<div class="lab-sec" id="v-{i}"><h3 class="vt"><b>{k}</b>{t}</h3>{fn()}</div>' for i, k, t, fn in L.VARIANTS)
 
     # ---------- 배송·반품 ----------
     def fee(b):
@@ -336,12 +372,11 @@ def page(f, standalone):
         ship += (f'<tr class="{"me" if b == REF else ""}" tabindex="0" data-tip="{tip(pol[b].get("ship", ""), ret)}"><th scope="row">{esc(name[b])}</th>'
                  f'<td>{esc(a)}</td><td>{esc(m)}</td><td>{esc(short)}</td></tr>')
 
-    d0, d1 = (f['prev'] or f['date']).replace('-', '.')[2:], f['date'].replace('-', '.')[2:]
     body_html = f'''<title>GRACE U 가격 분석</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Serif+KR:wght@400;500;600&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap">
-<style>{CSS}</style>
+<style>{CSS}{L.LAB_CSS}</style>
 <div class="tipbox" id="tip" role="tooltip" hidden></div>
 <nav class="fnav" id="fnav" aria-label="구역"><a href="#price">가격</a><a href="#gallery">상품</a><a href="#category">카테고리</a><a href="#discount">할인</a><a href="#mix">구성</a><a href="#change">변화</a><a href="#ship">배송</a></nav>
 <main class="wrap">
@@ -350,7 +385,7 @@ def page(f, standalone):
 </header>
 
 <section class="sec" id="price" data-m="sale">
-  <div class="hd"><h2>가격 포지션</h2><div class="segs"><div class="seg" role="group" aria-label="가격 기준"><button type="button" data-m="sale" aria-pressed="true">할인가</button><button type="button" data-m="reg" aria-pressed="false">정가</button><button type="button" data-m="both" aria-pressed="false">비교</button></div><div class="seg sx" role="group" aria-label="눈금"><button type="button" data-s="full" aria-pressed="true">최고가 기준</button><button type="button" data-s="zoom" aria-pressed="false">확대</button></div></div></div>
+  <div class="hd"><h2>가격 포지션</h2><div class="segs"><div class="seg" role="group" aria-label="가격 기준"><button type="button" data-m="sale" aria-pressed="true">할인가</button><button type="button" data-m="reg" aria-pressed="false">정가</button><button type="button" data-m="both" aria-pressed="false">비교</button></div><div class="seg sx" role="group" aria-label="눈금"><button type="button" data-s="zoom" aria-pressed="true">확대</button><button type="button" data-s="full" aria-pressed="false">최고가 기준</button></div></div></div>
   {price_modes}
   <div class="key"><span><i class="k-rail"></i>최저~최고</span><span><i class="k-iqr"></i>가운데 50%</span><span><i class="k-med"></i>중앙값</span><span class="kb"><i class="k-r"></i>정가</span><span class="kb"><i class="k-s"></i>할인가</span><span class="unit">만 원</span></div>
 </section>
@@ -370,21 +405,17 @@ def page(f, standalone):
   <div class="mx"><div class="mh"><span></span>{mhead}</div>{mrows}</div>
 </section>
 
-
-<div class="pair">
 <section class="sec" id="change">
-  <h2>변화 <small>{d0} → {d1}</small></h2>
-  <ul class="log">{log}</ul>
-</section>
+  <h2>변화</h2>
+{change_vars}</section>
 
 <section class="sec small" id="ship">
   <h2>배송 · 반품</h2>
   <table class="st"><thead><tr><th></th><th>배송비</th><th>무료 기준</th><th>반품</th></tr></thead><tbody>{ship}</tbody></table>
 </section>
-</div>
 </main>
 {gdata}
-<script>{JS}</script>'''
+<script>{JS}{L.LAB_JS}</script>'''
     if standalone:
         head_part, main_part = body_html.split('<div class="tipbox"', 1)
         return (f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'
@@ -754,6 +785,24 @@ h2{font-size:28px;font-weight:600}
 .gtrack::-webkit-scrollbar-thumb{background:#B3A59B;border-radius:7px;border:3px solid #EFE9E4}
 .gtrack::-webkit-scrollbar-thumb:hover{background:#8F8077}
 @supports (-moz-appearance:none){.gtrack{scrollbar-width:auto;scrollbar-color:#B3A59B #EFE9E4}}
+/* 변화 달력 */
+.cal{display:grid;overflow-x:auto}
+.clh,.clr{display:grid;grid-template-columns:7.5em repeat(var(--n),minmax(132px,1fr));align-items:center;column-gap:10px;min-width:max-content}
+.clh{height:34px;font-size:14.5px;color:var(--ink);font-variant-numeric:tabular-nums}
+.clh span{text-align:center}
+.clr{min-height:64px;border-top:1px solid var(--rule)}
+.clr:last-child{border-bottom:1px solid var(--rule)}
+.cln{font-size:17px;padding-left:6px}
+.clr.me .cln{color:var(--accent);font-weight:600}
+.cell{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;align-items:center;min-height:52px;padding:6px 4px;border-radius:6px;outline:none;transition:background .25s var(--ease)}
+.cell:hover,.cell:focus-visible{background:rgba(122,78,92,.07)}
+.cell.dim{color:var(--muted);font-size:14px}
+.chg{display:inline-flex;align-items:baseline;gap:3px;font:600 23px/1 var(--serif-en);font-variant-numeric:lining-nums}
+.chg i{font:600 18px var(--sans);font-style:normal}
+.chg.none{color:var(--muted)}
+.k-dn{color:#8A5568}.k-up{color:#4F6D8A}.k-nw{color:var(--ink)}.k-gn{color:#85766D}
+.clk span{display:inline-flex;align-items:center;gap:6px}
+.clk i{font:600 18px var(--sans);font-style:normal}
 /* 등장 */
 @media (prefers-reduced-motion:no-preference){
  @keyframes fade{from{opacity:0}}
@@ -799,7 +848,7 @@ addEventListener('pointerup',()=>{if(!down)return;const t=down;down=null;t.class
 gt.addEventListener('click',e=>{if(moved){e.preventDefault();moved=0}},true);
 draw()})();
 
-(()=>{const sec=document.getElementById('price');if(!sec)return;let M='sale',S='full';
+(()=>{const sec=document.getElementById('price');if(!sec)return;let M='sale',S='zoom';
 const apply=()=>{sec.dataset.m=M;sec.querySelectorAll('.prices').forEach(p=>{p.hidden=!(p.dataset.mode===M&&p.dataset.scale===S)});
 sec.querySelectorAll('.seg [data-m]').forEach(x=>x.setAttribute('aria-pressed',x.dataset.m===M));sec.querySelectorAll('.seg [data-s]').forEach(x=>x.setAttribute('aria-pressed',x.dataset.s===S))};
 sec.addEventListener('click',e=>{const b=e.target.closest('.seg [data-m],.seg [data-s]');if(!b)return;if(b.dataset.m)M=b.dataset.m;if(b.dataset.s)S=b.dataset.s;apply()})})();

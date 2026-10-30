@@ -1,0 +1,548 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>변화 시안</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Serif+KR:wght@400;500;600&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap">
+<style>
+/* 한 열 편집 레이아웃: 큰 세리프 표제 아래 차트가 숨 쉬듯 이어진다. 밝은 단일 테마(그레이스유 공식몰의 흰 바탕·세리프 톤) */
+:root{color-scheme:light;--bg:#FBFAF8;--paper:#FFFFFF;--ink:#2B2725;--muted:#6B635E;--line:#E4DDD8;--accent:#7A4E5C;--accent-soft:#F4ECEE;--iqr:#D3C4BF;--reg:#85796F;
+--serif-en:"Cormorant Garamond","Noto Serif KR",Georgia,serif;--serif:"Noto Serif KR","Cormorant Garamond",serif;--sans:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+--ease:cubic-bezier(.16,1,.3,1)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 14px/1.6 var(--sans);word-break:keep-all;overflow-wrap:anywhere;-webkit-font-smoothing:antialiased}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:1;opacity:.035;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;background:radial-gradient(60vw 50vw at 88% -5%,rgba(122,78,92,.08),transparent 70%)}
+html,body{overflow-x:hidden}
+.wrap{position:relative;z-index:2;max-width:1120px;margin:0 auto;padding-block:72px 96px;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px));display:grid;gap:88px}
+.mast{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:24px 48px;padding-bottom:28px;border-bottom:1px solid var(--ink)}
+h1{margin:0;font:500 clamp(64px,11vw,148px)/.86 var(--serif-en);letter-spacing:-.035em}
+h1 span{display:inline-block;background:linear-gradient(100deg,var(--ink) 40%,var(--accent) 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.stats{display:flex;gap:36px;padding-bottom:10px}
+.stat{display:grid;gap:2px;cursor:default;outline:none}
+.stat b{font:500 40px/1 var(--serif-en);font-variant-numeric:lining-nums tabular-nums;letter-spacing:-.01em}
+.stat span{font-size:12px;color:var(--muted);letter-spacing:.04em}
+.stat[data-tip]{border-bottom:1px dotted var(--reg)}
+.date{grid-column:1/-1;margin:0;font:italic 400 16px/1 var(--serif-en);color:var(--muted);letter-spacing:.08em}
+.sec{display:grid;gap:22px;min-width:0}
+h2{margin:0;font:500 22px/1.3 var(--serif);letter-spacing:-.01em;display:flex;align-items:baseline;gap:12px}
+h2 small{font:italic 400 15px var(--serif-en);color:var(--muted);letter-spacing:.04em}
+.key{display:flex;flex-wrap:wrap;gap:18px;align-items:center;font-size:12px;color:var(--muted)}
+.key span{display:inline-flex;align-items:center;gap:7px}
+.key .unit{margin-left:auto;font:italic 13px var(--serif-en);letter-spacing:.06em}
+.key i{display:inline-block}
+.ramp{gap:0!important}.ramp i{width:22px;height:10px}.ramp em{font-style:normal;margin:0 8px}
+/* 가격 포지션 */
+.prices{display:grid}
+.ph,.pr{display:grid;grid-template-columns:9.5em minmax(0,1fr) 5.4em;align-items:center;column-gap:12px}
+.ph{height:36px;font-size:12.5px;color:var(--muted)}
+.axis{position:relative;height:100%;margin:0 76px 0 52px}
+.axis i{position:absolute;top:50%;transform:translate(-50%,-50%);white-space:nowrap;font:italic 500 15px var(--serif-en);color:var(--ink)}
+.pr{height:80px;border-top:1px solid var(--line);outline:none;transition:background .25s var(--ease)}
+.pr.two{height:116px}
+.pr:hover,.pr:focus-visible{background:rgba(122,78,92,.05)}
+.pn{font-size:16px;padding-left:10px;color:var(--ink)}
+.pr.me .pn{font-weight:600;color:var(--accent)}
+.plot{position:relative;height:100%;margin:0 76px 0 52px}
+.gl{position:absolute;top:0;bottom:0;border-left:1px solid #E7DFD9}
+.plot::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:#B7AAA2}
+.bar{position:absolute;left:0;right:0;top:0;bottom:0}
+.pr.two .bar{height:44px;bottom:auto}
+.pr.two .bar.reg{top:10px}
+.pr.two .bar.sale{top:62px}
+.rail{position:absolute;top:50%;height:2px;margin-top:-1px;background:#C2B3AA}
+.cap{position:absolute;top:50%;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:var(--bg);border:2px solid #AE9D93;box-sizing:border-box}
+.box{position:absolute;top:50%;height:36px;margin-top:-18px;border-radius:8px;background:linear-gradient(180deg,#BEAEA4,#9A887E);box-shadow:inset 0 1px 0 rgba(255,255,255,.42),0 12px 18px -14px rgba(60,40,40,.6)}
+.pr.two .box{height:30px;margin-top:-15px}
+.bar.reg .box{background:linear-gradient(180deg,#E0D6CF,#D2C6BE);box-shadow:inset 0 1px 0 rgba(255,255,255,.55)}
+.pr.me .box{background:linear-gradient(180deg,#D08AA0,#9A5470)}
+.pr.me .bar.reg .box{background:linear-gradient(180deg,#EDD3DC,#E2C0CC)}
+.pr.me .cap{border-color:#C79BAA}
+.med{position:absolute;top:50%;width:3px;height:36px;margin:-18px 0 0 -1.5px;border-radius:2px;background:#fff;box-shadow:0 0 0 1px rgba(60,40,40,.2)}
+.pr.two .med{height:30px;margin-top:-15px}
+.bar.reg .med{background:#8F847D;box-shadow:none}
+.lo,.hi{position:absolute;top:50%;transform:translateY(-50%);font:500 19px/1 var(--serif-en);font-variant-numeric:lining-nums tabular-nums;color:var(--ink);white-space:nowrap}
+.lo{margin-right:13px}
+.hi{margin-left:13px}
+.hi em{font:400 12px var(--sans);color:var(--accent);margin-left:4px;font-style:normal}
+.pr.two .bar.reg .lo,.pr.two .bar.reg .hi{color:var(--muted);font-size:16px}
+.pv{text-align:right;padding-right:12px;font:500 34px/1 var(--serif-en);font-variant-numeric:lining-nums tabular-nums;color:var(--ink)}
+.ph .pv{font:400 12.5px var(--sans);color:var(--muted)}
+.pr.me .pv{color:var(--accent)}
+.pv.st{display:grid;gap:9px;align-content:center}
+.pv.st em{font:400 19px/1 var(--serif-en);font-style:normal;color:var(--muted)}
+.pv.st b{font:500 32px/1 var(--serif-en)}
+.k-rail{width:26px;height:2px;background:#AE9D93;position:relative}
+.k-iqr{width:26px;height:14px;border-radius:4px;background:linear-gradient(180deg,#BEAEA4,#9A887E)}
+.k-med{width:14px;height:14px;border-radius:3px;background:#9A887E;position:relative}
+.k-med::after{content:"";position:absolute;left:50%;top:0;bottom:0;width:3px;margin-left:-1.5px;background:#fff}
+.kb{display:none}
+#price[data-m="both"] .kb{display:inline-flex}
+.k-r{width:26px;height:14px;border-radius:4px;background:#D6CAC2}
+.k-s{width:26px;height:14px;border-radius:4px;background:#A5948A}
+/* 가격 포지션: 얇은 박스, 중앙값 선, 큰 눈금 숫자 */
+.box{height:18px;margin-top:-9px;border-radius:5px}
+.pr.two .box{height:16px;margin-top:-8px}
+.med{width:3px;height:38px;margin:-19px 0 0 -1.5px;border-radius:2px;background:var(--ink);box-shadow:0 0 0 2px var(--bg)}
+.pr.two .med{height:30px;margin-top:-15px}
+.pr.me .med{background:#4A2433}
+.bar.reg .med{background:#8F847D;box-shadow:0 0 0 2px var(--bg)}
+.mdl{position:absolute;top:50%;transform:translate(-50%,-100%);margin-top:-23px;font:500 16px/1 var(--serif-en);color:var(--ink);white-space:nowrap;font-variant-numeric:lining-nums}
+.pr.me .mdl{color:var(--accent)}
+.ph{height:44px}
+.axis i{font:500 19px var(--serif-en);font-style:normal;color:var(--ink)}
+.k-med{width:3px;height:16px;border-radius:2px;background:var(--ink)}
+.k-med::after{display:none}
+.k-iqr{height:10px}
+/* 최저·최고 숫자: 막대 끝 아래, 보조선과 겹치지 않게 */
+.lo,.hi{top:calc(50% + 12px);transform:none;margin:0;padding:0 2px;font-size:17px;text-shadow:0 0 3px var(--bg),0 0 3px var(--bg),0 0 4px var(--bg),0 0 4px var(--bg)}
+.lo{margin-left:-5px}
+.hi{transform:translateX(calc(-100% + 5px))}
+.pr.two .bar .lo,.pr.two .bar .hi{top:calc(50% + 10px)}
+.pr.two .bar.reg .lo,.pr.two .bar.reg .hi{font-size:15px}
+/* 카테고리별 순위 막대 */
+.cgs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px 48px}
+.cg{display:grid;gap:7px;align-content:start}
+.cg header{display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--ink);padding-bottom:8px;margin-bottom:6px}
+.cg h3{margin:0;font:500 17px var(--serif)}
+.cg header b{font:500 30px/1 var(--serif-en);color:var(--accent);font-variant-numeric:lining-nums}
+.cg header small{font-size:15px;color:var(--muted);margin-left:2px}
+.br{display:grid;grid-template-columns:6.6em minmax(0,1fr) 3.2em;align-items:center;gap:10px;height:24px;outline:none;border-radius:4px}
+.br:hover,.br:focus-visible{background:rgba(122,78,92,.06)}
+.bn{font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bt{height:12px;background:transparent}
+.bt i{display:block;height:100%;background:#BFB3AD;border-radius:0 3px 3px 0}
+.br.me .bn{color:var(--accent);font-weight:600}
+.br.me .bt i{background:var(--accent)}
+.br.thin{opacity:.45}
+.bv{text-align:right;font:500 16px/1 var(--serif-en);font-variant-numeric:lining-nums tabular-nums}
+.br.me .bv{color:var(--accent)}
+/* 카테고리 구성 */
+.mx{display:grid}
+.mh,.mr{display:grid;grid-template-columns:8em repeat(6,minmax(0,1fr));column-gap:6px}
+.mh{height:38px;align-items:center;font-size:15px;color:var(--ink);text-align:center}
+.mr{height:100px;border-top:1px solid var(--line);align-items:stretch}
+.mn{font-size:17px;padding-left:8px;align-self:center}
+.mr.me .mn{color:var(--accent);font-weight:600}
+.mc{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:6px;padding-bottom:9px;outline:none;color:#B8AAA0;transition:color .3s var(--ease)}
+.mc:hover,.mc:focus-visible{color:var(--ink)}
+.ic{display:block;height:auto;max-width:100%;transition:transform .35s var(--ease)}
+.mc:hover .ic{transform:translateY(-4px)}
+.mc b{font:500 22px/1 var(--serif-en);color:var(--ink);font-variant-numeric:lining-nums}
+.mc b small{font:400 13px var(--sans);color:var(--muted);margin-left:1px}
+.mc.top{color:#8A5568}
+.mc.top b{color:var(--accent);font-size:28px}
+.mc.nil{opacity:.35}
+/* 히트맵 표 */
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.hm{width:100%;border-collapse:separate;border-spacing:3px;font-variant-numeric:lining-nums tabular-nums}
+.hm th{font-weight:400;font-size:12px;color:var(--muted);text-align:center;padding:4px 6px;white-space:nowrap}
+.hm tbody th{text-align:left;font-size:14px;color:var(--ink);padding-right:14px}
+.hm tr.me th{color:var(--accent);font-weight:600}
+.hm td{height:46px;min-width:72px;text-align:center;font:500 17px/1 var(--serif-en);border-radius:4px;cursor:default;outline:none;transition:transform .2s var(--ease),box-shadow .2s var(--ease)}
+.hm td:hover,.hm td:focus-visible{transform:translateY(-2px) scale(1.04);box-shadow:0 8px 20px -10px rgba(60,40,40,.35);position:relative;z-index:1}
+.hm tr.me td{box-shadow:inset 0 0 0 1.5px var(--accent)}
+.hm td.thin{opacity:.55}
+.hm td.nil{background:transparent;color:var(--reg)}
+.mixt td{font-size:15px;min-width:44px;height:40px}
+.mixt td.tot{background:transparent;color:var(--muted);font:400 13px var(--sans)}
+/* 2열 묶음 */
+.pair{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:56px;align-items:start}
+.sc{width:100%;height:auto;overflow:visible}
+.sc .gr line{stroke:var(--line)}
+.sc .gr text,.sc .ax{fill:var(--muted);font:italic 12px var(--serif-en)}
+.sc .ax{font:400 11px var(--sans)}
+.pt{cursor:default;outline:none}
+.pt circle{fill:var(--ink);stroke:var(--bg);stroke-width:3;transition:r .25s var(--ease)}
+.pt.me circle{fill:var(--accent)}
+.pt text{fill:var(--ink);font:400 12px var(--sans)}
+.pt.me text{fill:var(--accent);font-weight:600}
+.pt:hover circle,.pt:focus-visible circle{r:9}
+/* 변화 기록 */
+.log{margin:0;padding:0;list-style:none;border-top:1px solid var(--line)}
+.log li{display:grid;grid-template-columns:7em 6em 3em 6em minmax(0,1fr);gap:10px;align-items:baseline;padding:12px 6px;border-bottom:1px solid var(--line);outline:none;transition:background .2s var(--ease)}
+.log li:hover,.log li:focus-visible{background:rgba(122,78,92,.05)}
+.lb{font-weight:500}
+.lk{color:var(--muted);font-size:13px}
+.lc{font:500 20px/1 var(--serif-en);text-align:right;font-variant-numeric:lining-nums tabular-nums}
+.lr{font-size:12px;color:var(--accent);font-variant-numeric:tabular-nums}
+.ln{font-size:12px;color:var(--muted)}
+/* 배송·반품: 작게 */
+.small h2{font-size:17px}
+.st{width:100%;border-collapse:collapse;font-size:12px;font-variant-numeric:tabular-nums}
+.st th,.st td{padding:7px 6px;border-bottom:1px solid var(--line);text-align:left;font-weight:400;white-space:nowrap}
+.st thead th{color:var(--muted);font-size:11px}
+.st tbody th{color:var(--ink)}
+.st tr{outline:none}.st tr:hover td,.st tr:hover th,.st tr:focus-visible td{background:rgba(122,78,92,.05)}
+.st tr.me th{color:var(--accent);font-weight:600}
+[hidden]{display:none!important}
+.hd{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.seg{display:inline-flex;border:1px solid #D6CDC7;border-radius:999px;padding:3px;background:transparent}
+.seg button{font:inherit;font-size:13.5px;padding:5px 18px;border:0;border-radius:999px;background:transparent;color:var(--muted);cursor:pointer;transition:background .25s var(--ease),color .25s var(--ease)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:#fff}
+/* 첫 화면 숫자·메뉴·갤러리 화살표 */
+.stat b small{font:400 18px var(--sans);color:var(--muted);margin-left:2px}
+.stats{gap:44px}
+.sec{scroll-margin-top:72px}
+.fnav{position:fixed;top:calc(14px + env(safe-area-inset-top,0px));left:50%;transform:translate(-50%,-90px);z-index:15;display:flex;gap:2px;padding:5px;border-radius:999px;background:rgba(251,250,248,.82);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border:1px solid var(--line);box-shadow:0 12px 32px -20px rgba(60,40,40,.5);transition:transform .7s var(--ease);max-width:calc(100vw - 24px);overflow-x:auto;scrollbar-width:none}
+.fnav::-webkit-scrollbar{display:none}
+.fnav.on{transform:translate(-50%,0)}
+.fnav a{font-size:13px;padding:7px 14px;border-radius:999px;color:var(--muted);text-decoration:none;white-space:nowrap;transition:background .3s var(--ease),color .3s var(--ease)}
+.fnav a:hover{color:var(--ink)}
+.fnav a.act{background:var(--ink);color:#fff}
+.gbar{position:relative}
+.garr{position:absolute;right:0;top:0;display:flex;gap:8px}
+.garr button{width:38px;height:38px;border-radius:50%;border:1px solid #D6CDC7;background:transparent;color:var(--ink);font:400 17px/1 var(--sans);cursor:pointer;transition:background .25s var(--ease),color .25s var(--ease),transform .2s var(--ease)}
+.garr button:hover{background:var(--ink);color:#fff}
+.garr button:active{transform:scale(.94)}
+/* 할인 진행 */
+.drs{display:grid;max-width:840px}
+.dh,.dr{display:grid;grid-template-columns:8.5em minmax(0,1fr) 5.5em 8.5em;align-items:center;column-gap:20px}
+.dh{height:30px;font-size:12.5px;color:var(--muted);white-space:nowrap}
+.dh span:nth-child(3),.dh span:nth-child(4){text-align:right}
+.dr{height:54px;border-top:1px solid var(--line);outline:none;transition:background .25s var(--ease)}
+.dr:hover,.dr:focus-visible{background:rgba(122,78,92,.05)}
+.dn{font-size:15.5px;padding-left:8px}
+.dr.me .dn{color:var(--accent);font-weight:600}
+.dsc{display:flex;align-items:center;gap:14px;min-width:0}
+.dbar{flex:1;height:16px;border-radius:5px;background:#E9E2DD;overflow:hidden}
+.dbar i{display:block;height:100%;border-radius:0 5px 5px 0;background:#8A5568}
+.dsh{flex:0 0 3.6em;text-align:right;font:500 22px/1 var(--serif-en);font-variant-numeric:lining-nums;color:var(--ink)}
+.dsh small,.dv small{font:400 12px var(--sans);margin-left:1px;color:var(--muted)}
+.dv{text-align:right;font:500 28px/1 var(--serif-en);font-variant-numeric:lining-nums;color:var(--accent)}
+.dm{text-align:right;font:500 17px/1 var(--serif-en);font-variant-numeric:lining-nums;color:var(--ink);white-space:nowrap}
+.dv.nil,.dm.nil{color:var(--muted)}
+.sec>.hd{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.seg{width:max-content;flex:0 0 auto}
+.cgs.two{grid-template-columns:repeat(2,minmax(0,1fr));gap:44px 56px}
+.cg.two .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.cg.two .col{display:grid;gap:7px;align-content:start}
+.ct{font-size:12.5px;color:var(--muted);letter-spacing:.04em;padding-bottom:5px;border-bottom:1px solid var(--line);margin-bottom:2px}
+.cg header .rk{display:flex;gap:24px}
+.rk span{display:flex;align-items:baseline;gap:7px}
+.rk em{font:400 12.5px var(--sans);font-style:normal;color:var(--muted)}
+.cg header .rk b{font:500 30px/1 var(--serif-en);color:var(--accent)}
+.rk small{font-size:14px;color:var(--muted);margin-left:1px}
+.cg.two .br{grid-template-columns:7.2em minmax(0,1fr) 3.2em;gap:8px}
+/* 상품 갤러리 */
+.gbar{display:grid;gap:10px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:inherit;font-size:13px;color:var(--ink);background:transparent;border:1px solid #D6CDC7;border-radius:999px;padding:5px 14px;cursor:pointer;transition:background .2s var(--ease),color .2s var(--ease),border-color .2s var(--ease)}
+.chip small{margin-left:5px;font-size:11px;color:var(--muted)}
+.chip:hover:not(:disabled){border-color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+.chip[aria-pressed="true"] small{color:#CFC6C0}
+.chip.me:not([aria-pressed="true"]){color:var(--accent);border-color:#D9BCC6}
+.chip:disabled{opacity:.35;cursor:default}
+.gtrack{display:flex;gap:16px;overflow-x:auto;padding:6px 2px 20px;cursor:grab;user-select:none;-webkit-user-select:none;scrollbar-width:thin;scrollbar-color:#CFC6C0 transparent;outline:none;-webkit-mask-image:linear-gradient(90deg,#000 94%,transparent);mask-image:linear-gradient(90deg,#000 94%,transparent)}
+.gtrack.drag{cursor:grabbing}
+.gc{flex:0 0 180px;display:grid;gap:9px;align-content:start;color:inherit;text-decoration:none}
+.gi{width:180px;height:240px;border-radius:3px;background-color:#EEE9E5;background-repeat:no-repeat;transition:transform .35s var(--ease),box-shadow .35s var(--ease);-webkit-user-drag:none}
+.gc:hover .gi{transform:translateY(-4px);box-shadow:0 18px 26px -18px rgba(60,40,40,.5)}
+.gn{font-size:12.5px;line-height:1.4;height:2.8em;overflow:hidden;color:var(--muted)}
+.gp{font:500 19px/1 var(--serif-en);font-variant-numeric:lining-nums tabular-nums;white-space:nowrap}
+.gp s{margin-left:7px;font:400 12px var(--sans);color:var(--muted)}
+.gp em{margin-left:6px;font:500 12px var(--sans);font-style:normal;color:var(--accent)}
+.gwrap{display:grid;gap:30px}
+.grow{display:grid;gap:10px;min-width:0}
+.gh{display:flex;align-items:baseline;gap:9px;font:500 19px var(--serif);color:var(--ink)}
+.gh small{font:400 13px var(--sans);color:var(--muted)}
+.grow.me .gh{color:var(--accent)}
+.gnone{color:var(--muted);padding:48px 0;font-size:22px}
+.garr{top:auto;bottom:calc(100% + 0px)}
+/* 툴팁 */
+.tipbox{position:fixed;z-index:20;max-width:320px;padding:12px 14px;background:rgba(43,39,37,.94);color:#F7F3F0;border-radius:8px;font-size:12px;line-height:1.55;pointer-events:none;box-shadow:0 14px 34px -14px rgba(43,39,37,.6);transform:translateY(4px);opacity:0;transition:opacity .15s var(--ease),transform .15s var(--ease)}
+.tipbox.on{opacity:1;transform:none}
+.tipbox b{display:block;font:500 13px var(--serif);margin-bottom:3px;color:#fff}
+[data-tip]{cursor:default}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+/* 가독성 */
+:root{--muted:#544C47;--line:#DDD5CF;--iqr:#C9BCB5}
+body{font-size:15px}
+.stat b{font-size:44px}
+.stat span{font-size:13px;color:var(--muted)}
+h2{font-size:25px}
+.key{font-size:13px;color:var(--muted)}
+.cg h3{font-size:19px}
+.cg header b{font-size:36px}
+.br{height:30px;grid-template-columns:7em minmax(0,1fr) 3.6em}
+.bn{font-size:14.5px}
+.bt{height:16px}
+.bt i{background:#A99B94;border-radius:0 4px 4px 0}
+.br.me .bt i{background:var(--accent)}
+.br.thin{opacity:.62}
+.bv{font-size:20px}
+.lb{font-size:15px}.lk{font-size:14px}.ln,.lr{font-size:13px}.lc{font-size:22px}
+.gn{font-size:13.5px;color:#4A433E}
+@supports (animation-timeline:view()){@media (prefers-reduced-motion:no-preference){
+ .bt i,.dbar i,.cbar i,.box,.med{transform-origin:left center;animation:grow linear both;animation-timeline:view();animation-range:entry 5% entry 70%}
+ @keyframes grow{from{transform:scaleX(0)}}
+}}
+/* 가독성 2차: 글자 크기·굵기·대비 */
+:root{--muted:#4A433E;--line:#D8CFC9}
+body{font-size:16px;line-height:1.6}
+h2{font-size:28px;font-weight:600}
+.key{font-size:14.5px}
+.key .unit{font-size:15px;font-style:normal;color:var(--muted)}
+.seg button{font-size:15px;padding:6px 20px;color:var(--ink)}
+.seg button[aria-pressed="true"]{color:#fff}
+.chip{font-size:14.5px;padding:6px 16px}
+.chip small{font-size:12.5px;color:var(--muted)}
+.fnav a{font-size:14.5px;color:var(--ink)}
+.fnav a.act{color:#fff}
+.ph{font-size:14px}
+.pn{font-size:17.5px;font-weight:500}
+.axis i{font-weight:600;font-size:20px}
+.lo,.hi{font-weight:600;font-size:19px}
+.mdl{font-weight:600;font-size:18px}
+.pv{font-weight:600;font-size:40px}
+.pv.st em{font-size:20px;font-weight:500}
+.pv.st b{font-size:34px;font-weight:600}
+.pr.two .bar.reg .lo,.pr.two .bar.reg .hi{font-size:16px}
+.cg h3{font-size:21px;font-weight:600}
+.cg header b{font-weight:600;font-size:42px}
+.cg header b small{font-size:17px}
+.ct{font-size:14px}
+.rk em{font-size:14px;color:var(--ink)}
+.cg header .rk b{font-size:34px;font-weight:600}
+.br{height:32px}
+.bn{font-size:16px}
+.bv{font-weight:600;font-size:22px}
+.dh{font-size:14px;color:var(--ink)}
+.dn{font-size:17px}
+.dsh{font-weight:600;font-size:27px}
+.dv{font-weight:600;font-size:34px}
+.dm{font-weight:600;font-size:20px}
+.mh{font-size:16px;font-weight:500}
+.mn{font-size:18px}
+.mc b{font-weight:600;font-size:24px}
+.mc b small{font-size:14px}
+.mc.top b{font-size:30px}
+.gh{font-size:22px;font-weight:600}
+.gh small{font-size:14px}
+.gn{font-size:14.5px;color:var(--ink)}
+.gp{font-weight:600;font-size:22px}
+.gp s{font-size:14px}
+.gp em{font-size:14px}
+.lb{font-size:16.5px}
+.lk{font-size:15px;color:var(--ink)}
+.ln,.lr{font-size:14px}
+.lc{font-weight:600;font-size:25px}
+.st{font-size:14px}
+.st thead th{font-size:13px;color:var(--ink)}
+.tipbox{font-size:14px;max-width:340px}
+.tipbox b{font-size:15px}
+/* 비교 보기·구분선·중앙값 숫자 크기 */
+:root{--rule:#B3A69D}
+.pv{font-size:28px;font-weight:600}
+.pv.st em{font:600 26px/1 var(--serif-en);font-style:normal;color:#7B6F67}
+.pv.st b{font:600 26px/1 var(--serif-en)}
+.tg{position:absolute;right:calc(100% + 8px);top:50%;transform:translateY(-50%);font:500 13px/1 var(--sans);color:#7B6F67;white-space:nowrap}
+.bar.sale .tg{color:var(--ink);font-weight:600}
+.pr.me .bar.sale .tg{color:var(--accent)}
+@media (max-width:640px){.tg{display:none}}
+.pr.two{height:100px}
+.pr.two .bar{height:30px}
+.pr.two .bar.reg{top:12px}
+.pr.two .bar.sale{top:42px}
+.pr.two .box{height:14px;margin-top:-7px}
+.pr.two .med{height:26px;margin-top:-13px}
+.pr.two .bar.sale .lo,.pr.two .bar.sale .hi{top:calc(50% + 11px)}
+.pv.st{gap:6px}
+.segs{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:flex-end}
+.box{min-width:8px}
+.mdl{text-shadow:0 0 3px var(--bg),0 0 3px var(--bg),0 0 4px var(--bg)}
+.lo2{position:absolute;top:50%;transform:translateY(-50%);margin-left:14px;font:600 19px/1 var(--serif-en);font-variant-numeric:lining-nums;color:var(--ink);white-space:nowrap;text-shadow:0 0 3px var(--bg),0 0 3px var(--bg),0 0 4px var(--bg)}
+.pr.two .bar.sale .lo2{top:50%}
+.pr,.dr,.mr{border-top:1px solid var(--rule)}
+.prices .pr:last-child,.drs .dr:last-child,.mx .mr:last-child{border-bottom:1px solid var(--rule)}
+.st th,.st td{border-bottom-color:var(--rule)}
+.log,.log li{border-color:var(--rule)}
+.mr{height:92px}
+.gtrack{scrollbar-width:auto;scrollbar-color:auto;padding-bottom:10px}
+.gtrack::-webkit-scrollbar{height:14px}
+.gtrack::-webkit-scrollbar-track{background:#EFE9E4;border-radius:7px}
+.gtrack::-webkit-scrollbar-thumb{background:#B3A59B;border-radius:7px;border:3px solid #EFE9E4}
+.gtrack::-webkit-scrollbar-thumb:hover{background:#8F8077}
+@supports (-moz-appearance:none){.gtrack{scrollbar-width:auto;scrollbar-color:#B3A59B #EFE9E4}}
+/* 변화 달력 */
+.cal{display:grid;overflow-x:auto}
+.clh,.clr{display:grid;grid-template-columns:7.5em repeat(var(--n),minmax(132px,1fr));align-items:center;column-gap:10px;min-width:max-content}
+.clh{height:34px;font-size:14.5px;color:var(--ink);font-variant-numeric:tabular-nums}
+.clh span{text-align:center}
+.clr{min-height:64px;border-top:1px solid var(--rule)}
+.clr:last-child{border-bottom:1px solid var(--rule)}
+.cln{font-size:17px;padding-left:6px}
+.clr.me .cln{color:var(--accent);font-weight:600}
+.cell{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;align-items:center;min-height:52px;padding:6px 4px;border-radius:6px;outline:none;transition:background .25s var(--ease)}
+.cell:hover,.cell:focus-visible{background:rgba(122,78,92,.07)}
+.cell.dim{color:var(--muted);font-size:14px}
+.chg{display:inline-flex;align-items:baseline;gap:3px;font:600 23px/1 var(--serif-en);font-variant-numeric:lining-nums}
+.chg i{font:600 18px var(--sans);font-style:normal}
+.chg.none{color:var(--muted)}
+.k-dn{color:#8A5568}.k-up{color:#4F6D8A}.k-nw{color:var(--ink)}.k-gn{color:#85766D}
+.clk span{display:inline-flex;align-items:center;gap:6px}
+.clk i{font:600 18px var(--sans);font-style:normal}
+/* 등장 */
+@media (prefers-reduced-motion:no-preference){
+ @keyframes fade{from{opacity:0}}
+ .gc{animation:rise .55s var(--ease) backwards;animation-delay:calc(var(--k)*28ms)}
+ @keyframes rise{from{opacity:0;transform:translateY(12px)}}
+}
+@media (max-width:900px){.cgs.two{grid-template-columns:1fr}.cgs{grid-template-columns:repeat(2,minmax(0,1fr))}.pair{grid-template-columns:1fr;gap:88px}}
+@media (max-width:640px){.dh,.dr{grid-template-columns:4.8em minmax(0,1fr) 3.4em 6em;column-gap:6px}.drs{max-width:none}.dsh{font-size:18px;flex-basis:3em}.dv{font-size:20px}.dm{font-size:13px}.dn{font-size:12.5px;padding-left:2px}.mh,.mr{grid-template-columns:4.2em repeat(6,minmax(0,1fr));column-gap:2px}.mh{font-size:11px;line-height:1.2}.mr{height:88px}.mn{font-size:12.5px;padding-left:2px}.mc b{font-size:15px}.mc b small{font-size:9px}.mc.top b{font-size:18px}.cgs{grid-template-columns:1fr}.wrap{padding-block:44px 64px;gap:64px}.mast{grid-template-columns:1fr}.stats{gap:24px}.stat b{font-size:30px}
+ .ph,.pr{grid-template-columns:4.8em minmax(0,1fr) 3.6em;column-gap:6px}.plot,.axis{margin:0 40px 0 30px}.lo,.hi{font-size:14px}.pn{font-size:12.5px;padding-left:2px;line-height:1.25}.pv{font-size:23px;padding-right:2px}.pv.st b{font-size:21px}.pv.st em{font-size:14px}.axis i{font-size:14px}
+ .log li{grid-template-columns:6em minmax(0,1fr) 2.5em;row-gap:2px}.lr{grid-column:2}.ln{grid-column:2/-1}}
+
+body{font-size:16px}
+.wrap{gap:72px}
+h1{font-size:clamp(48px,7vw,88px)}
+.key{font-size:15px}
+
+.lab-sec{display:grid;gap:22px;min-width:0;padding-top:28px;border-top:1px solid var(--rule)}
+.lab-sec h2{font-size:28px}
+.lab-sec h2 b{font:600 34px/1 var(--serif-en);color:var(--accent)}
+.lab-sec .vt{margin:0;font:600 22px var(--serif);display:flex;gap:10px;align-items:baseline}
+.lab-sec .vt b{font:600 28px/1 var(--serif-en);color:var(--accent)}
+#change{gap:56px}
+.per{font:600 20px var(--serif-en);color:var(--ink)}
+/* B 피드 */
+.feed{display:grid;gap:30px}
+.fday{display:grid;grid-template-columns:5em minmax(0,1fr);gap:18px;align-items:start}
+.fday h3{margin:0;font:600 30px/1 var(--serif-en);font-variant-numeric:lining-nums}
+.flist{display:grid;gap:8px}
+.fd{display:grid;grid-template-columns:2em minmax(0,1fr) auto;align-items:center;gap:12px;padding:12px 16px;background:var(--paper);border:1px solid var(--line);border-radius:8px;font-size:17px;outline:none}
+.fd:hover,.fd:focus-visible{border-color:var(--accent)}
+.fd b{font-weight:600}
+.fd.me b{color:var(--accent)}
+.fd.note{background:var(--accent-soft);border-color:#E3D0D6}
+.fd.empty{display:block;color:var(--muted)}
+.fs{font:600 22px var(--sans);text-align:center}
+.fnn{font:600 30px/1 var(--serif-en);font-variant-numeric:lining-nums tabular-nums}
+/* C 상품 카드 */
+.sk button{font-size:16px}
+.pcs{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:22px 16px}
+.pc{display:grid;gap:5px;align-content:start;color:inherit;text-decoration:none;position:relative}
+.pi{width:150px;height:200px;border-radius:3px;background-color:#EEE9E5;background-repeat:no-repeat}
+.pi.nil{display:grid;place-items:center;color:var(--muted);font-size:20px}
+.pb{font-size:14px;color:var(--muted)}
+.pc.me .pb{color:var(--accent);font-weight:600}
+.pn2{font-size:14.5px;line-height:1.4;height:2.8em;overflow:hidden}
+.pp{font:500 17px/1.2 var(--serif-en);font-variant-numeric:lining-nums}
+.pp s{color:var(--muted)}
+.pp b{font-weight:600;font-size:21px}
+.pct{position:absolute;top:8px;left:8px;padding:3px 8px;border-radius:999px;background:rgba(255,255,255,.92);font:600 18px/1 var(--serif-en)}
+.pnone{color:var(--muted);font-size:22px}
+/* D 히트맵 */
+.hm2 .clr{min-height:70px}
+.hc{display:grid;place-items:center;min-height:58px;margin:5px 0;border-radius:6px;font:600 28px/1 var(--serif-en);font-variant-numeric:lining-nums;outline:none;transition:transform .2s var(--ease)}
+.hc:hover,.hc:focus-visible{transform:scale(1.03)}
+.hc.dim{background:transparent;border:1px dashed var(--line);color:var(--muted);font:400 15px var(--sans)}
+/* E 미니 차트 */
+.minis{display:grid;overflow-x:auto}
+.mhd,.mrw{display:grid;grid-template-columns:7.5em repeat(3,minmax(0,1fr));column-gap:18px;align-items:center;min-width:720px}
+.mhd{font-size:15px;color:var(--muted);height:34px}
+.mrw{border-top:1px solid var(--rule);min-height:88px}
+.mrw:last-child{border-bottom:1px solid var(--rule)}
+.mrw.me .cln{color:var(--accent);font-weight:600}
+.mini{display:grid;grid-template-columns:minmax(60px,1fr) auto;align-items:center;gap:12px}
+.mini svg{width:100%;height:64px;overflow:visible}
+.mini polyline{fill:none;stroke:#9A887E;stroke-width:2;vector-effect:non-scaling-stroke}
+.mrw.me .mini polyline{stroke:var(--accent)}
+.mini circle{fill:var(--ink);stroke:var(--bg);stroke-width:2;vector-effect:non-scaling-stroke}
+.mrw.me .mini circle{fill:var(--accent)}
+.mini .tk line{stroke:var(--rule);vector-effect:non-scaling-stroke}
+.mini b{font:600 24px/1.1 var(--serif-en);font-variant-numeric:lining-nums;text-align:right;min-width:3.6em}
+.mini b em{display:block;font:500 14px var(--sans);font-style:normal;color:var(--muted)}
+.mdays{font:500 16px var(--serif-en)}
+/* F 타일 */
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.tile{display:grid;gap:12px;padding:18px 18px 14px;background:var(--paper);border:1px solid var(--line);border-radius:10px}
+.tile.me{border-color:var(--accent);box-shadow:inset 0 3px 0 var(--accent)}
+.tile h3{margin:0;font:600 19px var(--serif)}
+.tile.me h3{color:var(--accent)}
+.tns{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.tn{display:grid;justify-items:center;gap:2px}
+.tn i{font:600 16px var(--sans);font-style:normal}
+.tn b{font:600 30px/1 var(--serif-en);font-variant-numeric:lining-nums}
+.tn small{font-size:12.5px;color:var(--muted);text-align:center;line-height:1.25}
+.tn.nil{color:var(--muted)}
+.tnote{font-size:14.5px;color:var(--muted)}
+/* G 증감 */
+.gh2,.gr2{display:grid;grid-template-columns:7.5em 4em minmax(0,1fr) 4em 4.5em;column-gap:12px;align-items:center}
+.gh2{font-size:15px;color:var(--muted)}
+.gr2{min-height:56px;border-top:1px solid var(--rule);outline:none}
+.gr2:last-of-type{border-bottom:1px solid var(--rule)}
+.gr2:hover,.gr2:focus-visible{background:rgba(122,78,92,.05)}
+.gr2.me .cln{color:var(--accent);font-weight:600}
+.gv{font:600 22px var(--serif-en);font-variant-numeric:lining-nums}
+.gv.l{text-align:right}
+.gnet{font:600 22px var(--serif-en);text-align:right;font-variant-numeric:lining-nums}
+.gbars{position:relative;height:22px}
+.gbars::before{content:"";position:absolute;left:50%;top:-6px;bottom:-6px;border-left:1px solid var(--ink)}
+.gbars i{position:absolute;top:0;bottom:0}
+.gg{right:50%;background:#B3A59B;border-radius:4px 0 0 4px}
+.gn2{left:50%;background:var(--accent);border-radius:0 4px 4px 0}
+@media (max-width:640px){.fday{grid-template-columns:1fr}.fd{font-size:15px}.gh2,.gr2{grid-template-columns:4.6em 2.8em minmax(0,1fr) 2.8em 3.4em;column-gap:6px}.gv,.gnet{font-size:17px}.tns{gap:2px}}
+</style></head><body>
+<div class="tipbox" id="tip" role="tooltip" hidden></div>
+<nav class="fnav" id="fnav" aria-label="시안"><a href="#v-a">A 달력</a><a href="#v-b">B 피드</a><a href="#v-c">C 상품 카드</a><a href="#v-d">D 히트맵</a><a href="#v-e">E 추이</a><a href="#v-f">F 숫자 타일</a><a href="#v-g">G 신규·빠짐</a></nav>
+<main class="wrap">
+<header class="mast"><h1><span>변화 시안</span></h1></header>
+<section class="lab-sec" id="v-a"><h2><b>A</b>달력</h2><div class="cal" style="--n:1"><div class="clh"><span></span><span>10.30</span></div><div class="clr me"><span class="cln">그레이스유</span><div class="cell" tabindex="0" data-tip="그레이스유 · 10.30|HAZLE DOWN 33% OFF 종료|가격 인상 1개|  [WHITE LABEL] Hazel Fox Goos  558,780원 → 834,000원"><span class="chg k-up"><i>↑</i>1</span></div></div><div class="clr"><span class="cln">쿠메</span><div class="cell" tabindex="0" data-tip="쿠메 · 10.30|바뀐 것 없음"><span class="chg none">·</span></div></div><div class="clr"><span class="cln">낫띵리튼</span><div class="cell" tabindex="0" data-tip="낫띵리튼 · 10.30|목록에서 빠짐 1개|  Miro v-neck pullover (Charco  239,000원"><span class="chg k-gn"><i>−</i>1</span></div></div><div class="clr"><span class="cln">제이제이지고트</span><div class="cell" tabindex="0" data-tip="제이제이지고트 · 10.30|가격 인하 16개|  배색 커프스 브이넥 크롭 자켓  179,400원 → 125,580원|  라운드넥 퍼프 소매 벨티드 원피스  239,400원 → 167,580원|  체인 벨티드 라운드넥 플레어 원피스  257,400원 → 180,180원|가격 인상 3개|  타이 셔츠 배색 재킷 플레어 원피스  263,520원 → 386,100원|  모던 테일러드 더블 원버튼 재킷  172,320원 → 227,400원|  셔츠 배색 뷔스티에 플레어 원피스  148,320원 → 196,320원|신규 등록 57개|  뷔스티에 레이어드 반하이넥 블라우스  179,100원|  바바데이 하프 버튼 반하이넥 슬림핏 니트  47,400원|  벨티드 투턱 와이드 팬츠  170,100원|목록에서 빠짐 55개|  모던 뷔스티에 배색 블라우스  179,100원|  하프 버튼 반하이넥 슬림핏 니트  47,400원|  백 타이 하프넥 라인 블라우스  169,000원"><span class="chg k-dn"><i>↓</i>16</span><span class="chg k-up"><i>↑</i>3</span><span class="chg k-nw"><i>+</i>57</span><span class="chg k-gn"><i>−</i>55</span></div></div><div class="clr"><span class="cln">오르</span><div class="cell" tabindex="0" data-tip="오르 · 10.30|1차·2차·TIME SALE 종료|목록에서 빠짐 670개|  사파리 숏 팬츠 다크카키  168,300원|  레오파드 스윔수트  117,300원|  울 랩 트라우저 블랙  119,000원"><span class="chg k-gn"><i>−</i>670</span></div></div><div class="clr"><span class="cln">라메레이</span><div class="cell dim">첫 수집</div></div><div class="clr"><span class="cln">보연</span><div class="cell dim">첫 수집</div></div></div><div class="key clk"><span class="k-dn"><i>↓</i>가격 인하</span><span class="k-up"><i>↑</i>가격 인상</span><span class="k-nw"><i>+</i>신규 등록</span><span class="k-gn"><i>−</i>목록에서 빠짐</span></div></section>
+<section class="lab-sec" id="v-b"><h2><b>B</b>피드</h2><div class="feed"><div class="fday"><h3>10.30</h3><div class="flist"><div class="fd note me"><span class="fs">※</span><span class="ft"><b>그레이스유</b> · HAZLE DOWN 33% OFF 종료</span><span class="fnn"></span></div><div class="fd note"><span class="fs">※</span><span class="ft"><b>오르</b> · 1차·2차·TIME SALE 종료</span><span class="fnn"></span></div><div class="fd" tabindex="0" data-tip="오르 · 목록에서 빠짐 670개|사파리 숏 팬츠 다크카키  168,300원|레오파드 스윔수트  117,300원|울 랩 트라우저 블랙  119,000원|버니쉬 파자마 쇼츠 차콜  47,200원|울실크 밴딩 팬츠  222,600원|울100 원턱 트라우저 네이비  154,800원"><span class="fs k-gn">−</span><span class="ft"><b>오르</b> · 상품 670개 목록에서 빠짐</span><span class="fnn k-gn">670</span></div><div class="fd" tabindex="0" data-tip="제이제이지고트 · 신규 등록 57개|뷔스티에 레이어드 반하이넥 블라우스  179,100원|바바데이 하프 버튼 반하이넥 슬림핏 니트  47,400원|벨티드 투턱 와이드 팬츠  170,100원|바바데이 백 타이 하프넥 라인 블라우스  169,000원|바바데이 울 케이프 하프 핸드메이드 코트  395,100원|바바데이 벨티드 레이어 머메이드 스커트  199,000원"><span class="fs k-nw">+</span><span class="ft"><b>제이제이지고트</b> · 상품 57개 신규 등록</span><span class="fnn k-nw">57</span></div><div class="fd" tabindex="0" data-tip="제이제이지고트 · 목록에서 빠짐 55개|모던 뷔스티에 배색 블라우스  179,100원|하프 버튼 반하이넥 슬림핏 니트  47,400원|백 타이 하프넥 라인 블라우스  169,000원|울 케이프 하프 핸드메이드 코트  395,100원|벨티드 레이어 머메이드 스커트  199,000원|셔츠 배색 오프 숄더 풀오버 니트  152,100원"><span class="fs k-gn">−</span><span class="ft"><b>제이제이지고트</b> · 상품 55개 목록에서 빠짐</span><span class="fnn k-gn">55</span></div><div class="fd" tabindex="0" data-tip="제이제이지고트 · 가격 인하 16개|배색 커프스 브이넥 크롭 자켓  179,400원 → 125,580원|라운드넥 퍼프 소매 벨티드 원피스  239,400원 → 167,580원|체인 벨티드 라운드넥 플레어 원피스  257,400원 → 180,180원|버튼 탭 H라인 미디 스커트  125,400원 → 87,780원|브이넥 장식 버튼 슬림핏 자켓  269,100원 → 209,300원|울 체크 칼라 집업 블루종 점퍼  269,100원 → 209,300원"><span class="fs k-dn">↓</span><span class="ft"><b>제이제이지고트</b> · 상품 16개 가격 인하</span><span class="fnn k-dn">16</span></div><div class="fd" tabindex="0" data-tip="제이제이지고트 · 가격 인상 3개|타이 셔츠 배색 재킷 플레어 원피스  263,520원 → 386,100원|모던 테일러드 더블 원버튼 재킷  172,320원 → 227,400원|셔츠 배색 뷔스티에 플레어 원피스  148,320원 → 196,320원"><span class="fs k-up">↑</span><span class="ft"><b>제이제이지고트</b> · 상품 3개 가격 인상</span><span class="fnn k-up">3</span></div><div class="fd me" tabindex="0" data-tip="그레이스유 · 가격 인상 1개|[WHITE LABEL] Hazel Fox Goos  558,780원 → 834,000원"><span class="fs k-up">↑</span><span class="ft"><b>그레이스유</b> · 상품 1개 가격 인상</span><span class="fnn k-up">1</span></div><div class="fd" tabindex="0" data-tip="낫띵리튼 · 목록에서 빠짐 1개|Miro v-neck pullover (Charco  239,000원"><span class="fs k-gn">−</span><span class="ft"><b>낫띵리튼</b> · 상품 1개 목록에서 빠짐</span><span class="fnn k-gn">1</span></div></div></div></div></section>
+<section class="lab-sec" id="v-c"><h2><b>C</b>상품 카드</h2><div class="seg sk" role="group" aria-label="변화 종류"><button type="button" data-k="down" aria-pressed="true">인하 16</button><button type="button" data-k="up" aria-pressed="false">인상 4</button></div><div class="pcs" data-k="down"><a class="pc" href="https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26783537" target="_blank" rel="noopener"><div class="pi nil">-</div><span class="pb">제이제이지고트 · 10.30</span><span class="pn2">배색 커프스 브이넥 크롭 자켓</span><span class="pp"><s>179,400</s> → <b>125,580</b></span><span class="pct k-dn">-30%</span></a><a class="pc" href="https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26782821" target="_blank" rel="noopener"><div class="pi nil">-</div><span class="pb">제이제이지고트 · 10.30</span><span class="pn2">라운드넥 퍼프 소매 벨티드 원피스</span><span class="pp"><s>239,400</s> → <b>167,580</b></span><span class="pct k-dn">-30%</span></a><a class="pc" href="https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26784969" target="_blank" rel="noopener"><div class="pi nil">-</div><span class="pb">제이제이지고트 · 10.30</span><span class="pn2">체인 벨티드 라운드넥 플레어 원피스</span><span class="pp"><s>257,400</s> → <b>180,180</b></span><span class="pct k-dn">-30%</span></a><a class="pc" href="https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26785506" target="_blank" rel="noopener"><div class="pi nil">-</div><span class="pb">제이제이지고트 · 10.30</span><span class="pn2">버튼 탭 H라인 미디 스커트</span><span class="pp"><s>125,400</s> → <b>87,780</b></span><span class="pct k-dn">-30%</span></a><a class="pc" href="https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26318316" target="_blank" rel="noopener"><div class="pi" style="background-image:url(thumbs/jj-2.jpg);background-size:1500px 1000px;background-position:-1350px -0px"></div><span class="pb">제이제이지고트 · 10.30</span><span class="pn2">슬림핏 보트넥 머메이드 원피스</span><span class="pp"><s>239,400</s> → <b>167,580</b></span><span class="pct k-dn">-30%</span></a><a class="pc" href="https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26651256" target="_blank" rel="noopener"><div class="pi" style="background-image:url(thumbs/jj-3.jpg);background-size:1500px 1800px;background-position:-150px -400px"></div><span class="pb">제이제이지고트 · 10.30</span><span class="pn2">브이넥 장식 버튼 슬림핏 자켓</span><span class="pp"><s>269,100</s> → <b>209,300</b></span><span class="pct k-dn">-22%</span></a><a class="pc" href="https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26341586" target="_blank" rel="noopener"><div class="pi" style="background-image:url(thumbs/jj-3.jpg);background-size:1500px 1800px;background-position:-0px -600px"></div><span class="pb">제이제이지고트 · 10.30</span><span class="pn2">울 체크 칼라 집업 블루종 점퍼</span><span class="pp"><s>269,100</s> → <b>209,300</b></span><span class="pct k-dn">-22%</span></a><a class="pc" href="https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26345703" target="_blank" rel="noopener"><div class="pi" style="background-image:url(thumbs/jj-2.jpg);background-size:1500px 1000px;background-position:-1200px -0px"></div><span class="pb">제이제이지고트 · 10.30</span><span class="pn2">트위드 미니 원피스 +재킷 세트</span><span class="pp"><s>377,100</s> → <b>293,300</b></span><span class="pct k-dn">-22%</span></a><a class="pc" href="https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26181202" target="_blank" rel="noopener"><div class="pi" style="background-image:url(thumbs/jj-0.jpg);background-size:1500px 1200px;background-position:-900px -0px"></div><span class="pb">제이제이지고트 · 10.30</span><span class="pn2">트위드 시폰 배색 포켓 블라우스</span><span class="pp"><s>260,100</s> → <b>202,300</b></span><span class="pct k-dn">-22%</span></a><a class="pc" href="https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26178517" target="_blank" rel="noopener"><div class="pi" style="background-image:url(thumbs/jj-4.jpg);background-size:1500px 1000px;background-position:-300px -200px"></div><span class="pb">제이제이지고트 · 10.30</span><span class="pn2">트위드 시폰 배색 H라인 스커트</span><span class="pp"><s>215,100</s> → <b>167,300</b></span><span class="pct k-dn">-22%</span></a><a class="pc" href="https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25974278" target="_blank" rel="noopener"><div class="pi nil">-</div><span class="pb">제이제이지고트 · 10.30</span><span class="pn2">브로치 피크드 라펠 플레어 원피스</span><span class="pp"><s>220,320</s> → <b>192,780</b></span><span class="pct k-dn">-12%</span></a><a class="pc" href="https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25761268" target="_blank" rel="noopener"><div class="pi" style="background-image:url(thumbs/jj-0.jpg);background-size:1500px 1200px;background-position:-300px -200px"></div><span class="pb">제이제이지고트 · 10.30</span><span class="pn2">코튼 집업 칼라 스웨트셔츠</span><span class="pp"><s>111,200</s> → <b>97,300</b></span><span class="pct k-dn">-12%</span></a><a class="pc" href="https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD25778631" target="_blank" rel="noopener"><div class="pi nil">-</div><span class="pb">제이제이지고트 · 10.30</span><span class="pn2">배색 스티치 브이넥 가디건</span><span class="pp"><s>175,200</s> → <b>153,300</b></span><span class="pct k-dn">-12%</span></a><a class="pc" href="https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24710896" target="_blank" rel="noopener"><div class="pi" style="background-image:url(thumbs/jj-1.jpg);background-size:1500px 1400px;background-position:-750px -800px"></div><span class="pb">제이제이지고트 · 10.30</span><span class="pn2">셔츠 칼라 아가일 니트 가디건</span><span class="pp"><s>135,200</s> → <b>118,300</b></span><span class="pct k-dn">-12%</span></a><a class="pc" href="https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24720562" target="_blank" rel="noopener"><div class="pi" style="background-image:url(thumbs/jj-1.jpg);background-size:1500px 1400px;background-position:-900px -800px"></div><span class="pb">제이제이지고트 · 10.30</span><span class="pn2">자개 버튼 하이넥 니트 가디건</span><span class="pp"><s>103,200</s> → <b>90,300</b></span><span class="pct k-dn">-12%</span></a><a class="pc" href="https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24719309" target="_blank" rel="noopener"><div class="pi" style="background-image:url(thumbs/jj-1.jpg);background-size:1500px 1400px;background-position:-1050px -800px"></div><span class="pb">제이제이지고트 · 10.30</span><span class="pn2">레이어 브이넥 니트 가디건</span><span class="pp"><s>135,200</s> → <b>118,300</b></span><span class="pct k-dn">-12%</span></a></div><div class="pcs" data-k="up" hidden><a class="pc me" href="https://graceu.co.kr/product/white-label-hazel-fox-goose-down-padding-black/2592/category/194/display/1/" target="_blank" rel="noopener"><div class="pi" style="background-image:url(thumbs/graceu-3.jpg);background-size:1500px 1200px;background-position:-0px -0px"></div><span class="pb">그레이스유 · 10.30</span><span class="pn2">[WHITE LABEL] Hazel Fox Goose Down Padding (Black)</span><span class="pp"><s>558,780</s> → <b>834,000</b></span><span class="pct k-up">+49%</span></a><a class="pc" href="https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26343018" target="_blank" rel="noopener"><div class="pi" style="background-image:url(thumbs/jj-2.jpg);background-size:1500px 1000px;background-position:-1050px -0px"></div><span class="pb">제이제이지고트 · 10.30</span><span class="pn2">타이 셔츠 배색 재킷 플레어 원피스</span><span class="pp"><s>263,520</s> → <b>386,100</b></span><span class="pct k-up">+47%</span></a><a class="pc" href="https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD24478017" target="_blank" rel="noopener"><div class="pi" style="background-image:url(thumbs/jj-2.jpg);background-size:1500px 1000px;background-position:-600px -600px"></div><span class="pb">제이제이지고트 · 10.30</span><span class="pn2">셔츠 배색 뷔스티에 플레어 원피스</span><span class="pp"><s>148,320</s> → <b>196,320</b></span><span class="pct k-up">+32%</span></a><a class="pc" href="https://pc.babathe.com/goods/indexGoodsDetail?goodsId=GD26159901" target="_blank" rel="noopener"><div class="pi nil">-</div><span class="pb">제이제이지고트 · 10.30</span><span class="pn2">모던 테일러드 더블 원버튼 재킷</span><span class="pp"><s>172,320</s> → <b>227,400</b></span><span class="pct k-up">+32%</span></a></div></section>
+<section class="lab-sec" id="v-d"><h2><b>D</b>히트맵</h2><div class="cal hm2" style="--n:1"><div class="clh"><span></span><span>10.30</span></div><div class="clr me"><span class="cln">그레이스유</span><div class="hc" tabindex="0" style="background:#e9e1e0;color:var(--ink)" data-tip="그레이스유 · 10.30|HAZLE DOWN 33% OFF 종료|가격 인상 1개|  [WHITE LABEL] Hazel Fox Goos  558,780원 → 834,000원">1</div></div><div class="clr"><span class="cln">쿠메</span><div class="hc" tabindex="0" style="background:#f6f2f0;color:var(--ink)" data-tip="쿠메 · 10.30|바뀐 것 없음">0</div></div><div class="clr"><span class="cln">낫띵리튼</span><div class="hc" tabindex="0" style="background:#e9e1e0;color:var(--ink)" data-tip="낫띵리튼 · 10.30|목록에서 빠짐 1개|  Miro v-neck pullover (Charco  239,000원">1</div></div><div class="clr"><span class="cln">제이제이지고트</span><div class="hc" tabindex="0" style="background:#997781;color:#FFFFFF" data-tip="제이제이지고트 · 10.30|가격 인하 16개|  배색 커프스 브이넥 크롭 자켓  179,400원 → 125,580원|  라운드넥 퍼프 소매 벨티드 원피스  239,400원 → 167,580원|  체인 벨티드 라운드넥 플레어 원피스  257,400원 → 180,180원|  버튼 탭 H라인 미디 스커트  125,400원 → 87,780원|  브이넥 장식 버튼 슬림핏 자켓  269,100원 → 209,300원|가격 인상 3개|  타이 셔츠 배색 재킷 플레어 원피스  263,520원 → 386,100원|  모던 테일러드 더블 원버튼 재킷  172,320원 → 227,400원|  셔츠 배색 뷔스티에 플레어 원피스  148,320원 → 196,320원|신규 등록 57개|  뷔스티에 레이어드 반하이넥 블라우스  179,100원|  바바데이 하프 버튼 반하이넥 슬림핏 니트  47,400원|  벨티드 투턱 와이드 팬츠  170,100원|  바바데이 백 타이 하프넥 라인 블라우스  169,000원|  바바데이 울 케이프 하프 핸드메이드 코트  395,100원|목록에서 빠짐 55개|  모던 뷔스티에 배색 블라우스  179,100원|  하프 버튼 반하이넥 슬림핏 니트  47,400원|  백 타이 하프넥 라인 블라우스  169,000원|  울 케이프 하프 핸드메이드 코트  395,100원|  벨티드 레이어 머메이드 스커트  199,000원">131</div></div><div class="clr"><span class="cln">오르</span><div class="hc" tabindex="0" style="background:#7a4e5c;color:#FFFFFF" data-tip="오르 · 10.30|1차·2차·TIME SALE 종료|목록에서 빠짐 670개|  사파리 숏 팬츠 다크카키  168,300원|  레오파드 스윔수트  117,300원|  울 랩 트라우저 블랙  119,000원|  버니쉬 파자마 쇼츠 차콜  47,200원|  울실크 밴딩 팬츠  222,600원">670</div></div><div class="clr"><span class="cln">라메레이</span><div class="hc dim">첫 수집</div></div><div class="clr"><span class="cln">보연</span><div class="hc dim">첫 수집</div></div></div><div class="key"><span class="ramp"><em>0</em><i style="background:#f6f2f0"></i><i style="background:#d7c9cb"></i><i style="background:#b8a0a6"></i><i style="background:#997781"></i><i style="background:#7a4e5c"></i><em>670</em></span><span>변화한 상품 수</span></div></section>
+<section class="lab-sec" id="v-e"><h2><b>E</b>추이</h2><div class="minis"><div class="mhd"><span></span><span>할인 중인 상품</span><span>판매가 중앙값</span><span>상품 수</span></div><div class="mrw me"><span class="cln">그레이스유</span><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><polyline points="10.0,48.8 230.0,48.9"/><circle cx="10.0" cy="48.8" r="4.5" data-tip="그레이스유 · 10.29|할인 중인 상품 0%"/><circle cx="230.0" cy="48.9" r="4.5" data-tip="그레이스유 · 10.30|할인 중인 상품 0%"/></svg><b>0%</b></div><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><polyline points="10.0,32.0 230.0,32.0"/><circle cx="10.0" cy="32.0" r="4.5" data-tip="그레이스유 · 10.29|판매가 중앙값 21.9만"/><circle cx="230.0" cy="32.0" r="4.5" data-tip="그레이스유 · 10.30|판매가 중앙값 21.9만"/></svg><b>21.9만</b></div><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><polyline points="10.0,32.0 230.0,32.0"/><circle cx="10.0" cy="32.0" r="4.5" data-tip="그레이스유 · 10.29|상품 수 214"/><circle cx="230.0" cy="32.0" r="4.5" data-tip="그레이스유 · 10.30|상품 수 214"/></svg><b>214</b></div></div><div class="mrw"><span class="cln">쿠메</span><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><polyline points="10.0,15.1 230.0,15.1"/><circle cx="10.0" cy="15.1" r="4.5" data-tip="쿠메 · 10.29|할인 중인 상품 100%"/><circle cx="230.0" cy="15.1" r="4.5" data-tip="쿠메 · 10.30|할인 중인 상품 100%"/></svg><b>100%</b></div><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><polyline points="10.0,32.0 230.0,32.0"/><circle cx="10.0" cy="32.0" r="4.5" data-tip="쿠메 · 10.29|판매가 중앙값 17.5만"/><circle cx="230.0" cy="32.0" r="4.5" data-tip="쿠메 · 10.30|판매가 중앙값 17.5만"/></svg><b>17.5만</b></div><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><polyline points="10.0,32.0 230.0,32.0"/><circle cx="10.0" cy="32.0" r="4.5" data-tip="쿠메 · 10.29|상품 수 117"/><circle cx="230.0" cy="32.0" r="4.5" data-tip="쿠메 · 10.30|상품 수 117"/></svg><b>117</b></div></div><div class="mrw"><span class="cln">낫띵리튼</span><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><polyline points="10.0,40.1 230.0,40.1"/><circle cx="10.0" cy="40.1" r="4.5" data-tip="낫띵리튼 · 10.29|할인 중인 상품 26%"/><circle cx="230.0" cy="40.1" r="4.5" data-tip="낫띵리튼 · 10.30|할인 중인 상품 26%"/></svg><b>26%</b></div><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><polyline points="10.0,32.0 230.0,32.0"/><circle cx="10.0" cy="32.0" r="4.5" data-tip="낫띵리튼 · 10.29|판매가 중앙값 16.9만"/><circle cx="230.0" cy="32.0" r="4.5" data-tip="낫띵리튼 · 10.30|판매가 중앙값 16.9만"/></svg><b>16.9만</b></div><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><polyline points="10.0,15.1 230.0,48.9"/><circle cx="10.0" cy="15.1" r="4.5" data-tip="낫띵리튼 · 10.29|상품 수 420"/><circle cx="230.0" cy="48.9" r="4.5" data-tip="낫띵리튼 · 10.30|상품 수 419"/></svg><b>419<em>−1</em></b></div></div><div class="mrw"><span class="cln">제이제이지고트</span><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><polyline points="10.0,18.3 230.0,18.4"/><circle cx="10.0" cy="18.3" r="4.5" data-tip="제이제이지고트 · 10.29|할인 중인 상품 90%"/><circle cx="230.0" cy="18.4" r="4.5" data-tip="제이제이지고트 · 10.30|할인 중인 상품 90%"/></svg><b>90%</b></div><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><polyline points="10.0,48.9 230.0,15.1"/><circle cx="10.0" cy="48.9" r="4.5" data-tip="제이제이지고트 · 10.29|판매가 중앙값 15.3만"/><circle cx="230.0" cy="15.1" r="4.5" data-tip="제이제이지고트 · 10.30|판매가 중앙값 15.5만"/></svg><b>15.5만<em>+0.2만</em></b></div><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><polyline points="10.0,48.9 230.0,15.1"/><circle cx="10.0" cy="48.9" r="4.5" data-tip="제이제이지고트 · 10.29|상품 수 447"/><circle cx="230.0" cy="15.1" r="4.5" data-tip="제이제이지고트 · 10.30|상품 수 449"/></svg><b>449<em>+2</em></b></div></div><div class="mrw"><span class="cln">오르</span><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><polyline points="10.0,19.5 230.0,48.9"/><circle cx="10.0" cy="19.5" r="4.5" data-tip="오르 · 10.29|할인 중인 상품 87%"/><circle cx="230.0" cy="48.9" r="4.5" data-tip="오르 · 10.30|할인 중인 상품 0%"/></svg><b>0%<em>−87%</em></b></div><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><polyline points="10.0,48.9 230.0,15.1"/><circle cx="10.0" cy="48.9" r="4.5" data-tip="오르 · 10.29|판매가 중앙값 9.6만"/><circle cx="230.0" cy="15.1" r="4.5" data-tip="오르 · 10.30|판매가 중앙값 22.8만"/></svg><b>22.8만<em>+13.2만</em></b></div><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><polyline points="10.0,15.1 230.0,48.9"/><circle cx="10.0" cy="15.1" r="4.5" data-tip="오르 · 10.29|상품 수 772"/><circle cx="230.0" cy="48.9" r="4.5" data-tip="오르 · 10.30|상품 수 102"/></svg><b>102<em>−670</em></b></div></div><div class="mrw"><span class="cln">라메레이</span><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><circle cx="230.0" cy="15.1" r="4.5" data-tip="라메레이 · 10.30|할인 중인 상품 100%"/></svg><b>100%</b></div><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><circle cx="230.0" cy="32.0" r="4.5" data-tip="라메레이 · 10.30|판매가 중앙값 8.9만"/></svg><b>8.9만</b></div><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><circle cx="230.0" cy="32.0" r="4.5" data-tip="라메레이 · 10.30|상품 수 179"/></svg><b>179</b></div></div><div class="mrw"><span class="cln">보연</span><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><circle cx="230.0" cy="15.7" r="4.5" data-tip="보연 · 10.30|할인 중인 상품 98%"/></svg><b>98%</b></div><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><circle cx="230.0" cy="32.0" r="4.5" data-tip="보연 · 10.30|판매가 중앙값 16.5만"/></svg><b>16.5만</b></div><div class="mini"><svg viewBox="0 0 240 64" preserveAspectRatio="none" aria-hidden="true"><g class="tk"><line x1="10.0" x2="10.0" y1="62" y2="64"/><line x1="230.0" x2="230.0" y1="62" y2="64"/></g><circle cx="230.0" cy="32.0" r="4.5" data-tip="보연 · 10.30|상품 수 287"/></svg><b>287</b></div></div></div><div class="key"><span class="mdays">10.29 ~ 10.30</span></div></section>
+<section class="lab-sec" id="v-f"><h2><b>F</b>숫자 타일</h2><div class="key"><span class="per">10.29 → 10.30</span></div><div class="tiles"><div class="tile me"><h3>그레이스유</h3><div class="tns"><span class="tn k-dn"><i>↓</i><b>0</b><small>가격 인하</small></span><span class="tn k-up"><i>↑</i><b>1</b><small>가격 인상</small></span><span class="tn k-nw"><i>+</i><b>0</b><small>신규 등록</small></span><span class="tn k-gn"><i>−</i><b>0</b><small>목록에서 빠짐</small></span></div><div class="tnote">HAZLE DOWN 33% OFF 종료</div></div><div class="tile"><h3>쿠메</h3><div class="tns"><span class="tn k-dn"><i>↓</i><b>0</b><small>가격 인하</small></span><span class="tn k-up"><i>↑</i><b>0</b><small>가격 인상</small></span><span class="tn k-nw"><i>+</i><b>0</b><small>신규 등록</small></span><span class="tn k-gn"><i>−</i><b>0</b><small>목록에서 빠짐</small></span></div><div class="tnote">&nbsp;</div></div><div class="tile"><h3>낫띵리튼</h3><div class="tns"><span class="tn k-dn"><i>↓</i><b>0</b><small>가격 인하</small></span><span class="tn k-up"><i>↑</i><b>0</b><small>가격 인상</small></span><span class="tn k-nw"><i>+</i><b>0</b><small>신규 등록</small></span><span class="tn k-gn"><i>−</i><b>1</b><small>목록에서 빠짐</small></span></div><div class="tnote">&nbsp;</div></div><div class="tile"><h3>제이제이지고트</h3><div class="tns"><span class="tn k-dn"><i>↓</i><b>16</b><small>가격 인하</small></span><span class="tn k-up"><i>↑</i><b>3</b><small>가격 인상</small></span><span class="tn k-nw"><i>+</i><b>57</b><small>신규 등록</small></span><span class="tn k-gn"><i>−</i><b>55</b><small>목록에서 빠짐</small></span></div><div class="tnote">&nbsp;</div></div><div class="tile"><h3>오르</h3><div class="tns"><span class="tn k-dn"><i>↓</i><b>0</b><small>가격 인하</small></span><span class="tn k-up"><i>↑</i><b>0</b><small>가격 인상</small></span><span class="tn k-nw"><i>+</i><b>0</b><small>신규 등록</small></span><span class="tn k-gn"><i>−</i><b>670</b><small>목록에서 빠짐</small></span></div><div class="tnote">1차·2차·TIME SALE 종료</div></div><div class="tile"><h3>라메레이</h3><div class="tns"><span class="tn nil"><i>↓</i><b>-</b><small>가격 인하</small></span><span class="tn nil"><i>↑</i><b>-</b><small>가격 인상</small></span><span class="tn nil"><i>+</i><b>-</b><small>신규 등록</small></span><span class="tn nil"><i>−</i><b>-</b><small>목록에서 빠짐</small></span></div><div class="tnote">첫 수집</div></div><div class="tile"><h3>보연</h3><div class="tns"><span class="tn nil"><i>↓</i><b>-</b><small>가격 인하</small></span><span class="tn nil"><i>↑</i><b>-</b><small>가격 인상</small></span><span class="tn nil"><i>+</i><b>-</b><small>신규 등록</small></span><span class="tn nil"><i>−</i><b>-</b><small>목록에서 빠짐</small></span></div><div class="tnote">첫 수집</div></div></div></section>
+<section class="lab-sec" id="v-g"><h2><b>G</b>신규·빠짐</h2><div class="gh2"><span></span><span class="gv l">빠짐</span><span></span><span class="gv">신규</span><span class="gnet">순증감</span></div><div class="gr2 me" tabindex="0" data-tip="그레이스유 · 10.30|신규 등록 0개|목록에서 빠짐 0개|HAZLE DOWN 33% OFF 종료"><span class="cln">그레이스유</span><span class="gv l">0</span><div class="gbars"><i class="gg" style="width:0.0%"></i><i class="gn2" style="width:0.0%"></i></div><span class="gv">0</span><span class="gnet">0</span></div><div class="gr2" tabindex="0" data-tip="쿠메 · 10.30|신규 등록 0개|목록에서 빠짐 0개"><span class="cln">쿠메</span><span class="gv l">0</span><div class="gbars"><i class="gg" style="width:0.0%"></i><i class="gn2" style="width:0.0%"></i></div><span class="gv">0</span><span class="gnet">0</span></div><div class="gr2" tabindex="0" data-tip="낫띵리튼 · 10.30|신규 등록 0개|목록에서 빠짐 1개"><span class="cln">낫띵리튼</span><span class="gv l">1</span><div class="gbars"><i class="gg" style="width:0.1%"></i><i class="gn2" style="width:0.0%"></i></div><span class="gv">0</span><span class="gnet">-1</span></div><div class="gr2" tabindex="0" data-tip="제이제이지고트 · 10.30|신규 등록 57개|목록에서 빠짐 55개"><span class="cln">제이제이지고트</span><span class="gv l">55</span><div class="gbars"><i class="gg" style="width:4.1%"></i><i class="gn2" style="width:4.3%"></i></div><span class="gv">57</span><span class="gnet">+2</span></div><div class="gr2" tabindex="0" data-tip="오르 · 10.30|신규 등록 0개|목록에서 빠짐 670개|1차·2차·TIME SALE 종료"><span class="cln">오르</span><span class="gv l">670</span><div class="gbars"><i class="gg" style="width:50.0%"></i><i class="gn2" style="width:0.0%"></i></div><span class="gv">0</span><span class="gnet">-670</span></div><div class="gr2"><span class="cln">라메레이</span><span class="gv l">-</span><div class="gbars"></div><span class="gv">-</span><span class="gnet">-</span></div><div class="gr2"><span class="cln">보연</span><span class="gv l">-</span><div class="gbars"></div><span class="gv">-</span><span class="gnet">-</span></div><div class="key"><span class="per">10.29 → 10.30</span></div></section>
+</main>
+<script>
+(()=>{const box=document.getElementById('tip');let cur=null;
+function show(el,x,y){const p=el.dataset.tip.split('|');box.innerHTML='<b>'+p[0].replace(/</g,'&lt;')+'</b>'+p.slice(1).map(s=>s.replace(/</g,'&lt;')).join('<br>');box.hidden=false;place(x,y);requestAnimationFrame(()=>box.classList.add('on'))}
+function place(x,y){const w=box.offsetWidth,h=box.offsetHeight;let l=x+16,t=y+18;if(l+w>innerWidth-8)l=x-w-16;if(t+h>innerHeight-8)t=y-h-14;box.style.left=Math.max(8,l)+'px';box.style.top=Math.max(8,t)+'px'}
+function hide(){box.classList.remove('on');box.hidden=true;cur=null}
+document.addEventListener('pointerover',e=>{const el=e.target.closest('[data-tip]');if(el&&el!==cur){cur=el;show(el,e.clientX,e.clientY)}else if(!el&&cur)hide()});
+document.addEventListener('pointermove',e=>{if(cur)place(e.clientX,e.clientY)});
+document.addEventListener('focusin',e=>{const el=e.target.closest('[data-tip]');if(el){cur=el;const r=el.getBoundingClientRect();show(el,r.left+r.width/2,r.bottom)}});
+document.addEventListener('focusout',hide);addEventListener('scroll',()=>{if(cur&&!cur.matches(':focus'))hide()},{passive:true});})();
+
+(()=>{const el=document.getElementById('gdata');if(!el)return;const d=JSON.parse(el.textContent),CW=d.cell[0],CH=d.cell[1],CO=d.cols;
+const gb=document.getElementById('gb'),gc=document.getElementById('gc'),gt=document.getElementById('gt');let SEL=d.sel.slice(),C=d.c0;
+const esc=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const f=v=>v.toLocaleString('ko-KR');
+const chip=(label,n,on,dis,me,k,v)=>'<button class="chip'+(me?' me':'')+'" type="button" aria-pressed="'+on+'" '+(dis?'disabled':'')+' data-'+k+'="'+esc(v)+'">'+esc(label)+'<small>'+n+'</small></button>';
+const card=(x,i)=>{const n=x[0],s=x[1],r=x[2],u=x[3],fn=x[4],col=x[5],row=x[6],rows=d.sheets[fn];
+return '<a class="gc" href="'+esc(u)+'" target="_blank" rel="noopener" draggable="false" style="--k:'+Math.min(i,14)+'"><div class="gi" style="background-image:url(thumbs/'+fn+');background-size:'+CO*CW+'px '+rows*CH+'px;background-position:-'+col*CW+'px -'+row*CH+'px"></div><div class="gn">'+esc(n)+'</div><div class="gp">'+f(s)+(r?'<s>'+f(r)+'</s><em>-'+Math.round((1-s/r)*100)+'%</em>':'')+'</div></a>'};
+function draw(){
+gb.innerHTML=d.brands.map(b=>chip(b.name,d.items[b.id][C].length,SEL.includes(b.id),false,b.id===d.b0,'b',b.id)).join('');
+gc.innerHTML=d.cats.map(c=>{const n=SEL.reduce((a,b)=>a+d.items[b][c.id].length,0);return chip(c.name,n,c.id===C,!n,false,'c',c.id)}).join('');
+gt.innerHTML=d.brands.filter(b=>SEL.includes(b.id)).map(b=>{const list=d.items[b.id][C]||[];
+return '<div class="grow'+(b.id===d.b0?' me':'')+'"><div class="gh">'+esc(b.name)+'<small>'+list.length+'</small></div><div class="gtrack" tabindex="0">'+(list.length?list.map(card).join(''):'<div class="gnone">-</div>')+'</div></div>'}).join('')}
+gb.addEventListener('click',e=>{const x=e.target.closest('[data-b]');if(!x)return;const id=x.dataset.b;
+if(SEL.includes(id)){if(SEL.length>1)SEL=SEL.filter(v=>v!==id)}else SEL=d.brands.map(b=>b.id).filter(v=>SEL.includes(v)||v===id);
+if(!SEL.some(b=>d.items[b][C].length)){const c=d.cats.find(c=>SEL.some(b=>d.items[b][c.id].length));if(c)C=c.id}draw()});
+gc.addEventListener('click',e=>{const x=e.target.closest('[data-c]');if(!x||x.disabled)return;C=x.dataset.c;draw()});
+let down=null,sx=0,sl=0,moved=0,vx=0,lx=0,raf=0;
+gt.addEventListener('pointerdown',e=>{const t=e.target.closest('.gtrack');if(!t||e.pointerType==='touch')return;down=t;moved=0;sx=lx=e.clientX;sl=t.scrollLeft;vx=0;cancelAnimationFrame(raf)});
+addEventListener('pointermove',e=>{if(!down)return;const dx=e.clientX-sx;if(Math.abs(dx)>4){moved=1;down.classList.add('drag')}down.scrollLeft=sl-dx;vx=e.clientX-lx;lx=e.clientX});
+addEventListener('pointerup',()=>{if(!down)return;const t=down;down=null;t.classList.remove('drag');let v=-vx;const step=()=>{if(Math.abs(v)<.4)return;t.scrollLeft+=v;v*=.94;raf=requestAnimationFrame(step)};if(moved)step()});
+gt.addEventListener('click',e=>{if(moved){e.preventDefault();moved=0}},true);
+draw()})();
+
+(()=>{const sec=document.getElementById('price');if(!sec)return;let M='sale',S='zoom';
+const apply=()=>{sec.dataset.m=M;sec.querySelectorAll('.prices').forEach(p=>{p.hidden=!(p.dataset.mode===M&&p.dataset.scale===S)});
+sec.querySelectorAll('.seg [data-m]').forEach(x=>x.setAttribute('aria-pressed',x.dataset.m===M));sec.querySelectorAll('.seg [data-s]').forEach(x=>x.setAttribute('aria-pressed',x.dataset.s===S))};
+sec.addEventListener('click',e=>{const b=e.target.closest('.seg [data-m],.seg [data-s]');if(!b)return;if(b.dataset.m)M=b.dataset.m;if(b.dataset.s)S=b.dataset.s;apply()})})();
+
+(()=>{const nav=document.getElementById('fnav');if(!nav)return;const links=[...nav.querySelectorAll('a')],secs=links.map(a=>document.querySelector(a.getAttribute('href')));
+const upd=()=>{nav.classList.toggle('on',scrollY>360);let k=-1;secs.forEach((el,i)=>{if(el&&el.getBoundingClientRect().top<innerHeight*.4)k=i});links.forEach((a,i)=>a.classList.toggle('act',i===k))};
+addEventListener('scroll',upd,{passive:true});upd()})();
+(()=>{const g=document.getElementById('gt'),l=document.getElementById('gl'),r=document.getElementById('gr');if(!g||!l)return;
+const go=x=>g.querySelectorAll('.gtrack').forEach(t=>t.scrollBy({left:x,behavior:'smooth'}));l.onclick=()=>go(-560);r.onclick=()=>go(560)})();
+
+(()=>{const seg=document.querySelector('.seg.sc');if(!seg)return;seg.addEventListener('click',e=>{const b=e.target.closest('[data-m]');if(!b)return;
+seg.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b));document.querySelectorAll('#category .cgs').forEach(p=>{p.hidden=p.dataset.mode!==b.dataset.m})})})();
+
+(()=>{const seg=document.querySelector('.seg.sk');if(!seg)return;seg.addEventListener('click',e=>{const b=e.target.closest('[data-k]');if(!b)return;
+seg.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b));document.querySelectorAll('.pcs').forEach(p=>{p.hidden=p.dataset.k!==b.dataset.k})})})();
+</script></body></html>
